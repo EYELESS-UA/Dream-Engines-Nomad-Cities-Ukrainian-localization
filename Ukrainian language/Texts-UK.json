@@ -1,1467 +1,1457 @@
 {
 	general: {
-		lang-name: "English"
-		costs: "Costs"
-		produced: "Produced"
-		globalstorage: "Storage Capacity"
-		effects: "Effects"
-		edit: "Edit"
-		inputoutput: "Input / Output"
-		research: "Research"
-		other: "Other"
-		journal: "Journal"
-		selectitem: "Select Item"
-		difficulty: "Difficulty"
-		none: "None"
-		owned: "Owned"
-		missing: "Missing"
-		upgrade: "Upgrade"
-		milestones: "Milestones"
-		continue: "Continue"
-		autosaving: "Auto-saving..."
-		ok: "Ok"
-		resources: "Resources"
-		max: "Max"
-		unlock-bonuses: "Bonuses"
-		crafting-recipe: "Crafting Recipe"
-		production-recipe: "Production Recipe"
-		produced-at: "Produced at: {0}"
-		installed-at: "Installed in: {0}"
-		is-single-module: "Can only install one per building."
-		construction-blueprint: "Construction Blueprint"
-		building-addon: "Building Add-On Blueprint"
-		archeology-unlock: "Archeology Project Blueprint"
-		cancel: "Cancel"
-		upgrade-to: "Upgrade to: {0}"
-		select-option-title: "Select Option"
-		not-available-ironman: "Not available in Ironman mode"
+		lang-name: "Англійська"
+		costs: "Витрати"
+		produced: "Вироблено"
+		globalstorage: "Ємність Сховища"
+		effects: "Ефекти"
+		edit: "Редагувати"
+		inputoutput: "Вхід / Вихід"
+		research: "Дослідження"
+		other: "Інше"
+		journal: "Журнал"
+		selectitem: "Вибрати Предмет"
+		difficulty: "Складність"
+		none: "Жоден"
+		owned: "У Власності"
+		missing: "Відсутній"
+		upgrade: "Модернізація"
+		milestones: "Віхи"
+		continue: "Продовжити"
+		autosaving: "Автозбереження..."
+		ok: "Добре"
+		resources: "Ресурси"
+		max: "Макс"
+		unlock-bonuses: "Бонуси"
+		crafting-recipe: "Рецепт Крафту"
+		production-recipe: "Рецепт Виробництва"
+		produced-at: "Вироблено в: {0}"
+		installed-at: "Встановлено в: {0}"
+		is-single-module: "Може бути встановлений тільки один на будівлю."
+		construction-blueprint: "Схема Будівництва"
+		building-addon: "Схема Додаткової Будівлі"
+		archeology-unlock: "Схема Археологічного Проекту"
+		cancel: "Скасувати"
+		upgrade-to: "Модернізувати до: {0}"
+		select-option-title: "Виберіть Опцію"
+		not-available-ironman: "Недоступно в режимі Ironman"
 		ironman: "Ironman"
-		rewards: "Rewards"
-		unlock-prod: "Allows Production: {0}"
-		requires-addon: "Required building level/addons:"
-		prereqs: "Prerequisites:"
-		blocked: "Blocked"
-		lc-issue: "Report Translation Issue"
-		disabled-in-demo: "Disabled for demo"
-		start: "Start"
-		next: "Next"
-		add-item: "Add Item"
-		categories: "Categories:"
-		paused: "Paused"
-		inventory: "Inventory"
-		per-cycle: "{0} / Cycle"
-		toggle-active: "Toggle Active"
-		used-in: "Used in:"
-		obtained-through: "How to get:"
-		appears-in-biome: "Appears in biomes:"
-		see-gamepedia: "View item in Dream Archives for more information (default: 'H')."
-		save: "Save"
-		upload: "Upload"
-		cancel: "Cancel"
-		description: "Description"
-		title: "Title"
-		disabled: "Disabled"
-		unlocks: "Unlocks"
-		free: "Free\nx{0}"
-		help: "Help"
-		show-tutorial: "Show Tutorial"
-		no-refund-demolish: "No refund when demolishing."
-		blueprint-format: "{0} Blueprint"
-		passive-income-format: "Passive {0}"
-		global-storage-format: "{0} Storage"
-		default: "Default"
-		morebysuncrash: "More from Suncrash"		
+		rewards: "Нагороди"
+		unlock-prod: "Дозволяє Виробництво: {0}"
+		requires-addon: "Необхідний рівень будівлі/додатки:"
+		prereqs: "Попередні умови:"
+		blocked: "Заблоковано"
+		lc-issue: "Повідомити про Проблему Перекладу"
+		disabled-in-demo: "Вимкнено для демо"
+		start: "Почати"
+		next: "Далі"
+		add-item: "Додати Предмет"
+		categories: "Категорії:"
+		paused: "Призупинено"
+		inventory: "Інвентар"
+		per-cycle: "{0} / Цикл"
+		toggle-active: "Перемкнути Активний"
+		used-in: "Використовується в:"
+		obtained-through: "Як отримати:"
+		appears-in-biome: "З'являється в біомах:"
+		see-gamepedia: "Перегляньте предмет у Архівах Снів для додаткової інформації (за замовчуванням: 'H')."
+		save: "Зберегти"
+		upload: "Завантажити"
+		cancel: "Скасувати"
+		description: "Опис"
+		title: "Назва"
+		disabled: "Вимкнено"
+		unlocks: "Розблоковує"
+		free: "Безкоштовно\nx{0}"
+		help: "Допомога"
+		show-tutorial: "Показати Підручник"
+		no-refund-demolish: "Немає відшкодування при знесенні."
+		blueprint-format: "{0} Схема"
+		passive-income-format: "Пасивний {0}"
+		global-storage-format: "{0} Сховище"
+		default: "За Замовчуванням"
+		morebysuncrash: "Більше від Suncrash"
 	}
 
 	title-messages: {
-		alpha-link: "<u>Notify me on major updates</u>"
+		alpha-link: "<u>Повідомте мене про важливі оновлення</u>"
 	}
 
 	winlose: {
-		win-title: "Nullifier Shield Activated"
-		win-subtitle: "You win"
-		win-text: "The nullifying shield is fully charged. A strange feeling envelops you, and all at once, your technology goes crazy.\n\nThe nullifying field is active. No Dreamtek can function for several miles around your city. Your people have to make due with primitive tools and simple tesla-based technology.\n\nNo more bending of reality. No more flying around with your city. But most importantly, no more dream plagues trying to devour your people. Your people are safe now."
-		lose-title: "City Core Destroyed"
-		lose-subtitle: "Game Over"
+		win-title: "Щит Нулліфікатора Активовано"
+		win-subtitle: "Ви перемогли"
+		win-text: "Щит нулліфікатора повністю заряджений. Дивне відчуття охоплює вас, і раптом вся ваша технологія сходить з розуму.\n\nНулліфікаційне поле активне. Жодна Дрімтек-технологія не може функціонувати на кілька миль навколо вашого міста. Ваші люди змушені користуватися примітивними інструментами та простою технологією на основі Тесли.\n\nБільше ніякого викривлення реальності. Більше ніяких польотів з вашим містом. Але найголовніше, більше ніяких чумних снів, які намагаються знищити ваших людей. Ваші люди тепер у безпеці."
+		lose-title: "Ядро Міста Зруйновано"
+		lose-subtitle: "Гра Завершена"
 	}
 
 	widgets: {
 		production: {
-			hover-title: "Production"
-			hover-text: "The amounts shown are per-cycle (the game's time unit).\n\nClick the drop-down button to choose a different recipe, when available."
-			change-hover: "Unlock new production recipes through research, city upgrades and exploration."
-			remaining-res: "Resources Remaining: {0}"
-			input-title: "Input"
-			output-title: "Output"
-			buildings: "Produced At"
-			percycle-title: "Production Bar"
-			percycle-hover: "This bar shows the production or consumption progress. When the bar fills, a single unit is produced. When the bar empties, a single unit is consumed if available.\n\nThe displayed number is the production or consumption rate - how many units will be produced per cycle (the game's time unit). Resources are always produced or consumed one at a time, not in batches."
-			select-recipe-title: "Select Recipe"
-			click-to-change: "Click to change recipe"
-			assigned-count: "{0} / {1} (Max {2})" // 0 = actual, 1 = set, 2 = max
-			assigned-hover: "The amount of workers assigned will affect the production speed of this building."
+			hover-title: "Виробництво"
+			hover-text: "Показані кількості - за цикл (одиниця часу в грі).\n\nНатисніть кнопку випадаючого списку, щоб вибрати інший рецепт, якщо доступно."
+			change-hover: "Розблокуйте нові рецепти виробництва через дослідження, модернізацію міста та дослідження."
+			remaining-res: "Залишилося Ресурсів: {0}"
+			input-title: "Вхід"
+			output-title: "Вихід"
+			buildings: "Вироблено в"
+			percycle-title: "Панель Виробництва"
+			percycle-hover: "Ця панель показує прогрес виробництва або споживання. Коли панель заповнюється, виробляється одна одиниця. Коли панель спорожняється, споживається одна одиниця, якщо вона є в наявності.\n\nПоказане число - це швидкість виробництва або споживання - скільки одиниць буде вироблено за цикл (одиниця часу в грі). Ресурси завжди виробляються або споживаються поодинці, а не партіями."
+			select-recipe-title: "Вибрати Рецепт"
+			click-to-change: "Натисніть, щоб змінити рецепт"
+			assigned-count: "{0} / {1} (Макс {2})" // 0 = фактично, 1 = встановлено, 2 = макс
+			assigned-hover: "Кількість призначених працівників впливатиме на швидкість виробництва цієї будівлі."
 		}
 		launch: {
-			hover-title: "Take-off"
-			hover-text: "Initiate a city-wide launch procedure. Engines will take a while to charge, be prepared to defend your city until take-off.\n\nAll buildings outside the city will remain behind."
-			progress-bar-hover-text: "Take-off charging"
-			required-mats: "Take-off costs:"
-			weight: "Carrying power: {0}"
-			fuel-cost: "Fuel costs: {0}"
-			fuel-hover: "Needed for take-off: {0}\nAvailable fuel: {1}\nMax fuel storage: {2}"
-			weight-title: "Weight & carrying power"
-			weight-hover: "Your carrying power determines the maximum city weight you can have when taking off. Build or upgrade engines in order to increase the carrying power, or demolish buildings to reduce your city weight."
+			hover-title: "Зліт"
+			hover-text: "Запустіть процедуру зльоту міста. Двигуни потребують часу на зарядку, будьте готові захищати своє місто до зльоту.\n\nВсі будівлі за межами міста залишаться позаду."
+			progress-bar-hover-text: "Зарядка для зльоту"
+			required-mats: "Вартість зльоту:"
+			weight: "Вантажопідйомність: {0}"
+			fuel-cost: "Вартість палива: {0}"
+			fuel-hover: "Необхідно для зльоту: {0}\nДоступне паливо: {1}\nМаксимальне зберігання палива: {2}"
+			weight-title: "Вага та вантажопідйомність"
+			weight-hover: "Ваша вантажопідйомність визначає максимальну вагу міста, яку ви можете мати під час зльоту. Будуйте або модернізуйте двигуни, щоб збільшити вантажопідйомність, або знесіть будівлі, щоб зменшити вагу міста."
 		}
 		storage: {
-			hover-title: "Storage"
-			hover-text: "Items in storage can be used for crafting, construction, upgrades and other payment-style uses."
-			allow-title: "Imported Items"
-			allow-hover: "Define which raw materials to import into this drop-off."
-			add-import-hover: "Add import"
+			hover-title: "Сховище"
+			hover-text: "Предмети в сховищі можуть використовуватися для крафту, будівництва, модернізації та інших способів оплати."
+			allow-title: "Імпортовані Предмети"
+			allow-hover: "Визначте, які сировинні матеріали імпортувати до цього пункту скидання."
+			add-import-hover: "Додати імпорт"
 		}
 		resources: {
-			hover-title: "Resource Node"
-			hover-text: "Raw Materials in resource nodes are gathered by a harvester building built on top of them."
-			build-title: "Build Gatherer"
-			missing-research: "No gatherers unlocked for this resource."
+			hover-title: "Вузол Ресурсів"
+			hover-text: "Сировинні матеріали у вузлах ресурсів збираються будівлею збирача, побудованою на них."
+			build-title: "Побудувати Збирача"
+			missing-research: "Збирачі для цього ресурсу не розблоковані."
 		}
 		shieldwin: {
-			hover-title: "Shield Charging"
-			hover-text: "Nullifier shield charging meter. When this is fully charged, you will win the game."
-			progress: "Charge: {0}%"
+			hover-title: "Зарядка Щита"
+			hover-text: "Лічильник зарядки щита нулліфікатора. Коли він повністю заряджений, ви виграєте гру."
+			progress: "Зарядка: {0}%"
 		}
 		upkeep: {
-			hover-title: "Maintenance / Upkeep"
-			hover-text: "Materials required to keep the building running.\n\nNon-global resources must be supplied directly to the building."
-			progress-text: "Time remaining before the next batch of upkeep."
+			hover-title: "Технічне Обслуговування"
+			hover-text: "Матеріали, необхідні для підтримки будівлі в робочому стані.\n\nНе глобальні ресурси повинні поставлятися безпосередньо до будівлі."
+			progress-text: "Час до наступної партії обслуговування."
 		}
 		upgrades: {
-			title: "Add-ons"
-			buildings: "Available At"
-			level: "Level {0}"
-			noupgrades: "Unlock add-ons by researching them."
-			cancels-desc: "This add-on blocks other add-ons:\n{0}"
+			title: "Додатки"
+			buildings: "Доступно В"
+			level: "Рівень {0}"
+			noupgrades: "Розблокуйте додатки, досліджуючи їх."
+			cancels-desc: "Цей додаток блокує інші додатки:\n{0}"
 		}
 		modules: {
-			title: "Upgrade Modules"
+			title: "Модулі Модернізації"
 		}
 		research: {
-			title: "Research"
-			speed: "Research Speed: {0} / Cycle"
-			selectsubject: "Select Research"
+			title: "Дослідження"
+			speed: "Швидкість Дослідження: {0} / Цикл"
+			selectsubject: "Вибрати Дослідження"
 		}
 		attacker: {
-			title: "Turret Stats"
+			title: "Статистика Турелі"
 		}
 		globalstorage: {
-			title: "Storage Capacity"
-			hover: "This building increases the maximum amount of resources you may hold for the resources and amounts listed below."
-			format: "Max {0}: +{1}"
+			title: "Ємність Сховища"
+			hover: "Ця будівля збільшує максимальну кількість ресурсів, які ви можете зберігати, для перерахованих нижче ресурсів та кількостей."
+			format: "Макс {0}: +{1}"
 		}
 		general: {
-			disable-toggle: "On/Off toggle"
-			weight: "Building Weight"
+			disable-toggle: "Перемикач Вкл/Викл"
+			weight: "Вага Будівлі"
 		}
 		ruins-store: {
-			title: "Ruins"
-			text: "These ancient ruins have some machinery that is still partially functional. With the right materials, you may be able to produce something, but you can only activate it a few times before it becomes unusable.\n\nAlternatively you could scrap the whole place for whatever resources you can find."
-			open-button: "Craft"
-			scrap-button: "Scrap"
-			scrap-disabled-hover: "We've already used all we can."
+			title: "Руїни"
+			text: "Ці стародавні руїни мають деяке обладнання, яке ще частково функціонує. З правильними матеріалами ви можете щось виробити, але ви можете активувати його лише кілька разів, перш ніж воно стане непридатним.\n\nАльтернативно, ви можете розібрати все місце на будь-які ресурси, які ви знайдете."
+			open-button: "Крафт"
+			scrap-button: "Розібрати"
+			scrap-disabled-hover: "Ми вже використали все, що могли."
 		}
 		splitter: {
-			forward: "Forward"
-			right: "Right"
-			left: "Left"
-			catch-all: "All items that are not assigned elsewhere"
+			forward: "Прямо"
+			right: "Праворуч"
+			left: "Ліворуч"
+			catch-all: "Всі предмети, які не призначені в інше місце"
 		}
 		expedition: {
-			title: "Expedition"
+			title: "Експедиція"
 			hover-text: ""
-			choose-expedition: "Select Expedition"
-			choose-rewards: "Select Rewards"
-			stage-prep: "Preparation Progress: {0}"
-			stage-ongoing: "Expedition Progress: {0}"
-			stage-complete: "Expedition Complete"
-			stage-not-selected: "No Expedition Selected"
-			selected-expedition: "Selected Expedition: {0}"
-			show-expedition-hover: "Show expedition info"
+			choose-expedition: "Вибрати Експедицію"
+			choose-rewards: "Вибрати Нагороди"
+			stage-prep: "Прогрес Підготовки: {0}"
+			stage-ongoing: "Прогрес Експедиції: {0}"
+			stage-complete: "Експедиція Завершена"
+			stage-not-selected: "Експедиція Не Вибрана"
+			selected-expedition: "Вибрана Експедиція: {0}"
+			show-expedition-hover: "Показати інформацію про експедицію"
 		}
 		player-debris: {
-			title: "Rebuild {0}"
+			title: "Відбудувати {0}"
 		}
 		requires-activation: {
-			title: "Activate Building"
-			upfront-costs: "Required Materials:"
-			activate-button: "Activate"
-			needs-power: "Connect to power network"
-			time-to-activate: "Remaining: {0}"
+			title: "Активувати Будівлю"
+			upfront-costs: "Необхідні Матеріали:"
+			activate-button: "Активувати"
+			needs-power: "Підключити до мережі живлення"
+			time-to-activate: "Залишилося: {0}"
 		}
 		archeologist: {
-			title: "Archeology"
+			title: "Археологія"
 			hover-text: ""
-			choose-project: "Select Project"
-			stop-project: "Pause Project"
-			selected-project: "Selected Project: {0}"
-			select-unlock: "Unlock Archeology Project"
+			choose-project: "Вибрати Проект"
+			stop-project: "Призупинити Проект"
+			selected-project: "Вибраний Проект: {0}"
+			select-unlock: "Розблокувати Археологічний Проект"
 		}
 		passive-income: {
-			title: "Passive Income"
+			title: "Пасивний Дохід"
 		}
 	}
 
 	character: {
 		slot-type: {
-			mech-upgrade: "Module - Tiny"
-			city-upgrade: "Module - City"
-			harvester-module: "Harvesters"
-			production-module: "Production Buildings"
-			any-building-module: "Any Building"
-			farm-module: "Farms"
-			turret-module: "Defense Buildings"
+			mech-upgrade: "Модуль - Tiny"
+			city-upgrade: "Модуль - Місто"
+			harvester-module: "Збирачі"
+			production-module: "Виробничі Будівлі"
+			any-building-module: "Будь-яка Будівля"
+			farm-module: "Ферми"
+			turret-module: "Оборонні Будівлі"
 		}
 	}
 
 	map-traits: {
 		purple-biome: {
-			name: "Blightlands"
+			name: "Землі Смерті"
 		}
 		blue-biome: {
-			name: "Dreamtouched Fields"
+			name: "Сни Притулків"
 		}
 		desert-biome: {
-			name: "Desert"
+			name: "Пустеля"
 		}
 		lava-biome: {
-			name: "Ashfall Range"
+			name: "Палючий Хребет"
 		}
 		green-biome: {
-			name: "Toxic Moor"
+			name: "Отруєні Болотя"
 		}
-
-
+	
 		ruins-ind: {
-			name: "Industrial Ruins"
-			desc: "You can usually find blueprints and production recipes in Industrial ruins."
+			name: "Індустріальні Руїни"
+			desc: "У промислових руїнах ви зазвичай можете знайти схеми та рецепти виробництва."
 		}
 		ruins-tech: {
-			name: "Tech Ruins"
-			desc: "Tech ruins are more likely to have advanced technology items."
+			name: "Технічні Руїни"
+			desc: "Технічні руїни частіше містять предмети передових технологій."
 		}
 		ruins-lab: {
-			name: "Chemical Ruins"
-			desc: "Chemical ruins are more likely to have chemical or experimental items of value."
+			name: "Хімічні Руїни"
+			desc: "Хімічні руїни частіше містять хімічні або експериментальні предмети цінності."
 		}
 		ruins-fuel: {
-			name: "Fuel Cache Ruins"
-			desc: "You can extract fuel for your city in these ruins."
+			name: "Руїни Палива"
+			desc: "У цих руїнах ви можете добувати паливо для свого міста."
 		}
 		ruins-skill-resetter: {
-			name: "Infrastructure Cleanup Ruins"
-			desc: "You can use these ruins to reset and re-distribute your infrastructure upgrades."
+			name: "Руїни Очищення Інфраструктури"
+			desc: "Ви можете використовувати ці руїни для скидання та перерозподілу своїх модернізацій інфраструктури."
 		}
 		ruins-resource-converter: {
-			name: "Resource Converter Ruins"
-			desc: "Use these ruins to convert between different resource types."
+			name: "Руїни Перетворювача Ресурсів"
+			desc: "Використовуйте ці руїни для перетворення між різними типами ресурсів."
 		}
 		ruins-flux-shop: {
-			name: "Materializer Ruins"
-			desc: "These ancient Dreamtek wonders can use flux to materialize various resources."
+			name: "Руїни Матеріалізатора"
+			desc: "Ці стародавні чудеса Dreamtek можуть використовувати флюс для матеріалізації різних ресурсів."
 		}
 		ruins-perm-income: {
-			name: "Supply Depot Ruins"
-			desc: "You might be able to re-program these depots to deliver a constant supply of resources to your city."
+			name: "Руїни Складу Постачання"
+			desc: "Ви можете перепрограмувати ці склади, щоб забезпечити постійне постачання ресурсів до вашого міста."
 		}
-
+	
 		unfertile: {
-			name: "Unfertile"
+			name: "Неплідний"
 		}
 		fertile: {
-			name: "Fertile"
+			name: "Плідний"
 		}
 		energy-rich: {
-			name: "Charged Atmosphere"
+			name: "Заряджена Атмосфера"
 		}
 		flux-rich: {
-			name: "Thin Veil"
+			name: "Тонка Вуаль"
 		}
 		tar-rich: {
-			name: "Tar-Soaked Soil"
+			name: "Ґрунт, Просочений Смолою"
 		}
 		tar-poor: {
-			name: "Tar-Less Soil"
+			name: "Ґрунт без Смоли"
 		}
 		toxic-ground: {
-			name: "Toxic Soil"
+			name: "Отруєний Ґрунт"
 		}
 		materializer-rich: {
-			name: "Stable Dreamtek"
+			name: "Стабільний Dreamtek"
 		}
 		cheap-construction: {
-			name: "Stable Ground"
+			name: "Стабільний Ґрунт"
 		}
 		rich-cauldron: {
-			name: "Stable Liquids"
+			name: "Стабільні Рідини"
 		}
 		inspiring: {
-			name: "Inspiring"
+			name: "Натхненний"
 		}
 		motivating: {
-			name: "Motivating"
+			name: "Мотивуючий"
 		}
 		agitated: {
-			name: "Restless Drep"
+			name: "Неспокійний Дреп"
 		}
 		resource-rich: {
-			name: "Resource Rich"
+			name: "Багатий на Ресурси"
 		}
 		resource-poor: {
-			name: "Resource Poor"
+			name: "Бідний на Ресурси"
 		}
 		resource-abundant: {
-			name: "Plentiful"
+			name: "Рясний"
 		}
 		rugged-terrain: {
-			name: "Rugged"
+			name: "Грубий"
 		}
 		rich-drep: {
-			name: "Fat Drep"
+			name: "Жирний Дреп"
 		}
 		rich-debris: {
-			name: "High Quality Debris"
+			name: "Високоякісні Уламки"
 		}
 		drep-infestation: {
-			name: "Drep Infestation"
+			name: "Нашестя Дрепів"
 		}
 		less-drep: {
-			name: "Drep Scarcity"
+			name: "Мало Дрепів"
 		}
 		strong-raids: {
-			name: "Organized Drep"
+			name: "Організовані Дрепи"
 		}
 		weak-raids: {
-			name: "Scattered Drep"
+			name: "Розсіяні Дрепи"
 		}
 		extra-expeditions: {
-			name: "Central Location"
+			name: "Центральне Розташування"
 		}
 		less-expeditions: {
-			name: "Middle of Nowhere"
+			name: "Серед Ніде"
 		}
 		fast-expeditions: {
-			name: "Short Distances"
+			name: "Короткі Відстані"
 		}
 		cheap-expeditions: {
-			name: "Expedition Hub"
+			name: "Центр Експедицій"
 		}
 	}
 
 	productions: {
-		is-harvest: "This production recipe requires finding a resource node and building a harvester."
-
+		is-harvest: "Цей рецепт виробництва вимагає знайти ресурсний вузол і побудувати збирача."
+	
 		cheapflux: {
-			name: "Basic Flux Production"
+			name: "Основне Виробництво Флюсу"
 		}
 		fluxgenerator: {
-			name: "Star-Tar > Flux"
+			name: "Зіркова Смола > Флюс"
 		}
 		carbonflux: {
-			name: "Carbon > Flux"
+			name: "Вуглець > Флюс"
 		}
 		dreamflux: {
-			name: "Liquid Dream > Flux"
+			name: "Рідкий Сон > Флюс"
 		}
 		smokeflux: {
-			name: "Smoke Gel > Flux"
+			name: "Димовий Гель > Флюс"
 		}
-
+	
 		cheappower: {
-			name: "Basic Power Production"
+			name: "Основне Виробництво Енергії"
 		}
 		startargenerator: {
-			name: "Tar Power"
+			name: "Смолова Енергія"
 		}
 		acidpower: {
-			name: "Acid Power"
+			name: "Кислотна Енергія"
 		}
 		glueberrypower: {
-			name: "Glueberry Power"
+			name: "Енергія З Клейових Ягод"
 		}
 		gelpower: {
-			name: "Smokegel Power"
+			name: "Енергія З Димового Гелю"
 		}
 		firepower: {
-			name: "Thermal Power"
+			name: "Термальна Енергія"
 		}
 		alt-sulfurpower: {
-			name: "Sulfuric Power"
+			name: "Сірчана Енергія"
 		}
-
+	
 		upgradeparts2: {
-			name: "Glueberry Parts"
+			name: "Деталі З Клейових Ягод"
 		}
 		upgradeparts3: {
-			name: "Carbon Parts"
+			name: "Вуглецеві Деталі"
 		}
 		upgradeparts4: {
-			name: "Copper Parts"
+			name: "Мідні Деталі"
 		}
 		upgradeparts5: {
-			name: "Nightmare Parts"
+			name: "Деталі З Кристалів Кошмару"
 		}
-
+	
 		purptatoprocessor: {
-			name: "Purptato Meal"
+			name: "Страва З Фіолетової Картоплі"
 		}
 		carbonfood: {
-			name: "Cabtus Meal"
+			name: "Страва З Кактуса"
 		}
 		carbonsmokefood: {
-			name: "Smoked Cabtus"
+			name: "Копчений Кактус"
 		}
 		candyshroomfood: {
-			name: "Candyshroom Meal"
+			name: "Страва З Грибів-Цукерок"
 		}
-
+	
 		carbonite-fire: {
-			name: "Carbonite - Fire"
+			name: "Карбоніт - Вогонь"
 		}
 		dreamcrystal-fire: {
-			name: "Nightmare Crystals - Fire"
+			name: "Кристали Кошмару - Вогонь"
 		}
-
+	
 		researchlab-goo: {
-			name: "Star-Tar Research"
+			name: "Дослідження Зіркової Смоли"
 		}
 		researchlab-carbonite: {
-			name: "Carbon Research"
+			name: "Дослідження Вуглецю"
 		}
 		researchlab-acidwood: {
-			name: "Acid Research"
+			name: "Дослідження Кислоти"
 		}
 		researchlab-gel: {
-			name: "Smokegel Research"
+			name: "Дослідження Димового Гелю"
 		}
 		researchlab-dreamcrystal: {
-			name: "Nightmare Research"
+			name: "Дослідження Кристалів Кошмару"
 		}
-
+	
 		fuel-acid: {
-			name: "Acid Fuel"
+			name: "Кислотне Паливо"
 		}
 		fuel-tesla: {
-			name: "Tesla Fuel"
+			name: "Тесла Паливо"
 		}
 		fuel-fire: {
-			name: "Fire Fuel"
+			name: "Вогняне Паливо"
 		}
-
+	
 		alt-flux-featherstone: {
-			name: "Featherstone > Flux"
+			name: "Пероподібний Камінь > Флюс"
 		}
 		alt-flux-acid: {
-			name: "Acidwood > Flux"
+			name: "Кислотне Дерево > Флюс"
 		}
 		alt-flux-hardenedshroom: {
-			name: "Hardened Shroom > Flux"
+			name: "Затверділий Гриб > Флюс"
 		}
 		alt-food-glueberry: {
-			name: "Glueberry Detoxing"
+			name: "Детоксикація Клейових Ягод"
 		}
 		alt-food-smokepurptato: {
-			name: "Smoked Purptatoes"
+			name: "Копчена Фіолетова Картопля"
 		}
 		alt-upgrade-stickytar: {
-			name: "Sticky Tar Parts"
+			name: "Деталі З Липкої Смоли"
 		}
 		alt-upgrade-carbonite: {
-			name: "Carbonite Parts"
+			name: "Карбонітові Деталі"
 		}
 		alt-upgrade-firecopper: {
-			name: "Flaming Copper Parts"
+			name: "Палаючі Мідні Деталі"
 		}
 		alt-upgrade-fluxmetal: {
-			name: "Flux Metal Parts"
+			name: "Деталі З Флюсового Металу"
 		}
 		alt-research-refinedtar: {
-			name: "Refined Tar Research"
+			name: "Дослідження Очищеної Смоли"
 		}
 		alt-research-powercrystal: {
-			name: "Power Crystal Research"
+			name: "Дослідження Енергетичних Кристалів"
 		}
 		alt-fuel-tarhoney: {
-			name: "Refined Tar Fuel"
+			name: "Паливо З Очищеної Смоли"
 		}
 		alt-crystal-stone: {
-			name: "Featherstone > Crystal"
+			name: "Пероподібний Камінь > Кристал"
 		}
 		alt-acidwood-sulfur: {
-			name: "Sulfuric Acidwood"
+			name: "Сірчане Кислотне Дерево"
 		}
 		alt-acidstone-sulfur: {
-			name: "Sulfuric Acidstone"
+			name: "Сірчаний Кислотний Камінь"
 		}
 		alt-energycell-sulfuricacid: {
-			name: "Sulfur Tesla Cell"
+			name: "Сірчана Тесла Клітина"
 		}
 		alt-acidextract-wood: {
-			name: "Extract Acid (Wood)"
+			name: "Екстракт Кислоти (Дерево)"
 		}
 		alt-acidextract-stone: {
-			name: "Extract Acid (Stone)"
+			name: "Екстракт Кислоти (Камінь)"
 		}
 		alt-starwood-refinedtar: {
-			name: "Starwood (Refined Tar)"
+			name: "Зіркове Дерево (Очищена Смола)"
 		}
 		alt-armorplating-stickytar: {
-			name: "Armor Plating (Sticky Tar)"
+			name: "Броня (Липка Смола)"
 		}
 		alt-smokedfire-stickytar: {
-			name: "Smoked Fire (Sticky Tar)"
+			name: "Копчений Вогонь (Липка Смола)"
 		}
 		alt-acidstone-firetar: {
-			name: "Acidstone (Fire & Tar)"
+			name: "Кислотний Камінь (Вогонь та Смола)"
 		}
 		alt-carbonmix-refinedtar: {
-			name: "Carbon Mix (Refined Tar)"
+			name: "Вуглецева Суміш (Очищена Смола)"
 		}
 		alt-powercrystal-energycell: {
-			name: "Tesla Cell Upgrade"
+			name: "Модернізація Тесла Клітини"
 		}
 		alt-hardenedshroom-sticky: {
-			name: "Hardened Shroom (Sticky Tar)"
+			name: "Затверділий Гриб (Липка Смола)"
 		}
 		alt-hardenedshroom-fire: {
-			name: "Hardened Shroom (Flaming Copper)"
+			name: "Затверділий Гриб (Палаюча Мідь)"
 		}
 		fluxmetal-flamingcopper: {
-			name: "Flux Metal (Flaming Copper)"
+			name: "Флюсовий Метал (Палаюча Мідь)"
 		}
 		alt-fluxmetal-both: {
-			name: "Flux Metal (Copper & Shroom)"
+			name: "Флюсовий Метал (Мідь та Гриб)"
 		}
 	}
 
 	crafting: {
 		starwooddowngrade: {
-			name: "Starwood > Bloodwood"
+			name: "Зіркове Дерево > Криваве Дерево"
 		}
 		acidwooddowngrade: {
-			name: "Acidwood > Starwood"
+			name: "Кислотне Дерево > Зіркове Дерево"
 		}
 		glowwooddowngrade: {
-			name: "Glowwood > Starwood"
+			name: "Сяюче Дерево > Зіркове Дерево"
 		}
 		feathercrystaldowngrade: {
-			name: "Feathercrystal > Featherstone"
+			name: "Перокристал > Перокамінь"
 		}
 		carbonitedowngrade: {
-			name: "Carbonite > Feathercrystal"
+			name: "Карбоніт > Перокристал"
 		}
 		lightcarbonitedowngrade: {
-			name: "Carbonite Sand > Carbonite"
+			name: "Пісок Карбоніту > Карбоніт"
 		}
 		acidstonedowngrade: {
-			name: "Acidstone > Feathercrystal"
+			name: "Кислотний Камінь > Перокристал"
 		}
 		armorplatingdowngrade: {
-			name: "Armor Plating > Copper"
+			name: "Бронеплити > Мідь"
 		}
 		energycelldowngrade: {
-			name: "Tesla Cell > Copper"
+			name: "Тесла Клітина > Мідь"
 		}
 		chargedplatingdowngrade: {
-			name: "Nightmare Plating > Armor Plating"
+			name: "Бронеплити Кошмару > Бронеплити"
 		}
 		firecopperdowngrade: {
-			name: "Flaming Copper > Armor Plating"
+			name: "Палаюча Мідь > Бронеплити"
 		}
 		powercrystaldowngrade: {
-			name: "Power Crystal > Tesla Cell"
+			name: "Енергетичний Кристал > Тесла Клітина"
 		}
 		hardenedshroomdowngrade: {
-			name: "Hardened Shroom > Glowwood"
+			name: "Затверділий Гриб > Сяюче Дерево"
 		}
 		fluxmetaldowngrade: {
-			name: "Flux Metal > Flaming Copper"
+			name: "Флюсовий Метал > Палаюча Мідь"
 		}
 		store-fuel-cache-small: {
-			name: "Small Fuel Extraction"
+			name: "Малий Видобуток Палива"
 		}
 		store-fuel-cache-medium: {
-			name: "Medium Fuel Extraction"
+			name: "Середній Видобуток Палива"
 		}
 		store-fuel-cache-large: {
-			name: "Large Fuel Extraction"
+			name: "Великий Видобуток Палива"
 		}
-
+	
 		alt-acidwood-fromstone: {
-			name: "Acidstone > Acidwood"
+			name: "Кислотний Камінь > Кислотне Дерево"
 		}
 		alt-acidstone-fromwood: {
-			name: "Acidwood > Acidstone"
+			name: "Кислотне Дерево > Кислотний Камінь"
 		}
 	}
 
 	generic-unlocks: {
 		teslacrats-production: {
-			name: "Resource Duplication"
-			desc: "The Teslacrats can duplicate resources through crafting, using large amounts of power.\n\nA base amount of each resource must be acquired by other means before it can be duplicated."
+			name: "Дублювання Ресурсів"
+			desc: "Теслакрати можуть дублювати ресурси через крафт, використовуючи великі обсяги енергії.\n\nБазову кількість кожного ресурсу потрібно отримати іншими способами, перш ніж його можна буде дублювати."
 		}
 	}
 
 	items: {
-		consumable: "Consumable"
-		immediate: "Applied automatically"
-		global: "This is a global resource and does not require transportation."
-		heavy: "<color=#FFD57E>This resource is too heavy or unstable to carry when flying. Refine it before taking off or it will be removed from storage.</color>"
+		consumable: "Витратний матеріал"
+		immediate: "Застосовується автоматично"
+		global: "Це глобальний ресурс і не потребує транспортування."
+		heavy: "<color=#FFD57E>Цей ресурс занадто важкий або нестабільний для перенесення під час польоту. Переробіть його перед зльотом або він буде видалений з сховища.</color>"
 		all: {
-			name: "All"
+			name: "Усі"
 		}
 		funds: {
-			name: "Flux",
-			desc: "The basis of all Dreamtek, this substance is extracted from the Dream Realm and can warp reality to make un-physical things happen."
-		},
+			name: "Флюс",
+			desc: "Основа всієї технології Dreamtek, ця речовина видобувається з Сновидного Реальму і може змінювати реальність, щоб робити не фізичні речі."
+		}
 		power: {
-			name: "Power"
-			desc: "Tesla energy, used to power most machines."
+			name: "Енергія"
+			desc: "Енергія Тесли, яка використовується для живлення більшості машин."
 		}
 		worker: {
-			name: "Workers"
-			desc: "Citizens that do things around the city. Required by most buildings.\n\nBuild and upgrade houses to increase maximum workers. They are produced at the city core."
+			name: "Працівники"
+			desc: "Громадяни, які виконують роботу в місті. Потрібні більшості будівель.\n\nБудуйте та модернізуйте будинки, щоб збільшити максимальну кількість працівників. Вони виробляються в ядрі міста."
 		}
 		fuel: {
-			name: "Engine Fuel"
-			desc: "Used for flying and avoiding horrible death."
+			name: "Паливо для Двигуна"
+			desc: "Використовується для польотів і уникнення жахливої смерті."
 		}
 		upgradeparts: {
-			name: "Upgrade Materials"
-			desc: "Used to improve your makeshift infrastructure and gain permanent bonuses."
+			name: "Матеріали для Модернізації"
+			desc: "Використовується для поліпшення вашої тимчасової інфраструктури та отримання постійних бонусів."
 		}
 		convert-funds: {
-			name: "Converter Material"
-			desc: "Raw material for resource converter ruins."
+			name: "Матеріал для Перетворення"
+			desc: "Сировина для руїн перетворювачів ресурсів."
 		}
 		research-points: {
-			name: "Knowledge"
-			desc: "Knowledge is required to complete research.\n\nCreated by crazy scientists in research labs."
+			name: "Знання"
+			desc: "Знання потрібні для завершення досліджень.\n\nСтворюється божевільними вченими в дослідницьких лабораторіях."
 		}
 		comingsoon: {
-			name: "Coming Soon"
-			desc: "This feature is not yet available"
+			name: "Скоро"
+			desc: "Ця функція ще недоступна"
 		}
 		food: {
-			name: "Food"
-			desc: "A type of fuel that powers people. Required regularly by houses.\n\nProduced at the food plant."
+			name: "Їжа"
+			desc: "Тип палива, що живить людей. Потрібен регулярно для будинків.\n\nВиробляється на харчовому заводі."
 		}
-
-
-		// Raw resources
-
+	
+		// Сировинні ресурси
+	
 		bloodwoodlog: {
-			name: "Bloodwood Logs"
-			desc: "Logs covered in glowing red veins. Must be processed before they can be used.\n\nHarvested from resource nodes."
+			name: "Криваві Дерев'яні Колоди"
+			desc: "Колоди, покриті світлими червоними жилами. Повинні бути оброблені перед використанням.\n\nЗбираються з ресурсних вузлів."
 		}
 		rawfeatherstone: {
-			name: "Raw Featherstone"
-			desc: "This stone's insistence to defy gravity makes it very useful in the construction of flying things, like cities.\n\nHarvested from resource nodes."
+			name: "Сировина Перокамінь"
+			desc: "Цей камінь, який вперто не піддається гравітації, дуже корисний у будівництві літаючих об'єктів, таких як міста.\n\nЗбирається з ресурсних вузлів."
 		}
 		crystal: {
-			name: "Crystal"
-			desc: "Harvested from resource nodes that appear in desert areas."
+			name: "Кристал"
+			desc: "Збирається з ресурсних вузлів, які з'являються в пустельних районах."
 		}
 		cabtus: {
-			name: "Cabtus"
-			desc: "Meaty fruit that grows in desert areas."
+			name: "Кактус"
+			desc: "М'ясистий фрукт, що росте в пустельних районах."
 		}
 		purptato: {
-			name: "Purptatoes"
-			desc: "Tastes like a potato covered in ink. Can be made into a barely edible meal at the food plant."
+			name: "Фіолетова Картопля"
+			desc: "Смакує, як картопля, покрита чорнилом. Може бути перероблена в ледь їстівну страву на харчовому заводі."
 		}
 		rawcopper: {
-			name: "Raw Copper"
-			desc: "The metal of choice in many steam machines. Refined to usable ingots at a Smell-ter.\n\nHarvested from resource nodes, appears in higher difficulty areas."
+			name: "Сировина Мідь"
+			desc: "Метал, який часто використовується в парових машинах. Переробляється у придатні для використання злитки на плавильному заводі.\n\nЗбирається з ресурсних вузлів, з'являється в районах з високою складністю."
 		}
 		glowhoney: {
-			name: "Glow Honey"
-			desc: "Radioactive honey. Not very useful as food, but can be processed into premium quality flying-city-fuel.\n\nHarvested from resource nodes, appears in higher difficulty areas."
+			name: "Сяючий Мед"
+			desc: "Радіоактивний мед. Не дуже корисний як їжа, але може бути перероблений у високоякісне паливо для літаючих міст.\n\nЗбирається з ресурсних вузлів, з'являється в районах з високою складністю."
 		}
 		sulfur: {
-			name: "Sulfur"
-			desc: "Smelly but useful.\n\nHarvested from resource nodes, appears in higher difficulty areas."
+			name: "Сірка"
+			desc: "Смердюча, але корисна.\n\nЗбирається з ресурсних вузлів, з'являється в районах з високою складністю."
 		}
 		liquidfire: {
-			name: "Liquid Fire"
-			desc: "An eternally hot liquid.\n\nHarvested from resource nodes in ash biomes."
+			name: "Рідкий Вогонь"
+			desc: "Вічно гаряча рідина.\n\nЗбирається з ресурсних вузлів в попелястих біомах."
 		}
 		candyshroom: {
-			name: "Candyshroom"
-			desc: "This candy-shaped giant mushroom is not only nutritious, it's also full of Flux.\n\nHarvested from resource nodes in toxic biomes."
+			name: "Цукерковий Гриб"
+			desc: "Цей гігантський гриб у формі цукерки не тільки поживний, але й наповнений флюсом.\n\nЗбирається з ресурсних вузлів в токсичних біомах."
 		}
 		startar: {
-			name: "Star-Stuck Tar"
-			desc: "It's dreamlike properties hint that it's origin is not within our reality. Most soil contains trace elements that can be extracted by special machines.\n\nBuild a Tar Extractor anywhere in the city."
+			name: "Зіркова Смола"
+			desc: "Його властивості, схожі на сон, натякають на те, що його походження не в нашій реальності. Більшість ґрунтів містять сліди елементів, які можуть бути видобуті за допомогою спеціальних машин.\n\nБудуйте екстрактор смоли будь-де в місті."
 		}
 		acidshard: {
-			name: "Acid Shards"
-			desc: "Crystalized version of the acid pools that are common in the blightlands.\n\nHarvested from resource nodes, appears in higher difficulty areas."
+			name: "Кислотні Осколки"
+			desc: "Кристалізована версія кислотних басейнів, які поширені в землях смерті.\n\nЗбираються з ресурсних вузлів, з'являються в районах з високою складністю."
 		}
 		glueberry: {
-			name: "Glueberry"
-			desc: "Many poor souls suffocated after trying to eat one of these and ended up with their mouth glued shut."
+			name: "Клейові Ягоди"
+			desc: "Багато нещасних душ задихнулися, намагаючись з'їсти одну з цих ягід, і в кінцевому підсумку заліпили собі рота."
 		}
 		smokegel: {
-			name: "Smoke Gel"
-			desc: "Even pollution can be turned into something useful with the right technology."
+			name: "Димовий Гель"
+			desc: "Навіть забруднення можна перетворити на щось корисне з правильною технологією."
 		}
 		toxicgoo: {
-			name: "Toxic Goo"
-			desc: "Toxic substance that can be extracted from the soil. Can be extracted far more efficiently in the toxic biome."
+			name: "Токсична Рідина"
+			desc: "Токсична речовина, яка може бути видобута з ґрунту. Може бути видобута набагато ефективніше в токсичному біомі."
 		}
 		refinedtar: {
-			name: "Refined Tar"
-			desc: "Refined Star-Stuck Tar with higher Flux concentrations."
+			name: "Очищена Смола"
+			desc: "Очищена зіркова смола з високими концентраціями флюсу."
 		}
 		stickytar: {
-			name: "Sticky Tar"
-			desc: "Extra sticky Flux-infused substance."
+			name: "Липка Смола"
+			desc: "Дуже липка речовина, насичена флюсом."
 		}
-
-		// Enemy drops
+	
+		// Випадають від ворогів
 		drepjuice: {
-			name: "Nightmare Juice"
-			desc: "Often flows in veins of biological Drep."
+			name: "Сік Кошмару"
+			desc: "Часто тече в жилах біологічного дрепу."
 		}
-
+	
 		drepdust: {
-			name: "Drep Dust"
-			desc: "This powder is all that remains of a Drep."
+			name: "Пил Дрепу"
+			desc: "Цей порошок - все, що залишилося від дрепу."
 		}
-
+	
 		dreptech: {
-			name: "Livewire"
-			desc: "Remains of technological Drep."
+			name: "Жива Дріт"
+			desc: "Залишки технологічного дрепу."
 		}
-
-
+	
 		oldscraps: {
-			name: "Old-World Scraps"
-			desc: "Bits and pieces of old-world tech. Could be useful when trying to use abandoned old-world machinery."
+			name: "Стародавні Уламки"
+			desc: "Шматочки стародавньої техніки. Можуть бути корисними при спробі використовувати покинуті стародавні машини."
 		}
 		dreamcore: {
-			name: "Dream Core"
-			desc: "The pinnacle of old-world tech. These rare artefacts can be found in ruins and expeditions, and can be used in construction and crafting."
+			name: "Сонячне Ядро"
+			desc: "Вершина стародавньої техніки. Ці рідкісні артефакти можна знайти в руїнах і експедиціях, і вони можуть бути використані в будівництві та крафті."
 		}
-
-
-		// Resources Produced
-
+	
+		// Вироблені Ресурси
+	
 		warpedwood: {
-			name: "Bloodwood Planks"
-			desc: "Strong yet lightweight wood used in many construction and crafting recipes in the Nomad Cities.\n\nProduced at the Wood Warper from Bloodwood Logs"
+			name: "Криваві Дерев'яні Дошки"
+			desc: "Сильне, але легке дерево, що використовується у багатьох будівельних і крафтових рецептах в Кочівних Містах.\n\nВиробляється на Деревообробнику з кривавих дерев'яних колод."
 		}
 		featherstone: {
-			name: "Crushed Featherstone"
-			desc: "Processed featherstone is used in construction to strengthen and reduce the weight of the buildings."
+			name: "Подрібнений Перокамінь"
+			desc: "Оброблений перокамінь використовується в будівництві для зміцнення і зменшення ваги будівель."
 		}
 		starwood: {
-			name: "Starwood"
-			desc: "Star-Stuck Tar infused in bloodwood planks make them sturdier and adds some reality-bending properties.\n\nProduced at the Wood Warper from Bloodwood Planks and Star-Stuck Tar"
+			name: "Зіркове Дерево"
+			desc: "Зіркова Смола, насичена в криваві дерев'яні дошки, робить їх міцнішими і додає деякі властивості, що згинають реальність.\n\nВиробляється на Деревообробнику з кривавих дерев'яних дощок і зіркової смоли."
 		}
 		atlasbolt: {
-			name: "Atlas Bolts"
-			desc: "Ballista bolts made of bloodwood planks with special anti-nightmare sauce. Required for shooting Tiny's ranged weapons."
+			name: "Болти Атласа"
+			desc: "Балістичні болти, виготовлені з кривавих дерев'яних дощок зі спеціальним антикошмарним соусом. Потрібні для стрільби з дальньої зброї Tiny."
 		}
 		feathercrystal: {
-			name: "Feathercrystal"
-			desc: "Crystal combined with featherstone. Crystal nodes are found in Desert areas."
+			name: "Перокристал"
+			desc: "Кристал, поєднаний з перокаменем. Кристалічні вузли знаходяться в пустельних районах."
 		}
 		acidwood: {
-			name: "Acidwood"
-			desc: "Acid-treated bloodwood."
+			name: "Кислотне Дерево"
+			desc: "Кислотно оброблене криваве дерево."
 		}
 		acidstone: {
-			name: "Acidstone"
-			desc: "Acid-treated featherstone."
+			name: "Кислотний Камінь"
+			desc: "Кислотно оброблений перокамінь."
 		}
 		carbonmix: {
-			name: "Carbon Mix"
-			desc: "Refined cabtus, full of energy."
+			name: "Вуглецева Суміш"
+			desc: "Очищений кактус, повний енергії."
 		}
 		dreammixture: {
-			name: "Liquid Dream"
-			desc: "This mysterious liquid has very similar properties to flux, but is much more stable allowing for more physical applications."
+			name: "Рідкий Сон"
+			desc: "Ця загадкова рідина має дуже схожі властивості з флюсом, але набагато стабільніша, що дозволяє більш фізичні застосування."
 		}
 		dreamcrystal: {
-			name: "Nightmare Crystals"
-			desc: "Crystals infused with liquid dream. The process twists and darkens the crystals, and that's how they got their name."
+			name: "Кристали Кошмару"
+			desc: "Кристали, насичені рідким сном. Процес скручує і затемнює кристали, і так вони отримали свою назву."
 		}
 		sulfuricacid: {
-			name: "Sulfuric Acid"
-			desc: "Produced from Sulfur."
+			name: "Сірчана Кислота"
+			desc: "Виробляється з сірки."
 		}
 		toxicacid: {
-			name: "Toxic Acid"
-			desc: "Extremely dangerous combination of toxic goo with sulfuric acid."
+			name: "Токсична Кислота"
+			desc: "Надзвичайно небезпечна комбінація токсичної рідини з сірчаною кислотою."
 		}
 		smokedfire: {
-			name: "Smoked Fire"
-			desc: "Smoke gel helps stabilize the liquid fire, making it almost safe to handle."
+			name: "Копчений Вогонь"
+			desc: "Димовий гель допомагає стабілізувати рідкий вогонь, роблячи його майже безпечним для обробки."
 		}
 		carbonite: {
-			name: "Carbonite"
-			desc: "Crystals processed with carbon mix."
+			name: "Карбоніт"
+			desc: "Кристали, оброблені вуглецевою сумішшю."
 		}
 		light-carbonite: {
-			name: "Carbonite Sand"
-			desc: "Used to reinforce stone-based defensive structures."
+			name: "Пісок Карбоніту"
+			desc: "Використовується для зміцнення кам'яних оборонних споруд."
 		}
-		/*atlasbolt: {
-			name: "Atlas Bolts"
-			desc: "Ballista bolts made of bloodwood planks with special anti-nightmare sauce. These arrows are surprisingly effective in killing nightmares."
-		}*/
 		copperingot: {
-			name: "Copper Ingot"
-			desc: "Refined copper with a large variety of uses."
+			name: "Мідний Злиток"
+			desc: "Очищена мідь з великою кількістю використань."
 		}
 		glowwood: {
-			name: "Glowwood"
-			desc: "This wood can damage your health, but is very useful at Dreamtek conductivity."
+			name: "Сяюче Дерево"
+			desc: "Це дерево може пошкодити ваше здоров'я, але дуже корисне для провідності Dreamtek."
 		}
 		armorplating: {
-			name: "Armor Plating"
-			desc: "Copper turned into weird-shaped plates by some unknown process. It's nightmare-warding properties make it a favorite for many military applications."
+			name: "Бронеплити"
+			desc: "Мідь, перетворена в дивної форми плити невідомим процесом. Її властивості відлякування кошмарів роблять її улюбленою для багатьох військових застосувань."
 		}
 		energycell: {
-			name: "Tesla Cell"
-			desc: "Small portable power storage, useful for powering mobile equipment."
+			name: "Тесла Клітина"
+			desc: "Невелике портативне сховище енергії, корисне для живлення мобільного обладнання."
 		}
 		chargedplating: {
-			name: "Nightmare Plating"
-			desc: "Nightmare-crystal charged armor plating. Extremely durable, perfect for housing extra powerful Dreamtek machinery."
+			name: "Бронеплити Кошмару"
+			desc: "Бронеплити, заряджені кристалами кошмару. Надзвичайно міцні, ідеальні для розміщення надпотужної техніки Dreamtek."
 		}
 		firecopper: {
-			name: "Flaming Copper"
-			desc: "Copper treated with liquid fire."
+			name: "Палаюча Мідь"
+			desc: "Мідь, оброблена рідким вогнем."
 		}
 		powercrystal: {
-			name: "Power Crystal"
-			desc: "Tesla cell on steroids."
+			name: "Енергетичний Кристал"
+			desc: "Тесла клітина на стероїдах."
 		}
 		hardenedshroom: {
-			name: "Hardened Shroom"
-			desc: "Strong, lightweight, and extremely useful for Dreamtek."
+			name: "Затверділий Гриб"
+			desc: "Сильний, легкий і надзвичайно корисний для Dreamtek."
 		}
 		hardeningpowder: {
-			name: "Hardening Powder"
-			desc: "Used to apply some of the shroom magic on other materials."
+			name: "Порошок для Затвердіння"
+			desc: "Використовується для застосування деякої магії грибів на інших матеріалах."
 		}
 		fluxmetal: {
-			name: "Flux Metal"
-			desc: "Complex metal that defies reality."
+			name: "Флюсовий Метал"
+			desc: "Складний метал, що не піддається реальності."
 		}
 		research1: {
-			name: "Basic Research Kit"
-			desc: "A pinch of copper, a pint of tar, wrap it all in some wood, and you've got the perfect kit to experiment with Dreamtek.\n\nProduced at the Smell-ter."
+			name: "Основний Дослідницький Набір"
+			desc: "Щіпка міді, пінта смоли, оберніть все це в трохи дерева, і у вас є ідеальний набір для експериментів з Dreamtek.\n\nВиробляється на плавильному заводі."
 		}
-
-
-		// Weapons
-
+	
+		// Зброя
+	
 		unarmed: {
-			name: "Basic Fist"
+			name: "Основний Кулак"
 		}
 		crossbow: {
-			name: "Light Crossbow"
+			name: "Легка Арбалета"
 		}
 		repeater-crossbow: {
-			name: "Repeating Crossbow"
+			name: "Повторювальна Арбалета"
 		}
 		repeater-crossbow2: {
-			name: "Repeating Crossbow 2"
+			name: "Повторювальна Арбалета 2"
 		}
 		repeater-crossbow3: {
-			name: "Repeating Crossbow 3"
+			name: "Повторювальна Арбалета 3"
 		}
 		spreadbow: {
-			name: "Spreadbow"
+			name: "Розкидний Лук"
 		}
 		spreadbow2: {
-			name: "Spreadbow 2"
+			name: "Розкидний Лук 2"
 		}
 		spreadbow3: {
-			name: "Spreadbow 3"
+			name: "Розкидний Лук 3"
 		}
 		snipe-crossbow: {
-			name: "Snipe-bow"
+			name: "Снайперська Арбалета"
 		}
 		snipe-crossbow2: {
-			name: "Snipe-bow 2"
+			name: "Снайперська Арбалета 2"
 		}
 		snipe-crossbow3: {
-			name: "Snipe-bow 3"
+			name: "Снайперська Арбалета 3"
 		}
 		piercing-crossbow: {
-			name: "Piercing Crossbow"
+			name: "Проникна Арбалета"
 		}
 		piercing-crossbow2: {
-			name: "Piercing Crossbow 2"
+			name: "Проникна Арбалета 2"
 		}
 		piercing-crossbow3: {
-			name: "Piercing Crossbow 3"
+			name: "Проникна Арбалета 3"
 		}
 		snipe-piercing-crossbow: {
-			name: "Heavy Crossbow"
+			name: "Важка Арбалета"
 		}
 		snipe-piercing-crossbow2: {
-			name: "Heavy Crossbow 2"
+			name: "Важка Арбалета 2"
 		}
 		snipe-piercing-crossbow3: {
-			name: "Heavy Crossbow 3"
+			name: "Важка Арбалета 3"
 		}
 		snipe-gun: {
-			name: "Snipe-gun"
+			name: "Снайперська Гвинтівка"
 		}
 		snipe-gun2: {
-			name: "Snipe-gun 2"
+			name: "Снайперська Гвинтівка 2"
 		}
 		snipe-gun3: {
-			name: "Snipe-gun 3"
+			name: "Снайперська Гвинтівка 3"
 		}
 		snipe-gun4: {
-			name: "Snipe-gun 4"
+			name: "Снайперська Гвинтівка 4"
 		}
 		snipe-gun5: {
-			name: "Snipe-gun 5"
+			name: "Снайперська Гвинтівка 5"
 		}
 		snipe-gun-super: {
-			name: "Elite Snipe-gun"
+			name: "Елітна Снайперська Гвинтівка"
 		}
 		piercing-gun: {
-			name: "Piercing Gun"
+			name: "Проникна Гвинтівка"
 		}
 		piercing-gun2: {
-			name: "Piercing Gun 2"
+			name: "Проникна Гвинтівка 2"
 		}
 		piercing-gun3: {
-			name: "Piercing Gun 3"
+			name: "Проникна Гвинтівка 3"
 		}
 		piercing-gun4: {
-			name: "Piercing Gun 4"
+			name: "Проникна Гвинтівка 4"
 		}
 		piercing-gun5: {
-			name: "Piercing Gun 5"
+			name: "Проникна Гвинтівка 5"
 		}
 		piercing-gun-super: {
-			name: "Elite Piercing Gun"
+			name: "Елітна Проникна Гвинтівка"
 		}
 		snipe-piercing-gun: {
-			name: "Heavy Cannon"
+			name: "Важка Гармата"
 		}
 		snipe-piercing-gun2: {
-			name: "Heavy Cannon 2"
+			name: "Важка Гармата 2"
 		}
 		snipe-piercing-gun3: {
-			name: "Heavy Cannon 3"
+			name: "Важка Гармата 3"
 		}
 		snipe-piercing-gun4: {
-			name: "Heavy Cannon 4"
+			name: "Важка Гармата 4"
 		}
 		snipe-piercing-gun5: {
-			name: "Heavy Cannon 5"
+			name: "Важка Гармата 5"
 		}
 		snipe-piercing-gun-super: {
-			name: "Elite Heavy Cannon"
+			name: "Елітна Важка Гармата"
 		}
 		spikedpunch: {
-			name: "Spiked Fist"
+			name: "Шипований Кулак"
 		}
 		spikedpunch2: {
-			name: "Spiked Fist 2"
+			name: "Шипований Кулак 2"
 		}
 		spikedpunch3: {
-			name: "Spiked Fist 3"
+			name: "Шипований Кулак 3"
 		}
 		acid-punch: {
-			name: "Acid Fistbomb"
+			name: "Кислотний Кулак"
 		}
 		acid-punch2: {
-			name: "Acid Fistbomb 2"
+			name: "Кислотний Кулак 2"
 		}
 		acid-punch3: {
-			name: "Acid Fistbomb 3"
+			name: "Кислотний Кулак 3"
 		}
 		starwoodcrossbow: {
-			name: "Starwood Crossbow"
+			name: "Зіркова Арбалета"
 		}
 		starwoodcrossbow2: {
-			name: "Starwood Crossbow 2"
+			name: "Зіркова Арбалета 2"
 		}
 		starwoodcrossbow3: {
-			name: "Starwood Crossbow 3"
+			name: "Зіркова Арбалета 3"
 		}
 		shredder: {
-			name: "Shredder"
+			name: "Різак"
 		}
 		shredder2: {
-			name: "Shredder 2"
+			name: "Різак 2"
 		}
 		shredder3: {
-			name: "Shredder 3"
+			name: "Різак 3"
 		}
 		shredder4: {
-			name: "Shredder 4"
+			name: "Різак 4"
 		}
 		shredder5: {
-			name: "Shredder 5"
+			name: "Різак 5"
 		}
 		shredder-super: {
-			name: "Elite Shredder"
+			name: "Елітний Різак"
 		}
 		chargedcannon: {
-			name: "Rapid Gun"
+			name: "Швидкострільна Гармата"
 		}
 		chargedcannon2: {
-			name: "Rapid Gun 2"
+			name: "Швидкострільна Гармата 2"
 		}
 		chargedcannon3: {
-			name: "Rapid Gun 3"
+			name: "Швидкострільна Гармата 3"
 		}
 		chargedcannon4: {
-			name: "Rapid Gun 4"
+			name: "Швидкострільна Гармата 4"
 		}
 		chargedcannon5: {
-			name: "Rapid Gun 5"
+			name: "Швидкострільна Гармата 5"
 		}
 		chargedcannon-super: {
-			name: "Elite Rapid Gun"
+			name: "Елітна Швидкострільна Гармата"
 		}
 		explosivegun: {
-			name: "Heavy Launcher"
+			name: "Важкий Гранатомет"
 		}
 		explosivegun2: {
-			name: "Heavy Launcher 2"
+			name: "Важкий Гранатомет 2"
 		}
 		explosivegun3: {
-			name: "Heavy Launcher 3"
+			name: "Важкий Гранатомет 3"
 		}
 		explosivegun4: {
-			name: "Heavy Launcher 4"
+			name: "Важкий Гранатомет 4"
 		}
 		explosivegun5: {
-			name: "Heavy Launcher 5"
+			name: "Важкий Гранатомет 5"
 		}
 		explosivegun-super: {
-			name: "Elite Heavy Launcher"
+			name: "Елітний Важкий Гранатомет"
 		}
 		shotgun: {
-			name: "Spread Gun"
+			name: "Розкидний Гранатомет"
 		}
 		shotgun2: {
-			name: "Spread Gun 2"
+			name: "Розкидний Гранатомет 2"
 		}
 		shotgun3: {
-			name: "Spread Gun 3"
+			name: "Розкидний Гранатомет 3"
 		}
 		shotgun4: {
-			name: "Spread Gun 4"
+			name: "Розкидний Гранатомет 4"
 		}
 		shotgun5: {
-			name: "Spread Gun 5"
+			name: "Розкидний Гранатомет 5"
 		}
 		shotgun-super: {
-			name: "Elite Spread Gun"
+			name: "Елітний Розкидний Гранатомет"
 		}
 		tesla-punch: {
-			name: "Tesla Fist"
+			name: "Тесла Кулак"
 		}
 		tesla-punch2: {
-			name: "Tesla Fist 2"
+			name: "Тесла Кулак 2"
 		}
 		tesla-punch3: {
-			name: "Tesla Fist 3"
+			name: "Тесла Кулак 3"
 		}
 		tesla-punch4: {
-			name: "Tesla Fist 4"
+			name: "Тесла Кулак 4"
 		}
 		tesla-punch5: {
-			name: "Tesla Fist 5"
+			name: "Тесла Кулак 5"
 		}
 		tesla-punch-super: {
-			name: "Elite Tesla Fist"
+			name: "Елітний Тесла Кулак"
 		}
-
-
-		// Armor
-
+	
+		// Броня
+	
 		basearmor: {
-			name: "Basic Hull"
+			name: "Основний Корпус"
 		}
-
+	
 		starwoodarmor: {
-			name: "Light Starwood Reinforcements"
+			name: "Легкі Зіркові Підсилення"
 		}
 		starwoodarmor2: {
-			name: "Light Starwood Reinforcements 2"
+			name: "Легкі Зіркові Підсилення 2"
 		}
 		starwoodarmor3: {
-			name: "Light Starwood Reinforcements 3"
+			name: "Легкі Зіркові Підсилення 3"
 		}
 		starwoodarmor4: {
-			name: "Light Starwood Reinforcements 4"
+			name: "Легкі Зіркові Підсилення 4"
 		}
 		starwoodarmor5: {
-			name: "Light Starwood Reinforcements 5"
+			name: "Легкі Зіркові Підсилення 5"
 		}
-
+	
 		chargedarmor: {
-			name: "Charged Reinforcements"
+			name: "Заряджені Підсилення"
 		}
 		chargedarmor2: {
-			name: "Charged Reinforcements 2"
+			name: "Заряджені Підсилення 2"
 		}
 		chargedarmor3: {
-			name: "Charged Reinforcements 3"
+			name: "Заряджені Підсилення 3"
 		}
-
+	
 		shroomarmor: {
-			name: "Shroom Reinforcements"
+			name: "Грибні Підсилення"
 		}
 		shroomarmor2: {
-			name: "Shroom Reinforcements 2"
+			name: "Грибні Підсилення 2"
 		}
 		shroomarmor3: {
-			name: "Shroom Reinforcements 3"
+			name: "Грибні Підсилення 3"
 		}
 		shroomarmor-super: {
-			name: "Elite Shroom Reinforcements"
+			name: "Елітні Грибні Підсилення"
 		}
-
+	
 		glowarmor: {
-			name: "Glowing Reinforcements"
+			name: "Сяючі Підсилення"
 		}
 		glowarmor2: {
-			name: "Glowing Reinforcements 2"
+			name: "Сяючі Підсилення 2"
 		}
 		glowarmor3: {
-			name: "Glowing Reinforcements 3"
+			name: "Сяючі Підсилення 3"
 		}
-
+	
 		moltenarmor: {
-			name: "Fiery Reinforcements"
+			name: "Палаючі Підсилення"
 		}
 		moltenarmor2: {
-			name: "Fiery Reinforcements 2"
+			name: "Палаючі Підсилення 2"
 		}
 		moltenarmor3: {
-			name: "Fiery Reinforcements 3"
+			name: "Палаючі Підсилення 3"
 		}
 		moltenarmor-super: {
-			name: "Elite Fiery Reinforcements"
+			name: "Елітні Палаючі Підсилення"
 		}
-
+	
 		starwoodarmor-normal: {
-			name: "Starwood Reinforcements"
+			name: "Зіркові Підсилення"
 		}
 		starwoodarmor-normal2: {
-			name: "Starwood Reinforcements. 2"
+			name: "Зіркові Підсилення 2"
 		}
 		starwoodarmor-normal3: {
-			name: "Starwood Reinforcements. 3"
+			name: "Зіркові Підсилення 3"
 		}
-
+	
 		platedarmor-normal: {
-			name: "Ancient Armored Reinforcements"
+			name: "Древні Броньовані Підсилення"
 		}
 		platedarmor-normal2: {
-			name: "Ancient Armored Reinforcements 2"
+			name: "Древні Броньовані Підсилення 2"
 		}
 		platedarmor-normal3: {
-			name: "Ancient Armored Reinforcements 3"
+			name: "Древні Броньовані Підсилення 3"
 		}
 		platedarmor-normal4: {
-			name: "Ancient Armored Reinforcements 4"
+			name: "Древні Броньовані Підсилення 4"
 		}
 		platedarmor-normal5: {
-			name: "Ancient Armored Reinforcements 5"
+			name: "Древні Броньовані Підсилення 5"
 		}
 		platedarmor-normal-super: {
-			name: "Elite Ancient Reinforcements"
+			name: "Елітні Древні Підсилення"
 		}
-
+	
 		platedarmor: {
-			name: "Heavy Armored Reinforcements"
+			name: "Важкі Броньовані Підсилення"
 		}
 		platedarmor2: {
-			name: "Heavy Armored Reinforcements 2"
+			name: "Важкі Броньовані Підсилення 2"
 		}
 		platedarmor3: {
-			name: "Heavy Armored Reinforcements 3"
+			name: "Важкі Броньовані Підсилення 3"
 		}
-
+	
 		fluxarmor: {
-			name: "Flux Heavy Reinforcements"
+			name: "Флюсові Важкі Підсилення"
 		}
 		fluxarmor2: {
-			name: "Flux Heavy Reinforcements 2"
+			name: "Флюсові Важкі Підсилення 2"
 		}
 		fluxarmor3: {
-			name: "Flux Heavy Reinforcements 3"
+			name: "Флюсові Важкі Підсилення 3"
 		}
 		fluxarmor-super: {
-			name: "Elite Flux Reinforcements"
+			name: "Елітні Флюсові Підсилення"
 		}
-
-		// Consumables
+	
+		// Витратні Матеріали
 		repair-base: {
-			desc: "Use in a pinch to immediately repair some damage."
+			desc: "Використовуйте в критичній ситуації для негайного ремонту пошкоджень."
 		}
 		scraprepair: {
-			name: "Makeshift Repair Kit"
+			name: "Імпровізований Ремонтний Набір"
 		}
 		starwoodrepair: {
-			name: "Starwood Repair Kit"
+			name: "Зірковий Ремонтний Набір"
 		}
 		starwoodrepair2: {
-			name: "Starwood Repair 2"
+			name: "Зірковий Ремонтний Набір 2"
 		}
 		building-repairkit: {
-			name: "Building Repair Kit"
-			desc: "Use to fully repair all buildings in an area around the player."
+			name: "Ремонтний Набір для Будівель"
+			desc: "Використовуйте для повного ремонту всіх будівель у зоні навколо гравця."
 		}
 		copperrepair: {
-			name: "Copper Repair Kit"
+			name: "Мідний Ремонтний Набір"
 		}
 		copperrepair2: {
-			name: "Copper Repair 2"
+			name: "Мідний Ремонтний Набір 2"
 		}
 		shroomrepair: {
-			name: "Elite Repair Kit"
+			name: "Елітний Ремонтний Набір"
 		}
 		grenade: {
-			name: "Remote Surge"
-			desc: "Deal damage to all enemies around the cursor."
+			name: "Дистанційний Вибух"
+			desc: "Завдає шкоди всім ворогам навколо курсору."
 		}
 		grenade2: {
-			name: "Remote Surge 2"
+			name: "Дистанційний Вибух 2"
 		}
 		grenade3: {
-			name: "Remote Surge 3"
+			name: "Дистанційний Вибух 3"
 		}
 		enrage: {
-			name: "Weapons Charger"
-			desc: "Overcharges your weapons to deal extra damage at the price of movement speed for a short time."
+			name: "Заряджувач Зброї"
+			desc: "Перезаряджає вашу зброю, щоб завдати додаткової шкоди ціною швидкості руху на короткий час."
 		}
 		enrage2: {
-			name: "Weapons Charger 2"
+			name: "Заряджувач Зброї 2"
 		}
 		absorber: {
-			name: "Absorber"
-			desc: "Energizes Tiny's hull to absorb all damage for a few moments."
+			name: "Поглинач"
+			desc: "Енергетично заряджає корпус Tiny, щоб поглинати всю шкоду на кілька моментів."
 		}
 		decoy: {
-			name: "Jack Mechington"
-			desc: "Creates a decoy jack-in-a-box that the Drep will consider as a target."
+			name: "Джек Мекінгтон"
+			desc: "Створює приманку-скриньку, яку дрепи вважають ціллю."
 		}
 		decoy2: {
-			name: "Jack Mechington 2"
+			name: "Джек Мекінгтон 2"
 		}
 		decoy3: {
-			name: "Jack Mechington 3"
+			name: "Джек Мекінгтон 3"
 		}
 		folding-turret: {
-			name: "Deployable Turret"
-			desc: "Deploy a small turret in the field for some extra firepower."
+			name: "Розкладна Турель"
+			desc: "Розгорніть маленьку турель на полі для додаткової вогневої потужності."
 		}
 		folding-turret2: {
-			name: "Deployable Turret 2"
+			name: "Розкладна Турель 2"
 		}
 		skill-pack: {
-			name: "Upgrade Kit"
-			desc: "Use to gain one upgrade point."
+			name: "Набір для Модернізації"
+			desc: "Використовуйте для отримання одного очка модернізації."
 		}
 		skill-resetter: {
-			name: "Upgrades Scrapper"
-			desc: "Reset all your infrastructure upgrades. Removes all purchased infrastructure upgrades and restores used upgrade points."
+			name: "Переробник Модернізацій"
+			desc: "Скидає всі ваші інфраструктурні модернізації. Видаляє всі придбані інфраструктурні модернізації та відновлює використані очки модернізації."
 		}
 		threat-reducer: {
-			name: "Smoker"
-			desc: "Single-use device that will camouflage your city's presence, pausing the threat increase timer for 20 cycles."
+			name: "Камера"
+			desc: "Одноразовий пристрій, який маскує присутність вашого міста, призупиняючи таймер збільшення загрози на 20 циклів."
 		}
 		global-difficulty-reducer: {
-			name: "De-linker"
-			desc: "A powerful device that weakens the link to the Dream Realm. Use this to lower the global infestation level by one."
+			name: "Де-лінкер"
+			desc: "Потужний пристрій, який послаблює зв'язок зі Сновидним Реальмом. Використовуйте його, щоб знизити глобальний рівень зараження на один."
 		}
 		free-expansion: {
-			name: "Expansion Kit"
-			desc: "Use to add a free city expansion. After using the item, place the expansion through the build menu as usual.\n\nDoes not require to unlock the expansion tech."
+			name: "Набір для Розширення"
+			desc: "Використовуйте для додавання безкоштовного розширення міста. Після використання предмета розмістіть розширення через меню будівництва, як зазвичай.\n\nНе вимагає розблокування технології розширення."
 		}
 		flame-turret-kit: {
-			name: "Tarbomb Turret Kit"
-			desc: "Use to build a single tarbomb turret. After using the item, place the turret through the construction menu."
+			name: "Набір для Турелі з Смоляною Бомбою"
+			desc: "Використовуйте для побудови однієї турелі зі смоляною бомбою. Після використання предмета розмістіть турель через меню будівництва."
 		}
-
+	
 		perm-mod-extra-materializer: {
-			name: "Materializer Components"
-			desc: "Increases materializer limit."
+			name: "Компоненти Матеріалізатора"
+			desc: "Збільшує ліміт матеріалізатора."
 		}
 		perm-mod-acidextract: {
-			name: "Extract Acid"
+			name: "Екстракт Кислоти"
 		}
 		perm-mod-drep-desert-resources: {
-			name: "Additional Drep Processing"
+			name: "Додаткова Переробка Дрепу"
 		}
 		perm-mod-acid-transform: {
-			name: "Acid Transformation"
+			name: "Перетворення Кислоти"
 		}
 		perm-mod-build-flameturret: {
-			desc: "Build your own tarbomb turrets.\n\nNote: To build a tarbomb turret you need one of the rare dream cores."
+			desc: "Будуйте власні турелі зі смоляною бомбою.\n\nПримітка: Для побудови турелі зі смоляною бомбою вам потрібне одне з рідкісних ядер снів."
 		}
 		perm-mod-build-scoutpost: {
-			desc: "Build scout posts for free destination re-rolls.\n\nNote: To build a scout post you need one of the rare dream cores."
+			desc: "Будуйте розвідувальні пости для безкоштовних повторних кидків місця приземлення.\n\nПримітка: Для побудови розвідувального поста вам потрібне одне з рідкісних ядер снів."
 		}
 		perm-mod-city-crystal: {
-			name: "Crystal Materializer Blueprint"
-			desc: "Produce crystals at the materializer.\n\nNote: Requires an add-on that costs dream cores."
+			name: "Схема Матеріалізатора Кристалів"
+			desc: "Виробляйте кристали на матеріалізаторі.\n\nПримітка: Потрібен додаток, який коштує ядра снів."
 		}
 		perm-mod-city-acid: {
-			name: "Acid-shard Materializer Blueprint"
-			desc: "Produce acid shards at the materializer.\n\nNote: Requires an add-on that costs dream cores."
+			name: "Схема Матеріалізатора Кислотних Осколків"
+			desc: "Виробляйте кислотні осколки на матеріалізаторі.\n\nПримітка: Потрібен додаток, який коштує ядра снів."
 		}
 		perm-mod-city-sulfur: {
-			name: "Sulfur Materializer Blueprint"
-			desc: "Produce Sulfur at the materializer.\n\nNote: Requires an add-on that costs dream cores."
+			name: "Схема Матеріалізатора Сірки"
+			desc: "Виробляйте сірку на матеріалізаторі.\n\nПримітка: Потрібен додаток, який коштує ядра снів."
 		}
-
-		// Mods
-
+	
+		// Модулі
+	
 		speed-mod: {
-			name: "Speed Module"
+			name: "Модуль Швидкості"
 		}
 		berserker-mod: {
-			name: "Berserker Module"
+			name: "Модуль Берсерка"
 		}
 		tank-mod: {
-			name: "Defensive Module"
+			name: "Захисний Модуль"
 		}
 		self-repair-mod: {
-			name: "Self-Repair Module"
+			name: "Модуль Саморемонту"
 		}
 		aoe-ranged-mod: {
-			name: "Electric Bullets Module"
+			name: "Модуль Електричних Куль"
 		}
 		kinetic-guard-mod: {
-			name: "Kinetic Guard Module"
+			name: "Модуль Кінетичної Охорони"
 		}
 		vision-range-mod: {
-			name: "Scouting Module"
+			name: "Модуль Розвідки"
 		}
-
-		// City Core Mods
+	
+		// Модулі Ядра Міста
 		house-overdrive-mod: {
-			name: "Housing Overdrive"
+			name: "Прискорення Житлових Будинків"
 		}
 		green-refining-mod: {
-			name: "Green Refining"
+			name: "Зелена Переробка"
 		}
 		overdrive-refining-mod: {
-			name: "Refining Overdrive"
+			name: "Прискорення Переробки"
 		}
 		green-research-mod: {
-			name: "Green Research"
+			name: "Зелене Дослідження"
 		}
 		overdrive-research-mod: {
-			name: "Research Overdrive"
+			name: "Прискорення Досліджень"
 		}
 		cart-speed-mod: {
-			name: "Cart Speedup Module"
+			name: "Модуль Прискорення Візків"
 		}
 		cart-speed-mod2: {
-			name: "Cart Speedup Module 2"
+			name: "Модуль Прискорення Візків 2"
 		}
 		threat-reduce-mod: {
-			name: "Smokescreen Module"
+			name: "Модуль Димової Завіси"
 		}
 		global-diff-reduce-mod: {
-			name: "De-linker Module"
+			name: "Модуль Де-лінкера"
 		}
-
-		// Building mods
+	
+		// Модулі Будівель
 		fuel-costs-mod: {
-			name: "Fuel Efficiency Module"
+			name: "Модуль Ефективності Палива"
 		}
 		fly-carry-capacity-mod: {
-			name: "Carry Weight Module"
+			name: "Модуль Вантажопідйомності"
 		}
 		flying-device-upkeep-mod: {
-			name: "Floatation Upkeep Module"
+			name: "Модуль Обслуговування Літаючих Пристроїв"
 		}
 		storage-mod: {
-			name: "Storage Module"
+			name: "Модуль Сховища"
 		}
 		harvester-prodspeed-mod: {
-			name: "Harvester Speed Module"
+			name: "Модуль Швидкості Збирача"
 		}
 		harvester-prodspeed-mod2: {
-			name: "Harvester Speed Module 2"
+			name: "Модуль Швидкості Збирача 2"
 		}
 		harvester-upkeep-mod: {
-			name: "Harvester Upkeep Module"
+			name: "Модуль Обслуговування Збирача"
 		}
 		harvester-efficiency-mod: {
-			name: "Harvester Efficiency Module"
+			name: "Модуль Ефективності Збирача"
 		}
 		anybuilding-efficiency-mod: {
-			name: "General Efficiency Module"
+			name: "Модуль Загальної Ефективності"
 		}
 		anybuilding-upkeep-mod: {
-			name: "General Upkeep Module"
+			name: "Модуль Загального Обслуговування"
 		}
 		anybuilding-upkeep-mod2: {
-			name: "General Upkeep Module 2"
+			name: "Модуль Загального Обслуговування 2"
 		}
 		production-speed-mod: {
-			name: "Production Speed Module"
+			name: "Модуль Швидкості Виробництва"
 		}
 		production-speed-mod2: {
-			name: "Production Speed Module 2"
+			name: "Модуль Швидкості Виробництва 2"
 		}
 		farm-yield-mod: {
-			name: "Farm Yield Module"
+			name: "Модуль Врожайності Ферм"
 		}
 		materializer-yield-mod: {
-			name: "Materializer Yield Module"
+			name: "Модуль Врожайності Матеріалізатора"
 		}
 		research-output-mod: {
-			name: "Research Yield Module"
+			name: "Модуль Врожайності Досліджень"
 		}
 		apartment-upkeep-mod: {
-			name: "Housing Costs Module"
+			name: "Модуль Витрат на Житлові Будинки"
 		}
 		apartment-upkeep-mod2: {
-			name: "Housing Costs Module 2"
+			name: "Модуль Витрат на Житлові Будинки 2"
 		}
 		turret-range-mod: {
-			name: "Defensive Range Module"
+			name: "Модуль Дальності Оборони"
 		}
 		turret-damage-mod: {
-			name: "Defensive Damage Module"
+			name: "Модуль Шкоди Оборони"
 		}
 		turret-speed-mod: {
-			name: "Defensive Rate Module"
+			name: "Модуль Швидкості Оборони"
 		}
-
-		// Other
+	
+		// Інше
 		archeology-unlock: {
 			name: ""
 		}
-
-		// Story
+	
+		// Історія
 		story-broken-storage: {
-			name: "Broken Information Storage"
+			name: "Зламане Сховище Інформації"
 		}
 		story-repaired-storage: {
-			name: "Repaired Information Storage"
+			name: "Відремонтоване Сховище Інформації"
 		}
 	},
 
