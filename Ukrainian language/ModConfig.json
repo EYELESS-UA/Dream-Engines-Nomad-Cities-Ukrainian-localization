@@ -1,8 +1,8 @@
 {
 	title: "Ukrainian language",
-	desc: "",
-	uid: "0",
+	desc: "Цей мод додає українську локалізацію",
+	uid: "3258925888",
 	visibility: "0",
 	creator: "Eyeless",
-	tags: "Translate Localization Language",
+	tags: "Localization,translation,Language",
 }
