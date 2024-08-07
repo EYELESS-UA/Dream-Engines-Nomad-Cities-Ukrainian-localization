@@ -1,249 +1,249 @@
 {
 	missions: {
 		welcome-no-tut: {
-			name: "Welcome"
-			desc: "Welcome to Dream Engines. The tutorial is disabled, but the <highlight>milestones</highlight> at the top-right of the screen are there to help guide you. Mouse over a milestone to learn more about it.\n\nRemember: press <highlight>'Tab'</highlight> to switch between combat and city management modes."
+			name: "Ласкаво просимо"
+			desc: "Ласкаво просимо до Dream Engines. Навчання відключене, але <highlight>цілі</highlight> у верхньому правому куті екрану допоможуть вам орієнтуватися. Наведіть курсор на ціль, щоб дізнатися більше про неї.\n\nПам'ятайте: натисніть <highlight>'Tab'</highlight>, щоб переключатися між режимами бою та управління містом."
 		}
 
 		welcome-pre-fortifications-save: {
-			name: "Critical changes since your last save"
-			desc: "Welcome back to Dream Engines. We've released a new update after your last save. This update includes changes to enemy raids that could <highlight>get you killed</highlight> if you're <highlight>unaware</highlight> of them. Here are some of the most important changes:\n\n* Enemies in raids will now <highlight>ignore walls</highlight> unless they block their way. Walls are also stronger now.\n\n* Wandering enemies will occasionally <highlight>attack your city</highlight> and buildings <highlight>without warning</highlight>. These are much weaker than the raids, but you need to make sure all your buildings are well defended.\n\n* Larger tier2 and higher enemies are now <highlight>armored</highlight>. Wooden turrets and light crossbows <highlight>deal half-damage</highlight> to these. You may want to replace your turrets with more advanced versions.\n\n* There are now <highlight>stone turrets and walls</highlight> in the game."
+			name: "Критичні зміни з моменту вашого останнього збереження"
+			desc: "Ласкаво просимо назад до Dream Engines. Після вашого останнього збереження ми випустили нове оновлення. Це оновлення включає зміни в атаках ворогів, які можуть <highlight>призвести до вашої смерті</highlight>, якщо ви <highlight>не обізнані</highlight> про них. Ось деякі з найважливіших змін:\n\n* Вороги в рейдах тепер будуть <highlight>ігнорувати стіни</highlight>, якщо вони не блокують їхній шлях. Стіни тепер також міцніші.\n\n* Блукаючі вороги іноді будуть <highlight>атакувати ваше місто</highlight> і будівлі <highlight>без попередження</highlight>. Вони набагато слабші за рейди, але ви повинні переконатися, що всі ваші будівлі добре захищені.\n\n* Великі вороги рівня 2 та вище тепер <highlight>броньовані</highlight>. Дерев'яні турелі та легкі арбалети <highlight>завдають їм половину шкоди</highlight>. Вам, можливо, захочеться замінити ваші турелі на більш вдосконалені версії.\n\n* Тепер у грі є <highlight>кам'яні турелі та стіни</highlight>."
 		}
 
 		// Tutorial Missions
 		welcome: {
-			name: "Welcome"
+			name: "Ласкаво просимо"
 			texts: {
-				desc: "Welcome to Dream Engines. This <highlight>tutorial</highlight> will guide you through the basic controls of the game.\n\nThis is only a guide and does not affect the game, so you can still lose if your city gets destroyed during the tutorial."
-				desc2: "Follow the instructions in the <highlight>top-right</highlight> area of the screen."
+				desc: "Ласкаво просимо до Dream Engines. Цей <highlight>підручник</highlight> проведе вас через основні елементи керування грою.\n\nЦе лише гід і він не впливає на гру, тому ви все одно можете програти, якщо ваше місто буде знищене під час підручника."
+				desc2: "Слідуйте інструкціям у <highlight>верхньому правому</highlight> куті екрану."
 			}
 		}
 
 		images: {
-			name: "Navigating the Tutorial"
+			name: "Навігація в підручнику"
 			texts: {
-				intro: "Some tutorial messages such as this one include visual guides in the form of videos and images. Hover your mouse over the video icon in order to view it."
-				previous: "You can review all previous tutorials in the journal, by pressing the F1 key or the help button in the game (ESC) menu."
-				pause: "You can also pause the game and take your time to read the tutorial messages. Press the space bar to pause/unpause the game at any time."
+				intro: "Деякі повідомлення підручника, такі як це, включають візуальні гіди у вигляді відео та зображень. Наведіть курсор миші на іконку відео, щоб переглянути його."
+				previous: "Ви можете переглянути всі попередні підручники в журналі, натиснувши клавішу F1 або кнопку допомоги в меню гри (ESC)."
+				pause: "Ви також можете поставити гру на паузу і взяти час для читання повідомлень підручника. Натисніть пробіл, щоб призупинити/відновити гру в будь-який час."
 			}
 			objectives: {
-				hover-video: "Hover the video icon above"
-				unpause: "Pause and unpause the game"
+				hover-video: "Наведіть курсор на іконку відео вище"
+				unpause: "Поставте гру на паузу та зніміть з паузи"
 			}
 		}
 
 		movement: {
-			name: "Movement"
+			name: "Рух"
 			texts: {
-				intro: "As overseer, you control <highlight>Tiny</highlight> - an ancient armored exploration unit."
-				move: "Move tiny around with the <highlight>WASD</highlight> keys."
-				zoom: "Use the <highlight>mouse wheel</highlight> to zoom in or out."
-				rotate: "Hold the <highlight>middle mouse button</highlight> to rotate your camera."
+				intro: "Як наглядач, ви керуєте <highlight>Tiny</highlight> - древньою броньованою розвідувальною одиницею."
+				move: "Переміщайте Tiny за допомогою клавіш <highlight>WASD</highlight>."
+				zoom: "Використовуйте <highlight>колесо миші</highlight>, щоб збільшити або зменшити масштаб."
+				rotate: "Утримуйте <highlight>середню кнопку миші</highlight>, щоб обертати камеру."
 			}
 			objectives: {
-				movemech: "Move around"
-				movemech-hover: "As overseer, you control <highlight>Tiny</highlight> - an ancient armored exploration unit.\n\nUse the <highlight>WASD</highlight> keys to move around. Tiny will always face towards the mouse pointer."
-				zoom: "Change zoom"
-				zoom-hover: "Use the <highlight>mouse scroll wheel</highlight> to zoom in or out."
-				rotate: "Rotate Camera"
-				rotate-hover: "Hold the <highlight>middle mouse button</highlight> and move the mouse to rotate your camera.\n\nYou can press <highlight>'N'</highlight> to return it to the default view."
+				movemech: "Переміщайтеся"
+				movemech-hover: "Як наглядач, ви керуєте <highlight>Tiny</highlight> - древньою броньованою розвідувальною одиницею.\n\nВикористовуйте клавіші <highlight>WASD</highlight>, щоб переміщатися. Tiny завжди буде дивитися в бік курсора миші."
+				zoom: "Змініть масштаб"
+				zoom-hover: "Використовуйте <highlight>колесо прокрутки миші</highlight>, щоб збільшити або зменшити масштаб."
+				rotate: "Обертання камери"
+				rotate-hover: "Утримуйте <highlight>середню кнопку миші</highlight> і рухайте мишу для обертання камери.\n\nВи можете натиснути <highlight>'N'</highlight>, щоб повернутися до виду за замовчуванням."
 			}
 		}
 
 		switch-to-mgmt-mode: {
-			name: "Combat & Management Modes"
+			name: "Режими Бою та Управління"
 			texts: {
-				combat-mode: "<highlight>Combat mode</highlight> is used when exploring the map and for fighting enemies."
-				mgmt-mode: "<highlight>Management mode</highlight> is used for building and managing your city."
-				switch: "Press <highlight>'Tab'</highlight> to switch between modes and open the management mode."
+				combat-mode: "<highlight>Режим бою</highlight> використовується для дослідження карти та боротьби з ворогами."
+				mgmt-mode: "<highlight>Режим управління</highlight> використовується для будівництва та управління вашим містом."
+				switch: "Натисніть <highlight>'Tab'</highlight>, щоб переключатися між режимами та відкрити режим управління."
 			}
 			objectives: {
-				management-mode: "Switch to management mode"
+				management-mode: "Перейдіть у режим управління"
 			}
 		}
 
 		build-houses: {
-			name: "Building"
+			name: "Будівництво"
 			texts: {
-				intro: "To increase your city's population, <highlight>build some houses</highlight> for your workers to live in."
-				build: "Select the <highlight>'House'</highlight> button from the build menu, and then click on the map to place them."
+				intro: "Щоб збільшити населення вашого міста, <highlight>побудуйте кілька будинків</highlight> для ваших робітників."
+				build: "Виберіть кнопку <highlight>'Будинок'</highlight> в меню будівництва, а потім натисніть на карту, щоб розмістити їх."
 			}
 			objectives: {
-				buildhouses: "Build houses"
+				buildhouses: "Побудуйте будинки"
 			}
 		}
 
 		build-rails: {
-			name: "Automated Delivery"
+			name: "Автоматична доставка"
 			texts: {
-				intro: "Houses need a constant supply of food. Resources in Dream Engines are transported via an <highlight>automated rail system</highlight> that works like conveyor belts."
-				build: "To build rails, select them from the Infrastructure category, then click and drag in the direction you want the resources to travel."
-				access-points: "Buildings send or receive resources from access points. Drag rails to/from a building to create input/output slots."
+				intro: "Будинкам потрібен постійний запас їжі. Ресурси в Dream Engines транспортуються через <highlight>автоматичну систему рейок</highlight>, яка працює як конвеєрні стрічки."
+				build: "Щоб побудувати рейки, виберіть їх у категорії Інфраструктура, потім натисніть і тягніть у напрямку, в якому повинні переміщуватися ресурси."
+				access-points: "Будівлі надсилають або отримують ресурси з точок доступу. Тягніть рейки до/від будівлі, щоб створити слоти вводу/виводу."
 			}
 			objectives: {
-				sendfood: "Create an output to send food from the city core"
-				connect-houses: "Create inputs for the houses"
-				housesactive: "Connect the rails and deliver food to both houses."
+				sendfood: "Створіть вихід для відправки їжі з ядра міста"
+				connect-houses: "Створіть входи для будинків"
+				housesactive: "Підключіть рейки та доставте їжу до обох будинків."
 			}
 		}
 
 		equip-repairkit: {
-			name: "Inventory & Equipment"
+			name: "Інвентар та Обладнання"
 			texts: {
-				intro: "Before you explore the dangerous surroundings in search of additional resources, you should equip some <highlight>repair kits</highlight> in case Tiny takes damage."
-				grab: "The repair kits are in the city core. To open the building window, <highlight>left click</highlight> on it while in <highlight>management mode</highlight>."
-				equip: "Then assign the repair kit to a quickslot. Press <highlight>'I'</highlight> to open the character window."
+				intro: "Перш ніж вирушити на небезпечні околиці в пошуках додаткових ресурсів, вам слід оснастити кілька <highlight>ремонтних комплектів</highlight> на випадок, якщо Tiny отримає пошкодження."
+				grab: "Ремонтні комплекти знаходяться в ядрі міста. Щоб відкрити вікно будівлі, <highlight>натисніть ліву кнопку миші</highlight> на ньому в режимі <highlight>управління</highlight>."
+				equip: "Потім призначте ремонтний комплект на швидкий слот. Натисніть <highlight>'I'</highlight>, щоб відкрити вікно персонажа."
 			}
 			objectives: {
-				collectrepairkit: "Grab repair kits from the city core storage"
-				equiprepairkit: "Assign repair kit to the quickbar"
+				collectrepairkit: "Візьміть ремонтні комплекти зі складу в ядрі міста"
+				equiprepairkit: "Призначте ремонтний комплект на швидку панель"
 			}
 		}
 
 		grab-items: {
-			name: "Transferring Items"
+			name: "Переміщення предметів"
 			texts: {
-				grab: "This is the building window. You can see Tiny's inventory on the left, and the building's storage and other info on the right.\n\nHold <highlight>'SHIFT'</highlight> and <highlight>click</highlight> on the <highlight>Repair Kit</highlight> icon to grab the entire stack."
+				grab: "Це вікно будівлі. Ви можете бачити інвентар Tiny зліва, а сховище будівлі та іншу інформацію - справа.\n\nУтримуйте <highlight>'SHIFT'</highlight> і <highlight>клікніть</highlight> на іконку <highlight>Ремонтного Комплекту</highlight>, щоб взяти всю стопку."
 			}
 		}
 
 		quickbar: {
-			name: "Assigning to Quickbar"
+			name: "Призначення на Швидку Панель"
 			texts: {
-				assign: "Click on one of the <highlight>empty quickbar slots</highlight> in the character area and then choose the item you wish to assign to that slot.\n\nOnce assigned, you can press the corresponding keyboard shortcut while in combat mode to use that item."
+				assign: "Натисніть на один з <highlight>порожніх слотів швидкої панелі</highlight> в області персонажа, а потім виберіть предмет, який ви хочете призначити на цей слот.\n\nПісля призначення ви можете натиснути відповідну комбінацію клавіш в режимі бою, щоб використовувати цей предмет."
 			}
 		}
 
 		tiny-combat: {
-			name: "Fighting Dream Plagues"
+			name: "Боротьба з Dream Plagues"
 			texts: {
-				intro: "While exploring, Tiny will encounter the Dream Plagues (Drep). Tiny is equipped with replaceable weapons, one ranged and one melee, with which it can defend against these hostile creatures."
-				attack: "Use the <highlight>left mouse button</highlight> to use Tiny's melee attack, and the <highlight>right mouse button</highlight> for ranged attacks."
-				tips: "Press and hold to attack continuously, and don't forget to press <highlight>TAB</highlight> to switch to combat mode."
+				intro: "Під час досліджень Tiny зустріне Dream Plagues (Drep). Tiny оснащений змінною зброєю, однією дальнього та однією ближнього бою, за допомогою яких він може захищатися від цих ворожих істот."
+				attack: "Використовуйте <highlight>ліву кнопку миші</highlight> для атаки зброєю ближнього бою Tiny, а <highlight>праву кнопку миші</highlight> для атак дальнього бою."
+				tips: "Натисніть і утримуйте, щоб атакувати безперервно, і не забудьте натиснути <highlight>TAB</highlight>, щоб переключитися в режим бою."
 			}
 			objectives: {
-				combatmode: "Switch to combat mode"
-				meleeattack: "Attack with melee weapon"
-				rangedattack: "Attack with ranged weapon"
+				combatmode: "Перейдіть у режим бою"
+				meleeattack: "Атакуйте зброєю ближнього бою"
+				rangedattack: "Атакуйте зброєю дальнього бою"
 			}
 		}
 
 		collect-bloodwood: {
-			name: "Harvesters"
+			name: "Збирачі ресурсів"
 			texts: {
-				intro: "It's time to collect some resources. Explore the area around the city that is marked on your minimap and search for a <highlight>Bloodwood</highlight> resource node."
-				build: "To build a harvester, switch to management mode, <highlight>click on the resource</highlight> to open its window, and then click on the <highlight>Bloodwood Cutter</highlight> button."
+				intro: "Час збирати ресурси. Досліджуйте область навколо міста, яка позначена на вашій мінікарті, і шукайте вузол ресурсу <highlight>Кроваве дерево</highlight>."
+				build: "Щоб побудувати збирача, перейдіть в режим управління, <highlight>натисніть на ресурс</highlight>, щоб відкрити його вікно, а потім натисніть кнопку <highlight>Різак Кровавого Дерева</highlight>."
 			}
 			objectives: {
-				findwood: "Find a bloodwood resource patch"
-				gatherwood: "Build a {0}"
+				findwood: "Знайдіть ділянку ресурсу кровавого дерева"
+				gatherwood: "Побудуйте {0}"
 			}
 		}
 
 		build-warper: {
-			name: "Production"
+			name: "Виробництво"
 			texts: {
-				intro: "You're now collecting logs, but before you can use them they need to be refined into <highlight>planks</highlight> and transfered to <highlight>storage</highlight>. Logs and other raw materials cannot be taken with you when you fly away while refined materials can."
-				buildwoodwarper: "Planks are produced from logs at a <highlight>Wood Warper</highlight>. Wood warpers needs to be within your <highlight>power area</highlight>, so it's better to build near the city."
-				freecamera: "In management mode, press 'Space' to pause the game, and 'F' to toggle free camera. You can then build all around the map without moving Tiny while the game is paused."
+				intro: "Ви зараз збираєте колоди, але перш ніж їх можна буде використовувати, їх потрібно обробити в <highlight>дошки</highlight> і перевезти на <highlight>склад</highlight>. Колоди та інші сировинні матеріали не можна брати з собою, коли ви відлітаєте, тоді як оброблені матеріали можна."
+				buildwoodwarper: "Дошки виробляються з колод у <highlight>Верстаті для обробки дерева</highlight>. Верстати для обробки дерева повинні бути в межах вашої <highlight>зони живлення</highlight>, тому краще будувати їх біля міста."
+				freecamera: "У режимі управління натисніть 'Space', щоб призупинити гру, і 'F', щоб увімкнути вільну камеру. Потім ви можете будувати по всій карті, не переміщуючи Tiny, поки гра призупинена."
 			}
 			objectives: {
-				buildwoodwarper: "Build {0} x {1} and supply them with logs"
+				buildwoodwarper: "Побудуйте {0} x {1} і забезпечте їх колодами"
 			}
 		}
 
 		speedup: {
-			name: "Speed-up"
+			name: "Прискорення"
 			texts: {
-				sendplanks: "Now build some rails to send planks from the warpers into your city core for storage, then wait for some planks to be produced."
-				speedup: "You can speed-up the game when waiting for the planks to be delivered. Press and hold the speed-up button (Default '+') after building the rails."
+				sendplanks: "Тепер побудуйте кілька рейок, щоб відправити дошки з верстатів у ядро вашого міста для зберігання, а потім зачекайте, поки будуть вироблені деякі дошки."
+				speedup: "Ви можете прискорити гру, коли чекаєте на доставку дощок. Натисніть і утримуйте кнопку прискорення (за замовчуванням '+') після побудови рейок."
 			}
 			objectives: {
-				haveplanks: "Collect {0} x{1}"
+				haveplanks: "Зберіть {0} x{1}"
 			}
 		}
 
 		city-level1: {
-			name: "City Level"
+			name: "Рівень Міста"
 			texts: {
-				nodes: "As you explore, keep your eye out for additional resource nodes. Once a resource node is depleted, it will produce at a reduced speed and you may want to connect more nodes."
-				increase-pop: "Now, <highlight>increase your city population level</highlight> to unlock some more buildings. To increase your city level you need to increase your population. You can see the progress in the HUD at the top of the screen."
+				nodes: "Під час досліджень звертайте увагу на додаткові вузли ресурсів. Після того, як ресурсний вузол вичерпається, він буде виробляти ресурси з меншою швидкістю, і вам, можливо, знадобиться підключити більше вузлів."
+				increase-pop: "Тепер <highlight>збільште рівень населення вашого міста</highlight>, щоб відкрити більше будівель. Щоб підвищити рівень міста, вам потрібно збільшити населення. Ви можете побачити прогрес на HUD у верхній частині екрану."
 			}
 			objectives: {
-				build-houses: "Supply food to 3 houses"
-				city-level1: "Reach a population of {1}"
+				build-houses: "Забезпечте їжею 3 будинки"
+				city-level1: "Досягніть населення {1}"
 			}
 		}
 
 		craft-repairkit: {
-			name: "Crafting"
+			name: "Крафт"
 			texts: {
-				intro: "In order to be more efficient in exploring, gathering, and defending your city, you'll need better <highlight>equipment</highlight>. Before you can craft new weapons or armor you'll have to perform some research (more on that later), but you can already <highlight>craft some more repair kits</highlight>."
-				craft: "Press <highlight>'C'</highlight> to open the crafting window, then select the repair kit and click the craft button. You may need to get some more planks first."
+				intro: "Щоб бути більш ефективним у дослідженнях, зборі ресурсів та захисті вашого міста, вам знадобиться краще <highlight>обладнання</highlight>. Перш ніж ви зможете створювати нову зброю або броню, вам потрібно буде провести деякі дослідження (про це пізніше), але вже зараз ви можете <highlight>створити кілька ремонтних комплектів</highlight>."
+				craft: "Натисніть <highlight>'C'</highlight>, щоб відкрити вікно крафту, потім виберіть ремонтний комплект і натисніть кнопку крафту. Можливо, вам спочатку потрібно буде отримати більше дощок."
 			}
 			objectives: {
-				craftrepairkit: "Craft a {0}"
+				craftrepairkit: "Створіть {0}"
 			}
 		}
 
 		produce-food-farms: {
-			name: "Food Production - Farming"
+			name: "Виробництво їжі - Фермерство"
 			texts: {
-				farms: "You should see to your food supplies next, they won't last forever. First step in food production is growing raw food. A few <highlight>Purptato Farms</highlight> should do the trick. You will find them under the <highlight>'Gathering'</highlight> category."
-				tesla: "You can expand your power area by building <highlight>Tesla Towers</highlight> from the Power category."
+				farms: "Тепер варто подбати про ваші запаси їжі, вони не будуть нескінченними. Перший крок у виробництві їжі - це вирощування сировини. Кілька <highlight>Ферм Пурптатосів</highlight> мають впоратися з цим завданням. Ви знайдете їх у категорії <highlight>'Збір'</highlight>."
+				tesla: "Ви можете розширити свою зону живлення, побудувавши <highlight>Вежі Тесли</highlight> з категорії Живлення."
 			}
 			objectives: {
-				buildtesla: "Build a Tesla Tower"
-				buildfarm: "Build purptato farms near the city"
+				buildtesla: "Побудуйте Вежу Тесли"
+				buildfarm: "Побудуйте ферми пурптатосів біля міста"
 			}
 		}
 
 		produce-food-process: {
-			name: "Food Production - Processing"
+			name: "Виробництво їжі - Переробка"
 			texts: {
-				intro: "Now build a <highlight>Food Plant</highlight> and set up rails to transport <highlight>purptatoes from the farm</highlight>, then send the produced food <highlight>to the city core</highlight> storage."
-				more-food: "As your population grows, you will need to produce more food, and you can build more farms for the Food Plant to reach full efficiency. You can see input and output amount per cycle in the production UI when interacting with the buildings."
+				intro: "Тепер побудуйте <highlight>Харчовий Завод</highlight> і налаштуйте рейки для транспортування <highlight>пурптатосів з ферми</highlight>, потім відправте вироблену їжу на <highlight>склад ядра міста</highlight>."
+				more-food: "Зі зростанням населення вам потрібно буде виробляти більше їжі, і ви можете побудувати більше ферм, щоб Харчовий Завод працював з повною ефективністю. Ви можете бачити кількість вводу і виводу за цикл в інтерфейсі виробництва при взаємодії з будівлями."
 			}
 			objectives: {
-				buildfoodplant: "Build a {0}"
-				producefood: "Supply {0} with purptatoes"
-				sendfood: "Send food to storage"
+				buildfoodplant: "Побудуйте {0}"
+				producefood: "Забезпечте {0} пурптатосами"
+				sendfood: "Відправте їжу на склад"
 			}
 		}
 
 		power-flux: {
-			name: "Power & Flux"
+			name: "Енергія та Флюс"
 			texts: {
-				intro: "To keep the city running, you will need more than food and wood. You will also need to produce enough <highlight>Power</highlight> and <highlight>Flux</highlight>."
-				buildflux: "Some Flux is produced in houses, but higher amounts require Flux Vats. Build some of these <highlight>outside your city</highlight>. Their most basic production recipe doesn't require any raw materials so don't worry about where you put them."
-				buildpower: "Power is not required to build new buildings, but is essential to operating existing ones. Make sure your power production is always positive. You can produce power at the <highlight>Power Generator</highlight>. Like flux, it's most basic recipe does not require any raw materials, but these cannot be built too close to each other."
+				intro: "Щоб місто функціонувало, вам потрібно більше ніж їжа та деревина. Вам також потрібно виробляти достатньо <highlight>Енергії</highlight> та <highlight>Флюсу</highlight>."
+				buildflux: "Деякий Флюс виробляється в будинках, але для отримання більших кількостей потрібні Резервуари для Флюсу. Побудуйте кілька таких <highlight>поза межами вашого міста</highlight>. Їхній найпростіший рецепт виробництва не потребує сировини, тому не хвилюйтеся, де їх розміщувати."
+				buildpower: "Енергія не потрібна для будівництва нових будівель, але вона важлива для функціонування існуючих. Переконайтеся, що ваше виробництво енергії завжди в плюсі. Ви можете виробляти енергію на <highlight>Генераторі Енергії</highlight>. Як і флюс, його найпростіший рецепт не потребує сировини, але їх не можна будувати надто близько один до одного."
 			}
 			objectives: {
-				buildflux: "Build {0} x {1} near the city"
-				buildpower: "Build {0} x {1} near the city"
+				buildflux: "Побудуйте {0} x {1} біля міста"
+				buildpower: "Побудуйте {0} x {1} біля міста"
 			}
 		}
 
 		move-objects: {
-			name: "City Area Management"
+			name: "Управління Територією Міста"
 			texts: {
-				intro: "You're almost ready to start exploring on your own. Before that, you should understand the core concept of <highlight>building inside</highlight> or <highlight>outside</highlight> your city."
-				flying: "Since your city can <highlight>fly</highlight>, there are advantages to building inside it - you can <highlight>take these buildings with you</highlight>. Space is limited, however, and while you can later expand your city area and maximum weight - you'll need to prioritize what you build within it. Most of the basic buildings are cheap and take up a lot of space, which makes them better fit to be built outside - and scrapped before you leave."
-				longrun: "In the long run, however, you will want to be able to take more and more of your industry with you when you fly away. So some more expensive buildings, or <highlight>upgraded versions</highlight> of the basic ones, should be built inside the city."
-				moving: "Luckily, most buildings can be moved around. To move a building, press <highlight>'M'</highlight> in management mode, then click the building you want to move and place it in a new position."
+				intro: "Ви майже готові почати досліджувати самостійно. Перш ніж це зробити, вам слід зрозуміти основну концепцію <highlight>будівництва всередині</highlight> або <highlight>зовні</highlight> вашого міста."
+				flying: "Оскільки ваше місто може <highlight>літати</highlight>, є переваги у будівництві всередині нього - ви можете <highlight>взяти ці будівлі з собою</highlight>. Однак простір обмежений, і хоча ви зможете пізніше розширити територію вашого міста та максимальну вагу, вам потрібно буде пріоритезувати, що ви будуєте в ньому. Більшість базових будівель дешеві та займають багато місця, тому їх краще будувати зовні - і розбирати перед відльотом."
+				longrun: "У довгостроковій перспективі ви захочете мати можливість брати з собою все більше вашої промисловості, коли відлітаєте. Тому деякі більш дорогі будівлі або <highlight>покращені версії</highlight> базових будівель слід будувати всередині міста."
+				moving: "На щастя, більшість будівель можна переміщувати. Щоб перемістити будівлю, натисніть <highlight>'M'</highlight> в режимі управління, потім натисніть на будівлю, яку хочете перемістити, і розмістіть її на новому місці."
 			}
 			objectives: {
-				movebuilding: "Move a building"
+				movebuilding: "Перемістіть будівлю"
 			}
 		}
 
 		tutorial-end: {
-			name: "End of tutorial"
+			name: "Кінець підручника"
 			texts: {
-				end1: "Good job! This is the end of the tutorial. These were just the most basic controls, there's much more for you to learn. Additional features and mechanics such as researching, defending your city, flying away and infrastructure upgrades will be explained when you encounter them."
-				end2: "Your first goal should be to <highlight>grow your population</highlight> to unlock the <highlight>research lab</highlight>. The final goal of the game is to find a way to establish a <highlight>permanent settlement</highlight>."
-				end3: "<highlight>Collect</highlight> as many <highlight>resources</highlight> as you can <highlight>refine</highlight> and be prepared to fly away before the Dream Plagues overwhelm your defenses."
-				end4: "If you have any feedback, please use the send feedback button or join our discord (link in the title screen). Good luck!"
+				end1: "Відмінна робота! Це кінець підручника. Це були лише найосновніші елементи керування, вам ще багато чого треба дізнатися. Додаткові функції та механіки, такі як дослідження, захист вашого міста, відліт і оновлення інфраструктури, будуть пояснені, коли ви зіткнетеся з ними."
+				end2: "Вашою першою метою має бути <highlight>збільшення населення</highlight>, щоб відкрити <highlight>лабораторію досліджень</highlight>. Кінцева мета гри - знайти спосіб заснувати <highlight>постійне поселення</highlight>."
+				end3: "<highlight>Збирайте</highlight> якомога більше <highlight>ресурсів</highlight>, щоб <highlight>переробити</highlight> їх, і будьте готові відлетіти, перш ніж Dream Plagues зруйнують вашу оборону."
+				end4: "Якщо у вас є відгуки, будь ласка, скористайтеся кнопкою надсилання відгуків або приєднуйтеся до нашого дискорду (посилання на головному екрані). Удачі!"
 			}
 		}
 
@@ -252,264 +252,263 @@
 		// Situational Tutorials
 
 		researchlab-unlocked: {
-			name: "Research Labs"
+			name: "Лабораторії досліджень"
 			texts: {
-				build: "Your population now allows you to build <highlight>research labs</highlight>. Build labs to research technologies and unlock new buildings, equipment, and other bonuses."
-				research: "Press <highlight>'R'</highlight> to open the research screen and select technologies to research."
-				materials: "For the labs to produce knowledge, make sure you <highlight>regularly supply them with the required materials</highlight>, as shown in the production widget when interacting with the lab."
+				build: "Ваше населення тепер дозволяє будувати <highlight>лабораторії досліджень</highlight>. Будуйте лабораторії, щоб досліджувати технології та відкривати нові будівлі, обладнання та інші бонуси."
+				research: "Натисніть <highlight>'R'</highlight>, щоб відкрити екран досліджень і вибрати технології для дослідження."
+				materials: "Щоб лабораторії виробляли знання, переконайтеся, що ви <highlight>регулярно забезпечуєте їх необхідними матеріалами</highlight>, як показано у віджеті виробництва під час взаємодії з лабораторією."
 			}
 			objectives: {
-				buildlab: "Build a {0}"
-				research-selected: "Select a technology to research"
-				activatelab: "Supply {0} with resources"
+				buildlab: "Побудуйте {0}"
+				research-selected: "Виберіть технологію для дослідження"
+				activatelab: "Забезпечте {0} ресурсами"
 			}
-
 		}
 
 		research-screen: {
-			name: "Research Screen"
+			name: "Екран досліджень"
 			texts: {
-				desc: "This screen allows you to plan and set your research. Each subject has a cost in <highlight>knowledge points</highlight>, and elements that are unlocked by completing this research.\n\nHover your mouse over the unlocks to learn more about them."
-				desc2: "<highlight>Click</highlight> on any research subject to set a goal. <highlight>Shift + click</highlight> to add additional subjects to the end of the queue.\n\nOnce a research goal is selected, labs will start producing knowledge. Knowledge points will be assigned to the first subject in the research queue until it is complete."
+				desc: "Цей екран дозволяє вам планувати та встановлювати свої дослідження. Кожна тема має вартість у <highlight>очка знань</highlight> і елементи, які розблоковуються після завершення цього дослідження.\n\nНаведіть курсор миші на розблоковані елементи, щоб дізнатися більше про них."
+				desc2: "<highlight>Клацніть</highlight> на будь-яку тему дослідження, щоб встановити мету. <highlight>Shift + клацання</highlight>, щоб додати додаткові теми в кінець черги.\n\nПісля вибору мети дослідження лабораторії почнуть виробляти знання. Очки знань будуть призначені першій темі в черзі досліджень, поки вона не буде завершена."
 			}
 		}
 
 		expand-city: {
-			name: "Expansion"
+			name: "Розширення"
 			texts: {
-				desc: "You can now expand your city area to make more room for your housing and production buildings."
-				desc2: "Select the <highlight>'City Expansion'</highlight> from the <highlight>'Infrastructure'</highlight> category in the <highlight>build menu</highlight>, then choose the expansion you want to purchase on the map."
+				desc: "Тепер ви можете розширити територію свого міста, щоб створити більше місця для ваших житлових і виробничих будівель."
+				desc2: "Виберіть <highlight>'Розширення міста'</highlight> у категорії <highlight>'Інфраструктура'</highlight> в <highlight>меню будівництва</highlight>, а потім виберіть розширення, яке ви хочете придбати на карті."
 			}
 		}
 
 		missing-workers: {
-			name: "Workers"
+			name: "Працівники"
 			texts: {
-				desc: "You don't have enough workers for all your buildings. Your population also serves as workers for running your city and its industry. <highlight>Workers are created in the city core</highlight>, but only if you have free <highlight>housing</highlight> available."
-				desc2: "To increase your maximum population, <highlight>build and upgrade houses</highlight>, and make sure they have a constant <highlight>supply of food</highlight>. Houses <highlight>without power or food</highlight> will not provide any living space."
+				desc: "У вас недостатньо працівників для всіх ваших будівель. Ваше населення також служить працівниками для управління вашим містом та його промисловістю. <highlight>Працівники створюються в ядрі міста</highlight>, але лише якщо у вас є вільне <highlight>житло</highlight>."
+				desc2: "Щоб збільшити максимальну кількість населення, <highlight>будуйте та покращуйте будинки</highlight> і переконайтеся, що вони мають постійний <highlight>запас їжі</highlight>. Будинки <highlight>без електрики або їжі</highlight> не надаватимуть житлового простору."
 			}
 		}
 
 		mini-raids: {
-			name: "Wandering Dream Plagues"
+			name: "Блукаючі Чумні Сни"
 			texts: {
-				desc: "As long as your city is on the ground, it is vulnerable. Most dream plagues are dormant unless you get near them, but sometimes small groups may wander near your city <highlight>and attack without warning</highlight>."
-				desc2: "While Tiny can easily dispatch these small groups, you can't be everywhere at once, and these creatures can quickly destroy exposed buildings. To prevent this from happening, close up all entrances to your city with <highlight>walls and gates</highlight> and protect them with <highlight>turrets</highlight>."
+				desc: "Поки ваше місто на землі, воно вразливе. Більшість чумних снів неактивні, якщо ви не наближаєтесь до них, але іноді невеликі групи можуть блукати поблизу вашого міста <highlight>і атакувати без попередження</highlight>."
+				desc2: "Хоча Tiny може легко розправитися з цими невеликими групами, ви не можете бути всюди одночасно, а ці створіння можуть швидко знищити незахищені будівлі. Щоб запобігти цьому, закрийте всі входи до вашого міста <highlight>стінами та воротами</highlight> і захистіть їх <highlight>турелями</highlight>."
 			}
 			objectives: {
-				build-turret: "Build {0} x {1}"
-				build-wall: "Build {0} x {1}"
+				build-turret: "Побудуйте {0} x {1}"
+				build-wall: "Побудуйте {0} x {1}"
 			}
 		}
 
 		attack-warning: {
-			name: "Drep Raids"
+			name: "Рейди Дрепів"
 			texts: {
-				desc: "Sometimes your city will attract larger groups of Dream Plagues that that will attempt to destroy it. These <highlight>raids</highlight> are more dangerous than those wandering around, and they attack in multiple waves."
-				desc2: "You can <highlight>track the raid in the minimap</highlight>, and it is strongly advised to build some defenses and protect your buildings from the direction of the raid.\n\n<highlight>Turrets</highlight> provide extra firepower, but can't withstand too much damage, so be sure to put up some <highlight>walls</highlight>."
-				desc3: "Wooden turrets fire slowly, but they deal <highlight>explosive area damage</highlight>. They are well suited against clumped weaker enemies, but you may need to help them take out stronger ones.\n\nYou can also move turrets around when reorganizing your city, but only so long as there is no active or approaching raid."
+				desc: "Іноді ваше місто буде приваблювати більші групи Чумних Снів, які спробують його знищити. Ці <highlight>рейди</highlight> набагато небезпечніші за ті, що блукають навколо, і вони атакують у кілька хвиль."
+				desc2: "Ви можете <highlight>відстежувати рейд на мінікарті</highlight>, і настійно рекомендується побудувати деякі оборонні споруди та захистити свої будівлі з боку, звідки приходить рейд.\n\n<highlight>Турелі</highlight> забезпечують додаткову вогневу міць, але не можуть витримати надто багато ушкоджень, тому обов'язково встановіть кілька <highlight>стін</highlight>."
+				desc3: "Дерев'яні турелі стріляють повільно, але завдають <highlight>вибухових ушкоджень по площі</highlight>. Вони добре підходять для боротьби з групами слабших ворогів, але вам, можливо, доведеться допомогти їм впоратися з сильнішими.\n\nВи також можете переміщувати турелі під час реорганізації свого міста, але лише за умови, що рейд не активний і не наближається."
 			}
 		}
 
 		taking-off: {
-			name: "Taking Off"
+			name: "Зліт"
 			texts: {
-				desc: "As long as your city stays put, the Drep raids will get more and more aggressive. You can see the current <highlight>threat level</highlight> in your HUD."
-				desc2: "When you feel they are getting too tough, you should fly away and find a calmer place to land. <highlight>Click the launch button</highlight> in the HUD to initiate the take-off procedure. It <highlight>takes some time</highlight> while the engines warm up, so <highlight>don't wait too long</highlight> or you'll become Drep food."
-				desc3: "Remember, only the buildings within the city will fly with you, so consider scrapping the external ones to get some of the resources back, or moving them into the city if you have free space and carry weight."
-				desc4: "Also, unrefined raw materials like logs are too heavy to carry, so they will be left behind. Refine as many as you can before leaving. And make sure Tiny is in the city when the timer runs out!"
+				desc: "Поки ваше місто залишається на місці, рейди Дрепів ставатимуть все агресивнішими. Ви можете бачити поточний <highlight>рівень загрози</highlight> на своєму HUD."
+				desc2: "Коли ви відчуєте, що вони стають занадто жорстокими, вам слід злетіти та знайти спокійніше місце для посадки. <highlight>Натисніть кнопку запуску</highlight> на HUD, щоб розпочати процедуру зльоту. Це <highlight>займає деякий час</highlight>, поки двигуни розігріваються, тому <highlight>не чекайте занадто довго</highlight>, інакше ви станете їжею для Дрепів."
+				desc3: "Пам'ятайте, що тільки будівлі всередині міста полетять разом з вами, тому розгляньте можливість демонтажу зовнішніх, щоб повернути деякі ресурси, або переміщення їх до міста, якщо у вас є вільний простір і вантажопідйомність."
+				desc4: "Також неочищені сировинні матеріали, такі як колоди, занадто важкі для перевезення, тому вони залишаться. Очистіть якомога більше перед відльотом. І переконайтеся, що Tiny знаходиться в місті, коли таймер закінчиться!"
 			}
 		}
 
 		infrastructure-upgrades: {
-			name: "Infrastructure Upgrades"
+			name: "Модернізація Інфраструктури"
 			texts: {
-				desc: "You can now build a workshop that produces materials for <highlight>upgrading your infrastructure</highlight>. Infrastructure upgrades grant permanent bonuses and abilities."
-				desc2: "Collect sufficient Upgrade Materials, then press <highlight>'K'</highlight> to open the infrastructure screen and purchase an upgrade."
+				desc: "Тепер ви можете побудувати майстерню, яка виробляє матеріали для <highlight>модернізації вашої інфраструктури</highlight>. Модернізація інфраструктури надає постійні бонуси та здібності."
+				desc2: "Зберіть достатньо матеріалів для модернізації, а потім натисніть <highlight>'K'</highlight>, щоб відкрити екран інфраструктури та придбати модернізацію."
 			}
 			objectives: {
-				produce-parts: "Produce {0} x {1}"
-				purchase-upgrade: "Purchase an infrastructure upgrade"
+				produce-parts: "Виробіть {0} x {1}"
+				purchase-upgrade: "Придбайте модернізацію інфраструктури"
 			}
 		}
 
 		infrastructure-window: {
-			name: "Infrastructure Window"
+			name: "Вікно Інфраструктури"
 			texts: {
-				desc: "This is the infrastructure window. Here you can use <highlight>upgrade materials</highlight> to upgrade your infrastructure and receive permanent benefits."
-				desc2: "Click the <highlight>Upgrade</highlight> button to purchase upgrade points. You can then click the different <highlight>areas</highlight> of your infrastructure to upgrade them. Each level of an infrastructure area provides passive bonuses.\n\nOnce upgraded, you can allocate additional points to special <highlight>perks</highlight> under the different areas. These provide more specialized bonuses and abilities."
+				desc: "Це вікно інфраструктури. Тут ви можете використовувати <highlight>матеріали для модернізації</highlight>, щоб покращити свою інфраструктуру та отримати постійні переваги."
+				desc2: "Натисніть кнопку <highlight>Модернізувати</highlight>, щоб придбати очки модернізації. Потім ви можете натискати на різні <highlight>області</highlight> вашої інфраструктури, щоб їх модернізувати. Кожен рівень області інфраструктури надає пасивні бонуси.\n\nПісля модернізації ви можете призначати додаткові очки на спеціальні <highlight>привілеї</highlight> у різних областях. Вони надають більш спеціалізовані бонуси та здібності."
 			}
 		}
 
 		multiple-productions: {
-			name: "Switching Production"
+			name: "Зміна Виробництва"
 			texts: {
-				desc: "Some buildings can produce more than one recipe after additional recipes are unlocked.\n\n<highlight>Click on the production recipe</highlight> name to select a different recipe."
-				desc2: "Some recipes require certain add-ons to be built before they can be produced in that building."
+				desc: "Деякі будівлі можуть виробляти більше ніж один рецепт після того, як додаткові рецепти будуть розблоковані.\n\n<highlight>Натисніть на назву рецепта виробництва</highlight>, щоб вибрати інший рецепт."
+				desc2: "Деякі рецепти вимагають побудови певних додаткових елементів, перш ніж їх можна буде виробляти в цій будівлі."
 			}
 		}
 
 		rail-crossing: {
-			name: "Rail Crossings"
+			name: "Залізничні Перетини"
 			texts: {
-				desc: "Rail crossings use null-space-technology so that two rail tracks can cross each other without causing a traffic jam."
-				desc2: "Drag to build a section of rails so that it crosses another section of rails to automatically create a crossing."
+				desc: "Залізничні перетини використовують технологію нульового простору, щоб два залізничні шляхи могли перетинатися без створення заторів."
+				desc2: "Потягніть, щоб побудувати ділянку рейок так, щоб вона перетинала іншу ділянку рейок, автоматично створюючи перетин."
 			}
 			objectives: {
-				build-crossing: "Build a rail crossing"
+				build-crossing: "Побудуйте залізничний перетин"
 			}
 		}
 
 		drep-crafting: {
-			name: "Drep Processing"
+			name: "Обробка Дрепів"
 			texts: {
-				desc: "You've researched a technology that lets you refine remains of Dream Plagues into valuable resources. Use the Resources tab in the crafting window."
+				desc: "Ви дослідили технологію, яка дозволяє вам переробляти залишки Чумних Снів у цінні ресурси. Використовуйте вкладку Ресурси у вікні крафту."
 			}
 			objectives: {
-				craft: "Refine drep remains"
+				craft: "Переробіть залишки дрепів"
 			}
 		}
 
 		splitter-unlocked: {
-			name: "Sorters"
+			name: "Сортувальники"
 			texts: {
-				desc: "Research of Sorters is complete. These devices can be placed on rails and will sort the items that go into them into three separate exits, depending on their configuration."
-				desc2: "After placing a sorter, open its user interface to configure which items go into each exit."
+				desc: "Дослідження Сортувальників завершено. Ці пристрої можна розміщувати на рейках, і вони будуть сортувати предмети, які потрапляють до них, у три окремих виходи, залежно від їх конфігурації."
+				desc2: "Після встановлення сортувальника відкрийте його інтерфейс користувача, щоб налаштувати, які предмети потрапляють до кожного виходу."
 			}
 		}
 
 		expeditioncenter-unlocked: {
-			name: "Expedition Center"
+			name: "Експедиційний Центр"
 			texts: {
-				desc: "You can now build an expedition center. This unique building allows you to select and launch expeditions to scavenge for supplies and ancient tech outside of your immediate area."
-				desc2: "Build an expedition center and interact with it to learn more about sending expeditions."
+				desc: "Тепер ви можете побудувати експедиційний центр. Ця унікальна будівля дозволяє вам обирати та запускати експедиції для пошуку постачання та давніх технологій за межами вашої безпосередньої території."
+				desc2: "Побудуйте експедиційний центр і взаємодійте з ним, щоб дізнатися більше про відправлення експедицій."
 			}
 		}
 
 		expeditions: {
-			name: "Expeditions"
+			name: "Експедиції"
 			texts: {
-				desc: "This is the expedition selection screen. Every map has different expedition options depending on the biome and map difficulty. Expeditions differ from each other in their costs, preparation time, expedition time, and possible rewards.\n\nYou can see all this info before selecting which expedition to launch."
-				desc2: "There are two phases for each expedition: A <highlight>Preparation</highlight> phase, and an <highlight>Active</highlight> phase.\n\nWhen selecting an expedition, the <highlight>upfront costs will be paid immediately</highlight>, and the preparation phase will begin. Throughout the preparation phase the expedition center will have an <highlight>upkeep depending on the selected expedition</highlight>.\n\nWhen preparations are complete, the expedition will launch, and there will no longer be any upkeep except for the expedition crew (workers)."
-				desc3: "After an expedition is completed successfuly, the crew will return to the worker pool, and you will be able to <highlight>choose your rewards</highlight>.\n\nExpedition loot may contain <highlight>resources</highlight>, <highlight>fuel</highlight>, and some <highlight>unique items and bonuses</highlight> that can not be acquired elsewhere."
+				desc: "Це екран вибору експедицій. Кожна карта має різні варіанти експедицій залежно від біому та складності карти. Експедиції відрізняються одна від одної за вартістю, часом підготовки, тривалістю та можливими винагородами.\n\nВи можете побачити всю цю інформацію перед вибором, яку експедицію запускати."
+				desc2: "Кожна експедиція має дві фази: фазу <highlight>Підготовки</highlight> та фазу <highlight>Активності</highlight>.\n\nПід час вибору експедиції <highlight>авансові витрати будуть сплачені негайно</highlight>, і розпочнеться фаза підготовки. Протягом фази підготовки експедиційний центр матиме <highlight>обслуговування залежно від обраної експедиції</highlight>.\n\nКоли підготовка завершиться, експедиція розпочнеться, і більше не буде ніякого обслуговування, за винятком команди експедиції (працівників)."
+				desc3: "Після успішного завершення експедиції команда повернеться до пулу працівників, і ви зможете <highlight>вибрати свої винагороди</highlight>.\n\nВидобуток з експедиції може містити <highlight>ресурси</highlight>, <highlight>паливо</highlight> та деякі <highlight>унікальні предмети і бонуси</highlight>, які не можна отримати в іншому місці."
 			}
 		}
 
 		archeology-unlocked: {
-			name: "Archeology Projects"
+			name: "Археологічні Проекти"
 			texts: {
-				desc: "Archeology allows you to undertake serious projects based on old-world technology and gain powerful, permanent bonuses."
-				desc2: "Unlock new projects by scrapping ruins. In order to complete these projects, you'll first have to research and build an Archeologist."
+				desc: "Археологія дозволяє вам здійснювати серйозні проекти на основі технологій старого світу та отримувати потужні, постійні бонуси."
+				desc2: "Відкривайте нові проекти, розбираючи руїни. Щоб завершити ці проекти, спочатку вам доведеться дослідити та побудувати Археолога."
 			}
 		}
 
 		archeology: {
-			name: "Archeology Projects"
+			name: "Археологічні Проекти"
 			texts: {
-				desc: "Select an archeology project to begin working on it. Different projects have different costs that must be consistently provided to the archeologist during their undertaking.\n\nOnce complete, the bonuses are permanent and no more resources are required."
-				desc2: "Multiple archeologists will contribute to the same project if they are also provided with the required materials."
-				desc3: "New archeology projects can be found when scrapping ruins."
+				desc: "Виберіть археологічний проект, щоб розпочати роботу над ним. Різні проекти мають різні витрати, які повинні постійно забезпечуватися археологу під час їх виконання.\n\nПісля завершення бонуси стають постійними, і більше не потрібно ніяких ресурсів."
+				desc2: "Кілька археологів будуть працювати над одним проектом, якщо їм також нададуть необхідні матеріали."
+				desc3: "Нові археологічні проекти можна знайти, розбираючи руїни."
 			}
 		}
 
 		council: {
-			name: "City Council"
+			name: "Міська Рада"
 			texts: {
-				desc: "When your city is large enough, your citizens will elect a city council. Every elections, three councilmen will be chosen, one for each faction.\n\nIt's up to you as the overseer to <highlight>select the Head of Council</highlight> from within these councilmen.\n\nYou must select a head of council before you can close this window."
-				desc2: "Each councilman has different <highlight>bonuses and penalties</highlight> that will apply if you select them as your new head of council, and will remain active until the next elections.\n\nYou will also <highlight>gain influence</highlight> with that councilman's faction, and <highlight>lose some influence</highlight> with the other two parties."
-				desc3: "You can see your influence with the different factions on the left. When your <highlight>influence</highlight> with a faction becomes high or low enough, you will gain <highlight>bonuses or penalties</highlight> specific to that faction.\n\nHover the different sections in the influence bar to see the required influence level and its effects."
+				desc: "Коли ваше місто стане достатньо великим, ваші громадяни оберуть міську раду. На кожних виборах обиратимуться три радники, по одному від кожної фракції.\n\nЯк наглядач, вам належить <highlight>вибрати голову ради</highlight> з-поміж цих радників.\n\nВи повинні обрати голову ради, перш ніж зможете закрити це вікно."
+				desc2: "Кожен радник має різні <highlight>бонуси та штрафи</highlight>, які будуть застосовуватися, якщо ви виберете їх новим головою ради, і залишаться активними до наступних виборів.\n\nВи також <highlight>отримаєте вплив</highlight> з фракцією цього радника і <highlight>втратите трохи впливу</highlight> з іншими двома партіями."
+				desc3: "Ви можете побачити ваш вплив з різними фракціями зліва. Коли ваш <highlight>вплив</highlight> з фракцією стане достатньо високим або низьким, ви отримаєте <highlight>бонуси або штрафи</highlight>, специфічні для цієї фракції.\n\nНаведіть курсор на різні секції у смузі впливу, щоб побачити необхідний рівень впливу та його ефекти."
 			}
 		}
 
 		resource-elevators: {
-			name: "Automated Harvesters"
+			name: "Автоматичні Збирачі"
 			texts: {
-				desc: "With the research of resource drop-offs, your harvesters can now <highlight>automatically send resources</highlight> to these new buildings."
-				desc2: "You can define for each drop-off building which resources it should receive, and harvesters that don't have any rail output will instead send carts to the closest drop-off that accepts their resource."
-				desc3: "Harvester carts can't travel in the city, so the drop must be built outside or at the city edge."
+				desc: "Завдяки дослідженню пунктів скидання ресурсів, ваші збирачі тепер можуть <highlight>автоматично відправляти ресурси</highlight> до цих нових будівель."
+				desc2: "Ви можете визначити для кожної будівлі скидання, які ресурси вона повинна отримувати, і збирачі, які не мають жодного виходу на рейки, натомість будуть відправляти візки до найближчого пункту скидання, який приймає їхній ресурс."
+				desc3: "Візки збирачів не можуть пересуватися по місту, тому пункт скидання повинен бути побудований за його межами або на краю міста."
 			}
 		}
 
 		exporter: {
-			name: "Resource Packers"
+			name: "Пакувальники Ресурсів"
 			texts: {
-				desc: "Resource packers send materials to nearby drop-offs, like automated harvesters. Packers can send <highlight>any resource</highlight>, not just raw materials."
-				desc2: "Supply the packer with resources through rails and configure a drop-off to receive these materials."
+				desc: "Пакувальники ресурсів відправляють матеріали до найближчих пунктів скидання, як і автоматичні збирачі. Пакувальники можуть відправляти <highlight>будь-які ресурси</highlight>, а не тільки сировину."
+				desc2: "Забезпечте пакувальник ресурсами через рейки та налаштуйте пункт скидання для отримання цих матеріалів."
 			}
 		}
 
 		gamepedia: {
-			name: "Dream Archives"
+			name: "Архіви Снів"
 			texts: {
-				desc: "When you unlock new options, you can see information about them in the <highlight>Dream Archives</highlight>. Press <highlight>'H'</highlight> to open the archives."
+				desc: "Коли ви розблокуєте нові опції, ви зможете побачити інформацію про них в <highlight>Архівах Снів</highlight>. Натисніть <highlight>'H'</highlight>, щоб відкрити архіви."
 			}
 		}
 
 		carrycapacity: {
-			name: "Weight and Carrying Power"
+			name: "Вага та Вантажопідйомність"
 			texts: {
-				desc: "Your city is getting heavier. Every building adds to the city weight, and if your weight exceeds your carrying power you won't be able to take off."
-				desc2: "You can increase your carrying capacity by building or upgrading engines (requires research)."
-				desc3: "You can decrease weight by upgrading buildings instead of building new ones, and you can build some of your defenses outside the city."
+				desc: "Ваше місто стає важчим. Кожна будівля додає вагу місту, і якщо ваша вага перевищить вантажопідйомність, ви не зможете злетіти."
+				desc2: "Ви можете збільшити вантажопідйомність, будуючи або модернізуючи двигуни (вимагає дослідження)."
+				desc3: "Ви можете зменшити вагу, модернізуючи будівлі замість будівництва нових, і ви можете будувати деякі з ваших оборонних споруд за межами міста."
 			}
 		}
 
 		overweight-takeoff: {
-			name: "Overweight during take-off"
+			name: "Перевантаження під час зльоту"
 			texts: {
-				desc: "You've exceeded your city's carrying power during the take-off charging phase.\n\nCharging is now <highlight>paused</highlight>, but if you manage to <highlight>balance the city's weight</highlight> in the next few seconds, it will resume from where it was. If you take too long, all progress will be lost, and the charging process will have to restart."
+				desc: "Під час фази заряджання для зльоту ви перевищили вантажопідйомність вашого міста.\n\nЗаряджання зараз <highlight>призупинено</highlight>, але якщо ви зможете <highlight>збалансувати вагу міста</highlight> в наступні кілька секунд, воно продовжиться з того місця, де було зупинено. Якщо ви витратите занадто багато часу, весь прогрес буде втрачено, і процес заряджання доведеться починати спочатку."
 			}
 		}
 
 		low-health: {
-			name: "Low Health"
+			name: "Малий Рівень Здоров'я"
 			texts: {
-				desc: "Tiny's health is running low. Health slowly <highlight>regenerates in the city</highlight>, and you can assign and use <highlight>repair kits</highlight> through the quickbar."
-				desc2: "If you take too much damage an <highlight>emergency teleport</highlight> will be activated, returning you to the city, but you will <highlight>lose precious time and resources</highlight>.\n\nTry to keep Tiny intact."
+				desc: "Здоров'я Tiny на низькому рівні. Здоров'я повільно <highlight>відновлюється в місті</highlight>, і ви можете призначити та використовувати <highlight>ремонтні комплекти</highlight> через швидку панель."
+				desc2: "Якщо ви отримаєте занадто багато ушкоджень, буде активовано <highlight>аварійне телепортування</highlight>, яке поверне вас до міста, але ви <highlight>втратите дорогоцінний час і ресурси</highlight>.\n\nНамагайтеся зберегти Tiny в цілості."
 			}
 		}
 
 		armored-enemies: {
-			name: "Armored Enemies"
+			name: "Броньовані Вороги"
 			texts: {
-				desc: "Some of the larger creatures are considered <highlight>armored</highlight>. Your <highlight>wooden turrets</highlight> are ineffective against these, dealing <highlight>reduced damage</highlight>."
-				desc2: "Upgrade your defensive buildings to be able to better deal with these. If things get too rough, don't hesitate to fly away until you are ready."
+				desc: "Деякі з великих створінь вважаються <highlight>броньованими</highlight>. Ваші <highlight>дерев'яні турелі</highlight> неефективні проти них, завдаючи <highlight>зменшеної шкоди</highlight>."
+				desc2: "Модернізуйте свої оборонні споруди, щоб краще справлятися з цими ворогами. Якщо ситуація стане занадто складною, не вагайтеся злетіти, поки не будете готові."
 			}
 			objectives: {
-				build-turret: "Build a {0}"
+				build-turret: "Побудуйте {0}"
 			}
 		}
 
 		destination-select: {
-			name: "Destination Selection"
+			name: "Вибір Місця Приземлення"
 			texts: {
-				desc: "Congratulations, your city is <highlight>flying</highlight> for the first time!\n\nIn this screen, you can select where you want to land next."
-				desc2: "Select your next landing spot carefully. Your choice will affect the <highlight>strength of the enemies</highlight>, which <highlight>resources will be on the map</highlight>, and how many."
-				desc3: "The options you are presented depend on the current <highlight>Global Infestation Level</highlight> (shown at the top-left of the screen)."
-				desc4: "If you don't like any of these options, you can click the <highlight>Fly Elsewhere</highlight> button to refresh your choices at the expense of some fuel."
+				desc: "Вітаємо, ваше місто <highlight>вперше летить</highlight>!\n\nНа цьому екрані ви можете вибрати, де хочете приземлитися наступного разу."
+				desc2: "Вибирайте місце приземлення обережно. Ваш вибір вплине на <highlight>силу ворогів</highlight>, які <highlight>ресурси будуть на карті</highlight> і в якій кількості."
+				desc3: "Варіанти, які вам пропонуються, залежать від поточного <highlight>Глобального Рівня Зараження</highlight> (показано у верхньому лівому куті екрана)."
+				desc4: "Якщо вам не подобається жоден із цих варіантів, ви можете натиснути кнопку <highlight>Летіти Інакше</highlight>, щоб оновити ваші варіанти за рахунок трохи палива."
 			}
 		}
 
 		abilities: {
-			name: "Active Abilities"
+			name: "Активні Здібності"
 			texts: {
-				desc: "You've just unlocked Tiny's first <highlight>active ability</highlight>. Active abilities can be used like repair kits or other consumables, but they don't require any resources to use."
-				desc2: "You can assign abilities to your <highlight>quickbar</highlight> like consumables, and most of them have <highlight>cool-downs</highlight> that limit how often you can use them."
+				desc: "Ви щойно розблокували першу <highlight>активну здібність</highlight> Tiny. Активні здібності можна використовувати так само, як ремонтні комплекти або інші витратні матеріали, але для їх використання не потрібні ресурси."
+				desc2: "Ви можете призначати здібності на свою <highlight>швидку панель</highlight>, як і витратні матеріали, і більшість із них мають <highlight>періоди відновлення</highlight>, які обмежують частоту їх використання."
 			}
 		}
 
 		passive-income: {
-			name: "Passive Income"
+			name: "Пасивний Дохід"
 			texts: {
-				desc: "You received a passive income bonus. These bonuses provide you with a regular income of the specified resources."
-				desc2: "If you have a resource drop-off that is configured to receive these resources, they will be deposited to that drop-off. Otherwise, they will be deposited in the city core."
+				desc: "Ви отримали бонус пасивного доходу. Ці бонуси забезпечують вас регулярним доходом певних ресурсів."
+				desc2: "Якщо у вас є пункт скидання ресурсів, налаштований для прийому цих ресурсів, вони будуть відправлені до цього пункту. В іншому випадку вони будуть зберігатися в ядрі міста."
 			}
 		}
 
 		misc-items: {
-			name: "Usable Items"
+			name: "Використовувані Предмети"
 			texts: {
-				desc: "You acquired a usable item. To use this item, open your inventory and then right-click the item. These items are not assignable to the quickbar since they are not meant for use during combat."
+				desc: "Ви отримали використовуваний предмет. Щоб використовувати цей предмет, відкрийте свій інвентар і клацніть правою кнопкою миші на предмет. Ці предмети не можна призначити на швидку панель, оскільки вони не призначені для використання під час бою."
 			}
 		}
 
@@ -520,50 +519,50 @@
 		//}
 
 		upgrade-layer: {
-			name: "Upgrade Layer"
+			name: "Шар Модернізації"
 			texts: {
-				desc: "When in management mode, you can activate the <highlight>'Upgrade Layer'</highlight> with the button to the left of the minimap."
-				desc2: "When active, every building will show an icon with its <highlight>current level</highlight>, and a button to <highlight>upgrade</highlight> that building directly from the game view. This view is very useful for managing your economy and upgrading buildings."
-				desc3: "Other management layers are also available, hover their buttons to learn more."
+				desc: "У режимі управління ви можете активувати <highlight>'Шар Модернізації'</highlight> за допомогою кнопки ліворуч від мінікарти."
+				desc2: "Коли він активний, кожна будівля показуватиме значок з її <highlight>поточним рівнем</highlight> і кнопку для <highlight>модернізації</highlight> цієї будівлі безпосередньо з ігрового огляду. Цей вигляд дуже корисний для управління вашою економікою та модернізації будівель."
+				desc3: "Інші шари управління також доступні, наведіть курсор на їх кнопки, щоб дізнатися більше."
 			}
 		}
 
 		onoff-tool: {
-			name: "On / Off tool"
+			name: "Інструмент Вкл / Викл"
 			texts: {
-				desc: "When in management mode, you can use the <highlight>'On / Off tool'</highlight> button (shortcut 'O' by default) to enable or disable buildings directly from the game view."
+				desc: "У режимі управління ви можете використовувати кнопку <highlight>'Інструмент Вкл / Викл'</highlight> (скорочення 'O' за замовчуванням) для увімкнення або вимкнення будівель безпосередньо з ігрового огляду."
 			}
 		}
 
 		rebuild-debris: {
-			name: "Debris & Rebuilding"
+			name: "Залишки та Відбудова"
 			texts: {
-				desc: "Some of your buildings were destroyed by the Dream Plagues. Destroyed buildings leave debris behind them, which you can use to see what was there and rebuild if you wish to do so."
-				desc2: "Rebuilding will restore the building including all upgrades, add-ons and input/output slots. It costs the same as building from scratch, but lets you restore everything with a single click."
-				desc3: "You can rebuild by using the fix / rebuild tool (default key 'L'), or by clicking the debris and using the building information window."
+				desc: "Деякі з ваших будівель були зруйновані Чумними Снами. Зруйновані будівлі залишають після себе уламки, які ви можете використовувати, щоб побачити, що там було, і відбудувати їх, якщо ви хочете."
+				desc2: "Відбудова відновить будівлю, включаючи всі модернізації, додаткові елементи та слоти введення/виведення. Це коштує стільки ж, скільки будівництво з нуля, але дозволяє відновити все одним клацанням."
+				desc3: "Ви можете відбудовувати, використовуючи інструмент ремонту/відбудови (ключ 'L' за замовчуванням) або натиснувши на уламки та використовуючи вікно інформації про будівлю."
 			}
 		}
 
 		sit-city-info: {
-			name: "City Information"
+			name: "Інформація про Місто"
 			texts: {
-				desc: "Click on the city name in the HUD to open the city information window. This window also provides information about the current landing zone."
+				desc: "Натисніть на назву міста в HUD, щоб відкрити вікно інформації про місто. Це вікно також надає інформацію про поточну зону приземлення."
 			}
 		}
 
 		teslacrats-production: {
-			name: "Resource Duplication"
+			name: "Дублювання Ресурсів"
 			texts: {
-				desc: "You just researched the unique technology of the Teslacrats that allows duplicating resources. To duplicate a resource, you must first obtain the base amount required by the recipe, then use the crafting interface under the 'Resources' tab."
-				desc2: "The machinery used in this process degrades every time that it is used, and so the price of duplicating resources increases after every batch. The prices slowly go back to normal when not using the machines, and when flying to a new destination."
+				desc: "Ви щойно дослідили унікальну технологію Теслакратів, яка дозволяє дублювати ресурси. Щоб дублювати ресурс, спочатку потрібно отримати базову кількість, необхідну для рецепта, а потім використовувати інтерфейс крафту у вкладці 'Ресурси'."
+				desc2: "Машини, які використовуються в цьому процесі, зношуються кожного разу, коли вони використовуються, тому ціна дублювання ресурсів зростає після кожної партії. Ціни повільно повертаються до норми, коли машини не використовуються, та під час польоту до нового місця приземлення."
 			}
 		}
 
 		raid-spawners: {
-			name: "Rifts"
+			name: "Розломи"
 			texts: {
-				desc: "You've found a Nightmare Rift. This is one of several possible spawn points for Dream Plagues during raids."
-				desc2: "Rifts are unstable and you are unable to build near them."
+				desc: "Ви знайшли Розлом Кошмарів. Це одна з кількох можливих точок появи Чумних Снів під час рейдів."
+				desc2: "Розломи нестабільні, і ви не можете будувати поруч з ними."
 			}
 		}
 
