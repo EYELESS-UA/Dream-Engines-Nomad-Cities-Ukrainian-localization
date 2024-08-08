@@ -1457,1851 +1457,1842 @@
 
 	playerstats: {
 		mech-combat: {
-			name: "Offense"
+			name: "Напад"
 		}
 		survival: {
-			name: "Survival"
+			name: "Виживання"
 		}
 		gathering: {
-			name: "Gathering"
+			name: "Збирання"
 		}
 		administration: {
-			name: "Administration"
+			name: "Адміністрування"
 		}
 	}
 
 	perks: {
 		level-format: "{0} {1}"
-
+	
 		melee-dmg: {
-			name: "Melee Damage"
+			name: "Ближній Бій"
 		}
 		ranged-dmg: {
-			name: "Ranged Damage"
+			name: "Дальній Бій"
 		}
 		enemy-drop: {
-			name: "Corpse Looting"
+			name: "Здобич з Трупів"
 		}
 		turret-dmg: {
-			name: "Turret Damage"
+			name: "Шкода Турелі"
 		}
 		mech-speed: {
-			name: "Tiny Speed"
+			name: "Швидкість Tiny"
 		}
 		healing: {
-			name: "Repairing"
+			name: "Ремонт"
 		}
 		farming: {
-			name: "Farms"
+			name: "Ферми"
 		}
 		city-gathering: {
-			name: "Renewable Gathering"
+			name: "Відновлюване Збирання"
 		}
 		cart-speed: {
-			name: "Autocart Speed"
+			name: "Швидкість Автовізка"
 		}
 		upgrade-prod: {
-			name: "Upgrade Production"
+			name: "Виробництво Модернізацій"
 		}
 		research-efficiency: {
-			name: "Research Efficiency"
+			name: "Ефективність Досліджень"
 		}
 		housing: {
-			name: "Housing"
+			name: "Житло"
 		}
 		overload: {
-			name: "Power Surge"
+			name: "Сплеск Потужності"
 		}
 		overclock: {
-			name: "Overclock Gears"
+			name: "Розгін Шестерень"
 		}
 		untargetable: {
-			name: "Chameleon"
+			name: "Хамелеон"
 		}
 		teleport-to-city: {
-			name: "Core Teleporter"
+			name: "Транспортер до Ядра"
 		}
 	}
 
 	abilities: {
-		charging-format: "Charging time: {0}"
-		cooldown-format: "Cooldown: {0} seconds"
+		charging-format: "Час зарядки: {0}"
+		cooldown-format: "Час перезарядки: {0} секунд"
 		overclock: {
-			name: "Overclock Gears"
-			desc: "Overclock your gears for a short time to increase movement speed."
+			name: "Розгін Шестерень"
+			desc: "Розганяє шестерні на короткий час, щоб збільшити швидкість руху."
 		}
 		overload: {
-			name: "Power Surge"
-			desc: "Overloads your capacitors to create a surge that damages nearby targets."
+			name: "Сплеск Потужності"
+			desc: "Перевантажує ваші конденсатори для створення сплеску, який завдає шкоди найближчим цілям."
 		}
 		teleport-to-city: {
-			name: "Core Teleporter"
-			desc: "Activate city-core teleporter to quickly return back to the city."
+			name: "Транспортер до Ядра"
+			desc: "Активує телепортер ядра міста, щоб швидко повернутися до міста."
 		}
 		untargetable: {
-			name: "Chameleon"
-			desc: "Emits energy that confuses the dream plagues and prevents them from registering you as a threat.\n\nAs a side effect your weapons lose all power and will be unable to deal any damage for the duration."
+			name: "Хамелеон"
+			desc: "Випромінює енергію, яка збиває з пантелику кошмари, і вони перестають вважати вас загрозою.\n\nЯк побічний ефект ваша зброя втрачає всю енергію і не зможе завдати шкоди протягом тривалості дії."
 		}
 		repair: {
-			name: "Repair Area"
-			desc: "Repairs all buildings in an area around your character. Will not restore destroyed buildings.\n\nCan be used in combat."
+			name: "Ремонт Області"
+			desc: "Ремонтує всі будівлі в області навколо вашого персонажа. Не відновлює зруйновані будівлі.\n\nМоже використовуватися в бою."
 		}
 	}
 
 	statuseffects: {
-		title: "Applies Effect: {0}"
-		duration: "Duration: {0}"
+		title: "Застосовує ефект: {0}"
+		duration: "Тривалість: {0}"
 		overclock: {
-			name: "Overclocked"
+			name: "Розігнане"
 		}
 		enrage: {
-			name: "Weapons Overloaded"
+			name: "Перевантаження Зброї"
 		}
 		absorber: {
-			name: "Damage Immunity"
+			name: "Імунітет до Шкоди"
 		}
 		untargetable: {
-			name: "Untargetable"
+			name: "Нецілеспрямоване"
 		}
 		slowed: {
-			name: "Slowed"
+			name: "Сповільнене"
 		}
 		weakened: {
-			name: "Weakened"
+			name: "Ослаблене"
 		}
 	}
 
 	attackeffects: {
 		aoe: {
-			desc: "Deal {1} AOE damage {0} tiles around the target."
+			desc: "Завдає {1} шкоди по площі в радіусі {0} клітин навколо цілі."
 		}
 	}
 
 	biomes: {
 		startingmap: {
-			name: "Blightlands Starting Area"
+			name: "Стартова Зона Земель Лиха"
 		}
 		purple: {
-			name: "Blightlands"
+			name: "Землі Лиха"
 		}
 		blue: {
-			name: "Dreamtouched Fields"
+			name: "Сновидні Поля"
 		}
 		desert: {
-			name: "Desert"
+			name: "Пустеля"
 		}
 		lava: {
-			name: "Ashfall Range"
-			locked-text: "Requires Heat Shield command center add-on"
+			name: "Вулканічний Хребет"
+			locked-text: "Потребує додаток до командного центру Тепловий Щит"
 		}
 		green: {
-			name: "Toxic Moor"
-			locked-text: "Requires Air Filter command center add-on"
+			name: "Токсичне Болото"
+			locked-text: "Потребує додаток до командного центру Повітряний Фільтр"
 		}
 	}
 
 	research: {
-		progress: "Progress: {0} / {1}"
-
+		progress: "Прогрес: {0} / {1}"
+	
 		drepprocessing-flux: {
-			name: "Drep Processing (Flux)"
+			name: "Переробка Дрепу (Флюс)"
 		}
 		drepprocessing-flux2: {
-			name: "Drep Processing (Flux 2)"
+			name: "Переробка Дрепу (Флюс 2)"
 		}
 		drepprocessing-wood: {
-			name: "Drep Proc. (Bloodwood)"
+			name: "Переробка Дрепу (Криваве Дерево)"
 		}
 		drepprocessing-fstone: {
-			name: "Drep Proc. (Featherstone)"
+			name: "Переробка Дрепу (Перокамінь)"
 		}
 		hunters-feathercrystal: {
-			name: "Drep Proc. (Feathercrystal)"
+			name: "Переробка Дрепу (Перокристал)"
 		}
 		hunters-carbonite: {
-			name: "Drep Proc. (Carbonite)"
+			name: "Переробка Дрепу (Карбоніт)"
 		}
 		hunters-copper: {
-			name: "Drep Proc. (Copper Ingot)"
+			name: "Переробка Дрепу (Мідний Злиток)"
 		}
 		hunters-energycell: {
-			name: "Drep Proc. (Tesla Cell)"
+			name: "Переробка Дрепу (Тесла Клітина)"
 		}
-
+	
 		bloodwood-strip1: {
-			name: "Bloodwood Efficiency"
+			name: "Ефективність Кривавого Дерева"
 		}
 		bloodwood-strip2: {
-			name: "Bloodwood Efficiency 2"
+			name: "Ефективність Кривавого Дерева 2"
 		}
 		featherstone-strip1: {
-			name: "Featherstone Efficiency"
+			name: "Ефективність Перокаменю"
 		}
 		featherstone-strip2: {
-			name: "Featherstone Efficiency 2"
+			name: "Ефективність Перокаменю 2"
 		}
 		copper-strip1: {
-			name: "Copper Efficiency"
+			name: "Ефективність Міді"
 		}
 		copper-strip2: {
-			name: "Copper Efficiency 2"
+			name: "Ефективність Міді 2"
 		}
 		all-strip1: {
-			name: "Harvester Efficiency"
+			name: "Ефективність Збирача"
 		}
 		all-strip2: {
-			name: "Harvester Efficiency 2"
+			name: "Ефективність Збирача 2"
 		}
-
+	
 		infrastructure: {
-			name: "Infrastructure Upgrade"
+			name: "Модернізація Інфраструктури"
 		}
 		free-expansion: {
-			name: "Free Expansion"
+			name: "Безкоштовне Розширення"
 		}
 		efficient-refining: {
-			name: "Efficient Refining"
+			name: "Ефективна Переробка"
 		}
-
+	
 		bonus-research: {
-			name: "Advanced Tech (Repeating)"
+			name: "Передова Технологія (Повторювана)"
 		}
-
+	
 		importer: {
-			name: "Harvesting Automation"
+			name: "Автоматизація Збирання"
 		}
-
+	
 		comingsoon: {
-			name: "Coming Soon"
+			name: "Скоро"
 		}
 	}
 
 	constructioncategories: {
 		population: {
-			name: "Population"
+			name: "Населення"
 		}
-
+	
 		infrastructure: {
-			name: "Infrastructure"
+			name: "Інфраструктура"
 		}
-
+	
 		gathering: {
-			name: "Gathering"
+			name: "Збирання"
 		}
-
+	
 		production: {
-			name: "Production"
+			name: "Виробництво"
 		}
-
+	
 		power: {
-			name: "Power"
+			name: "Енергія"
 		}
-
+	
 		defense: {
-			name: "Defense"
+			name: "Оборона"
 		}
-
+	
 		misc: {
-			name: "Misc"
+			name: "Різне"
 		}
 	}
 
 	mapobjects: {
 		citytile: {
-			name: "City Expansion"
-			desc: "We can't just build stuff on the ground and expect them to fly. Expand the city foundations to increase its area."
+			name: "Розширення Міста"
+			desc: "Ми не можемо просто будувати на землі та очікувати, що вони будуть літати. Розширюйте фундамент міста, щоб збільшити його площу."
 		}
 		roadtile: {
-			name: "Rails"
-			desc: "One-way tracks on which mine carts magically appear to transport resources between buildings.\n\nDrag to build. Drag on top of existing rails to add or change directions."
+			name: "Рейки"
+			desc: "Односторонні рейки, на яких магічно з'являються візки для перевезення ресурсів між будівлями.\n\nПеретягніть для будівництва. Перетягніть поверх існуючих рейок, щоб додати або змінити напрямок."
 		}
 		railsplitter: {
-			name: "Sorter"
-			desc: "Sorts items from a single entrance into three exits. You can configure which items go to each exit."
+			name: "Сортувальник"
+			desc: "Сортує предмети з одного входу в три виходи. Ви можете налаштувати, які предмети йдуть до кожного виходу."
 		}
 		streettile: {
-			name: "Street"
-			desc: "Doesn't do much but it looks pretty and it doesn't block movement.\n\nUseful for city-planning and making sure you have room to move freely."
+			name: "Вулиця"
+			desc: "Мало що робить, але виглядає красиво і не блокує рух.\n\nКорисна для планування міста та забезпечення вільного руху."
 		}
 		player-debris: {
-			name: "Destroyed Building"
+			name: "Зруйнована Будівля"
 		}
 		commandcenter: {
-			name: "City Core"
-			desc: "The place that makes the city tick. We have no idea how to build another one, so try to keep it safe."
+			name: "Ядро Міста"
+			desc: "Місце, яке робить місто живим. Ми не знаємо, як побудувати ще одне таке, тому спробуйте тримати його в безпеці."
 		}
 		expeditioncenter: {
-			name: "Expedition Center"
-			desc: "Launch expeditions to scavenge for supplies and ancient tech."
+			name: "Центр Експедицій"
+			desc: "Запускайте експедиції для пошуку припасів та стародавніх технологій."
 		}
 		flyengine: {
-			name: "Floating Device"
-			desc: "Makes things go up. Increases the city's maximum weight but also fuel costs for flying.\n\nCan't be built too close to other floating devices."
+			name: "Літаючий Пристрій"
+			desc: "Забезпечує підйом. Збільшує максимальну вагу міста, але також підвищує витрати на паливо для польотів.\n\nНе можна будувати занадто близько до інших літаючих пристроїв."
 		}
 		scoutpost: {
-			name: "Scout Post"
-			desc: "Used to explore faraway lands. Every scout post adds a free re-roll when selecting your next destination."
+			name: "Розвідувальний Пост"
+			desc: "Використовується для дослідження далеких земель. Кожен розвідувальний пост додає безкоштовний повторний кидок при виборі наступного місця приземлення."
 		}
 		researchlab: {
-			name: "Research Lab"
-			desc: "Research new technologies. Experiments taken place here have been known to cause severe mutations."
+			name: "Дослідницька Лабораторія"
+			desc: "Досліджуйте нові технології. Експерименти, що проводяться тут, можуть викликати серйозні мутації."
 		}
-
 		teslatower: {
-			name: "Tesla Tower"
-			desc: "These towers expand the power supply area of the city. Do not climb."
+			name: "Вежа Тесли"
+			desc: "Ці вежі розширюють зону електропостачання міста. Не лізьте наверх."
 		}
 		longrange-power: {
-			name: "Long-Range Power Hub"
-			desc: "These hubs will connect buildings around them to the main power supply.\n\nUnlike tesla towers, these do not need to be themselves within the power range, they create their own long-range connection."
+			name: "Далекобійний Енергетичний Хаб"
+			desc: "Ці хаби підключатимуть будівлі навколо них до основного джерела живлення.\n\nНа відміну від веж Тесли, ці хаби не потребують перебування в зоні покриття, вони створюють власне довгострокове підключення."
 		}
 		woodturret: {
-			name: "Wooden Turret"
-			desc: "Keeps nightmares at bay using big glowing arrows. Slow firing rate with explosive attacks that deal splash damage to multiple targets. Weak against armored targets."
+			name: "Дерев'яна Турель"
+			desc: "Захищає від кошмарів, використовуючи великі світні стріли. Повільна швидкість стрільби з вибуховими атаками, що завдають шкоди по площі кільком цілям. Слабка проти броньованих цілей."
 		}
 		stoneturret: {
-			name: "Stone Turret"
-			desc: "A stone tower mounted with a clockwork cannon. Explosive attacks with higher firing rate and damage than the wooden turret."
+			name: "Кам'яна Турель"
+			desc: "Кам'яна вежа з годинниковою гарматою. Вибухові атаки з більшою швидкістю стрільби та шкодою, ніж у дерев'яної турелі."
 		}
 		flameturret: {
-			name: "Tarbomb Turret"
-			desc: "Shoots flamable tarbombs. Fires more slowly but at a significant longer range and deals more damage to a larger area, compared to the wooden turret."
+			name: "Смоляна Турель"
+			desc: "Стріляє займистими смоляними бомбами. Стріляє повільніше, але на значно більшій дальності та завдає більше шкоди по більшій площі, порівняно з дерев'яною туреллю."
 		}
 		atlasturret: {
-			name: "Atlas Turret"
-			desc: "A stronger and sturdier ballista turret with rapid fire, but no splash damage. Especially strong against armored targets."
+			name: "Турель Атласа"
+			desc: "Більш сильна та міцна балістична турель з швидким вогнем, але без шкоди по площі. Особливо сильна проти броньованих цілей."
 		}
 		musicturret: {
-			name: "Trumpeteer Turret"
-			desc: "This slow-firing turret emits a shattering sound wave that wreaks havoc on its target and also deals major damage to others around it."
+			name: "Турель Трубача"
+			desc: "Ця повільнострільна турель випромінює руйнівну звукову хвилю, яка завдає значної шкоди цілі та іншим поруч з нею."
 		}
 		woodwall: {
-			name: "Wood Wall"
-			desc: "Protects buildings behind it. For a while."
+			name: "Дерев'яна Стіна"
+			desc: "Захищає будівлі за нею. На деякий час."
 		}
 		woodgate: {
-			name: "Wood Gate"
-			desc: "It's a gate, you can pass and Drep can't."
+			name: "Дерев'яні Ворота"
+			desc: "Це ворота, через які ви можете пройти, а Дреп - ні."
 		}
 		stonewall: {
-			name: "Stone Wall"
-			desc: "Protects buildings behind it. For a while longer."
+			name: "Кам'яна Стіна"
+			desc: "Захищає будівлі за нею. На трохи довше."
 		}
 		stonegate: {
-			name: "Stone Gate"
-			desc: "It's a stronger gate, you can pass and Drep can't for longer."
+			name: "Кам'яні Ворота"
+			desc: "Це міцніші ворота, через які ви можете пройти, а Дреп - ні, довше."
 		}
 		wall: {
-			name: "Wall"
-			desc: "Protects your buildings with metal."
+			name: "Стіна"
+			desc: "Захищає ваші будівлі металом."
 		}
 		gate: {
-			name: "Gate"
-			desc: "Clockwork armored gate to keep bad things out."
+			name: "Ворота"
+			desc: "Годинникові броньовані ворота, щоб тримати погані речі зовні."
 		}
 		hardenedwall: {
-			name: "Hardened Wall"
-			desc: "If these won't keep you safe, nothing will."
+			name: "Загартована Стіна"
+			desc: "Якщо це вас не захистить, то нічого не захистить."
 		}
 		hardenedgate: {
-			name: "Hardened Gate"
-			desc: "This gate will keep the Drep out like nothing else. Until it won't."
+			name: "Загартовані Ворота"
+			desc: "Ці ворота не пропустять Дрепа, як ніщо інше. Поки не пропустять."
 		}
 		trap-mine1-small: {
-			name: "Small Trap"
+			name: "Мала Пастка"
 		}
 		trap-mine2-small: {
-			name: "Small Explosive Trap"
+			name: "Мала Вибухова Пастка"
 		}
 		trap-mine1: {
-			name: "Trap"
-			desc: "Triggered by proximity to enemy units."
+			name: "Пастка"
+			desc: "Активується при наближенні ворожих одиниць."
 		}
 		trap-mine2: {
-			name: "Explosive Trap"
+			name: "Вибухова Пастка"
 		}
 		trap-mine1-2: {
-			name: "Trap 2"
+			name: "Пастка 2"
 		}
 		trap-mine2-2: {
-			name: "Explosive Trap 2"
+			name: "Вибухова Пастка 2"
 		}
 		trap-slow: {
-			name: "Freeze Trap"
+			name: "Крижана Пастка"
 		}
 		house: {
-			name: "House"
-			desc: "Stores the resource we call 'people'.\n\nIncreases worker capacity, requires regular supply of food."
+			name: "Будинок"
+			desc: "Зберігає ресурс, який ми називаємо 'люди'.\n\nЗбільшує кількість робочих, потребує регулярного постачання їжі."
 		}
 		apartment: {
-			name: "Apartment"
-			desc: "A larger, more cramped storage for people.\n\nSpace efficiency is a thing on flying cities."
+			name: "Квартира"
+			desc: "Більше, більш стисле сховище для людей.\n\nЕфективність простору має значення в літаючих містах."
 		}
 		dreamshield: {
-			name: "Nullifier Shield"
-			desc: "This huge shield will surround the entire city and the area around it with a dream-nullifying field that will disintegrate any dream-realm element within it. That includes all the Drep.\n\nThis shield is very heavy, requires a lot of power, workers, and flux to activate, and it will take a long time before its fully functional. You have to keep it operational and defend the city for a long time while it is charging. Be prepared."
+			name: "Щит Нівелірування"
+			desc: "Цей великий щит оточує все місто та його околиці полем, яке нівелює сновидіння та розпорошує будь-які елементи з реальності сновидінь всередині нього. Це включає всіх Дрепів.\n\nЦей щит дуже важкий, потребує багато енергії, робітників та флюсу для активації, і знадобиться багато часу, щоб він став повністю функціональним. Ви повинні підтримувати його в робочому стані та захищати місто протягом тривалого часу, поки він заряджається. Будьте готові."
 		}
 		archeologist: {
-			name: "Archeologist"
-			desc: "Undertake projects using old-world relics for significant permanent bonuses."
+			name: "Археолог"
+			desc: "Проводить проекти, використовуючи старовинні реліквії для отримання значних постійних бонусів."
 		}
-
 		bloodwoodharvester: {
-			name: "Bloodwood Cutter"
+			name: "Збирач Кривавого Дерева"
 		}
 		featherstoneharvester: {
-			name: "Featherstone Miner"
+			name: "Шахтар Перокаменю"
 		}
 		crystalharvester: {
-			name: "Crystal Miner"
+			name: "Шахтар Кристалів"
 		}
 		cabtusharvester: {
-			name: "Cabtus Collector"
+			name: "Збирач Кактусів"
 		}
 		coppermine: {
-			name: "Copper Drill"
+			name: "Мідна Шахта"
 		}
 		acidharvester: {
-			name: "Acid Shards Miner"
+			name: "Шахтар Кислотних Осколків"
 		}
 		glowhoneyharvester: {
-			name: "Glow Honey Collector"
+			name: "Збирач Світлого Меду"
 		}
 		sulfurmine: {
-			name: "Sulfur Mine"
+			name: "Сірчана Шахта"
 		}
 		liquidfireharvester: {
-			name: "Liquid Fire Harvester"
+			name: "Збирач Рідкого Вогню"
 		}
 		candyharvester: {
-			name: "Candyshroom Harvester"
+			name: "Збирач Кендігрибів"
 		}
-
 		startarcollector: {
-			name: "Tar Extractor"
-			desc: "Extracts Star-Stuck Tar from the soil under the city."
+			name: "Екстрактор Смоли"
+			desc: "Екстрагує Смолу зіркового стику з ґрунту під містом."
 		}
 		condenser: {
-			name: "Atmospheric Condenser"
-			desc: "Who says you can't create stuff out of thin air. This building literally extracts useful things from the air itself."
+			name: "Атмосферний Конденсатор"
+			desc: "Хто сказав, що не можна створювати речі з повітря. Ця будівля буквально видобуває корисні речі з самого повітря."
 		}
 		toxicgoocollector: {
-			name: "Toxic Goo Extractor"
-			desc: "Extracts toxic goo from the soil. Especially efficient in the toxic moors."
+			name: "Екстрактор Токсичного Гною"
+			desc: "Екстрагує токсичний гній з ґрунту. Особливо ефективний у токсичних болотах."
 		}
 		purptatofarm: {
-			name: "Purptato Farm"
-			desc: "It grows purptatoes. For eating."
+			name: "Ферма Пурптат"
+			desc: "Вирощує пурптати. Для їжі."
 		}
 		glueberryfarm: {
-			name: "Glueberry Farm"
-			desc: "Glueberry farmers' arms have lower than average life expectancy."
+			name: "Ферма Глюберрі"
+			desc: "Руки фермерів глюберрі мають менший, ніж середній, очікуваний термін життя."
 		}
 		materializer: {
-			name: "Materializer"
-			desc: "Uses flux and renewable raw materials to create resources that can't otherwise be produced in the city.\n\nAllows for some expensive, yet much-needed rest for Tiny."
+			name: "Матеріалізатор"
+			desc: "Використовує флюс та відновлювані сировини для створення ресурсів, які не можна інакше виробляти в місті.\n\nДозволяє Tiny відпочити, що хоч і дорого, але дуже необхідно."
 		}
-
 		storage: {
-			name: "Storage Yard"
-			desc: "A place to put things.\n\nResources stored here can also be used for construction, crafting, upgrades and other payment-style uses."
+			name: "Складський Двір"
+			desc: "Місце для зберігання речей.\n\nРесурси, що зберігаються тут, можуть також використовуватися для будівництва, крафту, модернізацій та інших платежів."
 		}
 		importer: {
-			name: "Resource Drop"
-			desc: "A place for raw materials to be dropped off without having to build rails from the harvesters.\n\nHarvester carts can't travel in the city, so the drop must be built outside or at the city edge."
+			name: "Пункт Приймання Ресурсів"
+			desc: "Місце для скидання сировини без необхідності будівництва рейок від збирачів.\n\nВізки збирачів не можуть рухатися містом, тому пункт має бути побудований зовні або на краю міста."
 		}
 		exporter: {
-			name: "Resource Packer"
-			desc: "Provide it with any resource (including refined) via rails and it will send them to the nearest resource drop that accepts them.\n\nCarts can't travel in the city, so build outside or at the city edge."
+			name: "Пакувальник Ресурсів"
+			desc: "Постачайте його будь-яким ресурсом (включаючи оброблені) через рейки, і він відправить їх до найближчого пункту приймання ресурсів, який їх приймає.\n\nВізки не можуть рухатися містом, тому будуйте зовні або на краю міста."
 		}
 		smallbattery: {
-			name: "Small Battery"
-			desc: "Tesla's house. Increases the city's Tesla power capacity."
+			name: "Мала Батарея"
+			desc: "Будинок Тесли. Збільшує потужність міста Тесла."
 		}
-
 		startargenerator: {
-			name: "Power Generator"
-			desc: "Generates power.\n\nCan't be built too close to other generators."
+			name: "Генератор Енергії"
+			desc: "Генерує енергію.\n\nНе можна будувати занадто близько до інших генераторів."
 		}
 		fluxgenerator: {
-			name: "Flux Vats"
-			desc: "This building specializes in distilling flux."
+			name: "Флюсові Бочки"
+			desc: "Ця будівля спеціалізується на дистиляції флюсу."
 		}
-
 		woodwarper: {
-			name: "Wood Warper"
-			desc: "Refines logs into usable boards. Can produce many wood-based recipes."
+			name: "Деревний Викривлювач"
+			desc: "Обробляє колоди в використані дошки. Може виробляти багато рецептів на основі деревини."
 		}
 		stonecutter: {
-			name: "Stone Worker"
-			desc: "Refines raw featherstone so you can use it in construction."
+			name: "Обробник Каменю"
+			desc: "Обробляє необроблений перокамінь, щоб ви могли використовувати його в будівництві."
 		}
 		purptatoprocessor: {
-			name: "Food Plant"
-			desc: "Makes stuff we don't want to eat from stuff we really don't want to eat.\n\nConverts raw materials to food."
+			name: "Завод Їжі"
+			desc: "Робить те, що ми не хочемо їсти, з того, що ми справді не хочемо їсти.\n\nПеретворює сировину на їжу."
 		}
 		coppersmelter: {
-			name: "Smell-ter"
-			desc: "Odorful machines that refine raw metals into usable ingots. Can produce many metal-based recipes."
+			name: "Плавильня"
+			desc: "Запашні машини, що обробляють необроблені метали у використані злитки. Може виробляти багато рецептів на основі металів."
 		}
 		workshop: {
-			name: "Workshop"
-			desc: "Assembles all sorts of bits and pieces into more usable bits and pieces."
+			name: "Майстерня"
+			desc: "Збирає всілякі деталі в більш використані деталі."
 		}
 		cauldron: {
-			name: "The Cauldron"
-			desc: "Turns liquid things into other liquid things."
+			name: "Котел"
+			desc: "Перетворює рідкі речі на інші рідкі речі."
 		}
-
 		bloodwoodresource: {
-			name: "Bloodwood Node"
+			name: "Вузол Кривавого Дерева"
 		}
 		featherstoneresource: {
-			name: "Featherstone Node"
+			name: "Вузол Перокаменю"
 		}
 		crystalresource: {
-			name: "Crystal Node"
+			name: "Вузол Кристалів"
 		}
 		cabtusresource: {
-			name: "Cabtus Node"
+			name: "Вузол Кактусів"
 		}
 		copperresource: {
-			name: "Copper Node"
+			name: "Вузол Міді"
 		}
 		acidshardsresource: {
-			name: "Acid Node"
+			name: "Кислотний Вузол"
 		}
 		glowhoneyresource: {
-			name: "Glow Honey Node"
+			name: "Вузол Світлого Меду"
 		}
 		sulfurresource: {
-			name: "Sulfur Node"
+			name: "Сірчаний Вузол"
 		}
 		liquidfireresource: {
-			name: "Liquid Fire Node"
+			name: "Вузол Рідкого Вогню"
 		}
 		candyresource: {
-			name: "Candyshroom Node"
+			name: "Вузол Кендігрибів"
 		}
 		ruins-ind: {
-			name: "Industrial Ruins"
+			name: "Індустріальні Руїни"
 		}
 		ruins-tech: {
-			name: "Tech Ruins"
+			name: "Технологічні Руїни"
 		}
 		ruins-lab: {
-			name: "Chemical Ruins"
+			name: "Хімічні Руїни"
 		}
 		ruins-fuel: {
-			name: "Fuel Cache Ruins"
+			name: "Руїни Паливного Складу"
 		}
 		ruins-skill-resetter: {
-			name: "Infrastructure Cleanup Ruins"
+			name: "Руїни Очищення Інфраструктури"
 		}
 		ruins-resource-converter: {
-			name: "Resource Converter Ruins"
+			name: "Руїни Конвертера Ресурсів"
 		}
 		ruins-flux-shop: {
-			name: "Materializer Ruins"
+			name: "Руїни Матеріалізатора"
 		}
 		ruins-perm-income: {
-			name: "Supply Depot Ruins"
+			name: "Руїни Складу Постачання"
 		}
 		raid-spawner: {
-			name: "Nightmare Rift"
+			name: "Розрив Кошмару"
 		}
 	}
 
 	hud: {
-		daytime: "Cycle\n{0}"
-		daytime-hover: "A cycle is the basic time unit in Dream Engines.\n\nOne cycle is 40 real-time seconds."
-		fast-forward: "Hold to fast forward"
+		daytime: "Цикл\n{0}"
+		daytime-hover: "Цикл - це основна одиниця часу в Dream Engines.\n\nОдин цикл триває 40 секунд реального часу."
+		fast-forward: "Утримуйте для прискорення"
 		enemy-meter: {
-			threat-level: "Threat Level: {0}"
-			threat-hover: "Threat level indicates how agitated the Dream Plagues are. It will increase as long as your city is landed, and will reset once you take off according to the new map's difficulty level.\n\nHigher threat levels mean stronger Drep raids on your city.\n\n<color=#FFD57E>Click to open city info window.</color>"
+			threat-level: "Рівень Загрози: {0}"
+			threat-hover: "Рівень загрози показує, наскільки агресивні кошмари. Він буде збільшуватися, поки ваше місто приземлене, і буде скидатися після зльоту відповідно до рівня складності нової карти.\n\nВищий рівень загрози означає сильніші рейди Дрепів на ваше місто.\n\n<color=#FFD57E>Клацніть, щоб відкрити вікно інформації про місто.</color>"
 		}
 		resource-counter: {
-			assigned-hover: "Owned: {0}\nAssigned: {1}\nFree: {2}"
-			normal-hover: "Owned: {0}\nProduced (Actual): {1}\nConsumed (Max): {2}"
-			edit-hover: "Edit\n\nSelect items to track in HUD."
-			edit-title: "Select Items"
+			assigned-hover: "Власність: {0}\nПризначено: {1}\nВільно: {2}"
+			normal-hover: "Власність: {0}\nВироблено (Фактично): {1}\nСпожито (Макс): {2}"
+			edit-hover: "Редагувати\n\nВиберіть елементи для відстеження в HUD."
+			edit-title: "Вибір Елементів"
 		}
 		bottom: {
 			health: {
-				title: "Tiny's Health"
-				hover: "Return to city or use a repair kit to repair damage"
+				title: "Здоров'я Tiny"
+				hover: "Поверніться до міста або використайте ремонтний комплект для відновлення пошкоджень"
 			}
 		}
 		buttons: {
-			build: "Build"
-			toolstoolbar: "Tools - manage your city"
-			usable-storage: "Combined Resources\n\nSum of all items in storage buildings and Tiny's inventory. These are the resources available for construction, crafting, and other player actions."
-			research: "Research"
-			crafting: "Crafting"
-			journal: "Journal"
-			skills: "Infrastructure"
-			inventory: "Character window"
-			gamepedia: "Dream Archives"
-			bulldoze: "Demolish\n\nYou'll get back some materials when demolishing buildings (only building materials, not Flux)."
-			repair: "Fix / Rebuild\n\nRepair damaged buildings and rebuild debris. Can not be used with enemies nearby."
-			move: "Move Building\n\nSelect a building to move and then its destination. Not all buildings can be moved."
-			delinout: "Remove Access Points\n\nRemove all access points (input / output) from a rail tile."
-			pickcart: "Pick carts\n\nUse this tool to pick up resources from rails."
-			enabledisable: "On / Off\n\nUse this tool to quickly enable or disable buildings."
-			free-camera: "Free Camera\n\nToggle to disconnect the camera from Tiny and move it freely."
-
-			layer-cancel: "Turn off all layers."
-			layer-upgrade: "Upgrade Layer\n\nShow building levels and buttons for quickly upgrading them."
-			layer-prod: "Production Layer\n\nShow active production for each building and change them directly from the game view."
+			build: "Будівництво"
+			toolstoolbar: "Інструменти - керуйте вашим містом"
+			usable-storage: "Загальні Ресурси\n\nСума всіх предметів на складах та в інвентарі Tiny. Це ресурси, доступні для будівництва, крафту та інших дій гравця."
+			research: "Дослідження"
+			crafting: "Крафт"
+			journal: "Щоденник"
+			skills: "Інфраструктура"
+			inventory: "Вікно персонажа"
+			gamepedia: "Архів Сновидінь"
+			bulldoze: "Знести\n\nПри знесенні будівель ви отримаєте деякі матеріали назад (тільки будівельні матеріали, не Флюс)."
+			repair: "Виправити / Відбудувати\n\nРемонт пошкоджених будівель та відбудова уламків. Не можна використовувати, якщо поруч вороги."
+			move: "Перемістити Будівлю\n\nВиберіть будівлю для переміщення, а потім її призначення. Не всі будівлі можна переміщати."
+			delinout: "Видалити Точки Доступу\n\nВидалити всі точки доступу (вхід / вихід) з рейкової плитки."
+			pickcart: "Зібрати Візки\n\nВикористовуйте цей інструмент, щоб зібрати ресурси з рейок."
+			enabledisable: "Увімкнути / Вимкнути\n\nВикористовуйте цей інструмент для швидкого ввімкнення або вимкнення будівель."
+			free-camera: "Вільна Камера\n\nПеремикайте, щоб відключити камеру від Tiny та переміщати її вільно."
+	
+			layer-cancel: "Вимкнути всі шари."
+			layer-upgrade: "Шар Модернізацій\n\nПоказати рівні будівель та кнопки для швидкої модернізації."
+			layer-prod: "Шар Виробництва\n\nПоказати активне виробництво для кожної будівлі та змінювати їх прямо з ігрового виду."
 		}
 		warnings: {
-			subtitle: "See tooltip above minimap."
-
-			// Global warnings
+			subtitle: "Дивіться підказку над міні-картою."
+	
+			// Глобальні попередження
 			overpopulation: {
-				text: "People are dying"
-				hover: "Your population is higher than what your housing allows. People will die and you will lose workers until you correct this.\n\nMake sure you have enough houses and that they are supplied with food and power."
+				text: "Люди помирають"
+				hover: "Ваше населення перевищує можливості ваших житлових будинків. Люди будуть помирати, і ви втратите робітників, поки не виправите це.\n\nПереконайтеся, що у вас достатньо будинків і вони забезпечені їжею та енергією."
 			}
 			fundsdwindling: {
-				text: "Running out of flux"
-				hover: "Flux is the most crucial resource for our technology.\n\nTime until it runs out: {0}"
+				text: "Закінчується флюс"
+				hover: "Флюс - найважливіший ресурс для нашої технології.\n\nЧас до його вичерпання: {0}"
 			}
 			fooddwindling: {
-				text: "Running out of food"
-				hover: "Your people are eating more food than you are producing. Build food plants and supply them with raw materials.\n\nTime until it runs out: {0}"
+				text: "Закінчується їжа"
+				hover: "Ваші люди споживають більше їжі, ніж ви виробляєте. Будуйте заводи з виробництва їжі та забезпечуйте їх сировиною.\n\nЧас до її вичерпання: {0}"
 			}
 			powerdwindling: {
-				text: "High power usage"
-				hover: "Your power consumption is higher than production. Build more generators and make sure they are well supplied.\n\nTime until it runs out: {0}"
+				text: "Високе споживання енергії"
+				hover: "Ваше споживання енергії перевищує виробництво. Будуйте більше генераторів і переконайтеся, що вони добре забезпечені.\n\nЧас до її вичерпання: {0}"
 			}
 			upgrade-available: {
-				text: "Infrastructure Upgrade Available"
-				hover: "You have enough materials for an infrastructure upgrade.\n\nPress K to open the infrastructure screen and purchase an upgrade, then spend the upgrade points."
+				text: "Доступна Модернізація Інфраструктури"
+				hover: "У вас достатньо матеріалів для модернізації інфраструктури.\n\nНатисніть K, щоб відкрити екран інфраструктури та придбати модернізацію, а потім витратьте очки модернізації."
 			}
 			overweight: {
-				text: "Overweight"
-				hover: "Your city weight has exceeded your engines' carry capacity. You won't be able to fly while overweight.\n\nBuild or upgrade engines to increase your carry capacity, or remove some buildings to reduce your city's weight."
+				text: "Перевантаження"
+				hover: "Вага вашого міста перевищила вантажопідйомність ваших двигунів. Ви не зможете летіти, поки перевантажені.\n\nБудуйте або модернізуйте двигуни, щоб збільшити вантажопідйомність, або видаліть деякі будівлі, щоб зменшити вагу міста."
 			}
 			building-attacked: {
-				text: "Your buildings are under attack"
-				hover: "One or more of your buildings are under attack."
+				text: "Ваші будівлі атакують"
+				hover: "Одну або кілька ваших будівель атакують."
 			}
 			tiny-attacked: {
-				text: "Tiny is under attack"
+				text: "Tiny атакують"
 			}
 			risk-increase: {
-				title: "Threat Level Increased"
-				text: "New threat level: {0}"
+				title: "Рівень Загрози Збільшено"
+				text: "Новий рівень загрози: {0}"
 			}
 			raid-incoming: {
-				title: "Drep attack"
-				text: "They're coming! Prepare to defend your city."
+				title: "Атака Дрепів"
+				text: "Вони йдуть! Готуйтеся захищати ваше місто."
 			}
 			raid-preparing: {
-				title: "Raid approaching"
-				text: "The Drep are preparing an assault."
+				title: "Рейд наближається"
+				text: "Дрепи готують напад."
 			}
 			go-to-city: {
-				title: "Take-off imminent"
-				text: "Return to city immediately."
+				title: "Зліт неминучий"
+				text: "Негайно поверніться до міста."
 			}
 			no-research: {
-				text: "No research selected"
-				hover: "There are active labs but no research subject has been selected.\n\nPress R to open the research screen and select a subject to research, or disable the labs to save power & flux."
+				text: "Не вибрано дослідження"
+				hover: "Активні лабораторії, але не вибрано тему дослідження.\n\nНатисніть R, щоб відкрити екран досліджень і вибрати тему для дослідження, або вимкніть лабораторії, щоб заощадити енергію та флюс."
 			}
 			insufficient-workers: {
-				text: "Insufficient Workers"
-				hover: "You do not have enough workers to maintain all of your buildings.\n\nDisable buildings to free up workers, or build more houses to increase your maximum worker capacity. If you have free housing, workers will slowly increase over time."
+				text: "Недостатньо Робітників"
+				hover: "У вас недостатньо робітників для обслуговування всіх ваших будівель.\n\nВимкніть будівлі, щоб звільнити робітників, або будуйте більше будинків, щоб збільшити максимальну кількість робітників. Якщо у вас є вільне житло, кількість робітників повільно збільшуватиметься з часом."
 			}
-
-			// Building warnings
-
+	
+			// Попередження будівель
+	
 			prod-missing-raw: {
-				hover: "Insufficient Resources\n\nThis building is missing raw materials required for production."
+				hover: "Недостатньо Ресурсів\n\nЦій будівлі не вистачає сировини, необхідної для виробництва."
 			}
-
+	
 			resource-depleted: {
-				hover: "Resource Depleted\n\nThe resource in this deposit has been depleted and is producing at reduced efficiency."
+				hover: "Вичерпано Ресурс\n\nРесурс у цьому родовищі вичерпано, і воно працює зі зниженою ефективністю."
 			}
-
+	
 			building-disabled: {
-				hover: "Building Disabled\n\nThis building has been manually disabled and is not functioning."
+				hover: "Будівля Відключена\n\nЦя будівля була вимкнена вручну і не функціонує."
 			}
-
+	
 			missing-upkeep: {
-				hover: "Insufficient Resources\n\nYou do not have enough resources to upkeep this building."
+				 hover: "Недостатньо Ресурсів\n\nУ вас недостатньо ресурсів для обслуговування цієї будівлі."
 			}
-
+	
 			output-full: {
-				hover: "Output Full\n\nProduction can not proceed until produced resources are sent from the building."
+				hover: "Повний Вихід\n\nВиробництво не може продовжуватися, поки вироблені ресурси не будуть виведені з будівлі."
 			}
-
+	
 			no-power-connection: {
-				hover: "Disconnected from Power Network\n\nBuilding has been disconnected from power network. Build tesla towers so that the building can receive power."
+				hover: "Відключено від Енергомережі\n\nБудівля відключена від енергомережі. Будуйте вежі Тесли, щоб будівля могла отримувати енергію."
 			}
 		}
 		citysize: {
-			maxsize: "Maximum Reached"
+			maxsize: "Досягнуто Максимуму"
 			current-size: "{1}: {0}"
-			next-size: "Next level: {1}"
-			hover-title: "Next level: {0}"
-			hover-body: "Current population: {0}\nHousing available: {1}\nNeeded for next level: {2}\n\nBenefits at next level:\n{3}\n\n<color=#FFD57E>Click to open city info window.</color>"
-			s0: "Camp"
-			s1: "Outpost"
-			s2: "Village"
-			s3: "Town"
-			s4: "Haven"
-			s5: "City"
-			s6: "Flying Fortress"
+			next-size: "Наступний рівень: {1}"
+			hover-title: "Наступний рівень: {0}"
+			hover-body: "Поточне населення: {0}\nДоступне житло: {1}\nНеобхідно для наступного рівня: {2}\n\nПереваги на наступному рівні:\n{3}\n\n<color=#FFD57E>Клацніть, щоб відкрити вікно інформації про місто.</color>"
+			s0: "Табір"
+			s1: "Аванпост"
+			s2: "Село"
+			s3: "Містечко"
+			s4: "Прихисток"
+			s5: "Місто"
+			s6: "Літаюча Фортеця"
 		}
 		construction: {
-			free-builds: "Free Builds: {0}"
-			max-amount: "Maximum Allowed: {0}"
+			free-builds: "Безкоштовне Будівництво: {0}"
+			max-amount: "Максимально Дозволено: {0}"
 		}
 	}
 
 	objwarnings: {
-		importer-no-access: "No external access. Move to city edges or outside."
-		disconnected-rail: "This rail track does not lead to any input."
+		importer-no-access: "Немає зовнішнього доступу. Перемістіть на краї міста або зовні."
+		disconnected-rail: "Ця рейкова доріжка не веде до жодного входу."
 	}
 
 	crafting-categories: {
 		equipment: {
-			name: "Equipment"
+			name: "Обладнання"
 		}
 		upgrades: {
-			name: "Upgrades"
+			name: "Модернізації"
 		}
 		resources: {
-			name: "Resources"
+			name: "Ресурси"
 		}
 		modules: {
-			name: "Modules"
+			name: "Модулі"
 		}
 		ruins-store: {
-			name: "Special"
+			name: "Спеціальне"
 		}
 	}
 
 	upgrades: {
 		prod1: {
-			name: "Production Line Upgrade"
-			desc: "Allows using more advanced production recipes. Most recipes need to be researched before they are available."
+			name: "Модернізація Виробничої Лінії"
+			desc: "Дозволяє використовувати більш просунуті виробничі рецепти. Більшість рецептів потрібно досліджувати перед тим, як вони стануть доступними."
 		}
 		prod2: {
-			name: "Production Line Upgrade 2"
+			name: "Модернізація Виробничої Лінії 2"
 		}
 		prod3: {
-			name: "Production Line Upgrade 3"
+			name: "Модернізація Виробничої Лінії 3"
 		}
 		energycell-addon: {
-			name: "Tesla Chamber"
+			name: "Камера Тесли"
 		}
 		materializer-cabtus: {
-			name: "Cabtus Materializer"
+			name: "Матеріалізатор Кактусів"
 		}
 		materializer-crystal: {
-			name: "Crystal Materializer"
+			name: "Матеріалізатор Кристалів"
 		}
 		materializer-acid: {
-			name: "Acid Shard Materializer"
+			name: "Матеріалізатор Кислотних Осколків"
 		}
 		materializer-sulfur: {
-			name: "Sulfur Materializer"
+			name: "Матеріалізатор Сірки"
 		}
 		coppermachine-flux: {
-			name: "Flux Machinery"
-			desc: "Enhances the basic production recipe.\n\nDoes not work with more advanced recipes."
+			name: "Флюсове Обладнання"
+			desc: "Покращує базовий виробничий рецепт.\n\nНе працює з більш просунутими рецептами."
 		}
 		coppermachine-power: {
-			name: "Tesla Machinery"
+			name: "Обладнання Тесли"
 		}
 		woodturret-plating: {
-			name: "Nightmare Upgrades"
+			name: "Модернізації Кошмарів"
 		}
 		stoneturret-plating: {
-			name: "Nightmare Upgrades"
+			name: "Модернізації Кошмарів"
 		}
 		atlasturret-plating: {
-			name: "Nightmare Upgrades"
+			name: "Модернізації Кошмарів"
 		}
 		musicturret-speed: {
-			name: "Flux Metal Upgrades"
+			name: "Модернізації з Флюсового Металу"
 		}
 		atlasturret-damage: {
-			name: "Flux Metal Upgrades"
+			name: "Модернізації з Флюсового Металу"
 		}
 		storage-flux: {
-			name: "Extra Flux Storage"
+			name: "Додаткове Зберігання Флюсу"
 		}
 		storage-fuel: {
-			name: "Extra Fuel Storage"
+			name: "Додаткове Зберігання Палива"
 		}
 		battery-power: {
-			name: "Extra Battery Storage"
+			name: "Додаткове Зберігання Батарей"
 		}
 		heat-shield: {
-			name: "Heat Shield"
+			name: "Тепловий Щит"
 		}
 		air-filter: {
-			name: "Air Filter"
+			name: "Фільтр Повітря"
 		}
-
 	}
 
 	windows: {
 		selectedbuilding: {
-			on-off-hover: "Toggle building on/off"
+			on-off-hover: "Увімкнути/вимкнути будівлю"
 		}
 		titlemenu: {
-			quit: "Quit"
-			credits: "Credits"
-			buildnumber: "Build {0}"
-			patchnotes: "<u>Read latest patch notes</u>"
+			quit: "Вийти"
+			credits: "Кредити"
+			buildnumber: "Збірка {0}"
+			patchnotes: "<u>Читати останні нотатки про патч</u>"
 		}
 		gamepedia: {
-			title: "Dream Archives"
-			unseen-tab: "New"
-			construction-tab: "Buildings"
-			upgrades-tab: "Building Upgrades"
-			production-tab: "Production Recipes"
-			crafting-tab: "Crafting Recipes"
-			resources-tab: "Resources"
-			right-click: "Right click to open in the Dream Archives"
-			filter: "Filter..."
+			title: "Архіви Мрій"
+			unseen-tab: "Нові"
+			construction-tab: "Будівлі"
+			upgrades-tab: "Модернізації Будівель"
+			production-tab: "Рецепти Виробництва"
+			crafting-tab: "Рецепти Ремесел"
+			resources-tab: "Ресурси"
+			right-click: "Клацніть правою кнопкою миші, щоб відкрити в Архівах Мрій"
+			filter: "Фільтр..."
 		}
 		inputoutput: {
-			outputtitle: "Select item to output"
-			mintitle: "Minimum required"
-			minhover: "Items will only be sent when more than the minimum amount is available in storage.\n\nIgnored when selecting 'all'"
+			outputtitle: "Виберіть елемент для виходу"
+			mintitle: "Мінімально необхідно"
+			minhover: "Елементи будуть відправлятися лише тоді, коли в сховищі є більше мінімальної кількості.\n\nІгнорується при виборі 'всі'"
 		}
 		saveload: {
-			loadtitle: "Load Game"
-			savetitle: "Save Game"
+			loadtitle: "Завантажити Гру"
+			savetitle: "Зберегти Гру"
 			savename: {
-				title: "Save Game Title"
-				text: "Enter a name for your save file"
-				placeholder: "Save Name..."
-				autosave: "Auto Save"
-				quicksave: "Quick Save"
-				new-save: "New Save"
+				title: "Назва Збереження Гри"
+				text: "Введіть ім'я для вашого файлу збереження"
+				placeholder: "Назва Збереження..."
+				autosave: "Автозбереження"
+				quicksave: "Швидке Збереження"
+				new-save: "Нове Збереження"
 			}
-			save-desc-format: "{0} - {2}, {1} citizens" // name, population
-			save-info-format: "{0}\nCycle {1}\nBuild {3}, {2}" // desc, cycle, date/time, build number
-			default-name: "{0} {1} Cycles" // city name, cycle
-			notsupported-postfix: " (Not Supported)"
-			notsupported-hover: "Saves from this build are no longer supported.\n\nIf you wish to continue this save using an older build of the game, you can select it from the Betas tab on Steam. Right click the game in your library, then choose Preferences, then select the Betas tab."
-			delete-incompatible: "Delete incompatible saves"
-			delete-incompatible-hover: "This will delete all save files from previous builds that are no longer compatible. This action can not be undone."
+			save-desc-format: "{0} - {2}, {1} жителів" // name, population
+			save-info-format: "{0}\nЦикл {1}\nЗбірка {3}, {2}" // desc, cycle, date/time, build number
+			default-name: "{0} {1} Циклів" // city name, cycle
+			notsupported-postfix: " (Не Підтримується)"
+			notsupported-hover: "Збереження з цієї збірки більше не підтримуються.\n\nЯкщо ви бажаєте продовжити цю гру, використовуючи старішу збірку, ви можете вибрати її в розділі Betas на Steam. Клацніть правою кнопкою миші на грі у вашій бібліотеці, виберіть Preferences, а потім вкладку Betas."
+			delete-incompatible: "Видалити несумісні збереження"
+			delete-incompatible-hover: "Це видалить всі файли збережень з попередніх збірок, які більше не сумісні. Цю дію не можна скасувати."
 		}
 		gamemenu: {
-			title: "Game Menu"
-			save: "Save Game"
-			feedback: "Send Feedback"
-			discord: "Discuss on Discord"
-			load: "Load Game"
-			quit: "Back to Title"
-			savequit: "Save & Quit"
-			info: "{1}\nTime in game: {0}"
+			title: "Меню Гри"
+			save: "Зберегти Гру"
+			feedback: "Надіслати Відгук"
+			discord: "Обговорити на Discord"
+			load: "Завантажити Гру"
+			quit: "Назад до Меню"
+			savequit: "Зберегти та Вийти"
+			info: "{1}\nЧас у грі: {0}"
 		}
 		destinationselect: {
-			title: "Select Destination"
-			worlddifficulty: "Global Infestation Level:"
-			worlddifficulty-hover: "Global infestation level affects the amount of skulls (map difficulty) in the landing options you can choose from. When the infestation level increases, more difficult options will appear.\n\nThe global infestation increases with time."
-			mapdifficulty-title: "Map Difficulty"
-			mapdifficulty-hover: "Starting threat level: {0}\n\nMap difficulty determines the amount and strength of the Drep on the map and the starting threat level for raids on your city."
-			refresh-title: "Fly Elsewhere"
-			refresh-hover: "Spend fuel to fly to a different area and generate a new set of landing options."
-			locked: "Can't land here"
+			title: "Виберіть Місце Приземлення"
+			worlddifficulty: "Рівень Глобальної Інфекції:"
+			worlddifficulty-hover: "Рівень глобальної інфекції впливає на кількість черепів (складність карти) у варіантах приземлення, які ви можете вибрати. Коли рівень інфекції підвищується, з'являються більш складні варіанти.\n\nГлобальна інфекція зростає з часом."
+			mapdifficulty-title: "Складність Карти"
+			mapdifficulty-hover: "Початковий рівень загрози: {0}\n\nСкладність карти визначає кількість і силу Дрепів на карті та початковий рівень загрози для нападів на ваше місто."
+			refresh-title: "Летіти Іншим Місцем"
+			refresh-hover: "Витратити паливо, щоб полетіти в іншу область і згенерувати новий набір варіантів приземлення."
+			locked: "Не можна приземлитися тут"
 		}
 		expedition-select: {
-			workers-title: "Expedition Crew"
-			workers-hover: "The crew will be tied up during the entire expedition including the preparation phase, make sure you have enough workers."
-			workers-desc: "Workers required: {0}"
-			upfront-costs-title: "Upfront Costs"
-			upfront-costs-hover: "These items will be consumed as soon as the expedition preparation begins."
-			prep-title: "Preparation"
-			prep-hover: "These are the upkeep costs of the expedition center during the preparation phase."
-			prep-desc: "Preparation time: {0} cycles"
-			expedition-title: "Expedition & Rewards"
-			expedition-hover: "These are the rewards that we expect to find during the expedition."
-			expedition-desc: "Expedition duration: {0} cycles"
+			workers-title: "Екіпаж Експедиції"
+			workers-hover: "Екіпаж буде зайнятий протягом усієї експедиції, включаючи підготовчий етап, переконайтеся, що у вас достатньо робітників."
+			workers-desc: "Необхідні робітники: {0}"
+			upfront-costs-title: "Попередні Витрати"
+			upfront-costs-hover: "Ці предмети будуть витрачені, як тільки почнеться підготовка до експедиції."
+			prep-title: "Підготовка"
+			prep-hover: "Це витрати на утримання експедиційного центру під час підготовчого етапу."
+			prep-desc: "Час підготовки: {0} циклів"
+			expedition-title: "Експедиція та Нагороди"
+			expedition-hover: "Це нагороди, які ми очікуємо знайти під час експедиції."
+			expedition-desc: "Тривалість експедиції: {0} циклів"
 		}
 		expedition-rewards: {
-			title: "Expedition - select reward"
+			title: "Експедиція - виберіть нагороду"
 		}
 		archeology-select: {
-			time-desc: "Project time: {0} cycles"
-			build-title: "Project Details"
-			build-hover: "To complete the project, you must continuously supply archeologists with the resources listed below until the project is completed.\n\nMultiple archeologists will contribute to the same project and complete it faster."
-			rewards-title: "Rewards"
-			rewards-hover: "Upon completion of the project, these rewards are granted permanently and there are no additional costs."
+			time-desc: "Час проекту: {0} циклів"
+			build-title: "Деталі Проекту"
+			build-hover: "Щоб завершити проект, ви повинні постійно постачати археологів ресурсами, перерахованими нижче, до завершення проекту.\n\nКілька археологів можуть працювати над одним проектом, що пришвидшить його завершення."
+			rewards-title: "Нагороди"
+			rewards-hover: "Після завершення проекту ці нагороди надаються постійно, і додаткові витрати не потрібні."
 		}
 		research: {
-			title: "Research"
-			noresearch: "No active research"
-			nolabs: "No labs built"
-			nolabs-hover: "Build a research lab to start researching new technologies.\n\nResearch labs are unlocked by increasing your city's population."
+			title: "Дослідження"
+			noresearch: "Немає активних досліджень"
+			nolabs: "Не збудовано лабораторій"
+			nolabs-hover: "Побудуйте дослідницьку лабораторію, щоб розпочати дослідження нових технологій.\n\nДослідницькі лабораторії стають доступними після збільшення населення вашого міста."
 		}
 		crafting: {
-			title: "Crafting"
-			performbutton: "Craft"
-			charges: "Charges remaining: {0}"
-			not-activated: "Can't craft - building not activated"
-			teslacrats-mul-addition: "\n\n<color=#FFD57E>Power costs multiplier: {0}</color>\nThis value increases when crafting from power, and slowly goes back to normal."
+			title: "Ремесло"
+			performbutton: "Створити"
+			charges: "Залишок зарядів: {0}"
+			not-activated: "Не можна створити - будівлю не активовано"
+			teslacrats-mul-addition: "\n\n<color=#FFD57E>Множник вартості електроенергії: {0}</color>\nЦе значення збільшується під час створення з електроенергії і поступово повертається до норми."
 		}
 		productionselect: {
-			title: "Select Production Recipes"
-			select: "Select"
-			missing-upgrade: "Missing upgrade/add-on: {0}"
+			title: "Вибір Рецептів Виробництва"
+			select: "Вибрати"
+			missing-upgrade: "Відсутня модернізація/додаток: {0}"
 		}
 		character: {
-			title: "Character"
-			weapon: "Weapons"
-			weapon-secondary: "Alternate Weapons"
-			weapon-secondary-hover: "Press {0} to switch between primary and alternate weapon sets."
-			secondary-not-assigned: "Not assigned"
-			secondary-not-assigned-hover: "When no weapon is assigned in the alternate set, the weapon from the primary set will be used instead."
-			armor: "Armor"
-			equipment: "Equipment"
-			quickbar: "Shortcut Slots (click a slot to assign)"
-			enable-scrap: "Scrap Equipment"
-			end-scrap: "End Scrapping"
-			no-scrap-hover: "Scrapping this item will not return any materials."
-			scrap-value-hover: "Scrapping this item will yield the following resources:"
+			title: "Персонаж"
+			weapon: "Зброя"
+			weapon-secondary: "Альтернативна Зброя"
+			weapon-secondary-hover: "Натисніть {0}, щоб переключитися між основним і альтернативним набором зброї."
+			secondary-not-assigned: "Не призначено"
+			secondary-not-assigned-hover: "Якщо зброя не призначена в альтернативному наборі, буде використовуватися зброя з основного набору."
+			armor: "Броня"
+			equipment: "Обладнання"
+			quickbar: "Швидкі Слоти (клацніть на слот, щоб призначити)"
+			enable-scrap: "Переробити Обладнання"
+			end-scrap: "Завершити Переробку"
+			no-scrap-hover: "Переробка цього предмета не поверне жодних матеріалів."
+			scrap-value-hover: "Переробка цього предмета дасть наступні ресурси:"
 		}
 		skills: {
-			title: "Infrastructure Upgrades"
-			purchasebutton: "Purchase"
-			purchasebutton-hover: "Spend resources to increase your infrastructure level and gain points that can be assigned for various benefits."
-			requirements: "Requirements"
-			per-level: "Bonuses per level:"
-			level: "Infrastructure Level: {0}"
-			upgrade-points: "Unassigned Points: {0}"
-			points-hover: "Infrastructure points can be used to improve your infrastructure in several areas. Hover each area to see the benefits of upgrading it."
+			title: "Модернізації Інфраструктури"
+			purchasebutton: "Придбати"
+			purchasebutton-hover: "Витратьте ресурси для підвищення рівня інфраструктури і отримання балів, які можна використовувати для різних переваг."
+			requirements: "Вимоги"
+			per-level: "Переваги за рівень:"
+			level: "Рівень Інфраструктури: {0}"
+			upgrade-points: "Нерозподілені Бали: {0}"
+			points-hover: "Бали інфраструктури можна використовувати для покращення інфраструктури в різних сферах. Наведіть курсор на кожну область, щоб побачити переваги модернізації."
 		}
 		tribeselect: {
-			title: "Select Your Tribe"
+			title: "Вибір Вашого Племені"
 		}
 		newgame: {
-			title: "New Game"
-			tutorial-label: "Enable tutorial"
-			score-mul: "Score Multiplier: {0}"
-			difficulty-title: "Select Difficulty"
-			customize-title: "Customize"
-			city-name-title: "City Name"
-			city-name-text: "How will your nomad city be known?"
+			title: "Нова Гра"
+			tutorial-label: "Увімкнути підручник"
+			score-mul: "Множник Рахунку: {0}"
+			difficulty-title: "Вибір Складності"
+			customize-title: "Налаштувати"
+			city-name-title: "Назва Міста"
+			city-name-text: "Як називатиметься ваше кочове місто?"
 		}
 		loadingscreen: {
-			tip: "Tip {0} / {1}"
-			loading: "Loading..."
-			press-any-key: "Press any key to continue\n<size=24>Use A | D keys to cycle through tips</size>"
+			tip: "Порада {0} / {1}"
+			loading: "Завантаження..."
+			press-any-key: "Натисніть будь-яку клавішу, щоб продовжити\n<size=24>Використовуйте клавіші A | D для прокрутки порад</size>"
 		}
 		yesno: {
-			dontshowagain: "Don't ask again"
+			dontshowagain: "Більше не показувати"
 			chosen-higher-difficulty: {
-				title: "Increase Difficulty?"
-				text: "You've chosen to land in a location of higher difficulty than the current global infestation level. This will immediately increase the infestation level.\n\nHover the Global Infestation Level indicator at the top of the destination selection window to learn more about this.\n\nProceed?"
+				title: "Підвищити Складність?"
+				text: "Ви вибрали приземлитися в місці з вищою складністю, ніж поточний рівень глобальної інфекції. Це негайно підвищить рівень інфекції.\n\nНаведіть курсор на індикатор рівня глобальної інфекції у верхньому лівому куті вікна вибору місця приземлення, щоб дізнатися більше про це.\n\nПродовжити?"
 			}
 			delete-save: {
-				title: "Delete Save?"
-				text: "Are you sure you want to delete this save file? This action is irreversable."
+				title: "Видалити Збереження?"
+				text: "Ви впевнені, що хочете видалити цей файл збереження? Цю дію не можна скасувати."
 			}
 			overwrite-save: {
-				title: "Overwrite Save?"
-				text: "This will overwrite an existing save file.\n\nAre you sure you want to overwrite this file? This action is irreversable."
+				title: "Перезаписати Збереження?"
+				text: "Це перезапише існуючий файл збереження.\n\nВи впевнені, що хочете перезаписати цей файл? Цю дію не можна скасувати."
 			}
 			cancel-takeoff: {
-				title: "Cancel Take-off?"
-				text: "Are you sure you want to stop the take-off process? You will only get half of your fuel costs back."
+				title: "Скасувати Взліт?"
+				text: "Ви впевнені, що хочете зупинити процес взльоту? Ви отримаєте назад лише половину витраченого палива."
 			}
 			overwrite-ironman: {
-				title: "Overwrite Save?"
-				text: "An ironman mode game with this name already exists. Starting a new game with the same name will overwrite the old save.\n\nYou can enter a different city name if you wish to keep the previous save.\n\nOverwrite save?"
+				title: "Перезаписати Збереження?"
+				text: "Гра в режимі ironman з цією назвою вже існує. Початок нової гри з тією ж назвою перезапише старе збереження.\n\nВи можете ввести іншу назву міста, якщо хочете зберегти попереднє збереження.\n\nПерезаписати збереження?"
 			}
 			no-overseer: {
-				title: "Overseer Tools Disabled"
-				text: "You've chosen to play with Overseer tools disabled. This means you won't be able to pause or speed-up the game, and the camera will be locked to Tiny, so you have to physically move in order to manage your city. Proceed?"
+				title: "Інструменти Наглядача Вимкнено"
+				text: "Ви вибрали грати без інструментів Наглядача. Це означає, що ви не зможете призупиняти або прискорювати гру, а камера буде заблокована на Тіні, тому вам доведеться фізично переміщатися для управління вашим містом. Продовжити?"
 			}
 			remove-upgrade: {
-				title: "Remove Add-on?"
-				text: "Are you sure you want to remove this add-on? You will only get some of the raw materials back."
+				title: "Видалити Додаток?"
+				text: "Ви впевнені, що хочете видалити цей додаток? Ви отримаєте назад лише частину сировини."
 			}
 			skip-tutorial-new: {
-				title: "Skip Tutorial?"
-				text: "Dream Engines has some unique mechanics, skipping the tutorial may negatively impact your experience. We strongly suggest you play it, it's very short.\n\nAre you sure you want to skip the tutorial?"
+				title: "Пропустити Підручник?"
+				text: "Dream Engines має деякі унікальні механіки, пропуск підручника може негативно вплинути на ваш досвід. Ми настійно рекомендуємо пройти його, він дуже короткий.\n\nВи впевнені, що хочете пропустити підручник?"
 			}
 			skip-tutorial-task: {
-				title: "Skip Tutorial Task?"
-				text: "Are you sure you want to skip this tutorial without completing its task? You can read it in the help window at any time."
+				title: "Пропустити Завдання Підручника?"
+				text: "Ви впевнені, що хочете пропустити цей підручник, не виконавши його завдання? Ви можете прочитати його в довідковому вікні в будь-який час."
 			}
 			skip-tutorial-updated: {
-				title: "Skip Tutorial?"
-				text: "We made some significant changes since you last played the tutorial. We recommend you play it again.\n\nAre you sure you want to skip the tutorial?"
+				title: "Пропустити Підручник?"
+				text: "Ми внесли значні зміни з моменту, коли ви востаннє проходили підручник. Ми рекомендуємо пройти його знову.\n\nВи впевнені, що хочете пропустити підручник?"
 			}
 			different-mods: {
-				title: "Different Mods"
-				text: "The game you are loading was played with a different set of Mods than the ones that are currently active. In some cases this could work without any problems, but in other cases the game may fail to load or create other issues while playing.\n\nContinue?"
+				title: "Різні Моди"
+				text: "Гра, яку ви завантажуєте, була зіграна з іншим набором модів, ніж ті, що активні зараз. У деяких випадках це може працювати без проблем, але в інших випадках гра може не завантажитися або створити інші проблеми під час гри.\n\nПродовжити?"
 			}
 			below-recommended-version: {
-				title: "New Game Recommended"
-				text: "You're trying to load a saved game from an earlier version. While possible, significant changes that were made may cause some things not to work as intended. We strongly recommend to start a new game or <color=#99EEFF><u><link=\"old-version\">download an older version of Dream Engines</link></u></color> to play this one.\n\nContinue?\n\n"
+				title: "Рекомендовано Нова Гра"
+				text: "Ви намагаєтеся завантажити збереження з попередньої версії. Хоча це можливо, значні зміни, які були внесені, можуть викликати деякі неполадки. Ми настійно рекомендуємо почати нову гру або <color=#99EEFF><u><link=\"old-version\">завантажити старішу версію Dream Engines</link></u></color>, щоб зіграти цю гру.\n\nПродовжити?\n\n"
 			}
 			multi-demolish: {
-				title: "Demolish All?"
-				text: "You are about to demolish {0} different objects. Proceed?"
+				title: "Знести Все?"
+				text: "Ви збираєтеся знести {0} різних об'єктів. Продовжити?"
 			}
 			demolish-upgrades: {
-				title: "Demolish Upgrades?"
-				text: "The building you are destroying has upgrades or add-ons. Proceed?"
+				title: "Знести Модернізації?"
+				text: "Будівля, яку ви знищуєте, має модернізації або додатки. Продовжити?"
 			}
 			cancel-expedition: {
-				title: "Cancel Expedition?"
-				text: "This action cancel your current expedition. If the expedition is in the preparation phase, you will only lose the resources that you've spent so far.\n\nIf the expedition is ongoing, the expedition crew will be lost as well."
+				title: "Скасувати Експедицію?"
+				text: "Ця дія скасує вашу поточну експедицію. Якщо експедиція знаходиться на етапі підготовки, ви втратите лише ресурси, витрачені до цього моменту.\n\nЯкщо експедиція триває, екіпаж експедиції також буде втрачено."
 			}
 			continue-after-winning: {
-				title: "Continue playing?"
-				text: "You can now start a new game with different difficulty settings or a different tribe, or you can continue playing and keep expanding your city. If you choose to continue, feel free to demolish the Nullifier Shield.\n\nContinue?"
+				title: "Продовжити гру?"
+				text: "Ви можете почати нову гру з іншими налаштуваннями складності або іншим племенем, або продовжити гру і розширювати своє місто. Якщо ви вирішите продовжити, ви можете знести Nullifier Shield.\n\nПродовжити?"
 			}
 		}
 		journal: {
-			goals-click: "Click a goal to see its tutorial"
-			tutorial-tab: "Tutorials"
-			story-tab: "Main Objectives"
-			milestones-tab: "Milestones"
-			button-show-dialogue: "Replay Dialogue"
+			goals-click: "Клацніть на ціль, щоб переглянути її підручник"
+			tutorial-tab: "Підручники"
+			story-tab: "Основні Цілі"
+			milestones-tab: "Віхи"
+			button-show-dialogue: "Відтворити Діалог"
 		}
 		settings: {
-			title: "Settings"
+			title: "Налаштування"
 			tabs: {
-				display: "Display"
-				audio: "Audio"
-				gameplay: "Gameplay"
+				display: "Дисплей"
+				audio: "Аудіо"
+				gameplay: "Ігровий Процес"
 			}
 			master-volume: {
-				title: "Master Volume"
+				title: "Гучність"
 			}
 			music-volume: {
-				title: "Music Volume"
+				title: "Гучність Музики"
 			}
 			sfx-volume: {
-				title: "Sound Effects Volume"
+				title: "Гучність Звукових Ефектів"
 			}
 			ambiance-volume: {
-				title: "Ambiance Volume"
+				title: "Гучність Фонових Звуків"
 			}
 			fullscreen: {
-				title: "Fullscreen Window"
-				hover: "Toggle between regular window and full-screen borderless window. Desktop resolution is used automatically when full-screen option is enabled."
+				title: "Повноекранний Режим"
+				hover: "Перемикайте між звичайним вікном і повноекранним безмежним вікном. Дозвіл робочого столу використовується автоматично, коли увімкнено повноекранний режим."
 			}
 			resolution: {
-				title: "Windowed Resolution"
-				hover: "When full-screen is off, you can adjust window size & resolution."
+				title: "Роздільна здатність Вікна"
+				hover: "Коли повноекранний режим вимкнено, ви можете налаштувати розмір вікна та роздільну здатність."
 			}
 			vsync: {
 				title: "Vsync"
 			}
 			shadows-enabled: {
-				title: "Shadows"
+				title: "Тіні"
 			}
 			bloom-enabled: {
-				title: "Bloom"
-				hover: "Adds glow to light-emitting objects. Disabling this will severely diminish the game's aesthetics."
+				title: "Ефект Сяйва"
+				hover: "Додає світіння до світловипромінюючих об'єктів. Вимкнення цього значно зменшить естетику гри."
 			}
 			ambient-occlusion-level: {
-				title: "Ambient Occlusion"
+				title: "Рівень Оточуючої Затінки"
 				values: {
-					"Lowest": "Lowest"
-					"Low": "Low"
-					"Medium": "Medium"
-					"High": "High"
-					"Ultra": "Ultra"
+					"Lowest": "Найнижчий"
+					"Low": "Низький"
+					"Medium": "Середній"
+					"High": "Високий"
+					"Ultra": "Ультра"
 				}
 			}
 			citizens-amount: {
-				title: "Show Citizens"
+				title: "Показувати Жителів"
 				values: {
-					0: "Off"
-					25: "Few"
-					50: "Half"
-					100: "Full"
+					0: "Вимкнено"
+					25: "Мало"
+					50: "Половина"
+					100: "Повний"
 				}
 			}
 			texture-quality: {
-				title: "Texture Quality"
+				title: "Якість Текстур"
 				values: {
-					"0": "Full"
-					"1": "Medium"
-					"2": "Low"
-					"3": "Lowest"
+					"0": "Повна"
+					"1": "Середня"
+					"2": "Низька"
+					"3": "Найнижча"
 				}
 			}
 			vignette: {
-				title: "Vignette"
+				title: "Віньєтка"
 			}
 			weather: {
-				title: "Weather Effects"
+				title: "Погодні Ефекти"
 			}
 			anti-aliasing: {
-				title: "Anti Aliasing (FXAA)"
+				title: "Антиаліасінг (FXAA)"
 			}
 			brightness: {
-				title: "Brightness"
+				title: "Яскравість"
 			}
 			fps-limit: {
-				title: "Maximum FPS"
-				hover: "Lower maximum framerate to reduce load on CPU and GPU."
+				title: "Максимальна Частота Кадрів"
+				hover: "Знижуйте максимальну частоту кадрів, щоб зменшити навантаження на ЦП та ГП."
 			}
 			mouse-confine: {
-				title: "Confine Cursor"
-				hover: "Confine mouse cursor within game window."
+				title: "Обмежити Курсор"
+				hover: "Обмежити курсор миші в межах вікна гри."
 			}
 			pause-on-lose-focus: {
-				title: "Pause When Losing Focus"
-				hover: "Pause when the game window loses focus."
+				title: "Пауза при Втраті Фокусу"
+				hover: "Пауза, коли вікно гри втрачає фокус."
 			}
 			takeoff-view: {
-				title: "Take-off View"
-				hover: "Show entire city view when taking off.\n\nDisable if you're experiencing performance issues during the take-off animation."
+				title: "Вид під час Зльоту"
+				hover: "Показати весь вид міста під час зльоту.\n\nВимкніть, якщо у вас виникають проблеми з продуктивністю під час анімації зльоту."
 			}
 			management-cam: {
-				title: "Management Camera"
-				hover: "When enabled, the camera will automatically lock to top-down view when entering management mode and go back to normal when switching to combat mode.\n\nIf disabled, you can still switch to top-down view manually ('Z' by default)"
+				title: "Камера Управління"
+				hover: "Коли ввімкнено, камера автоматично переключатиметься на вигляд зверху вниз при переході в режим управління та повертатиметься до нормального режиму при переході в режим бою.\n\nЯкщо вимкнено, ви все одно можете вручну перемикатися на вигляд зверху вниз ('Z' за замовчуванням)"
 			}
 			default-free-cam: {
-				title: "Default Free Camera"
-				hover: "When enabled, switching to management mode will also switch to free camera."
+				title: "Камера за Замовчуванням"
+				hover: "Коли ввімкнено, перехід в режим управління також перемикатиме камеру на вільну."
 			}
 			auto-pause-mgmt: {
-				title: "Management Auto-Pause"
-				hover: "When enabled, switching to management mode will also pause the game, and unpause when switching out of management mode."
+				title: "Автопауза в Режимі Управління"
+				hover: "Коли ввімкнено, перехід в режим управління автоматично призупинятиме гру, а вихід з режиму управління розпочинатиме її."
 			}
 			management-grid: {
-				title: "Management Grid"
-				hover: "Show grid in management mode."
+				title: "Сітка Управління"
+				hover: "Показувати сітку в режимі управління."
 			}
 			target-marker: {
-				title: "Target Marker"
-				hover: "When enabled, a target marker will appear on the enemy in front of Tiny.\n\nThis marker is meant to help with aiming."
+				title: "Маркер Цілі"
+				hover: "Коли ввімкнено, маркер цілі з'явиться на ворозі перед Тіні.\n\nЦей маркер допомагає з прицілюванням."
 			}
 			dynamic-minimap: {
-				title: "Dynamic Minimap"
-				hover: "Match minimap rotation to camera rotation."
+				title: "Динамічна Мінікарта"
+				hover: "Відповідність обертання мінікарти обертанню камери."
 			}
 			multi-demolish-confirm: {
-				title: "Demolish Confirmation"
-				hover: "Show a confirmation window when demolishing multiple objects at once (except for rails) or a building with upgrades/add-ons."
+				title: "Підтвердження Зносу"
+				hover: "Показувати вікно підтвердження під час зносу кількох об'єктів одночасно (за винятком рейок) або будівлі з модернізаціями/додатками."
 			}
 			disconnected-rail-warnings: {
-				title: "Rail Warnings"
-				hover: "Show warnings when a rail tracks don't lead anywhere."
+				title: "Попередження про Рейки"
+				hover: "Показувати попередження, коли рейки не ведуть нікуди."
 			}
 			pause-frame: {
-				title: "Show Pause Frame"
+				title: "Показувати Пауза Кадр"
 			}
 			wall-attack-warning: {
-				title: "Wall Attacked Warning"
-				hover: "Whether or not to show a warning when a wall is being attacked."
+				title: "Попередження про Напад на Стіни"
+				hover: "Показувати чи ні попередження, коли стіну атакують."
 			}
 		}
 		keybind: {
-			title: "Key Binding"
+			title: "Прив'язка Клавіш"
 			selectnew: {
-				title: "Bind Key"
-				text: "Press new key to bind."
+				title: "Прив'язати Клавішу"
+				text: "Натисніть нову клавішу для прив'язки."
 			}
-			reset: "Restore Defaults"
+			reset: "Відновити Значення за Замовчуванням"
 		}
 		score: {
-			title: "Score Summary"
-			score-summary: "Total Score: {0}\nDifficulty Multiplier: {1}\n\nFinal Score: {2}"
+			title: "Підсумок Рахунку"
+			score-summary: "Загальний Рахунок: {0}\nМножник Складності: {1}\n\nКінцевий Рахунок: {2}"
 			elements: {
 				raid-defeated: {
-					text: "Toughest Raid Defeated"
-					hover: "Landing in higher difficulty locations and staying longer to defeat tougher waves will increase this score."
+					text: "Найскладніший Ворог Переможений"
+					hover: "Приземлення в місцях з вищою складністю та перебування там довше для перемоги над більш складними хвилями збільшить цей рахунок."
 				}
 				population: {
-					text: "Population"
-					hover: "Determined by your city's population when the game ends."
+					text: "Населення"
+					hover: "Визначається населенням вашого міста на момент закінчення гри."
 				}
 				research: {
-					text: "Research"
-					hover: "Increased by completing research. More expensive research subjects provide a higher bonus."
+					text: "Дослідження"
+					hover: "Збільшується при завершенні досліджень. Більш дорогі предмети дослідження надають вищий бонус."
 				}
 				infrastructure: {
-					text: "Infrastructure Level"
-					hover: "Upgrade your infrastructure to increase this score."
+					text: "Рівень Інфраструктури"
+					hover: "Підвищуйте рівень своєї інфраструктури, щоб збільшити цей рахунок."
 				}
 				expansion: {
-					text: "City Size"
-					hover: "This score is determined by how much you expand your city area."
+					text: "Розмір Міста"
+					hover: "Цей рахунок визначається тим, наскільки ви розширите площу свого міста."
 				}
 				exploration: {
-					text: "Exploration"
-					hover: "Undertake expeditions and complete archeology projects."
+					text: "Дослідження"
+					hover: "Проводьте експедиції та завершуйте археологічні проекти."
 				}
 				victory: {
-					text: "Victory"
-					hover: "Extra points for winning the game."
+					text: "Перемога"
+					hover: "Додаткові бали за перемогу в грі."
 				}
 				other: {
-					text: "Other"
-					hover: "Other score bonuses/penalties."
+					text: "Інше"
+					hover: "Інші бонуси/штрафи."
 				}
 			}
 		}
 		usable-storage: {
 			tabs: {
-				all: "Player + Storage"
-				storage: "Storage only"
+				all: "Гравець + Сховище"
+				storage: "Тільки Сховище"
 			}
 		}
 		city-info: {
-			title: "City Information"
-			landing-zone: "Landing Zone"
-			city: "City"
-			levels: "City Levels"
-			bonuses: "Bonuses and Penalties"
-
-			current-level: "City Level: {0}"
-			current-pop: "Population / Housing: {0} / {1}"
-			section-count: "City Area: {0} Sections"
-			level-hover: "Level Benefits:\n\n{0}"
+			title: "Інформація про Місто"
+			landing-zone: "Зона Приземлення"
+			city: "Місто"
+			levels: "Рівні Міста"
+			bonuses: "Бонуси та Штрафи"
+			current-level: "Рівень Міста: {0}"
+			current-pop: "Населення / Житло: {0} / {1}"
+			section-count: "Площа Міста: {0} Секцій"
+			level-hover: "Переваги Рівня:\n\n{0}"
 		}
 		mods: {
-			title: "Mods"
-			achievements-disabled-title: "Achievements Disabled"
-			achievements-disabled-warning: "Achievements are disabled when playing with most mods (except for translation mods), or when playing a save file that was created with these mods.\n\nYou have selected the following mods that will disable achievements:\n{0}"
+			title: "Моди"
+			achievements-disabled-title: "Досягнення Вимкнено"
+			achievements-disabled-warning: "Досягнення вимкнено під час гри з більшістю модів (за винятком перекладацьких модів) або при грі з файлом збереження, створеним з цими модами.\n\nВи вибрали наступні моди, які вимкнуть досягнення:\n{0}"
 		}
 		tutorial: {
-			show-last: "Press {0} to repeat current instructions"
-			skip-button: "Skip Task"
+			show-last: "Натисніть {0}, щоб повторити поточні інструкції"
+			skip-button: "Пропустити Завдання"
 		}
 		building-management: {
-			title: "Building Management"
+			title: "Управління Будівлями"
 		}
 		council-window: {
-			title: "City Council"
-			influence: "Influence: {0}"
-			influence-range: "Influence Range: {0} - {1}"
-			council-leader: "Head of Council"
-			select-leader: "Select New Head of Council"
-			select-leader-hover: "Click to select a new head of council."
-			leader-are-you-sure-title: "Select {0}?"
-			leader-are-you-sure-text: "Are you sure you want to select {0}?\n\n<highlight>Effects</highlight>:\n{1}\n\n<highlight>Influence change</highlight>:\n{2}"
-			increase-size: "Increase your city size to enable the council"
-			next-elections: "Next elections in {0} cycles"
-			select-error-message: "Select new head of council before closing"
+			title: "Міська Рада"
+			influence: "Вплив: {0}"
+			influence-range: "Діапазон Впливу: {0} - {1}"
+			council-leader: "Голова Ради"
+			select-leader: "Вибрати Нового Голову Ради"
+			select-leader-hover: "Клацніть, щоб вибрати нового голову ради."
+			leader-are-you-sure-title: "Вибрати {0}?"
+			leader-are-you-sure-text: "Ви впевнені, що хочете вибрати {0}?\n\n<highlight>Ефекти</highlight>:\n{1}\n\n<highlight>Зміна впливу</highlight>:\n{2}"
+			increase-size: "Збільште розмір свого міста, щоб активувати раду"
+			next-elections: "Наступні вибори через {0} циклів"
+			select-error-message: "Виберіть нового голову ради перед закриттям"
 		}
 	}
 
 	council-factions: {
 		military: {
-			name: "Military Faction"
+			name: "Військова Фракція"
 		}
 		scientists: {
-			name: "Science Faction"
+			name: "Фракція Науковців"
 		}
 		labor: {
-			name: "Labor Faction"
+			name: "Фракція Праці"
 		}
 	}
 
 	tribes: {
 		scavengers: {
-			name: "Junk Lords"
-			desc: "The Junk Lords are the masters of scrap. Where other tribes see only old-world garbage and unexceptional blue boxes, they see treasure. Their expertise in finding and making use of every little piece of scrap proves very useful in restoring and maintaining an ancient Nomad City."
+			name: "Повелителі мотлоху"
+			desc: "Повелителі мотлоху - це майстри у роботі з брухтом. Там, де інші племена бачать лише старий мотлох і непримітні сині коробки, вони бачать скарби. Їхня експертиза у знаходженні та використанні кожного шматочка брухту дуже корисна для відновлення та підтримки стародавнього міста кочівників."
 		}
 		dreamweavers: {
-			name: "Dream Weavers"
-			desc: "The Dream Weavers are adept at manipulating Dreamtek, even if they don't completely understand how this old-world technology works. They are exceptionally skilled at generating Flux and can handle more Materializers.\n\nThese skills come at a price, however. Their fascination and experimentation with the Dream Realm makes the Dream Plagues especially agitated by their presence."
-			unlocktext: "To unlock: have 3,000 Flux while playing with any other tribe"
+			name: "Ткачі снів"
+			desc: "Ткачі снів - це майстри маніпуляції Dreamtek, навіть якщо вони повністю не розуміють, як працює ця старовинна технологія. Вони надзвичайно вміло генерують Флюкс і можуть керувати більшою кількістю Матеріалізаторів.\n\nЦі навички мають свою ціну. Їхнє захоплення та експерименти з Сновидінням роблять Чуму снів особливо роздратованою їхньою присутністю."
+			unlocktext: "Для розблокування: мати 3,000 Флюксу, граючи за будь-яке інше плем'я"
 		}
 		electric: {
-			name: "Teslacrats"
-			desc: "Masters of Tesla energy, they have unique crafting recipes that can duplicate resources using only electrical power. The Teslacrats' main drawback is that they are above cheap power, so basic power generation is very inefficient.\n\nThis tribe has a harder start until you unlock resource-based power generation recipes."
-			unlocktext: "To unlock: have a gross power production (before consumption) of 600 power per cycle"
+			name: "Теслакратори"
+			desc: "Майстри енергії Тесли, вони мають унікальні рецепти ремесла, які можуть дублювати ресурси, використовуючи лише електричну енергію. Головним недоліком Теслакраторів є те, що вони не використовують дешеву енергію, тому базове виробництво енергії дуже неефективне.\n\nЦе плем'я має складний старт, поки ви не розблокуєте рецепти виробництва енергії на основі ресурсів."
+			unlocktext: "Для розблокування: мати валове виробництво енергії (до споживання) 600 енергії на цикл"
 		}
 		builders: {
-			name: "Beavers"
-			desc: "The Beaver tribe are known for their great construction projects. They can expand their city earlier and more easily, and can upgrade buildings using less resources. They are, however, unwilling to leave their precious works behind, so most buildings they will only build within the city area. The perfect tribe for players who abhor waste and leaving buildings behind."
-			unlocktext: "To unlock: expand your city five times in one game."
+			name: "Бобри"
+			desc: "Плем'я Бобрів відоме своїми великими будівельними проектами. Вони можуть розширювати своє місто раніше і легше, а також можуть оновлювати будівлі, використовуючи менше ресурсів. Вони, однак, не бажають залишати свої дорогоцінні споруди, тому більшість будівель вони будуватимуть лише в межах міської зони. Ідеальне плем'я для гравців, які ненавидять витрати і залишення будівель."
+			unlocktext: "Для розблокування: розширити своє місто п'ять разів в одній грі."
 		}
 		explorers: {
-			name: "Remnant Seekers"
-			desc: "The Remnant Seekers are an explorer tribe who believe that salvation will come from the past. They dedicate their lives to finding and exploring ruins of the old world with experienced and effective expedition crews. They use less fuel when flying and Tiny is faster. Their defenses, however, are weaker than most and their research is slower."
-			unlocktext: "To unlock: complete 5 expeditions in a single game."
+			name: "Шукачі залишків"
+			desc: "Шукачі залишків - це плем'я дослідників, які вірять, що порятунок прийде з минулого. Вони присвячують своє життя пошуку і дослідженню руїн стародавнього світу з досвідченими та ефективними експедиційними командами. Вони використовують менше палива при польоті, і Тіні швидше. Їхня оборона, однак, слабша за більшість, і їхні дослідження повільніші."
+			unlocktext: "Для розблокування: завершити 5 експедицій в одній грі."
 		}
 		gatherers: {
-			name: "Terra Multa"
-			desc: "The Terra Multa tribe (known as 'Terrans' for short) are a hard working people who can make the most out of what the environment provides. They excel at harvesting resources, are able to extract more before depleting a node, and find one additional random (level-dependant) resource node in each map, of a different type than those listed.\n\nThey do not believe in synthetic resources, however, so they do not make use of materializers at all, and they are slower to refine raw resources."
-			unlocktext: "To unlock: build harvesters on all the resource nodes of a 2-skull map or higher."
+			name: "Терра Мульта"
+			desc: "Плем'я Терра Мульта (скорочено 'Террани') - це працьовиті люди, які можуть максимально використати те, що дає навколишнє середовище. Вони відмінно збирають ресурси, здатні видобувати більше до виснаження вузла і знаходять один додатковий випадковий (залежно від рівня) ресурсний вузол на кожній карті, іншого типу, ніж ті, що перераховані.\n\nВони не вірять у синтетичні ресурси, тому взагалі не використовують матеріалізатори, і вони повільніше обробляють сировину."
+			unlocktext: "Для розблокування: побудувати збирачі на всіх ресурсних вузлах на карті з двома черепами або вище."
 		}
 		hunters: {
-			name: "Plague Hunters"
-			desc: "When the Dream Plagues started appearing, a military organization emerged, called the Plague Hunters. Centuries later, their descendants still roam the world, hunting Dream Plagues whenever they can, and use their remains to survive.\n\nThe plague hunters excel at fighting, extracting materials from fallen Drep, and finding uses for them. Since they dedicate their best engineers towards warfare, their production facilities are not the most efficient."
-			unlocktext: "To unlock: kill 150 Dream Plagues with tiny in one game."
+			name: "Мисливці за чумою"
+			desc: "Коли почали з'являтися Чуми снів, виникла військова організація під назвою Мисливці за чумою. Через століття їхні нащадки досі блукають світом, полюючи на Чуми снів, коли тільки можуть, і використовують їх залишки для виживання.\n\nМисливці за чумою відмінно б'ються, добувають матеріали з повалених Дрепів і знаходять їм застосування. Оскільки вони присвячують своїх найкращих інженерів війні, їхні виробничі потужності не є найбільш ефективними."
+			unlocktext: "Для розблокування: вбити 150 Чум снів Тіні в одній грі."
 		}
 		nomads: {
-			name: "Lore Keepers"
-			desc: "The Lore Keepers are historians, experts in anything old-world. In their endeavor to visit as many ruins as possible, they are even more nomadic than other tribes, and have perfected efficient city travel, and are able to spot these ruins from afar. Their constant meddling with old-world stuff causes Drep to notice them sooner and attack in force."
-			unlocktext: "To unlock: Interact with 10 different ruins in a single game."
+			name: "Зберігачі знань"
+			desc: "Зберігачі знань - це історики, експерти у всьому стародавньому світі. У своїх прагненнях відвідати якомога більше руїн, вони ще більш кочівні, ніж інші племена, і вдосконалили ефективне пересування містом, а також здатні помітити ці руїни здалеку. Їхнє постійне втручання в стародавні речі змушує Дрепів помічати їх раніше і нападати з силою."
+			unlocktext: "Для розблокування: взаємодіяти з 10 різними руїнами в одній грі."
 		}
 		doomed: {
-			name: "The Doomed Tribe"
-			desc: "Some people feel like they’re cursed. They’re unlucky, things rarely go their way, everything is harder for them. The doomed tribe is a collection of such misfits.\n\nThe Dream Plagues tend to find them more often, they tend to find themselves in more hostile areas, find less resources, and life in general is harder for them. Living such a hard life has made them more rugged, and their people require less to survive."
-			unlocktext: "To unlock: Survive a raid with threat level 30 or higher."
+			name: "Плем'я Приречених"
+			desc: "Деякі люди відчувають, що вони прокляті. Їм не щастить, рідко щось йде на їхню користь, все для них важче. Плем'я приречених - це збір таких невдах.\n\nЧуми снів частіше знаходять їх, вони частіше опиняються у більш ворожих місцевостях, знаходять менше ресурсів, і життя загалом для них важче. Проте, ведучи таке важке життя, вони стали більш загартованими, і їхні люди потребують менше для виживання."
+			unlocktext: "Для розблокування: вижити в рейді з рівнем загрози 30 або вище."
 		}
 	}
 
 	expeditions: {
 		dreamtech-lab: {
-			name: "Abandoned Laboratory"
+			name: "Покинута лабораторія"
 		}
 		abandoned-factory: {
-			name: "Factory Remains"
+			name: "Залишки фабрики"
 		}
 		storage-facility: {
-			name: "Old Warehouse"
+			name: "Старий склад"
 		}
 		city-ruins: {
-			name: "Ghost Town"
+			name: "Місто-привид"
 		}
 		steambot-factory: {
-			name: "Steambot Hangar"
+			name: "Ангар стімботів"
 		}
 		abandoned-experiment: {
-			name: "Failed Experiment"
+			name: "Невдалий експеримент"
 		}
 		abandonded-farm: {
-			name: "Overgrown Farm"
+			name: "Заросла ферма"
 		}
 		military-outpost: {
-			name: "Old Military Outpost"
+			name: "Старий військовий форпост"
 		}
 	}
 
 	expedition-rewards: {
 		resources: {
-			name: "Resource Crate"
-			desc: "May contain a variety of common resources."
+			name: "Ящик з ресурсами"
+			desc: "Може містити різноманітні звичайні ресурси."
 		}
 		rare-resources: {
-			name: "Rare Resources"
-			desc: "Contains resources that are harder to come by."
+			name: "Рідкісні ресурси"
+			desc: "Містить ресурси, які важче знайти."
 		}
 		tech-rewards: {
-			name: "Technology Crate"
-			desc: "May contain research knowledge, blueprints, recipes, and other tech-related loot."
+			name: "Ящик з технологіями"
+			desc: "Може містити знання для досліджень, креслення, рецепти та інші предмети, пов'язані з технологіями."
 		}
 		upgrade-mods: {
-			name: "Module Crate"
-			desc: "A variety of upgrade modules for buildings, Tiny or the city core may be found here."
+			name: "Ящик з модулями"
+			desc: "Тут можна знайти різноманітні модулі для покращення будівель, Тіні або ядра міста."
 		}
 		equipment: {
-			name: "Equipment Crate"
-			desc: "These crates contain mostly equipment and upgrade modules for Tiny."
+			name: "Ящик з обладнанням"
+			desc: "Ці ящики містять здебільшого обладнання та модулі для покращення Тіні."
 		}
 		dream-tech: {
-			name: "Dreamtek Crate"
-			desc: "Various Dreamtek related materials and artefacts. There's a high chance to find a dream core in these."
+			name: "Ящик з Dreamtek"
+			desc: "Різноманітні матеріали та артефакти, пов'язані з Dreamtek. Висока ймовірність знайти ядро сновидіння в цих ящиках."
 		}
 		dream-core: {
-			name: "Dream Core"
-			desc: "Contains a single dream core."
+			name: "Ядро сновидіння"
+			desc: "Містить одне ядро сновидіння."
 		}
 		archeology: {
-			name: "Archeology Blueprints"
-			desc: "Learn about old-world projects that you can undertake at your archeologist."
+			name: "Археологічні креслення"
+			desc: "Дізнайтеся про проекти стародавнього світу, які ви можете виконати за допомогою вашого археолога."
 		}
 	}
 
 	archeology: {
 		harvest-booster: {
-			name: "Harvester Tinkering"
+			name: "Модернізація збирача"
 		}
 		harvest-booster2: {
-			name: "Harvester Tinkering 2"
+			name: "Модернізація збирача 2"
 		}
 		wall-health: {
-			name: "Ancient Fortifications"
+			name: "Стародавні укріплення"
 		}
 		wall-health2: {
-			name: "Ancient Fortifications 2"
+			name: "Стародавні укріплення 2"
 		}
 		wall-health3: {
-			name: "Ancient Fortifications 3"
+			name: "Стародавні укріплення 3"
 		}
 		carry-weight1: {
-			name: "Aerodynamics"
+			name: "Аеродинаміка"
 		}
 		carry-weight2: {
-			name: "Aerodynamics 2"
+			name: "Аеродинаміка 2"
 		}
 		woodwarper-efficiency: {
-			name: "Wood Warper Efficiency"
+			name: "Ефективність обробника деревини"
 		}
 		woodwarper-speed: {
-			name: "Wood Warper Productivity"
+			name: "Продуктивність обробника деревини"
 		}
 		stonecutter-efficiency: {
-			name: "Stone Worker Efficiency"
+			name: "Ефективність каменяра"
 		}
 		stonecutter-speed: {
-			name: "Stone Worker Productivity"
+			name: "Продуктивність каменяра"
 		}
 		smelter-efficiency: {
-			name: "Smell-ter Efficiency"
+			name: "Ефективність плавильника"
 		}
 		smelter-speed: {
-			name: "Smell-ter Productivity"
+			name: "Продуктивність плавильника"
 		}
 		workshop-efficiency: {
-			name: "Workshop Efficiency"
+			name: "Ефективність майстерні"
 		}
 		workshop-speed: {
-			name: "Workshop Productivity"
+			name: "Продуктивність майстерні"
 		}
 		cauldron-speed: {
-			name: "Cauldron Productivity"
+			name: "Продуктивність казана"
 		}
 		cauldron-speed2: {
-			name: "Cauldron Productivity 2"
+			name: "Продуктивність казана 2"
 		}
 		purptatoprocessor-efficiency: {
-			name: "Food Processing"
+			name: "Переробка їжі"
 		}
 		researchlab-efficiency: {
-			name: "Research Tools"
+			name: "Дослідницькі інструменти"
 		}
 		expedition-speed: {
-			name: "Expedition Equipment"
+			name: "Експедиційне обладнання"
 		}
 		expedition-options: {
-			name: "Scouting Equipment"
+			name: "Розвідувальне обладнання"
 		}
 		cheaper-expansions: {
-			name: "Undercity Research"
+			name: "Дослідження підмістя"
 		}
 		cheaper-farms: {
-			name: "Farm Building"
+			name: "Будівництво ферм"
 		}
 		farm-speed: {
-			name: "Farming Techniques"
+			name: "Техніки землеробства"
 		}
 		threat-increase: {
-			name: "Dreamtek Stealth"
+			name: "Приховування Dreamtek"
 		}
 		threat-increase2: {
-			name: "Dreamtek Stealth 2"
+			name: "Приховування Dreamtek 2"
 		}
 		extra-materializer: {
-			name: "Materializer Infrastructure"
+			name: "Інфраструктура матеріалізаторів"
 		}
 		materializer-speed: {
-			name: "Materializer Productivity"
+			name: "Продуктивність матеріалізаторів"
 		}
 		global-difficulty: {
-			name: "Dream Link Supression"
+			name: "Придушення Dream Link"
 		}
 		global-difficulty2: {
-			name: "Dream Link Supression 2"
+			name: "Придушення Dream Link 2"
 		}
 		heavy-dmg: {
-			name: "Heavy Weapon Boost"
+			name: "Підсилення важкої зброї"
 		}
 		repeater-dmg: {
-			name: "Rapid Weapon Boost"
+			name: "Підсилення швидкісної зброї"
 		}
 		shotgun-dmg: {
-			name: "Spreadshot Weapon Boost"
+			name: "Підсилення зброї з розкидом"
 		}
 		housing1: {
-			name: "Efficient Housing"
+			name: "Ефективне житло"
 		}
 		housing2: {
-			name: "Efficient Housing 2"
+			name: "Ефективне житло 2"
 		}
 		tiny-speed: {
-			name: "Tiny Leg Improvements"
+			name: "Покращення ніг Тіні"
 		}
 		tiny-vision: {
-			name: "Tiny Radar Modifications"
+			name: "Модифікації радара Тіні"
 		}
 		weak-raids: {
-			name: "Drep Oppressors"
+			name: "Придушувачі Дрепів"
 		}
 		resource-amount: {
-			name: "Waste Reduction"
+			name: "Зменшення відходів"
 		}
 		giant-battery: {
-			name: "Power Storage Center"
+			name: "Центр зберігання енергії"
 		}
 		cart-speed: {
-			name: "Autocart Efficiency"
+			name: "Ефективність автокарів"
 		}
 	}
 
 	stats: {
-		healamount: "Health: +{0}"
-		maxhealth: "Max Health: {0}"
-		damage: "Damage: {0}"
-		range: "Range: {0}"
-		aoe: "Effect Radius: {0}"
-		attackrate: "Attack Rate: {0}"
-		autoattack: "Automatic (Hold to fire)"
-		combosize: "Combo Length: {0}"
-		sustained-dps: "Sustained Damage per Second: {0}"
-		dps: "Average Damage per Second: {0}"
-		ammo-type: "Ammunition: {0}"
-		ammo-per-shot: "Ammo Costs per Shot: {0}"
-		burst-count: "Burst Projectile Count: {0}"
-		burst-angle: "Burst Angle: {0}"
-		damage-vs: "Damage Against {0}: {1}"
-		piercing: "Piercing Projectiles"
+		healamount: "Здоров'я: +{0}"
+		maxhealth: "Максимальне здоров'я: {0}"
+		damage: "Шкода: {0}"
+		range: "Дальність: {0}"
+		aoe: "Радіус дії: {0}"
+		attackrate: "Швидкість атаки: {0}"
+		autoattack: "Автоматична (утримуйте для стрільби)"
+		combosize: "Довжина комбінації: {0}"
+		sustained-dps: "Постійна шкода за секунду: {0}"
+		dps: "Середня шкода за секунду: {0}"
+		ammo-type: "Боєприпаси: {0}"
+		ammo-per-shot: "Витрати боєприпасів на постріл: {0}"
+		burst-count: "Кількість снарядів за серію: {0}"
+		burst-angle: "Кут серії: {0}"
+		damage-vs: "Шкода проти {0}: {1}"
+		piercing: "Проникаючі снаряди"
 	}
 
 	target-type: {
-		armored: "Armored"
+		armored: "Броньований"
 	}
 
 	modifiers: {
 		format: "{0}: {1}" //0 = stat, 1 = value, 2 = specifier
 		bool-no-val-format: "{0}"
 		bool-format: "{0}: {1}"
-		bool-on: "Yes"
-		bool-off: "No"
+		bool-on: "Так"
+		bool-off: "Ні"
 		specifier-format: "[{0}] "
-		max-building: "Max {0} Allowed: {1}"
-		passive-income: "[Passive] {0}: {1}"
-		tiny: "Tiny"
+		max-building: "Максимально дозволено {0}: {1}"
+		passive-income: "[Пасивний] {0}: {1}"
+		tiny: "Тіні"
 		stats: {
-			dmg: "Damage"
-			dmg-to: "Damage" // same as dmg, but we always use this with a specifier that is checked against the target
-			attackrate: "Attack Rate"
-			attackrange: "Range"
-			charge-speed: "Weapon Charge Speed"
-			cdn: "Cooldown"
-			receive-dmg: "Damage Received"
-			max-health: "Max Health"
-			repairkit-heal: "Repair Kit Healing"
-			speed: "Movement Speed"
-			speed-percent: "Movement Speed"
-			untargetable: "Untargetable"
-			self-repair: "Self-Repair Outside"
-			vision-range: "Vision Range"
-
-			prod-speed: "Production Speed"
-			build-costs: "Build Costs"
-			upgrade-costs: "Building Upgrade Costs"
-			demolish-refund: "Demolish Refund"
-			prod-outputamount: "Produced Resources"
-			prod-inputamount: "Raw Materials Used"
-
-			upkeep-inputamount: "Upkeep"
-			upkeep-assigned: "Workers"
-
-			module-slots: "Module Slots"
-
-			gatheramount: "Gathering Amount"
-			lootdrop: "Loot Amount"
-			resourceamount: "Resource Amount"
-			cart-speed: "Cart Speed (Rails)"
-
-			teslacrats-research: "<color=#7DE286>Unique Research: Resource Duplication</color>"
-			teslacrats-noflypower: "<color=#E27D7F>All stored power is lost when flying</color>"
-			builders-citybuilding: "<color=#E27D7F>Most buildings can only be built within the city</color>"
-			gatherers-extra-resources: "<color=#7DE286>One additional random resource node per map</color>"
-			gatherers-no-materializers: "<color=#E27D7F>Can't research or build materializers</color>"
-			hunters-unique-drep-drops: "<color=#7DE286>Dream Plagues sometimes drop resources</color>"
-			hunters-unique-drep-processing: "<color=#7DE286>Unique crafting recipes from Dream Plague remains</color>"
-			nomads-unique-visible-ruins: "<color=#7DE286>Ruin locations are always visible.</color>"
-			nomads-unique-more-ruins: "<color=#7DE286>Greater chance of finding more ruins per map.</color>"
-			nomads-unique-craft-scraps: "<color=#7DE286>Can produce old-world scraps in workshops.</color>"
-			doomed-unique-map-traits: "<color=#E27D7F>Negative map traits are more likely.</color>"
-			doomed-unique-map-resources: "<color=#E27D7F>Maps have less resource nodes.</color>"
-			doomed-unique-drep-difficulty: "<color=#E27D7F>Threat increases much faster after the first 5 threat increases per map.</color>"
-			doomed-unique-drep-difficulty2: "<color=#E27D7F>Dream plague raids have one more wave per raid.</color>"
-			doomed-unique-drep-difficulty3: "<color=#E27D7F>Global infestation starts at level 2 but the first increase takes longer.</color>"
-
-			biome-unlock-heatshield: "Unlocks Ashfall Range biome"
-			biome-unlock-airfilter: "Unlocks Toxic Moor biome"
-
-			building-weight: "Weight"
-			carry-weight: "Carry Weight"
-			launch-costs: "Fuel Costs"
-			threat-interval: "Time Before Threat Increases"
-			map-enemy-difficulty: "Map Enemy Difficulty"
-			raid-enemy-numbers: "Raid Enemy Numbers"
-			dest-reroll: "Destination selection re-rolls"
-			expedition-speed: "Expedition Speed"
-			expedition-options: "Expedition Options"
-			expedition-costs: "Expedition Costs"
-			game-score: "Game Score"
-			archeology-speed: "Archeology Speed"
-			df-threat-time: "Time Before Threat Increases"
-			df-threat-disable: "Raids Disabled"
-			global-difficulty-time: "Time Before Global Infestation Increases"
-			df-global-rate: "Global Infestation Rate"
-			df-enemy-numbers: "Enemy Numbers"
-			df-map-spawn: "Map Enemy Difficulty"
-			df-resources: "Resource Nodes"
-			df-pause-in-menu: "Pause In Windows"
-			df-overseer-mode: "Allow free camera & time control"
-			df-ironman: "Ironman Mode"
-			df-mini-raids: "Wandering Enemies"
-			df-relaxed-mode: "Global Infestation Does Not Increase Over Time"
-			df-max-health: "Max Health"
-			df-enemy-health: "Enemy Health"
-			df-ammo-costs: "Ammo Usage"
-			df-elections-off: "Disable Council"
+			dmg: "Шкода"
+			dmg-to: "Шкода" // same as dmg, but we always use this with a specifier that is checked against the target
+			attackrate: "Швидкість атаки"
+			attackrange: "Дальність"
+			charge-speed: "Швидкість зарядки зброї"
+			cdn: "Час відновлення"
+			receive-dmg: "Отримана шкода"
+			max-health: "Максимальне здоров'я"
+			repairkit-heal: "Зцілення ремонтним набором"
+			speed: "Швидкість руху"
+			speed-percent: "Швидкість руху"
+			untargetable: "Недосяжний"
+			self-repair: "Самостійний ремонт поза боєм"
+			vision-range: "Дальність зору"
+	
+			prod-speed: "Швидкість виробництва"
+			build-costs: "Витрати на будівництво"
+			upgrade-costs: "Витрати на модернізацію будівель"
+			demolish-refund: "Відшкодування за знесення"
+			prod-outputamount: "Кількість вироблених ресурсів"
+			prod-inputamount: "Використані сировинні матеріали"
+	
+			upkeep-inputamount: "Технічне обслуговування"
+			upkeep-assigned: "Працівники"
+	
+			module-slots: "Слоти для модулів"
+	
+			gatheramount: "Кількість зібраного"
+			lootdrop: "Кількість здобичі"
+			resourceamount: "Кількість ресурсів"
+			cart-speed: "Швидкість возиків (рейки)"
+	
+			teslacrats-research: "<color=#7DE286>Унікальне дослідження: Подвоєння ресурсів</color>"
+			teslacrats-noflypower: "<color=#E27D7F>Уся накопичена енергія втрачається при польоті</color>"
+			builders-citybuilding: "<color=#E27D7F>Більшість будівель можна побудувати лише в межах міста</color>"
+			gatherers-extra-resources: "<color=#7DE286>Один додатковий випадковий ресурсний вузол на кожній карті</color>"
+			gatherers-no-materializers: "<color=#E27D7F>Неможливо досліджувати або будувати матеріалізатори</color>"
+			hunters-unique-drep-drops: "<color=#7DE286>Іноді Чуми снів залишають ресурси</color>"
+			hunters-unique-drep-processing: "<color=#7DE286>Унікальні рецепти ремесла з залишків Чум снів</color>"
+			nomads-unique-visible-ruins: "<color=#7DE286>Місцезнаходження руїн завжди видно</color>"
+			nomads-unique-more-ruins: "<color=#7DE286>Вища ймовірність знайти більше руїн на кожній карті</color>"
+			nomads-unique-craft-scraps: "<color=#7DE286>Можуть виробляти стародавні уламки у майстернях</color>"
+			doomed-unique-map-traits: "<color=#E27D7F>Більша ймовірність негативних характеристик карти</color>"
+			doomed-unique-map-resources: "<color=#E27D7F>Менше ресурсних вузлів на картах</color>"
+			doomed-unique-drep-difficulty: "<color=#E27D7F>Рівень загрози зростає набагато швидше після перших 5 підвищень загрози на карті</color>"
+			doomed-unique-drep-difficulty2: "<color=#E27D7F>Рейди Чум снів мають на одну хвилю більше на кожен рейд</color>"
+			doomed-unique-drep-difficulty3: "<color=#E27D7F>Глобальна інфекція починається з рівня 2, але перше підвищення займає більше часу</color>"
+	
+			biome-unlock-heatshield: "Розблоковує біом Діапазон попелу"
+			biome-unlock-airfilter: "Розблоковує біом Токсичне болото"
+	
+			building-weight: "Вага"
+			carry-weight: "Вантажопідйомність"
+			launch-costs: "Витрати на паливо"
+			threat-interval: "Час до підвищення загрози"
+			map-enemy-difficulty: "Складність ворогів на карті"
+			raid-enemy-numbers: "Кількість ворогів у рейді"
+			dest-reroll: "Повторний вибір пункту призначення"
+			expedition-speed: "Швидкість експедиції"
+			expedition-options: "Опції експедиції"
+			expedition-costs: "Витрати на експедицію"
+			game-score: "Ігровий бал"
+			archeology-speed: "Швидкість археологічних досліджень"
+			df-threat-time: "Час до підвищення загрози"
+			df-threat-disable: "Рейди відключені"
+			global-difficulty-time: "Час до підвищення глобальної інфекції"
+			df-global-rate: "Швидкість глобальної інфекції"
+			df-enemy-numbers: "Кількість ворогів"
+			df-map-spawn: "Складність ворогів на карті"
+			df-resources: "Ресурсні вузли"
+			df-pause-in-menu: "Пауза у вікнах"
+			df-overseer-mode: "Дозволити вільну камеру та контроль часу"
+			df-ironman: "Режим Залізної людини"
+			df-mini-raids: "Блукаючі вороги"
+			df-relaxed-mode: "Глобальна інфекція не зростає з часом"
+			df-max-health: "Максимальне здоров'я"
+			df-enemy-health: "Здоров'я ворогів"
+			df-ammo-costs: "Витрати боєприпасів"
+			df-elections-off: "Відключити раду"
 		}
 		specifier: {
-			wpn-melee: "Melee Weapons"
-			wpn-ranged: "Ranged Weapons"
-			wpn-heavyranged: "Heavy Weapons"
-			wpn-shotgun: "Spreadshot Weapons"
-			wpn-fastranged: "Rapid Fire Weapons"
-
-			enemy-melee: "Melee Enemy"
-			enemy-ranged: "Ranged Enemy"
-			enemy-unit: "Enemy Units"
-			prodgroup-harvest: "Harvesting"
-			prodgroup-strip: "Strip Mining"
-			prodgroup-refine: "Refining"
-			prodgroup-flux: "Flux Production"
-			prodgroup-power: "Power Production"
-			prodgroup-farm: "Farming"
-			prodgroup-citygatherer: "Renewable Gathering"
-			prodgroup-upgradeparts: "Upgrade Materials"
-			prodgroup-research: "Research"
-
-			objgroup-defense: "Defensive Buildings"
-			objgroup-wall: "Walls"
-			objgroup-housing: "Housing Buildings"
-			objgroup-harvester: "Harvesters"
-			objgroup-farm: "Farms"
-
-			loot-resources: "Resources"
-			loot-debris: "Debris/Ruins"
-			loot-enemy: "Enemies"
-
-			trgt-armored: "Against Armored"
-
+			wpn-melee: "Ближня зброя"
+			wpn-ranged: "Дальня зброя"
+			wpn-heavyranged: "Важка зброя"
+			wpn-shotgun: "Зброя з розкидом"
+			wpn-fastranged: "Швидкострільна зброя"
+	
+			enemy-melee: "Ворог ближнього бою"
+			enemy-ranged: "Ворог дальнього бою"
+			enemy-unit: "Ворожі одиниці"
+			prodgroup-harvest: "Збирання врожаю"
+			prodgroup-strip: "Кар'єр"
+			prodgroup-refine: "Переробка"
+			prodgroup-flux: "Виробництво Флюксу"
+			prodgroup-power: "Виробництво енергії"
+			prodgroup-farm: "Сільське господарство"
+			prodgroup-citygatherer: "Відновлювальне збирання"
+			prodgroup-upgradeparts: "Матеріали для модернізації"
+			prodgroup-research: "Дослідження"
+	
+			objgroup-defense: "Оборонні будівлі"
+			objgroup-wall: "Стіни"
+			objgroup-housing: "Житлові будівлі"
+			objgroup-harvester: "Збирачі"
+			objgroup-farm: "Ферми"
+	
+			loot-resources: "Ресурси"
+			loot-debris: "Сміття/Руїни"
+			loot-enemy: "Вороги"
+	
+			trgt-armored: "Проти броньованих"
+	
 		}
 		spec-prefix: {
 			objtype: "{0}"
 			prodrecipe: "{0}"
 		}
-		capacity-format: "{0} Capacity: {1}"
-		skill-points: "Bonus Upgrade Points: {0}"
+		capacity-format: "Місткість {0}: {1}"
+		skill-points: "Бонусні очки модернізації: {0}"
 	}
 
 	messages: {
 		build: {
 			cantbuild: {
-				onobject: "Must be built on: {0}"
-				incity: "Must be built in the city"
-				halfoncity: "Can't build part in the city and part outside"
-				nearobject: "Must be built near: {0}"
-				power: "No power access. Build tesla towers to extend your range"
-				blocked: "Can't build here: blocked"
-				blocked-rift: "Can't build near rifts"
-				nocosts: "Insufficient resources"
-				enemiesnear: "Can't build: enemies nearby"
-				maxamount: "You've reached the maximum amount of this building"
-				upgrade-cancels: "Can't build this add-on with {0}"
+				onobject: "Має бути побудовано на: {0}"
+				incity: "Має бути побудовано в місті"
+				halfoncity: "Не можна побудувати частину в місті, а частину зовні"
+				nearobject: "Має бути побудовано поруч з: {0}"
+				power: "Немає доступу до енергії. Побудуйте вежі Тесли, щоб розширити свій діапазон"
+				blocked: "Не можна побудувати тут: заблоковано"
+				blocked-rift: "Не можна будувати поблизу розломів"
+				nocosts: "Недостатньо ресурсів"
+				enemiesnear: "Не можна побудувати: поблизу вороги"
+				maxamount: "Ви досягли максимальної кількості цієї будівлі"
+				upgrade-cancels: "Не можна побудувати це доповнення з {0}"
 			}
 		}
 		error: {
-			tooheavy: "City too heavy, remove some buildings or add more engines"
-			cantfly: "Something is preventing the city from flying"
-			takeoff-cancelled: "Take-off procedure cancelled"
-			cantmove: "This building can't be moved"
-			cantmoveraid: "This building can't be moved while there are incoming attacks"
-			cantsave: "Can't save right now"
-			no-upgrade-points: "No unassigned upgrade points"
-			interact-only: "Too far away to interact with this building"
-			out-of-ammo: "Out of ammo"
-			cantrepairthis: "This building can't be fixed manually. It will heal over time"
-			cantrepairenemiesnear: "Can't repair: enemies nearby"
+			tooheavy: "Місто занадто важке, видаліть деякі будівлі або додайте більше двигунів"
+			cantfly: "Щось заважає місту літати"
+			takeoff-cancelled: "Процедуру зльоту скасовано"
+			cantmove: "Цю будівлю не можна перемістити"
+			cantmoveraid: "Цю будівлю не можна перемістити під час атак"
+			cantsave: "Не можна зберегти зараз"
+			no-upgrade-points: "Немає невикористаних очок модернізації"
+			interact-only: "Занадто далеко, щоб взаємодіяти з цією будівлею"
+			out-of-ammo: "Немає боєприпасів"
+			cantrepairthis: "Цю будівлю не можна відремонтувати вручну. Вона зцілиться з часом"
+			cantrepairenemiesnear: "Не можна відремонтувати: поблизу вороги"
 		}
 		milestones: {
-			objective-complete: "Objective Complete"
-			milestone-complete: "Milestone Achieved"
+			objective-complete: "Завдання виконано"
+			milestone-complete: "Досягнуто рубіж"
 		}
 	}
 
 	unlocks: {
-		text-format: "* Unlocked {0}: {1}" // gets type and name
-		splash-title-format: "Unlocked {0}" // gets type and name
+		text-format: "* Розблоковано {0}: {1}" // gets type and name
+		splash-title-format: "Розблоковано {0}" // gets type and name
 		splash-text-format: "{1}" // gets type and name
-		call-to-action: "Press 'H' to see more details"
+		call-to-action: "Натисніть 'H', щоб побачити більше деталей"
 		types: {
-			upgrades: "Upgrade"
-			constructions: "Building"
-			crafting: "Crafting"
-			productions: "Production Recipe"
-			research: "Research"
-			skills: "Skill"
-			perks: "Perks"
-			abilities: "Abilities"
+			upgrades: "Модернізація"
+			constructions: "Будівля"
+			crafting: "Ремесло"
+			productions: "Рецепт виробництва"
+			research: "Дослідження"
+			skills: "Навичка"
+			perks: "Перевага"
+			abilities: "Здібності"
 		}
-		research-complete: "Research Complete"
-		archeology-complete: "Archeology Project Complete"
-		city-size-achieved: "New City Level"
-		tribe-unlocked: "New Tribe Unlocked"
+		research-complete: "Дослідження завершено"
+		archeology-complete: "Археологічний проект завершено"
+		city-size-achieved: "Новий рівень міста"
+		tribe-unlocked: "Нове плем'я розблоковано"
 	}
 
 	loading-tips: {
-		rotate: "You can rotate the camera by holding and dragging the middle mouse button."
-		moving-buildings: "Click the tools button and then choose the move tool (or press 'M') in management mode to reorganize your buildings. Some buildings like walls and rails cannot be moved."
-		melee-aoe: "Melee attacks hit multiple enemies at once and deal higher damage than ranged attacks. They are very effective when surrounded by short-range enemies."
-		demolish-buildings: "Demolishing most buildings will return half their construction costs, but not Flux."
-		world-difficulty: "As time goes by, the areas you land in will become more and more difficult. Don't waste too much time, build up your economy and defenses before it's too late."
-		world-difficulty2: "Landing locations with higher difficulty have more resource deposits, and some resources like copper only appear on high enough levels."
-		right-click-close: "You can right click anywhere on a window to close it."
-		infrastructure: "Build workshops to produce materials for upgrading your infrastructure. Upgrading infrastructure can provide powerful, permanent bonuses."
-		economy: "Don't be afraid of building more than one research center or workshop so you can progress faster. Just make sure your economy can support it."
-		disabling: "If you don't have enough workers or power, you can disable less important buildings to make sure others remain operational."
-		upgrading: "Most buildings can be upgraded. Upgrading is more expensive than building another building, but doesn't use any extra space or weight."
-		rails-building: "You can change the direction of a rail by simply building another rail in the opposite direction. Changing directions won't cost anything."
-		railcrossing: "Drag to build rails in a way that crosses an existing rail section to create a crossing that behaves like a bridge, allowing both sections to work independently."
-		remove-crossing: "You can remove a rail crossing by dragging a rail to change the direction of one of the crossing's entrances or exits so that they merge into or split out of the crossing instead of crossing each other."
-		weight: "Make sure you can always make a hasty escape. Don't run out of fuel and keep your weight below your carrying power."
-		leaving-early: "Don't hesitate to fly away if you need a resource that is not available in your current area. Just keep an eye on your fuel reserves."
-		journal: "Open your journal (J) to see completed tutorial tasks if you need a reminder."
-		gamepedia: "Press TAB to open the Dream Archives, and see information on any building, crafting, or production recipe that you unlocked."
-		item-source: "When you need a resource you're not familiar with, check the Dream Archives to see where it can be gathered or produced."
-		pick-cart: "If you want to remove a transport cart from some rails, use the pick-cart tool (P) in management mode to return the items to your inventory."
-		enabledisable: "You can quickly enable & disable several buildings without opening their window by using the on/off tool (O) in management mode."
-		extrarefineries: "If you find yourself waiting too long for planks, build more wood warpers or any other refinery."
-
-		old-tech: "Hit debris around the world to collect old-world scraps that can then be used in ruins buildings to craft unique items."
-		copybuilding: "In management mode, use the copy building key (default 'V') to quickly create another instance of the building that is under your cursor."
-		targetmarker: "You can activate the target marker from the settings window to help you aim your ranged attacks."
-		key-bindings: "Open the key-bindings from the settings window to learn and modify all the different keyboard shortcuts that can help you throughout the game."
-		milestones: "Hover your mouse over milestones to learn more about these features."
-		milestones2: "Completing milestones rewards you with old-world scraps that can later be used to activate ancient machinery."
-
-		rawresources: "Most raw resources can't be carried when you leave. Refine as many as possible before flying away."
-		scrap-when-leaving: "Don't forget to scrap any buildings outside your city before leaving, you'll get half of the raw materials (not including Flux) back."
-		upgrade-in-city: "Choose carefully which buildings to place inside the city and take with you. Upgrade these buildings to make them more efficient."
-		move-before-leaving: "Remember you can move most buildings, so you can reorganize your city and choose which buildings to take with you. Turrets can't be moved during raids, so think in advance."
-		expand-city: "Increase your population to unlock the city expansion build option, then expand your city so you have more room for buildings that you take with you. But keep an eye on your weight."
-		discord: "Join our discord (link in the title screen). You can ask any questions and chat with us devs or other members of the community."
-		add-ons: "When you research building add-ons, interact with a building to build those and unlock new production recipes or other bonuses."
-		resources-leaving: "Keep a reserve of important resources, when you fly away you'll need them to rebuild some of the buildings left behind."
-		food-leaving: "Make sure you have plenty of food, flux and power before leaving, it may take you a while to set-up their production in your next landing spot."
-		exploring: "Explore your surroundings. You will find more resources, debris that you can destroy for usefull stuff, ancient ruins, and it will be easier to identify routes of enemy raids."
-		auto-output: "By default, output from non-storage buildings send all items. Select the access point in management mode to edit its settings."
-		exit-limits: "When sending items out of storage, you can set a minimum amount in the item selection pop-up. Items will only be sent if the storage has more than this minimum amount of that item."
-
-		upgrade-layer: "Open the upgrade layer in management mode (left of the minimap) to see building levels and upgrade them with a single click."
-		prod-layer: "Open the production layer in management mode (left of the minimap) to see or change what each building is producting."
-		usable-storage: "The combined storage window (default 'T') shows all items currently available for construction/crafting - including global items, those in Tiny's inventory, and resources in storage buildings."
-		customize-resource-ui: "You can choose which resources are tracked in the top-left of the HUD."
-		city-info: "Click on the city name in the HUD to open the city information window. This window also provides information about the current landing zone."
-		free-camera: "You can use the free camera keyboard shortcut when in combat mode in order to switch to management mode with free camera enabled automatically."
-		worker-assign: "You can reduce the amount of workers assigned to production buildings to lower the production rate of that building and free up workers for other tasks."
-
-		piercing-weapons: "Projectiles from piercing weapons pass through their targets and can hit those behind them."
-		archeology-unlocks: "Unlock new archeology projects by scrapping ruins in 2-skull regions or higher."
+		rotate: "Ви можете обертати камеру, утримуючи та перетягуючи середню кнопку миші."
+		moving-buildings: "Натисніть кнопку інструментів, а потім виберіть інструмент переміщення (або натисніть 'M') у режимі керування, щоб реорганізувати ваші будівлі. Деякі будівлі, такі як стіни та рейки, не можна переміщати."
+		melee-aoe: "Атаки ближнього бою вражають кілька ворогів одночасно і завдають більше шкоди, ніж атаки дальнього бою. Вони дуже ефективні, коли оточені ворогами з коротким радіусом дії."
+		demolish-buildings: "Знесення більшості будівель поверне половину їх будівельних витрат, але не Флюкс."
+		world-difficulty: "З часом райони, в які ви приземляєтесь, ставатимуть все більш складними. Не витрачайте занадто багато часу, побудуйте свою економіку та оборону, поки не стало надто пізно."
+		world-difficulty2: "Місця приземлення з вищою складністю мають більше ресурсних покладів, і деякі ресурси, такі як мідь, з'являються тільки на досить високих рівнях."
+		right-click-close: "Ви можете клацнути правою кнопкою миші в будь-якому місці на вікні, щоб закрити його."
+		infrastructure: "Будуйте майстерні для виробництва матеріалів для модернізації вашої інфраструктури. Модернізація інфраструктури може надати потужні, постійні бонуси."
+		economy: "Не бійтеся будувати більше одного дослідницького центру або майстерні, щоб швидше прогресувати. Просто переконайтеся, що ваша економіка може підтримувати це."
+		disabling: "Якщо у вас не вистачає робітників або енергії, ви можете відключити менш важливі будівлі, щоб інші залишалися робочими."
+		upgrading: "Більшість будівель можна модернізувати. Модернізація дорожча, ніж будівництво іншої будівлі, але не займає додаткового місця або ваги."
+		rails-building: "Ви можете змінити напрямок рейки, просто побудувавши ще одну рейку в протилежному напрямку. Зміна напрямку нічого не коштуватиме."
+		railcrossing: "Перетягуйте, щоб будувати рейки так, щоб вони перетинали існуючу ділянку рейки, створюючи перехрестя, яке працює як міст, дозволяючи обом ділянкам працювати незалежно."
+		remove-crossing: "Ви можете видалити перехрестя рейок, перетягнувши рейку, щоб змінити напрямок одного з входів або виходів перехрестя так, щоб вони зливалися або розділялися замість того, щоб перетинатися."
+		weight: "Переконайтеся, що ви завжди можете швидко втекти. Не залишайтеся без палива і тримайте вагу нижче вашої вантажопідйомності."
+		leaving-early: "Не соромтеся відлітати, якщо вам потрібен ресурс, якого немає у вашій поточній зоні. Просто стежте за запасами палива."
+		journal: "Відкрийте свій журнал (J), щоб побачити виконані завдання підручника, якщо вам потрібно нагадування."
+		gamepedia: "Натисніть TAB, щоб відкрити Архів Снів і побачити інформацію про будь-яку будівлю, ремесло або рецепт виробництва, який ви розблокували."
+		item-source: "Якщо вам потрібен ресурс, з яким ви не знайомі, перевірте Архів Снів, щоб побачити, де його можна зібрати або виробити."
+		pick-cart: "Якщо ви хочете видалити транспортний візок з рейок, використовуйте інструмент вибору візка (P) у режимі керування, щоб повернути предмети до вашого інвентарю."
+		enabledisable: "Ви можете швидко вмикати та вимикати кілька будівель, не відкриваючи їхнє вікно, за допомогою інструменту вмикання/вимикання (O) у режимі керування."
+		extrarefineries: "Якщо вам доводиться занадто довго чекати на дошки, побудуйте більше обробників деревини або будь-якого іншого нафтопереробного заводу."
+	
+		old-tech: "Ударяйте по уламках по всьому світу, щоб зібрати стародавні уламки, які потім можна використати у будівлях руїн для створення унікальних предметів."
+		copybuilding: "У режимі керування використовуйте клавішу копіювання будівлі (за замовчуванням 'V'), щоб швидко створити ще один екземпляр будівлі, яка знаходиться під вашим курсором."
+		targetmarker: "Ви можете активувати маркер цілі у вікні налаштувань, щоб допомогти вам прицілюватися під час дальніх атак."
+		key-bindings: "Відкрийте налаштування клавіш у вікні налаштувань, щоб дізнатися та змінити всі різні гарячі клавіші, які можуть допомогти вам у грі."
+		milestones: "Наведіть курсор миші на рубежі, щоб дізнатися більше про ці особливості."
+		milestones2: "Завершення рубежів винагороджує вас стародавніми уламками, які пізніше можна використовувати для активації стародавніх механізмів."
+	
+		rawresources: "Більшість сировинних ресурсів не можна перевозити під час відльоту. Переробіть якомога більше перед відльотом."
+		scrap-when-leaving: "Не забудьте зібрати будь-які будівлі за межами вашого міста перед відльотом, ви отримаєте назад половину сировинних матеріалів (крім Флюксу)."
+		upgrade-in-city: "Уважно вибирайте, які будівлі розмістити в місті та взяти з собою. Модернізуйте ці будівлі, щоб зробити їх більш ефективними."
+		move-before-leaving: "Пам'ятайте, що більшість будівель можна переміщати, тому ви можете реорганізувати своє місто та вибрати, які будівлі взяти з собою. Турелі не можна переміщувати під час рейдів, тому думайте наперед."
+		expand-city: "Збільшіть своє населення, щоб розблокувати опцію розширення міста, потім розширте своє місто, щоб мати більше місця для будівель, які ви берете з собою. Але стежте за своєю вагою."
+		discord: "Приєднуйтесь до нашого Discord (посилання на головному екрані). Ви можете задавати будь-які питання та спілкуватися з розробниками або іншими учасниками спільноти."
+		add-ons: "Коли ви досліджуєте додатки для будівель, взаємодійте з будівлею, щоб побудувати їх і розблокувати нові рецепти виробництва або інші бонуси."
+		resources-leaving: "Тримайте резерв важливих ресурсів, коли ви відлітаєте, вам знадобляться вони для відбудови деяких будівель, які залишилися позаду."
+		food-leaving: "Переконайтеся, що у вас достатньо їжі, флюксу та енергії перед відльотом, може пройти деякий час, перш ніж ви налагодите їхнє виробництво в новому місці посадки."
+		exploring: "Досліджуйте своє оточення. Ви знайдете більше ресурсів, уламків, які можна зруйнувати для корисних речей, стародавніх руїн, і буде легше визначити маршрути ворожих рейдів."
+		auto-output: "За замовчуванням вихід з будівель, що не є складами, відправляє всі предмети. Виберіть точку доступу в режимі керування, щоб відредагувати її налаштування."
+		exit-limits: "При відправленні предметів зі складу ви можете встановити мінімальну кількість у спливаючому вікні вибору предметів. Предмети будуть відправлені лише тоді, коли склад має більше цієї мінімальної кількості цього предмету."
+	
+		upgrade-layer: "Відкрийте шар модернізації в режимі керування (ліворуч від міні-карти), щоб побачити рівні будівель і модернізувати їх одним кліком."
+		prod-layer: "Відкрийте шар виробництва в режимі керування (ліворуч від міні-карти), щоб побачити або змінити, що виробляє кожна будівля."
+		usable-storage: "Об'єднане вікно зберігання (за замовчуванням 'T') показує всі предмети, доступні для будівництва/ремесла - включаючи глобальні предмети, ті, що знаходяться в інвентарі Тіні, і ресурси в складах."
+		customize-resource-ui: "Ви можете вибрати, які ресурси відображати у верхньому лівому куті інтерфейсу."
+		city-info: "Натисніть на назву міста в інтерфейсі, щоб відкрити вікно інформації про місто. Це вікно також надає інформацію про поточну зону посадки."
+		free-camera: "Ви можете використовувати гарячу клавішу вільної камери в режимі бою, щоб автоматично перейти в режим керування з увімкненою вільною камерою."
+		worker-assign: "Ви можете зменшити кількість робітників, призначених на виробничі будівлі, щоб знизити темпи виробництва цієї будівлі та звільнити робітників для інших завдань."
+	
+		piercing-weapons: "Снаряди від проникаючої зброї проходять крізь цілі і можуть вразити тих, що знаходяться позаду них."
+		archeology-unlocks: "Розблоковуйте нові археологічні проекти, збираючи руїни в регіонах з двома черепами або вище."
 	}
 
 	contexthints: {
-		roadbuild: "* Drag in the desired direction - place rails.\n* Start the drag from building - create an output slot.\n* End the drag on a building - create an input slot.\n* Right click to exit build mode.\n* Drag rails across an existing track to create a crossing."
-		buildmode: "'{0}' - rotate building.\nRight click - exit build mode."
-
-		bulldoze: "Select building to demolish.\nRight click - exit mode."
-		repair: "Select damaged building to repair.\nRight click - exit mode."
-		repair-costs: "Repair {0}: {1} x{2}"
-		move: "Select building to move.\nRight click - cancel."
-		delinout: "Click to remove access points.\nRight click - exit mode."
-		pickcart: "Click & Drag to pick up carts.\nRight click - exit mode."
-		enabledisable: "Click buildings to toggle them on/off.\nRight click - exit mode."
-
-		gather: "'E' - Gather {0}."
-		gathering: "Gathering {0}"
-		inventory: "Left click to transfer items\nHold SHIFT to transfer all or CONTROL to transfer 10\nRight click to use / equip"
+		roadbuild: "* Перетягніть у бажаному напрямку - розміщуйте рейки.\n* Почніть перетягування від будівлі - створіть вихідний слот.\n* Закінчіть перетягування на будівлі - створіть вхідний слот.\n* Клацніть правою кнопкою миші, щоб вийти з режиму будівництва.\n* Перетягніть рейки через існуючу доріжку, щоб створити перехрестя."
+		buildmode: "'{0}' - обертати будівлю.\nКлацніть правою кнопкою миші - вийти з режиму будівництва."
+	
+		bulldoze: "Виберіть будівлю для знесення.\nКлацніть правою кнопкою миші - вийти з режиму."
+		repair: "Виберіть пошкоджену будівлю для ремонту.\nКлацніть правою кнопкою миші - вийти з режиму."
+		repair-costs: "Ремонт {0}: {1} x{2}"
+		move: "Виберіть будівлю для переміщення.\nКлацніть правою кнопкою миші - скасувати."
+		delinout: "Натисніть, щоб видалити точки доступу.\nКлацніть правою кнопкою миші - вийти з режиму."
+		pickcart: "Клацніть і перетягніть, щоб забрати візки.\nКлацніть правою кнопкою миші - вийти з режиму."
+		enabledisable: "Клацніть на будівлі, щоб увімкнути/вимкнути їх.\nКлацніть правою кнопкою миші - вийти з режиму."
+	
+		gather: "'E' - Зібрати {0}."
+		gathering: "Збирання {0}"
+		inventory: "Клацніть лівою кнопкою миші, щоб передати предмети\nУтримуйте SHIFT, щоб передати все, або CONTROL, щоб передати 10\nКлацніть правою кнопкою миші, щоб використати / оснастити"
 	}
 
 	keymapping: {
 		categories: {
-			general: "General Controls"
-			management: "Management Mode"
-			camera: "Camera Controls"
-			windows: "Window Shortcuts"
+			general: "Загальні управління"
+			management: "Режим керування"
+			camera: "Управління камерою"
+			windows: "Гарячі клавіші вікон"
 		}
 		action: {
-			Up: "Move up"
-			Left: "Move left"
-			Right: "Move right"
-			Down: "Move down"
-			DefaultView: "Default camera view"
-			TopDownView: "Toggle top-down view"
-			ZoomIn: "Zoom In"
-			ZoomOut: "Zoom Out"
-			RotateCamera: "Rotate camera"
-			Interact: "Interact"
-			StrategicView: "Toggle management mode"
-			SwitchWeapons: "Switch weapon set"
-			CameraControlMode: "Toggle direct camera control"
-			Build: "Toggle build mode"
-			BuildPrevCat: "Previous build category"
-			BuildNextCat: "Next build category"
-			CopyBuilding: "Copy building under cursor"
-			BuildRails: "Build rails shortcut"
-			Bulldoze: "Toggle demolish mode"
-			Repair: "Toggle repair mode"
-			Move: "Toggle move building mode"
-			EnableDisableBuilding: "Toggle enable / disable mode"
-			PickCarts: "Toggle pick cart mode"
-			Inventory: "Character window"
-			Research: "Research window"
-			Skills: "Infrastructure window"
-			Journal: "Journal window"
-			Crafting: "Crafting Window"
-			UsableStorage: "Combined Resources"
-			Gamepedia: "Dream archives window"
-			Transfer10: "Hold for x10"
-			TransferAll: "Hold for all available"
-			RotateRight: "Rotate building right"
-			RotateLeft: "Rotate building left"
-			AddToQueue: "Hold to add research to queue"
-			QuickSave: "Quick Save"
-			QuickLoad: "Quick Load"
-			Help: "Help"
-			RemoveAccessPoint: "Remove Access Points"
-			IncreaseGameSpeed: "Increase Game Speed"
-			DecreaseGameSpeed: "Decrease Game Speed"
-			Pause: "Pause"
-			FreeCamera: "Toggle Free Camera"
-			GotoCore: "Goto City Core / Tiny"
+			Up: "Рухатися вгору"
+			Left: "Рухатися вліво"
+			Right: "Рухатися вправо"
+			Down: "Рухатися вниз"
+			DefaultView: "Вид камери за замовчуванням"
+			TopDownView: "Перемикання на вигляд зверху"
+			ZoomIn: "Збільшити"
+			ZoomOut: "Зменшити"
+			RotateCamera: "Обертати камеру"
+			Interact: "Взаємодіяти"
+			StrategicView: "Перемикання на режим керування"
+			SwitchWeapons: "Перемикання набору зброї"
+			CameraControlMode: "Перемикання на пряме управління камерою"
+			Build: "Перемикання на режим будівництва"
+			BuildPrevCat: "Попередня категорія будівництва"
+			BuildNextCat: "Наступна категорія будівництва"
+			CopyBuilding: "Копіювати будівлю під курсором"
+			BuildRails: "Гаряча клавіша для будівництва рейок"
+			Bulldoze: "Перемикання на режим знесення"
+			Repair: "Перемикання на режим ремонту"
+			Move: "Перемикання на режим переміщення будівель"
+			EnableDisableBuilding: "Перемикання режиму вмикання/вимикання будівель"
+			PickCarts: "Перемикання на режим збору візків"
+			Inventory: "Вікно персонажа"
+			Research: "Вікно досліджень"
+			Skills: "Вікно інфраструктури"
+			Journal: "Вікно журналу"
+			Crafting: "Вікно ремесла"
+			UsableStorage: "Об'єднані ресурси"
+			Gamepedia: "Вікно Архіву Снів"
+			Transfer10: "Утримуйте для x10"
+			TransferAll: "Утримуйте для всіх доступних"
+			RotateRight: "Повернути будівлю вправо"
+			RotateLeft: "Повернути будівлю вліво"
+			AddToQueue: "Утримуйте для додавання дослідження до черги"
+			QuickSave: "Швидке збереження"
+			QuickLoad: "Швидке завантаження"
+			Help: "Допомога"
+			RemoveAccessPoint: "Видалити точки доступу"
+			IncreaseGameSpeed: "Збільшити швидкість гри"
+			DecreaseGameSpeed: "Зменшити швидкість гри"
+			Pause: "Пауза"
+			FreeCamera: "Перемикання на вільну камеру"
+			GotoCore: "Перейти до ядра міста / Тіні"
 		}
 		keys-short: {
-			Space: "Spc"
-			LeftShift: "LSHF"
-			LeftControl: "LCTR"
-			RightShift: "RSHF"
-			RightControl: "RCTR"
-			Return: "Ent"
-			KeypadEnter: "Ent"
-			Insert: "Ins"
-			PageUp: "PGUP"
-			PageDown: "PGDN"
+			Space: "Прб"
+			LeftShift: "ЛСШ"
+			LeftControl: "ЛКТР"
+			RightShift: "ПШ"
+			RightControl: "ПКТР"
+			Return: "Вв"
+			KeypadEnter: "Вв"
+			Insert: "Вст"
+			PageUp: "СторВг"
+			PageDown: "СторВн"
 		}
 		keys: {
-			LeftShift: "Left Shift"
-			LeftControl: "Left Control"
-			RightShift: "Right Shift"
-			RightControl: "Right Control"
+			LeftShift: "Лівий Shift"
+			LeftControl: "Лівий Control"
+			RightShift: "Правий Shift"
+			RightControl: "Правий Control"
 			Period: "."
 			Comma: ","
 			Tab: "Tab"
 			RightBracket: "]"
 			LeftBracket: "["
-			Space: "Space"
+			Space: "Пробіл"
 			Delete: "Del"
 			Return: "Enter"
 			KeypadPeriod: "."
@@ -3311,10 +3302,10 @@
 			KeypadPlus: "+"
 			KeypadEnter: "Enter"
 			KeypadEquals: "="
-			UpArrow: "Up"
-			DownArrow: "Down"
-			RightArrow: "Right"
-			LeftArrow: "Left"
+			UpArrow: "Вгору"
+			DownArrow: "Вниз"
+			RightArrow: "Вправо"
+			LeftArrow: "Вліво"
 			Insert: "Insert"
 			Home: "Home"
 			End: "End"
@@ -3331,108 +3322,108 @@
 	}
 
 	difficulty: {
-		start-items: "Extra starting resources:"
+		start-items: "Додаткові стартові ресурси:"
 		settings: {
 			difficulty-preset: {
-				title: "Preset Difficulty"
-				hover: "Pre-defined difficulty levels."
+				title: "Попередньо визначена складність"
+				hover: "Попередньо визначені рівні складності."
 			}
 			enemy-strength: {
-				title: "Enemy Numbers"
-				hover: "Amount of enemies around the map and in raids."
+				title: "Кількість ворогів"
+				hover: "Кількість ворогів на карті та під час рейдів."
 				options: {
-					very-easy: "Easy"
-					easy: "Forgiving"
-					normal: "Challenging"
-					hard: "Hard"
+					very-easy: "Легко"
+					easy: "Прощаюче"
+					normal: "Виклик"
+					hard: "Складно"
 				}
 			}
 			combat-difficulty: {
-				title: "Combat Difficulty"
-				hover: "Determines the difficulty of exploring and fighting with Tiny."
+				title: "Складність бою"
+				hover: "Визначає складність дослідження та бою з Тіні."
 				options: {
-					very-easy: "Easy"
-					easy: "Forgiving"
-					normal: "Challenging"
-					hard: "Hard"
+					very-easy: "Легко"
+					easy: "Прощаюче"
+					normal: "Виклик"
+					hard: "Складно"
 				}
 			}
 			economy: {
-				title: "Economy"
-				hover: "Affects how hard it is to build and expand a city with a stable economy."
+				title: "Економіка"
+				hover: "Впливає на складність будівництва та розширення міста зі стабільною економікою."
 				options: {
-					very-easy: "Easy"
-					easy: "Forgiving"
-					normal: "Challenging"
-					hard: "Hard"
+					very-easy: "Легко"
+					easy: "Прощаюче"
+					normal: "Виклик"
+					hard: "Складно"
 				}
 			}
 			resource-node-count: {
-				title: "Resource Nodes"
-				hover: "Amount of resource nodes in each map."
+				title: "Ресурсні вузли"
+				hover: "Кількість ресурсних вузлів на кожній карті."
 				options: {
-					easy: "Forgiving"
-					normal: "Challenging"
-					hard: "Hard"
+					easy: "Прощаюче"
+					normal: "Виклик"
+					hard: "Складно"
 				}
 			}
 			threat-time: {
-				title: "Threat Increase Rate"
-				hover: "Determines how long it takes for threat levels to increase.\n\nHigher values mean longer separation between raids and threat increases more slowly."
+				title: "Швидкість підвищення загрози"
+				hover: "Визначає, скільки часу потрібно для підвищення рівня загрози.\n\nВищі значення означають довший інтервал між рейдами, і загроза збільшується повільніше."
 				options: {
-					no-raids: "Raids Disabled"
-					very-easy: "Easy"
-					easy: "Forgiving"
-					normal: "Challenging"
-					hard: "Hard"
+					no-raids: "Рейди відключені"
+					very-easy: "Легко"
+					easy: "Прощаюче"
+					normal: "Виклик"
+					hard: "Складно"
 				}
 			}
 			mini-raids: {
-				title: "Wandering Enemies"
-				hover: "Wandering enemies sometimes spawn and attack your city without warning. They are much smaller than actual raids and they do not get stronger when you stay put.\n\nWhen enabled, make sure your city is defended from all directions at all times."
+				title: "Блукаючі вороги"
+				hover: "Блукаючі вороги іноді з'являються і атакують ваше місто без попередження. Вони набагато менші за реальні рейди і не стають сильнішими, коли ви залишаєтеся на місці.\n\nЯкщо ввімкнено, переконайтеся, що ваше місто захищене з усіх боків у будь-який час."
 				options: {
-					off: "Disabled"
-					normal: "Normal"
+					off: "Відключено"
+					normal: "Звичайний"
 				}
 			}
 			global-difficulty-time: {
-				title: "Survival Mode"
-				hover: "Determines whether or not global infestation level increases by itself and how fast.\n\nWhen turned on, your landing options will get harder and harder over time. Turn off for a more relaxed experience."
+				title: "Режим виживання"
+				hover: "Визначає, чи збільшується рівень глобальної інфекції сам по собі і наскільки швидко.\n\nЯкщо ввімкнено, ваші варіанти посадки стануть все складнішими з часом. Вимкніть для більш розслабленого досвіду."
 				options: {
-					relaxed: "Off"
-					beginner: "Beginner"
-					easy: "Forgiving"
-					normal: "Challenging"
-					hard: "Hard"
+					relaxed: "Вимкнено"
+					beginner: "Новачок"
+					easy: "Прощаюче"
+					normal: "Виклик"
+					hard: "Складно"
 				}
 			}
 			pause-in-menus: {
-				title: "Overseer Tools"
-				hover: "Overseer tools allow for free camera movement, speed controls, and active-pause. Without these tools there is more time pressure and you need to physically move Tiny in order to build or manage your city."
+				title: "Інструменти наглядача"
+				hover: "Інструменти наглядача дозволяють вільно переміщатися камерою, керувати швидкістю та активною паузою. Без цих інструментів тиск часу більший, і вам потрібно фізично переміщати Тіні, щоб будувати або керувати своїм містом."
 				options: {
-					normal: "Enabled"
-					hard: "Disabled"
+					normal: "Ввімкнено"
+					hard: "Вимкнено"
 				}
 			}
 			elections: {
-				title: "Council Elections"
-				hover: "Disable council elections and faction relationships."
+				title: "Вибори до ради"
+				hover: "Відключити вибори до ради та відносини фракцій."
 				options: {
-					off: "Council Disabled"
-					normal: "Council Enabled"
+					off: "Рада відключена"
+					normal: "Рада ввімкнена"
 				}
 			}
 			ironman: {
-				title: "Ironman"
-				hover: "In ironman mode there's only one save file, and the game is automatically saved every time you quit. If you lose, the save file will be deleted."
+				title: "Режим Залізної людини"
+				hover: "У режимі Залізної людини є лише один файл збереження, і гра автоматично зберігається кожного разу, коли ви виходите. Якщо ви програєте, файл збереження буде видалено."
 				options: {
-					normal: "Off"
-					hard: "On"
+					normal: "Вимкнено"
+					hard: "Ввімкнено"
 				}
 			}
 			map-size: {
-				title: "Landing Map Size"
-				hover: "Larger maps take more time to search and have more enemies in them.\n\nSmaller sizes may improve performance."
+				title: "Розмір карти посадки"
+				hover: "На більші карти потрібно більше часу для пошуку, і в них більше ворогів.\n\nМенші розміри можуть покращити продуктивність."
 				options: {
 					easy: "200 x 200"
 					normal: "220 x 220"
@@ -3442,39 +3433,39 @@
 		}
 		presets: {
 			very-easy: {
-				name: "Relaxed",
-				desc: "This difficulty is best suited for those more interested in exploring and building.\n\nIn this mode the global infestation will not increase unless you manually decide to fly to higher difficulty maps.\n\nEnemies will still attack your city, but the threat level increases much more slowly. If you want to cancel raids altogether you can customize the Threat difficulty setting below."
+				name: "Розслаблено",
+				desc: "Ця складність найкраще підходить для тих, хто більше цікавиться дослідженнями та будівництвом.\n\nУ цьому режимі глобальна інфекція не збільшується, якщо ви самостійно не вирішите летіти на карти з вищою складністю.\n\nВороги все одно будуть атакувати ваше місто, але рівень загрози зростає набагато повільніше. Якщо ви хочете повністю скасувати рейди, ви можете налаштувати параметр складності загрози нижче."
 			},
 			easy: {
-				name: "Forgiving",
-				desc: "A slower pace that allows for more mistakes, lets you save the game at any time, and has weaker enemies all around.\n\nRecommended for new players to the genre, or those looking for a more relaxed experience but that still has some time pressure and challenge."
+				name: "Прощаюче",
+				desc: "Повільніший темп, що дозволяє більше помилок, дозволяє зберігати гру в будь-який час і має слабших ворогів.\n\nРекомендовано для нових гравців жанру або тих, хто шукає більш розслаблений досвід, але з деяким тиском часу та викликом."
 			},
 			beginner: {
-				name: "Still Learning",
-				desc: "This is the recommended difficulty level for new players.\n\nIt allows for a bit slower pace and easier battles that will let you better familiarize with the game.\n\nAfter a few attempts and becoming familiar with the unique controls and systems, we recommend switching to the Challenging difficulty level."
+				name: "Ще вчуся",
+				desc: "Це рекомендований рівень складності для нових гравців.\n\nВін дозволяє трохи повільніший темп і легші битви, що дозволить вам краще ознайомитися з грою.\n\nПісля кількох спроб і знайомства з унікальними системами та управлінням, ми рекомендуємо перейти на складний рівень складності."
 			},
 			no-time-limit: {
-				name: "Take Your Time",
-				desc: "Similar to the challenging difficulty level, except that the global infestation level never increases by itself.\n\nThis mode has significantly reduced pressure because you can visit as many low level maps as you want until you feel ready to visit higher level maps. There is still time pressure within each map because raids and threat levels increase normally, but flying to a new map of the same difficulty level resets these."
-			}
+				name: "Не поспішайте",
+				desc: "Схожий на складний рівень складності, за винятком того, що рівень глобальної інфекції ніколи не збільшується сам по собі.\n\nУ цьому режимі значно знижується тиск, оскільки ви можете відвідувати стільки карт низького рівня, скільки хочете, поки не відчуєте готовність відвідати карти вищого рівня. У кожній карті все ще є тиск часу, оскільки рейди і рівень загрози зростають нормально, але переліт на нову карту того ж рівня складності скидає ці показники."
+			},
 			economy-focus: {
-				name: "Economic Challenge",
-				desc: "For those who prefer more of a challenge in the building and management aspects of the game.\n\nCombat difficulty is similar to the Still Learning difficulty, but resources are harder to come by and construction costs are increased."
+				name: "Економічний виклик",
+				desc: "Для тих, хто віддає перевагу більшому виклику у будівельних та управлінських аспектах гри.\n\nСкладність бою схожа на рівень Ще вчуся, але ресурси важче знайти, а будівельні витрати збільшені."
 			},
 			challenging: {
-				name: "Challenging",
-				desc: "This is the way the game was meant to be played.\n\nRecommended for players that have already familiarized themselves with the unique systems and controls of this game, and are ready for the real challenge."
+				name: "Виклик",
+				desc: "Так гра повинна бути зіграна.\n\nРекомендовано для гравців, які вже ознайомилися з унікальними системами та управлінням цієї гри і готові до справжнього виклику."
 			},
 			hard: {
-				name: "Hard",
-				desc: "For those who enjoy an extra challenge.\n\nMore enemies all around, and faster threat level increases create a more significant sense of time pressure."
+				name: "Складно",
+				desc: "Для тих, хто любить додатковий виклик.\n\nБільше ворогів повсюди, і швидше зростання рівня загрози створюють більш значний тиск часу."
 			},
 			very-hard: {
-				name: "Dream Plague",
-				desc: "The hardest difficulty.\n\nTiny is weaker, you will find less resources, pay more to build stuff, and the global infestation will increase faster compared to the Hard level.\n\nPlay at your own peril."
+				name: "Чума Снів",
+				desc: "Найвищий рівень складності.\n\nТіні слабші, ви знайдете менше ресурсів, платите більше за будівництво, і рівень глобальної інфекції зростає швидше порівняно з рівнем Складно.\n\nГрайте на свій страх і ризик."
 			},
 			custom: {
-				name: "Custom",
+				name: "Користувацький",
 				desc: ""
 			},
 		}
@@ -3482,36 +3473,36 @@
 
 	opening-story: {
 		paragraph1: {
-			text1: "Twyst."
-			text2: "Once, a world of wonders and dreams."
-			text3: "Now, a place of nightmares."
+			text1: "Твіст."
+			text2: "Колись, світ чудес і мрій."
+			text3: "Тепер, місце жахів."
 		}
 		paragraph2: {
-			text1: "With the discovery of the reality-defying technology known as ‘Dreamtek’, Twyst became the home of many great and prosperous empires."
-			text2: "At least, that's what the legends say."
+			text1: "З відкриттям технології, що порушує реальність, відомої як 'Dreamtek', Твіст став домом для багатьох великих і процвітаючих імперій."
+			text2: "Принаймні, так кажуть легенди."
 		}
 		paragraph3: {
-			text1: "Then came the Dream Plagues."
-			text2: "No one knows where they came from. Creatures that seemed to come straight out of a nightmare."
-			text3: "They appeared everywhere, and the world was not prepared."
-			text4: "The Twystans fought bravely, but the Dream Plagues were endless, and relentless. Great cities fell, empires were decimated."
+			text1: "Потім прийшли Чуми Снів."
+			text2: "Ніхто не знає, звідки вони взялися. Істоти, які здавалися ніби з кошмару."
+			text3: "Вони з'являлися всюди, і світ не був готовий."
+			text4: "Твістани боролися хоробро, але Чуми Снів були безкінечні та безжальні. Великі міста падали, імперії були знищені."
 		}
 		paragraph4: {
-			text1: "Centuries later, Twyst itself became a dark and twisted planet."
-			text2: "The few remaining Twystans survive as nomadic tribes, never putting down roots, never remaining in the same place for too long. Always on the move, before the dream plagues catch their scent."
-			text3: "This is where your story begins."
+			text1: "Через століття Твіст сам став темною і викривленою планетою."
+			text2: "Невелика кількість залишених Твістан виживає як кочові племена, ніколи не осідаючи, ніколи не залишаючись на одному місці надовго. Завжди в русі, поки Чуми Снів не відчують їхній запах."
+			text3: "Це місце, де починається ваша історія."
 		}
 	}
 
 	dialogue-characters: {
 		scientist: {
-			name: "Chief Scientist Marie"
+			name: "Головний вчений Марі"
 		}
 		advisor: {
-			name: "Advisor Han"
+			name: "Радник Хан"
 		}
 		archeologist: {
-			name: "Archeologist Wallace"
+			name: "Археолог Воллес"
 		}
 		narrator: {
 			name: ""
@@ -3519,334 +3510,334 @@
 	}
 
 	missions: {
-		dialogue-goals-format: "{0}\n\n<color=#99EEFF>Objectives\n{1}</color>"
+		dialogue-goals-format: "{0}\n\n<color=#99EEFF>Завдання\n{1}</color>"
 		dialogue-goals-line: "• {0}"
 		story-start: {
-			name: "A New Hope"
+			name: "Нова надія"
 			texts: {
-				desc: "Your tribe's hope is rekindled with the discovery of an ancient city that can fly."
+				desc: "Надія вашого племені відновлюється з відкриттям стародавнього міста, яке може літати."
 			}
 			dialogue: {
-				before1: "Overseer, it's amazing! A true marvel of the ancients."
-				before2: "They called it a 'Nomad City', and it can fly! We don't know why they abandoned it, everything appears to be working."
-				before3: "Overseer, the city has an Avatar. It's a mechanical giant and they called it 'Tiny'. Some kind of ancient joke perhaps."
-				before4: "It's armed, we can use it to explore our surroundings, find resources, and fight the Dream Plagues."
-				before5: "Our luck could be changing. We can build a real home here, one that we can take with us whenever we are forced to flee."
-				before6: "You enter the overseer chamber in the city core. From here, you can control Tiny and the entire city. You can feel this is only the beginning of your journey. Great hardships await, but also a new hope. You start to acquaint yourself with Tiny's controls, and dream of building a grand city, like the days of old."
+				before1: "Наглядачу, це дивовижно! Справжнє чудо давнини."
+				before2: "Вони називали його 'Місто кочівників', і воно може літати! Ми не знаємо, чому вони його покинули, все здається робочим."
+				before3: "Наглядачу, в місті є Аватар. Це механічний гігант, і вони називали його 'Тіні'. Можливо, це якийсь стародавній жарт."
+				before4: "Він озброєний, ми можемо використовувати його для дослідження нашого оточення, знаходження ресурсів і боротьби з Чумами Снів."
+				before5: "Наша удача може змінитися. Ми можемо побудувати справжній дім тут, який ми можемо взяти з собою, коли будемо змушені втекти."
+				before6: "Ви входите до камери наглядача в ядрі міста. Звідси ви можете керувати Тіні та всім містом. Ви відчуваєте, що це лише початок вашої подорожі. На вас чекають великі труднощі, але також і нова надія. Ви починаєте знайомитися з управлінням Тіні та мрієте про будівництво великого міста, як у старі часи."
 			}
 			objectives: {
-				complete-tutorial: "Complete the tutorial below"
-				city-level1: "Reach a population of {1}"
+				complete-tutorial: "Завершити підручник нижче"
+				city-level1: "Досягти населення {1}"
 			}
 		}
 		story-buildlab: {
-			name: "Research"
+			name: "Дослідження"
 			texts: {
-				desc: "The tribe hopes to conduct their own research to improve the city."
+				desc: "Плем'я сподівається проводити власні дослідження для поліпшення міста."
 			}
 			dialogue: {
-				before1: "We're off to a good start, overseer, I don't remember ever seeing our people so excited."
-				before2: "We can build something truly great here, but we'll need to do our own research if we’re to grow and defend the city."
-				before3: "The city's infrastructure is in relatively good condition, but it's old. Ancient, really. Perhaps we can research a workshop for producing parts that could be used to upgrade that infrastructure."
+				before1: "Ми добре почали, наглядачу, я не пам'ятаю, коли наші люди були так схвильовані."
+				before2: "Ми можемо побудувати тут щось справді велике, але нам потрібно буде проводити власні дослідження, щоб рости та захищати місто."
+				before3: "Інфраструктура міста у відносно гарному стані, але вона стара. Дуже стара. Можливо, ми можемо дослідити майстерню для виробництва частин, які можна було б використовувати для модернізації цієї інфраструктури."
 			}
 			objectives: {
-				city-level2: "Reach a population of {1}"
-				buildlab: "Build: {0}"
-				unlockworkshop: "Research {0}"
+				city-level2: "Досягти населення {1}"
+				buildlab: "Побудувати: {0}"
+				unlockworkshop: "Дослідити {0}"
 			}
 		}
 		story-upgrade-core: {
-			name: "City Core"
+			name: "Ядро міста"
 			texts: {
-				desc: "Upgrading the city core can help your people survive."
+				desc: "Модернізація ядра міста може допомогти вашим людям вижити."
 			}
 			dialogue: {
-				before1: "Overseer, you can now build a workshop to produce parts that will allow us to upgrade the city's infrastructure."
-				before2: "Our scientists also designed some upgrades to the City Core. Let's upgrade the core next, it will improve its flight capability and resource production."
-				before3: "Overseer, remember that the Dream Plagues will become more and more hostile the longer we remain in one place."
-				before4: "When things become too dangerous or when you need resources that cannot be found in this area, you can fly the city to a new location."
+				before1: "Наглядачу, ви тепер можете побудувати майстерню для виробництва частин, які дозволять нам модернізувати інфраструктуру міста."
+				before2: "Наші вчені також розробили деякі модернізації для ядра міста. Давайте модернізуємо ядро наступним кроком, це покращить його здатність до польоту та виробництва ресурсів."
+				before3: "Наглядачу, пам'ятайте, що Чуми Снів ставатимуть все більш ворожими, чим довше ми залишатимемося на одному місці."
+				before4: "Коли ситуація стане занадто небезпечною або коли вам знадобляться ресурси, яких немає в цій області, ви можете перенести місто на нове місце."
 			}
 			objectives: {
-				upgrade-core2: "Upgrade: {3}"
+				upgrade-core2: "Модернізувати: {3}"
 			}
 		}
 		story-build-expeditioncenter: {
-			name: "Expedition Center"
+			name: "Центр експедицій"
 			texts: {
-				desc: "You investigate the origins of the Nomad Cities and what happened to their inhabitants."
+				desc: "Ви досліджуєте походження Міст Кочівників і те, що сталося з їхніми жителями."
 			}
 			dialogue: {
-				before1: "Overseer, I discovered something interesting in the city archives. I found references to a research facility that was researching something called 'Project Nomad'."
-				before2: "I believe that this facility is the source of the Nomad Cities. If we investigate it, maybe we can learn what happened to the ancients that lived here, and if there are other such cities."
-				before3: "I'm still searching for the exact location of the facility. In the meantime, please research and build an Expedition Center from which we can organize and send expeditions."
+				before1: "Наглядачу, я знайшов щось цікаве в архівах міста. Я знайшов посилання на дослідницький центр, який вивчав щось під назвою 'Проект Кочівник'."
+				before2: "Я вважаю, що цей центр є джерелом Міст Кочівників. Якщо ми його дослідимо, можливо, ми дізнаємося, що сталося з древніми жителями, які жили тут, і чи є інші такі міста."
+				before3: "Я все ще шукаю точне місце розташування центру. Тим часом, будь ласка, дослідіть і побудуйте Центр експедицій, з якого ми зможемо організувати та відправляти експедиції."
 				//before4: "Overseer, remember that the Dream Plagues will become more and more hostile the longer we remain in one place. When things become too dangerous or when you need resources that cannot be found in this area, you can fly the city to a new location."
-				before5: "Some of the resources we need for the Expedition Center can only be found in desert areas."
+				before5: "Деякі з ресурсів, які нам потрібні для Центру експедицій, можна знайти лише в пустельних районах."
 			}
 			objectives: {
-				build-expeditioncenter: "Build: {0}"
+				build-expeditioncenter: "Побудувати: {0}"
 			}
 		}
 		story-cityorigin-fly: {
-			name: "City Origins"
+			name: "Походження міста"
 			texts: {
-				desc: "You investigate the origins of the Nomad Cities and what happened to their inhabitants."
+				desc: "Ви досліджуєте походження Міст Кочівників і те, що сталося з їхніми жителями."
 			}
 			dialogue: {
-				before1: "Overseer, we believe we know the location of the Nomad research facility. It's in a desert area nearby that has a danger rating of 2 skulls."
-				before2: "Locations with higher danger ratings have tougher Dream Plagues. Please make sure Tiny is well equipped and the city is well defended before flying to more dangerous areas."
+				before1: "Наглядачу, ми вважаємо, що знаємо місце розташування дослідницького центру Кочівників. Він знаходиться в пустельній області неподалік, яка має рівень небезпеки в 2 черепа."
+				before2: "Місця з вищим рівнем небезпеки мають жорсткіших Чум Снів. Будь ласка, переконайтеся, що Тіні добре оснащений і місто добре захищене перед тим, як летіти до більш небезпечних областей."
 			}
 			objectives: {
-				reach-desert2: "Fly to a {1}-skull {0} region or higher"
+				reach-desert2: "Перелетіти до області з {1} черепами {0} або вище"
 			}
 		}
 		story-cityorigin-expedition: {
-			name: "City Origins Expedition"
-			expedition-name: "Nomad Research Facility"
+			name: "Експедиція походження міста"
+			expedition-name: "Дослідницький центр Кочівників"
 			texts: {
-				desc: "You investigate the origins of the Nomad Cities and what happened to their inhabitants."
+				desc: "Ви досліджуєте походження Міст Кочівників і те, що сталося з їхніми жителями."
 			}
 			dialogue: {
-				before1: "Overseer, we found it, the Nomad research facility. It's not very far, you can organize an expedition to investigate these ruins from here."
+				before1: "Наглядачу, ми знайшли його, дослідницький центр Кочівників. Він недалеко, ви можете організувати експедицію для дослідження цих руїн звідси."
 			}
 			objectives: {
-				perform-expedition: "Complete expedition: {0}"
+				perform-expedition: "Завершити експедицію: {0}"
 			}
 		}
 		story-dreamplagues-fly: {
-			name: "Dream Plagues"
+			name: "Чуми Снів"
 			texts: {
-				desc: "You need to learn more about the Dream Plagues and the city's effects on them."
+				desc: "Вам потрібно дізнатися більше про Чуми Снів і вплив міста на них."
 			}
 			dialogue: {
-				before1: "Overseer, we found something. It's... disturbing."
-				before2: "Project Nomad was abandoned. The city we found is the only one ever built, and it was never inhabited."
-				before3: "As you know, Dreamtek is based on the connection between our reality and the Dream Realm."
-				before4: "When we sleep, our ‘consciousness’ or ‘soul’, it travels to the Dream Realm to recharge. The rules of nature there, they don’t exist. Anything is possible in our dreams."
-				before5: "The Dream Engines, they tap into the Dream Realm and they draw Flux, the essence of that realm. The Flux is then used in Dreamtek devices to warp reality in our physical world."
-				before6: "From what we could piece together, the ancients built the Nomad Cities to escape the Dream Plagues. But they discovered a side effect."
-				before7: "For some reason, the cities made things worse. All around them, new nightmare rifts would appear, and the Dream Plagues were attracted to the cities like nothing else."
-				before8: "Worse still, they believed that whatever damage was being caused was permanent. They abandoned the project, it was too risky."
-				before9: "Overseer, we can't abandon the city. Not yet. Maybe the ancients were wrong. Maybe things have changed over the centuries. Our people can’t go back to how they lived before. We won’t survive."
-				before10: "Before you make a decision, please, let's investigate further. We found mention of another research facility, one that investigated the Dream Plagues."
-				before11: "Let me search for it, maybe it will have more answers."
+				before1: "Наглядачу, ми щось знайшли. Це... турбує."
+				before2: "Проект Кочівник був покинутий. Місто, яке ми знайшли, єдине, яке коли-небудь було побудовано, і воно ніколи не було заселене."
+				before3: "Як ви знаєте, Dreamtek базується на зв'язку між нашою реальністю та Сновидінням."
+				before4: "Коли ми спимо, наша 'свідомість' або 'душа' подорожує до Сновидіння, щоб зарядитися. Правила природи там не існують. У наших мріях можливе все."
+				before5: "Dream Engines використовують Сновидіння і витягують Флюкс, сутність того світу. Флюкс потім використовується в пристроях Dreamtek для викривлення реальності в нашому фізичному світі."
+				before6: "З того, що ми змогли зібрати, древні побудували Міста Кочівників, щоб втекти від Чум Снів. Але вони виявили побічний ефект."
+				before7: "З якоїсь причини міста погіршували ситуацію. Навколо них з'являлися нові кошмарні розломи, і Чуми Снів були притягнуті до міст, як нічого іншого."
+				before8: "Ще гірше, вони вважали, що будь-яка завдана шкода є постійною. Вони покинули проект, це було занадто ризиковано."
+				before9: "Наглядачу, ми не можемо покинути місто. Ще ні. Можливо, древні помилялися. Можливо, за століття все змінилося. Наші люди не можуть повернутися до колишнього життя. Ми не виживемо."
+				before10: "Перш ніж ви приймете рішення, будь ласка, давайте дослідимо далі. Ми знайшли згадку про інший дослідницький центр, який досліджував Чуми Снів."
+				before11: "Дозвольте мені його знайти, можливо, він має більше відповідей."
 			}
 			objectives: {
-				reach-tier3: "Continue building your city until the research facility is found."
+				reach-tier3: "Продовжуйте будувати своє місто, поки не знайдеться дослідницький центр."
 			}
 		}
 		story-dreamplagues-toblue: {
-			name: "Dream Plagues Search"
-			expedition-name: "Nomad Research Facility"
+			name: "Пошук Чум Снів"
+			expedition-name: "Дослідницький центр Кочівників"
 			texts: {
-				desc: "You need to learn more about the Dream Plagues and the city's effects on them."
+				desc: "Вам потрібно дізнатися більше про Чуми Снів і вплив міста на них."
 			}
 			dialogue: {
-				before1: "Overseer, the Dream Plague research center is believed to be somewhere in the Dreamtouched Fields. Take us there when you can."
+				before1: "Наглядачу, вважається, що дослідницький центр Чум Снів знаходиться десь у Полях Сновидінь. Відвезіть нас туди, коли зможете."
 			}
 			objectives: {
-				reach-blue: "Fly to region: {0}"
+				reach-blue: "Перелетіти до області: {0}"
 			}
 		}
 		story-dreamplagues-expedition: {
-			name: "Dream Plagues Expedition"
-			expedition-name: "Dream Plagues Research Center"
+			name: "Експедиція Чум Снів"
+			expedition-name: "Дослідницький центр Чум Снів"
 			texts: {
-				desc: "You need to learn more about the Dream Plagues and the city's effects on them."
+				desc: "Вам потрібно дізнатися більше про Чуми Снів і вплив міста на них."
 			}
 			dialogue: {
-				before1: "We've found the ruins of the Dream Plague research center. It's nearby. Let's organize an expedition to explore it."
+				before1: "Ми знайшли руїни дослідницького центру Чум Снів. Вони поруч. Давайте організуємо експедицію для їх дослідження."
 			}
 			objectives: {
-				perform-expedition: "Complete expedition: {0}"
+				perform-expedition: "Завершити експедицію: {0}"
 			}
 		}
 		story-repair-informationstorage: {
-			name: "Dream Plagues Expedition"
+			name: "Експедиція Чум Снів"
 			texts: {
-				desc: "An information storage device may provide information about the Dream Plagues."
+				desc: "Пристрій зберігання інформації може містити відомості про Чуми Снів."
 			}
 			dialogue: {
-				before1: "Our expedition has returned, overseer. The research center was in worse shape than we expected, there was not much left."
-				before2: "They did find something that appears to contain information from the research, but we'll have to repair the device in order to know for sure."
+				before1: "Наша експедиція повернулася, наглядачу. Дослідницький центр був у гіршому стані, ніж ми очікували, там мало що залишилося."
+				before2: "Але вони знайшли щось, що виглядає як пристрій з інформацією з досліджень, але нам потрібно відремонтувати його, щоб точно дізнатися."
 			}
 			objectives: {
-				repair-storage: "Craft: {0}"
+				repair-storage: "Створити: {0}"
 			}
 		}
 		story-drepattack: {
-			name: "Stranded"
+			name: "Застрягли"
 			texts: {
-				desc: "The information storage device is attracting Dream Plagues and disabling the city's flying capabilities."
+				desc: "Пристрій зберігання інформації приваблює Чуми Снів і відключає здатність міста літати."
 			}
 			dialogue: {
-				before1: "Overseer, we repaired the device. It does contain information, but it's also doing something strange, it's interfering with our Dreamtek."
-				before2: "Overseer, we have an emergency! Our scouts report a large group of Dream Plagues heading towards the city, and the device is interfering with the engines, we can’t get the city to fly."
-				before3: "Go and see to the city defense, overseer, I’ll work on disabling the device."
+				before1: "Наглядачу, ми відремонтували пристрій. Він містить інформацію, але також робить щось дивне, втручаючись у наш Dreamtek."
+				before2: "Наглядачу, у нас надзвичайна ситуація! Наші розвідники повідомляють про велику групу Чум Снів, яка наближається до міста, і пристрій заважає двигунам, ми не можемо змусити місто літати."
+				before3: "Ідіть і займіться обороною міста, наглядачу, я працюватиму над відключенням пристрою."
 			}
 			objectives: {
-				defeat-attack: "Defend your city"
+				defeat-attack: "Захистити своє місто"
 			}
 		}
 		story-dreamguard-fly: {
-			name: "Dreamguard"
+			name: "Дримгард"
 			texts: {
-				desc: "You learn about an ancient organization called the Dreamguard."
+				desc: "Ви дізнаєтеся про стародавню організацію під назвою Дримгард."
 			}
 			dialogue: {
-				before1: "It's over, but we had to destroy the device. We did manage to retrieve some information from it first."
-				before2: "We found information about a dark time for the ancients, they called it “The Nightmare Years”. It was a time when the ancients used terrible Dreamtek weapons to wage war against each other."
-				before3: "The wars ended with Twyst nearly destroyed. From what we can tell, it ended with the victory of an organization called the Dreamguard."
-				before4: "They were ruthless, and they controlled all of Twyst after they won the wars."
-				before5: "There’s no information about the origins of the Dream Plagues. Perhaps they were some kind of weapon used by the Dreamguard?"
-				before6: "Maybe if we find the remains of one of their bases, we can learn more. We have information of one in the Ashfall Range."
-				before7: "That region is hot. Too hot for our city without appropriate protection."
-				before8: "We can install a heat shield add-on in the city core, and it will protect the entire city, but we'll have to research it first."
+				before1: "Все скінчено, але нам довелося знищити пристрій. Ми встигли отримати деяку інформацію з нього перед цим."
+				before2: "Ми знайшли інформацію про темний час для древніх, вони називали його 'Роки Кошмарів'. Це був час, коли древні використовували страшну зброю Dreamtek для ведення війни один проти одного."
+				before3: "Війни закінчилися майже знищенням Твіста. Наскільки ми можемо судити, вони закінчилися перемогою організації під назвою Дримгард."
+				before4: "Вони були безжальними, і після війни контролювали весь Твіст."
+				before5: "Немає інформації про походження Чум Снів. Можливо, вони були якоюсь зброєю, використовуваною Дримгардом?"
+				before6: "Можливо, якщо ми знайдемо залишки однієї з їхніх баз, ми дізнаємося більше. У нас є інформація про одну в діапазоні Ашфолл."
+				before7: "Цей регіон гарячий. Занадто гарячий для нашого міста без відповідного захисту."
+				before8: "Ми можемо встановити теплозахисний екран у ядрі міста, і він захистить усе місто, але нам спочатку потрібно його дослідити."
 			}
 			objectives: {
-				build-heatshield: "Build a {3} in your {0}"
-				reach-lava: "Fly to region: {0}"
+				build-heatshield: "Побудувати {3} у вашому {0}"
+				reach-lava: "Перелетіти до області: {0}"
 			}
 		}
 		story-dreamguard-expedition: {
-			name: "Dreamguard Expedition"
-			expedition-name: "Abandoned Dreamguard Base"
+			name: "Експедиція Дримгард"
+			expedition-name: "Покинута база Дримгард"
 			texts: {
-				desc: "You learn about an ancient organization called the Dreamguard."
+				desc: "Ви дізнаєтеся про стародавню організацію під назвою Дримгард."
 			}
 			dialogue: {
-				before1: "The Dreamguard base is nearby. Let's send an expedition, overseer."
+				before1: "База Дримгард поруч. Давайте відправимо експедицію, наглядачу."
 			}
 			objectives: {
-				perform-expedition: "Complete expedition: {0}"
+				perform-expedition: "Завершити експедицію: {0}"
 			}
 		}
 		story-lady-doom-fly: {
-			name: "Dangerous Experiments"
+			name: "Небезпечні експерименти"
 			texts: {
-				desc: "An unusual experiment may have something to do with the appearance of the Dream Plagues"
+				desc: "Незвичайний експеримент може мати відношення до появи Чум Снів."
 			}
 			dialogue: {
-				before1: "Overseer, we’ve learned so much about the Dreamguard. We got it so wrong. They were not a conquering force at all."
-				before2: "With Twyst nearly destroyed, the nations all agreed to end the war. They signed the Dreamguard accords, agreeing to restrict the use of Dreamtek and its research. Dreamtek weapons specifically were strictly outlawed."
-				before3: "The Dreamguard was founded to uphold the accords. They were indeed ruthless in policing the use of Dreamtek, but under their peacekeeping eye, Twyst prospered."
-				before4: "Great city-states were formed, their people lived happily and freely. All military was outlawed except for the Dreamguard itself, and vast resources were put into the well-being of the people."
-				before5: "We could only dream of such peaceful and lucrative times."
-				before6: "The Dream Plagues did not exist in that period. Whatever they are, they were not created during the wars."
-				before7: "But we have another lead. Despite how good life was at the time, there was still some crime. Greed and lust for power still took hold in some people."
-				before8: "There is mention of one such criminal, a mad scientist known only as “The Lady of Doom”. She performed illegal Dreamtek experiments, and managed to evade the Dreamguard."
-				before9: "The exact nature of her experiments is unclear. But we believe it has something to do with the Dream Plagues."
-				before10: "We have the location of another facility, it should have more information about her experiments."
+				before1: "Наглядачу, ми дізналися багато про Дримгард. Ми так сильно помилялися. Вони зовсім не були завойовницькою силою."
+				before2: "Коли Твіст майже знищили, всі нації погодилися припинити війну. Вони підписали Дримгардські угоди, погодившись обмежити використання Dreamtek і його дослідження. Зокрема, зброя Dreamtek була суворо заборонена."
+				before3: "Дримгард був заснований для підтримання угод. Вони дійсно були безжальними в контролюванні використання Dreamtek, але під їхнім наглядом Твіст процвітав."
+				before4: "Були створені великі міста-держави, їхні люди жили щасливо та вільно. Вся військова сила була заборонена, окрім Дримгард, і величезні ресурси були спрямовані на добробут людей."
+				before5: "Ми могли б тільки мріяти про такі мирні та прибуткові часи."
+				before6: "Чум Снів у той період не існувало. Що б вони не були, вони не були створені під час війн."
+				before7: "Але у нас є інша зачіпка. Незважаючи на те, наскільки гарним було життя в той час, все ще були злочини. Жадібність і прагнення до влади все ще оволоділи деякими людьми."
+				before8: "Є згадка про одного такого злочинця, божевільного вченого, відомого тільки як 'Леді загибелі'. Вона виконувала незаконні експерименти з Dreamtek і втікала від Дримгард."
+				before9: "Точна природа її експериментів неясна. Але ми вважаємо, що це має якесь відношення до Чум Снів."
+				before10: "У нас є місце розташування ще одного центру, він повинен містити більше інформації про її експерименти."
 			}
 			objectives: {
-				reach-lady-doom: "Fly to another {1}-skull region or higher"
+				reach-lady-doom: "Перелетіти до іншої області з {1} черепами або вище"
 			}
 		}
 		story-lady-doom-expedition: {
-			name: "Dangerous Experiments Expedition"
-			expedition-name: "Dreamguard Base Ruins"
+			name: "Експедиція небезпечних експериментів"
+			expedition-name: "Руїни бази Дримгард"
 			texts: {
-				desc: "An unusual experiment may have something to do with the appearance of the Dream Plagues"
+				desc: "Незвичайний експеримент може мати відношення до появи Чум Снів."
 			}
 			dialogue: {
-				before1: "We're here, overseer. Let's set up the expedition and learn more about the Lady of Doom's experiments."
+				before1: "Ми тут, наглядачу. Давайте організуємо експедицію та дізнаємося більше про експерименти Леді загибелі."
 			}
 			objectives: {
-				perform-expedition: "Complete expedition: {0}"
+				perform-expedition: "Завершити експедицію: {0}"
 			}
 		}
 		story-researchshield: {
-			name: "Experimental Substances"
+			name: "Експериментальні речовини"
 			texts: {
-				desc: "You search for a long term solution to protect you from the Dream Plagues."
+				desc: "Ви шукаєте довгострокове рішення для захисту від Чум Снів."
 			}
 			dialogue: {
-				before1: "Overseer, we managed to learn more about the Lady of Doom and her experiments. She was power hungry."
-				before2: "She believed that tapping into the Dream Realm and using its Flux to alter reality was only the tip of the iceberg. If she could travel into the Dream Realm in her physical form, she would become omnipotent. The rules of nature would no longer apply, and she could do anything simply by willing it."
-				before3: "She was obsessed. She experimented under the Dreamguard’s nose, and eventually, she succeeded. She was also terribly wrong."
-				before4: "The Dream Realm is a place of pure energy. From what we can tell, her body was twisted and warped and crushed by the sheer force of that realm."
-				before5: "Stories tell that her consciousness is still trapped in the Dream Realm, in eternal agony, unable to return to our reality where her body no longer exists."
-				before6: "Overseer, that’s not all. The Dream Realm - we thought it was uninhabited. It’s not. Data from her experiment shows that when she transferred her physical body to the Dream Realm, something stirred."
-				before7: "Something, or some things, live there. And when Lady Doom performed her experiment, they became aware of us. Of our reality."
-				before8: "They have no physical body, they can’t exist in our world. But Lady Doom created a tear, a rupture between our realms. And through it, these beings can influence our world. They can possess living beings, and even inanimate objects."
-				before9: "That’s what the Dream Plagues are. They hunger to be in this physical world, but all they can do is possess physical objects. And they are hungry, always hungry, for our living bodies."
-				before10: "They started appearing all over Twyst. At first in small numbers, but for every nest that the Dreamguard destroyed, for every rift they closed, several more would appear."
-				before11: "The Dreamguard was overwhelmed. The city-states fell. Twyst itself was changing, warping, and it became the dark place that we know today."
-				before12: "Overseer, I’m not sure what we should do. The city, it’s harming the world. Such a vast amount of Dreamtek in one place, it weakens the veil between the realms, it widens the tear. But it’s also our only hope to survive."
-				before13: "The Dreamguard experimented with another substance. A sort of anti-dream substance, some kind of opposing force to the Dream Realm’s Flux. They hoped it would help fight against the Dream Plagues."
-				before14: "Let’s try to find out more about it."
+				before1: "Наглядачу, ми дізналися більше про Леді загибелі та її експерименти. Вона була одержима владою."
+				before2: "Вона вважала, що використання Сновидіння та його Флюксу для зміни реальності - це лише верхівка айсберга. Якби вона змогла фізично потрапити до Сновидіння, вона б стала всемогутньою. Правила природи більше не діяли б, і вона могла б робити що завгодно просто завдяки своїй волі."
+				before3: "Вона була одержима. Вона експериментувала під носом Дримгард і врешті-решт досягла успіху. Але вона також жахливо помилилася."
+				before4: "Сновидіння - це місце чистої енергії. Наскільки ми можемо судити, її тіло було скручене, деформоване і розчавлене величезною силою того світу."
+				before5: "Історії розповідають, що її свідомість досі застрягла у Сновидінні, у вічній агонії, нездатна повернутися до нашої реальності, де її тіло більше не існує."
+				before6: "Наглядачу, це не все. Сновидіння - ми вважали, що воно безлюдне. Це не так. Дані з її експерименту показують, що коли вона перенесла своє фізичне тіло до Сновидіння, щось пробудилося."
+				before7: "Щось, або кілька речей, живуть там. І коли Леді загибелі виконала свій експеримент, вони стали усвідомлювати нас. Наша реальність."
+				before8: "У них немає фізичного тіла, вони не можуть існувати в нашому світі. Але Леді загибелі створила розрив, розкол між нашими світами. І через нього ці істоти можуть впливати на наш світ. Вони можуть вселятися в живі істоти та навіть неживі предмети."
+				before9: "Ось що таке Чуми Снів. Вони жадають бути в цьому фізичному світі, але все, що вони можуть зробити, це вселитися у фізичні об'єкти. І вони завжди голодні, голодні за нашими живими тілами."
+				before10: "Вони почали з'являтися по всьому Твісту. Спочатку в невеликій кількості, але за кожне гніздо, яке знищував Дримгард, за кожен розлом, який вони закривали, з'являлося кілька нових."
+				before11: "Дримгард був перевантажений. Міста-держави падали. Твіст сам змінювався, деформувався, і він став тим темним місцем, яке ми знаємо сьогодні."
+				before12: "Наглядачу, я не впевнений, що нам робити. Місто, воно шкодить світу. Така велика кількість Dreamtek в одному місці послаблює завісу між світами, розширює розрив. Але це також наша єдина надія на виживання."
+				before13: "Дримгард експериментував з іншою речовиною. Своєрідною антисновидінням, якимось протилежним силовим потоком до Флюксу Сновидіння. Вони сподівалися, що це допоможе боротися з Чумами Снів."
+				before14: "Давайте спробуємо дізнатися більше про це."
 			}
 			objectives: {
-				perform-research: "Research: {0}"
+				perform-research: "Дослідити: {0}"
 			}
 		}
 		story-buildshield: {
-			name: "The Price of Survival"
+			name: "Ціна виживання"
 			texts: {
-				desc: "You search for a long term solution to protect you from the Dream Plagues."
+				desc: "Ви шукаєте довгострокове рішення для захисту від Чум Снів."
 			}
 			dialogue: {
-				before1: "Overseer, we’ve done it. We found a way to create a steady stream of the anti-dream substance."
-				before2: "We can build a sort of Nullifier Shield. The ancients could never build it, whenever they experimented with the anti-dream, the Dream Plagues would destroy their research."
-				before3: "But we have the city, we can stay on the move. We can finish what they started, but it will require substantial resources and materials that are not easy to find."
-				before4: "There’s a caveat, overseer. The shield, it can protect us from the Dream Plagues. They won’t be able to affect reality within it, the things they possess will become lifeless husks."
-				before5: "But none of our Dreamtek would work either. Flux will become inert. We’ll survive, but we’ll be stuck here."
-				before6: "It’s your decision overseer. We can keep flying forever, fighting against an increasing number of Dream Plagues, or you can build and activate the Nullifier Shield."
-				before7: "If you choose to build the shield, remember that it will take quite a while to fully charge, and during that time it will attract a lot of Dream Plagues."
-				before8: "We can escape the attack to a less dangerous area, but the shield is very heavy and the engines will also require some time to cool down afterwards before we could fly again. Our defenses will be put to the test."
+				before1: "Наглядачу, ми зробили це. Ми знайшли спосіб створити постійний потік антисновидіння."
+				before2: "Ми можемо побудувати своєрідний Нульовий щит. Древні ніколи не змогли його побудувати, кожен раз, коли вони експериментували з антисновидінням, Чуми Снів знищували їхні дослідження."
+				before3: "Але у нас є місто, ми можемо залишатися в русі. Ми можемо завершити те, що вони почали, але це вимагатиме значних ресурсів і матеріалів, які нелегко знайти."
+				before4: "Є одне застереження, наглядачу. Щит, він може захистити нас від Чум Снів. Вони не зможуть впливати на реальність у ньому, речі, які вони вселяють, стануть безжиттєвими оболонками."
+				before5: "Але жоден з наших пристроїв Dreamtek також не працюватиме. Флюкс стане інертним. Ми виживемо, але будемо застряглими тут."
+				before6: "Це ваше рішення, наглядачу. Ми можемо літати вічно, борючись зі зростаючою кількістю Чум Снів, або ви можете побудувати та активувати Нульовий щит."
+				before7: "Якщо ви вирішите побудувати щит, пам'ятайте, що його зарядка займе деякий час, і під час цього часу він приваблюватиме багато Чум Снів."
+				before8: "Ми можемо втекти від атаки до менш небезпечної області, але щит дуже важкий, і двигуни також потребуватимуть деякого часу на охолодження після цього, перш ніж ми зможемо знову літати. Наші оборонні споруди будуть перевірені на міцність."
 			}
 			objectives: {
-				build-shield: "Build: {0}"
-				activate-shield: "Survive until it is fully charged."
+				build-shield: "Побудувати: {0}"
+				activate-shield: "Вижити, поки він повністю не зарядиться."
 			}
 		}
 	}
 
 	events: {
 		mechdestroyed: {
-			title: "Emergency Teleport"
-			text: "Tiny has suffered critical structural damage, emergency recall teleporter has been activated, but at a cost.\n\n* <highlight>{0} flux</highlight> have been consumed.\n* The enemy <highlight>threat timer</highlight> has advanced significantly.\n\nPlease be more careful."
+			title: "Аварійна телепортація"
+			text: "Тіні зазнав критичних структурних пошкоджень, активовано аварійний телепорт для повернення, але за певну ціну.\n\n* <highlight>{0} флюксу</highlight> було використано.\n* Таймер <highlight>загрози ворогів</highlight> значно просунувся вперед.\n\nБудьте обережнішими."
 		}
 		tutorial-reward: {
-			title: "Objective complete"
-			text: "Well done. You receive the following rewards:"
+			title: "Завдання виконано"
+			text: "Чудово. Ви отримуєте такі винагороди:"
 		}
 	}
 
 	modding: {
 		"visibility-option": {
-			Public: "Public"
-			Friends: "Friends Only"
-			Private: "Private"
+			Public: "Публічний"
+			Friends: "Тільки для друзів"
+			Private: "Приватний"
 		}
-
-		license-required: "You must accept the Steam Workshop license agreement before you can publicly share the mod."
-		edit-title: "Mod Metadata"
-		enter-patch-notes: "Enter Patch Notes"
-		untitled: "Untitled"
-
-		creator: "Creator Name"
+	
+		license-required: "Ви повинні прийняти ліцензійну угоду Steam Workshop, перш ніж зможете публічно поділитися модом."
+		edit-title: "Метадані мода"
+		enter-patch-notes: "Введіть примітки до патча"
+		untitled: "Без назви"
+	
+		creator: "Ім'я творця"
 		uid: "UID"
-		visibility: "Visibility"
-		tags: "Tags"
-
-		uploading: "Uploading..."
-		upload-complete: "Item updated on Steam."
-		saved: "All changes saved."
-
-		steam-not-initialized: "Steam not initialized."
-		io-error: "IO error: {0}"
-		error: "Error: {0} - {1}"
-
-		missing-preview: "Missing preview image."
-		wrong-title-size: "Mod title should be between 5 and 128 characters."
-		wrong-desc-size: "Description should be between 30 and 6000 characters."
-		wrong-tag-size: "Tags must be between 4 and 32 characters."
-		wrong-creator-size: "Creator name must be between 4 and 32 characters."
-		missing-tags: "Please enter at least one tag."
+		visibility: "Видимість"
+		tags: "Теги"
+	
+		uploading: "Завантаження..."
+		upload-complete: "Елемент оновлено в Steam."
+		saved: "Всі зміни збережено."
+	
+		steam-not-initialized: "Steam не ініціалізовано."
+		io-error: "Помилка вводу-виводу: {0}"
+		error: "Помилка: {0} - {1}"
+	
+		missing-preview: "Відсутнє прев'ю зображення."
+		wrong-title-size: "Назва мода повинна бути від 5 до 128 символів."
+		wrong-desc-size: "Опис має бути від 30 до 6000 символів."
+		wrong-tag-size: "Теги повинні бути від 4 до 32 символів."
+		wrong-creator-size: "Ім'я творця повинно бути від 4 до 32 символів."
+		missing-tags: "Будь ласка, введіть принаймні один тег."
 	}
 
 	roadmap: {
-		active-pause: "Active pause"
-		alter-recipes: "Collectable Recipes"
+		active-pause: "Активна пауза"
+		alter-recipes: "Збиральні рецепти"
 	}
 }
