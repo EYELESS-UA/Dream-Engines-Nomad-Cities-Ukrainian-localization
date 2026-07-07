@@ -1,6 +1,6 @@
 # Українізатор Dream Engines: Nomad Cities
 
-![Статус проекту](https://img.shields.io/badge/Статус-В_розробці-orange?style=flat-square)
+![Статус проекту](https://img.shields.io/badge/Статус-готово-brightgreen?style=flat-square)
 [![Платформа LBK](https://img.shields.io/badge/Платформа-LBK_Launcher-blue?style=flat-square)](https://lbklauncher.com)
 ![GitHub Pull Requests](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)
 ![Відкриті Issues](https://img.shields.io/github/issues/EYELESS-UA/Dream-Engines-Nomad-Cities-Ukrainian-Localization?style=flat-square)
@@ -23,7 +23,7 @@
 2. Переконайтеся, що модифікацію активовано у менеджері модів або налаштуваннях самої гри.
 
 ### Варіант 2: Встановлення вручну (З файлів GitHub) ⚙️
-1. Перейдіть у розділ **[Releases](посилання)** та завантажте актуальний архів.
+1. Перейдіть у розділ **[Releases](https://github.com/EYELESS-UA/Dream-Engines-Nomad-Cities-Ukrainian-localization/releases)** та завантажте актуальний архів.
 2. Розпакуйте вміст архіву у директорію модів гри:
    * *Шлях для Steam:* `...\Steam\steamapps\common\Dream Engines Nomad Cities\Modding\Mods`.
 
