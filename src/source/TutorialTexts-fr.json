@@ -1,0 +1,502 @@
+{
+	missions: {
+		welcome-no-tut: {
+			name: "Bienvenue"
+			desc: "Bienvenue dans Dream Engines. Le didacticiel est désactivé, mais les <highlight>étapes</highlight> dans le coin supérieur droit de l'écran sont là pour vous guider. Passez la souris sur une étape pour en apprendre plus.\n\nN'oubliez pas : appuyez sur <highlight>« Tab »</highlight> pour alterner entre le mode Combat et le mode Gestion de ville."
+		}
+		welcome-pre-fortifications-save: {
+			name: "Changements critiques depuis votre dernière sauvegarde"
+			desc: "Bienvenue de nouveau dans Dream Engines. Nous avons lancé une nouvelle mise à jour depuis votre dernière sauvegarde. Cette mise à jour inclut des modifications des raids ennemis qui pourraient engendrer <highlight>votre mort</highlight> si vous les <highlight>ignorez</highlight>. Voici quelques-unes des modifications les plus importantes :\n\n* Désormais, lors des raids, les ennemis <highlight>ignorent les murs</highlight> sauf s'ils leur bloquent la route. Les murs sont également plus solides.\n\n* Occasionnellement, les ennemis errants <highlight>attaquent votre ville</highlight> et vos bâtiments <highlight>sans avertissement</highlight>. Ces ennemis sont nettement plus faibles que ceux des raids, mais vous devez vous assurer que tous vos bâtiments sont bien défendus.\n\n* Les ennemis de palier 2 et plus sont désormais <highlight>blindés</highlight>. Les tourelles en bois et les arbalètes légères leur <highlight>infligent moitié moins de dégâts</highlight>. Il pourrait donc être intéressant de remplacer vos tourelles par des versions plus avancées.\n\n* Des <highlight>murs et des tourelles en pierre</highlight> sont à présent disponibles dans le jeu."
+		}
+		welcome: {
+			name: "Bienvenue"
+			texts: {
+				desc: "Bienvenue dans Dream Engines. Ce <highlight>didacticiel</highlight> vous apprendra les commandes de base du jeu.\n\nIl ne s'agit que d'un guide, et le jeu ne sera pas affecté. Vous pouvez donc perdre si votre ville est détruite pendant le didacticiel."
+				desc2: "Suivez les instructions <highlight>en haut à droite</highlight> de l'écran."
+			}
+		}
+		images: {
+			name: "Navigation dans le didacticiel"
+			texts: {
+				intro: "Certains messages du didacticiel, comme celui-ci, comprennent des guides visuels qui prennent la forme de vidéos ou d'images. Survolez l'icône de vidéo avec la souris pour la visionner."
+				previous: "Vous pouvez revoir tous les didacticiels précédents dans le journal. Pour cela, appuyez sur la touche F1 ou sélectionnez le bouton d'aide dans le menu du jeu (touche Échap)."
+				pause: "Vous pouvez également mettre le jeu en pause et prendre le temps de lire les messages du didacticiel. Appuyez sur la barre d'espace à tout moment pour mettre en pause ou reprendre."
+			}
+			objectives: {
+				hover-video: "Survolez l'icône de la vidéo ci-dessus"
+				unpause: "Mettez le jeu en pause et reprenez"
+			}
+		}
+		movement: {
+			name: "Mouvement"
+			texts: {
+				intro: "En tant que superviseur, vous contrôlez <highlight>Mini</highlight>, une ancienne unité d'exploration blindée."
+				move: "Utilisez les touches <highlight>WASD</highlight> pour vous déplacer. Mini fera toujours face au curseur."
+				zoom: "Utilisez la <highlight>molette de la souris</highlight> pour zoomer et dézoomer."
+				rotate: "Maintenez le <highlight>bouton central de la souris</highlight> et déplacez-la pour faire pivoter votre caméra."
+			}
+			objectives: {
+				movemech: "Déplacez-vous"
+				movemech-hover: "En tant que superviseur, vous contrôlez <highlight>Mini</highlight>, une ancienne unité d'exploration blindée.\n\nUtilisez les touches <highlight>WASD</highlight> pour vous déplacer. Mini fera toujours face au curseur."
+				zoom: "Changez de zoom"
+				zoom-hover: "Utilisez la <highlight>molette de la souris</highlight> pour zoomer et dézoomer."
+				rotate: "Faites pivoter la caméra"
+				rotate-hover: "Maintenez le <highlight>bouton central de la souris</highlight> et déplacez-la pour faire pivoter votre caméra.\n\nVous pouvez appuyer sur <highlight>« N »</highlight> pour réinitialiser la vue."
+			}
+		}
+		switch-to-mgmt-mode: {
+			name: "Combat & Management Modes"
+			texts: {
+				combat-mode: "<highlight>Le mode Combat</highlight> sert à explorer la carte et à combattre vos ennemis."
+				mgmt-mode: "<highlight>Le mode Gestion</highlight> sert à construire et à gérer votre ville.\n"
+				switch: "Appuyez sur la <highlight>Tab</highlight> pour alterner entre les modes et passez en mode Gestion."
+			}
+			objectives: {
+				management-mode: "Passez en mode Gestion"
+			}
+		}
+		build-houses: {
+			name: "Construisez"
+			texts: {
+				intro: "Pour augmenter la population de votre ville, vous devez <highlight>construire des maisons</highlight> où vivront les ouvriers."
+				build: "Sélectionnez le bouton <highlight>« Maison »</highlight> et appuyez ensuite sur la carte pour placer 2 exemplaires du bâtiment."
+			}
+			objectives: {
+				buildhouses: "Construisez {0} x{1}"
+			}
+		}
+		build-rails: {
+			name: "Livraison automatique"
+			texts: {
+				intro: "Les maisons doivent être constamment approvisionnées en nourriture. Dans Dream Engines, le transport des ressources est assuré par un <highlight>réseau ferroviaire automatisé</highlight> qui fonctionne comme des tapis roulants."
+				build: "Pour construire des rails, sélectionnez-les dans la catégorie Infrastructure, puis cliquez et faites glisser la souris dans la direction que prendront les ressources."
+				access-points: "Les bâtiments envoient ou reçoivent les ressources à l'aide de points d'accès. Faites glisser des rails vers ou depuis un bâtiment pour créer des entrées ou des sorties."
+			}
+			objectives: {
+				sendfood: "Construisez une sortie pour envoyer de la nourriture depuis le cœur de la ville"
+				connect-houses: "Créez des entrées pour les maisons"
+				housesactive: "Reliez les rails et livrez de la nourriture aux deux maisons"
+			}
+		}
+		equip-repairkit: {
+			name: "Inventaire et équipement"
+			texts: {
+				intro: "Préparez-vous ensuite à explorer les alentours de la ville. <highlight>Équipez-vous</highlight> de <highlight>kits de réparation</highlight> au cas où Mini subirait des dégâts."
+				grab: "Les kits de réparation sont dans le cœur de la ville. Pour ouvrir la fenêtre du bâtiment, faites un <highlight>clic gauche</highlight> dessus en <highlight>mode Gestion</highlight>."
+				equip: "Assignez ensuite le kit de réparation à un emplacement rapide. Appuyez sur <highlight>« I »</highlight> pour ouvrir la fenêtre de personnage."
+			}
+			objectives: {
+				collectrepairkit: "Prenez {0} x{1} dans la réserve du cœur de la ville"
+				equiprepairkit: "Ajoutez {0} à la barre d'accès rapide"
+			}
+		}
+		grab-items: {
+			name: "Prenez des objets"
+			texts: {
+				grab: "Voici la fenêtre du bâtiment. Vous pouvez voir l'inventaire de Mini sur la gauche, et la réserve du bâtiment et autres informations sur la droite.\n\nMaintenez <highlight>« MAJ »</highlight> et <highlight>cliquez</highlight> sur l'icône du <highlight>kit de réparation</highlight> pour prendre toute la pile."
+			}
+		}
+		quickbar: {
+			name: "Assignez un objet à la barre d'accès rapide"
+			texts: {
+				assign: "Cliquez sur un des <highlight>emplacements vides de la barre d'accès rapide</highlight> dans la zone du personnage et choisissez l'objet à assigner.\n\nUne fois assigné, vous pouvez appuyer sur le raccourci correspondant en mode Combat pour utiliser cet objet."
+			}
+		}
+		tiny-combat: {
+			name: "Rêves plaies combattants"
+			texts: {
+				intro: "Lors de ses explorations, Mini découvrira des rêves plaies (ou rêvplaies). Face à ces créatures hostiles, Mini peut se défendre à l'aide des armes remplaçables équipées, à savoir une arme à distance et une arme de mêlée."
+				attack: "Utilisez le <highlight>bouton gauche de la souris</highlight> pour que Mini effectue une <highlight>attaque en mêlée</highlight>. Utilisez le <highlight>bouton droit de la souris</highlight> pour que Mini tire avec son <highlight>arbalète</highlight>."
+				tips: "Appuyez et maintenez le bouton pour attaquer continuellement."
+			}
+			objectives: {
+				combatmode: "Passez en mode Combat"
+				meleeattack: "Attaquez avec une arme de mêlée"
+				rangedattack: "Attaquez avec une arme à distance"
+			}
+		}
+		collect-bloodwood: {
+			name: "Récolteurs"
+			texts: {
+				intro: "Le moment est venu de trouver des ressources. Explorez la zone périphérique indiquée sur votre mini-carte à la recherche d'un nœud de ressources donnant de l'<highlight>hémoglobois</highlight>."
+				build: "Construisez un récolteur - Passez en mode Gestion, <highlight>cliquez sur la ressource</highlight> pour ouvrir sa fenêtre, puis cliquez sur le bouton <highlight>Bûcheron d'hémoglobois</highlight>."
+			}
+			objectives: {
+				findwood: "Trouvez une parcelle d'hémoglobois"
+				gatherwood: "Construisez un {0}"
+			}
+		}
+		build-warper: {
+			name: "Production"
+			texts: {
+				intro: "Vous collectez à présent des bûches, mais avant de pouvoir les utiliser, vous devrez les transformer en <highlight>planches</highlight> et les transférer à la <highlight>réserve</highlight>. Les bûches et la majorité des autres matières premières ne peuvent être transportées avec vous lorsque vous vous envolez, mais les matériaux transformés le peuvent."
+				buildwoodwarper: "Les planches sont produites à partir de bûches dans votre <highlight>Distordeur de bois</highlight>. Vous devez avoir Distordeur de bois dans votre <highlight>zone alimentée</highlight>, il vaut donc mieux construire près de la ville."
+				freecamera: "En mode Gestion, appuyez sur « Espace » pour mettre le jeu en pause, et « F » pour activer la caméra libre. Vous pouvez ensuite construire partout sur la carte sans avoir à déplacer Mini lorsque le jeu est en pause."
+			}
+			objectives: {
+				buildwoodwarper: "Construisez {0} x{1} et approvisionnez-les en bûches"
+			}
+		}
+		speedup: {
+			name: "Accélération"
+			texts: {
+				sendplanks: "À présent, construisez des rails pour envoyer des planches depuis vos distordeurs de bois jusqu'au cœur de la ville afin de les stocker, et attendez que des planches soient produites."
+				speedup: "Vous pouvez accélérer le jeu en attendant la livraison des planches. Appuyez et maintenez le bouton d'accélération (« + », par défaut) après avoir construit les rails."
+			}
+			objectives: {
+				haveplanks: "Collectez {0} x{1}"
+			}
+		}
+		city-level1: {
+			name: "Niveau de la ville"
+			texts: {
+				nodes: "En explorant, gardez l'œil ouvert sur les éventuels nœuds de ressources. Une fois qu'un nœud est épuisé, sa vitesse de production sera réduite et il vous faudra peut-être connecter plusieurs nœuds."
+				increase-pop: "À présent, <highlight>augmentez le niveau de population de votre ville</highlight> pour débloquer plus de bâtiments."
+			}
+			objectives: {
+				build-houses: "Approvisionnez 3 maisons en nourriture"
+				city-level1: "Atteignez une population de {1}"
+			}
+		}
+		craft-repairkit: {
+			name: "Fabrication"
+			texts: {
+				intro: "Afin de mieux explorer, collecter et défendre votre ville, vous aurez besoin de meilleur <highlight>équipement</highlight>. Avant de fabriquer de nouvelles armes ou armures, vous devrez effectuer des recherches (nous y reviendrons), mais vous pouvez déjà <highlight>fabriquer d'autres kits de réparation</highlight>."
+				craft: "Appuyez sur <highlight>« C »</highlight> pour ouvrir la fenêtre de fabrication, puis sélectionnez le <highlight>Kit de réparation improvisé</highlight> et cliquez sur le bouton <highlight>Fabriquer</highlight>. Vous pourriez avoir besoin de plus de planches."
+			}
+			objectives: {
+				craftrepairkit: "Fabriquez 1 {0}"
+			}
+		}
+		produce-food-farms: {
+			name: "Production de nourriture - Récolte"
+			texts: {
+				farms: "Vous devriez ensuite vous occuper de vos réserves de nourriture, elles ne dureront pas éternellement. Pour produire de la nourriture, vous devez d'abord faire pousser des aliments. Quelques <highlight>Ferme de pourpratates</highlight> feront l'affaire. Vous les trouverez dans la catégorie <highlight>« Collecte »</highlight>."
+				tesla: "Vous pouvez agrandir votre zone alimentée en construisant des <highlight>tours tesla</highlight> dans la catégorie Énergie."
+			}
+			objectives: {
+				buildtesla: "Construisez {0} x{1}"
+				buildfarm: "Construisez {0} x{1} près de la ville"
+			}
+		}
+		produce-food-process: {
+			name: "Production de nourriture - Transformation"
+			texts: {
+				intro: "Construisez à présent 1 <highlight>Usine alimentaire</highlight> et installez des rails pour transporter <highlight>des pourpratates depuis la ferme</highlight>. Puis envoyez la nourriture produite à la réserve <highlight>du cœur de la ville</highlight>."
+				more-food: "Au fur et à mesure que votre population augmente, vous devrez produire plus de nourriture et vous pouvez construire plus de fermes pour que la Usine alimentaire soit pleinement efficace. \nVous pouvez voir les quantités fournies et produites par cycles depuis l'interface de production lorsque vous interagissez avec les bâtiments."
+			}
+			objectives: {
+				buildfoodplant: "Construisez : {0}"
+				producefood: "Approvisionnez en pourpratates : {0}"
+				sendfood: "Envoyez de la nourriture vers la réserve"
+			}
+		}
+		power-flux: {
+			name: "Énergie et flux"
+			texts: {
+				intro: "Il vous faudra plus que du bois et de la nourriture pour que votre ville continue de fonctionner. Vous devrez aussi produire de l'<highlight>énergie</highlight> et du <highlight>flux</highlight>."
+				buildflux: "Les maisons produisent du flux, mais ce n'est pas suffisant. Votre <highlight>Bacs à flux</highlight> peut produire du flux et ne nécessite pas de nourriture. Construisez-en <highlight>hors de votre ville</highlight>. La recette de production la plus basique ne nécessite pas de matières premières, donc leur emplacement n'est pas important."
+				buildpower: "<highlight>L'énergie</highlight> n'est pas nécessaire à la construction de nouveaux bâtiments, mais elle est essentielle pour faire fonctionner ceux déjà construits. Assurez-vous que votre production d'énergie est toujours positive. Vous pouvez produire de l'énergie dans votre <highlight>Générateur d'énergie</highlight>. Comme pour le flux, sa recette la plus basique ne nécessite pas de matières premières, mais ces bâtiments ne peuvent être construits trop proches les uns des autres."
+			}
+			objectives: {
+				buildflux: "Construisez {0} x{1} près de la ville"
+				buildpower: "Construisez {0} x{1} près de la ville"
+			}
+		}
+		move-objects: {
+			name: "Gestion de la ville"
+			texts: {
+				intro: "Vous pourrez bientôt explorer la ville librement. Avant cela, vous devez comprendre le concept de <highlight>construction à l'intérieur</highlight> ou <highlight>à l'extérieur</highlight> de la ville."
+				flying: "Comme votre ville peut <highlight>voler</highlight>, il y a des avantages à construire en ville : vous pouvez <highlight>emporter ces bâtiments avec vous</highlight>. Cependant, l'espace est limité et même si vous pourrez agrandir votre ville et son poids maximal par la suite, vous devrez choisir quoi construire en priorité. La plupart des bâtiments de base sont bon marché et prennent beaucoup de place, il vaut donc mieux les construire en dehors de la ville, et les recycler avant de partir."
+				longrun: "Sur le long terme cependant, il faudra <highlight>que vous emportiez une part de plus en plus importante de votre industrie avec vous lorsque vous vous envolez</highlight>. Vous devriez donc construire des bâtiments plus chers, ou <highlight>des versions améliorées</highlight> des bâtiments de base à l'intérieur de la ville."
+				moving: "Heureusement, la majorité de ces bâtiments sont construits de façon à pouvoir être facilement <highlight>déplacés</highlight>. Appuyez sur <highlight>« M »</highlight> en mode Gestion et <highlight>déplacez n'importe quel bâtiment</highlight>."
+			}
+			objectives: {
+				movebuilding: "Déplacez un bâtiment"
+			}
+		}
+		tutorial-end: {
+			name: "Fin du didacticiel"
+			texts: {
+				end1: "Bien joué ! C'est la fin du didacticiel. Ce ne sont que les <highlight>commandes de base</highlight>, mais il est temps pour vous de vous lancer. D'autres fonctionnalités telles que les recherches, les améliorations d'infrastructures et les récolteurs automatisés vous seront expliqués lorsque vous les rencontrerez."
+				end2: "Votre premier objectif devrait être d'<highlight>augmenter votre population</highlight> pour débloquer le <highlight>laboratoire de recherche</highlight>. Votre but dans cette le jeu est de trouver un moyen d'établir une colonie permanente."
+				end3: "<highlight>Collectez</highlight> autant de <highlight>ressources</highlight> que vous pouvez en <highlight>transformer</highlight> et préparez-vous à fuir avant que les rêves plaies ne submergent vos défenses."
+				end4: "Si vous avez des commentaires, n'hésitez pas à utiliser le bouton « Envoyer un retour » ou à rejoindre notre Discord (lien dans l'écran titre). Amusez-vous bien !"
+			}
+		}
+		researchlab-unlocked: {
+			name: "Laboratoires de recherche"
+			texts: {
+				build: "Votre population vous permet à présent de construire des <highlight>laboratoires de recherche</highlight>. Utilisez-les pour rechercher des technologies et débloquer de nouveaux bâtiments, des améliorations et d'autres bonus."
+				research: "Appuyez sur <highlight>« R »</highlight> pour ouvrir <highlight>l'écran de recherche</highlight> et sélectionner les technologies à rechercher."
+				materials: "Pour que les laboratoires produisent de la connaissance, assurez-vous de <highlight>régulièrement leur fournir les matériaux requis</highlight> comme indiqué dans votre widget de production lorsque vous interagissez avec le laboratoire."
+			}
+			objectives: {
+				buildlab: "Construisez: {0}"
+				research-selected: "Sélectionnez une technologie à rechercher"
+				activatelab: "Approvisionner {0} en ressources"
+			}
+		}
+		research-screen: {
+			name: "Écran de recherche"
+			texts: {
+				desc: "Cet écran vous permet de planifier vos recherches. Chaque sujet a un coût en <highlight>points de connaissance</highlight>, et des éléments qui se débloquent en terminant cette recherche.\n\nSurvolez ces éléments avec la souris pour en apprendre plus sur eux."
+				desc2: "<highlight>Cliquez</highlight> sur un sujet de recherche pour définir un objectif. <highlight>Maj + clic</highlight> pour ajouter des sujets supplémentaires à la fin de la file d'attente. Une fois un objectif de recherche sélectionné, les laboratoires produiront de la connaissance. Les points de connaissance seront assignés au premier sujet de la file d'attente jusqu'à ce qu'il soit terminé."
+			}
+		}
+		expand-city: {
+			name: "Agrandissement"
+			texts: {
+				desc: "Vous pouvez à présent agrandir votre ville pour faire davantage de place pour vos logements et bâtiments de production."
+				desc2: "Sélectionnez <highlight>« Agrandissement de la ville »</highlight> depuis la catégorie <highlight>« Infrastructure »</highlight> du <highlight>menu de construction</highlight>, puis choisissez l'agrandissement que vous voulez acheter sur la carte."
+			}
+		}
+		missing-workers: {
+			name: "Ouvriers"
+			texts: {
+				desc: "Vous n'avez pas assez d'ouvriers pour tous vos bâtiments. Votre population sert également d'ouvriers pour votre ville et son industrie. <highlight>Les ouvriers sont créés dans le cœur de la ville</highlight>, mais seulement si vous avez des <highlight>maisons</highlight> disponibles."
+				desc2: "Pour augmenter votre population maximale, <highlight>construisez et améliorez des maisons</highlight> et assurez-vous qu'elles ont un <highlight>approvisionnement constant en nourriture</highlight>. Les maisons <highlight>sans énergie ni nourriture</highlight> ne fourniront pas d'espace de logement."
+			}
+		}
+		mini-raids: {
+			name: "Rêves plaies errants"
+			texts: {
+				desc: "Tant que votre ville est au sol, elle est vulnérable. La plupart des rêves plaies sont inactifs à moins que vous ne vous en approchiez, mais parfois de petits groupes errent à proximité de votre ville <highlight>et attaquent sans prévenir</highlight>."
+				desc2: "Mini peut facilement venir à bout de ces groupes réduits. En revanche, vous ne pouvez pas être partout à la fois et ces créatures pourraient rapidement détruire les bâtiments exposés. Pour éviter cette situation, fermez toutes les entrées de votre ville avec <highlight>des murs et des portes</highlight> et protégez-les avec des <highlight>tourelles</highlight>."
+			}
+			objectives: {
+				build-turret: "Construisez {0} x{1}"
+				build-wall: "Construisez {0} x{1}"
+			}
+		}
+		attack-warning: {
+			name: "Raids de rêvplaies"
+			texts: {
+				desc: "Tant que la ville est au sol, elle continuera d'attirer de grands groupes de rêvplaies qui tenteront de la détruire. Les <highlight>rêvplaies dans les raids</highlight> sont plus dangereux que ceux qui errent et ils attaquent en plusieurs vagues."
+				desc2: "Vous pouvez <highlight>surveiller le raid sur la mini-carte</highlight> et il est fortement recommandé de construire des défenses et de protéger vos bâtiments dans la direction du raid.\n\nLes <highlight>tourelles</highlight> offrent de la puissance de feu, mais ne peuvent subir beaucoup de dégâts, alors n'oubliez pas de construire des <highlight>murs</highlight>."
+				desc3: "Les tourelles en bois tirent lentement, mais infligent des <highlight>dégâts explosifs de zone</highlight>. Elles sont idéales contre les ennemis faibles et rassemblés, mais auront du mal contre les ennemis plus forts.\n\nVous pouvez également déplacer les tourelles en réorganisant votre ville, mais seulement tant qu'il n'y a pas de raid actif ou en approche."
+			}
+		}
+		taking-off: {
+			name: "Décollage"
+			texts: {
+				desc: "Tant que votre ville restera au sol, les raids des rêvplaies seront de plus en plus agressifs. Vous pouvez voir le <highlight>niveau de menace</highlight> actuel dans votre ATH."
+				desc2: "Lorsqu'ils deviennent trop difficiles pour vous, vous devriez vous envoler et trouver un endroit plus calme où vous poser. <highlight>Cliquez sur le bouton de décollage</highlight> dans l'ATH pour commencer le décollage. Le <highlight>décollage prend du temps</highlight>, car les moteurs doivent chauffer, <highlight>ne vous y prenez donc pas trop tard</highlight> où vous servirez de nourriture aux rêvplaies."
+				desc3: "N'oubliez pas que vous ne pouvez emporter que les bâtiments en ville, pensez donc à recycler ceux à l'extérieur pour récupérer des ressources ou déplacez-les à l'intérieur de votre ville si vous avez assez de place et de capacité."
+				desc4: "De plus, les matières premières non transformées telles que les bûches sont trop lourdes à transporter et seront abandonnées. Transformez-en autant que possible avant le départ. Et assurez-vous que Mini est en ville avant la fin du compte à rebours !"
+			}
+		}
+		infrastructure-upgrades: {
+			name: "Améliorations d'infrastructure"
+			texts: {
+				desc: "Vous pouvez à présent construire un atelier qui produit des matériaux pour <highlight>améliorer votre infrastructure</highlight>. Les améliorations d'infrastructures confèrent des bonus et compétences permanents."
+				desc2: "Appuyez sur <highlight>« K »</highlight> pour ouvrir la fenêtre d'infrastructure et en apprendre plus sur ces améliorations."
+			}
+			objectives: {
+				produce-parts: "Produisez {0} x {1}"
+				purchase-upgrade: "Achetez une amélioration d'infrastructure"
+			}
+		}
+		infrastructure-window: {
+			name: "Fenêtre d'infrastructure"
+			texts: {
+				desc: "Voici la fenêtre d'infrastructure. Ici, vous pouvez utiliser des <highlight>matériaux d'amélioration</highlight> pour améliorer votre infrastructure et obtenir des avantages permanents."
+				desc2: "Cliquez sur le bouton <highlight>Améliorer</highlight> pour acheter des points d'amélioration. Vous pouvez ensuite cliquer sur les différentes <highlight>zones</highlight> de votre infrastructure pour les améliorer. Chaque niveau d'une zone d'infrastructure fournit des bonus passifs.\n\nUne fois une zone améliorée, vous pouvez allouer des points supplémentaires à des <highlight>avantages</highlight> spéciaux de ces différentes zones. Ils offrent des bonus et compétences plus spécialisés."
+			}
+		}
+		multiple-productions: {
+			name: "Changer de production"
+			texts: {
+				desc: "Certains bâtiments peuvent produire plusieurs recettes après les avoir débloquées.\n\n<highlight>Cliquez sur le nom de la recette de production</highlight> pour en choisir une autre."
+				desc2: "Certaines recettes nécessitent la construction d'extensions avant de pouvoir être produites dans ce bâtiment."
+			}
+		}
+		rail-crossing: {
+			name: "Passage à niveau"
+			texts: {
+				desc: "Les passages à niveau utilisent la technologie d'espace zéro de façon à permettre à deux sections de rails de se traverser sans provoquer d'embouteillage."
+				desc2: "Faites glisser pour construire une section de rails de façon à ce qu'elle traverse une autre section de rails afin de créer automatiquement un passage à niveau."
+			}
+			objectives: {
+				build-crossing: "Construisez un passage à niveau"
+			}
+		}
+		drep-crafting: {
+			name: "Transformation de rêvplaie"
+			texts: {
+				desc: "Vous avez recherché une technologie permettant de transformer les restes de rêves plaies en de précieuses ressources. Utilisez l'onglet « Ressources » de la fenêtre de fabrication."
+			}
+			objectives: {
+				craft: "Transformez des restes de rêvplaies"
+			}
+		}
+		splitter-unlocked: {
+			name: "Trieurs"
+			texts: {
+				desc: "La recherche des Trieurs est terminée. Ces appareils peuvent être placés sur les rails pour trier les objets qui y passent entre trois sorties différentes, en fonction de leur configuration."
+				desc2: "Après avoir placé un trieur, ouvrez son interface utilisateur pour configurer la sortie des différents objets."
+			}
+		}
+		expeditioncenter-unlocked: {
+			name: "Centre d'expédition"
+			texts: {
+				desc: "Vous pouvez maintenant construire un centre d'expédition. Ce bâtiment unique vous permet de sélectionner et de lancer des expéditions pour chercher des ressources et des technologies anciennes en dehors de votre voisinage immédiat."
+				desc2: "Construisez un centre d'expédition et interagissez avec pour apprendre à lancer des expéditions."
+			}
+		}
+		expeditions: {
+			name: "Expéditions"
+			texts: {
+				desc: "Voici l'écran de sélection d'expédition. Chaque carte comporte différentes options d'expédition selon le biome et la difficulté de la carte. Les expéditions sont toutes différentes en termes de coût, de temps de préparation, de durée et de récompenses possibles.\n\nVous pouvez voir tous ces détails avant de choisir quelle expédition lancer."
+				desc2: "Chaque expédition comprend deux phases : une phase de <highlight>préparation</highlight> et une phase <highlight>active</highlight>.\n\nLorsque vous sélectionnez une expédition, le <highlight>coût initial est payé immédiatement</highlight>, et la phase de préparation commence. Tout au long de la phase de préparation, le centre d'expédition aura un <highlight>coût d'entretien en fonction de l'expédition choisie</highlight>.\n\nUne fois la phase de préparation terminée, l'expédition est lancée et il n'y a plus de coûts d'entretien, sauf pour l'équipe d'expédition (les ouvriers)."
+				desc3: "Après une expédition réussie, l'équipe rejoindra les autres ouvriers, et vous pourrez <highlight>choisir vos récompenses</highlight>.\n\nLe butin d'expédition peut contenir des <highlight>ressources</highlight>, du <highlight>carburant</highlight>, et des <highlight>bonus et objets uniques</highlight> qui ne peuvent pas s'obtenir ailleurs."
+			}
+		}
+		archeology-unlocked: {
+			name: "Projets archéologiques"
+			texts: {
+				desc: "L'archéologie vous permet de mener des projets basés sur la technologie de l'ancien monde et de gagner de puissants bonus permanents."
+				desc2: "Déverrouillez de nouveaux projets en recyclant des ruines. Pour terminer ces projets, vous devrez d'abord rechercher et construire un archéologue."
+			}
+		}
+		archeology: {
+			name: "Projets archéologiques"
+			texts: {
+				desc: "Sélectionnez un projet archéologique pour commencer à travailler dessus. Chaque projet a un coût différent. L'archéologue doit être approvisionné en permanence pendant son entreprise.\n\nUne fois terminé, les bonus sont permanents et aucune ressource supplémentaire n'est requise."
+				desc2: "Plusieurs archéologues participeront au même projet si les matériaux requis leur sont également fournis."
+				desc3: "De nouveaux projets archéologiques peuvent être trouvés en recyclant des ruines."
+			}
+		}
+		council: {
+			name: "Conseil de la ville"
+			texts: {
+				desc: "Lorsque votre ville atteint une taille suffisante, vos citoyens élisent un conseil de la ville. À chaque élection, trois conseillers seront choisis, un par faction.\n\nEn tant que superviseur, c'est à vous de <highlight>choisir un chef du conseil</highlight> parmi ces conseillers.\n\nVous devez choisir un chef du conseil avant de fermer cette fenêtre."
+				desc2: "Chaque conseiller apporte différents <highlight>bonus et pénalités</highlight> qui s'appliqueront si vous choisissez ce conseiller comme chef du conseil, et ils resteront actifs jusqu'aux prochaines élections.\n\nDe plus, vous <highlight>gagnerez de l'influence</highlight> auprès de la faction de ce conseil, et vous <highlight>perdrez de l'influence</highlight> auprès des deux autres."
+				desc3: "Vous pouvez consulter votre influence auprès des différentes factions sur la gauche. Lorsque votre <highlight>influence</highlight> auprès d'une faction augmente ou baisse suffisamment, vous gagnez <highlight>des bonus ou des pénalités</highlight> spécifiques à cette faction.\n\nSurvolez les différentes factions dans la barre d'influence pour voir le niveau d'influence requis et ses effets."
+			}
+		}
+		resource-elevators: {
+			name: "Récolteurs automatiques"
+			texts: {
+				desc: "Avec la recherche de déchargement de ressources, vos récolteurs peuvent à présent <highlight>envoyer des ressources automatiquement</highlight> à ces nouveaux bâtiments."
+				desc2: "Vous pouvez définir les ressources que chaque bâtiment de déchargement doit recevoir, et les récolteurs qui n'ont pas de rails de sortie enverront des wagons au lieu de déchargement le plus proche acceptant leurs ressources."
+				desc3: "Les wagons des récolteurs ne peuvent pas se déplacer dans la ville, le dépôt doit donc être construit au bord ou en dehors de la ville."
+			}
+		}
+		exporter: {
+			name: "Empaqueteuses de ressources"
+			texts: {
+				desc: "À l'instar des récolteurs automatiques, les empaqueteuses de ressources envoient des matériaux aux dépôts voisins. Elles peuvent envoyer <highlight>tout type de ressources</highlight>, pas seulement des matières premières."
+				desc2: "Approvisionnez l'empaqueteuse en ressources grâce aux rails et configurez le dépôt qui les recevra."
+			}
+		}
+		gamepedia: {
+			name: "Archives de Dream"
+			texts: {
+				desc: "Lorsque vous débloquez de nouvelles options, vous pouvez en apprendre plus sur elles dans les <highlight>Archives de Dream</highlight>. Appuyez sur la touche <highlight>« H »</highlight> pour ouvrir les archives."
+			}
+		}
+		carrycapacity: {
+			name: "Poids et capacité de transport"
+			texts: {
+				desc: "Votre ville s'alourdit. Chaque bâtiment alourdit la ville, et si votre ville devient plus lourde que votre capacité de transport, vous ne pourrez plus vous envoler."
+				desc2: "Vous pouvez augmenter la capacité de transport en construisant des moteurs ou en les améliorant (par des recherches).\n"
+				desc3: "Du kannst das Gewicht verringern, indem du Gebäude verbesserst, anstatt neue zu bauen und du kannst einige der Verteidigungsstellungen außerhalb der Stadt errichten."
+			}
+		}
+		overweight-takeoff: {
+			name: "Décollage en surpoids"
+			texts: {
+				desc: "Vous avez dépassé la capacité de transport de votre ville durant la phase de chargement du décollage.\n\nLe chargement est actuellement <highlight>en pause</highlight>, mais il reprendra si vous parvenez à <highlight>équilibrer le poids de la ville</highlight> dans les secondes qui suivent. Si vous prenez trop de temps, la progression sera perdue et vous devrez reprendre à zéro le processus de décollage."
+			}
+		}
+		low-health: {
+			name: "Santé faible"
+			texts: {
+				desc: "La santé de Mini est faible. La santé <highlight>se régénère en ville</highlight> et vous pouvez assigner et utiliser des <highlight>kits de réparation</highlight> via la barre d'accès rapide."
+				desc2: "Si vous subissez trop de dégâts, une <highlight>téléportation d'urgence</highlight> s'activera, vous renvoyant en ville, mais vous <highlight>perdrez du temps et des ressources</highlight>.\n\nTentez de garder Mini indemne."
+			}
+		}
+		armored-enemies: {
+			name: "Ennemis blindés"
+			texts: {
+				desc: "Certaines des plus grandes créatures sont considérées comme <highlight>blindées</highlight>. Vos <highlight>tourelles en bois</highlight> sont inefficaces contre elles et n'infligent que des <highlight>dégâts réduits</highlight>."
+				desc2: "Améliorez vos bâtiments défensifs pour mieux les affronter. Si les choses se corsent, n'hésitez pas à vous envoler jusqu'à ce que tous les préparatifs soient terminés."
+			}
+			objectives: {
+				build-turret: "Construisez : {0}"
+			}
+		}
+		destination-select: {
+			name: "Choix de la destination"
+			texts: {
+				desc: "Félicitations, votre ville <highlight>vole</highlight> pour la première fois !\n\nVous pouvez choisir où atterrir depuis cet écran."
+				desc2: "Sélectionnez votre prochaine zone d'atterrissage avec attention. Votre choix aura un impact sur la <highlight>force des ennemis</highlight>, les <highlight>ressources présentes sur la carte</highlight> ainsi que leur quantité."
+				desc3: "Les options présentées dépendent du <highlight>niveau d'infestation global</highlight> (affiché dans le coin supérieur gauche de l'écran)."
+				desc4: "Si vous n'aimez aucun de ces choix, vous pouvez cliquer sur le bouton <highlight>Voler ailleurs</highlight> pour actualiser vos choix en échange de carburant."
+			}
+		}
+		abilities: {
+			name: "Compétences actives"
+			texts: {
+				desc: "Vous avez débloqué la première <highlight>compétence active</highlight> de Mini. Les compétences actives peuvent être utilisées comme les kits de réparation ou d'autres consommables, mais ne nécessitent pas de ressources pour être utilisées."
+				desc2: "Vous pouvez assigner des compétences à votre <highlight>barre d'accès rapide</highlight> comme des consommables, et la plupart ont un <highlight>temps de récupération</highlight> limitant leur fréquence d'utilisation."
+			}
+		}
+		passive-income: {
+			name: "Revenu passif"
+			texts: {
+				desc: "Vous avez reçu un bonus de revenu passif. Ces bonus vous fournissent un apport régulier des ressources indiquées."
+				desc2: "Si vous avez un déchargement de ressources paramétré pour recevoir ces ressources, elles y seront déposées. Dans le cas contraire, elles seront déposées dans le cœur de la ville."
+			}
+		}
+		misc-items: {
+			name: "Objets utilisables"
+			texts: {
+				desc: "Vous avez obtenu un objet utilisable. Pour l'utiliser, ouvrez votre inventaire et faites un clic droit dessus. Ces objets ne peuvent pas être assignés à la barre d'accès rapide, car ils ne sont pas utilisables en combat."
+			}
+		}
+		upgrade-layer: {
+			name: "Filtre d'améliorations"
+			texts: {
+				desc: "En mode Gestion, vous pouvez activer le <highlight>« Filtre d'améliorations »</highlight> à l'aide du bouton à gauche de la mini-carte."
+				desc2: "Une fois actif, chaque bâtiment affichera une icône avec son <highlight>niveau actuel</highlight> et un bouton pour l'<highlight>améliorer</highlight> directement depuis la vue du jeu. Cette vue est très utile pour gérer votre économie et améliorer des bâtiments."
+				desc3: "D'autres filtres sont également disponibles, passez la souris sur leurs boutons pour en apprendre plus."
+			}
+		}
+		onoff-tool: {
+			name: "Outil On / Off"
+			texts: {
+				desc: "En mode Gestion, vous pouvez appuyer sur le bouton <highlight>« Outil On / Off »</highlight> (« O », par défaut) pour activer ou désactiver les bâtiments directement depuis la vue du jeu."
+			}
+		}
+		rebuild-debris: {
+			name: "Débris et reconstruction"
+			texts: {
+				desc: "Les rêves plaies ont détruit certains de vos bâtiments. Les débris laissés par les bâtiments détruits permettent d'identifier les bâtiments d'origine et de les reconstruire, si besoin."
+				desc2: "Reconstruire un bâtiment restaure toutes ses améliorations, extensions, entrées et sorties. La reconstruction coûte autant que la construction initiale, mais elle permet de tout restaurer en un clic."
+				desc3: "Vous pouvez reconstruire grâce à l'outil Réparer / Reconstruire (touche L par défaut), ou en cliquant sur les débris et en utilisant la fenêtre d'informations du bâtiment."
+			}
+		}
+		sit-city-info: {
+			name: "Infos sur la ville"
+			texts: {
+				desc: "Cliquez sur le nom de la ville dans l'ATH pour ouvrir la fenêtre d'informations sur la ville. Cette fenêtre fournit également des informations sur la zone d'atterrissage actuelle."
+			}
+		}
+		teslacrats-production: {
+			name: "Duplication des ressources"
+			texts: {
+				desc: "Vous venez de terminer la recherche de la technologie unique des Teslacrates permettant la duplication des ressources. Pour dupliquer une ressource, vous devez d'abord obtenir le montant de base requis pour la recette, puis utiliser l'interface de fabrication dans l'onglet « Ressources »."
+				desc2: "La machinerie utilisée pour la duplication se dégrade à chaque utilisation, ce qui augmente le prix de la duplication des ressources à chaque utilisation. Les prix reviennent lentement à la normale lorsque les machines ne sont pas utilisées, et lors du vol vers une nouvelle destination."
+			}
+		}
+		raid-spawners: {
+			name: "Failles"
+			texts: {
+				desc: "Vous avez découvert une faille cauchemardesque. Il s'agit de l'un des points d'apparition des rêves plaies pendant les raids."
+				desc2: "Les failles étant instables, il est impossible de construire à proximité."
+			}
+		}
+	}
+}

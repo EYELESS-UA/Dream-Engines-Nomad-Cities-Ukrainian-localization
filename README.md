@@ -24,8 +24,8 @@
 
 ### Варіант 2: Встановлення вручну (З файлів GitHub) ⚙️
 1. Перейдіть у розділ **[Releases](посилання)** та завантажте актуальний архів.
-2. Розпакуйте вміст папки `build` у директорію локальних модів або мовних файлів гри:
-   * *Шлях для Steam:* `...\Steam\steamapps\common\Dream Engines Nomad Cities\...`.
+2. Розпакуйте вміст архіву у директорію модів гри:
+   * *Шлях для Steam:* `...\Steam\steamapps\common\Dream Engines Nomad Cities\Modding\Mods`.
 
 ---
 
@@ -70,10 +70,9 @@
 
 ## 📈 Статус розробки
 
-* **Головне меню, інтерфейс та налаштування:** ![0%](https://img.shields.io/badge/0%25-red?style=flat-square)
-* **Назви та описи будівель, інфраструктури:** ![0%](https://img.shields.io/badge/0%25-red?style=flat-square)
-* **Технологічне дерево (Research Tree):** ![0%](https://img.shields.io/badge/0%25-red?style=flat-square)
-* **Квести, події та діалоги:** ![0%](https://img.shields.io/badge/0%25-red?style=flat-square)
+* **Переклад тексту:** ![0%](https://img.shields.io/badge/100%25-gree?style=flat-square)
+* **Редактура:** ![0%](https://img.shields.io/badge/0%25-red?style=flat-square)
+
 
 ---
 **Автор проекту:** [EYELESS-UA](https://github.com/EYELESS-UA)  

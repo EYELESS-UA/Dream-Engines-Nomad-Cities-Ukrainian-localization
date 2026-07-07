@@ -1,0 +1,1004 @@
+{
+	missions: {
+		base: {
+			default: {
+				is-starting-mission: false
+				display-color: "mission-tutorial"
+			}
+
+			tutorial: {
+				parents: [ "missions.base.default" ]
+				is-tutorial: true
+			}
+
+			popup-tutorial: {
+				parents: [ "missions.base.tutorial" ]
+				popup: true
+			}
+
+			situational-tutorial: {
+				parents: [ "missions.base.tutorial" ]
+				show-if-last-seen-earlier: 226
+				situational: true
+			}
+
+			window-tutorial: {
+				parents: [ "missions.base.popup-tutorial", "missions.base.situational-tutorial" ]
+				auto-complete: true
+			}
+		}
+
+		entity: {
+			welcome: {
+				is-starting-mission: true
+				start-order: 2
+				parents: [ "missions.base.popup-tutorial" ]
+				auto-complete: true
+				texts: {
+					desc: true
+					desc2: true
+				}
+				next: {
+					images: true
+				}
+			}
+
+			images: {
+				parents: [ "missions.base.tutorial" ]
+				texts: {
+					intro: {
+						video: null
+					}
+					previous: {
+						video: null
+					}
+					pause: {
+						video: "pause-unpause"
+					}
+				}
+				objectives: {
+					hover-video: {
+						class: "MissionObjectiveReflectionBased"
+						method: "CheckHoverVideo"
+					}
+					unpause: {
+						class: "MisisonObjectiveBasicControls"
+						time: 0
+					}
+				}
+				next: {
+					movement: true
+				}
+			}
+
+			movement: {
+				parents: [ "missions.base.tutorial" ]
+				texts: {
+					intro: {
+						image: "tiny"
+					}
+					move: {
+						video: null
+					}
+					zoom: {
+						video: null
+					}
+					rotate: {
+						video: null
+					}
+				}
+				objectives: {
+					movemech: {
+						class: "MisisonObjectiveBasicControls"
+						time: 0.75
+					}
+					zoom: {
+						class: "MisisonObjectiveBasicControls"
+						time: 0.05
+					}
+					rotate: {
+						class: "MisisonObjectiveBasicControls"
+						time: 0.3
+					}
+				}
+				next: {
+					switch-to-mgmt-mode: true
+				}
+			}
+
+			switch-to-mgmt-mode: {
+				parents: [ "missions.base.tutorial" ]
+				texts: {
+					combat-mode: true
+					mgmt-mode: true
+					switch: true
+				}
+				objectives: {
+					management-mode: {
+						class: "MissionObjectiveReflectionBased"
+						method: "CheckStrategicMode"
+					}
+				}
+				next: {
+					build-houses: true
+				}
+			}
+
+			build-houses: {
+				parents: [ "missions.base.tutorial" ]
+				texts: {
+					intro: true
+					build: {
+						video: "build-houses"
+					}
+				}
+				objectives: {
+					buildhouses: {
+						class: "MissionObjectiveHaveBuilding"
+						object: "house"
+						amount: 2
+						highlight-buttons: {
+							build_cat_population: true
+							build_obj_house: true
+						}
+					}
+				}
+				next: {
+					build-rails: true
+				}
+			}
+
+			build-rails: {
+				parents: [ "missions.base.tutorial" ]
+				texts: {
+					intro: true
+					build: {
+						video: "build-rails"
+					}
+					access-points: {
+						video: "build-access-points"
+					}
+				}
+				objectives: {
+					sendfood: {
+						class: "MissionObjectiveDesignateAccessPoint"
+						type: "exit"
+						object: "commandcenter"
+						item: "food"
+					}
+					connect-houses: {
+						// TODO: change this to check that food is being sent to houses.
+						class: "MissionObjectiveDesignateAccessPoint"
+						type: "entrance"
+						object: "house"
+						amount: 2
+					}
+					housesactive: {
+						class: "MissionObjectiveActiveBuilding"
+						object: "house"
+						amount: 2
+						highlight-buttons: {
+							build_cat_infrastructure: true
+							build_obj_roadtile: true
+						}
+					}
+				}
+				rewards: {
+					items: {
+						warpedwood: 20
+					}
+				}
+				next: {
+					equip-repairkit: true
+				}
+			}
+
+			equip-repairkit: {
+				parents: [ "missions.base.tutorial" ]
+				texts: {
+					intro: {
+						image: null
+					}
+					grab: {
+						image: "open-city-core"
+					}
+					equip: {
+						image: null
+					}
+				}
+				objectives: {
+					collectrepairkit: {
+						class: "MissionObjectiveHaveItems"
+						items: {
+							scraprepair: 10
+						}
+					}
+					equiprepairkit: {
+						class: "MissionObjectiveEquipItem"
+						item: "scraprepair"
+					}
+				}
+				next: {
+					tiny-combat: true
+				}
+			}
+
+			grab-items: {
+				// Situational tutorial that shows when openinig the building window after completing the build rails tutorial
+				parents: [ "missions.base.window-tutorial" ]
+				texts: {
+					grab: {
+						video: null
+					}
+				}
+				prereq-missions: {
+					build-rails: true
+				}
+			}
+
+			quickbar: {
+				// Situational tutorial that shows when openinig the character window after completing the build rails tutorial
+				parents: [ "missions.base.window-tutorial" ]
+				texts: {
+					assign: {
+						video: "assign-quickbar"
+					}
+				}
+				prereq-missions: {
+					build-rails: true
+				}
+			}
+
+			tiny-combat: {
+				parents: [ "missions.base.tutorial" ]
+				texts: {
+					intro: true
+					attack: true
+					tips: true
+				}
+				objectives: {
+					combatmode: {
+						class: "MissionObjectiveReflectionBased"
+						method: "CheckStrategicMode"
+						combat: true
+					}
+					meleeattack: {
+						class: "MisisonObjectiveBasicControls"
+						time: 4
+					}
+					rangedattack: {
+						class: "MisisonObjectiveBasicControls"
+						time: 5
+					}
+				}
+				next: {
+					collect-bloodwood: true
+				}
+			}
+
+			collect-bloodwood: {
+				parents: [ "missions.base.tutorial" ]
+				texts: {
+					intro: {
+						image: "find-bloodwood"
+					}
+					build: {
+						video: "build-harvester"
+					}
+				}
+				objectives: {
+					findwood: {
+						class: "MissionObjectiveFindObject"
+						object: "bloodwoodresource"
+						show-on-minimap: true
+					}
+					gatherwood: {
+						class: "MissionObjectiveHaveBuilding"
+						object: "bloodwoodharvester"
+					}
+				}
+				next: {
+					build-warper: true
+				}
+			}
+
+			build-warper: {
+				parents: [ "missions.base.tutorial" ]
+				texts: {
+					intro: true
+					buildwoodwarper: {
+						video: "produce-planks"
+					}
+					freecamera: {
+						text: "freecamera"
+					}
+				}
+				objectives: {
+					buildwoodwarper: {
+						class: "MissionObjectiveActiveBuilding"
+						object: "woodwarper"
+						production: "woodwarper"
+						amount: 3
+						highlight-buttons: {
+							build_cat_production: true
+							build_obj_woodwarper: true
+						}
+					}
+				}
+				next: {
+					speedup: true
+				}
+			}
+
+			speedup: {
+				parents: [ "missions.base.tutorial" ]
+				texts: {
+					sendplanks: {
+						video: "send-planks"
+					}
+					speedup: {
+						text: "speedup"
+					}
+				}
+				objectives: {
+					haveplanks: {
+						class: "MissionObjectiveHaveItems"
+						items: {
+							warpedwood: 5
+						}
+						gain: true
+						include-storage: true
+					}
+				}
+				rewards: {
+					items: {
+						warpedwood: 15
+					}
+				}
+				next: {
+					city-level1: true
+				}
+			}
+
+			city-level1: {
+				parents: [ "missions.base.tutorial" ]
+				texts: {
+					nodes: {
+						image: "featherstone-node"
+					}
+					increase-pop: {
+						text: "increase-pop"
+					}
+					//build-houses: {
+					//	text: "build-houses"
+					//}
+				}
+				objectives: {
+					build-houses: {
+						class: "MissionObjectiveActiveBuilding"
+						object: "house"
+						amount: 3
+						highlight-buttons: {
+							build_cat_population: true
+							build_obj_house: true
+						}
+					}
+					city-level1: {
+						class: "MissionObjectiveHaveItems"
+						items: {
+							worker: 21
+						}
+						include-storage: true
+					}
+				}
+				next: {
+					craft-repairkit: true
+				}
+			}
+
+			craft-repairkit: {
+				parents: [ "missions.base.tutorial" ]
+				texts: {
+					intro: true
+					craft: true
+				}
+				objectives: {
+					craftrepairkit: {
+						class: "MissionObjectiveHaveItems"
+						items: {
+							scraprepair: 1
+						}
+						gain: true
+						highlight-buttons: {
+							main_crafting: true
+							craft_scraprepair: true
+						}
+					}
+				}
+				next: {
+					produce-food-farms: true
+				}
+			}
+
+			produce-food-farms: {
+				parents: [ "missions.base.tutorial" ]
+				texts: {
+					farms: {
+						video: "build-farms"
+					}
+					tesla: {
+						video: null
+					}
+				}
+				objectives: {
+					buildtesla: {
+						class: "MissionObjectiveHaveBuilding"
+						object: "teslatower"
+						amount: 1
+						highlight-buttons: {
+							build_cat_power: true
+							build_obj_teslatower: true
+						}
+					}
+					buildfarm: {
+						class: "MissionObjectiveHaveBuilding"
+						object: "purptatofarm"
+						amount: 3
+						highlight-buttons: {
+							build_cat_gathering: true
+							build_obj_purptatofarm: true
+						}
+					}
+				}
+				next: {
+					produce-food-process: true
+				}
+			}
+
+			produce-food-process: {
+				parents: [ "missions.base.tutorial" ]
+				texts: {
+					intro: {
+						video: "produce-food"
+					}
+					more-food: {
+						video: null
+					}
+				}
+				objectives: {
+					buildfoodplant: {
+						class: "MissionObjectiveHaveBuilding"
+						object: "purptatoprocessor"
+						amount: 1
+						highlight-buttons: {
+							build_cat_production: true
+							build_obj_purptatoprocessor: true
+						}
+					}
+					producefood: {
+						class: "MissionObjectiveActiveBuilding"
+						object: "purptatoprocessor"
+						production: "purptatoprocessor"
+					}
+					sendfood: {
+						class: "MissionObjectiveHaveItems"
+						items: {
+							food: 5
+						}
+						gain: true
+						include-storage: true
+					}
+				}
+				rewards: {
+					items: {
+						food: 15
+					}
+					city-core: true
+				}
+				next: {
+					power-flux: true
+				}
+			}
+
+			power-flux: {
+				parents: [ "missions.base.tutorial" ]
+				texts: {
+					intro: true
+					buildflux: {
+						video: "build-flux"
+					}
+					buildpower: {
+						video: "build-power"
+					}
+				}
+				objectives: {
+					buildflux: {
+						class: "MissionObjectiveHaveBuilding"
+						object: "fluxgenerator"
+						amount: 3
+						highlight-buttons: {
+							build_cat_production: true
+							build_obj_fluxgenerator: true
+						}
+					}
+					buildpower: {
+						class: "MissionObjectiveActiveBuilding"
+						object: "startargenerator"
+						amount: 2
+						highlight-buttons: {
+							build_cat_power: true
+							build_obj_startargenerator: true
+						}
+					}
+				}
+				next: {
+					move-objects: true
+				}
+			}
+
+			move-objects: {
+				parents: [ "missions.base.tutorial" ]
+				texts: {
+					intro: true
+					flying: true
+					longrun: true
+					moving: {
+						video: "move-building"
+					}
+				}
+				objectives: {
+					movebuilding: {
+						class: "MissionObjectiveReflectionBased"
+						method: "CheckMoveBuilding"
+						highlight-buttons: {
+							main_move: true
+							main_toolstoolbar: true
+						}
+					}
+				}
+				next: {
+					tutorial-end: true
+				}
+			}
+
+			tutorial-end: {
+				parents: [ "missions.base.tutorial" ]
+				texts: {
+					end1: true
+					end2: true
+					end3: true
+					end4: true
+				}
+				tutorial-finished: true
+			}
+
+
+			//// Situational tutorials
+			researchlab-unlocked: {
+				parents: [ "missions.base.situational-tutorial" ]
+				texts: {
+					build: true
+					research: true
+					materials: true
+				}
+				objectives: {
+					buildlab: {
+						class: "MissionObjectiveHaveBuilding"
+						object: "researchlab"
+						amount: 1
+					}
+					research-selected: {
+						class: "MissionObjectiveReflectionBased"
+						method: "CheckResearchSelected"
+					}
+					activatelab: {
+						class: "MissionObjectiveActiveBuilding"
+						object: "researchlab"
+						production: "researchlab-goo"
+						amount: 1
+					}
+				}
+			}
+
+			research-screen: {
+				parents: [ "missions.base.window-tutorial" ]
+				texts: {
+					desc: true
+					desc2: true
+				}
+			}
+
+			expand-city: {
+				parents: [ "missions.base.situational-tutorial" ]
+				texts: {
+					desc: true
+					desc2: true
+				}
+			}
+
+			missing-workers: {
+				parents: [ "missions.base.situational-tutorial" ]
+				texts: {
+					desc: true
+					desc2: true
+				}
+			}
+
+			// Shows at cycle 16 - 19 (24 cycles before timer, then 2-5 cycles until mini raid, and it shows 10 cycles before that)
+			mini-raids: {
+				parents: [ "missions.base.situational-tutorial" ]
+				texts: {
+					desc: {
+						image: "mini-raids"
+					}
+					desc2: {
+						image: "mini-raids-defenses"
+					}
+				}
+				objectives: {
+					build-turret: {
+						class: "MissionObjectiveHaveBuilding"
+						object: "woodturret"
+						amount: 1
+					}
+					build-wall: {
+						class: "MissionObjectiveHaveBuilding"
+						object: "woodwall"
+						amount: 5
+					}
+				}
+			}
+
+			// Shows at cycle 22-28, first raid (11 cycles before timer, 11-17 cycles until raid)
+			attack-warning: {
+				parents: [ "missions.base.popup-tutorial" ]
+				texts: {
+					desc: {
+						image: null
+					}
+					desc2: {
+						image: "raid-defense"
+					}
+					desc3: {
+						image: null
+					}
+				}
+			}
+
+			// Shows at cycle 36-44 (4 cycles before threat timer, then 8-10 cycles per threat level, and it shows at threat 4)
+			taking-off: {
+				parents: [ "missions.base.situational-tutorial" ]
+				texts: {
+					desc: {
+						video: null
+					}
+					desc2: {
+						video: "launch-city"
+					}
+					desc3: {
+						video: null
+					}
+					desc4: {
+						video: null
+					}
+				}
+				/*objectives: {
+					activatetakeoff: {
+						class: "MissionObjectiveStartLaunch"
+					}
+					takeoff: {
+						class: "MissionObjectiveTimePassed"
+						time: 60
+					}
+				}*/
+			}
+
+			infrastructure-upgrades: {
+				parents: [ "missions.base.situational-tutorial" ]
+				texts: {
+					desc: true
+					desc2: true
+				}
+				objectives: {
+					produce-parts: {
+						class: "MissionObjectiveHaveItems"
+						items: {
+							upgradeparts: 10
+						}
+						include-storage: true
+					}
+					purchase-upgrade: {
+						class: "MissionObjectiveReflectionBased"
+						method: "CheckPurchasedInfrastructureUpgrade"
+					}
+				}
+			}
+
+			infrastructure-window: {
+				parents: [ "missions.base.window-tutorial" ]
+				texts: {
+					desc: true
+					desc2: {
+						video: "infrastructure-window"
+					}
+				}
+			}
+
+			multiple-productions: {
+				parents: [ "missions.base.window-tutorial" ]
+				texts: {
+					desc: true
+					desc2: true
+				}
+			}
+
+			rail-crossing: {
+				parents: [ "missions.base.situational-tutorial" ]
+				texts: {
+					desc: {
+						video: null
+					}
+					desc2: {
+						video: "rail-crossing"
+					}
+				}
+				objectives: {
+					build-crossing: {
+						class: "MissionObjectiveHaveBuilding"
+						object: "railcrossing"
+						amount: 1
+					}
+				}
+			}
+
+			drep-crafting: {
+				parents: [ "missions.base.situational-tutorial" ]
+				texts: {
+					desc: true
+				}
+				objectives: {
+					craft: {
+						class: "MissionObjectiveReflectionBased"
+						method: "CheckItemCrafted"
+						tag: "drep-refine"
+						amount: 1
+					}
+				}
+			}
+
+			splitter-unlocked: {
+				parents: [ "missions.base.situational-tutorial" ]
+				texts: {
+					desc: {
+						video: "splitter-unlocked"
+					}
+					desc2: {
+						video: null
+					}
+				}
+			}
+
+			expeditioncenter-unlocked: {
+				parents: [ "missions.base.situational-tutorial" ]
+				texts: {
+					desc: true
+					desc2: true
+				}
+			}
+
+			expeditions: {
+				parents: [ "missions.base.window-tutorial" ]
+				texts: {
+					desc: true
+					desc2: true
+					desc3: true
+				}
+			}
+
+			archeology-unlocked: {
+				parents: [ "missions.base.window-tutorial" ]
+				texts: {
+					desc: true
+					desc2: true
+				}
+			}
+
+			archeology: {
+				parents: [ "missions.base.window-tutorial" ]
+				texts: {
+					desc: true
+					desc2: true
+					desc3: true
+				}
+			}
+
+			council: {
+				parents: [ "missions.base.window-tutorial" ]
+				texts: {
+					desc: true
+					desc2: true
+					desc3: true
+				}
+			}
+
+			resource-elevators: {
+				parents: [ "missions.base.situational-tutorial" ]
+				texts: {
+					desc: true
+					desc2: true
+					desc3: true
+				}
+			}
+
+			exporter: {
+				parents: [ "missions.base.situational-tutorial" ]
+				texts: {
+					desc: true
+					desc2: true
+				}
+			}
+
+			gamepedia: {
+				parents: [ "missions.base.situational-tutorial" ]
+				texts: {
+					desc: true
+				}
+			}
+
+			carrycapacity: {
+				parents: [ "missions.base.situational-tutorial" ]
+				texts: {
+					desc: true
+					desc2: true
+					desc3: true
+				}
+			}
+
+			overweight-takeoff: {
+				parents: [ "missions.base.popup-tutorial" ]
+				texts: {
+					desc: true
+				}
+				auto-complete: true
+			}
+
+			low-health: {
+				parents: [ "missions.base.popup-tutorial" ]
+				prereq-missions: {
+					equip-repairkit: true
+				}
+				texts: {
+					desc: true
+					desc2: true
+				}
+				auto-complete: true
+			}
+
+			armored-enemies: {
+				parents: [ "missions.base.situational-tutorial" ]
+				texts: {
+					desc: {
+						image: "armored-enemies"
+					}
+					desc2: {
+						video: null
+					}
+				}
+				objectives: {
+					build-turret: {
+						class: "MissionObjectiveHaveBuilding"
+						object: "stoneturret"
+						amount: 1
+					}
+				}
+			}
+
+			destination-select: {
+				parents: [ "missions.base.window-tutorial" ]
+				texts: {
+					desc: true
+					desc2: true
+					desc3: true
+					desc4: true
+				}
+			}
+
+			abilities: {
+				parents: [ "missions.base.situational-tutorial" ]
+				texts: {
+					desc: true
+					desc2: true
+				}
+			}
+
+			passive-income: {
+				parents: [ "missions.base.situational-tutorial" ]
+				texts: {
+					desc: true
+					desc2: true
+				}
+			}
+
+			//// TODO: launch this tutorial when acquiring such an item.
+			misc-items: {
+				parents: [ "missions.base.situational-tutorial" ]
+				texts: {
+					desc: true
+				}
+			}
+
+			upgrade-layer: {
+				parents: [ "missions.base.situational-tutorial" ]
+				texts: {
+					desc: {
+						video: "upgrade-layer"
+					}
+					desc2: {
+						video: null
+					}
+					desc3: {
+						video: null
+					}
+				}
+			}
+
+			onoff-tool: {
+				parents: [ "missions.base.situational-tutorial" ]
+				texts: {
+					desc: {
+						image: "disable-buildings"
+					}
+				}
+			}
+
+			rebuild-debris: {
+				parents: [ "missions.base.situational-tutorial" ]
+				texts: {
+					desc: {
+						image: "player-debris"
+					}
+					desc2: {
+						video: null
+					}
+					desc3: {
+						video: null
+					}
+				}
+			}
+
+			sit-city-info: {
+				parents: [ "missions.base.situational-tutorial" ]
+				texts: {
+					desc: true
+				}
+			}
+
+			teslacrats-production: {
+				parents: [ "missions.base.situational-tutorial" ]
+				texts: {
+					desc: true
+					desc2: true
+				}
+			}
+
+			raid-spawners: {
+				parents: [ "missions.base.situational-tutorial" ]
+				texts: {
+					desc: {
+						image: "raid-spawner"
+					}
+					desc2: {
+						video: null
+					}
+				}
+			}
+
+
+
+			//running-out-of-ammo: {
+			//	parents: [ "missions.base.situational-tutorial" ]
+			//	objectives: null
+			//}
+		}
+	}
+}

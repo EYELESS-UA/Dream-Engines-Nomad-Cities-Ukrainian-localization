@@ -1,0 +1,502 @@
+{
+	missions: {
+		welcome-no-tut: {
+			name: "Willkommen"
+			desc: "Willkommen bei Dream Engines. Die Einleitung ist deaktiviert, die <highlight>Meilensteine</highlight> oben rechts auf dem Bildschirm helfen dir aber weiter. Bewege die Maus über einen Meilenstein, um mehr über ihn zu erfahren.\n\nVergiss nicht: Drücke die <highlight>„Tab“</highlight>, um zwischen den Modi für Kampf und Stadtverwaltung zu wechseln."
+		}
+		welcome-pre-fortifications-save: {
+			name: "Tiefgreifende Änderungen seit deinem letzten Speicherstand"
+			desc: "Willkommen zurück bei Dream Engines. Wir haben seit deinem letzten Speicherstand ein neues Update veröffentlicht. Dieses Update beinhaltet Änderungen an feindlichen Angriffen, <highlight>die dein Ende sein können</highlight>, falls du <highlight>nicht darüber Bescheid weißt</highlight>. Hier sind einige der wichtigsten Änderungen:\n\n* Feinde in Angriffen werden jetzt <highlight>Mauern ignorieren</highlight>, sofern sie ihnen nicht den Weg versperren. Mauern sind jetzt stärker.\n\n* Umherziehende Feinde werden gelegentlich <highlight>ohne Vorwarnung</highlight> <highlight>deine Stadt und Gebäude angreifen</highlight>. Sie sind deutlich schwächer als gewöhnliche Angriffe, aber du musst darauf achten, dass all deine Gebäude befestigt sind.\n\n* Größere Feinde der Stufe 2 und darüber sind jetzt <highlight>gepanzert</highlight>. Holztürme und leichte Armbrüste fügen ihnen nur <highlight>halben Schaden</highlight> zu. Du solltest deine Türme gegen fortschrittliche Varianten austauschen.\n\n* Es gibt jetzt im Spiel <highlight>Türme und Mauern aus Stein</highlight>."
+		}
+		welcome: {
+			name: "Willkommen"
+			texts: {
+				desc: "Willkommen bei Dream Engines. Diese <highlight>Einleitung</highlight> führt dich durch die grundlegende Steuerung des Spiels.\n\nDies ist nur eine Einführung und wirkt sich nicht auf das Spiel aus, du kannst nach wie vor verlieren, wenn deine Stadt während der Einleitung zerstört wird."
+				desc2: "Folge den Anweisungen im <highlight>oberen rechten</highlight> Bereich des Bildschirms"
+			}
+		}
+		images: {
+			name: "Durch die Einleitung navigieren"
+			texts: {
+				intro: "Einige Nachrichten in der Einleitung, so wie diese, enthalten visuelle Anleitungen in Form von Bildern und Videos. Bewege deine Maus über das Video-Symbol, um es anzusehen."
+				previous: "Du kannst alle vorherigen Einleitungen im Logbuch ansehen, indem du den F1-Knopf drückst, oder den Hilfe-Knopf im Spielmenü (ESC)."
+				pause: "Du kannst das Spiel auch pausieren und dir Zeit nehmen, die Nachrichten zu lesen. Drücke die Leertaste, um das Spiel jederzeit zu pausieren/fortzusetzen."
+			}
+			objectives: {
+				hover-video: "Fahre über das Video-Symbol oben"
+				unpause: "Spiel pausieren und fortsetzen"
+			}
+		}
+		movement: {
+			name: "Bewegung"
+			texts: {
+				intro: "Als Aufseher kontrollierst du <highlight>Tiny</highlight> – eine uralte, gepanzerte Erkundungseinheit."
+				move: "Bewege dich mit den <highlight>WASD</highlight>-Tasten. Tiny schaut immer in Richtung des Mauszeigers."
+				zoom: "Verwende das <highlight>Mausrad</highlight>, um heran- oder herauszuzoomen."
+				rotate: "Halte die <highlight>mittlere Maustaste</highlight> gedrückt und bewege die Maus, um die Kamera zu drehen."
+			}
+			objectives: {
+				movemech: "Bewege dich"
+				movemech-hover: "Als Aufseher kontrollierst du <highlight>Tiny</highlight> – eine uralte, gepanzerte Erkundungseinheit.\n\nBewege dich mit den <highlight>WASD</highlight>-Tasten. Tiny schaut immer in Richtung des Mauszeigers."
+				zoom: "Passe den Zoom an"
+				zoom-hover: "Verwende das <highlight>Mausrad</highlight>, um heran- oder herauszuzoomen."
+				rotate: "Drehe die Kamera"
+				rotate-hover: "Halte die <highlight>mittlere Maustaste</highlight> gedrückt und bewege die Maus, um die Kamera zu drehen.\n\nDrücke <highlight>„N“</highlight>, um zur Standardansicht zurückzukehren."
+			}
+		}
+		switch-to-mgmt-mode: {
+			name: "Combat & Management Modes"
+			texts: {
+				combat-mode: "<highlight>Kampfmodus</highlight>: Wird verwendet, wenn du die Karte erkundest oder Feinde bekämpfst."
+				mgmt-mode: "<highlight>Verwaltungsmodus</highlight>: Wird für den Bau von Gebäuden und die Verwaltung deiner Stadt verwendet."
+				switch: "Drücke die <highlight>Tab</highlight>, um zwischen Modi zu wechseln und den Verwaltungsmodus zu öffnen."
+			}
+			objectives: {
+				management-mode: "Wechsle zum Verwaltungsmodus"
+			}
+		}
+		build-houses: {
+			name: "Bauen"
+			texts: {
+				intro: "Um die Bevölkerung deiner Stadt zu erhöhen, <highlight>baue Häuser</highlight>, in denen deine Arbeiter wohnen können."
+				build: "Wähle die Schaltfläche <highlight>„Haus“</highlight> und klicke dann auf die Karte, um 2 dieser Gebäude zu platzieren."
+			}
+			objectives: {
+				buildhouses: "Baue {0} x{1}"
+			}
+		}
+		build-rails: {
+			name: "Automatische Lieferung"
+			texts: {
+				intro: "Häuser brauchen eine durchgehende Versorgung mit Nahrung. In Dream Engines werden Ressourcen über ein <highlight>automatisiertes Schienensystem</highlight> transportiert, das wie Förderbänder funktioniert."
+				build: "Um Schienen zu bauen, wähle sie in der Kategorie Infrastruktur aus, dann klicke und ziehe in die Richtung, in welche die Ressourcen transportiert werden sollen."
+				access-points: "Gebäude senden und erhalten Ressourcen über Zugriffspunkte. Ziehe Schienen zu/von einem Gebäude, um Eingaben/Ausgaben zu erschaffen."
+			}
+			objectives: {
+				sendfood: "Erstelle eine Ausgabe, um Nahrung vom Stadtkern zu verschicken"
+				connect-houses: "Erschaffe Eingaben für die Häuser"
+				housesactive: "Verbinde die Schienen und liefere Nahrung an beide Häuser."
+			}
+		}
+		equip-repairkit: {
+			name: "Inventar und Ausrüstung"
+			texts: {
+				intro: "Bereite dich jetzt darauf vor, die Umgebung der Stadt zu erkunden. <highlight>Rüste</highlight> einige <highlight>Reparaturkits</highlight> aus, für den Fall, dass Tiny Schaden nimmt."
+				grab: "Die Reparaturkits befinden sich im Stadtkern. Öffne das Baufenster mit einem <highlight>Linksklick</highlight> darauf, während du dich im <highlight>Verwaltungsmodus</highlight> befindest."
+				equip: "Weise das Reparaturkit dann einem Slot in der Schnellleiste zu. Drücke <highlight>„I“</highlight>, um das Charakterfenster zu öffnen"
+			}
+			objectives: {
+				collectrepairkit: "Hole dir {0} x {1} aus dem Lager des Stadtkerns"
+				equiprepairkit: "Füge {0} der Schnellleiste hinzu"
+			}
+		}
+		grab-items: {
+			name: "Gegenstände nehmen"
+			texts: {
+				grab: "Das ist das Baumenü. Tinys Inventar siehst du auf der linken Seite, das Lager des Gebäudes und weitere Info auf der rechten Seite.\n\nHalte <highlight>„UMSCHALT“</highlight> gedrückt und <highlight>klicke</highlight> auf das <highlight>Reparaturkit</highlight>-Symbol, um den ganzen Stapel aufzunehmen."
+			}
+		}
+		quickbar: {
+			name: "Der Schnellleiste hinzufügen"
+			texts: {
+				assign: "Klicke auf einen der <highlight>leeren Schnellleisten-Slots</highlight> im Charakterbereich und wähle den Gegenstand aus, den du diesem Slot zuweisen möchtest.\n\nIst er zugewiesen, kannst du im Kampf das entsprechende Tastenkürzel drücken, um den Gegenstand einzusetzen."
+			}
+		}
+		tiny-combat: {
+			name: "Traumplagen bekämpfen"
+			texts: {
+				intro: "Beim Erkunden trifft Tiny auf die Traumplagen (Trep). Tiny ist mit austauschbaren Waffen ausgerüstet, einer Fernkampf- und einer Nahkampfwaffe, mit denen er sich gegen diese feindlichen Kreaturen verteidigen kann."
+				attack: "Drücke die <highlight>linke Maustaste</highlight>, um Tinys <highlight>Nahkampfangriff</highlight> auszuführen. Drücke die <highlight>rechte Maustaste</highlight>, um Mit Tinys <highlight>Armbrust</highlight> anzugreifen."
+				tips: "Drücke und halte sie, um dauerhaft anzugreifen."
+			}
+			objectives: {
+				combatmode: "Wechsle zum Kampfmodus"
+				meleeattack: "Greife mit der Nahkampfwaffe an"
+				rangedattack: "Greife mit der Fernkampfwaffe an"
+			}
+		}
+		collect-bloodwood: {
+			name: "Erntemaschinen"
+			texts: {
+				intro: "Es wird Zeit, Ressourcen zu sammeln. Erkunde das auf der Minikarte markierte Gebiet um deine Stadt und suche nach einem <highlight>Blutholz</highlight>-Ressourcenknoten."
+				build: "Baue eine Erntemaschine - wechsle zum Verwaltungsmodus, <highlight>klicke auf die Ressource</highlight>, um deren Fenster zu öffnen und klicke dann auf die Schaltfläche <highlight>Blutholzfäller</highlight>."
+			}
+			objectives: {
+				findwood: "Finde ein Ressourcenfeld mit Blutholz"
+				gatherwood: "Baue eine {0}"
+			}
+		}
+		build-warper: {
+			name: "Produktion"
+			texts: {
+				intro: "Du sammelst jetzt Stämme, bevor du diese jedoch verwenden kannst, musst du sie in <highlight>Bretter</highlight> verarbeiten und in ein <highlight>Lager</highlight> schicken. Stämme, wie die meisten unverarbeiteten Materialien, können bei deinem Abflug nicht mitgenommen werden, verarbeitete Materialien hingegen können es."
+				buildwoodwarper: "Bretter werden aus Stämmen in <highlight>Holzkrümmer</highlight> produziert. Ein Holzkrümmer muss sich innerhalb deines <highlight>Energiebereichs</highlight> befinden, baue also am besten in der Nähe der Stadt."
+				freecamera: "Drücke im Verwaltungsmodus die Leertaste, um das Spiel zu pausieren, und die Taste „F“, um die frei bewegliche Kamera umzuschalten. Du kannst dann rund um die Karte bauen, ohne Tiny zu bewegen, während das Spiel pausiert ist."
+			}
+			objectives: {
+				buildwoodwarper: "Baue {0} x {1} und liefere Stämme dorthin"
+			}
+		}
+		speedup: {
+			name: "Beschleunigung"
+			texts: {
+				sendplanks: "Baue nun weitere Schienen, um Bretter von den Krümmern zur Lagerung in deinen Stadtkern zu schicken. Warte dann, bis einige Bretter produziert wurden."
+				speedup: "Du kannst das Spiel beschleunigen, wenn du auf die Lieferung der Bretter wartest. Halte die Beschleunigungstaste (Standardmäßig „+“) gedrückt, nachdem du die Schienen gebaut hast."
+			}
+			objectives: {
+				haveplanks: "Sammle {0} x {1}"
+			}
+		}
+		city-level1: {
+			name: "Stadtstufe"
+			texts: {
+				nodes: "Halte während der Erkundung Ausschau nach weitere Ressourcenknoten. Ist ein Ressourcenknoten aufgebraucht, es produziert mit verringerter Geschwindigkeit, so könnte es angebracht sein, weitere Knoten zu verbinden."
+				increase-pop: "<highlight>Vergrößere jetzt deine Stadtbevölkerung</highlight>, um weitere Gebäude freizuschalten."
+			}
+			objectives: {
+				build-houses: "Beliefere 3 Häuser mit Nahrung"
+				city-level1: "Erreiche eine Bevölkerung von {1}"
+			}
+		}
+		craft-repairkit: {
+			name: "Herstellung"
+			texts: {
+				intro: "Du wirst bessere <highlight>Ausrüstung</highlight> brauchen, um das Erkunden, das Sammeln und die Verteidigung der Stadt effizienter zu machen. Bevor du neue Waffen und Rüstungen herstellen kannst, musst du etwas Forschung tätigen (dazu später mehr), du kannst jedoch bereits <highlight>einige Reparaturkits herstellen</highlight>."
+				craft: "Öffne mit <highlight>„C“</highlight> das Herstellungsfenster, wähle dann <highlight>Provisorisches Reparaturkit</highlight> aus und klicke auf die Schaltfläche <highlight>herstellen</highlight>. Du musst womöglich zuerst einige Bretter beschaffen."
+			}
+			objectives: {
+				craftrepairkit: "Stelle ein {0} her"
+			}
+		}
+		produce-food-farms: {
+			name: "Nahrungsproduktion - Landwirtschaft"
+			texts: {
+				farms: "Als nächstes solltest du dir deine Nahrungsvorräte anschauen, sie halten nicht ewig. Der erste Schritt in der Nahrungsproduktion ist der Anbau unverarbeiteter Nahrung. Einige <highlight>Purptoffel-Farm</highlight> sollten ausreichen. Du findest sie in der Kategorie <highlight>„Sammeln“</highlight>"
+				tesla: "Du kannst deinen Energiebereich erweitern, indem du <highlight>Teslatürme</highlight> aus der Kategorie „Energie“ baust."
+			}
+			objectives: {
+				buildtesla: "Baue {0} x{1}"
+				buildfarm: "Baue {0} x {1} in der Nähe der Stadt"
+			}
+		}
+		produce-food-process: {
+			name: "Nahrungsproduktion - Verarbeitung"
+			texts: {
+				intro: "Baue jetzt eine <highlight>Nahrungswerk</highlight> und platziere Schienen für den Transport der <highlight>Purptoffeln von der Farm</highlight> und schicke die produzierte Nahrung dann an das Lager <highlight>im Stadtkern</highlight>."
+				more-food: "Mit dem Bevölkerungswachstum wirst du auch mehr Nahrung produzieren müssen, du kannst weitere Farmen bauen, damit die Nahrungswerk maximale Effizienz erreicht. Du kannst die Menge der Eingabe und Ausgabe pro Zyklus im Produktionsmenü sehen, wenn du mit dem Gebäude interagierst."
+			}
+			objectives: {
+				buildfoodplant: "Baue: {0}"
+				producefood: "Beliefere {0} mit Purptoffeln"
+				sendfood: "Schicke Nahrung zum Lager"
+			}
+		}
+		power-flux: {
+			name: "Energie und Flux"
+			texts: {
+				intro: "Willst du die Stadt am Laufen halten, benötigst du mehr als Nahrung und Holz. Du musst zudem ausreichend <highlight>Energie</highlight> und <highlight>Flux</highlight> produzieren."
+				buildflux: "Häuser produzieren etwas Flux, du brauchst aber mehr davon. <highlight>Flux-Generatoren</highlight> können Flux produzieren und benötigen keine Nahrung. Baue einige davon <highlight>außerhalb deiner Stadt</highlight>. Ihre einfachsten Produktionsentwürfe benötigen keine unverarbeiteten Materialien, mache dir also keine Sorgen, wo du sie aufstellst."
+				buildpower: "<highlight>Energie</highlight> wird nicht für den Bau neuer Gebäude verwendet, ist für den Betrieb bestehender Gebäude aber unerlässlich. Sorge immer für eine positive Energieproduktion. Du kannst mit <highlight>Stromgenerator</highlight> Energie produzieren. Wie bei Flux, benötigt der einfachste Entwurf keine unverarbeiteten Materialien, jedoch können sie nicht zu nah nebeneinander gebaut werden."
+			}
+			objectives: {
+				buildflux: "Baue {0} x {1} in der Nähe der Stadt"
+				buildpower: "Baue {0} x {1} in der Nähe der Stadt"
+			}
+		}
+		move-objects: {
+			name: "Verwaltung des Stadtgebiets"
+			texts: {
+				intro: "Du bist fast bereit, im Alleingang auf Erkundung zu gehen. Vorher solltest du aber die Kernkonzepte des <highlight>Bauens innerhalb</highlight> oder <highlight>außerhalb</highlight> deiner Stadt verstehen."
+				flying: "Da deine Stadt <highlight>fliegen</highlight> kann, ist es von Vorteil, Gebäude in ihr zu bauen – du kannst <highlight>diese Gebäude mitnehmen</highlight>. Der Platz ist jedoch begrenzt. Du kannst zwar dein Stadtgebiet und das maximale Gewicht später erweitern, musst aber überlegen, was du in der Stadt baust. Die meisten einfachen Gebäude sind günstig und nehmen viel Platz weg, sie werden also am Besten außerhalb gebaut – und vor deinem Abflug abgerissen."
+				longrun: "Auf lange Sicht ist das Ziel jedoch, <highlight>deine Industrie beim Abflug in immer größerem Maße mitzunehmen</highlight>. Deshalb sollten einige der teureren Gebäude, oder <highlight>verbesserte Versionen</highlight> der einfachen Gebäude, innerhalb der Stadt gebaut werden."
+				moving: "Glücklicherweise werden die meisten dieser Gebäude auf eine Art und Weise gebaut, die es erlaubt, sie einfach von einem Ort an den anderen <highlight>zu bewegen</highlight>. Drücke <highlight>„M“</highlight> im Verwaltungsmodus und <highlight>bewege ein beliebiges Gebäude</highlight>."
+			}
+			objectives: {
+				movebuilding: "Bewege ein Gebäude"
+			}
+		}
+		tutorial-end: {
+			name: "Ende der Einleitung"
+			texts: {
+				end1: "Gute Arbeit! Das ist das Ende der Einleitung. Das war nur die <highlight>grundlegende Steuerung</highlight>, jetzt ist aber Zeit, dass du dich selbst auf den Weg machst. Weitere Spielsysteme und Mechaniken, wie die Forschung, Verbesserung der Infrastruktur und automatisierte Erntemaschinen werden erklärt, sobald du ihnen begegnest."
+				end2: "Deine erste Aufgabe ist es, <highlight>deine Bevölkerung zu vergrößern</highlight>, um das <highlight>Forschungslabor</highlight> freizuschalten. In das spiel sollst du einen Weg finden, eine dauerhafte Siedlung zu etablieren."
+				end3: "<highlight>Sammle</highlight> so viele <highlight>Ressourcen</highlight>, wie du <highlight>verarbeiten</highlight> kannst, und sei bereit, abzuheben, bevor die Traumplagen deine Verteidigungsstellungen überwältigen."
+				end4: "Solltest du Feedback haben, verwende bitte den „Feedback senden“-Knopf oder trete unserem Discord bei (Link im Titelbildschirm). Viel Glück!"
+			}
+		}
+		researchlab-unlocked: {
+			name: "Forschungslabore"
+			texts: {
+				build: "Deine Bevölkerung erlaubt dir jetzt, <highlight>Forschungslabore</highlight> zu bauen. Mit Forschungslaboren kannst du Technologien erforschen und neue Gebäude, Verbesserungen und weitere Boni freischalten."
+				research: "Drücke <highlight>„R“</highlight>, um das <highlight>Forschungsfenster</highlight> zu öffnen und wähle die Technologien aus, die du erforschen möchtest."
+				materials: "Damit die Labore Wissen produzieren können, musst du sie <highlight>immer wieder mit den nötigen Materialien versorgen</highlight>, wie im Produktionshelfer angezeigt wird, wenn du mit dem Labor interagierst."
+			}
+			objectives: {
+				buildlab: "Baue: {0}"
+				research-selected: "Wählen eine zu erforschende Technologie"
+				activatelab: "Beliefere {0} mit Ressourcen"
+			}
+		}
+		research-screen: {
+			name: "Forschungsfenster"
+			texts: {
+				desc: "Dieses Fenster erlaubt dir, deine Forschung zu planen und festzulegen. Jedes Forschungsobjekt ist mit Kosten in Form von <highlight>Wissenspunkten</highlight> und Elementen verbunden, die bei Abschluss der Forschung freigeschaltet werden.\n\nGehe mit der Maus über die freigeschalteten Dinge, um mehr über sie zu erfahren."
+				desc2: "<highlight>Klicke</highlight> auf ein beliebiges Forschungsobjekt, um ein Ziel zu setzen. <highlight>Umschalt + Klick</highlight> fügt weitere Objekte am Ende der Warteschleife hinzu.\n\nIst ein Forschungsziel ausgewählt, beginnen die Labore mit der Produktion von Wissen. Wissenspunkte werden dem ersten Objekt in der Forschungsschleife zugewiesen, bis dieses erforscht ist."
+			}
+		}
+		expand-city: {
+			name: "Erweiterung"
+			texts: {
+				desc: "Du kannst jetzt dein Stadtgebiet erweitern, um mehr Platz für Wohnraum und Produktionsgebäude zu schaffen."
+				desc2: "Wähle <highlight>„Stadterweiterung“</highlight> in der Kategorie <highlight>„Infrastruktur“</highlight> im <highlight>Baumenü</highlight> aus und wähle dann die Erweiterung, die du auf der Karte erwerben möchtest."
+			}
+		}
+		missing-workers: {
+			name: "Arbeiter"
+			texts: {
+				desc: "Du hast nicht genügend Arbeiter für alle deine Gebäude. Deine Bevölkerung dient auch als Arbeitskraft, die deine Stadt und Industrie am Laufen hält. <highlight>Arbeiter entstehen im Stadtkern</highlight>, jedoch nur dann, wenn <highlight>Wohnraum</highlight> verfügbar ist."
+				desc2: "Erhöhe deine maximale Bevölkerung, indem du <highlight>Häuser baust oder verbesserst</highlight> und stelle sicher, dass sie eine konstante <highlight>Lebensmittelversorgung</highlight> haben. Häuser <highlight>ohne Energie oder Nahrung</highlight> zählen nicht als Wohnraum."
+			}
+		}
+		mini-raids: {
+			name: "Umherziehende Traumplagen"
+			texts: {
+				desc: "Solange deine Stadt am Boden ist, bleibt sie angreifbar. Die meisten Traumplagen sind untätig, solange du ihnen nicht zu Nahe kommst, gelegentlich können sich aber kleine Gruppen zu deiner Stadt verirren und sie <highlight>ohne Vorwarnung angreifen</highlight>."
+				desc2: "Auch wenn Tiny leicht mit diesen Gruppen fertig wird, kannst du nicht überall sein und diese Kreaturen können ungeschützte Gebäude schnell zerstören. Um das zu verhindern, solltest du alle Eingänge deiner Stadt mit <highlight>Mauern und Toren</highlight> schützen und sie mit <highlight>Türmen</highlight> verteidigen."
+			}
+			objectives: {
+				build-turret: "Baue {0} x{1}"
+				build-wall: "Baue {0} x{1}"
+			}
+		}
+		attack-warning: {
+			name: "Trep-Angriffe"
+			texts: {
+				desc: "Solange die Stadt am Boden ist, zieht sie größere Gruppen von Trep an, die versuchen werden, sie zu zerstören. <highlight>Trep-Angriffe</highlight> sind gefährlicher als Trep, die einfach umherwandern, und greifen in mehreren Wellen an."
+				desc2: "Du kannst <highlight>den Angriff auf der Minikarte verfolgen</highlight> und wir raten sehr dazu, Verteidigungsstellungen zu bauen und deine Gebäude in Richtung des Angriffs zu verteidigen.\n\n<highlight>Türme</highlight> bieten zusätzliche Feuerkraft, können aber nur wenig Schaden widerstehen, vergiss also nicht, <highlight>Mauern</highlight> zu errichten."
+				desc3: "Holztürme schießen nur langsam, fügen aber <highlight>explosiven Flächenschaden</highlight> zu. Sie eignen sich gut gegen Ansammlungen schwacher Feinde, du musst sie womöglich aber mit stärkeren Türmen unterstützen.\n\nZudem kannst du Türme bewegen, wenn du deine Stadt neu organisierst, jedoch nur dann, wenn keine Angriffe aktiv oder im Anmarsch sind."
+			}
+		}
+		taking-off: {
+			name: "Abheben"
+			texts: {
+				desc: "So lange deine Stadt an Ort und Stelle bleibt, werden die Angriffe der Trep immer aggressiver. Du kannst die aktuelle <highlight>Bedrohungsstufe</highlight> in deinem HUD sehen."
+				desc2: "Wenn du das Gefühl hast, dass sie zu stark werden, solltest du abheben und dir einen ruhigeren Landeplatz suchen. <highlight>Klicke auf die Schaltfläche „Abflug“</highlight> im HUD, um das Abflugverfahren einzuleiten. Es <highlight>dauert einige Zeit</highlight>, bis die Triebwerke aufgewärmt sind, <highlight>warte also nicht zu lange</highlight>, sonst verarbeiten sie dich zu Trep-Futter."
+				desc3: "Vergiss nicht, dass du nur Gebäude mitnehmen kannst, die sich innerhalb der Stadt befinden, also solltest du dir überlegen, die Gebäude außerhalb abzureißen, um einige der Ressourcen zurückzuerlangen oder sie in das Stadtinnere zu bewegen, wenn du noch Platz und Tragkraft frei hast."
+				desc4: "Zudem sind unverarbeitete Materialien wie Stämme zu schwer, um transportiert zu werden, sie werden ebenfalls zurückgelassen. Verarbeite vor dem Abflug so viele davon wie möglich. Und stelle sicher, dass sich Tiny bei Ablauf der Zeit in der Stadt befindet!"
+			}
+		}
+		infrastructure-upgrades: {
+			name: "Infrastrukturverbesserungen"
+			texts: {
+				desc: "Du kannst jetzt eine Werkstatt bauen, die Materialien für die <highlight>Verbesserung deiner Infrastruktur</highlight> produziert. Infrastrukturverbesserungen verleihen dir dauerhafte Boni und Fähigkeiten."
+				desc2: "Drücke <highlight>„K“</highlight>, um das Infrastrukturfenster zu öffnen und mehr über diese Verbesserungen zu erfahren."
+			}
+			objectives: {
+				produce-parts: "Produziere {0} x {1}"
+				purchase-upgrade: "Kaufe eine Infrastrukturverbesserung"
+			}
+		}
+		infrastructure-window: {
+			name: "Infrastrukturfenster"
+			texts: {
+				desc: "Dies ist das Infrastrukturfenster. Hier kannst du <highlight>Verbesserungsmaterialien</highlight> verwenden, um deine Infrastruktur zu verbessern und dauerhafte Vorteile zu erhalten."
+				desc2: "Klicke auf die Schaltfläche <highlight>Verbessern</highlight>, um Verbesserungspunkte zu erwerben. Danach kannst du auf die verschiedenen <highlight>Bereiche</highlight> deiner Infrastruktur klicken, um sie zu verbessern. Jede Stufe eines Bereichs der Infrastruktur liefert passive Boni.\n\nSobald sie verbessert sind, kannst du zusätzliche Punkte auf spezielle <highlight>Vorteile</highlight> innerhalb der verschiedenen Bereiche verteilen. Diese bieten noch spezialisiertere Boni und Fähigkeiten."
+			}
+		}
+		multiple-productions: {
+			name: "Produktionswechsel"
+			texts: {
+				desc: "Einige Gebäude können mehr als einen Entwurf produzieren, sobald weitere Entwürfe freigeschaltet wurden.\n\n<highlight>Klicke auf den Namen des Produktionsentwurfs</highlight>, um einen anderen Entwurf auszuwählen."
+				desc2: "Für einige Entwürfe sind bestimmte Erweiterungen vorausgesetzt, bevor sie in diesem Gebäude produziert werden können."
+			}
+		}
+		rail-crossing: {
+			name: "Schienenkreuzungen"
+			texts: {
+				desc: "Schienenkreuzungen nutzen Nullraumtechnologie, damit sich zwei Schienen kreuzen können, ohne einen Verkehrsstau auszulösen."
+				desc2: "Ziehe und baue einen Schienenabschnitt so, dass er einen anderen Schienenabschnitt kreuzt, um automatisch eine Kreuzung zu erstellen."
+			}
+			objectives: {
+				build-crossing: "Baue eine Schienenkreuzung"
+			}
+		}
+		drep-crafting: {
+			name: "Trep-Verarbeitung"
+			texts: {
+				desc: "Du hast eine Technologie erforscht, mit der du Überreste von Traumplagen zu wertvollen Materialien verarbeiten kannst. Verwende die Kategorie Ressourcen im Herstellungsfenster."
+			}
+			objectives: {
+				craft: "Verarbeiten von Trep-Überresten"
+			}
+		}
+		splitter-unlocked: {
+			name: "Sortierer"
+			texts: {
+				desc: "Forschung der Sortierer ist abgeschlossen. Diese Geräte können auf Schienen platziert werden und sortieren die darin enthaltenen Gegenstände je nach Konfiguration in drei separate Ausgänge."
+				desc2: "Nachdem ein Sortierer aufgestellt wurde, öffne seine Benutzeroberfläche, um zu konfigurieren, welche Gegenstände in die einzelnen Ausgänge gehen sollen."
+			}
+		}
+		expeditioncenter-unlocked: {
+			name: "Expeditionszentrum"
+			texts: {
+				desc: "Du kannst jetzt ein Expeditionszentrum bauen. Dieses einzigartige Gebäude ermöglicht die Auswahl und Aussendung von Expeditionen zum Sammeln von Vorräten und uralter Technik über die unmittelbare Umgebung hinaus."
+				desc2: "Baue ein Expeditionszentrum und interagiere damit, um mehr über Expeditionen zu erfahren."
+			}
+		}
+		expeditions: {
+			name: "Expeditionen"
+			texts: {
+				desc: "Dies ist der Expeditions-Auswahlbildschirm Jede Karte hat unterschiedliche Expeditionsoptionen, abhängig vom Biom und dem Schwierigkeitsgrad der Karte. Expeditionen unterscheiden sich hinsichtlich ihrer Kosten, Vorbereitungsdauer, Länge und möglichen Belohnungen.\n\nDu kannst alle Informationen einsehen, bevor du eine Expedition zum Aussenden wählst."
+				desc2: "Jede Expedition hat zwei Phasen: Eine <highlight>Vorbereitungs</highlight>phase und eine <highlight>Aktive</highlight> Phase.\n\nWählst du eine Expedition aus, werden die <highlight>Vorabkosten sofort bezahlt</highlight> und die Vorbereitungsphase beginnt. Während der Vorbereitungsphase verursacht das Expeditionszentrum <highlight>Betriebskosten, deren Höhe von der gewählten Expedition abhängen</highlight>.\n\nNach Abschluss der Vorbereitungen beginnt die Expedition, und die Betriebskosten, mit Ausnahme der Kosten für die Mannschaft (Arbeiter), entfallen."
+				desc3: "Nach dem erfolgreichen Abschluss einer Expedition kehrt die Mannschaft wieder in den Arbeiterbestand zurück und du kannst <highlight>deine Belohnungen wählen</highlight>.\n\nAusbeute aus Expeditionen kann <highlight>Ressourcen</highlight>, <highlight>Treibstoff</highlight> und einige <highlight>einzigartige Gegenstände und Boni</highlight> umfassen, die nirgendwo sonst zu finden sind."
+			}
+		}
+		archeology-unlocked: {
+			name: "Archäologieprojekte"
+			texts: {
+				desc: "Die Archäologie ermöglicht es dir, ernsthafte Projekte durchzuführen, die auf der Technologie der alten Welt basieren und dir mächtige, dauerhafte Boni einbringen."
+				desc2: "Schalte neue Projekte frei, indem du Ruinen plünderst. Um diese Projekte durchführen zu können, musst du zuerst den Archäologen erforscht und gebaut haben."
+			}
+		}
+		archeology: {
+			name: "Archäologieprojekte"
+			texts: {
+				desc: "Wähle ein Archäologieprojekt, um mit der Arbeit daran zu beginnen. Unterschiedliche Projekte haben unterschiedliche Kosten, die dem Archäologen während der Durchführung stets bereitgestellt werden müssen.\n\nSobald die Projekte abgeschlossen wurden, sind ihre Boni permanent und erfordern keine weiteren Ressourcen."
+				desc2: "Mehrere Archäologen können an demselben Projekt arbeiten, wenn ihnen die benötigten Materialien ebenfalls zur Verfügung gestellt werden."
+				desc3: "Neue Archäologieprojekte können beim Plündern von Ruinen gefunden werden."
+			}
+		}
+		council: {
+			name: "Stadtrat"
+			texts: {
+				desc: "Wenn deine Stadt groß genug ist, wählen deine Bürger einen Stadtrat. Bei jeder Wahl werden drei Ratsmitglieder gewählt, eines für jede Fraktion.\n\nEs liegt an dir, als Aufseher das <highlight>Ratsoberhaupt</highlight> aus den Reihen der Ratsmitglieder zu wählen.\n\nDu musst ein Ratsoberhaupt wählen, bevor du dieses Fenster schließen kannst."
+				desc2: "Jedes Ratsmitglied hat eigene <highlight>Boni und Abzüge</highlight>, die aktiv werden, wenn du es als neues Ratsoberhaupt wählst, und bis zur nächsten Wahl aktiv bleiben.\n\nZudem <highlight>erhältst du Einfluss</highlight> in der Fraktion des Ratsmitglieds und <highlight>verlierst Einfluss</highlight> in den anderen zwei Parteien."
+				desc3: "Links siehst du deinen Einfluss in den unterschiedlichen Fraktionen. Wenn dein <highlight>Einfluss</highlight> in einer Fraktion hoch oder niedrig genug ist, erhältst du <highlight>Boni oder Abzüge</highlight> spezifisch für diese Fraktion.\n\nFahre über die unterschiedlichen Abschnitte der Einflussanzeige, um die erforderliche Einflussstufe und deren Effekte anzuzeigen."
+			}
+		}
+		resource-elevators: {
+			name: "Automatisierte Erntemaschinen"
+			texts: {
+				desc: "Mit der Erforschung von Ressourcenabgabepunkten können deine Erntemaschinen jetzt <highlight>automatisch Ressourcen</highlight> an diese neuen Gebäude schicken."
+				desc2: "Du kannst für jedes Abgabegebäude bestimmen, welche Ressourcen es erhalten soll und die Erntemaschinen, die keine Schienenausgabe haben, schicken stattdessen Wagen zum Abgabepunkt, der ihnen am nächsten ist und ihre Ressourcen annimmt."
+				desc3: "Erntewagen können nicht in der Stadt fahren, daher muss die Ablage außerhalb oder am Stadtrand gebaut werden."
+			}
+		}
+		exporter: {
+			name: "Ressourcen-Packer"
+			texts: {
+				desc: "Ressourcen-Packer liefern Materialien an nahe Abgabepunkte, wie automatisierte Erntemaschinen. Packer können <highlight>jede Ressource</highlight> versenden, nicht nur Rohmaterialien."
+				desc2: "Beliefere den Packer über Schienen mit Ressourcen und lege einen Ablagepunkt fest, um diese Materialien zu erhalten."
+			}
+		}
+		gamepedia: {
+			name: "Traumarchiv"
+			texts: {
+				desc: "Schaltest du neue Optionen frei, kannst du Informationen über sie im <highlight>Traumarchiv</highlight> finden. Drücke <highlight>„H“</highlight>, um das Archiv zu öffnen."
+			}
+		}
+		carrycapacity: {
+			name: "Gewicht und Tragkraft"
+			texts: {
+				desc: "Deine Stadt wird schwerer. Jedes Gebäude erhöht das Gewicht der Stadt und wenn dieses Gewicht deine Tragkraft übersteigt, ist ein Abflug nicht mehr möglich."
+				desc2: "Du kannst deine Tragkraft erhöhen, indem du Triebwerke verbesserst oder neue baust (setzt Forschung voraus)."
+				desc3: "Du kannst das Gewicht verringern, indem du Gebäude verbesserst, anstatt neue zu bauen und du kannst einige der Verteidigungsstellungen außerhalb der Stadt errichten."
+			}
+		}
+		overweight-takeoff: {
+			name: "Übergewicht während des Abhebens"
+			texts: {
+				desc: "Du hast die Tragkraft während der Abhebephase überschritten.\n\nDer Aufladevorgang wird nun <highlight>angehalten</highlight>, aber wenn du es in den nächsten Sekunden schaffst, das <highlight>Gewicht der Stadt auszugleichen</highlight>, wird er dort fortgesetzt, wo er aufgehört hat. Wenn du zu lange brauchst, gehen alle Fortschritte verloren und der Aufladevorgang muss neu gestartet werden."
+			}
+		}
+		low-health: {
+			name: "Geringe Gesundheit"
+			texts: {
+				desc: "Tinys Gesundheit geht zur Neige. Seine Gesundheit <highlight>regeneriert sich in der Stadt</highlight> langsam und du kannst <highlight>Reparaturkits</highlight> der Schnellleiste zuweisen und von dort verwenden."
+				desc2: "Wenn du zu viel Schaden erhältst, wird ein <highlight>Rettungsteleporter</highlight> aktiviert, der dich in die Stadt zurückschickt. Dabei verlierst du jedoch <highlight>wertvolle Zeit und Ressourcen</highlight>.\n\nSorge dafür, dass Tiny unversehrt bleibt."
+			}
+		}
+		armored-enemies: {
+			name: "Gepanzerte Feinde"
+			texts: {
+				desc: "Einige der größeren Kreaturen gelten als <highlight>gepanzert</highlight>. Deine <highlight>Holztürme</highlight> sind gegen sie nicht effektiv und verursachen <highlight>reduzierten Schaden</highlight>."
+				desc2: "Verbessere deine Verteidigungsgebäude, damit sie besser mit ihnen fertig werden. Falls es hart auf hart kommt, solltest du nicht zögern, davonzufliegen, bis du bereit bist."
+			}
+			objectives: {
+				build-turret: "Baue: {0}"
+			}
+		}
+		destination-select: {
+			name: "Ziel auswählen"
+			texts: {
+				desc: "Gratulation, deine Stadt <highlight>fliegt</highlight> zum ersten Mal!\n\nIn diesem Fenster wählst du aus, wo du als nächstes landest."
+				desc2: "Wähle deinen nächsten Landeplatz sorgfältig aus. Deine Wahl wirkt sich auf die <highlight>Stärke der Feinde</highlight> aus, welche <highlight>Ressourcen auf der Karte erscheinen</highlight> und wie viele es davon gibt."
+				desc3: "Die Optionen, die dir zu Auswahl, stehen hängen von der aktuellen <highlight>globalen Befallstufe</highlight> ab (sie wird oben links auf dem Bildschirm angezeigt)."
+				desc4: "Gefällt dir keine der Optionen, kannst du auf die Schaltfläche <highlight>Woanders hinfliegen</highlight> klicken, um die Auswahl auf Kosten von etwas Treibstoff zu aktualisieren."
+			}
+		}
+		abilities: {
+			name: "Aktive Fähigkeiten"
+			texts: {
+				desc: "Du hast gerade Tinys erste <highlight>aktive Fähigkeit</highlight> freigeschaltet. Aktive Fähigkeiten können wie Reparaturkits oder andere Verbrauchsgegenstände verwendet werden, ihre Verwendung benötigt jedoch keine Ressourcen."
+				desc2: "Du kannst Fähigkeiten, so wie Verbrauchsgegenstände, deiner <highlight>Schnellleiste</highlight> zuweisen und die meisten von ihnen haben eine <highlight>Abklingzeit</highlight>, die einschränkt, wie oft du sie verwenden kannst."
+			}
+		}
+		passive-income: {
+			name: "Passives Einkommen"
+			texts: {
+				desc: "Du hast einen passiven Einkommensbonus erhalten. Diese Boni bieten dir ein regelmäßiges Einkommen der angegebenen Ressourcen."
+				desc2: "Wenn du eine Ressourcenabgabe für diese Ressourcen hast, werden sie dort abgelegt. Ansonsten werden sie im Stadtkern abgelegt."
+			}
+		}
+		misc-items: {
+			name: "Verwendbare Gegenstände"
+			texts: {
+				desc: "Du hast einen verwendbaren Gegenstand erhalten. Verwende ihn, indem du dein Inventar öffnest und mit der rechten Maustaste auf den Gegenstand klickst. Diese Gegenstände könne nicht der Schnellleiste zugewiesen werden, da sie nicht dafür gedacht sind, im Kampf verwendet zu werden."
+			}
+		}
+		upgrade-layer: {
+			name: "Verbesserungsebene"
+			texts: {
+				desc: "Wenn du dich im Verwaltungsmodus befindest, kann die <highlight>„Verbesserungsebene“</highlight> mit der Schaltfläche links neben der Minikarte aktiviert werden."
+				desc2: "Ist sie aktiv, zeigt jedes Gebäude ein Symbol mit dessen <highlight>aktueller Stufe</highlight> an und eine Schaltfläche, mit der du das Gebäude direkt in der Spielansicht <highlight>verbessern</highlight> kannst. Diese Ansicht ist für die Verwaltung deiner Ökonomie und das Verbessern von Gebäuden überaus hilfreich."
+				desc3: "Weitere Verwaltungsebenen stehen dir zur Verfügung. Gehe mit der Maus über die entsprechenden Schaltflächen, um mehr zu erfahren."
+			}
+		}
+		onoff-tool: {
+			name: "An/Aus-Werkzeug"
+			texts: {
+				desc: "Im Verwaltungsmodus kannst du mit der Schaltfläche <highlight>„An/Aus-Werkzeug“</highlight> (Standardkürzel „O“) Gebäude direkt in der Spielansicht aktivieren oder deaktivieren."
+			}
+		}
+		rebuild-debris: {
+			name: "Schutt und Wiederaufbau"
+			texts: {
+				desc: "Einige deiner Gebäude wurden von den Traumplagen zerstört. Zerstörte Gebäude hinterlassen Schutt, mit deren Hilfe du sehen kannst, was dort einst stand und das Gebäude bei Bedarf wieder aufbauen kannst."
+				desc2: "Wiederaufbau stellt das Gebäude und alle Verbesserungen, Erweiterungen und Eingaben/Ausgaben wieder her. Es kostet genauso viel wie ein Neubau, aber lässt dich alles mit einem Klick wiederherstellen."
+				desc3: "Wiederaufbauen kannst du über das „Wiederaufbauen“-Werkzeug (Standard-Taste „L“), oder indem du den Schutt anklickst und das Bauinformation-Fenster verwendest."
+			}
+		}
+		sit-city-info: {
+			name: "Stadtinformation"
+			texts: {
+				desc: "Klicke im HUD auf einen Stadtnamen, um das Städteinformationsfenster zu öffnen. Dieses Fenster zeigt auch Informationen zur aktuellen Landezone an."
+			}
+		}
+		teslacrats-production: {
+			name: "Ressourcenduplizierung"
+			texts: {
+				desc: "Du hast soeben die einzigartige Technologie der Teslakrate erforscht, die das Duplizieren von Ressourcen ermöglicht. Um eine Ressource zu duplizieren, musst du zuerst die für den Entwurf erforderliche Grundmenge erhalten und dann die Herstellungsoberfläche unter der Registerkarte „Ressourcen“ verwenden."
+				desc2: "Die in diesem Prozess verwendete Maschinerie verschlechtert sich bei jeder Verwendung, sodass der Preis für die Duplizierung von Ressourcen nach jeder Charge steigt. Die Preise normalisieren sich langsam wieder, wenn die Maschinen nicht benutzt werden und wenn man zu einem neuen Ziel fliegt."
+			}
+		}
+		raid-spawners: {
+			name: "Risse"
+			texts: {
+				desc: "Du hast einen Albtraum-Riss gefunden. Das ist einer von mehreren möglichen Punkten, an denen Traumplagen während Überfällen erscheinen."
+				desc2: "Risse sind instabil und du kannst nicht in ihrer Nähe bauen."
+			}
+		}
+	}
+}

@@ -1,0 +1,847 @@
+{
+	missions: {
+		welcome-no-tut: {
+			name: "Welcome"
+			desc: "Welcome to Dream Engines. The tutorial is disabled, but the <highlight>milestones</highlight> at the top-right of the screen are there to help guide you. Mouse over a milestone to learn more about it.\n\nRemember: press <highlight>'Tab'</highlight> to switch between combat and city management modes."
+		}
+
+		welcome-pre-fortifications-save: {
+			name: "Critical changes since your last save"
+			desc: "Welcome back to Dream Engines. We've released a new update after your last save. This update includes changes to enemy raids that could <highlight>get you killed</highlight> if you're <highlight>unaware</highlight> of them. Here are some of the most important changes:\n\n* Enemies in raids will now <highlight>ignore walls</highlight> unless they block their way. Walls are also stronger now.\n\n* Wandering enemies will occasionally <highlight>attack your city</highlight> and buildings <highlight>without warning</highlight>. These are much weaker than the raids, but you need to make sure all your buildings are well defended.\n\n* Larger tier2 and higher enemies are now <highlight>armored</highlight>. Wooden turrets and light crossbows <highlight>deal half-damage</highlight> to these. You may want to replace your turrets with more advanced versions.\n\n* There are now <highlight>stone turrets and walls</highlight> in the game."
+		}
+
+		// Tutorial Missions
+		welcome: {
+			name: "Welcome"
+			texts: {
+				desc: "Welcome to Dream Engines. This <highlight>tutorial</highlight> will guide you through the basic controls of the game.\n\nThis is only a guide and does not affect the game, so you can still lose if your city gets destroyed during the tutorial."
+				desc2: "Follow the instructions in the <highlight>top-right</highlight> area of the screen."
+			}
+		}
+
+		images: {
+			name: "Navigating the Tutorial"
+			texts: {
+				intro: "Some tutorial messages such as this one include visual guides in the form of videos and images. Hover your mouse over the video icon in order to view it."
+				previous: "You can review all previous tutorials in the journal, by pressing the F1 key or the help button in the game (ESC) menu."
+				pause: "You can also pause the game and take your time to read the tutorial messages. Press the space bar to pause/unpause the game at any time."
+			}
+			objectives: {
+				hover-video: "Hover the video icon above"
+				unpause: "Pause and unpause the game"
+			}
+		}
+
+		movement: {
+			name: "Movement"
+			texts: {
+				intro: "As overseer, you control <highlight>Tiny</highlight> - an ancient armored exploration unit."
+				move: "Move tiny around with the <highlight>WASD</highlight> keys."
+				zoom: "Use the <highlight>mouse wheel</highlight> to zoom in or out."
+				rotate: "Hold the <highlight>middle mouse button</highlight> to rotate your camera."
+			}
+			objectives: {
+				movemech: "Move around"
+				movemech-hover: "As overseer, you control <highlight>Tiny</highlight> - an ancient armored exploration unit.\n\nUse the <highlight>WASD</highlight> keys to move around. Tiny will always face towards the mouse pointer."
+				zoom: "Change zoom"
+				zoom-hover: "Use the <highlight>mouse scroll wheel</highlight> to zoom in or out."
+				rotate: "Rotate Camera"
+				rotate-hover: "Hold the <highlight>middle mouse button</highlight> and move the mouse to rotate your camera.\n\nYou can press <highlight>'N'</highlight> to return it to the default view."
+			}
+		}
+
+		switch-to-mgmt-mode: {
+			name: "Combat & Management Modes"
+			texts: {
+				combat-mode: "<highlight>Combat mode</highlight> is used when exploring the map and for fighting enemies."
+				mgmt-mode: "<highlight>Management mode</highlight> is used for building and managing your city."
+				switch: "Press <highlight>'Tab'</highlight> to switch between modes and open the management mode."
+			}
+			objectives: {
+				management-mode: "Switch to management mode"
+			}
+		}
+
+		build-houses: {
+			name: "Building"
+			texts: {
+				intro: "To increase your city's population, <highlight>build some houses</highlight> for your workers to live in."
+				build: "Select the <highlight>'House'</highlight> button from the build menu, and then click on the map to place them."
+			}
+			objectives: {
+				buildhouses: "Build houses"
+			}
+		}
+
+		build-rails: {
+			name: "Automated Delivery"
+			texts: {
+				intro: "Houses need a constant supply of food. Resources in Dream Engines are transported via an <highlight>automated rail system</highlight> that works like conveyor belts."
+				build: "To build rails, select them from the Infrastructure category, then click and drag in the direction you want the resources to travel."
+				access-points: "Buildings send or receive resources from access points. Drag rails to/from a building to create input/output slots."
+			}
+			objectives: {
+				sendfood: "Create an output to send food from the city core"
+				connect-houses: "Create inputs for the houses"
+				housesactive: "Connect the rails and deliver food to both houses."
+			}
+		}
+
+		equip-repairkit: {
+			name: "Inventory & Equipment"
+			texts: {
+				intro: "Before you explore the dangerous surroundings in search of additional resources, you should equip some <highlight>repair kits</highlight> in case Tiny takes damage."
+				grab: "The repair kits are in the city core. To open the building window, <highlight>left click</highlight> on it while in <highlight>management mode</highlight>."
+				equip: "Then assign the repair kit to a quickslot. Press <highlight>'I'</highlight> to open the character window."
+			}
+			objectives: {
+				collectrepairkit: "Grab repair kits from the city core storage"
+				equiprepairkit: "Assign repair kit to the quickbar"
+			}
+		}
+
+		grab-items: {
+			name: "Transferring Items"
+			texts: {
+				grab: "This is the building window. You can see Tiny's inventory on the left, and the building's storage and other info on the right.\n\nHold <highlight>'SHIFT'</highlight> and <highlight>click</highlight> on the <highlight>Repair Kit</highlight> icon to grab the entire stack."
+			}
+		}
+
+		quickbar: {
+			name: "Assigning to Quickbar"
+			texts: {
+				assign: "Click on one of the <highlight>empty quickbar slots</highlight> in the character area and then choose the item you wish to assign to that slot.\n\nOnce assigned, you can press the corresponding keyboard shortcut while in combat mode to use that item."
+			}
+		}
+
+		tiny-combat: {
+			name: "Fighting Dream Plagues"
+			texts: {
+				intro: "While exploring, Tiny will encounter the Dream Plagues (Drep). Tiny is equipped with replaceable weapons, one ranged and one melee, with which it can defend against these hostile creatures."
+				attack: "Use the <highlight>left mouse button</highlight> to use Tiny's melee attack, and the <highlight>right mouse button</highlight> for ranged attacks."
+				tips: "Press and hold to attack continuously, and don't forget to press <highlight>TAB</highlight> to switch to combat mode."
+			}
+			objectives: {
+				combatmode: "Switch to combat mode"
+				meleeattack: "Attack with melee weapon"
+				rangedattack: "Attack with ranged weapon"
+			}
+		}
+
+		collect-bloodwood: {
+			name: "Harvesters"
+			texts: {
+				intro: "It's time to collect some resources. Explore the area around the city that is marked on your minimap and search for a <highlight>Bloodwood</highlight> resource node."
+				build: "To build a harvester, switch to management mode, <highlight>click on the resource</highlight> to open its window, and then click on the <highlight>Bloodwood Cutter</highlight> button."
+			}
+			objectives: {
+				findwood: "Find a bloodwood resource patch"
+				gatherwood: "Build a {0}"
+			}
+		}
+
+		build-warper: {
+			name: "Production"
+			texts: {
+				intro: "You're now collecting logs, but before you can use them they need to be refined into <highlight>planks</highlight> and transfered to <highlight>storage</highlight>. Logs and other raw materials cannot be taken with you when you fly away while refined materials can."
+				buildwoodwarper: "Planks are produced from logs at a <highlight>Wood Warper</highlight>. Wood warpers needs to be within your <highlight>power area</highlight>, so it's better to build near the city."
+				freecamera: "In management mode, press 'Space' to pause the game, and 'F' to toggle free camera. You can then build all around the map without moving Tiny while the game is paused."
+			}
+			objectives: {
+				buildwoodwarper: "Build {0} x {1} and supply them with logs"
+			}
+		}
+
+		speedup: {
+			name: "Speed-up"
+			texts: {
+				sendplanks: "Now build some rails to send planks from the warpers into your city core for storage, then wait for some planks to be produced."
+				speedup: "You can speed-up the game when waiting for the planks to be delivered. Press and hold the speed-up button (Default '+') after building the rails."
+			}
+			objectives: {
+				haveplanks: "Collect {0} x{1}"
+			}
+		}
+
+		city-level1: {
+			name: "City Level"
+			texts: {
+				nodes: "As you explore, keep your eye out for additional resource nodes. Once a resource node is depleted, it will produce at a reduced speed and you may want to connect more nodes."
+				increase-pop: "Now, <highlight>increase your city population level</highlight> to unlock some more buildings. To increase your city level you need to increase your population. You can see the progress in the HUD at the top of the screen."
+			}
+			objectives: {
+				build-houses: "Supply food to 3 houses"
+				city-level1: "Reach a population of {1}"
+			}
+		}
+
+		craft-repairkit: {
+			name: "Crafting"
+			texts: {
+				intro: "In order to be more efficient in exploring, gathering, and defending your city, you'll need better <highlight>equipment</highlight>. Before you can craft new weapons or armor you'll have to perform some research (more on that later), but you can already <highlight>craft some more repair kits</highlight>."
+				craft: "Press <highlight>'C'</highlight> to open the crafting window, then select the repair kit and click the craft button. You may need to get some more planks first."
+			}
+			objectives: {
+				craftrepairkit: "Craft a {0}"
+			}
+		}
+
+		produce-food-farms: {
+			name: "Food Production - Farming"
+			texts: {
+				farms: "You should see to your food supplies next, they won't last forever. First step in food production is growing raw food. A few <highlight>Purptato Farms</highlight> should do the trick. You will find them under the <highlight>'Gathering'</highlight> category."
+				tesla: "You can expand your power area by building <highlight>Tesla Towers</highlight> from the Power category."
+			}
+			objectives: {
+				buildtesla: "Build a Tesla Tower"
+				buildfarm: "Build purptato farms near the city"
+			}
+		}
+
+		produce-food-process: {
+			name: "Food Production - Processing"
+			texts: {
+				intro: "Now build a <highlight>Food Plant</highlight> and set up rails to transport <highlight>purptatoes from the farm</highlight>, then send the produced food <highlight>to the city core</highlight> storage."
+				more-food: "As your population grows, you will need to produce more food, and you can build more farms for the Food Plant to reach full efficiency. You can see input and output amount per cycle in the production UI when interacting with the buildings."
+			}
+			objectives: {
+				buildfoodplant: "Build a {0}"
+				producefood: "Supply {0} with purptatoes"
+				sendfood: "Send food to storage"
+			}
+		}
+
+		power-flux: {
+			name: "Power & Flux"
+			texts: {
+				intro: "To keep the city running, you will need more than food and wood. You will also need to produce enough <highlight>Power</highlight> and <highlight>Flux</highlight>."
+				buildflux: "Some Flux is produced in houses, but higher amounts require Flux Vats. Build some of these <highlight>outside your city</highlight>. Their most basic production recipe doesn't require any raw materials so don't worry about where you put them."
+				buildpower: "Power is not required to build new buildings, but is essential to operating existing ones. Make sure your power production is always positive. You can produce power at the <highlight>Power Generator</highlight>. Like flux, it's most basic recipe does not require any raw materials, but these cannot be built too close to each other."
+			}
+			objectives: {
+				buildflux: "Build {0} x {1} near the city"
+				buildpower: "Build {0} x {1} near the city"
+			}
+		}
+
+		move-objects: {
+			name: "City Area Management"
+			texts: {
+				intro: "You're almost ready to start exploring on your own. Before that, you should understand the core concept of <highlight>building inside</highlight> or <highlight>outside</highlight> your city."
+				flying: "Since your city can <highlight>fly</highlight>, there are advantages to building inside it - you can <highlight>take these buildings with you</highlight>. Space is limited, however, and while you can later expand your city area and maximum weight - you'll need to prioritize what you build within it. Most of the basic buildings are cheap and take up a lot of space, which makes them better fit to be built outside - and scrapped before you leave."
+				longrun: "In the long run, however, you will want to be able to take more and more of your industry with you when you fly away. So some more expensive buildings, or <highlight>upgraded versions</highlight> of the basic ones, should be built inside the city."
+				moving: "Luckily, most buildings can be moved around. To move a building, press <highlight>'M'</highlight> in management mode, then click the building you want to move and place it in a new position."
+			}
+			objectives: {
+				movebuilding: "Move a building"
+			}
+		}
+
+		tutorial-end: {
+			name: "End of tutorial"
+			texts: {
+				end1: "Good job! This is the end of the tutorial. These were just the most basic controls, there's much more for you to learn. Additional features and mechanics such as researching, defending your city, flying away and infrastructure upgrades will be explained when you encounter them."
+				end2: "Your first goal should be to <highlight>grow your population</highlight> to unlock the <highlight>research lab</highlight>. The final goal of the game is to find a way to establish a <highlight>permanent settlement</highlight>."
+				end3: "<highlight>Collect</highlight> as many <highlight>resources</highlight> as you can <highlight>refine</highlight> and be prepared to fly away before the Dream Plagues overwhelm your defenses."
+				end4: "If you have any feedback, please use the send feedback button or join our discord (link in the title screen). Good luck!"
+			}
+		}
+
+
+
+		// Situational Tutorials
+
+		researchlab-unlocked: {
+			name: "Research Labs"
+			texts: {
+				build: "Your population now allows you to build <highlight>research labs</highlight>. Build labs to research technologies and unlock new buildings, equipment, and other bonuses."
+				research: "Press <highlight>'R'</highlight> to open the research screen and select technologies to research."
+				materials: "For the labs to produce knowledge, make sure you <highlight>regularly supply them with the required materials</highlight>, as shown in the production widget when interacting with the lab."
+			}
+			objectives: {
+				buildlab: "Build a {0}"
+				research-selected: "Select a technology to research"
+				activatelab: "Supply {0} with resources"
+			}
+
+		}
+
+		research-screen: {
+			name: "Research Screen"
+			texts: {
+				desc: "This screen allows you to plan and set your research. Each subject has a cost in <highlight>knowledge points</highlight>, and elements that are unlocked by completing this research.\n\nHover your mouse over the unlocks to learn more about them."
+				desc2: "<highlight>Click</highlight> on any research subject to set a goal. <highlight>Shift + click</highlight> to add additional subjects to the end of the queue.\n\nOnce a research goal is selected, labs will start producing knowledge. Knowledge points will be assigned to the first subject in the research queue until it is complete."
+			}
+		}
+
+		expand-city: {
+			name: "Expansion"
+			texts: {
+				desc: "You can now expand your city area to make more room for your housing and production buildings."
+				desc2: "Select the <highlight>'City Expansion'</highlight> from the <highlight>'Infrastructure'</highlight> category in the <highlight>build menu</highlight>, then choose the expansion you want to purchase on the map."
+			}
+		}
+
+		missing-workers: {
+			name: "Workers"
+			texts: {
+				desc: "You don't have enough workers for all your buildings. Your population also serves as workers for running your city and its industry. <highlight>Workers are created in the city core</highlight>, but only if you have free <highlight>housing</highlight> available."
+				desc2: "To increase your maximum population, <highlight>build and upgrade houses</highlight>, and make sure they have a constant <highlight>supply of food</highlight>. Houses <highlight>without power or food</highlight> will not provide any living space."
+			}
+		}
+
+		mini-raids: {
+			name: "Wandering Dream Plagues"
+			texts: {
+				desc: "As long as your city is on the ground, it is vulnerable. Most dream plagues are dormant unless you get near them, but sometimes small groups may wander near your city <highlight>and attack without warning</highlight>."
+				desc2: "While Tiny can easily dispatch these small groups, you can't be everywhere at once, and these creatures can quickly destroy exposed buildings. To prevent this from happening, close up all entrances to your city with <highlight>walls and gates</highlight> and protect them with <highlight>turrets</highlight>."
+			}
+			objectives: {
+				build-turret: "Build {0} x {1}"
+				build-wall: "Build {0} x {1}"
+			}
+		}
+
+		attack-warning: {
+			name: "Drep Raids"
+			texts: {
+				desc: "Sometimes your city will attract larger groups of Dream Plagues that that will attempt to destroy it. These <highlight>raids</highlight> are more dangerous than those wandering around, and they attack in multiple waves."
+				desc2: "You can <highlight>track the raid in the minimap</highlight>, and it is strongly advised to build some defenses and protect your buildings from the direction of the raid.\n\n<highlight>Turrets</highlight> provide extra firepower, but can't withstand too much damage, so be sure to put up some <highlight>walls</highlight>."
+				desc3: "Wooden turrets fire slowly, but they deal <highlight>explosive area damage</highlight>. They are well suited against clumped weaker enemies, but you may need to help them take out stronger ones.\n\nYou can also move turrets around when reorganizing your city, but only so long as there is no active or approaching raid."
+			}
+		}
+
+		taking-off: {
+			name: "Taking Off"
+			texts: {
+				desc: "As long as your city stays put, the Drep raids will get more and more aggressive. You can see the current <highlight>threat level</highlight> in your HUD."
+				desc2: "When you feel they are getting too tough, you should fly away and find a calmer place to land. <highlight>Click the launch button</highlight> in the HUD to initiate the take-off procedure. It <highlight>takes some time</highlight> while the engines warm up, so <highlight>don't wait too long</highlight> or you'll become Drep food."
+				desc3: "Remember, only the buildings within the city will fly with you, so consider scrapping the external ones to get some of the resources back, or moving them into the city if you have free space and carry weight."
+				desc4: "Also, unrefined raw materials like logs are too heavy to carry, so they will be left behind. Refine as many as you can before leaving. And make sure Tiny is in the city when the timer runs out!"
+			}
+		}
+
+		infrastructure-upgrades: {
+			name: "Infrastructure Upgrades"
+			texts: {
+				desc: "You can now build a workshop that produces materials for <highlight>upgrading your infrastructure</highlight>. Infrastructure upgrades grant permanent bonuses and abilities."
+				desc2: "Collect sufficient Upgrade Materials, then press <highlight>'K'</highlight> to open the infrastructure screen and purchase an upgrade."
+			}
+			objectives: {
+				produce-parts: "Produce {0} x {1}"
+				purchase-upgrade: "Purchase an infrastructure upgrade"
+			}
+		}
+
+		infrastructure-window: {
+			name: "Infrastructure Window"
+			texts: {
+				desc: "This is the infrastructure window. Here you can use <highlight>upgrade materials</highlight> to upgrade your infrastructure and receive permanent benefits."
+				desc2: "Click the <highlight>Upgrade</highlight> button to purchase upgrade points. You can then click the different <highlight>areas</highlight> of your infrastructure to upgrade them. Each level of an infrastructure area provides passive bonuses.\n\nOnce upgraded, you can allocate additional points to special <highlight>perks</highlight> under the different areas. These provide more specialized bonuses and abilities."
+			}
+		}
+
+		multiple-productions: {
+			name: "Switching Production"
+			texts: {
+				desc: "Some buildings can produce more than one recipe after additional recipes are unlocked.\n\n<highlight>Click on the production recipe</highlight> name to select a different recipe."
+				desc2: "Some recipes require certain add-ons to be built before they can be produced in that building."
+			}
+		}
+
+		rail-crossing: {
+			name: "Rail Crossings"
+			texts: {
+				desc: "Rail crossings use null-space-technology so that two rail tracks can cross each other without causing a traffic jam."
+				desc2: "Drag to build a section of rails so that it crosses another section of rails to automatically create a crossing."
+			}
+			objectives: {
+				build-crossing: "Build a rail crossing"
+			}
+		}
+
+		drep-crafting: {
+			name: "Drep Processing"
+			texts: {
+				desc: "You've researched a technology that lets you refine remains of Dream Plagues into valuable resources. Use the Resources tab in the crafting window."
+			}
+			objectives: {
+				craft: "Refine drep remains"
+			}
+		}
+
+		splitter-unlocked: {
+			name: "Sorters"
+			texts: {
+				desc: "Research of Sorters is complete. These devices can be placed on rails and will sort the items that go into them into three separate exits, depending on their configuration."
+				desc2: "After placing a sorter, open its user interface to configure which items go into each exit."
+			}
+		}
+
+		expeditioncenter-unlocked: {
+			name: "Expedition Center"
+			texts: {
+				desc: "You can now build an expedition center. This unique building allows you to select and launch expeditions to scavenge for supplies and ancient tech outside of your immediate area."
+				desc2: "Build an expedition center and interact with it to learn more about sending expeditions."
+			}
+		}
+
+		expeditions: {
+			name: "Expeditions"
+			texts: {
+				desc: "This is the expedition selection screen. Every map has different expedition options depending on the biome and map difficulty. Expeditions differ from each other in their costs, preparation time, expedition time, and possible rewards.\n\nYou can see all this info before selecting which expedition to launch."
+				desc2: "There are two phases for each expedition: A <highlight>Preparation</highlight> phase, and an <highlight>Active</highlight> phase.\n\nWhen selecting an expedition, the <highlight>upfront costs will be paid immediately</highlight>, and the preparation phase will begin. Throughout the preparation phase the expedition center will have an <highlight>upkeep depending on the selected expedition</highlight>.\n\nWhen preparations are complete, the expedition will launch, and there will no longer be any upkeep except for the expedition crew (workers)."
+				desc3: "After an expedition is completed successfuly, the crew will return to the worker pool, and you will be able to <highlight>choose your rewards</highlight>.\n\nExpedition loot may contain <highlight>resources</highlight>, <highlight>fuel</highlight>, and some <highlight>unique items and bonuses</highlight> that can not be acquired elsewhere."
+			}
+		}
+
+		archeology-unlocked: {
+			name: "Archeology Projects"
+			texts: {
+				desc: "Archeology allows you to undertake serious projects based on old-world technology and gain powerful, permanent bonuses."
+				desc2: "Unlock new projects by scrapping ruins. In order to complete these projects, you'll first have to research and build an Archeologist."
+			}
+		}
+
+		archeology: {
+			name: "Archeology Projects"
+			texts: {
+				desc: "Select an archeology project to begin working on it. Different projects have different costs that must be consistently provided to the archeologist during their undertaking.\n\nOnce complete, the bonuses are permanent and no more resources are required."
+				desc2: "Multiple archeologists will contribute to the same project if they are also provided with the required materials."
+				desc3: "New archeology projects can be found when scrapping ruins."
+			}
+		}
+
+		council: {
+			name: "City Council"
+			texts: {
+				desc: "When your city is large enough, your citizens will elect a city council. Every elections, three councilmen will be chosen, one for each faction.\n\nIt's up to you as the overseer to <highlight>select the Head of Council</highlight> from within these councilmen.\n\nYou must select a head of council before you can close this window."
+				desc2: "Each councilman has different <highlight>bonuses and penalties</highlight> that will apply if you select them as your new head of council, and will remain active until the next elections.\n\nYou will also <highlight>gain influence</highlight> with that councilman's faction, and <highlight>lose some influence</highlight> with the other two parties."
+				desc3: "You can see your influence with the different factions on the left. When your <highlight>influence</highlight> with a faction becomes high or low enough, you will gain <highlight>bonuses or penalties</highlight> specific to that faction.\n\nHover the different sections in the influence bar to see the required influence level and its effects."
+			}
+		}
+
+		resource-elevators: {
+			name: "Automated Harvesters"
+			texts: {
+				desc: "With the research of resource drop-offs, your harvesters can now <highlight>automatically send resources</highlight> to these new buildings."
+				desc2: "You can define for each drop-off building which resources it should receive, and harvesters that don't have any rail output will instead send carts to the closest drop-off that accepts their resource."
+				desc3: "Harvester carts can't travel in the city, so the drop must be built outside or at the city edge."
+			}
+		}
+
+		exporter: {
+			name: "Resource Packers"
+			texts: {
+				desc: "Resource packers send materials to nearby drop-offs, like automated harvesters. Packers can send <highlight>any resource</highlight>, not just raw materials."
+				desc2: "Supply the packer with resources through rails and configure a drop-off to receive these materials."
+			}
+		}
+
+		gamepedia: {
+			name: "Dream Archives"
+			texts: {
+				desc: "When you unlock new options, you can see information about them in the <highlight>Dream Archives</highlight>. Press <highlight>'H'</highlight> to open the archives."
+			}
+		}
+
+		carrycapacity: {
+			name: "Weight and Carrying Power"
+			texts: {
+				desc: "Your city is getting heavier. Every building adds to the city weight, and if your weight exceeds your carrying power you won't be able to take off."
+				desc2: "You can increase your carrying capacity by building or upgrading engines (requires research)."
+				desc3: "You can decrease weight by upgrading buildings instead of building new ones, and you can build some of your defenses outside the city."
+			}
+		}
+
+		overweight-takeoff: {
+			name: "Overweight during take-off"
+			texts: {
+				desc: "You've exceeded your city's carrying power during the take-off charging phase.\n\nCharging is now <highlight>paused</highlight>, but if you manage to <highlight>balance the city's weight</highlight> in the next few seconds, it will resume from where it was. If you take too long, all progress will be lost, and the charging process will have to restart."
+			}
+		}
+
+		low-health: {
+			name: "Low Health"
+			texts: {
+				desc: "Tiny's health is running low. Health slowly <highlight>regenerates in the city</highlight>, and you can assign and use <highlight>repair kits</highlight> through the quickbar."
+				desc2: "If you take too much damage an <highlight>emergency teleport</highlight> will be activated, returning you to the city, but you will <highlight>lose precious time and resources</highlight>.\n\nTry to keep Tiny intact."
+			}
+		}
+
+		armored-enemies: {
+			name: "Armored Enemies"
+			texts: {
+				desc: "Some of the larger creatures are considered <highlight>armored</highlight>. Your <highlight>wooden turrets</highlight> are ineffective against these, dealing <highlight>reduced damage</highlight>."
+				desc2: "Upgrade your defensive buildings to be able to better deal with these. If things get too rough, don't hesitate to fly away until you are ready."
+			}
+			objectives: {
+				build-turret: "Build a {0}"
+			}
+		}
+
+		destination-select: {
+			name: "Destination Selection"
+			texts: {
+				desc: "Congratulations, your city is <highlight>flying</highlight> for the first time!\n\nIn this screen, you can select where you want to land next."
+				desc2: "Select your next landing spot carefully. Your choice will affect the <highlight>strength of the enemies</highlight>, which <highlight>resources will be on the map</highlight>, and how many."
+				desc3: "The options you are presented depend on the current <highlight>Global Infestation Level</highlight> (shown at the top-left of the screen)."
+				desc4: "If you don't like any of these options, you can click the <highlight>Fly Elsewhere</highlight> button to refresh your choices at the expense of some fuel."
+			}
+		}
+
+		abilities: {
+			name: "Active Abilities"
+			texts: {
+				desc: "You've just unlocked Tiny's first <highlight>active ability</highlight>. Active abilities can be used like repair kits or other consumables, but they don't require any resources to use."
+				desc2: "You can assign abilities to your <highlight>quickbar</highlight> like consumables, and most of them have <highlight>cool-downs</highlight> that limit how often you can use them."
+			}
+		}
+
+		passive-income: {
+			name: "Passive Income"
+			texts: {
+				desc: "You received a passive income bonus. These bonuses provide you with a regular income of the specified resources."
+				desc2: "If you have a resource drop-off that is configured to receive these resources, they will be deposited to that drop-off. Otherwise, they will be deposited in the city core."
+			}
+		}
+
+		misc-items: {
+			name: "Usable Items"
+			texts: {
+				desc: "You acquired a usable item. To use this item, open your inventory and then right-click the item. These items are not assignable to the quickbar since they are not meant for use during combat."
+			}
+		}
+
+		//running-out-of-ammo: {
+		//	name: "Running out of ammo"
+		//	desc: "Your ranged weapons consume <highlight>ammo</highlight> when attacking, and your supply is starting to run out.\n\nYou can produce more <highlight>Atlas Bolts</highlight> in the wood warper. Open the building window to select a different recipe, and supply it with the required raw materials.\n\nAmmo is a global resource, so you don't need to transport it once it is produced."
+		//	desc2: "You can see how much ammo is consumed with each shot in the weapons display at the bottom-left of the screen (in combat mode).\n\nOnly Tiny uses ammo, defensive structures produce their own ammunition and only require power."
+		//}
+
+		upgrade-layer: {
+			name: "Upgrade Layer"
+			texts: {
+				desc: "When in management mode, you can activate the <highlight>'Upgrade Layer'</highlight> with the button to the left of the minimap."
+				desc2: "When active, every building will show an icon with its <highlight>current level</highlight>, and a button to <highlight>upgrade</highlight> that building directly from the game view. This view is very useful for managing your economy and upgrading buildings."
+				desc3: "Other management layers are also available, hover their buttons to learn more."
+			}
+		}
+
+		onoff-tool: {
+			name: "On / Off tool"
+			texts: {
+				desc: "When in management mode, you can use the <highlight>'On / Off tool'</highlight> button (shortcut 'O' by default) to enable or disable buildings directly from the game view."
+			}
+		}
+
+		rebuild-debris: {
+			name: "Debris & Rebuilding"
+			texts: {
+				desc: "Some of your buildings were destroyed by the Dream Plagues. Destroyed buildings leave debris behind them, which you can use to see what was there and rebuild if you wish to do so."
+				desc2: "Rebuilding will restore the building including all upgrades, add-ons and input/output slots. It costs the same as building from scratch, but lets you restore everything with a single click."
+				desc3: "You can rebuild by using the fix / rebuild tool (default key 'L'), or by clicking the debris and using the building information window."
+			}
+		}
+
+		sit-city-info: {
+			name: "City Information"
+			texts: {
+				desc: "Click on the city name in the HUD to open the city information window. This window also provides information about the current landing zone."
+			}
+		}
+
+		teslacrats-production: {
+			name: "Resource Duplication"
+			texts: {
+				desc: "You just researched the unique technology of the Teslacrats that allows duplicating resources. To duplicate a resource, you must first obtain the base amount required by the recipe, then use the crafting interface under the 'Resources' tab."
+				desc2: "The machinery used in this process degrades every time that it is used, and so the price of duplicating resources increases after every batch. The prices slowly go back to normal when not using the machines, and when flying to a new destination."
+			}
+		}
+
+		raid-spawners: {
+			name: "Rifts"
+			texts: {
+				desc: "You've found a Nightmare Rift. This is one of several possible spawn points for Dream Plagues during raids."
+				desc2: "Rifts are unstable and you are unable to build near them."
+			}
+		}
+
+
+		//management-mode: {
+		//	name: "Management Mode"
+		//	desc: "This is the <highlight>Management Mode</highlight>, used to build, move and interact with buildings.\n\nIn management mode, the <highlight>main toolbar</highlight> appears at the bottom, and the <highlight>build menu</highlight> at the bottom-left of the screen.\n\nMouse clicks <highlight>won't trigger attacks</highlight> in this mode, and will instead open building <highlight>interface windows</highlight>."
+		//	desc2: "By default, switching to management mode also switches the camera view to <highlight>top-down</highlight>.\n\nYou can change this default behavior in the <highlight>settings window</highlight>. You can also manually switch between top-down and regular view at any time by pressing <highlight>'Z'</highlight>."
+		//}
+
+
+
+
+
+
+		// Milestones
+		//ms-citysize1: {
+		//	name: "City Size: Outpost"
+		//	objectives: {
+		//		milestone: "Reach city size: Outpost"
+		//		milestone-hover: "Build & Upgrade houses until you reach a population level of {1}"
+		//	}
+		//}
+
+		//ms-citysize2: {
+		//	name: "City Size: Village"
+		//	objectives: {
+		//		milestone: "Reach city size: Village"
+		//		milestone-hover: "Build & Upgrade houses until you reach a population level of {1}"
+		//	}
+		//}
+
+		//ms-citysize3: {
+		//	name: "City Size: Flying Fortress"
+		//	objectives: {
+		//		milestone: "Reach city size: Flying Fortress"
+		//		milestone-hover: "A flying fortress requires a population of {1}. This is the largest city size in the current alpha version."
+		//	}
+		//}
+
+		//ms-woodwarper: {
+		//	name: "Produce: Planks"
+		//	objectives: {
+		//		milestone: "Have a working {0}"
+		//		milestone-hover: "Build a {0} and supply it with bloodwood logs to produce planks."
+		//	}
+		//}
+
+		//ms-featherstone: {
+		//	name: "Produce: Featherstone"
+		//	objectives: {
+		//		milestone: "Have a working {0}"
+		//		milestone-hover: "Build a {0} and supply it with raw featherstone."
+		//	}
+		//}
+
+		//ms-foodprod: {
+		//	name: "Produce: Food"
+		//	objectives: {
+		//		milestone: "Have a working {0}"
+		//		milestone-hover: "Build a {0} and some purptato farms, then supply the {0} with purptatoes to produce food."
+		//	}
+		//}
+
+		//ms-researchlab: {
+		//	name: "Build: Research Lab"
+		//	objectives: {
+		//		milestone: "Build a {0}"
+		//		milestone-hover: "Build a {0} to research technologies and unlock new possibilities.\n\nIncrease your city size to unlock the {0}."
+		//	}
+		//}
+
+		//ms-workshop: {
+		//	name: "Build: Workshop"
+		//	objectives: {
+		//		milestone: "Build a {0}"
+		//		milestone-hover: "Research infrastructure upgrades and build a workshop."
+		//	}
+		//}
+
+		//ms-infraupgrade: {
+		//	name: "Upgrade Infrastructure"
+		//	objectives: {
+		//		milestone: "Upgrade Infrastructure"
+		//		milestone-hover: "Produce upgrade parts in the workshop until you have enough to upgrade your infrastructure.\n\nThen open the infrastructure screen ('K' by default), purchase an upgrade, and allocate an infrastructure point."
+		//	}
+		//}
+
+		//ms-fluxvat: {
+		//	name: "Build: Flux Vat"
+		//	objectives: {
+		//		milestone: "Build a {0}"
+		//		milestone-hover: "Build a {0} to increase your production."
+		//	}
+		//}
+
+		//ms-teslatower: {
+		//	name: "Build: Tesla Tower"
+		//	objectives: {
+		//		milestone: "Build a {0}"
+		//		milestone-hover: "Build a {0} to extend your construction range."
+		//	}
+		//}
+
+		//ms-turret: {
+		//	name: "Build: Turret"
+		//	objectives: {
+		//		milestone: "Build a {0}"
+		//		milestone-hover: "Build a {0} to defend your buildings. You may need to increase your city size to unlock it."
+		//	}
+		//}
+
+		//ms-walls: {
+		//	name: "Build: Wall"
+		//	objectives: {
+		//		milestone: "Build {0} x{1}"
+		//		milestone-hover: "Turrets provide firepower, but can't take that much damage. You need to protect them and your city with walls."
+		//	}
+		//}
+
+		//ms-upgradeslayer: {
+		//	name: "Upgrades Layer"
+		//	objectives: {
+		//		milestone: "Activate the upgrades layer"
+		//		milestone-hover: "In management mode, click the upgrades layer button to the left of the minimap. This will let you quickly see all building levels and upgrade them with a single click."
+		//	}
+		//}
+
+		//ms-upgradebuilding: {
+		//	name: "Upgrade a Building"
+		//	objectives: {
+		//		milestone: "Upgrade any building"
+		//		milestone-hover: "Upgrading buildings is a great way to increase their efficiency without increasing your city weight and using up precious space.\nYou can upgrade buildings from the building's interface or using the upgrades layer in management mode."
+		//	}
+		//}
+
+		//ms-railcrossing: {
+		//	name: "Rail Crossings"
+		//	objectives: {
+		//		milestone: "Build a rail crossing"
+		//		milestone-hover: "Drag to build a section of rails so that it crosses another section of rails to automatically create a crossing.\n\nCrossings use null-space-technology so that two rail tracks can cross each other without causing a traffic jam."
+		//	}
+		//}
+
+		//ms-starwoodequipment: {
+		//	name: "Craft: Starwood Equipment"
+		//	objectives: {
+		//		milestone: "Craft starwood equipment"
+		//		milestone-hover: "Research and craft any starwood weapon or armor."
+		//	}
+		//}
+
+		//ms-movebuilding: {
+		//	name: "Move a building"
+		//	objectives: {
+		//		milestone: "Move any building"
+		//		milestone-hover: "Click the move button in the tools menu, or press 'M' to activate move mode."
+		//	}
+		//}
+
+		//ms-dreamarchives: {
+		//	name: "Open the Dream Archives"
+		//	objectives: {
+		//		milestone: "Open the Dream Archives"
+		//		milestone-hover: "Press 'H' to open the dream archives. New unlocks will be highlighted."
+		//	}
+		//}
+
+		//ms-disablebuilding: {
+		//	name: "Disable a building"
+		//	objectives: {
+		//		milestone: "Use on/off tool to disable any building"
+		//		milestone-hover: "To disable a building click the on/off button in the tools menu, or press 'O', then click any building to toggle it on or off.\n\nDisabled buildings don't require any upkeep or workers."
+		//	}
+		//}
+
+		//ms-pickcart: {
+		//	name: "Pick a cart"
+		//	objectives: {
+		//		milestone: "Pick a cart"
+		//		milestone-hover: "You can pick carts and their content will be added to your inventory through the tools menu, or by pressing 'P'."
+		//	}
+		//}
+
+		//ms-craftdrep: {
+		//	name: "Refine drep remains"
+		//	objectives: {
+		//		milestone: "Refine drep remains"
+		//		milestone-hover: "Research Drep Processing, then craft any material using Drep remains from the Resources category in the crafting window."
+		//	}
+		//}
+
+		//ms-map2: {
+		//	name: "Level 2 map"
+		//	objectives: {
+		//		milestone: "Land in a 2 skull map when ready"
+		//		milestone-hover: "Higher difficulty maps have more resources. Fly away and land in a 2-skull map when you feel ready."
+		//	}
+		//}
+
+		//ms-upgradeequipment: {
+		//	name: "Upgrade Equipment"
+		//	objectives: {
+		//		milestone: "Upgrade any equipment"
+		//		milestone-hover: "Select the Upgrade category in the crafting window, and upgrade a piece of equipment to a higher level."
+		//	}
+		//}
+
+		//ms-engine: {
+		//	name: "Build: Floating Device"
+		//	objectives: {
+		//		milestone: "Build a {0}"
+		//		milestone-hover: "Research city flying and build a {0} to increase your city's carrying power."
+		//	}
+		//}
+
+		//ms-map3: {
+		//	name: "Level 3 map"
+		//	objectives: {
+		//		milestone: "Land in a 3 skull map"
+		//		milestone-hover: "Some resources are only available in higher difficulty maps. When you fly, select a destination of difficulty 3 or above with copper in it."
+		//	}
+		//}
+
+		//ms-craftfuel: {
+		//	name: "Produce: Fuel"
+		//	objectives: {
+		//		milestone: "Produce some fuel"
+		//		milestone-hover: "Research the <highlight>Cauldron</highlight> and find a map with some <highlight>Glow Honey</highlight>, then produce some fuel."
+		//	}
+		//}
+
+		//ms-copper: {
+		//	name: "Collect: Copper"
+		//	objectives: {
+		//		milestone: "Gather {0} x{1}"
+		//		milestone-hover: "To further upgrade your equipment and city you'll need copper. Find a map with {0} in it and collect some."
+		//	}
+		//}
+
+		//ms-copperingot: {
+		//	name: "Produce: Copper Ingot"
+		//	objectives: {
+		//		milestone: "Collect {0} x{1}"
+		//		milestone-hover: "Raw copper will not get you far. Build a Smell-Ter, then produce some {0}."
+		//	}
+		//}
+
+		//ms-expand: {
+		//	name: "Expand City Area"
+		//	objectives: {
+		//		milestone: "Expand your city"
+		//		milestone-hover: "Reach the required population level, then select the city expansion option from the build menu under Infrastructure. Select one of the expansion options to expand."
+		//	}
+		//}
+
+		//ms-resourceelevator: {
+		//	name: "Build: Resource Drop-off"
+		//	objectives: {
+		//		milestone: "Build a {0}"
+		//		milestone-hover: "Research and build a resource drop-off to automate resource delivery."
+		//	}
+		//}
+
+		//ms-copperequipment: {
+		//	name: "Craft: Copper Equipment"
+		//	objectives: {
+		//		milestone: "Craft copper equipment"
+		//		milestone-hover: "Research and craft copper equipment for that extra punch."
+		//	}
+		//}
+
+		//ms-endgame: {
+		//	name: "Build: Nullifier Shield"
+		//	objectives: {
+		//		milestone: "Build a {0}"
+		//		milestone-hover: "Research and build a {0}. The shield weights a lot and requires a huge amount of workers, energy and funds to keep running, but if you keep it running long enough, you won't have to worry about Drep anymore."
+		//	}
+		//}
+	}
+}

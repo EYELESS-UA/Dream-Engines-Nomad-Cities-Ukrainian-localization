@@ -1,0 +1,502 @@
+{
+	missions: {
+		welcome-no-tut: {
+			name: "歡迎"
+			desc: "歡迎來到《夢幻引擎》。目前新手教程已禁用，但螢幕右上角的<highlight>里程碑</highlight>會在遊戲中幫助引導您。將滑鼠移至任一里程碑上查看詳情。\n\n記住：按<highlight>“Tab”</highlight>可在戰鬥模式和城市管理模式之間切換。"
+		}
+		welcome-pre-fortifications-save: {
+			name: "遊戲自最後一次存檔後已進行重大更新"
+			desc: "歡迎回到夢幻引擎。自您最後一次存檔後，我們發布了新的更新。此更新包括對敵人突襲的更改，如果您還<highlight>尚未知曉</highlight>，這一變化對您來說可能是<highlight>致命的</highlight>。以下是一些最重要的變化：\n\n*突襲中的敵人現在將<highlight>無視圍墻</highlight>，除非這些圍墻擋住了它們的去路。圍墻現已加固。\n\n*離群幻魘偶爾會<highlight>毫無預警</highlight>的情況下<highlight>攻擊您的城市</highlight>和建築物。這些攻擊的強度比突襲要弱得多，但你需要確保你所有的建築物都能夠受到保護。\n\n*體型更大、等級更高的敵人現在具有<highlight>裝甲</highlight>。木製炮塔和輕弩對它們造成的<highlight>傷害減半</highlight>。您可能需要升級您的炮塔來造成更多的傷害。\n\n*遊戲中現已更新<highlight>石塔和石墻</highlight>。"
+		}
+		welcome: {
+			name: "歡迎"
+			texts: {
+				desc: "歡迎來到《夢幻引擎》。本<highlight>新手教程</highlight>將引導您掌握基本的遊戲操作。\n\n本新手教程僅起到指引作用，並不影響遊戲內容，所以如果在教程中您的城市遭到摧毀仍會導致遊戲失敗。"
+				desc2: "跟隨荧幕<highlight>右上方</highlight>的教學。"
+			}
+		}
+		images: {
+			name: "瀏覽教學"
+			texts: {
+				intro: "含此條在內的部分教學包含視頻和圖像講解，將滑鼠移至右側的圖標上即可查看。"
+				previous: "按下F1或遊戲菜單（ESC）中的“幫助”按鈕，即可在日誌中查看所有的過往教學。"
+				pause: "你還可以暫停遊戲，以便閱讀教學。 按下空白鍵即可隨時暫停/返回遊戲。"
+			}
+			objectives: {
+				hover-video: "將滑鼠移至上方的視頻圖標"
+				unpause: "暫停/返回遊戲"
+			}
+		}
+		movement: {
+			name: "移動"
+			texts: {
+				intro: "作為玩家，您控制著一個來自古代的裝甲探險機器人<highlight>小迪</highlight>。"
+				move: "使用<highlight>WASD</highlight>鍵移動小人。"
+				zoom: "使用<highlight>滑鼠滾輪</highlight>可以縮放視角。"
+				rotate: "長按<highlight>滑鼠中鍵</highlight>旋轉視角。"
+			}
+			objectives: {
+				movemech: "四處移動"
+				movemech-hover: "作為玩家，您控制著一個來自古代的裝甲探險機器人<highlight>小迪</highlight>。\n\n使用<highlight>WASD</highlight>鍵移動。小迪會跟隨滑鼠指標改變面向。"
+				zoom: "縮放視角"
+				zoom-hover: "使用<highlight>滑鼠滾輪</highlight>可以縮放視角。"
+				rotate: "旋轉視角"
+				rotate-hover: "按住<highlight>滑鼠中鍵</highlight>，然後移動滑鼠來旋轉視角。\n\n您可以按下<highlight>”N“</highlight>鍵重置為默認視圖。"
+			}
+		}
+		switch-to-mgmt-mode: {
+			name: "戰鬥&管理模式"
+			texts: {
+				combat-mode: "<highlight>戰鬥模式</highlight>用於探索地圖、與敵人戰鬥。"
+				mgmt-mode: "<highlight>管理模式</highlight>用於建造和管理你的都市。"
+				switch: "按下<highlight>Tab</highlight>鍵在兩個模式之間切換並開啟管理模式。"
+			}
+			objectives: {
+				management-mode: "切換至管理模式"
+			}
+		}
+		build-houses: {
+			name: "建築"
+			texts: {
+				intro: "<highlight>建造一些房屋</highlight>供工人居住，新增都市人口。"
+				build: "在建造選單中選擇<highlight>房屋</highlight>，然後點擊地圖上的地點放置房屋。"
+			}
+			objectives: {
+				buildhouses: "建造{0}×{1}"
+			}
+		}
+		build-rails: {
+			name: "自動運輸"
+			texts: {
+				intro: "房屋需要持續的食物供應。 《夢幻引擎》中的資源都是通過類似傳送帶的<highlight>自動軌道系統</highlight>傳輸的。"
+				build: "在基礎設施類別中選擇軌道即可建造，然後點擊並拖動資源至你所需要傳輸的方向。"
+				access-points: "建築物會從軌道出入口發送/接收資源。 將軌道拖動至建築物，或者將軌道從建築物處拖出，即可建立軌道的入口/出口。"
+			}
+			objectives: {
+				sendfood: "建立一處出口，將食物從都市覈心送出"
+				connect-houses: "為房屋建立軌道的入口"
+				housesactive: "連接軌道，為兩處房屋輸送食物。"
+			}
+		}
+		equip-repairkit: {
+			name: "背包與裝備"
+			texts: {
+				intro: "探索危險的周邊地區、搜尋額外資源之前，你應該先帶上<highlight>修理包</highlight>，以防有小人受傷。"
+				grab: "維修包在城市核心中。要打開建築視窗，請在<highlight>管理模式</highlight>下<highlight>左鍵點擊</highlight>該建築。"
+				equip: "接著將修理包添加至快捷欄。 按下<highlight>I</highlight>打開角色介面。"
+			}
+			objectives: {
+				collectrepairkit: "從都市覈心倉庫中拿取修理包"
+				equiprepairkit: "將修理包添加至快捷欄"
+			}
+		}
+		grab-items: {
+			name: "轉移物品"
+			texts: {
+				grab: "這是建築視窗。視窗左側是小迪的背包，右側是建築內部的倉庫和其他資訊。\n\n按住<highlight>“SHIFT”</highlight>然後<highlight>點擊</highlight>列表中的<highlight>維修包</highlight>圖示，即可拿取整組物品。"
+			}
+		}
+		quickbar: {
+			name: "裝備到快捷欄"
+			texts: {
+				assign: "點擊快捷欄中角色區域的一格<highlight>空欄</highlight>，然後選擇要裝備至該欄位的物品。\n\n物品裝備到快捷欄後，您可以在戰鬥模式中按下相應的快速鍵來使用該物品。"
+			}
+		}
+		tiny-combat: {
+			name: "對抗夢幻疫怪"
+			texts: {
+				intro: "探索時，小人會遭遇夢幻瘟疫（夢怪）。 小人裝備了可替換的遠程和近戰武器各一把，用來對抗這些敵對生物。"
+				attack: "用<highlight>滑鼠左鍵</highlight>施展小人的近戰攻擊，用<highlight>滑鼠右鍵</highlight>施展遠程攻擊。"
+				tips: "長按可連續攻擊。 別忘了按下<highlight>TAB</highlight>切換至戰鬥模式。"
+			}
+			objectives: {
+				combatmode: "切換至戰鬥模式"
+				meleeattack: "使用近戰武器攻擊"
+				rangedattack: "使用遠端武器攻擊"
+			}
+		}
+		collect-bloodwood: {
+			name: "收割機"
+			texts: {
+				intro: "是時候收集些資源了。 探索標記在小地圖上的都市周邊地區，搜尋<highlight>血木</highlight>資源點。"
+				build: "建造收割機需要切換至管理模式，<highlight>點擊資源</highlight>打開其介面，然後點擊<highlight>血木切割機</highlight>按鈕。"
+			}
+			objectives: {
+				findwood: "找到一處紅木資源礦點"
+				gatherwood: "建造一台{0}"
+			}
+		}
+		build-warper: {
+			name: "生產"
+			texts: {
+				intro: "你正在收集原木。 在使用前，需要先將原木精煉為<highlight>木板</highlight>，再送至<highlight>倉庫</highlight>。 你在飛行時無法攜帶原木及其它類型的原材料，但可以攜帶精煉後的資料。"
+				buildwoodwarper: "木板是<highlight>制木機</highlight>用原木製成的。 制木機需要處於<highlight>電力區</highlight>內，所以最好建造在都市附近。"
+				freecamera: "在管理模式下，按下“空格”鍵暫停遊戲，按“F”鍵切換自由視角。在遊戲暫停時，您可以在地圖各處建造，而不需要移動小迪。"
+			}
+			objectives: {
+				buildwoodwarper: "建造{0}×{1}並向它們供應原木"
+			}
+		}
+		speedup: {
+			name: "加速"
+			texts: {
+				sendplanks: "現在建造一些軌道，將木板從制木機處輸送至都市覈心存放，然後等待更多木板被產出。"
+				speedup: "在等待原木運輸的過程中，您可以加快遊戲的速度。在建造軌道後按住加速按鈕即可（預設快速鍵為“+”）。"
+			}
+			objectives: {
+				haveplanks: "收集{0}x{1}"
+			}
+		}
+		city-level1: {
+			name: "城市等級"
+			texts: {
+				nodes: "探索的同時還要留心額外的資源點。資源點一旦枯竭，它的生產速度會減半——將枯竭的資源點與其他資源點連接或許是個不錯的選擇。"
+				increase-pop: "現在<highlight>提升你的都市人口等級</highlight>，解鎖更多建築。 新增都市人口可以提升都市等級。 你可以在顯示器上方查看進度。"
+			}
+			objectives: {
+				build-houses: "為3處房屋供應食物"
+				city-level1: "達到{1}人口"
+			}
+		}
+		craft-repairkit: {
+			name: "工藝"
+			texts: {
+				intro: "你需要更好的<highlight>裝備</highlight>以便更有效地進行探索、採集和守衛都市。 你得先做些研究才能製作新的武器和護甲（之後會細說），不過你現在已經能<highlight>製作更多的修理包</highlight>了。"
+				craft: "按下<highlight>C</highlight>打開製作介面、選擇修理包，再點擊“製作”按鈕。 你可能需要先得到更多木板才行。"
+			}
+			objectives: {
+				craftrepairkit: "製造一個{0}"
+			}
+		}
+		produce-food-farms: {
+			name: "食物生產-務農"
+			texts: {
+				farms: "你的下一步是查看食物補給，畢竟它們是消耗品。 食物生產的第一步是種植生食，建造幾個<highlight>啵普豆農場</highlight>就行了，在<highlight>採集</highlight>類別下可以找到。"
+				tesla: "您可以從能源類別中選擇建造<highlight>特斯拉塔</highlight>來擴展您的供電區域。"
+			}
+			objectives: {
+				buildtesla: "建造一個{0}"
+				buildfarm: "在都市附近建造啵普豆農場"
+			}
+		}
+		produce-food-process: {
+			name: "食物生產-加工"
+			texts: {
+				intro: "現在建造一座<highlight>食品工廠</highlight>並設定軌道將<highlight>啵普豆從農場中送出</highlight>、進行加工，再輸送至<highlight>都市覈心</highlight>存放。"
+				more-food: "隨著人口的增長，你需要生產更多的食物。 你可以建造更多農場和食品工廠，達到滿載效率。 與建築互動時，你可以在生產UI介面查看每個週期的輸入量/輸出量。"
+			}
+			objectives: {
+				buildfoodplant: "建造一個{0}"
+				producefood: "為{0}供應啵普豆"
+				sendfood: "輸送食物至倉庫"
+			}
+		}
+		power-flux: {
+			name: "電能與幻能"
+			texts: {
+				intro: "要維持城市的運轉，您需要的不僅僅是糧食和木材。您還需要生產足夠的<highlight>電能</highlight>和<highlight>幻能</highlight>。"
+				buildflux: "有一部分夢劑產自於房屋，但它更多來自於夢劑處理站。 在<highlight>城外</highlight>建造一些處理站吧。 夢劑是最基礎的配方，它的生產不需要任何原材料，所以不用擔心放置地點的問題。"
+				buildpower: "建造新建築不需要電力，但電力是現存建築運作的關鍵，要確保發電量一直都是充足的。< highlight>發電站</highlight>能够生產電力。 電力與夢劑一樣是最基礎的配方，它的生產不需要任何原材料，但它們相互之間不能離得太近。"
+			}
+			objectives: {
+				buildflux: "在城市附近建造{0}×{1}"
+				buildpower: "在城市附近建造{0}×{1}"
+			}
+		}
+		move-objects: {
+			name: "城市規劃管理"
+			texts: {
+				intro: "您差不多已經準備好自己去探索了。在此之前，您需要瞭解一下將建築建在<highlight>城市內部</highlight>和<highlight>城市外部</highlight>的核心概念。"
+				flying: "因為您的城市具備<highlight>飛行</highlight>能力，所以將建築建在在城市內部有很多好處——您可以<highlight>攜帶這些建築一起飛走</highlight>。但是城市空間有限，雖然您可以之後再擴展您的城市和最大載重，您還是需要思考要將哪些建築優先建在城市內部。大多數基礎建築都很便宜，而且會佔用大量空間，這使得它們更適合建造在城市外部——並在起飛前被拆除。"
+				longrun: "不過從長遠來看，當您飛離此地時，您會希望能夠<highlight>攜帶更多的工業設施</highlight>。因此，一些更昂貴的建築或者<highlight>升級後</highlight>的基礎設施應該建在城市內部。"
+				moving: "大部分建築都能被移動。 在管理模式中按下<highlight>M</highlight>、點擊你要移動的建築，再將它放到新的地點即可。"
+			}
+			objectives: {
+				movebuilding: "移動一處建築"
+			}
+		}
+		tutorial-end: {
+			name: "教程結束"
+			texts: {
+				end1: "做得好！ 這是本教學的最後一步了。 這些都是最基礎的操作，還有更多玩法等待你去瞭解。 研究、探險、基礎設施陞級、自動收割機等附加功能/機制的說明，會在你將來遇到它們時進行詳細解說。"
+				end2: "你的第一個目標是<highlight>增加人口</highlight>，解鎖<highlight>實驗室</highlight>。本階段的最終目標是找到建立一個<highlight>永久定居點</highlight>的方法。"
+				end3: "在被幻魘擊潰之前，一定要儘可能多地<highlight>收集</highlight>可以<highlight>加工</highlight>的<highlight>資源</highlight>。一旦抵擋不住，請及時飛離此地。起飛前，您需要權衡需要帶走的<highlight>長期</highlight>建築和要捨棄的成本低廉的<highlight>短期</highlight>建築。"
+				end4: "如果您想回饋任何問題，請使用“發送回饋”按鈕或者加入我們的Discord頻道（鏈接在遊戲標題介面）。祝您好運！"
+			}
+		}
+		researchlab-unlocked: {
+			name: "科技實驗室"
+			texts: {
+				build: "以你現時的人口數量，可以建造<highlight>實驗室</highlight>了。 建造實驗室研究科技，解鎖新的建築、裝備和其它加成。"
+				research: "按下<highlight>“R”</highlight>鍵打開<highlight>科技視窗</highlight>，選擇要研究的科技。"
+				materials: "為了讓實驗室生成知識點，請確保<highlight>持續向它們提供所需的原料</highlight>，這些原料在實驗室的交互視窗中有相應的提示。"
+			}
+			objectives: {
+				buildlab: "建造一個{0}"
+				research-selected: "選擇一個要研究的科技"
+				activatelab: "為{0}供應資源"
+			}
+		}
+		research-screen: {
+			name: "科技視窗"
+			texts: {
+				desc: "您可以在此視窗中規劃和設置您的科技。每一項科技都需要花費<highlight>知識點</highlight>，以及完成這項研究後解鎖的元素。\n\n將滑鼠懸停在解鎖條目上方來瞭解更多相關資訊。"
+				desc2: "highlight>點擊</highlight>任一研究課題，設立目標。用<highlight>Shift +滑鼠點擊</highlight>可在隊列末尾添加附加課題。\n\n一旦選定研究目標之後，實驗室會開始產出知識。 知識點數會被分配到研究隊列中的第一個課題，直至研究完成。"
+			}
+		}
+		expand-city: {
+			name: "擴展"
+			texts: {
+				desc: "您現在可以擴大您的城市面積，為您的房屋和生產建築創造更多空間。"
+				desc2: "在<highlight>建造功能表</highlight>中的<highlight>“基礎設施”</highlight>類別中選擇<highlight>“城市擴展”</highlight>，然後在地圖上選擇要購買的擴展。"
+			}
+		}
+		missing-workers: {
+			name: "工人"
+			texts: {
+				desc: "您的工人數量不足以維持所有建築正常運轉。您的人口也就是維持您的城市和工業運轉的工人。<highlight>工人由城市核心產生</highlight>，但前提是必須有空閒的<highlight>房屋</highlight>。"
+				desc2: "如需增加您的最大人口數，您需要<highlight>建造和升級房屋</highlight>，並確保它們有持續的<highlight>食物供應</highlight>。<highlight>沒有電力和食物</highlight>供應的房屋無法提供任何生活空間。"
+			}
+		}
+		mini-raids: {
+			name: "離群幻魘群襲"
+			texts: {
+				desc: "如果您的城市尚未升空，它就極易受到攻擊。大多數幻魘群襲都處於休眠狀態，除非您主動靠近它們，但有時小群的幻魘可能會在您的城市附近徘徊，並且<highlight>在毫無預警的情況下發動攻擊</highlight>。"
+				desc2: "雖然小迪可以輕易地擊敗這些小股敵人，但您無法同時出現在所有地方，而且這些生物可以迅速摧毀毫無防禦的建築物。為了防止這種情況發生，建議您用<highlight>墻和門</highlight>封住城市的所有入口，並用<highlight>炮塔</highlight>保護它們。"
+			}
+			objectives: {
+				build-turret: "建造{0}×{1}"
+				build-wall: "建造{0}×{1}"
+			}
+		}
+		attack-warning: {
+			name: "幻魘突襲"
+			texts: {
+				desc: "你的都市有時會吸引大群想要摧毀都市的夢幻疫怪。 這些<highlight>襲擊</highlight>比周邊遊蕩的敵人的攻擊要危險得多，而且它們的襲擊是多波次的。"
+				desc2: "您可以<highlight>在小地圖中查看來襲方向</highlight>，我們強烈建議您建立一些防禦工事，保護您在來襲方向這一側的建築。\n\n<highlight>炮塔</highlight>可以提供額外的火力，但是無法承受大量傷害，所以請務必建造一些<highlight>圍牆</highlight>。"
+				desc3: "木制炮塔射擊速度慢，但它們可以造成<highlight>濺射性的區域傷害</highlight>。它們非常適合對付集群的弱小敵人，但在面對更強大的敵人時，可能需要額外的説明。\n\n在重新規劃城市時，您也可以移動炮塔的位置，但移動不可在面對襲擊時或幻魘即將來襲時進行。"
+			}
+		}
+		taking-off: {
+			name: "起飛"
+			texts: {
+				desc: "只要您的城市繼續待在地面上，幻魘襲擊就會越來越頻繁。您可以在遊戲面板中看到當前的 <highlight>威脅等級</highlight>。"
+				desc2: "當您發現受到的攻擊強度過高時，您應該飛離此地，找到一處更安定的地方著陸。在遊戲面板中<highlight>點擊發射按鈕</highlight>啟動起飛程式。引擎預熱<highlight>需要一段時間</highlight>，所以<highlight>要及時做出撤離的決定</highlight>，否則您將成為幻魘的口中餐。"
+				desc3: "記住，只有城市內部的建築才會和您一起飛走，所以請考慮拆除外部的建築來回收一些資源，或者如果您還有剩餘空間和重量的話，可以把它們搬到城市內部。"
+				desc4: "此外，像原木這樣的未經加工的原材料太重，無法帶走，所以它們會被留下來。在離開之前盡可能多地加工原材料。確保小迪在起飛倒計時結束時待在城裡！"
+			}
+		}
+		infrastructure-upgrades: {
+			name: "基礎設施升級"
+			texts: {
+				desc: "您現在可以建造一處加工車間，為<highlight>升級您的基礎設施</highlight>生產材料。基礎設施升級會為您帶來永久加成和技能。"
+				desc2: "收集足够的陞級資料，按下<highlight>K</highlight>打開基礎設施介面並購買陞級。"
+			}
+			objectives: {
+				produce-parts: "生產{0} x {1}"
+				purchase-upgrade: "購買一次基礎設施陞級"
+			}
+		}
+		infrastructure-window: {
+			name: "基礎設施窗口"
+			texts: {
+				desc: "這是基礎設施視窗。在這裡，您可以使用<highlight>升級材料</highlight>來升級您的基礎設施並獲得永久加成。"
+				desc2: "點擊<highlight>升級</highlight>按鈕購買升級點。然後您可以點擊基礎設施的不同<highlight>區域</highlight>來升級它們。基礎設施區域的每一級都提供被動加成。\n\n升級後，您可以在不同的區域下將額外點數分配給特殊<highlight>增益</highlight>。這些增益會提供更多的特殊加成和技能。"
+			}
+		}
+		multiple-productions: {
+			name: "轉換生產模式"
+			texts: {
+				desc: "在解鎖更多配方後，某些建築可以生產多個配方。\n\n<highlight>點擊生產配方</highlight>來選擇不同的配方。"
+				desc2: "有些配方需要某些擴展模組才能在建築中生產。"
+			}
+		}
+		rail-crossing: {
+			name: "軌道交叉口"
+			texts: {
+				desc: "軌道交叉口使用了零空間科技，這樣兩條軌道即使交叉也不會造成交通堵塞。"
+				desc2: "拖動以建造一個區域的軌道。 這樣當它與另一個區域的軌道交叉時，會自動建立一個交叉口。"
+			}
+			objectives: {
+				build-crossing: "建造一個軌道交叉口"
+			}
+		}
+		drep-crafting: {
+			name: "夢怪加工"
+			texts: {
+				desc: "你研究出了一項能够將夢幻疫怪殘骸精煉成珍貴資源的科技。 使用製作介面的“資源”標籤。"
+			}
+			objectives: {
+				craft: "精煉夢怪殘骸"
+			}
+		}
+		splitter-unlocked: {
+			name: "分揀機"
+			texts: {
+				desc: "分揀機科技已解鎖。這些設備可以放在軌道上，將進入分揀機的物品分類，根據分揀機的設置分配三個獨立的出口。"
+				desc2: "在放置分揀機後，打開設置視窗，將物品分別分配至每個出口。"
+			}
+		}
+		expeditioncenter-unlocked: {
+			name: "遠征中心"
+			texts: {
+				desc: "您現在可以建造一處遠征中心。這類獨特的建築可以讓您選擇和發起遠征隊，以尋找附近地區的物資和古代科技。"
+				desc2: "建造一個探險中心並與其互動，瞭解更多探險相關的事。"
+			}
+		}
+		expeditions: {
+			name: "遠征"
+			texts: {
+				desc: "這是遠征選擇視窗。每張地圖都有不同的遠征選項，具體取決於生物群系和地圖難度。每次遠征在資源成本，準備時間，遠征時間和潜在獎勵方面各有不同。\n\n在選擇要發起的遠征隊之前，您可以看到所有這些資訊。"
+				desc2: "每次遠征有兩個階段：<highlight>遠征準備</highlight>階段和<highlight>遠征中</highlight>。\n\n在選擇遠征隊後會<highlight>立即支付前期成本</highlight>，然後進入準備階段。 在整個準備階段，遠征中心需要<highlight>為相應的遠征隊支出一筆維護成本</highlight>。\n\n準備階段完成後，遠征隊便將啟程，除了遠征隊員（工人）之外，將不再需要任何維護成本。"
+				desc3: "遠征凱旋後，遠征隊員將返回工人池，此時您就可以選擇您的獎勵了。\n\n遠征戰利品可能包含<highlight>資源</highlight>、<highlight>燃料</highlight>和一些在其他地方無法獲得的<highlight>獨特物品和獎勵</highlight>。"
+			}
+		}
+		archeology-unlocked: {
+			name: "考古計畫"
+			texts: {
+				desc: "考古學可以讓您通過舊世界技術開展更多計畫，從而獲得強大而永久的獎勵。"
+				desc2: "通過廢墟解鎖新計畫。在完成這些計畫之前，首先要研究並培養一名考古學家。"
+			}
+		}
+		archeology: {
+			name: "考古計畫"
+			texts: {
+				desc: "選擇一個考古計畫開始工作。不同計畫將會產生不同費用。工作期間需持續給考古學家支付費用。\n\n一旦完成，獎勵將具有永久性，並不再需要任何額外資源。"
+				desc2: "如果同時向多名考古學家提供資源，他們將共同參與同一個計畫。"
+				desc3: "在廢墟中可以發現新的考古計畫。"
+			}
+		}
+		council: {
+			name: "市議會"
+			texts: {
+				desc: "當城市規模足夠大時，市民將選舉市議會。每次選舉將選出三名議員，每個陣營各一名。\n\n作為監管者，你將在這些議員中<highlight>選出市議長</highlight>。\n\n你必須在關閉此窗口之前選擇一名市議長。"
+				desc2: "每位議員都有不同的<highlight>增益和減益</highlight>。從議員中選出新的市議長後，這些增益和減益都將生效，直至下一次選舉。\n\n你在市議長所屬陣營的<highlight>影響力會增加</highlight>，在另外兩個陣營的<highlight>影響力會有所減少</highlight>。"
+				desc3: "在左側可以查看你在不同陣營的影響力。當你在某個陣營的<highlight>影響力</highlight>變得足夠高或足夠低時，你將獲得該陣營特定的<highlight>增益或減益</highlight>。\n\n將滑鼠懸停在影響力條的不同部位，以查看所需的影響力水平及其效果。"
+			}
+		}
+		resource-elevators: {
+			name: "自動收割機"
+			texts: {
+				desc: "解鎖資源投放科技後，您的收割機現在可以向這些新建築<highlight>自動輸送資源</highlight>。"
+				desc2: "您可以為每一處資源投放點設定它要接收的資源，而後沒有軌道輸出的收割機會自動調度運輸車，持續將資源向最近的接收該資源的投放點輸送。"
+				desc3: "收割機貨車無法在城內移動，所以網站必須造在城外或者城市邊緣。"
+			}
+		}
+		exporter: {
+			name: "資源打包機"
+			texts: {
+				desc: "資源打包機會將資料送至附近的網站，例如自動收割機。 打包機不僅僅只輸送原材料，還會輸送<highlight>其它任何資料</highlight>。"
+				desc2: "通過軌道為打包機供應資源，並設定一個接收資料的網站。"
+			}
+		}
+		gamepedia: {
+			name: "夢幻檔案"
+			texts: {
+				desc: "當您解鎖新的條目時，您可以在<highlight>夢幻檔案</highlight>中查看相關資訊。按下<highlight>>“H”</highlight>鍵打開檔案。"
+			}
+		}
+		carrycapacity: {
+			name: "重量和運載力"
+			texts: {
+				desc: "您的城市會變得越來越重。每處建築都會增加城市的重量，如果城市重量超過了您的運載力，您將無法起飛。"
+				desc2: "您可以通過建造或升級引擎來增加您的承載能力（需要解鎖科技）。"
+				desc3: "您可以用升級建築代替建造新建築，從而減少城市重量。您還可以將部分防禦工事建在城市外部。"
+			}
+		}
+		overweight-takeoff: {
+			name: "運行充能時發生超重"
+			texts: {
+				desc: "你都市的承載量在運行充能階段期間爆錶了。\n\n充能現已<highlight>暫停</highlight>，但如果你能在接下來的短時間內設法<highlight>平衡承載量</highlight>，充能會接著之前中斷的進度繼續； 如果你花的時間太久，之前的所有進度都會遺失，充能行程也將從零開始。"
+			}
+		}
+		low-health: {
+			name: "生命值不足"
+			texts: {
+				desc: "小迪的生命值不足。生命值會<highlight>在城市中緩慢回復</highlight>，您也可以將<highlight>維修包</highlight>裝備到快捷欄中進行使用。"
+				desc2: "如果承受過多傷害，<highlight>緊急傳送裝置</highlight>將會被啟動，您將會被傳送回城市，但是您將會<highlight>失去寶貴的時間和資源</highlight>。\n\n儘量讓小迪保持良好的生命值。"
+			}
+		}
+		armored-enemies: {
+			name: "裝甲幻魘"
+			texts: {
+				desc: "一些體型較大的生物具有<highlight>裝甲</highlight>。您的<highlight>木製炮塔</highlight>無法阻止它們，並且對它們造成的<highlight>傷害減少</highlight>。"
+				desc2: "升級您的防禦建築有利於應付這類敵人。如果敵情難以掌控，就請在準備完畢後立即起飛吧。"
+			}
+			objectives: {
+				build-turret: "建造一個{0}"
+			}
+		}
+		destination-select: {
+			name: "目的地選擇"
+			texts: {
+				desc: "恭喜您，您的城市第一次<highlight>起飛</highlight>了！\n\n在這個視窗中，您可以選擇下一步著陸的地點。"
+				desc2: "仔細選擇下一個著陸點。您的選擇將會影響到<highlight>敵人的強度</highlight>，<highlight>地圖上的資源</highlight>及其數量。"
+				desc3: "目前顯示的選項取決於當前的<highlight>強襲等級</highlight>（位於螢幕左上角）。"
+				desc4: "如果您對這些選項都不滿意，您可以點擊<highlight>飛往別處</highlight>按鈕來刷新您的選項，但這需要消耗一些燃料。"
+			}
+		}
+		abilities: {
+			name: "主動技能"
+			texts: {
+				desc: "您剛剛解鎖了小迪的第一項<highlight>主動技能</highlight>。主動技能可以像維修包或其他消耗品一樣使用，但是它們不需要消耗任何資源。"
+				desc2: "和消耗品一樣，您可以將技能裝備至<highlight>快捷欄</highlight>。大多數技能都有<highlight>冷卻時間</highlight>，這將限制您使用它們的頻率。"
+			}
+		}
+		passive-income: {
+			name: "被動收入"
+			texts: {
+				desc: "您獲得了被動收入獎金。這些獎金可以帶來指定資源的固定收入。"
+				desc2: "如果您設置了專門的資源投放點，那麼這些資源將會被投放到該投放點。否則，它們將被存放到城市核心。"
+			}
+		}
+		misc-items: {
+			name: "消耗品"
+			texts: {
+				desc: "您獲得了一個消耗品。要使用該物品，請打開背包，然後按右鍵該物品使用。這些物品不能被裝備到快捷欄，因為它們無法在戰鬥中使用。"
+			}
+		}
+		upgrade-layer: {
+			name: "升級視圖"
+			texts: {
+				desc: "在管理模式下，您可以用小地圖左側的按鈕打開<highlight>升級視圖</highlight>。"
+				desc2: "當啟動時，每個建築上會有一個圖示顯示其<highlight>當前等級</highlight>，以及一個用來直接從遊戲視圖中<highlight>升級</highlight>該建築的按鈕。此視圖對於管理您的經濟和升級建築非常有用。"
+				desc3: "您也可以使用其他管理模式視圖。將滑鼠懸停對應的按鈕上以查看更多資訊。"
+			}
+		}
+		onoff-tool: {
+			name: "啟用/關閉工具"
+			texts: {
+				desc: "在管理模式下，您可以使用<highlight>“啟用/關閉工具”</highlight>按鈕（預設快速鍵為“O”），直接從遊戲視圖中啟用或關閉建築。"
+			}
+		}
+		rebuild-debris: {
+			name: "廢墟&重建"
+			texts: {
+				desc: "你的部分建築被夢幻疫怪摧毀了。 被摧毀的建築會留下一處廢墟，供你查看它原本是什麼。 如果你想的話，也可以將廢墟重建。"
+				desc2: "重建會恢復原本建築上所有的陞級、附加組件和軌道入口/出口。 重建費用與你先前投入在該建築上的總費用一致，但這能讓你一鍵恢復所有。"
+				desc3: "如果需要重建建築，你可以使用修復/重建工具（默認L鍵）或者建築廢墟的建造資訊介面。"
+			}
+		}
+		sit-city-info: {
+			name: "城市資訊"
+			texts: {
+				desc: "點擊遊戲面板中的城市名稱，即可打開城市資訊視窗。該視窗還提供了當前著陸區域的資訊。"
+			}
+		}
+		teslacrats-production: {
+			name: "資源複製"
+			texts: {
+				desc: "您剛剛解鎖了特斯拉狂人的獨特技術，能夠對資源進行複製。要複製某種資源，您必須先獲得配方所需的基本數量，然後使用“資源”標籤下的製作介面。"
+				desc2: "在此過程中使用的機器在每次使用後都會劣化，因此每批復制資源的價格都會增加。在不使用機器以及飛往新的目的地時，價格會慢慢恢復到正常。"
+			}
+		}
+		raid-spawners: {
+			name: "裂隙"
+			texts: {
+				desc: "你發現了一處噩夢裂隙。 它是襲擊期間，數個夢幻疫怪的生成點之一。"
+				desc2: "裂隙很不穩定，你無法在它們附近建造。"
+			}
+		}
+	}
+}

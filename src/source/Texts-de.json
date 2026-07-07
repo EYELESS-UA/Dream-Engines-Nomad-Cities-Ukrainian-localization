@@ -1,0 +1,3700 @@
+{
+	general: {
+		lang-name: "German"
+		costs: "Kosten"
+		produced: "Produziert"
+		globalstorage: "Lagerkapazität"
+		effects: "Effekte"
+		edit: "Bearbeiten"
+		inputoutput: "Eingabe / Ausgabe"
+		research: "Forschung"
+		other: "Weiteres"
+		journal: "Logbuch"
+		selectitem: "Gegenstand wählen"
+		difficulty: "Schwierigkeitsgrad"
+		none: "Nichts"
+		owned: "In Besitz"
+		missing: "Fehlend"
+		upgrade: "Verbessern"
+		milestones: "Meilensteine"
+		continue: "Weiter"
+		autosaving: "Autom. Speichern …"
+		ok: "OK"
+		resources: "Ressourcen"
+		max: "Max."
+		unlock-bonuses: "Boni"
+		crafting-recipe: "Herstellungsentwurf"
+		production-recipe: "Produktionsentwurf"
+		produced-at: "Produziert in: {0}"
+		installed-at: "Installiert in: {0}"
+		is-single-module: "Nur einmal pro Gebäude installierbar."
+		construction-blueprint: "Bauplan für Konstruktion"
+		building-addon: "Bauplan für Gebäudeerweiterung"
+		archeology-unlock: "Archäologieprojekt-Bauplan"
+		upgrade-to: "Verbessern zu: {0}"
+		select-option-title: "Option wählen"
+		not-available-ironman: "In Ironman-Modus nicht verfügbar"
+		ironman: "Ironman"
+		rewards: "Belohnungen"
+		unlock-prod: "Ermöglicht Produktion: {0}"
+		requires-addon: "Benötigte Gebäudestufe/Erweiterungen:"
+		prereqs: "Voraussetzungen:"
+		blocked: "Blockiert"
+		lc-issue: "Übersetzungsproblem melden"
+		disabled-in-demo: "Deaktiviert für Demo"
+		start: "Start"
+		next: "Weiter"
+		add-item: "Gegenstand hinzufügen"
+		categories: "Kategorien:"
+		paused: "Angehalten"
+		inventory: "Inventar"
+		per-cycle: "{0} / Zyklus"
+		toggle-active: "Aktivieren/deaktivieren"
+		used-in: "Verwendet in:"
+		obtained-through: "Erhalten:"
+		appears-in-biome: "Erscheint in Biomen:"
+		see-gamepedia: "Im Traumarchiv erhältst du weitere Informationen zum Gegenstand (standardmäßig: „H“)"
+		save: "Speichern"
+		upload: "Hochladen"
+		cancel: "Abbrechen"
+		description: "Beschreibung"
+		title: "Titel"
+		disabled: "Deaktiviert"
+		unlocks: "Freischaltungen"
+		free: "Gratis\nx{0}"
+		help: "Hilfe"
+		show-tutorial: "Einleitung anzeigen"
+		no-refund-demolish: "Keine rückerstattung"
+		blueprint-format: "„{0}“-Bauplan"
+		passive-income-format: "Passiv: {0}"
+		global-storage-format: "{0}-Lager"
+		default: "Standard"
+		morebysuncrash: "Mehr von Suncrash"
+	}
+	title-messages: {
+		alpha-link: "<u>Benachrichtige mich bei wichtigen Updates</u>"
+	}
+	winlose: {
+		win-title: "Negationsschild aktiviert"
+		win-subtitle: "Du hast gewonnen"
+		win-text: "Der Negationsschild ist voll aufgeladen. Ein seltsames Gefühl überkommt dich und auf einmal spielt deine Technologie verrückt.\n\nDas Negationsfeld ist aktiv. In deiner Stadt funktioniert im Umkreis vieler Meilen keinerlei Traum-Tech. Deine Leute müssen mit primitiven Werkzeugen und einfacher Tesla-Technologie auskommen. Keine Verzerrung der Realität mehr. Kein Rumfliegen mit der Stadt mehr. Aber das Wichtigste ist, dass dein Volk jetzt von Traumplagen verschont bleibt.\n\nDanke, dass du unser Spiel spielst und bis bald."
+		lose-title: "Stadtkern zerstört"
+		lose-subtitle: "Spiel vorbei"
+	}
+	widgets: {
+		production: {
+			hover-title: "Produktion"
+			hover-text: "Die angezeigte Mengenangabe gilt pro Zyklus (die Zeiteinheit des Spiels).\n\nKlicke auf das Dropdown-Menü, um einen anderen Entwurf zu wählen (falls verfügbar)."
+			change-hover: "Durch Forschung, Stadtverbesserungen und Erkundungen schaltest du neue Entwürfe frei."
+			remaining-res: "Verbleibende Ressourcen: {0}"
+			input-title: "Eingabe"
+			output-title: "Ausgabe"
+			buildings: "Produziert in"
+			percycle-title: "Produktionsanzeige"
+			percycle-hover: "Dieser Balken zeigt den Produktions- oder Verbrauchsfortschritt an. Wenn sich der Balken füllt, wird eine einzelne Einheit produziert. Wenn er leer ist, wird eine einzelne Einheit verbraucht, falls verfügbar.\n\nDie angezeigte Zahl ist die Produktions- oder Verbrauchsrate – wie viele Einheiten pro Zyklus produziert werden (die Zeiteinheit des Spiels). Ressourcen werden immer einzeln produziert oder verbraucht, nicht in Stapeln."
+			select-recipe-title: "Entwurf wählen"
+			click-to-change: "Klicken, um Entwurf zu wechseln"
+			assigned-count: "{0} / {1} (Max. {2})"
+			assigned-hover: "Die Anzahl zugewiesener Arbeiter beeinflusst die Produktionsgeschwindigkeit dieses Gebäudes."
+		}
+		launch: {
+			hover-title: "Abheben"
+			hover-text: "Initiiere ein stadtweites Startverfahren. Es dauert eine Weile, bis die Triebwerke aufgeladen sind. Bereite dich darauf vor, deine Stadt bis zum Start zu verteidigen.\n\nAlle Gebäude außerhalb der Stadt bleiben zurück."
+			progress-bar-hover-text: "Abheben wird aufgeladen"
+			required-mats: "Kosten fürs Abheben:"
+			weight: "Tragkraft: {0}"
+			fuel-cost: "Treibstoffkosten: {0}"
+			fuel-hover: "Benötigt zum Abheben: {0}\nVerfügbarer Treibstoff: {1}\nMax. Treibstoff-Kapazität: {2}"
+			weight-title: "Gewicht und Tragkraft"
+			weight-hover: "Deine Tragkraft bestimmt das maximale Stadtgewicht, das du beim Abheben haben darfst. Baue oder verbessere Triebwerke, um die Tragkraft zu erhöhen oder reiße Gebäude ab, um das Gewicht deiner Stadt zu reduzieren."
+		}
+		storage: {
+			hover-title: "Lager"
+			hover-text: "Gelagerte Gegenstände können zum Herstellen, Bauen, Verbessern und für ähnliche Einsatzgebiete genutzt werden."
+			allow-title: "Importierte Gegenstände"
+			allow-hover: "Lege fest, welche Rohmaterialien du importieren willst."
+			add-import-hover: "Importware hinzufügen"
+		}
+		resources: {
+			hover-title: "Ressourcenknoten"
+			hover-text: "Rohmaterialien in Ressourcenknoten werden von einer über ihnen aufgebauten Erntemaschine gesammelt."
+			build-title: "Erntemaschine bauen"
+			missing-research: "Keine Erntemaschinen für diese Ressource freigeschaltet."
+		}
+		shieldwin: {
+			hover-title: "Schild aufladen"
+			hover-text: "Ladungsbalken des Negationsschilds. Wenn es voll aufgeladen ist, gewinnst du das Spiel."
+			progress: "Aufladung: {0} %"
+		}
+		upkeep: {
+			hover-title: "Wartung / Instandhaltung"
+			hover-text: "Erforderliche Materialien, damit das Gebäude in Betrieb bleibt.\n\nNicht globale Ressourcen müssen direkt zum Gebäude geliefert werden."
+			progress-text: "Verbleibende Zeit bis zur nächsten Instandhaltung."
+		}
+		upgrades: {
+			title: "Erweiterungen"
+			buildings: "Verfügbar für"
+			level: "Stufe {0}"
+			noupgrades: "Schalte Erweiterungen frei, indem du sie erforschst."
+			cancels-desc: "Diese Erweiterung blockiert andere Erweiterungen:\n{0}"
+		}
+		modules: {
+			title: "Verbesserungsmodule"
+		}
+		research: {
+			title: "Forschung"
+			speed: "Forschungsgeschwindigkeit: {0} / Zyklus"
+			selectsubject: "Forschung wählen"
+		}
+		attacker: {
+			title: "Turmwerte"
+		}
+		globalstorage: {
+			title: "Lagerkapazität"
+			hover: "Dieses Gebäude erhöht die maximale Menge an Ressourcen, die du besitzen darfst. Dies gilt für die unten stehenden Ressourcen und Mengen."
+			format: "Max. {0}: +{1}"
+		}
+		general: {
+			disable-toggle: "Ein/Aus umschalten"
+			weight: "Gebäudegewicht"
+		}
+		ruins-store: {
+			title: "Ruinen"
+			text: "In den antiken Ruinen stehen Maschinen, die teilweise noch funktionieren. Mit den richtigen Materialien kann man zwar etwas herstellen, aber die Maschinen können nur ein oder zwei Mal aktiviert werden, bevor sie unbrauchbar werden.\n\nAlternativ kannst du alles für Ressourcen verschrotten."
+			open-button: "Herstellen"
+			scrap-button: "Verschrotten"
+			scrap-disabled-hover: "Wir haben bereits alles genutzt, was wir können."
+		}
+		splitter: {
+			forward: "Vorwärts"
+			right: "Rechts"
+			left: "Links"
+			catch-all: "Alle Gegenstände, die nicht anderweitig zugewiesen sind"
+		}
+		expedition: {
+			title: "Expedition"
+			hover-text: ""
+			choose-expedition: "Expedition wählen"
+			choose-rewards: "Belohnungen wählen"
+			stage-prep: "Fortschritt Vorbereitung: {0}"
+			stage-ongoing: "Fortschritt Expedition: {0}"
+			stage-complete: "Expedition abgeschlossen"
+			stage-not-selected: "Keine Expedition gewählt"
+			selected-expedition: "Gewählte Expedition: {0}"
+			show-expedition-hover: "Expeditionsinfo anzeigen"
+		}
+		player-debris: {
+			title: "{0} wiederaufbauen"
+		}
+		requires-activation: {
+			title: "Gebäude aktivieren"
+			upfront-costs: "Erforderliche Materialien:"
+			activate-button: "Aktivieren"
+			needs-power: "Mit Stromnetz verbinden"
+			time-to-activate: "Verbleibend: {0}"
+		}
+		archeologist: {
+			title: "Archäologie"
+			hover-text: ""
+			choose-project: "Projekt wählen"
+			stop-project: "Projekt pausieren"
+			selected-project: "Gewähltes Projekt: {0}"
+			select-unlock: "Archäologieprojekt freischalten"
+		}
+		passive-income: {
+			title: "Passives Einkommen"
+		}
+	}
+	character: {
+		slot-type: {
+			mech-upgrade: "Modul – Tiny"
+			city-upgrade: "Modul – Stadt"
+			harvester-module: "Erntemaschinen"
+			production-module: "Produktionsgebäude"
+			any-building-module: "Beliebiges Gebäude"
+			farm-module: "Farmen"
+			turret-module: "Verteidigungsgebäude"
+		}
+	}
+	map-traits: {
+		purple-biome: {
+			name: "Ödland"
+		}
+		blue-biome: {
+			name: "Traumberührte Felder"
+		}
+		desert-biome: {
+			name: "Wüste"
+		}
+		lava-biome: {
+			name: "Aschfall-Gebirge"
+		}
+		green-biome: {
+			name: "Giftsumpf"
+		}
+		ruins-ind: {
+			name: "Industrie-Ruinen"
+			desc: "In Industrie-Ruinen findest du oft Baupläne und Produktionsentwürfe."
+		}
+		ruins-tech: {
+			name: "Tech-Ruinen"
+			desc: "In Tech-Ruinen findest du öfter fortschrittliche Technologie."
+		}
+		ruins-lab: {
+			name: "Chemie-Ruinen"
+			desc: "In Chemie-Ruinen findest du eher chemische oder experimentelle Wertgegenstände."
+		}
+		ruins-fuel: {
+			name: "Treibstoffvorrat-Ruinen"
+			desc: "In diesen Ruinen kannst du Treibstoff für deine Stadt extrahieren."
+		}
+		ruins-skill-resetter: {
+			name: "Ruinen zur Infrastruktur-Sanierung"
+			desc: "Du kannst diese Ruinen nutzen, um deine Infrastrukturverbesserungen zurückzusetzen und neu zu verteilen."
+		}
+		ruins-resource-converter: {
+			name: "Ruinen zur Ressourcenumwandlung"
+			desc: "Nutze diese Ruinen, um verschiedene Ressourcenarten umzuwandeln."
+		}
+		ruins-flux-shop: {
+			name: "Materialisierer-Ruinen"
+			desc: "Diese uralten TraumTek-Wunder nutzen Flux, um verschiedene Ressourcen zu materialisieren."
+		}
+		ruins-perm-income: {
+			name: "Versorgungslager-Ruinen"
+			desc: "Vielleicht kannst du diese Lager so umprogrammieren, dass sie deine Stadt konstant mit Ressourcen versorgen."
+		}
+		unfertile: {
+			name: "Nicht fruchtbar"
+		}
+		fertile: {
+			name: "Fruchtbar"
+		}
+		energy-rich: {
+			name: "Geladene Atmosphäre"
+		}
+		flux-rich: {
+			name: "Dünner Schleier"
+		}
+		tar-rich: {
+			name: "Teergetränkte Erde"
+		}
+		tar-poor: {
+			name: "Teerfreie Erde"
+		}
+		toxic-ground: {
+			name: "Giftiger Boden"
+		}
+		materializer-rich: {
+			name: "Stabile Traumtek"
+		}
+		cheap-construction: {
+			name: "Stabiler Boden"
+		}
+		rich-cauldron: {
+			name: "Stabile Flüssigkeiten"
+		}
+		inspiring: {
+			name: "Inspirierend"
+		}
+		motivating: {
+			name: "Motivierend"
+		}
+		agitated: {
+			name: "Rastloser Trep"
+		}
+		resource-rich: {
+			name: "Ressourcenreich"
+		}
+		resource-poor: {
+			name: "Ressourcenarm"
+		}
+		resource-abundant: {
+			name: "Reichlich"
+		}
+		rugged-terrain: {
+			name: "Rau"
+		}
+		rich-drep: {
+			name: "Fetter Trep"
+		}
+		rich-debris: {
+			name: "Hochwertiger Schutt"
+		}
+		drep-infestation: {
+			name: "Trep-Befall"
+		}
+		less-drep: {
+			name: "Trep-Mangel"
+		}
+		strong-raids: {
+			name: "Geordneter Trep"
+		}
+		weak-raids: {
+			name: "Zerstreuter Trep"
+		}
+		extra-expeditions: {
+			name: "Zentrale Lage"
+		}
+		less-expeditions: {
+			name: "Mitten im Nirgendwo"
+		}
+		fast-expeditions: {
+			name: "Kurze Distanzen"
+		}
+		cheap-expeditions: {
+			name: "Expeditionszentrum"
+		}
+	}
+	productions: {
+		is-harvest: "Dieser Produktionsentwurf erfordert das Finden eines Ressourcenknotens und den Bau einer Erntemaschine."
+		cheapflux: {
+			name: "Basix-Flux-Produktion"
+		}
+		fluxgenerator: {
+			name: "Sternteer > Flux"
+		}
+		carbonflux: {
+			name: "Kohlenstoff > Flux"
+		}
+		dreamflux: {
+			name: "Flüssiger Traum > Flux"
+		}
+		smokeflux: {
+			name: "Rauchgel > Flux"
+		}
+		cheappower: {
+			name: "Standard-Energieproduktion"
+		}
+		startargenerator: {
+			name: "Teer-Energie"
+		}
+		acidpower: {
+			name: "Säure-Energie"
+		}
+		glueberrypower: {
+			name: "Kleebeer-Energie"
+		}
+		gelpower: {
+			name: "Rauchgel-Energie"
+		}
+		firepower: {
+			name: "Thermalenergie"
+		}
+		alt-sulfurpower: {
+			name: "Schwefelkraft"
+		}
+		upgradeparts2: {
+			name: "Klebeer-Teile"
+		}
+		upgradeparts3: {
+			name: "Kohlenstoff-Teile"
+		}
+		upgradeparts4: {
+			name: "Kupfer-Teile"
+		}
+		upgradeparts5: {
+			name: "Albtraum-Teile"
+		}
+		purptatoprocessor: {
+			name: "Purptoffel-Mahlzeit"
+		}
+		carbonfood: {
+			name: "Kabtus-Mahlzeit"
+		}
+		carbonsmokefood: {
+			name: "Gegrillter Kabtus"
+		}
+		candyshroomfood: {
+			name: "Süßpilz-Mahlzeit"
+		}
+		carbonite-fire: {
+			name: "Karbonit – Feuer"
+		}
+		dreamcrystal-fire: {
+			name: "Albtraumkristalle – Feuer"
+		}
+		researchlab-goo: {
+			name: "Sternteer-Forschung"
+		}
+		researchlab-carbonite: {
+			name: "Kohlenstoff-Forschung"
+		}
+		researchlab-acidwood: {
+			name: "Säure-Forschung"
+		}
+		researchlab-gel: {
+			name: "Rauchgel-Forschung"
+		}
+		researchlab-dreamcrystal: {
+			name: "Albtraum-Forschung"
+		}
+		fuel-acid: {
+			name: "Säure-Treibstoff"
+		}
+		fuel-tesla: {
+			name: "Tesla-Treibstoff"
+		}
+		fuel-fire: {
+			name: "Feuertreibstoff"
+		}
+		alt-flux-featherstone: {
+			name: "Federstein > Flux"
+		}
+		alt-flux-acid: {
+			name: "Säureholz > Flux"
+		}
+		alt-flux-hardenedshroom: {
+			name: "Härtepilz > Flux"
+		}
+		alt-food-glueberry: {
+			name: "Klebeere-Entgiftung"
+		}
+		alt-food-smokepurptato: {
+			name: "Geräucherte Purptoffeln"
+		}
+		alt-upgrade-stickytar: {
+			name: "Klebrige Teerteile"
+		}
+		alt-upgrade-carbonite: {
+			name: "Karbonit-Teile"
+		}
+		alt-upgrade-firecopper: {
+			name: "Flammende Kupferteile"
+		}
+		alt-upgrade-fluxmetal: {
+			name: "Flux-Metall-Teile"
+		}
+		alt-research-refinedtar: {
+			name: "„Verarbeiteter Teer“-Forschung"
+		}
+		alt-research-powercrystal: {
+			name: "Energiekristall-Forschung"
+		}
+		alt-fuel-tarhoney: {
+			name: "„Verarbeiteter Teer“-Treibstoff"
+		}
+		alt-crystal-stone: {
+			name: "Federstein > Kristall"
+		}
+		alt-acidwood-sulfur: {
+			name: "Schwefelsäureholz"
+		}
+		alt-acidstone-sulfur: {
+			name: "Schwefelsäurestein"
+		}
+		alt-energycell-sulfuricacid: {
+			name: "Schwefel-Tesla-Zelle"
+		}
+		alt-acidextract-wood: {
+			name: "Extrahiere Säure (Holz)"
+		}
+		alt-acidextract-stone: {
+			name: "Extrahiere Säure (Stein)"
+		}
+		alt-starwood-refinedtar: {
+			name: "Sternholz (Verarbeiteter Teer)"
+		}
+		alt-armorplating-stickytar: {
+			name: "Rüstungslegierung (Klebriger Teer)"
+		}
+		alt-smokedfire-stickytar: {
+			name: "Rauchfeuer (Klebriger Teer)"
+		}
+		alt-acidstone-firetar: {
+			name: "Säurestein (Feuer und Teer)"
+		}
+		alt-carbonmix-refinedtar: {
+			name: "Kohlenstoffmischung (Verarbeiteter Teer)"
+		}
+		alt-powercrystal-energycell: {
+			name: "Tesla-Zellen-Verbesserung"
+		}
+		alt-hardenedshroom-sticky: {
+			name: "Härtepilz (klebriger Teer)"
+		}
+		alt-hardenedshroom-fire: {
+			name: "Härtepilz (flammendes Kupfer)"
+		}
+		fluxmetal-flamingcopper: {
+			name: "Flux-Metall (flammendes Kupfer)"
+		}
+		alt-fluxmetal-both: {
+			name: "Flux-Metall (Kupfer und Pilz)"
+		}
+	}
+	crafting: {
+		starwooddowngrade: {
+			name: "Sternholz > Blutholz"
+		}
+		acidwooddowngrade: {
+			name: "Säureholz > Sternholz"
+		}
+		glowwooddowngrade: {
+			name: "Glühholz > Sternholz"
+		}
+		feathercrystaldowngrade: {
+			name: "Federkristall > Federstein"
+		}
+		carbonitedowngrade: {
+			name: "Karbonit > Federkristall"
+		}
+		lightcarbonitedowngrade: {
+			name: "Karbonitsand > Karbonit"
+		}
+		acidstonedowngrade: {
+			name: "Säurestein > Federkristall"
+		}
+		armorplatingdowngrade: {
+			name: "Rüstungslegierung > Kupfer"
+		}
+		energycelldowngrade: {
+			name: "Tesla-Zelle > Kupfer"
+		}
+		chargedplatingdowngrade: {
+			name: "Albtraumlegierung > Rüstungslegierung"
+		}
+		firecopperdowngrade: {
+			name: "Flammendes Kupfer > Rüstungslegierung"
+		}
+		powercrystaldowngrade: {
+			name: "Energiekristall > Tesla-Zelle"
+		}
+		hardenedshroomdowngrade: {
+			name: "Härtepilz > Glühholz"
+		}
+		fluxmetaldowngrade: {
+			name: "Flux-Metall > flammendes Kupfer"
+		}
+		store-fuel-cache-small: {
+			name: "Geringe Treibstoff-Extraktion"
+		}
+		store-fuel-cache-medium: {
+			name: "Mittlere Treibstoff-Extraktion"
+		}
+		store-fuel-cache-large: {
+			name: "Hohe Treibstoff-Extraktion"
+		}
+		alt-acidwood-fromstone: {
+			name: "Säurestein > Säureholz"
+		}
+		alt-acidstone-fromwood: {
+			name: "Säureholz > Säurestein"
+		}
+	}
+	generic-unlocks: {
+		teslacrats-production: {
+			name: "Ressourcenduplizierung"
+			desc: "Die Teslakrate können Ressourcen mittels Herstellung duplizieren, indem sie große Mengen an Energie verbrauchen.\n\nEine Grundmenge jeder Ressource muss auf andere Weise erworben werden, bevor sie dupliziert werden kann."
+		}
+	}
+	items: {
+		consumable: "Verbrauchsgüter"
+		immediate: "Automatisch angewendet"
+		global: "Dies ist eine globale Ressource, die nicht transportiert werden muss."
+		heavy: "<color=#FFD57E>Diese Ressource ist zu schwer oder zu instabil zum Flugtransport. Verarbeite sie vor dem Abflug, ansonsten verschwindet sie aus dem Lager.</color>"
+		all: {
+			name: "Alle"
+		}
+		funds: {
+			name: "Flux"
+			desc: "Diese Substanz, die Grundlage aller Traumtek, wird aus dem Traumreich gewonnen und kann die Realität verzerren, um außerphysische Dinge geschehen zu lassen."
+		}
+		power: {
+			name: "Energie"
+			desc: "Tesla-Energie, die verwendet wird, um die meisten Maschinen zu betreiben."
+		}
+		worker: {
+			name: "Arbeiter"
+			desc: "Bürger, die in der Stadt arbeiten. Für die meisten Gebäude benötigt.\n\nBaue und verbessere Häuser, um die max. Anzahl der Arbeiter erhöhen. Sie werden im Stadtkern produziert."
+		}
+		fuel: {
+			name: "Motortreibstoff"
+			desc: "Wird fürs Fliegen benutzt und um einem schrecklichen Tod zu entgehen."
+		}
+		upgradeparts: {
+			name: "Verbesserungsmaterialien"
+			desc: "Wird verwendet, um deine provisorische Infrastruktur zu verbessern und dauerhafte Boni zu erhalten."
+		}
+		convert-funds: {
+			name: "Umwandlungsmaterialien"
+			desc: "Rohstoffe für Ruinen zur Ressourcenumwandlung."
+		}
+		research-points: {
+			name: "Wissen"
+			desc: "Wissen ist erforderlich, um Forschungen abzuschließen.\n\nErzeugt von verrückten Wissenschaftlern in Forschungslaboren."
+		}
+		comingsoon: {
+			name: "Bald verfügbar"
+			desc: "Diese Funktion ist noch nicht verfügbar."
+		}
+		food: {
+			name: "Nahrung"
+			desc: "Eine Art Treibstoff für Menschen. Wird regelmäßig von Häusern benötigt.\n\nProduziert im Nahrungswerk."
+		}
+		bloodwoodlog: {
+			name: "Blutholzstämme"
+			desc: "Stämme, die mit leuchtend roten Adern durchzogen sind. Müssen vor der Verwendung verarbeitet werden.\n\nWerden aus Ressourcenknoten geerntet."
+		}
+		rawfeatherstone: {
+			name: "Unverarbeiteter Federstein"
+			desc: "Dieser Stein ist immun gegen die Schwerkraft, was ihn sehr nützlich beim Bau von Flugobjekten (wie zum Beispiel Städten) macht.\n\nWird aus Ressourcenknoten geerntet."
+		}
+		crystal: {
+			name: "Kristall"
+			desc: "Geerntet von Ressourcenknoten, die in Wüstengebieten vorkommen."
+		}
+		cabtus: {
+			name: "Kabtus"
+			desc: "Fleischige Frucht, die in Wüstengebieten wächst."
+		}
+		purptato: {
+			name: "Purptoffeln"
+			desc: "Schmeckt wie eine eingefärbte Kartoffel. Kann im Nahrungswerk zu gerade noch essbarem Fraß verarbeitet werden."
+		}
+		rawcopper: {
+			name: "Unverarbeitetes Kupfer"
+			desc: "Das Metall der Wahl für viele Dampfmaschinen. Wird im Schmelzofen zu brauchbaren Barren verarbeitet.\n\nWird aus Ressourcenknoten geerntet. Erscheint in Gebieten mit höherem Schwierigkeitsgrad."
+		}
+		glowhoney: {
+			name: "Leuchthonig"
+			desc: "Radioaktiver Honig. Als Nahrung kaum brauchbar, kann aber zu hochwertigem Treibstoff für fliegende Städte verarbeitet werden.\n\nWird aus Ressourcenknoten geerntet. Erscheint in Gebieten mit höherem Schwierigkeitsgrad."
+		}
+		sulfur: {
+			name: "Schwefel"
+			desc: "Übelriechend, aber nützlich.\n\nWird aus Ressourcenknoten gewonnen. Erscheint in Gebieten mit höherem Schwierigkeitsgrad."
+		}
+		liquidfire: {
+			name: "Flüssiges Feuer"
+			desc: "Eine ewig heiße Flüssigkeit.\n\nGeerntet von Ressourcenknoten in Aschebiomen."
+		}
+		candyshroom: {
+			name: "Süßpilz"
+			desc: "Dieser riesige Pilz in Süßigkeitenform ist nicht nur nahrhaft, sondern auch reich an Flux.\n\nGeerntet von Ressourcenknoten in Giftbiomen."
+		}
+		startar: {
+			name: "Sternstaub-Teer"
+			desc: "Seine traumhaften Eigenschaften sind ein Hinweis darauf, dass er aus einer anderen Dimension stammt. Die meisten Böden enthalten Spurenelemente, die mit speziellen Maschinen extrahiert werden können.\n\nBaue einen Teer-Extraktor in der Stadt."
+		}
+		acidshard: {
+			name: "Säurescherben"
+			desc: "Kristallisierte Version der Säurepools, die im Ödland häufig vorkommen.\n\nWerden aus Ressourcenknoten geerntet. Erscheinen in Gebieten mit höherem Schwierigkeitsgrad."
+		}
+		glueberry: {
+			name: "Klebeere"
+			desc: "Viele arme Seelen sind erstickt, nachdem sie eine probieren wollten und ihr Mund davon zugeschweißt wurde."
+		}
+		smokegel: {
+			name: "Rauchgel"
+			desc: "Mit der richtigen Technik lässt sich selbst Umweltverschmutzung in etwas Brauchbares umwandeln."
+		}
+		toxicgoo: {
+			name: "Giftiger Glibber"
+			desc: "Eine giftige Substanz, die aus dem Boden extrahiert werden kann. Kann viel effizienter in Giftbiomen extrahiert werden."
+		}
+		refinedtar: {
+			name: "Verarbeiteter Teer"
+			desc: "Verarbeiteter Sternstaub-Teer mit höherer Flux-Konzentration"
+		}
+		stickytar: {
+			name: "Klebriger Teer"
+			desc: "Extraklebrige fluxerfüllte Substanz"
+		}
+		drepjuice: {
+			name: "Albtraumsaft"
+			desc: "Fließt oft in den Adern von biologischen Treps."
+		}
+		drepdust: {
+			name: "Trepstaub"
+			desc: "Dieser Staub ist der Überrest eines Treps."
+		}
+		dreptech: {
+			name: "Stromdraht"
+			desc: "Überreste von technologischen Treps."
+		}
+		oldscraps: {
+			name: "Alte-Welt-Schrott"
+			desc: "Kleine Teile aus der alten Welt. Könnten nützlich sein, wenn du herrenlose Maschinen der alten Welt verwenden willst."
+		}
+		dreamcore: {
+			name: "Traumkern"
+			desc: "Der Gipfel der Altwelt-Technologie. Diese seltenen Artefakte finden sich in Ruinen und bei Expeditionen und können zum Bau und zur Herstellung verwendet werden."
+		}
+		warpedwood: {
+			name: "Blutholzbretter"
+			desc: "Starkes und dennoch leichtes Holz, das in vielen Bau- und Herstellungsentwürfen in den Nomadenstädten verwendet wird.\n\nWird im Holzkrümmer aus Blutholzstämmen produziert."
+		}
+		featherstone: {
+			name: "Zerstoßener Federstein"
+			desc: "Verarbeiteter Federstein wird beim Bau verwendet, um Gebäude zu verstärken und ihr Gewicht zu verringern."
+		}
+		starwood: {
+			name: "Sternholz"
+			desc: "Sternstaub-Teer, der in Blutholzbrettern eingefasst ist, macht sie robuster und verleiht ihnen übernatürliche Eigenschaften.\n\nWird im Holzkrümmer aus Blutholzbrettern und Sternstaub-Teer produziert."
+		}
+		atlasbolt: {
+			name: "Atlas-Bolzen"
+			desc: "Schießbolzen aus Blutholzbrettern mit spezieller Anti-Albtraum-Beschichtung. Erforderlich, um Tinys Fernkampfwaffen abzufeuern."
+		}
+		feathercrystal: {
+			name: "Federkristall"
+			desc: "Kristall in Verbindung mit Federstein. Kristallknoten kommen in Wüstengebieten vor."
+		}
+		acidwood: {
+			name: "Säureholz"
+			desc: "Säurebehandeltes Blutholz."
+		}
+		acidstone: {
+			name: "Säurestein"
+			desc: "Säurebehandelter Federstein."
+		}
+		carbonmix: {
+			name: "Kohlenstoffmischung"
+			desc: "Verarbeiteter Kabtus, voller Energie."
+		}
+		dreammixture: {
+			name: "Flüssiger Traum"
+			desc: "Diese mysteriöse Flüssigkeit hat sehr ähnliche Eigenschaften wie Flux, ist aber viel stabiler und für physikalische Anwendungen flexibler."
+		}
+		dreamcrystal: {
+			name: "Albtraumkristalle"
+			desc: "Mit flüssigem Traum durchtränkte Kristalle. Der Prozess verdreht und verdunkelt die Kristalle, daher kommt ihr Name."
+		}
+		sulfuricacid: {
+			name: "Schwefelsäure"
+			desc: "Aus Schwefel gewonnen."
+		}
+		toxicacid: {
+			name: "Giftsäure"
+			desc: "Eine extrem gefährliche Mischung aus giftigem Glibber und Schwefelsäure."
+		}
+		smokedfire: {
+			name: "Rauchfeuer"
+			desc: "Rauchgel hilft, das flüssige Feuer zu stabilisieren und macht es fast sicher zu handhaben."
+		}
+		carbonite: {
+			name: "Karbonit"
+			desc: "Kristalle, die mit Kohlenstoffmischung verarbeitet wurden."
+		}
+		light-carbonite: {
+			name: "Karbonitsand"
+			desc: "Wird verwendet, um steinbasierte Verteidigungsstellungen zu verstärken."
+		}
+		copperingot: {
+			name: "Kupferbarren"
+			desc: "Verarbeitetes Kupfer, das für verschiedene Dinge genutzt wird."
+		}
+		glowwood: {
+			name: "Glühholz"
+			desc: "Dieses Holz kann die Gesundheit schädigen, ist aber sehr nützlich in Sachen TraumTek-Leitfähigkeit."
+		}
+		armorplating: {
+			name: "Rüstungslegierung"
+			desc: "Kupferplatten, die durch einen unbekannten Prozess seltsam verformt wurden. Durch die albtraum-abwehrenden Eigenschaften eignet es sich bestens für viele militärische Anwendungen."
+		}
+		energycell: {
+			name: "Tesla-Zelle"
+			desc: "Kleiner tragbarer Energiespeicher. Nützlich, um mobile Geräte zu betreiben."
+		}
+		chargedplating: {
+			name: "Albtraumlegierung"
+			desc: "Panzerung, die mit Albtraumkristall aufgeladen wurde. Extrem langlebig, perfekt für die Unterbringung besonders leistungsstarker Traum-Tech-Maschinen."
+		}
+		firecopper: {
+			name: "Flammendes Kupfer"
+			desc: "Kupfer, behandelt mit flüssigem Feuer."
+		}
+		powercrystal: {
+			name: "Energiekristall"
+			desc: "Leistungsstarke Tesla-Zelle."
+		}
+		hardenedshroom: {
+			name: "Härtepilz"
+			desc: "Stark, leicht und extrem nützlich für TraumTek."
+		}
+		hardeningpowder: {
+			name: "Härtungspulver"
+			desc: "Wird verwendet, um etwas Pilzmagie auf andere Materialien zu übertragen."
+		}
+		fluxmetal: {
+			name: "Flux-Metall"
+			desc: "Komplexes Metall, das der Physik trotzt."
+		}
+		research1: {
+			name: "Standard-Forschungskit"
+			desc: "Eine Prise Kupfer, eine Pinte Teer, alles mit etwas Holz umwickeln und fertig ist das perfekte Kit, um mit Traumtek zu experimentieren.\n\nWird im Schmelzofen produziert."
+		}
+		unarmed: {
+			name: "Normale Faust"
+		}
+		crossbow: {
+			name: "Leichte Armbrust"
+		}
+		repeater-crossbow: {
+			name: "Repetierarmbrust"
+		}
+		repeater-crossbow2: {
+			name: "Repetierarmbrust 2"
+		}
+		repeater-crossbow3: {
+			name: "Repetierarmbrust 3"
+		}
+		spreadbow: {
+			name: "Streubogen"
+		}
+		spreadbow2: {
+			name: "Streubogen 2"
+		}
+		spreadbow3: {
+			name: "Streubogen 3"
+		}
+		snipe-crossbow: {
+			name: "Scharfschützenbogen"
+		}
+		snipe-crossbow2: {
+			name: "Scharfschützenbogen 2"
+		}
+		snipe-crossbow3: {
+			name: "Scharfschützenbogen 3"
+		}
+		piercing-crossbow: {
+			name: "Durchbohrende Armbrust"
+		}
+		piercing-crossbow2: {
+			name: "Durchbohrende Armbrust 2"
+		}
+		piercing-crossbow3: {
+			name: "Durchbohrende Armbrust 3"
+		}
+		snipe-piercing-crossbow: {
+			name: "Schwere Armbrust"
+		}
+		snipe-piercing-crossbow2: {
+			name: "Schwere Armbrust 2"
+		}
+		snipe-piercing-crossbow3: {
+			name: "Schwere Armbrust 3"
+		}
+		snipe-gun: {
+			name: "Scharfgeschütz"
+		}
+		snipe-gun2: {
+			name: "Scharfgeschütz 2"
+		}
+		snipe-gun3: {
+			name: "Scharfgeschütz 3"
+		}
+		snipe-gun4: {
+			name: "Scharfgeschütz 4"
+		}
+		snipe-gun5: {
+			name: "Scharfgeschütz 5"
+		}
+		snipe-gun-super: {
+			name: "Elite-Scharfgeschütz"
+		}
+		piercing-gun: {
+			name: "Durchbohrendes Geschütz"
+		}
+		piercing-gun2: {
+			name: "Durchbohrendes Geschütz 2"
+		}
+		piercing-gun3: {
+			name: "Durchbohrendes Geschütz 3"
+		}
+		piercing-gun4: {
+			name: "Durchbohrendes Geschütz 4"
+		}
+		piercing-gun5: {
+			name: "Durchbohrendes Geschütz 5"
+		}
+		piercing-gun-super: {
+			name: "Durchbohrendes Elite-Geschütz"
+		}
+		snipe-piercing-gun: {
+			name: "Schwere Kanone"
+		}
+		snipe-piercing-gun2: {
+			name: "Schwere Kanone 2"
+		}
+		snipe-piercing-gun3: {
+			name: "Schwere Kanone 3"
+		}
+		snipe-piercing-gun4: {
+			name: "Schwere Kanone 4"
+		}
+		snipe-piercing-gun5: {
+			name: "Schwere Kanone 5"
+		}
+		snipe-piercing-gun-super: {
+			name: "Schwere Elite-Kanone"
+		}
+		spikedpunch: {
+			name: "Stachelfaust"
+		}
+		spikedpunch2: {
+			name: "Stachelfaust 2"
+		}
+		spikedpunch3: {
+			name: "Stachelfaust 3"
+		}
+		acid-punch: {
+			name: "Säure-Faustbombe"
+		}
+		acid-punch2: {
+			name: "Säure-Faustbombe 2"
+		}
+		acid-punch3: {
+			name: "Säure-Faustbombe 3"
+		}
+		starwoodcrossbow: {
+			name: "Sternholz-Armbrust"
+		}
+		starwoodcrossbow2: {
+			name: "Sternholz-Armbrust 2"
+		}
+		starwoodcrossbow3: {
+			name: "Sternholz-Armbrust 3"
+		}
+		shredder: {
+			name: "Reißwolf"
+		}
+		shredder2: {
+			name: "Reißwolf 2"
+		}
+		shredder3: {
+			name: "Reißwolf 3"
+		}
+		shredder4: {
+			name: "Reißwolf 4"
+		}
+		shredder5: {
+			name: "Reißwolf 5"
+		}
+		shredder-super: {
+			name: "Elite-Reißwolf"
+		}
+		chargedcannon: {
+			name: "Schnellfeuergeschütz"
+		}
+		chargedcannon2: {
+			name: "Schnellfeuergeschütz 2"
+		}
+		chargedcannon3: {
+			name: "Schnellfeuergeschütz 3"
+		}
+		chargedcannon4: {
+			name: "Schnellfeuergeschütz 4"
+		}
+		chargedcannon5: {
+			name: "Schnellfeuergeschütz 5"
+		}
+		chargedcannon-super: {
+			name: "Elite-Schnellfeuergeschütz"
+		}
+		explosivegun: {
+			name: "Schwerer Werfer"
+		}
+		explosivegun2: {
+			name: "Schwerer Werfer 2"
+		}
+		explosivegun3: {
+			name: "Schwerer Werfer 3"
+		}
+		explosivegun4: {
+			name: "Schwerer Werfer 4"
+		}
+		explosivegun5: {
+			name: "Schwerer Werfer 5"
+		}
+		explosivegun-super: {
+			name: "Schwerer Elite-Werfer"
+		}
+		shotgun: {
+			name: "Streugeschütz"
+		}
+		shotgun2: {
+			name: "Streugeschütz 2"
+		}
+		shotgun3: {
+			name: "Streugeschütz 3"
+		}
+		shotgun4: {
+			name: "Streugeschütz 4"
+		}
+		shotgun5: {
+			name: "Streugeschütz 5"
+		}
+		shotgun-super: {
+			name: "Elite-Streugeschütz"
+		}
+		tesla-punch: {
+			name: "Tesla-Faust"
+		}
+		tesla-punch2: {
+			name: "Tesla-Faust 2"
+		}
+		tesla-punch3: {
+			name: "Tesla-Faust 3"
+		}
+		tesla-punch4: {
+			name: "Tesla-Faust 4"
+		}
+		tesla-punch5: {
+			name: "Tesla-Faust 5"
+		}
+		tesla-punch-super: {
+			name: "Elite-Tesla-Faust"
+		}
+		basearmor: {
+			name: "Standardrüstung"
+		}
+		starwoodarmor: {
+			name: "Leichte Sternholz-Verstärkung"
+		}
+		starwoodarmor2: {
+			name: "Leichte Sternholz-Verstärkung 2"
+		}
+		starwoodarmor3: {
+			name: "Leichte Sternholz-Verstärkung 3"
+		}
+		starwoodarmor4: {
+			name: "Leichte Sternholz-Verstärkung 4"
+		}
+		starwoodarmor5: {
+			name: "Leichte Sternholz-Verstärkung 5"
+		}
+		chargedarmor: {
+			name: "Geladene Verstärkung"
+		}
+		chargedarmor2: {
+			name: "Geladene Verstärkung 2"
+		}
+		chargedarmor3: {
+			name: "Geladene Verstärkung 3"
+		}
+		shroomarmor: {
+			name: "Pilz-Verstärkung"
+		}
+		shroomarmor2: {
+			name: "Pilz-Verstärkung 2"
+		}
+		shroomarmor3: {
+			name: "Pilz-Verstärkung 3"
+		}
+		shroomarmor-super: {
+			name: "Elite-Pilz-Verstärkung"
+		}
+		glowarmor: {
+			name: "Leuchtende Verstärkung"
+		}
+		glowarmor2: {
+			name: "Leuchtende Verstärkung 2"
+		}
+		glowarmor3: {
+			name: "Leuchtende Verstärkung 3"
+		}
+		moltenarmor: {
+			name: "Feurige Verstärkungen"
+		}
+		moltenarmor2: {
+			name: "Feurige Verstärkungen 2"
+		}
+		moltenarmor3: {
+			name: "Feurige Verstärkungen 3"
+		}
+		moltenarmor-super: {
+			name: "Feurige Elite-Verstärkung"
+		}
+		starwoodarmor-normal: {
+			name: "Sternholz-Verstärkung"
+		}
+		starwoodarmor-normal2: {
+			name: "Sternholz-Verstärkung. 2"
+		}
+		starwoodarmor-normal3: {
+			name: "Sternholz-Verstärkung. 3"
+		}
+		platedarmor-normal: {
+			name: "Verstärkung mit antiker Rüstung"
+		}
+		platedarmor-normal2: {
+			name: "Verstärkung mit antiker Rüstung 2"
+		}
+		platedarmor-normal3: {
+			name: "Verstärkung mit antiker Rüstung 3"
+		}
+		platedarmor-normal4: {
+			name: "Verstärkung mit antiker Rüstung 4"
+		}
+		platedarmor-normal5: {
+			name: "Verstärkung mit antiker Rüstung 5"
+		}
+		platedarmor-normal-super: {
+			name: "Antike Elite-Verstärkung"
+		}
+		platedarmor: {
+			name: "Verstärkung mit schwerer Rüstung"
+		}
+		platedarmor2: {
+			name: "Verstärkung mit schwerer Rüstung 2"
+		}
+		platedarmor3: {
+			name: "Verstärkung mit schwerer Rüstung 3"
+		}
+		fluxarmor: {
+			name: "Schwere Flux-Verstärkung"
+		}
+		fluxarmor2: {
+			name: "Schwere Flux-Verstärkung 2"
+		}
+		fluxarmor3: {
+			name: "Schwere Flux-Verstärkung 3"
+		}
+		fluxarmor-super: {
+			name: "Elite-Flux-Verstärkung"
+		}
+		repair-base: {
+			desc: "Lindert im Notfall sofort einen Teil des Schadens."
+		}
+		scraprepair: {
+			name: "Provisorisches Reparaturkit"
+		}
+		starwoodrepair: {
+			name: "Sternholz-Reparaturkit"
+		}
+		starwoodrepair2: {
+			name: "Sternholz-Reparatur 2"
+		}
+		building-repairkit: {
+			name: "Gebäude-Reparaturkit"
+			desc: "Wird benutzt, um alle Gebäude im Umkreis des Spielers zu reparieren."
+		}
+		copperrepair: {
+			name: "Kupfer-Reparaturkit"
+		}
+		copperrepair2: {
+			name: "Kupfer-Reparatur 2"
+		}
+		shroomrepair: {
+			name: "Elite-Reparaturkit"
+		}
+		grenade: {
+			name: "Fernüberspannung"
+			desc: "Fügt allen Feinden um den Mauszeiger herum Schaden zu."
+		}
+		grenade2: {
+			name: "Fernüberspannung 2"
+		}
+		grenade3: {
+			name: "Fügt allen Feinden um den Mauszeiger herum Schaden zu. 3"
+		}
+		enrage: {
+			name: "Waffenlader"
+			desc: "Überlädt deine Waffen, um für kurze Zeit zusätzlichen Schaden zu verursachen. Gleichzeitig wird deine Bewegungsgeschwindigkeit verringert."
+		}
+		enrage2: {
+			name: "Waffenlader 2"
+		}
+		absorber: {
+			name: "Absorber"
+			desc: "Lädt Tinys Rüstung auf, um für einige Momente sämtlichen Schaden zu absorbieren."
+		}
+		decoy: {
+			name: "Jack Mechington"
+			desc: "Erzeugt einen Springteufel-Köder, den der Trep als Ziel betrachtet."
+		}
+		decoy2: {
+			name: "Jack Mechington 2"
+		}
+		decoy3: {
+			name: "Jack Mechington 3"
+		}
+		folding-turret: {
+			name: "Einsatzbereiter Turm"
+			desc: "Setze einen kleinen Turm auf das Feld, um zusätzliche Feuerkraft zu erhalten."
+		}
+		folding-turret2: {
+			name: "Einsatzbereiter Turm 2"
+		}
+		skill-pack: {
+			name: "Verbesserungskit"
+			desc: "Benutze es, um einen Verbesserungspunkt zu erhalten."
+		}
+		skill-resetter: {
+			name: "Verbesserungsentferner"
+			desc: "Setzt alle Infrastrukturverbesserungen zurück. Entfernt alle gekauften Infrastrukturverbesserungen und stellt die verbrauchten Verbesserungspunkte wieder her."
+		}
+		threat-reducer: {
+			name: "Rauchtarner"
+			desc: "Einweggerät, das deine Stadt tarnt und den Bedrohungszähler für 20 Zyklen anhält."
+		}
+		global-difficulty-reducer: {
+			name: "Trenner"
+			desc: "Ein mächtiges Gerät, das die Verbindung zum Traumreich schwächt. Verwende es, um die globale Befallsstufe um eins zu senken."
+		}
+		free-expansion: {
+			name: "Erweiterungskit"
+			desc: "Verwende es, um eine kostenlose Stadterweiterung hinzuzufügen. Anschließend kannst du die Stadt wie gewohnt über das Baumenü erweitern.\n\nEs ist nicht nötig, die Erweiterungstechnik freizuschalten."
+		}
+		flame-turret-kit: {
+			name: "Teerbombenturm-Kit"
+			desc: "Benutze es, um einen kostenlosen Teerbombenturm zu erhalten. Anschließend kannst du ihn wie gewohnt über das Konstruktionsmenü aufstellen."
+		}
+		perm-mod-extra-materializer: {
+			name: "Materialisierer-Baupläne"
+			desc: "Erhöht das Materialisierer-Limit."
+		}
+		perm-mod-acidextract: {
+			name: "Extrahiere Säure"
+		}
+		perm-mod-drep-desert-resources: {
+			name: "Zusätzliche Trep-Verarbeitung"
+		}
+		perm-mod-acid-transform: {
+			name: "Säuretransformation"
+		}
+		perm-mod-build-flameturret: {
+			desc: "Baue deine eigenen Teerbombentürme.\n\nHinweis: Um einen Teerbombenturm zu bauen, brauchst du einen der seltenen Traumkerne."
+		}
+		perm-mod-build-scoutpost: {
+			desc: "Baue Kundschafterposten, um Ziele kostenlos neu auswürfeln zu können.\n\nHinweis: Um einen Kundschafterposten zu bauen, brauchst du einen der seltenen Traumkerne."
+		}
+		perm-mod-city-crystal: {
+			name: "Kristallmaterialisierer-Bauplan"
+			desc: "Produziere Kristalle im Materialisierer.\n\nHinweis: Benötigt ein Zusatzteil, das Traumkerne kostet."
+		}
+		perm-mod-city-acid: {
+			name: "Säurescherbenmaterialisierer-Bauplan"
+			desc: "Produziere Säurescherben im Materialisierer.\n\nHinweis: Benötigt ein Zusatzteil, das Traumkerne kostet."
+		}
+		perm-mod-city-sulfur: {
+			name: "Schwefelmaterialisierer-Bauplan"
+			desc: "Produziere Schwefel im Materialisierer.\n\nHinweis: Benötigt ein Zusatzteil, das Traumkerne kostet."
+		}
+		speed-mod: {
+			name: "Geschwindigkeitsmodul"
+		}
+		berserker-mod: {
+			name: "Berserkermodul"
+		}
+		tank-mod: {
+			name: "Verteidigungsmodul"
+		}
+		self-repair-mod: {
+			name: "Selbstreparaturmodul"
+		}
+		aoe-ranged-mod: {
+			name: "Elektrokugelmodul"
+		}
+		kinetic-guard-mod: {
+			name: "Kinetisches Schutzmodul"
+		}
+		vision-range-mod: {
+			name: "Kundschaftermodul"
+		}
+		house-overdrive-mod: {
+			name: "Wohnraumüberladung"
+		}
+		green-refining-mod: {
+			name: "Grünverarbeitung"
+		}
+		overdrive-refining-mod: {
+			name: "Verarbeitungsüberladung"
+		}
+		green-research-mod: {
+			name: "Grüne Forschung"
+		}
+		overdrive-research-mod: {
+			name: "Forschungsüberladung"
+		}
+		cart-speed-mod: {
+			name: "Wagen-Beschleunigungsmodul"
+		}
+		cart-speed-mod2: {
+			name: "Wagen-Beschleunigungsmodul 2"
+		}
+		threat-reduce-mod: {
+			name: "Nebelwandmodul"
+		}
+		global-diff-reduce-mod: {
+			name: "Trennermodul"
+		}
+		fuel-costs-mod: {
+			name: "Kraftstoffeffizienzmodul"
+		}
+		fly-carry-capacity-mod: {
+			name: "Tragegewichtmodul"
+		}
+		flying-device-upkeep-mod: {
+			name: "Schwebekostenmodul"
+		}
+		storage-mod: {
+			name: "Lagermodul"
+		}
+		harvester-prodspeed-mod: {
+			name: "Erntemaschinen-Beschleunigungsmodul"
+		}
+		harvester-prodspeed-mod2: {
+			name: "Erntemaschinen-Beschleunigungsmodul 2"
+		}
+		harvester-upkeep-mod: {
+			name: "Erntemaschinen-Kostenmodul"
+		}
+		harvester-efficiency-mod: {
+			name: "Erntemaschine-Effizienzmodul"
+		}
+		anybuilding-efficiency-mod: {
+			name: "Allgemeines Effizienzmodul"
+		}
+		anybuilding-upkeep-mod: {
+			name: "Allgemeines Kostenmodul"
+		}
+		anybuilding-upkeep-mod2: {
+			name: "Allgemeines Kostenmodul 2"
+		}
+		production-speed-mod: {
+			name: "Produktionsgeschwindigkeitsmodul"
+		}
+		production-speed-mod2: {
+			name: "Produktionsgeschwindigkeitsmodul 2"
+		}
+		farm-yield-mod: {
+			name: "Farmertragsmodul"
+		}
+		materializer-yield-mod: {
+			name: "Materialisiererertragsmodul"
+		}
+		research-output-mod: {
+			name: "Forschungsertragsmodul"
+		}
+		apartment-upkeep-mod: {
+			name: "Wohnraumkostenmodul"
+		}
+		apartment-upkeep-mod2: {
+			name: "Wohnraumkostenmodul 2"
+		}
+		turret-range-mod: {
+			name: "Verteidigungsreichweitenmodul"
+		}
+		turret-damage-mod: {
+			name: "Verteidigungsschadenmodul"
+		}
+		turret-speed-mod: {
+			name: "Verteidigungsratenmodul"
+		}
+		archeology-unlock: {
+			name: ""
+		}
+		story-broken-storage: {
+			name: "Kaputter Datenträger"
+		}
+		story-repaired-storage: {
+			name: "Reparierter Datenträger"
+		}
+	}
+	playerstats: {
+		mech-combat: {
+			name: "Offensiv"
+		}
+		survival: {
+			name: "Überleben"
+		}
+		gathering: {
+			name: "Sammeln"
+		}
+		administration: {
+			name: "Verwaltung"
+		}
+	}
+	perks: {
+		level-format: "{0} {1}"
+		melee-dmg: {
+			name: "Nahkampfschaden"
+		}
+		ranged-dmg: {
+			name: "Fernkampfschaden"
+		}
+		enemy-drop: {
+			name: "Leichen plündern"
+		}
+		turret-dmg: {
+			name: "Turmschaden"
+		}
+		mech-speed: {
+			name: "Tiny-Geschwindigkeit"
+		}
+		healing: {
+			name: "Reparieren"
+		}
+		farming: {
+			name: "Farmen"
+		}
+		city-gathering: {
+			name: "Erneuerbares sammeln"
+		}
+		cart-speed: {
+			name: "Autowagen-Geschwindigkeit"
+		}
+		upgrade-prod: {
+			name: "Produktion verbessern"
+		}
+		research-efficiency: {
+			name: "Forschungseffizienz"
+		}
+		housing: {
+			name: "Wohnraum"
+		}
+		overload: {
+			name: "Energieüberspannung"
+		}
+		overclock: {
+			name: "Getriebe übertakten"
+		}
+		untargetable: {
+			name: "Chamäleon"
+		}
+		teleport-to-city: {
+			name: "Kernteleporter"
+		}
+	}
+	abilities: {
+		charging-format: "Ladezeit: {0}"
+		cooldown-format: "Abklingzeit: {0} Sekunden"
+		overclock: {
+			name: "Getriebe übertakten"
+			desc: "Übertakte kurzzeitig die Getriebe, um die Bewegungsgeschwindigkeit zu erhöhen."
+		}
+		overload: {
+			name: "Energieüberspannung"
+			desc: "Überlastet die Kondensatoren, um eine Überspannung zu erzeugen, die Zielen in der Nähe Schaden zufügt."
+		}
+		teleport-to-city: {
+			name: "Kernteleporter"
+			desc: "Aktiviere Stadtkernteleporter, um schnell in die Stadt zurückzukehren."
+		}
+		untargetable: {
+			name: "Chamäleon"
+			desc: "Sendet Energie aus, die Traumplagen verwirrt und verhindert, dass sie dich als Bedrohung registrieren.\n\nAls Nebeneffekt werden jedoch deine Waffen unbrauchbar und können in der Zwischenzeit keinen Schaden verursachen."
+		}
+		repair: {
+			name: "Gebiet reparieren"
+			desc: "Repariert alle Gebäude im Umkreis deines Charakters. Baut keine zerstörten Gebäude wieder auf.\n\nKann im Kampf verwendet werden."
+		}
+	}
+	statuseffects: {
+		title: "Effektanwendung: {0}"
+		duration: "Dauer: {0}"
+		overclock: {
+			name: "Übertaktet"
+		}
+		enrage: {
+			name: "Waffen überlastet"
+		}
+		absorber: {
+			name: "Schadensimmunität"
+		}
+		untargetable: {
+			name: "Nicht als Ziel wählbar"
+		}
+		slowed: {
+			name: "Verlangsamt"
+		}
+		weakened: {
+			name: "Geschwächt"
+		}
+	}
+	attackeffects: {
+		aoe: {
+			desc: "Verursacht {1} AoE-Schaden im Umkreis von {0} Feldern um das Ziel"
+		}
+	}
+	biomes: {
+		startingmap: {
+			name: "Startgebiet im Ödland"
+		}
+		purple: {
+			name: "Ödland"
+		}
+		blue: {
+			name: "Traumberührte Felder"
+		}
+		desert: {
+			name: "Wüste"
+		}
+		lava: {
+			name: "Aschfall-Gebirge"
+			locked-text: "Benötigt die Hitzeschild-Erweiterung für die Kommandozentrale."
+		}
+		green: {
+			name: "Giftsumpf"
+			locked-text: "Benötigt die Luftfilter-Erweiterung für die Kommandozentrale."
+		}
+	}
+	research: {
+		progress: "Fortschritt: {0} / {1}"
+		drepprocessing-flux: {
+			name: "Trep-Verarbeitung (Flux)"
+		}
+		drepprocessing-flux2: {
+			name: "Trep-Verarbeitung (Flux 2)"
+		}
+		drepprocessing-wood: {
+			name: "Trep-Verarbeitung (Blutholz)"
+		}
+		drepprocessing-fstone: {
+			name: "Trep-Verarbeitung (Federstein)"
+		}
+		hunters-feathercrystal: {
+			name: "Trep-Verarbeitung (Federkristall)"
+		}
+		hunters-carbonite: {
+			name: "Trep-Verarbeitung (Karbonit)"
+		}
+		hunters-copper: {
+			name: "Trep-Verarbeitung (Kupferbarren)"
+		}
+		hunters-energycell: {
+			name: "Trep-Verarbeitung (Tesla-Zelle)"
+		}
+		bloodwood-strip1: {
+			name: "Blutholz-Effizienz"
+		}
+		bloodwood-strip2: {
+			name: "Blutholz-Effizienz 2"
+		}
+		featherstone-strip1: {
+			name: "Federstein-Effizienz"
+		}
+		featherstone-strip2: {
+			name: "Federstein-Effizienz 2"
+		}
+		copper-strip1: {
+			name: "Kupfer-Effizienz"
+		}
+		copper-strip2: {
+			name: "Kupfer-Effizienz 2"
+		}
+		all-strip1: {
+			name: "Erntemaschine-Effizienz"
+		}
+		all-strip2: {
+			name: "Erntemaschine-Effizienz 2"
+		}
+		infrastructure: {
+			name: "Infrastrukturverbesserung"
+		}
+		free-expansion: {
+			name: "Kostenlose Erweiterung"
+		}
+		efficient-refining: {
+			name: "Effiziente Verarbeitung"
+		}
+		bonus-research: {
+			name: "Fortschrittliche Technik (wiederkehrend)"
+		}
+		importer: {
+			name: "Erntemaschine-Automatik"
+		}
+		comingsoon: {
+			name: "Bald verfügbar"
+		}
+	}
+	constructioncategories: {
+		population: {
+			name: "Bevölkerung"
+		}
+		infrastructure: {
+			name: "Infrastruktur"
+		}
+		gathering: {
+			name: "Sammeln"
+		}
+		production: {
+			name: "Produktion"
+		}
+		power: {
+			name: "Energie"
+		}
+		defense: {
+			name: "Verteidigung"
+		}
+		misc: {
+			name: "Sonstiges"
+		}
+	}
+	mapobjects: {
+		citytile: {
+			name: "Stadterweiterung"
+			desc: "Wir können nicht einfach Dinge auf dem Boden bauen und erwarten, dass sie fliegen. Erweitere das Stadtgebiet, um seine Fläche zu vergrößern."
+		}
+		roadtile: {
+			name: "Schienen"
+			desc: "Einbahngleise, auf denen Minenwagen Ressourcen wie von selbst zwischen Gebäuden transportieren.\n\nZiehe, um sie zu bauen. Ziehe sie auf vorhandene Schienen, um die Richtung zu ändern."
+		}
+		railsplitter: {
+			name: "Sortierer"
+			desc: "Sortiert Gegenstände von einem einzigen Eingang in drei Ausgänge. Du kannst konfigurieren, welche Gegenstände in die einzelnen Ausgänge gehen sollen."
+		}
+		streettile: {
+			name: "Straße"
+			desc: "Sie tut nicht viel, sieht aber hübsch aus und behindert den Verkehr nicht.\n\nNützlich für die Stadtplanung und um sicherzustellen, dass du dich frei bewegen kannst."
+		}
+		player-debris: {
+			name: "Zerstörtes Gebäude"
+		}
+		commandcenter: {
+			name: "Stadtkern"
+			desc: "Der Ort, an dem das Leben tobt. Wir haben keine Ahnung, wie man einen anderen baut, also versuche, ihn zu beschützen."
+		}
+		expeditioncenter: {
+			name: "Expeditionszentrum"
+			desc: "Schicke Expeditionen auf die Suche nach Vorräten und uralter Technik."
+		}
+		flyengine: {
+			name: "Schwebegerät"
+			desc: "Bringt Dinge zum Schweben. Erhöht das maximale Gewicht der Stadt, aber auch die Treibstoffkosten für das Fliegen.\n\nDarf nicht zu nah an anderen schwebenden Geräten gebaut werden."
+		}
+		scoutpost: {
+			name: "Kundschafterposten"
+			desc: "Dient der Erkundung von fernem Land. Jeder Kundschafterposten fügt ein kostenloses Neuwürfeln bei der Auswahl des nächten Zielorts hinzu."
+		}
+		researchlab: {
+			name: "Forschungslabor"
+			desc: "Erforsche neue Technologien. Man weiß, dass hier durchgeführte Experimente schwere Mutationen verursacht haben."
+		}
+		teslatower: {
+			name: "Tesla-Turm"
+			desc: "Diese Türme erweitern das Stromversorgungsgebiet der Stadt. Nicht hochklettern."
+		}
+		longrange-power: {
+			name: "Weitläufiges Stromzentrum"
+			desc: "Diese Stromzentren verbinden die umliegenden Gebäude mit der Hauptstromversorgung.\n\nIm Gegensatz zu Tesla-Türmen müssen diese nicht selbst im Stromversorgungsgebiet sein, sie besitzen ihre eigene weitreichende Verbindung."
+		}
+		woodturret: {
+			name: "Holzturm"
+			desc: "Hält Albträume mit großen Leuchtpfeilen in Schach. Verlangsamte Feuerrate mit explosiven Angriffen, die mehreren Zielen Flächenschaden zufügen. Schwach gegen gepanzerte Ziele."
+		}
+		stoneturret: {
+			name: "Steinturm"
+			desc: "Ein Steinturm mit einer Zahnradkanone. Explosive Angriffe mit höherer Feuerrate als bei einem Holzturm."
+		}
+		flameturret: {
+			name: "Teerbombenturm"
+			desc: "Schießt entflammbare Teerbomben. Feuert langsamer, aber mit deutlich größerer Reichweite und fügt in einem großen Umkreis mehr Schaden zu als der Holzturm."
+		}
+		atlasturret: {
+			name: "Atlas-Turm"
+			desc: "Ein stärkerer und robusterer Schießturm mit Schnellfeuer, aber ohne Flächenschaden. Besonders stark gegen gepanzerte Ziele."
+		}
+		musicturret: {
+			name: "Trompeterturm"
+			desc: "Dieser langsam feuernde Turm sendet eine markerschütternde Schallwelle aus, die dem Ziel Schaden zufügt und auch andere Personen in seiner Umgebung schwer beschädigt."
+		}
+		woodwall: {
+			name: "Holzmauer"
+			desc: "Schützt dahinter liegende Gebäude. Zumindest für eine Weile."
+		}
+		woodgate: {
+			name: "Holztor"
+			desc: "Durch dieses Tor kannst du gehen, aber der Trep nicht."
+		}
+		stonewall: {
+			name: "Steinmauer"
+			desc: "Schützt dahinter liegende Gebäude. Zumindest eine Weile."
+		}
+		stonegate: {
+			name: "Steintor"
+			desc: "Dieses Tor ist stabil. Du kannst hindurch, aber der Trep nicht."
+		}
+		wall: {
+			name: "Mauer"
+			desc: "Schützt deine Gebäude durch Metall."
+		}
+		gate: {
+			name: "Tor"
+			desc: "Gepanzertes Zahnradtor, um die üblen Dinge draußen zu halten."
+		}
+		hardenedwall: {
+			name: "Gehärtete Mauer"
+			desc: "Wenn du damit nicht sicher bist, wirst du es nie sein."
+		}
+		hardenedgate: {
+			name: "Gehärtetes Tor"
+			desc: "Dieses Tor hält die Treps zuverlässig draußen. Bis es einstürzt."
+		}
+		trap-mine1-small: {
+			name: "Kleine Falle"
+		}
+		trap-mine2-small: {
+			name: "Kleine Sprengfalle"
+		}
+		trap-mine1: {
+			name: "Falle"
+			desc: "Wird durch Nähe zu feindlichen Einheiten ausgelöst."
+		}
+		trap-mine2: {
+			name: "Sprengfalle"
+		}
+		trap-mine1-2: {
+			name: "Falle 2"
+		}
+		trap-mine2-2: {
+			name: "Sprengfalle 2"
+		}
+		trap-slow: {
+			name: "Frostfalle"
+		}
+		house: {
+			name: "Haus"
+			desc: "Hier lebt unsere Ressource namens „Menschen“.\n\nErhöht die Arbeiterkapazität, erfordert regelmäßige Nahrungszufuhr."
+		}
+		apartment: {
+			name: "Apartment"
+			desc: "Ein größerer, komprimierter Stauraum für Menschen.\n\nEffiziente Raumnutzung ist wichtig in fliegenden Städten."
+		}
+		dreamshield: {
+			name: "Negationsschild"
+			desc: "Dieser riesige Schild umgibt die gesamte Stadt und das Gebiet um sie herum mit einem Traumnegationsfeld, das jedes darin enthaltene Traumreich-Element auflöst. Das beinhaltet alle Treps.\n\nDieser Schild ist sehr schwer, erfordert viel Energie, Arbeiter und Flux zur Aktivierung und es dauert lange, bis er voll funktionsfähig ist. Halte ihn betriebsbereit und verteidige die Stadt, während er aufgeladen wird. Sei vorbereitet."
+		}
+		archeologist: {
+			name: "Archäologe"
+			desc: "Führe Projekte mit Relikten aus der alten Welt durch, um bedeutende dauerhafte Boni zu erhalten."
+		}
+		bloodwoodharvester: {
+			name: "Blutholzfäller"
+		}
+		featherstoneharvester: {
+			name: "Federsteinschürfer"
+		}
+		crystalharvester: {
+			name: "Kristallschürfer"
+		}
+		cabtusharvester: {
+			name: "Kabtussammler"
+		}
+		coppermine: {
+			name: "Kupferbohrer"
+		}
+		acidharvester: {
+			name: "Säurescherbenschürfer"
+		}
+		glowhoneyharvester: {
+			name: "Leuchthonigsammler"
+		}
+		sulfurmine: {
+			name: "Schwefelmine"
+		}
+		liquidfireharvester: {
+			name: "Flüssiges-Feuer-Erntemaschine"
+		}
+		candyharvester: {
+			name: "Süßpilz-Erntemaschine"
+		}
+		startarcollector: {
+			name: "Teer-Extraktor"
+			desc: "Fördert Sternstaub-Teer aus dem Boden unter der Stadt."
+		}
+		condenser: {
+			name: "Atmosphären-Kondensator"
+			desc: "Wer sagt, dass man nichts aus dem Nichts erschaffen kann? Dieses Gebäude extrahiert buchstäblich nützliche Dinge aus der Luft."
+		}
+		toxicgoocollector: {
+			name: "Giftiger Glibber-Extraktor"
+			desc: "Extrahiert giftigen Glibber aus dem Boden. Besonders effizient im Giftsumpf."
+		}
+		purptatofarm: {
+			name: "Purptoffel-Farm"
+			desc: "Hier wachsen Purptoffeln. Zum Essen."
+		}
+		glueberryfarm: {
+			name: "Klebeer-Farm"
+			desc: "Klebeer-Bauern haben eine niedrigere Lebenserwartung."
+		}
+		materializer: {
+			name: "Materialisierer"
+			desc: "Verwendet Flux und nachwachsende Rohstoffe, um Ressourcen zu schaffen, die sonst in der Stadt nicht produziert werden können.\n\nSo kann sich Tiny endlich mal ausruhen, auch wenn es ein teurer Spaß ist."
+		}
+		storage: {
+			name: "Lagerplatz"
+			desc: "Ein Lager für verschiedene Dinge.\n\nDort gelagerte Ressourcen können auch für Bau, Handwerk, Verbesserungen und andere Einsatzgebiete verwendet werden."
+		}
+		importer: {
+			name: "Ressourcenablage"
+			desc: "Ein Ort, an dem Rohmaterialien abgelegt werden können, ohne dass Schienen für Erntemaschinen gebaut werden müssen.\n\nErntewagen können nicht in der Stadt fahren, daher muss die Ablage außerhalb oder am Stadtrand gebaut werden."
+		}
+		exporter: {
+			name: "Ressourcen-Packer"
+			desc: "Über Schienen mit einer Ressource (auch verarbeitete) liefern, damit sie an die nächste Ressourcenablage, die sie akzeptiert, gesendet werden.\n\nWagen können in der Stadt nicht fahren, baue ihn also außerhalb oder am Rand der Stadt."
+		}
+		smallbattery: {
+			name: "Kleiner Akku"
+			desc: "Teslas Haus. Erhöht die Tesla-Stromkapazität der Stadt."
+		}
+		startargenerator: {
+			name: "Stromgenerator"
+			desc: "Erzeugt Energie.\n\nDarf nicht zu nah an anderen Generatoren gebaut werden."
+		}
+		fluxgenerator: {
+			name: "Flux-Generatoren"
+			desc: "In diesem Gebäude wird Flux destilliert."
+		}
+		woodwarper: {
+			name: "Holzkrümmer"
+			desc: "Verarbeitet Stämme zu verwendbaren Brettern. Kann viele Holzentwürfe produzieren."
+		}
+		stonecutter: {
+			name: "Steinschleifer"
+			desc: "Verarbeitet unverarbeiteten Federstein, damit du ihn beim Bauen verwenden kannst."
+		}
+		purptatoprocessor: {
+			name: "Nahrungswerk"
+			desc: "Produziert Nahrung, die niemand essen will aus Zutaten, die wirklich niemand essen will.\n\nWandelt Rohmaterialien in Nahrung um."
+		}
+		coppersmelter: {
+			name: "Schmelzofen"
+			desc: "Geruchsvolle Maschinen, die Rohmetalle zu brauchbaren Barren verarbeiten. Kann viele Metallentwürfe produzieren."
+		}
+		workshop: {
+			name: "Werkstatt"
+			desc: "Montiert alle möglichen Kleinteile zu brauchbareren Kleinteilen."
+		}
+		cauldron: {
+			name: "Der Kessel"
+			desc: "Wandelt Flüssigkeiten in andere Flüssigkeiten um."
+		}
+		bloodwoodresource: {
+			name: "Blutholzknoten"
+		}
+		featherstoneresource: {
+			name: "Federsteinknoten"
+		}
+		crystalresource: {
+			name: "Kristallknoten"
+		}
+		cabtusresource: {
+			name: "Kabtusknoten"
+		}
+		copperresource: {
+			name: "Kupferknoten"
+		}
+		acidshardsresource: {
+			name: "Säureknoten"
+		}
+		glowhoneyresource: {
+			name: "Leuchthonigknoten"
+		}
+		sulfurresource: {
+			name: "Schwefelknoten"
+		}
+		liquidfireresource: {
+			name: "Flüssiger Feuerknoten"
+		}
+		candyresource: {
+			name: "Süßpilzknoten"
+		}
+		ruins-ind: {
+			name: "Industrie-Ruinen"
+		}
+		ruins-tech: {
+			name: "Tech-Ruinen"
+		}
+		ruins-lab: {
+			name: "Chemie-Ruinen"
+		}
+		ruins-fuel: {
+			name: "Treibstoffvorrat-Ruinen"
+		}
+		ruins-skill-resetter: {
+			name: "Ruinen zur Infrastruktur-Sanierung"
+		}
+		ruins-resource-converter: {
+			name: "Ruinen zur Ressourcenumwandlung"
+		}
+		ruins-flux-shop: {
+			name: "Materialisierer-Ruinen"
+		}
+		ruins-perm-income: {
+			name: "Versorgungslager-Ruinen"
+		}
+		raid-spawner: {
+			name: "Albtraum-Riss"
+		}
+	}
+	hud: {
+		daytime: "Zyklus\n{0}"
+		daytime-hover: "Ein Zyklus ist die grundlegende Zeiteinheit in Dream Engines.\n\nEin Zyklus beträgt 40 Sekunden in Echtzeit."
+		fast-forward: "Zum Vorspulen gedrückt halten"
+		enemy-meter: {
+			threat-level: "Bedrohungsstufe: {0}"
+			threat-hover: "Die Bedrohungsstufe zeigt an, wie aufgebracht die Traumplagen sind. Es erhöht sich, solange deine Stadt am Boden ist und wird, entsprechend dem Schwierigkeitsgrad der Karte, nach dem Start zurückgesetzt.\n\nHöhere Bedrohungsstufen bedeuten stärkere Trep-Angriffe auf deine Stadt.\n\n<color=#FFD57E>Klicke, um das Städteinformationsfenster zu öffnen.</color>"
+		}
+		resource-counter: {
+			assigned-hover: "In Besitz: {0}\nZugewiesen: {1}\nFrei: {2}"
+			normal-hover: "In Besitz: {0}\nProduziert (tatsächlich): {1}\nVerbraucht (max.): {2}"
+			edit-hover: "Bearbeiten\n\nWähle Gegenstände, die im HUD verfolgt werden sollen."
+			edit-title: "Gegenstände wählen"
+		}
+		bottom: {
+			health: {
+				title: "Tinys Gesundheit"
+				hover: "Kehre zur Stadt zurück oder benutze ein Reparaturkit, um Schäden zu reparieren"
+			}
+		}
+		buttons: {
+			build: "Bauen"
+			toolstoolbar: "Werkzeuge – verwalte deine Stadt"
+			usable-storage: "Kombinierte Ressourcen\n\nDie Gesamtmenge aller Gegenstände in Lagergebäuden und Tinys Inventar. Diese Ressourcen sind für Bau, Herstellung und andere Spieleraktionen verfügbar."
+			research: "Forschung"
+			crafting: "Herstellung"
+			journal: "Logbuch"
+			skills: "Infrastruktur"
+			inventory: "Charakterfenster"
+			gamepedia: "Traumarchiv"
+			bulldoze: "Abreißen\n\nDu erhältst einige Materialien zurück, wenn du Gebäude abreißt (nur Baustoffe, kein Flux)."
+			repair: "Reparieren / Wiederaufbauen\n\nRepariere beschädigte Gebäude und baue Schutt wieder auf. Kann nicht verwendet werden, wenn Feinde in der Nähe sind."
+			move: "Gebäude bewegen\n\nWähle erst ein Gebäude, das du bewegen willst und anschließend den Ort. Du kannst nicht alle Gebäude bewegen."
+			delinout: "Zugriffspunkte entfernen\n\nEntferne alle Zugriffspunkte (Eingabe / Ausgabe) von einem Schienenfeld."
+			pickcart: "Wagen wählen\n\nNutze dieses Werkzeug, um Ressourcen von Schienen aufzunehmen."
+			enabledisable: "Ein / Aus\n\nBenutze dieses Werkzeug, um Gebäude schnell zu aktivieren oder zu deaktivieren."
+			free-camera: "Frei bewegliche Kamera\n\nUmschalten, um die Kamera von Tiny zu trennen und sie frei zu bewegen."
+			layer-cancel: "Alle Ebenen ausschalten."
+			layer-upgrade: "Verbesserungsebene\n\nGebäudestufe und Schaltflächen anzeigen, um sie schnell zu verbessern."
+			layer-prod: "Produktionsebene\n\nZeigt die aktive Produktion für jedes Gebäude an. Du kannst sie direkt im Spiel ändern."
+		}
+		warnings: {
+			subtitle: "Tooltip über der Minikarte ansehen."
+			overpopulation: {
+				text: "Bevölkerung stirbt"
+				hover: "Deine Bevölkerung übersteigt die Wohnraumkapazität. Menschen werden sterben und du wirst Arbeiter verlieren, bis du dies korrigierst.\n\nAchte darauf, dass du über genug Häuser verfügst und diese mit Nahrung und Strom versorgst."
+			}
+			fundsdwindling: {
+				text: "Dein Flux geht zur Neige"
+				hover: "Flux ist die wichtigste Ressource für unsere Technologie\n\nZeit, bis nichts mehr übrig ist: {0}"
+			}
+			fooddwindling: {
+				text: "Deine Nahrung geht zur Neige"
+				hover: "Deine Leute nehmen mehr Nahrung zu sich, als du produzierst. Baue Nahrungswerke und versorge sie mit unverarbeiteten Materialien.\n\nZeit, bis nichts mehr übrig ist: {0}"
+			}
+			powerdwindling: {
+				text: "Hoher Stromverbrauch"
+				hover: "Dein Stromverbrauch ist höher als die Produktion. Baue mehr Generatoren und stelle sicher, dass sie gut versorgt sind.\n\nZeit, bis nichts mehr übrig ist: {0}"
+			}
+			upgrade-available: {
+				text: "Infrastrukturverbesserung verfügbar"
+				hover: "Du besitzt genug Materialien für eine Infrastrukturverbesserung.\n\nDrücke K, um das Infrastrukturfenster zu öffnen und eine Verbesserung zu kaufen und gib dann die Verbesserungspunkte aus."
+			}
+			overweight: {
+				text: "Übergewicht"
+				hover: "Das Gewicht deiner Stadt überschreitet, die Belastungsgrenze deiner Motoren. Mit Übergewicht kannst du nicht fliegen.\n\nBaue oder verbessere Motoren, um deine Tragfähigkeit zu erhöhen oder entferne einige Gebäude, um das Gewicht deiner Stadt zu reduzieren."
+			}
+			building-attacked: {
+				text: "Deine Gebäude werden angegriffen."
+				hover: "Mindestens eines deiner Gebäude wird angegriffen."
+			}
+			tiny-attacked: {
+				text: "Tiny wird angegriffen"
+			}
+			risk-increase: {
+				title: "Bedrohungsstufe wurde erhöht"
+				text: "Neue Bedrohungsstufe: {0}"
+			}
+			raid-incoming: {
+				title: "Trep-Angriff"
+				text: "Sie kommen! Mach dich bereit, um deine Stadt zu verteidigen."
+			}
+			raid-preparing: {
+				title: "Angriff steht bevor"
+				text: "Die Treps bereiten einen Überfall vor."
+			}
+			go-to-city: {
+				title: "Abheben erfolgt in Kürze"
+				text: "Kehre sofort zur Stadt zurück."
+			}
+			no-research: {
+				text: "Keine Forschung ausgewählt"
+				hover: "Es gibt aktive Labore, aber es wurde kein Forschungsobjekt ausgewählt.\n\nDrücke auf R, um das Forschungsfenster zu öffnen und ein Thema für die Forschung auszuwählen oder deaktiviere die Labore, um Strom und Flux zu sparen."
+			}
+			insufficient-workers: {
+				text: "Nicht genug Arbeiter"
+				hover: "Du hast nicht genug Arbeiter, um all deine Gebäude zu warten.\n\nDeaktiviere Gebäude, um Arbeiter freizugeben oder baue mehr Häuser, um deine maximale Arbeiterkapazität zu erhöhen. Wenn du über freien Wohnraum verfügst, kommen nach und nach mehr Arbeiter."
+			}
+			prod-missing-raw: {
+				hover: "Nicht genug Ressourcen\n\nIn diesem Gebäude fehlen unverarbeitete Materialien, die für die Produktion benötigt werden."
+			}
+			resource-depleted: {
+				hover: "Ressource erschöpft\n\nDie Ressource in dieser Lagerstätte wurde aufgebraucht und produziert mit reduzierter Effizienz."
+			}
+			building-disabled: {
+				hover: "Gebäude deaktiviert\n\nDieses Gebäude wurde manuell deaktiviert und ist außer Betrieb."
+			}
+			missing-upkeep: {
+				hover: "Nicht genug Ressourcen\n\nDu hast nicht genug Ressourcen, um dieses Gebäude zu betreiben."
+			}
+			output-full: {
+				hover: "Ausgabe voll\n\nDie Produktion kann nicht fortgesetzt werden, bis die produzierten Ressourcen im Gebäude verschickt wurden."
+			}
+			no-power-connection: {
+				hover: "Vom Stromnetz getrennt\n\nGebäude wurde vom Stromnetz getrennt. Baue Tesla-Türme, damit das Gebäude mit Strom versorgt werden kann."
+			}
+		}
+		citysize: {
+			maxsize: "Maximum erreicht"
+			current-size: "{1}: {0}"
+			next-size: "Nächste Stufe: {1}"
+			hover-title: "Nächste Stufe: {0}"
+			hover-body: "Aktuelle Bevölkerung: {0}\nVerfügbarer Wohnraum: {1}\nNötig für die nächste Stufe: {2}\n\nVorteile der nächsten Stufe:\n{3}\n\n<color=#FFD57E>Klicke, um das Städteinformationsfenster zu öffnen.</color>"
+			s0: "Feldlager"
+			s1: "Außenposten"
+			s2: "Dorf"
+			s3: "Stadt"
+			s4: "Zuflucht"
+			s5: "Stadt"
+			s6: "Fliegende Festung"
+		}
+		construction: {
+			free-builds: "Freie Gebäude: {0}"
+			max-amount: "Max. zulässig: {0}"
+		}
+	}
+	objwarnings: {
+		importer-no-access: "Kein externer Zugriff. Bewege dich zum Stadtrand oder über die Stadtgrenze."
+		disconnected-rail: "Diese Schiene führt zu keiner Eingabe."
+	}
+	crafting-categories: {
+		equipment: {
+			name: "Ausrüstung"
+		}
+		upgrades: {
+			name: "Verbesserungen"
+		}
+		resources: {
+			name: "Ressourcen"
+		}
+		modules: {
+			name: "Module"
+		}
+		ruins-store: {
+			name: "Besonders"
+		}
+	}
+	upgrades: {
+		prod1: {
+			name: "Produktionslinien-Verbesserung"
+			desc: "Ermöglicht die Verwendung fortschrittlicher Produktionsentwürfe. Die meisten Rezepte müssen erforscht werden, bevor sie verfügbar sind."
+		}
+		prod2: {
+			name: "Produktionslinien-Verbesserung 2"
+		}
+		prod3: {
+			name: "Produktionslinien-Verbesserung 3"
+		}
+		energycell-addon: {
+			name: "Tesla-Kammer"
+		}
+		materializer-cabtus: {
+			name: "Kabtus-Materialisierer"
+		}
+		materializer-crystal: {
+			name: "Kristallmaterialisierer"
+		}
+		materializer-acid: {
+			name: "Säurescherbenmaterialisierer"
+		}
+		materializer-sulfur: {
+			name: "Schwefel-Materialisierer"
+		}
+		coppermachine-flux: {
+			name: "Flux-Maschinen"
+			desc: "Verbessert den normalen Produktionsentwurf.\n\nFunktioniert nicht bei fortschrittlichen Entwürfen."
+		}
+		coppermachine-power: {
+			name: "Tesla-Maschinen"
+		}
+		woodturret-plating: {
+			name: "Alptraumverbesserungen"
+		}
+		stoneturret-plating: {
+			name: "Alptraumverbesserungen"
+		}
+		atlasturret-plating: {
+			name: "Alptraumverbesserungen"
+		}
+		musicturret-speed: {
+			name: "Flux-Metall-Verbesserungen"
+		}
+		atlasturret-damage: {
+			name: "Flux-Metall-Verbesserungen"
+		}
+		storage-flux: {
+			name: "Zusätzliche Flux-Kapazität"
+		}
+		storage-fuel: {
+			name: "Zusätzliche Treibstoff-Kapazität"
+		}
+		battery-power: {
+			name: "Zusätzliche Batterie-Kapazität"
+		}
+		heat-shield: {
+			name: "Hitzeschild"
+		}
+		air-filter: {
+			name: "Luftfilter"
+		}
+	}
+	windows: {
+		selectedbuilding: {
+			on-off-hover: "Gebäude ein/ausschalten"
+		}
+		titlemenu: {
+			quit: "Verlassen"
+			credits: "Mitwirkende"
+			buildnumber: "Baue {0}"
+			patchnotes: "<u>Neueste Aktualisierungsdetails anzeigen</u>"
+		}
+		gamepedia: {
+			title: "Traumarchiv"
+			unseen-tab: "Neu"
+			construction-tab: "Gebäude"
+			upgrades-tab: "Gebäudeverbesserungen"
+			production-tab: "Produktionsentwürfe"
+			crafting-tab: "Herstellungsentwürfe"
+			resources-tab: "Ressourcen"
+			right-click: "Rechtsklick zum Öffnen im Traumarchiv"
+			filter: "Filter…"
+		}
+		inputoutput: {
+			outputtitle: "Gegenstand für Ausgabe wählen"
+			mintitle: "Erforderliches Minimum"
+			minhover: "Gegenstände werden nur verschickt, wenn mehr als die Mindestmenge im Lager vorhanden ist.\n\nWird vernachlässigt, wenn „alles“ ausgewählt wird."
+		}
+		saveload: {
+			loadtitle: "Spiel laden"
+			savetitle: "Spiel speichern"
+			save-desc-format: "{0} – {2}, {1} Bürger"
+			save-info-format: "{0}\nZyklus {1}\nVersion {3}, {2}"
+			default-name: "{0} {1} Zyklen"
+			notsupported-postfix: "(Nicht unterstützt)"
+			notsupported-hover: "Speicherstände dieser Version werden nicht länger unterstützt.\n\nWenn du das Spiel mit einer älteren Spielversion speichern willst, kannst du es in der Betas-Registerkarte auf Steam auswählen. Klicke mit der rechten Maustaste auf das Spiel in deiner Bibliothek, wähle dann Einstellungen und dann die Registerkarte „Betas“."
+			delete-incompatible: "Lösche inkompatible Speicherstände"
+			delete-incompatible-hover: "Dies löscht alle Speicherstände aus vorhergehenden Versionen, die nicht mehr kompatibel sind. Diese Maßnahme kann nicht rückgängig gemacht werden."
+			savename: {
+				title: "Name des gespeicherten Spiels"
+				text: "Gib einen Namen für deinen Speicherstand ein"
+				placeholder: "Name speichern …"
+				autosave: "Automatisches Speichern"
+				quicksave: "Schnellspeichern"
+				new-save: "Neuer Speicherstand"
+			}
+		}
+		gamemenu: {
+			title: "Spielmenü"
+			save: "Spiel speichern"
+			feedback: "Feedback senden"
+			discord: "Auf Discord besprechen"
+			load: "Spiel laden"
+			quit: "Zurück zum Titel"
+			savequit: "Speichern und verlassen"
+			info: "{1}\nSpielzeit: {0}"
+		}
+		destinationselect: {
+			title: "Ziel wählen"
+			worlddifficulty: "Globale Befallsstufe:"
+			worlddifficulty-hover: "Die globale Befallsstufe beeinflusst die Anzahl der Schädel (Kartenschwierigkeitsgrad) in den wählbaren Landeoptionen. Wenn die Befallsstufe zunimmt, werden schwierigere Optionen angezeigt.\n\nDer globale Befall erhöht sich mit der Zeit."
+			mapdifficulty-title: "Kartenschwierigkeitsgrad"
+			mapdifficulty-hover: "Bedrohungsstufe zu Beginn: {0}\n\nDie Kartenschwierigkeit bestimmt die Menge und Stärke der Treps auf der Karte und die anfängliche Bedrohungsstufe bei Angriffen auf deine Stadt."
+			refresh-title: "Woanders hinfliegen"
+			refresh-hover: "Verbrauche Treibstoff, um in ein anderes Gebiet zu fliegen und neue Landeoptionen zu generieren."
+			locked: "Kann hier nicht landen"
+		}
+		expedition-select: {
+			workers-title: "Expeditionsmannschaft"
+			workers-hover: "Die Mannschaft ist während der gesamten Expedition und der Vorbereitungsphase nicht verfügbar. Sorge also dafür, dass du ausreichend viele Arbeiter hast."
+			workers-desc: "Erforderliche Arbeiter: {0}"
+			upfront-costs-title: "Vorabkosten"
+			upfront-costs-hover: "Diese Gegenstände werden verbraucht, sobald die Expeditionsvorbereitung beginnt."
+			prep-title: "Vorbereitung"
+			prep-hover: "Dies sind die Betriebskosten des Expeditionszentrums während der Vorbereitungsphase."
+			prep-desc: "Vorbereitungsdauer: {0} Zyklen"
+			expedition-title: "Expedition & Belohnungen"
+			expedition-hover: "Dies sind die Belohnungen, die wir auf der Expedition zu finden erwarten."
+			expedition-desc: "Expeditionsdauer: {0} Zyklen"
+		}
+		expedition-rewards: {
+			title: "Expedition – Belohung wählen"
+		}
+		archeology-select: {
+			time-desc: "Projektdauer: {0} Zyklen"
+			build-title: "Projektdetails"
+			build-hover: "Um dieses Projekt abzuschließen, musst du den Archäologen dauerhaft die unten genannten Ressourcen liefern, bis es abgeschlossen ist.\n\nMehrere Archäologen können an demselben Projekt arbeiten, um es schneller abzuschließen."
+			rewards-title: "Belohnungen"
+			rewards-hover: "Wenn das Projekt abgeschlossen wurde, erhältst du diese Belohnungen dauerhaft kostenlos."
+		}
+		research: {
+			title: "Forschung"
+			noresearch: "Keine aktive Forschung"
+			nolabs: "Keine Labore gebaut"
+			nolabs-hover: "Baue ein Forschungslabor, um neue Technologien zu erforschen.\n\nForschungslabore werden freigeschaltet, indem du die Bevölkerung deiner Stadt erhöhst."
+		}
+		crafting: {
+			title: "Herstellung"
+			performbutton: "Herstellen"
+			charges: "Verbleibend: {0}"
+			not-activated: "Kann nicht hergestellt werden – Gebäude ist nicht aktiv."
+			teslacrats-mul-addition: "\n\n<color=#FFD57E>Energiekostenmultiplikator: {0}</color>\nDieser Wert erhöht sich bei der Herstellung mit Energie und geht langsam wieder auf den Normalwert zurück."
+		}
+		productionselect: {
+			title: "Produktionsentwürfe wählen"
+			select: "Wählen"
+			missing-upgrade: "Fehlende Verbesserung/Erweiterung: {0}"
+		}
+		character: {
+			title: "Charakter"
+			weapon: "Waffen"
+			weapon-secondary: "Alternative Waffen"
+			weapon-secondary-hover: "Drücke {0}, um zwischen primären und alternativen Waffensets zu wechseln."
+			secondary-not-assigned: "Nicht zugewiesen"
+			secondary-not-assigned-hover: "Wenn im alternativen Set keine Waffe zugewiesen ist, wird stattdessen die Waffe aus dem primären Set verwendet."
+			armor: "Rüstung"
+			equipment: "Ausrüstung"
+			quickbar: "Schnellleisten-Slots (klicken, um zuzuweisen)"
+			enable-scrap: "Ausrüstung verschrotten"
+			end-scrap: "Verschrotten beenden"
+			no-scrap-hover: "Diesen Gegenstand zu verschrotten bringt keine Materialien."
+			scrap-value-hover: "Diesen Gegenstand zu verschrotten bringt die folgenden Ressourcen:"
+		}
+		skills: {
+			title: "Infrastrukturverbesserungen"
+			purchasebutton: "Kaufen"
+			purchasebutton-hover: "Setze Ressourcen ein, um deine Infrastrukturstufe zu erhöhen und Punkte zu sammeln, die für verschiedene Vorteile zugewiesen werden können."
+			requirements: "Anforderungen"
+			per-level: "Boni pro Stufe:"
+			level: "Infrastrukturstufe: {0}"
+			upgrade-points: "Nicht zugewiesene Punkte: {0}"
+			points-hover: "Infrastrukturpunkte können verwendet werden, um deine Infrastruktur in mehreren Gebieten zu verbessern. Bewege den Mauszeiger über jedes Gebiet, um die Vorteile nach dem Verbessern anzuzeigen."
+		}
+		tribeselect: {
+			title: "Wähle deinen Stamm"
+		}
+		newgame: {
+			title: "Neues Spiel"
+			tutorial-label: "Einleitung aktivieren"
+			score-mul: "Punktemultiplikator: {0}"
+			difficulty-title: "Schwierigkeitsgrad auswählen"
+			customize-title: "Anpassen"
+			city-name-title: "Stadtname"
+			city-name-text: "Wie soll deine Nomadenstadt heißen?"
+		}
+		loadingscreen: {
+			tip: "Tipp {0} / {1}"
+			loading: "Wird geladen …"
+			press-any-key: "Drücke eine beliebige Taste zum Fortfahren\n<size=24>Benutze die Tasten A und D, um verschiedene Tipps anzuzeigen</size>"
+		}
+		yesno: {
+			dontshowagain: "Nicht mehr fragen"
+			chosen-higher-difficulty: {
+				title: "Schwierigkeitsgrad erhöhen?"
+				text: "Du hast dich entschieden, an einem Ort zu landen, der einen höheren Schwierigkeitsgrad aufweist als die aktuelle globale Befallsstufe. Dadurch wird die Befallsstufe sofort erhöht.\n\nBewege den Mauszeiger über die Anzeige der globalen Befallsstufe oben im Zielauswahlfenster, um mehr zu erfahren.\n\nFortfahren?"
+			}
+			delete-save: {
+				title: "Speicherstand löschen?"
+				text: "Willst du diesen Speicherstand wirklich löschen? Diese Aktion kann nicht rückgängig gemacht werden."
+			}
+			overwrite-save: {
+				title: "Speicherstand überschreiben?"
+				text: "Damit überschreibst du den aktuellen Speicherstand.\n\nWillst du diesen Speicherstand wirklich überschreiben? Diese Aktion kann nicht rückgängig gemacht werden."
+			}
+			cancel-takeoff: {
+				title: "Abheben abbrechen?"
+				text: "Willst du das Abheben wirklich abbrechen? Du erhältst nur die Hälfte der Treibstoffkosten zurück."
+			}
+			overwrite-ironman: {
+				title: "Speicherstand überschreiben?"
+				text: "Es existiert bereits ein Speicherstand im Ironman-Modus mit diesem Namen. Wenn du einen neuen Speicherstand mit diesem Namen beginnst, wird der alte überschrieben.\n\nDu kannst einen anderen Stadtnamen eingeben, wenn du den alten Speicherstand behalten willst.\n\nÜberschreiben?"
+			}
+			no-overseer: {
+				title: "Aufseher-Werkzeuge deaktiviert"
+				text: "Du möchtest mit deaktivierten Aufseher-Werkzeugen spielen. Dies bedeutet, dass du das Spiel nicht pausieren oder beschleunigen kannst und die Kamera auf Tiny fixiert ist, sodass du dich physisch bewegen musst, um deine Stadt zu verwalten. Fortfahren?"
+			}
+			remove-upgrade: {
+				title: "Erweiterung entfernen?"
+				text: "Willst du diese Erweiterung wirklich entfernen? Du erhältst nur einige Rohmaterialien zurück."
+			}
+			skip-tutorial-new: {
+				title: "Einleitung überspringen?"
+				text: "Dream Engines besitzt einzigartige Spielmechaniken. Wenn du die Einleitung überspringst, könntest du Probleme mit der Spielsteuerung bekommen. Wir empfehlen, die Einleitung zu spielen, es dauert auch nicht lange.\n\nWillst du die Einleitung wirklich überspringen?"
+			}
+			skip-tutorial-task: {
+				title: "Einleitungsaufgabe überspringen?"
+				text: "Möchtest du diese Einleitung wirklich überspringen, ohne die Aufgabe abzuschließen? Du kannst sie stets im Hilfe-Fenster nachschlagen."
+			}
+			skip-tutorial-updated: {
+				title: "Einleitung überspringen?"
+				text: "Wir haben viele wichtige Änderungen vorgenommen, seitdem du die Einleitung gespielt hast.\n\nWillst du die Einleitung wirklich überspringen?"
+			}
+			different-mods: {
+				title: "Verschiedene Mods"
+				text: "Das Spiel, das du lädst, wurde mit anderen Mods gespielt als den derzeit aktiven. In einigen Fällen könnte dies problemlos funktionieren, aber in anderen kann das Spiel möglicherweise nicht geladen werden oder andere Probleme beim Spielen verursachen.\n\nFortfahren?"
+			}
+			below-recommended-version: {
+				title: "Neues Spiel wird empfohlen"
+				text: "Du versuchst einen Speicherstand von einer älteren Version zu laden. Es ist möglich, dass wesentliche Änderungen vorgenommen wurden und einige Dinge funktionieren daher vielleicht nicht mehr. Wir empfehlen dir, ein neues Spiel zu starten oder zum Spielen <color=#99EEFF><u><link=\"old-version\">eine ältere Version von Dream Engines herunterzuladen</link></u></color>\n.\nFortfahren?\n\n"
+			}
+			multi-demolish: {
+				title: "Alles abreißen?"
+				text: "Du bist dabei, {0} verschiedene Objekte abzureißen. Fortfahren?"
+			}
+			demolish-upgrades: {
+				title: "Verbesserungen abreißen?"
+				text: "Das Gebäude, das du zerstören möchtest, hat Verbesserungen oder Erweiterungen. Fortfahren?"
+			}
+			cancel-expedition: {
+				title: "Expedition abbrechen?"
+				text: "Diese Aktion bricht deine aktuelle Expedition ab. Befindet sich die Expedition in der Vorbereitungsphase, verlierst du nur die bisher ausgegebenen Ressourcen.\n\nIst die Expedition schon unterwegs, verlierst du auch die Expeditionsmannschaft."
+			}
+			continue-after-winning: {
+				title: "Weiterspielen?"
+				text: "Du kannst jetzt ein neues Spiel mit einem anderen Schwierigkeitsgrad oder einem anderen Stamm beginnen, oder du kannst weiterspielen und deine Stadt erweitern. Wenn du weiterspielen willst, kannst du das Negationsschild.\n\nFortsetzen?"
+			}
+		}
+		journal: {
+			goals-click: "Klicke auf ein Ziel, um seine Einleitung anzuzeigen."
+			tutorial-tab: "Einleitungen"
+			story-tab: "Hauptziele"
+			milestones-tab: "Meilensteine"
+			button-show-dialogue: "Dialog erneut abspielen"
+		}
+		settings: {
+			title: "Einstellungen"
+			tabs: {
+				display: "Anzeige"
+				audio: "Audio"
+				gameplay: "Gameplay"
+			}
+			master-volume: {
+				title: "Gesamtlautstärke"
+			}
+			music-volume: {
+				title: "Musiklautstärke"
+			}
+			sfx-volume: {
+				title: "Soundeffektlautstärke"
+			}
+			ambiance-volume: {
+				title: "Hintergrundlautstärke"
+			}
+			fullscreen: {
+				title: "Vollbildfenster"
+				hover: "Schaltet zwischen normalem Fenster und randlosem Vollbildfenster um. Wenn die Vollbildoption aktiviert ist, wird automatisch die Desktopauflösung verwendet."
+			}
+			resolution: {
+				title: "Bildauflösung im Fenster"
+				hover: "Außerhalb des Vollbildfensters kannst du die Fenstergröße und die Auflösung einstellen."
+			}
+			vsync: {
+				title: "Vsync"
+			}
+			shadows-enabled: {
+				title: "Schatten"
+			}
+			bloom-enabled: {
+				title: "Überstrahlen"
+				hover: "Fügt Licht-ausstrahlenden Objekten einen Glanz hinzu. Deaktivieren verringert die Ästhetik des Spiels deutlich."
+			}
+			ambient-occlusion-level: {
+				title: "Umgebungsverdeckung"
+				values: {
+					Lowest: "Am niedrigsten"
+					Low: "Niedrig"
+					Medium: "Mittel"
+					High: "Hoch"
+					Ultra: "Ultra"
+				}
+			}
+			citizens-amount: {
+				title: "Bürger anzeigen"
+				values: {
+					0: "Aus"
+					25: "Wenige"
+					50: "Halb"
+					100: "Voll"
+				}
+			}
+			texture-quality: {
+				title: "Texturqualität"
+				values: {
+					0: "Voll"
+					1: "Mittel"
+					2: "Niedrig"
+					3: "Am niedrigsten"
+				}
+			}
+			vignette: {
+				title: "Vignette"
+			}
+			weather: {
+				title: "Wettereffekte"
+			}
+			anti-aliasing: {
+				title: "Kantenglättung (FXAA)"
+			}
+			brightness: {
+				title: "Helligkeit"
+			}
+			fps-limit: {
+				title: "Maximum FPS"
+				hover: ""
+			}
+			mouse-confine: {
+				title: "Mauszeiger begrenzen"
+				hover: "Der Mauszeiger bleibt innerhalb des Spielfensters."
+			}
+			pause-on-lose-focus: {
+				title: "Pause bei Spiel im Hintergrund"
+				hover: "Pausieren, wenn das Spielfenster nicht im Fokus ist."
+			}
+			takeoff-view: {
+				title: "Ansicht beim Abheben"
+				hover: "Zeigt die gesamte Stadt beim Abheben.\n\nDeaktiviere diese Option, wenn während der Animation Leistungsprobleme auftreten."
+			}
+			management-cam: {
+				title: "Verwaltungskamera"
+				hover: "Wenn diese Option aktiviert ist, schwenkt die Kamera beim Wechsel in den Verwaltungsmodus automatisch auf die Ansicht von oben und kehrt beim Wechsel in den Kampfmodus zum Normalzustand zurück.\n\nWenn sie deaktiviert ist, kannst du manuell zur Ansicht von oben wechseln (standardmäßig mit „Z“)."
+			}
+			default-free-cam: {
+				title: "Frei bewegliche Kamera als Standard"
+				hover: "Aktiviere dies, um beim Umschalten in den Verwaltungsmodus auch zur freien Kamera umzuschalten."
+			}
+			auto-pause-mgmt: {
+				title: "Verwaltung Auto-Pause"
+				hover: "Aktiviere dies, um beim Umschalten in den Verwaltungsmodus das Spiel zu pausieren und es fortzusetzen, sobald du den Verwaltungsmodus verlässt."
+			}
+			management-grid: {
+				title: "Verwaltungsraster"
+				hover: "Zeigt im Verwaltungsmodus Raster an."
+			}
+			target-marker: {
+				title: "Zielanzeige"
+				hover: "Wenn sie aktiviert ist, erscheint die Zielanzeige auf dem Feind vor Tiny.\n\nDiese Anzeige soll dir beim Zielen helfen."
+			}
+			dynamic-minimap: {
+				title: "Dynamische Minikarte"
+				hover: "Rotation der Minikarte an Kamerarotation anpassen."
+			}
+			multi-demolish-confirm: {
+				title: "Abrissbestätigung"
+				hover: "Zeigt ein Bestätigungsfenster an, wenn mehrere Objekte gleichzeitig abgerissen werden (außer bei Schienen)."
+			}
+			disconnected-rail-warnings: {
+				title: "Schienenwarnungen"
+				hover: "Warnungen anzeigen, wenn Schienen nirgendwohin führen."
+			}
+			pause-frame: {
+				title: "Pausenrahmen"
+			}
+			wall-attack-warning: {
+				title: "Mauerangriff-Warnung"
+				hover: "Warnung anzeigen, wenn eine Mauer angegriffen wird ein/aus."
+			}
+		}
+		keybind: {
+			title: "Tastenbelegung"
+			reset: "Standardeinstellungen wiederherstellen"
+			selectnew: {
+				title: "Taste belegen"
+				text: "Drücke eine Taste zum Belegen."
+			}
+		}
+		score: {
+			title: "Punkteergebnis"
+			score-summary: "Gesamtpunktzahl: {0}\nSchwierigkeitsgrad-Multiplikator: {1}\n\nEndpunktzahl: {2}"
+			elements: {
+				raid-defeated: {
+					text: "Stärksten Angriff abgewehrt"
+					hover: "Wenn du an Orten mit höherem Schwierigkeitsgrad landest und länger bleibst, um stärkere Wellen zu besiegen, wird diese Punktzahl erhöht."
+				}
+				population: {
+					text: "Bevölkerung"
+					hover: "Wird am Ende des Spiels durch die Stadtbevölkerung ermittelt."
+				}
+				research: {
+					text: "Forschung"
+					hover: "Erhöht durch Abschluss von Forschungen. Teurere Forschungsobjekte gewähren einen höheren Bonus."
+				}
+				infrastructure: {
+					text: "Infrastrukturstufe"
+					hover: "Verbessere deine Infrastruktur, um diese Punktzahl zu erhöhen."
+				}
+				expansion: {
+					text: "Stadtgröße"
+					hover: "Diese Punktzahl wird dadurch bestimmt, wie sehr du deine Stadt erweiterst."
+				}
+				exploration: {
+					text: "Erkunden"
+					hover: "Führe Expeditionen durch und schließe Archäologieprojekte ab."
+				}
+				victory: {
+					text: "Sieg"
+					hover: "Zusatzpunkte, wenn du das Spiel gewinnst."
+				}
+				other: {
+					text: "Weiteres"
+					hover: "Weitere Punkte-Boni/Strafen."
+				}
+			}
+		}
+		usable-storage: {
+			tabs: {
+				all: "Spieler und Lager"
+				storage: "Nur Lager"
+			}
+		}
+		city-info: {
+			title: "Stadtinformation"
+			landing-zone: "Landezone"
+			city: "Stadt"
+			levels: "Stadtstufen"
+			bonuses: "Boni und Abzüge"
+			current-level: "Stadtstufe: {0}"
+			current-pop: "Bevölkerung / Wohnraum: {0} / {1}"
+			section-count: "Stadtgebiet: {0} Abschnitte"
+			level-hover: "Stufenvorteile:\n\n{0}"
+		}
+		mods: {
+			title: "Mods"
+			achievements-disabled-title: "Errungenschaften deaktiviert"
+			achievements-disabled-warning: "Errungenschaften sind für die meisten Mods deaktiviert (außer für Übersetzer-Mods). Gilt auch beim Spielen eines Speicherstands, der mit diesen Mods erstellt wurde.\n\nDu hast folgende Mods gewählt, die Errungenschaften deaktivieren:\n{0}"
+		}
+		tutorial: {
+			show-last: "Drücke {0}, um die aktuellen Anweisungen zu wiederholen"
+			skip-button: "Aufgabe überspringen"
+		}
+		building-management: {
+			title: "Gebäudeverwaltung"
+		}
+		council-window: {
+			title: "Stadtrat"
+			influence: "Einfluss: {0}"
+			influence-range: "Einflussspanne: {0} – {1}"
+			council-leader: "Ratsoberhaupt"
+			select-leader: "Neues Ratsoberhaupt wählen"
+			select-leader-hover: "Klicke, um ein neues Ratsoberhaupt zu wählen."
+			leader-are-you-sure-title: "{0} wählen?"
+			leader-are-you-sure-text: "Willst du {0} wirklich wählen?\n\n<highlight>Effekte</highlight>:\n{1}\n\n<highlight>Einflussänderung</highlight>:\n{2}"
+			increase-size: "Vergrößere deine Stadt, um den Rat freizuschalten"
+			next-elections: "Nächste Wahlen in {0} Zyklen"
+			select-error-message: "Wähle vor dem Schließen ein neues Ratsoberhaupt"
+		}
+	}
+	council-factions: {
+		military: {
+			name: "Militärfraktion"
+		}
+		scientists: {
+			name: "Forschungsfraktion"
+		}
+		labor: {
+			name: "Arbeiterfraktion"
+		}
+	}
+	tribes: {
+		scavengers: {
+			name: "Schrottfürsten"
+			desc: "Die Schrottfürsten sind die Meister des Schrotts. Wo andere Stämme nur den Müll aus der alten Welt und gewöhnliche blaue Kisten sehen, sehen sie Schätze. Ihr Fachwissen beim Suchen und Verwenden aller möglichen Schrottteile erweist sich als sehr nützlich bei der Wiederherstellung und Erhaltung uralter Nomadenstädte."
+		}
+		dreamweavers: {
+			name: "Traumspinner"
+			desc: "Die Traumspinner sind geschickt darin, Traumtek zu manipulieren, auch wenn sie nicht ganz verstehen, wie diese Technologie der alten Welt funktioniert. Sie sind außergewöhnlich geschickt darin, Flux zu erzeugen und können Materialisierer bedienen.\n\nDiese Fertigkeiten haben jedoch ihren Preis. Ihre Faszination und ihr Wille zum Experimentieren im Traumreich macht die Traumplagen besonders wild, wenn sie anwesend sind."
+			unlocktext: "Zum Freischalten: Besitze 3.000 Flux, während du mit einem anderen Stamm spielst"
+		}
+		electric: {
+			name: "Teslakrate"
+			desc: "Sie sind die Meister der Tesla-Energie und verfügen über einzigartige Herstellungsentwürfe, die Ressourcen nur mit elektrischer Energie duplizieren können. Der Hauptmakel der Teslakrate ist, dass sie das Gefühl haben, dass sie dem günstigen Strom überlegen sind, und daher die Grundstromerzeugung sehr ineffizient ist."
+			unlocktext: "Zum Freischalten: eine Bruttostromproduktion (vor Verbrauch) von 600 Strom pro Zyklus einrichten"
+		}
+		builders: {
+			name: "Biber"
+			desc: "Der Biberstamm ist bekannt für seine beeindruckenden Bauprojekte. Die Angehörigen dieses Stamms können ihre Stadt schneller und einfacher erweitern und Gebäude mit weniger Ressourcen verbessern. Allerdings wollen sie ihre wertvollen Bauwerke nicht aus den Augen lassen, daher bauen sie hauptsächlich im Stadtgebiet. Der perfekte Stamm für Spieler, die so wenig Müll wie möglich produzieren wollen und ungern Gebäude zurücklassen."
+			unlocktext: "Zum Freischalten: Erweitere deine Stadt fünf Mal in einem Spiel."
+		}
+		explorers: {
+			name: "Restesucher"
+			desc: "Die Restesucher sind ein Entdeckerstamm, der glaubt, die Rettung käme aus der Vergangenheit. Sie verschreiben sich voll und ganz der Suche nach und Erkundung von Ruinen der alten Welt mit erfahrenen und effizienten Expeditionsmannschaften. Sie brauchen weniger Kraftstoff zum Fliegen und Tiny ist schneller. Ihre Verteidigung ist jedoch schwächer als die meisten anderen, und ihre Forschung ist langsamer."
+			unlocktext: "Zum Freischalten: Schließe in einem Spiel 5 Expeditionen ab."
+		}
+		gatherers: {
+			name: "Terra Multa"
+			desc: "Der Stamm der Terra Multa (oder kurz „Terraner“) besteht aus hart arbeitenden Leuten, die wissen, wie sie das meiste aus ihrer Umwelt herausholen. Sie sind exzellent beim Sammeln von Ressourcen, können mehr aus einem Knoten abbauen, bevor er erschöpft ist, und finden einen zusätzlichen Ressourcenknoten (stufenabhängig) pro Karte, der zu einer anderen Art als die aufgelisteten gehört.\n\nAllerdings glauben sie nicht an synthetische Ressourcen, weswegen sie keinerlei Materialisierer verwenden und mehr Zeit zum verarbeiten von unverarbeiteten Ressourcen benötigen."
+			unlocktext: "Zum Freischalten: Baue Erntemaschinen auf allen Ressourcenknoten einer Karte mit 2 Totenköpfen oder höher."
+		}
+		hunters: {
+			name: "Plagenjäger"
+			desc: "Nach dem Ausbruch der Traumplage entstand eine Militärorganisation mit dem Namen Plagenjäger. Jahrhunderte später wandern ihre Nachfahren noch immer durch die Welt, jagen Traumplagen, wenn sie können, und nutzen ihre Überreste, um zu überleben.\n\nDie Plagenjäger sind exzellente Kämpfer, die Material aus gefallenen Trep extrahieren und Nutzen dafür finden. Da sich ihre besten Ingenieure dem Krieg verschrieben haben, sind ihre Produktionseinrichtungen nicht sonderlich effizient."
+			unlocktext: "Zum Freischalten: Töte mit Tiny 150 Traumplagen in einem Spiel."
+		}
+		nomads: {
+			name: "Geschichtenhüter"
+			desc: "Die Geschichtenhüter sind Historiker, Experten für die Alte Welt. In ihrem Bestreben, so viele Ruinen wie möglich zu besichtigen, sind sie noch nomadischer als andere Stämme und haben das effiziente Reisen in den Städten perfektioniert, und sind in der Lage Ruinen schon von weitem zu erkennen. Da sie sich ständig mit Dingen aus der Alten Welt beschäftigen, werden Treps schneller auf sie aufmerksam und greifen geschlossen an."
+			unlocktext: "Zum Freischalten: Interagiere mit 10 verschiedenen Ruinen in einem Spiel."
+		}
+		doomed: {
+			name: "Der verfluchte Stamm"
+			desc: "Einige Menschen haben das Gefühl, sie seien verflucht. Sie haben kein Glück, nichts läuft nach Plan und alles fällt ihnen schwerer. Der verfluchte Stamm ist eine Gemeinschaft voller Pechvögel.\n\nSie werden häufiger von den Traumplagen heimgesucht, befinden sich häufiger in gegnerischen Gebieten, finden weniger Ressourcen und haben es generell schwerer. Das harte Leben hat sie abgehärtet und ihre Leute benötigen weniger zum Überleben."
+			unlocktext: "Zum Freischalten: Überlebe einen Überfall mit Bedrohungsstufe 30 oder höher."
+		}
+	}
+	expeditions: {
+		dreamtech-lab: {
+			name: "Verlassenes Labor"
+		}
+		abandoned-factory: {
+			name: "Fabrikruinen"
+		}
+		storage-facility: {
+			name: "Altes Lagerhaus"
+		}
+		city-ruins: {
+			name: "Geisterstadt"
+		}
+		steambot-factory: {
+			name: "Dampfbot-Hangar"
+		}
+		abandoned-experiment: {
+			name: "Gescheitertes Experiment"
+		}
+		abandonded-farm: {
+			name: "Überwucherte Farm"
+		}
+		military-outpost: {
+			name: "Alter Militäraußenposten"
+		}
+	}
+	expedition-rewards: {
+		resources: {
+			name: "Ressourcenkiste"
+			desc: "Kann eine Vielzahl gewöhnlicher Ressourcen enthalten."
+		}
+		rare-resources: {
+			name: "Seltene Ressourcen"
+			desc: "Enthält Ressourcen, die schwieriger zu finden sind."
+		}
+		tech-rewards: {
+			name: "Technologiekiste"
+			desc: "Kann Forschungswissen, Baupläne, Rezepte und andere technische Beute enthalten."
+		}
+		upgrade-mods: {
+			name: "Modulkiste"
+			desc: "Eine Vielzahl an Verbesserungsmodulen für Gebäude, Tiny oder den Stadtkern lässt sich hier finden."
+		}
+		equipment: {
+			name: "Ausrüstungskiste"
+			desc: "Diese Kisten enthalten größtenteils Ausrüstung und Verbesserungsmodule für Tiny."
+		}
+		dream-tech: {
+			name: "TraumTek-Kiste"
+			desc: "Verschiedene TraumTek-Materialien und Artefakte. Es besteht eine hohe Wahrscheinlichkeit, darin einen Traumkern zu finden."
+		}
+		dream-core: {
+			name: "Traumkern"
+			desc: "Enthält einen einzelnen Traumkern."
+		}
+		archeology: {
+			name: "Archäologieprojekt-Baupläne"
+			desc: "Erfahre etwas über Alte-Welt-Projekte, die du bei deinem Archäologen durchführen kannst."
+		}
+	}
+	archeology: {
+		harvest-booster: {
+			name: "Erntemaschine-Bastelei"
+		}
+		harvest-booster2: {
+			name: "Erntemaschine-Bastelei 2"
+		}
+		wall-health: {
+			name: "Uralte Befestigung"
+		}
+		wall-health2: {
+			name: "Uralte Befestigung 2"
+		}
+		wall-health3: {
+			name: "Uralte Befestigung 3"
+		}
+		carry-weight1: {
+			name: "Aerodynamik"
+		}
+		carry-weight2: {
+			name: "Aerodynamik 2"
+		}
+		woodwarper-efficiency: {
+			name: "Holzkrümmer-Effizienz"
+		}
+		woodwarper-speed: {
+			name: "Holzkrümmer-Produktivität"
+		}
+		stonecutter-efficiency: {
+			name: "Steinschleifer-Effizienz"
+		}
+		stonecutter-speed: {
+			name: "Steinschleifer-Produktivität"
+		}
+		smelter-efficiency: {
+			name: "Schmelzofen-Effizienz"
+		}
+		smelter-speed: {
+			name: "Schmelzofen-Produktivität"
+		}
+		workshop-efficiency: {
+			name: "Werkstatt-Effizienz"
+		}
+		workshop-speed: {
+			name: "Werkstatt-Produktivität"
+		}
+		cauldron-speed: {
+			name: "Kessel-Produktivität"
+		}
+		cauldron-speed2: {
+			name: "Kessel-Produktivität 2"
+		}
+		purptatoprocessor-efficiency: {
+			name: "Nahrungsverarbeitung"
+		}
+		researchlab-efficiency: {
+			name: "Forschungswerkzeuge"
+		}
+		expedition-speed: {
+			name: "Expeditionsausrüstung"
+		}
+		expedition-options: {
+			name: "Kundschafterausrüstung"
+		}
+		cheaper-expansions: {
+			name: "Untergrundforschung"
+		}
+		cheaper-farms: {
+			name: "Farmgebäude"
+		}
+		farm-speed: {
+			name: "Landwirtschaftstechniken"
+		}
+		threat-increase: {
+			name: "TraumTek-Tarnung"
+		}
+		threat-increase2: {
+			name: "TraumTek-Tarnung 2"
+		}
+		extra-materializer: {
+			name: "Materialisierer-Infrastruktur"
+		}
+		materializer-speed: {
+			name: "Materialisierer-Produktivität"
+		}
+		global-difficulty: {
+			name: "Traumverbindung-Unterdrückung"
+		}
+		global-difficulty2: {
+			name: "Traumverbindung-Unterdrückung 2"
+		}
+		heavy-dmg: {
+			name: "Boost für schwere Waffen"
+		}
+		repeater-dmg: {
+			name: "Boost für Schnellfeuerwaffen"
+		}
+		shotgun-dmg: {
+			name: "Boost für Streuschusswaffen"
+		}
+		housing1: {
+			name: "Effizienter Wohnraum"
+		}
+		housing2: {
+			name: "Effizienter Wohnraum 2"
+		}
+		tiny-speed: {
+			name: "Tiny-Beinverbesserungen"
+		}
+		tiny-vision: {
+			name: "Tiny-Radaranpassungen"
+		}
+		weak-raids: {
+			name: "Trep-Unterdrücker"
+		}
+		resource-amount: {
+			name: "Müllreduzierung"
+		}
+		giant-battery: {
+			name: "Energielager"
+		}
+		cart-speed: {
+			name: "Autowagen-Effizienz"
+		}
+	}
+	stats: {
+		healamount: "Gesundheit: +{0}"
+		maxhealth: "Max. Gesundheit: {0}"
+		damage: "Schaden: {0}"
+		range: "Reichweite: {0}"
+		aoe: "Effektradius: {0}"
+		attackrate: "Angriffsrate: {0}"
+		autoattack: "Automatisch (halten zum Feuern)"
+		combosize: "Kombinierte Länge: {0}"
+		sustained-dps: "Erhaltener Schaden pro Sekunde: {0}"
+		dps: "Durchschnittlicher Schaden pro Sekunde: {0}"
+		ammo-type: "Munition: {0}"
+		ammo-per-shot: "Munitionskosten pro Schuss: {0}"
+		burst-count: "Anzahl Streuprojektile: {0}"
+		burst-angle: "Streuwinkel: {0}"
+		damage-vs: "Schaden gegen {0}: {1}"
+		piercing: "Durchbohrende Projektile"
+	}
+	target-type: {
+		armored: "Gepanzert"
+	}
+	modifiers: {
+		format: "{0}: {1}"
+		bool-no-val-format: "{0}"
+		bool-format: "{0}: {1}"
+		bool-on: "Ja"
+		bool-off: "Nein"
+		specifier-format: "[{0}] "
+		max-building: "Max. {0} zulässig: {1}"
+		passive-income: "[Passiv] {0}: {1}"
+		tiny: "Tiny"
+		capacity-format: "{0}-Kapazität: {1}"
+		skill-points: "Bonus-Verbesserungspunkte: {0}"
+		stats: {
+			dmg: "Schaden"
+			dmg-to: "Schaden"
+			attackrate: "Angriffsrate"
+			attackrange: "Reichweite"
+			charge-speed: "Waffenladegeschwindigkeit"
+			cdn: "Abklingzeit"
+			receive-dmg: "Erhaltener Schaden"
+			max-health: "Max. Gesundheit"
+			repairkit-heal: "Gesundheit-Reparaturkit"
+			speed: "Bewegungsgeschwindigkeit"
+			speed-percent: "Bewegungsgeschwindigkeit"
+			untargetable: "Nicht als Ziel wählbar"
+			self-repair: "Selbstreparatur außerhalb"
+			vision-range: "Blickreichweite"
+			prod-speed: "Produktionsgeschwindigkeit"
+			build-costs: "Baukosten"
+			upgrade-costs: "Gebäudeverbesserungskosten"
+			demolish-refund: "Abrissvergütung"
+			prod-outputamount: "Produzierte Ressourcen"
+			prod-inputamount: "Verwendete unverarbeitete Materialien"
+			upkeep-inputamount: "Betriebskosten"
+			upkeep-assigned: "Arbeiter"
+			module-slots: "Modulplätze"
+			gatheramount: "Sammelmenge"
+			lootdrop: "Beutemenge"
+			resourceamount: "Ressourcenmenge"
+			cart-speed: "Wagengeschwindigkeit (Schienen)"
+			teslacrats-research: "<color=#7DE286>Einzigartige Forschung: Ressourcenduplizierung</color>"
+			teslacrats-noflypower: "<color=#E27D7F>Beim Fliegen geht die gesamte gespeicherte Energie verloren</color>"
+			builders-citybuilding: "<color=#E27D7F>Die meisten Gebäude können nur in der Stadt gebaut werden</color>"
+			gatherers-extra-resources: "<color=#7DE286>Ein zusätzlicher zufälliger Ressourcenknoten pro Karte</color>"
+			gatherers-no-materializers: "<color=#E27D7F>Kann Materialisierer weder erforschen noch bauen.</color>"
+			hunters-unique-drep-drops: "<color=#7DE286>Traumplagen lassen manchmal Ressourcen fallen</color>"
+			hunters-unique-drep-processing: "<color=#7DE286>Einzigartige Herstellungsentwürfe aus Überresten von Traumplagen</color>"
+			nomads-unique-visible-ruins: "<color=#7DE286>Standorte der Ruinen sind immer sichtbar.</color>"
+			nomads-unique-more-ruins: "<color=#7DE286>Erhöht die Chance, mehr Ruinen pro Karte zu finden.</color>"
+			nomads-unique-craft-scraps: "<color=#7DE286>Kann Alte-Welt-Schrott in Werkstätten produzieren.</color>"
+			doomed-unique-map-traits: "<color=#E27D7F>Negative Kartenmerkmale treten häufiger auf.</color>"
+			doomed-unique-map-resources: "<color=#E27D7F>Karten haben weniger Ressourcenknoten.</color>"
+			doomed-unique-drep-difficulty: "<color=#E27D7F>Bedrohungen nehmen viel schneller zu, nachdem die ersten fünf Bedrohungen pro Karte zunehmen.</color>"
+			doomed-unique-drep-difficulty2: "<color=#E27D7F>Die Traumplage-Überfälle besitzen eine weitere Welle pro Überfall.</color>"
+			doomed-unique-drep-difficulty3: "<color=#E27D7F>Der globale Befall beginnt ab Stufe 2, aber die erste Steigerung dauert länger.</color>"
+			biome-unlock-heatshield: "Schaltet Aschfall-Gebirge-Biom frei"
+			biome-unlock-airfilter: "Schaltet Giftsumpf-Biom frei"
+			building-weight: "Gewicht"
+			carry-weight: "Tragegewicht"
+			launch-costs: "Treibstoffkosten"
+			threat-interval: "Zeit vor Bedrohungsanstieg"
+			map-enemy-difficulty: "Kartenschwierigkeitsgrad für Feinde"
+			raid-enemy-numbers: "Anzahl von angreifenden Feinden"
+			dest-reroll: "Zielauswahl-Neuwürfe"
+			expedition-speed: "Expeditionsgeschwindigkeit"
+			expedition-options: "Expeditionsoptionen"
+			expedition-costs: "Expeditionskosten"
+			game-score: "Spielpunkte"
+			archeology-speed: "Archäologie-Geschwindigkeit"
+			df-threat-time: "Zeit vor Bedrohungsanstieg"
+			df-threat-disable: "Angriffe deaktiviert"
+			global-difficulty-time: "Zeit vor erhöhtem Globalen Befall"
+			df-global-rate: "Globale Befallsrate"
+			df-enemy-numbers: "Anzahl von Feinden"
+			df-map-spawn: "Kartenschwierigkeitsgrad für Feinde"
+			df-resources: "Ressourcenknoten"
+			df-pause-in-menu: "Pause in Fenstern"
+			df-overseer-mode: "Frei bewegliche Kamera- und Zeitsteuerung erlauben"
+			df-ironman: "Ironman-Modus"
+			df-mini-raids: "Umherziehende Feinde"
+			df-relaxed-mode: "Globaler Befall erhöht sich nicht mit der Zeit"
+			df-max-health: "Max. Gesundheit"
+			df-enemy-health: "Feindliche Gesundheit"
+			df-ammo-costs: "Munitionsverbrauch"
+			df-elections-off: "Stadtrat deaktivieren"
+		}
+		specifier: {
+			wpn-melee: "Nahkampfwaffen"
+			wpn-ranged: "Fernkampfwaffen"
+			wpn-heavyranged: "Schwere Waffen"
+			wpn-shotgun: "Streuschusswaffen"
+			wpn-fastranged: "Schnellfeuerwaffen"
+			enemy-melee: "Nahkampffeind"
+			enemy-ranged: "Fernkampffeind"
+			enemy-unit: "Feindliche Einheiten"
+			prodgroup-harvest: "Ernten"
+			prodgroup-strip: "Tagebau"
+			prodgroup-refine: "Verarbeitung"
+			prodgroup-flux: "Flux-Produktion"
+			prodgroup-power: "Energie-Produktion"
+			prodgroup-farm: "Landwirtschaft"
+			prodgroup-citygatherer: "Erneuerbares sammeln"
+			prodgroup-upgradeparts: "Verbesserungsmaterialien"
+			prodgroup-research: "Forschung"
+			objgroup-defense: "Verteidigungsgebäude"
+			objgroup-wall: "Mauern"
+			objgroup-housing: "Wohnraumgebäude"
+			objgroup-harvester: "Erntemaschinen"
+			objgroup-farm: "Farmen"
+			loot-resources: "Ressourcen"
+			loot-debris: "Schutt/Ruinen"
+			loot-enemy: "Feinde"
+			trgt-armored: "Gegen gepanzert"
+		}
+		spec-prefix: {
+			objtype: "{0}"
+			prodrecipe: "{0}"
+		}
+	}
+	messages: {
+		build: {
+			cantbuild: {
+				onobject: "Zu bauen auf: {0}"
+				incity: "Muss in der Stadt gebaut werden"
+				halfoncity: "Kann nicht zugleich innerhalb und außerhalb der Stadt gebaut werden"
+				nearobject: "Zu bauen in der Nähe von: {0}"
+				power: "Keine Stromversorgung. Baue Tesla-Türme, um deine Reichweite zu erhöhen"
+				blocked: "Kann hier nicht gebaut werden: blockiert"
+				blocked-rift: "Kann nicht in der Nähe von Rissen errichtet werden"
+				nocosts: "Nicht genug Ressourcen"
+				enemiesnear: "Bauen nicht möglich: Feinde in der Nähe"
+				maxamount: "Du hast die maximale Anzahl für dieses Gebäude erreicht"
+				upgrade-cancels: "Erweiterung kann nicht mit {0} gebaut werden"
+			}
+		}
+		error: {
+			tooheavy: "Stadt ist zu schwer, entferne einige Gebäude oder füge mehr Motoren hinzu"
+			cantfly: "Etwas hält die Stadt vom Fliegen ab."
+			takeoff-cancelled: "Abheben wurde abgebrochen."
+			cantmove: "Dieses Gebäude kann nicht bewegt werden"
+			cantmoveraid: "Dieses Gebäude kann nicht bewegt werden, wenn du angegriffen wirst"
+			cantsave: "Speichern zurzeit nicht möglich"
+			no-upgrade-points: "Keine ausstehenden Verbesserungspunkte"
+			interact-only: "Du bist zu weit entfernt, um mit dem Gebäude zu interagieren"
+			out-of-ammo: "Keine Munition mehr"
+			cantrepairthis: "Dieses Gebäude kann nicht manuell repariert werden. Es heilt mit der Zeit"
+			cantrepairenemiesnear: "Reparieren nicht möglich: Feinde in der Nähe"
+		}
+		milestones: {
+			objective-complete: "Aufgabe abgeschlossen"
+			milestone-complete: "Meilenstein erreicht"
+		}
+	}
+	unlocks: {
+		text-format: "* Freigeschaltet {0}: {1}"
+		splash-title-format: "Freigeschaltet {0}"
+		splash-text-format: "{1}"
+		call-to-action: "Drücke H, um weitere Details anzuzeigen"
+		research-complete: "Forschung abgeschlossen"
+		archeology-complete: "Archäologieprojekt abgeschlossen."
+		city-size-achieved: "Neue Stadtstufe"
+		tribe-unlocked: "Neuer Stamm freigeschaltet"
+		types: {
+			upgrades: "Verbessern"
+			constructions: "Bauen"
+			crafting: "Herstellung"
+			productions: "Produktionsentwurf"
+			research: "Forschung"
+			skills: "Fertigkeit"
+			perks: "Vorteile"
+			abilities: "Fähigkeiten"
+		}
+	}
+	loading-tips: {
+		rotate: "Drehe die Kamera, indem du die mittlere Maustaste gedrückt hältst und die Maus ziehst."
+		moving-buildings: "Klicke auf die Werkzeugschaltfläche und wähle dann im Verwaltungsmodus „Bewegen“ oder (drücke „M“), um deine Gebäude neu anzuordnen. Einige Gebäude wie Mauern oder Schienen können nicht bewegt werden."
+		melee-aoe: "Nahkampfangriffe treffen mehrere Gegner gleichzeitig und verursachen höheren Schaden als Fernkampfangriffe. Sie sind sehr effektiv, wenn du von Gegnern mit wenig Reichweite umzingelt bist."
+		demolish-buildings: "Beim Abreißen der meisten Gebäude erhältst du die Hälfte der Baukosten zurück, jedoch kein Flux."
+		world-difficulty: "Mit der Zeit werden die Gebiete schwieriger, in denen du landest. Verschwende keine Zeit und baue deine Ökonomie und Verteidigung auf, bevor es zu spät ist."
+		world-difficulty2: "Landeplätze mit höherem Schwierigkeitsgrad besitzen mehr Ressourcen und einige Ressourcen wie Kupfer erscheinen nur auf ausreichend hohen Ebenen."
+		right-click-close: "Du kannst durch einen Rechtsklick auf eine beliebige Stelle ein Fenster schließen."
+		infrastructure: "Baue Werkstätten, um Materialien für die Verbesserung deiner Infrastruktur herzustellen. Die Verbesserung der Infrastruktur kann wirksame, dauerhafte Boni bieten."
+		economy: "Scheue dich nicht, mehr als ein Forschungszentrum oder eine Werkstatt zu bauen, um schneller vorankommen. Sorge aber dafür, dass deine Ökonomie darauf ausgerichtet ist."
+		disabling: "Wenn du nicht genug Arbeiter oder Strom hast, kannst du weniger wichtige Gebäude deaktivieren, um sicherzustellen, dass andere betrieben werden."
+		upgrading: "Die meisten Gebäude können verbessert werden. Eine Verbesserung ist teurer als der Bau eines weiteren Gebäudes, aber verbraucht keinen zusätzlichen Platz oder Gewicht."
+		rails-building: "Du kannst die Richtung einer Schiene ändern, indem du einfach eine andere Schiene in die entgegengesetzte Richtung baust. Die Richtungsänderung kostet nichts."
+		railcrossing: "Ziehe, um Schienen so zu bauen, dass sie einen bestehenden Schienenabschnitt überschneiden. So wird ein Übergang geschaffen, der einer Brücke ähnelt, wodurch beide Abschnitte unabhängig funktionieren."
+		remove-crossing: "Du kannst eine Schienenkreuzung entfernen, indem du eine Schiene so ziehst, dass einer der Ein- oder Ausgänge der Kreuzung die Richtung ändert. Dadurch wird sie sich mit der Kreuzung verbinden oder sich davon trennen."
+		weight: "Achte darauf, immer eine schnelle Fluchtmöglichkeit zu haben. Lasse deinen Treibstoff nicht ausgehen und halte dein Gewicht unter deiner Tragkraft."
+		leaving-early: "Zögere nicht, wegzufliegen, wenn nötige Ressourcen im aktuellen Gebiet nicht verfügbar sind. Achte nur auf deine Treibstoffanzeige."
+		journal: "Öffne dein Logbuch (J), um abgeschlossene Aufgaben aus der Einleitung anzusehen, wenn du eine Erinnerung brauchst."
+		gamepedia: "Öffne mit TAB das Traumarchiv, wo du Informationen zu allen Entwürfen für Gebäude, Herstellung oder Produktion findest, die du freigeschaltet hast."
+		item-source: "Falls du eine Ressource benötigst, die dir unbekannt ist, schau in den Traumarchiven nach, um zu sehen, wo sie gesammelt oder produziert werden kann."
+		pick-cart: "Willst du einen Transportwagen von einer Schiene entfernen, verwende im Verwaltungsmodus das Wagengreifer-Werkzeug (P), um Gegenstände zurück in dein Inventar zu legen."
+		enabledisable: "Mit dem An/Aus-Werkzeug (O) kannst du im Verwaltungsmodus schnell mehrere Gebäude aktivieren & deaktivieren, ohne mit ihnen zu interagieren."
+		extrarefineries: "Wenn du zu lange auf Bretter warten musst, baue weitere Holzkrümmer oder andere Raffinerien."
+		old-tech: "Sammle auf der ganzen Welt Schutt, um Alte-Welt-Schrott zu sammeln, mit denen du in Ruinengebäuden einzigartige Gegenstände herstellen kannst."
+		copybuilding: "Verwende im Verwaltungsmodus die Taste „Gebäudekopie“ (standardmäßig „V“), um schnell eine Kopie des Gebäudes zu erstellen, dass sich unter dem Mauszeiger befindet."
+		targetmarker: "Du kannst im Einstellungsfenster die Zielmarkierung aktivieren, um bei Fernkampfangriffen das Zielen zu erleichtern."
+		key-bindings: "Öffne die Tastenbelegung im Einstellungsfenster, um alle Tastenkürzel zu finden und anzupassen, die dir das ganze Spiel über helfen werden."
+		milestones: "Gehe mit deiner Maus über Meilensteine, um mehr über diese Merkmale zu erfahren."
+		milestones2: "Die Erfüllung von Meilensteinen belohnt dich mit Alte-Welt-Schrott, mit dem später uralte Maschinerie aktiviert werden kann."
+		rawresources: "Unverarbeitete Ressourcen können nicht mitgenommen werden, wenn du gehst. Verarbeite vor deinem Abflug so viele wie möglich."
+		scrap-when-leaving: "Vergiss nicht, alle Gebäude außerhalb deiner Stadt zu verschrotten, bevor du gehst, denn du erhältst die Hälfte der unverarbeiteten Materialien zurück (ausschließlich Flux)."
+		upgrade-in-city: "Überlege dir gut, welche Gebäude du in der Stadt platzierst und mitnimmst. Verbessere diese Gebäude, um ihre Effizienz zu steigern."
+		move-before-leaving: "Vergiss nicht, dass du die meisten Gebäude bewegen kannst, was dir erlaubt, deine Stadt neu zu organisieren und zu bestimmen, welche Gebäude du mitnimmst. Türme können während Angriffen nicht bewegt werden, mache dir hier also im Voraus Gedanken."
+		expand-city: "Vergrößere deine Bevölkerung, um die Bauoption zur Stadterweiterung freizuschalten, erweitere dann deine Stadt so, dass du mehr Platz für Gebäude hast, die du mitnehmen kannst. Achte dabei aber immer auf dein Gewicht."
+		discord: "Tritt unserem Discord bei (der Link befindet sich auf dem Bildschirm). Dort kannst du Fragen stellen und mit den Entwicklern oder anderen Mitgliedern der Community chatten."
+		add-ons: "Wenn du Gebäudeerweiterungen erforschst, interagiere mit einem Gebäude, um die Erweiterung zu bauen und neue Produktionsentwürfe oder andere Boni freizuschalten."
+		resources-leaving: "Du solltest immer einen Vorrat an wichtigen Ressourcen haben, denn du wirst nach dem Abheben einige der Gebäude, die du zurücklässt, erneut bauen müssen."
+		food-leaving: "Stelle sicher, dass du vor dem Abheben ausreichend Nahrung, Flux und Energie hast, da es einige Zeit dauern könnte, deren Produktion an deinem nächsten Landeplatz wiederaufzubauen."
+		exploring: "Erkunde deine Umgebung. So findest du mehr Ressourcen, Schutt, aus dem du nützliche Dinge gewinnen kannst, und uralte Ruinen und es wird dir leichter fallen, die Routen feindlicher Angriffe zu identifizieren."
+		auto-output: "Standardmäßig sendet die Ausgabe aller nicht-Lagergebäude alle Gegenstände. Wähle im Verwaltungsmodus den Zugriffspunkt aus, um seine Einstellungen anzupassen."
+		exit-limits: "Wenn du Gegenstände aus dem Lager schickst, kannst du im Gegenstandsauswahlfenster eine minimale Menge festlegen. Es werden nur dann Gegenstände verschickt, wenn sich mehr als diese minimale Menge dieses Gegenstands im Lager befindet."
+		upgrade-layer: "Öffne die Verbesserungsebene im Verwaltungsmodus (links von der Minikarte), um Gebäudestufen anzuzeigen und sie mit einem Klick zu verbessern."
+		prod-layer: "Öffne die Produktionsebene im Verwaltungsmodus (links von der Minikarte), um die Produktion von Gebäuden anzuzeigen oder zu ändern."
+		usable-storage: "Das kombinierte Lagerfenster (Standardmäßig „T“) zeigt alle Gegenstände an, die aktuell für Bau/Herstellung verfügbar sind – dazu gehören globale Gegenstände, jene, in Tinys Inventar und Ressourcen in Lagergebäuden."
+		customize-resource-ui: "Du kannst auswählen, welche Ressourcen oben links im HUD angezeigt werden."
+		city-info: "Klicke im HUD auf einen Stadtnamen, um das Städteinformationsfenster zu öffnen. Dieses Fenster zeigt auch Informationen zur aktuellen Landezone an."
+		free-camera: "Du kannst im Kampfmodus das Tastenkürzel für die frei bewegliche Kamera drücken, um in den Verwaltungsmodus zu wechseln. Dabei wird die frei bewegliche Kamera automatisch aktiviert."
+		worker-assign: "Du kannst die Anzahl an Arbeitern verringern, die Produktionsgebäuden zugewiesen sind, um die Produktionsrate des Gebäudes zu verringern und sie für andere Aufgaben freizustellen."
+		piercing-weapons: "Projektile von durchbohrenden Waffen durchdringen ihr Ziel und können auch Personen dahinter treffen."
+		archeology-unlocks: "Schalte neue Archäologieprojekte frei, indem du Ruinen mit 2 Totenköpfen oder höher plünderst."
+	}
+	contexthints: {
+		roadbuild: "* Ziehe in die gewünschte Richtung – platziert Schienen.\n* Ziehe von einem Gebäude aus – erstellt einen Ausgang.\n* Ziehe bis zu einem Gebäude – erstellt einen Eingang.\n* Rechtsklick, um den Baumodus zu schließen.\n* Ziehe Schienen über eine bestehende Schiene, um einen Übergang zu erstellen."
+		buildmode: "„{0}“ – rotiert Gebäude.\nRechtsklick – Baumodus schließen."
+		bulldoze: "Wähle ein Gebäude für den Abriss aus.\nRechtsklick – Modus schließen."
+		repair: "Wähle ein beschädigtes Gebäude zur Reparatur aus.\nRechtsklick – Modus schließen."
+		repair-costs: "Repariere {0}: {1} x{2}"
+		move: "Wähle ein Gebäude aus, das du bewegen möchtest.\nRechtsklick – abbrechen."
+		delinout: "Klicke, um Zugriffspunkte zu entfernen.\nRechtsklick – Modus schließen."
+		pickcart: "Klicke & ziehe, um Wagen aufzunehmen.\nRechtsklick – Modus schließen."
+		enabledisable: "Klicke auf Gebäude, um sie an/auszuschalten.\nRechtsklick – Modus schließen."
+		gather: "„E“ –Sammle {0}."
+		gathering: "Sammelt {0}"
+		inventory: "Linksklick, um Gegenstände zu übertragen\nHalte UMSCHALT, um alle, oder STRG, um 10 zu übertragen\nRechtsklick, um zu verwenden / auszurüsten"
+	}
+	keymapping: {
+		categories: {
+			general: "Allgemeine Steuerung"
+			management: "Verwaltungsmodus"
+			camera: "Kamerasteuerung"
+			windows: "Tastenkürzel für Fenster"
+		}
+		action: {
+			Up: "Bewegung hoch"
+			Left: "Bewegung links"
+			Right: "Bewegung rechts"
+			Down: "Bewegung herunter"
+			DefaultView: "Standard-Kameraansicht"
+			TopDownView: "Draufsicht umschalten"
+			ZoomIn: "Hineinzoomen"
+			ZoomOut: "Rauszoomen"
+			RotateCamera: "Drehe die Kamera"
+			Interact: "Interagieren"
+			StrategicView: "Verwaltungsmodus umschalten"
+			SwitchWeapons: "Waffenset wechseln"
+			CameraControlMode: "Direkte Kamerasteuerung umschalten"
+			Build: "Baumodus umschalten"
+			BuildPrevCat: "Vorige Baukategorie"
+			BuildNextCat: "Nächste Baukategorie"
+			CopyBuilding: "Gebäude unter Mauszeiger kopieren"
+			BuildRails: "Tastenkürzel für Schienenbau"
+			Bulldoze: "Abrissmodus umschalten"
+			Repair: "Reparaturmodus umschalten"
+			Move: "Modus „Gebäude bewegen“ umschalten"
+			EnableDisableBuilding: "Modus „Aktivieren / deaktivieren“ umschalten"
+			PickCarts: "Modus „Wagengreifer“ umschalten"
+			Inventory: "Charakterfenster"
+			Research: "Forschungsfenster"
+			Skills: "Infrastrukturfenster"
+			Journal: "Logbuchfenster"
+			Crafting: "Herstellungsfenster"
+			UsableStorage: "Kombinierte Ressourcen"
+			Gamepedia: "Traumarchivfenster"
+			Transfer10: "Halten für x10"
+			TransferAll: "Halten für alle verfügbaren"
+			RotateRight: "Gebäude nach rechts drehen"
+			RotateLeft: "Gebäude nach links drehen"
+			AddToQueue: "Halten, um Forschung der Warteschleife hinzuzufügen"
+			QuickSave: "Schnellspeichern"
+			QuickLoad: "Schnellladen"
+			Help: "Hilfe"
+			RemoveAccessPoint: "Zugriffspunkte entfernen"
+			IncreaseGameSpeed: "Spielgeschwindigkeit erhöhen"
+			DecreaseGameSpeed: "Spielgeschwindigkeit verringern"
+			Pause: "Pausieren"
+			FreeCamera: "Frei bewegliche Kamera umschalten"
+			GotoCore: "Zum Stadtkern / Tiny"
+		}
+		keys-short: {
+			Space: "Leertaste"
+			LeftShift: "UMSCH-L"
+			LeftControl: "STRG-L"
+			RightShift: "UMSCH-R"
+			RightControl: "STRG-R"
+			Return: "Enter"
+			KeypadEnter: "Enter"
+			Insert: "Einfg"
+			PageUp: "Bild Auf"
+			PageDown: "Bild Ab"
+		}
+		keys: {
+			LeftShift: "Umschalt links"
+			LeftControl: "STRG links"
+			RightShift: "Umschalt rechts"
+			RightControl: "STRG recht"
+			Period: "."
+			Comma: ","
+			Tab: "Tab"
+			RightBracket: "]"
+			LeftBracket: "["
+			Space: "Leertaste"
+			Delete: "Entf"
+			Return: "Enter"
+			KeypadPeriod: "."
+			KeypadDivide: "/"
+			KeypadMultiply: "*"
+			KeypadMinus: "-"
+			KeypadPlus: "+"
+			KeypadEnter: "Enter"
+			KeypadEquals: "="
+			UpArrow: "Hoch"
+			DownArrow: "Runter"
+			RightArrow: "Rechts"
+			LeftArrow: "Links"
+			Insert: "Einfg"
+			Home: "Pos1"
+			End: "Ende"
+			PageUp: "Bild Auf"
+			PageDown: "Bild Ab"
+			Semicolon: ";"
+			Slash: "/"
+			Minus: "-"
+			Quote: "'"
+			Equals: "="
+			None: ""
+		}
+	}
+	difficulty: {
+		start-items: "Zusätzliche Anfangsressourcen"
+		settings: {
+			difficulty-preset: {
+				title: "Voreingestellter Schwierigkeitsgrad"
+				hover: "Vorher festgelegte Schwierigkeitsgrade."
+			}
+			enemy-strength: {
+				title: "Anzahl von Feinden"
+				hover: "Menge der Feinde auf der Karte und bei Angriffen."
+				options: {
+					very-easy: "Einfach"
+					easy: "Gnädig"
+					normal: "Herausfordernd"
+					hard: "Schwer"
+				}
+			}
+			combat-difficulty: {
+				title: "Schwierigkeitsgrad der Kämpfe"
+				hover: "Bestimmt den Schwierigkeitsgrad von Erkundung und Kämpfen mit Tiny."
+				options: {
+					very-easy: "Einfach"
+					easy: "Gnädig"
+					normal: "Herausfordernd"
+					hard: "Schwer"
+				}
+			}
+			economy: {
+				title: "Ökonomie"
+				hover: "Bestimmt, wie schwierig es ist, eine Stadt mit einer stabilen Ökonomie zu bauen und zu erweitern."
+				options: {
+					very-easy: "Einfach"
+					easy: "Gnädig"
+					normal: "Herausfordernd"
+					hard: "Schwer"
+				}
+			}
+			resource-node-count: {
+				title: "Ressourcenknoten"
+				hover: "Anzahl der Ressourcenknoten auf den Karten."
+				options: {
+					easy: "Gnädig"
+					normal: "Herausfordernd"
+					hard: "Schwer"
+				}
+			}
+			threat-time: {
+				title: "Rate des Bedrohungsanstiegs"
+				hover: "Bestimmt, wie lange es dauert, bevor die Bedrohungsstufe steigt.\n\nHöhere Werte verlängern die Dauer zwischen Angriffen und die Bedrohung erhöht sich langsamer."
+				options: {
+					no-raids: "Angriffe deaktiviert"
+					very-easy: "Einfach"
+					easy: "Gnädig"
+					normal: "Herausfordernd"
+					hard: "Schwer"
+				}
+			}
+			mini-raids: {
+				title: "Umherziehende Feinde"
+				hover: "Umherziehende Feinde erscheinen manchmal und greifen deine Stadt ohne Vorwarnung an. Sie erscheinen in viel kleineren Gruppen als gewöhnliche Angriffe und werden nicht stärker, wenn du länger vor Ort bleibst.\n\nFalls dies aktiviert ist, musst du darauf achten, dass deine Stadt immer aus allen Richtungen abgesichert ist."
+				options: {
+					off: "Deaktiviert"
+					normal: "Normal"
+				}
+			}
+			global-difficulty-time: {
+				title: "Überlebensmodus"
+				hover: "Bestimmt, ob die globale Befallsstufe von selbst steigt und wie schnell.\n\nBei Aktivierung verringern sich deine Landeoptionen immer mehr. Schalte sie aus, um mehr verfügbare Landeoptionen zu haben."
+				options: {
+					relaxed: "Aus"
+					beginner: "Anfänger"
+					easy: "Gnädig"
+					normal: "Herausfordernd"
+					hard: "Schwer"
+				}
+			}
+			pause-in-menus: {
+				title: "Aufseher-Werkzeuge"
+				hover: "Aufseher-Werkzeuge ermöglichen freie Kamerabewegungen, Geschwindigkeitskontrollen und aktives Pausieren. Ohne diese Werkzeuge hast du mehr Zeitdruck und du musst Tiny physisch bewegen, um deine Stadt zu bauen oder zu verwalten."
+				options: {
+					normal: "Aktiviert"
+					hard: "Deaktiviert"
+				}
+			}
+			elections: {
+				title: "Stadtratswahlen"
+				hover: "Stadtratswahlen und Fraktionsbeziehungen deaktivieren."
+				options: {
+					off: "Stadtrat deaktiviert."
+					normal: "Stadtrat aktiviert."
+				}
+			}
+			ironman: {
+				title: "Ironman"
+				hover: "Im Ironman-Modus besteht nur ein Spielstand und das Spiel wird bei jedem Verlassen gespeichert. Verlierst du, wird der Spielstand gelöscht."
+				options: {
+					normal: "Aus"
+					hard: "An"
+				}
+			}
+			map-size: {
+				title: "Größe der Landungskarte"
+				hover: "Auf größeren Karten dauert die Erkundung länger und es existieren mehr Feinde.\n\nKleinere Karten können die Spielleistung verbessern."
+				options: {
+					easy: "200 x 200"
+					normal: "220 x 220"
+					hard: "240 x 240"
+				}
+			}
+		}
+		presets: {
+			very-easy: {
+				name: "Entspannt"
+				desc: "Dieser Schwierigkeitsgrad ist am besten für alle geeignet, die eher an Erkundung und dem Bauen interessiert sind.\n\nIn diesem Modus erhöht sich der globale Befall nur dann, wenn du selbst auf einer Karte mit höherem Schwierigkeitsgrad landest.\n\nFeinde greifen deine Stadt immer noch an, ihre Bedrohungsstufe steigt jedoch deutlich langsamer. Wenn du Angriffe vollständig deaktivieren möchtest, kannst du unten die Bedrohungsschwierigkeit anpassen."
+			}
+			easy: {
+				name: "Gnädig"
+				desc: "Ein geringeres Spieltempo, das auch Fehler zulässt, beliebiges Speichern erlaubt und im Allgemeinen schwächere Feinde bietet.\n\nEmpfohlen für Spieler, die mit dem Genre nicht vertraut sind oder jene, die eine entspannte Spielerfahrung suchen, aber trotzdem etwas Zeitdruck und Herausforderung möchten."
+			}
+			beginner: {
+				name: "Noch im Lernprozess"
+				desc: "Der empfohlene Schwierigkeitsgrad für neue Spieler.\n\nErlaubt ein langsameres Spieltempo und bietet einfachere Kämpfe, damit du dich mit dem Spiel vertraut machen kannst.\n\nNach einige Versuchen und sobald du dich in die einzigartige Steuerung und die Systeme eingearbeitet hast, empfehlen wir, auf den Schwierigkeitsgrad „Herausfordernd“ zu wechseln."
+			}
+			no-time-limit: {
+				name: "Lass dir Zeit"
+				desc: "Ähnelt dem Schwierigkeitsgrad „Herausforderndׅ, mit der Ausnahme, dass der globale Befall nie von selbst steigt.\n\nIn diesem Modus ist der Druck deutlich verringert, denn du kannst so viele Karten geringerer Stufen besuchen, wie du möchtest, bevor du dich bereit fühlst, Karten höherer Stufen zu besuchen. Es besteht immer noch Zeitdruck auf jeder Karte, da Angriffe und Bedrohungsstufe normal steigen, jedoch werden diese zurückgesetzt, wenn du auf eine neue Karte des gleichen Schwierigkeitsgrads fliegst."
+			}
+			economy-focus: {
+				name: "Ökonomische Herausforderung"
+				desc: "Für alle, die größere Herausforderung in den Bau- und Verwaltungsaspekten des Spiels suchen.\n\nDer Schwierigkeitsgrad der Kämpfe ähnelt dem Schwierigkeitsgrad „Noch im Lernprozess“, jedoch sind Ressourcen schwerer zu finden und Baukosten sind erhöht."
+			}
+			challenging: {
+				name: "Herausfordernd"
+				desc: "So sollte das Spiel gespielt werden.\n\nEmpfohlen für Spieler, die bereits mit den einzigartigen Systemen und der Steuerung vertraut sind und sich einer echter Herausforderung stellen wollen."
+			}
+			hard: {
+				name: "Schwer"
+				desc: "Für alle, die eine noch größere Herausforderung suchen.\n\nMehr Feinde in allen Situationen und ein beschleunigter Anstieg der Bedrohungsstufe, erhöhen den Zeitdruck deutlich."
+			}
+			very-hard: {
+				name: "Traumplage"
+				desc: "Der höchste Schwierigkeitsgrad.\n\nTiny ist schwächer, du findest weniger Ressourcen, zahlst mehr für den Bau und der globale Befall steigt schneller, als auf dem Schwierigkeitsgrad „Schwer“.\n\nSpielen auf eigene Gefahr."
+			}
+			custom: {
+				name: "Benutzerdefiniert"
+				desc: ""
+			}
+		}
+	}
+	opening-story: {
+		paragraph1: {
+			text1: "Twyst."
+			text2: "Einst eine Welt voller Wunder und Träume."
+			text3: "Jetzt ist es ein Ort voller Albträume."
+		}
+		paragraph2: {
+			text1: "Mit der Entdeckung der realitätsverändernden Technologie, die als „TraumTek“ bekannt ist, wurde Twyst zur Heimat vieler großer und wohlhabender Reiche."
+			text2: "Das sagen zumindest die Legenden."
+		}
+		paragraph3: {
+			text1: "Dann kamen die Traumplagen."
+			text2: "Niemand weiß, woher sie kamen. Kreaturen, die direkt aus einem Albtraum zu entspringen scheinen."
+			text3: "Sie tauchten überall auf, aber die Welt war darauf nicht vorbereitet."
+			text4: "Die Twystaner bekämpften sie mutig, doch die schrecklichen Traumplagen schienen kein Ende zu nehmen. Große Städte fielen, Reiche wurden dezimiert."
+		}
+		paragraph4: {
+			text1: "Jahrhunderte später wurde Twyst selbst zu einem dunklen, verzerrten Planeten."
+			text2: "Die wenigen verbliebenen Twystaner überleben nun als Nomadenstämme, die nie Wurzeln schlagen und nie zu lange an einem Ort bleiben. Sie sind stets in Bewegung und auf der Flucht vor den Traumplagen."
+			text3: "Hier beginnt deine Geschichte."
+		}
+	}
+	dialogue-characters: {
+		scientist: {
+			name: "Leitende Wissenschaftlerin Marie"
+		}
+		advisor: {
+			name: "Berater Han"
+		}
+		archeologist: {
+			name: "Archäologe Wallace"
+		}
+		narrator: {
+			name: ""
+		}
+	}
+	missions: {
+		dialogue-goals-format: "{0}\n\n<color=#99EEFF>Aufgabe\n{1}</color>"
+		dialogue-goals-line: "• {0}"
+		story-start: {
+			name: "Eine neue Hoffnung"
+			texts: {
+				desc: "Die Hoffnung deines Stamms wird durch die Entdeckung einer alten, fliegenden Stadt neu entfacht."
+			}
+			dialogue: {
+				before1: "Aufseher, das ist unglaublich! Ein wahres Wunder der Antike."
+				before2: "Man nannte dies eine „Nomadenstadt“. Sie kann fliegen! Wir wissen nicht, warum sie aufgegeben wurde. Es scheint noch alles zu funktionieren."
+				before3: "Aufseher, die Stadt hat einen Avatar. Das ist ein mechanischer Riese, den sie „Tiny“ nannten. Muss eine Art Witz der Antike sein."
+				before4: "Er ist bewaffnet. Damit können wir unsere Umgebung erkunden, Ressourcen finden und die Traumplagen bekämpfen."
+				before5: "Das Blatt könnte sich zu unseren Gunsten wenden. Wir können hier ein echtes Zuhause bauen, eines, das uns überall hinbringt, wenn wir zur Flucht gezwungen sind."
+				before6: "Du betrittst die Kammer des Aufsehers im Stadtkern. Von hier aus kannst du Tiny und die gesamte Stadt steuern. Du spürst, dass das lediglich der Beginn deiner Reise ist. Große Herausforderungen stehen dir bevor, aber auch eine neue Hoffnung. Du beginnst, dich mit der Steuerung von Tiny vertraut zu machen und träumst davon, eine riesige Stadt zu errichten, wie es damals üblich war."
+			}
+			objectives: {
+				complete-tutorial: "Schließe die Einleitung ab"
+				city-level1: "Erreiche eine Bevölkerung von {1}"
+			}
+		}
+		story-buildlab: {
+			name: "Forschung"
+			texts: {
+				desc: "Der Stamm möchte forschen, um die Stadt zu verbessern."
+			}
+			dialogue: {
+				before1: "Wir haben einen guten Start hingelegt, Aufseher. Ich kann mich nicht daran erinnern, unsere Leute jemals so aufgeregt gesehen zu haben."
+				before2: "Wir können hier etwas wirklich Großartiges aufbauen, aber wir müssen unsere eigene Forschung betreiben, wenn wir die Stadt ausbauen und verteidigen wollen."
+				before3: "Die Infrastruktur der Stadt befindet sich in recht gutem Zustand, aber sie ist alt. Antik sogar. Vielleicht könnten wir eine Werkstatt erforschen, die Teile zur Aufrüstung dieser Infrastruktur herstellen kann."
+			}
+			objectives: {
+				city-level2: "Erreiche eine Bevölkerung von {1}"
+				buildlab: "Baue: {0}"
+				unlockworkshop: "Erforsche {0}"
+			}
+		}
+		story-upgrade-core: {
+			name: "Stadtkern"
+			texts: {
+				desc: "Das Verbessern des Stadtkerns kann deinen Bewohnern beim Überleben helfen."
+			}
+			dialogue: {
+				before1: "Aufseher, du kannst jetzt eine Werkstatt bauen, um Teile zu produzieren, mit denen wir die Infrastruktur der Stadt verbessern können."
+				before2: "Unsere Wissenschaftler haben auch ein paar Verbesserungen für den Stadtkern entworfen. Verbessern wir als Nächstes den Kern. Damit wird seine Flugfähigkeit und Ressourcenproduktion verbessert."
+				before3: "Aufseher, denk daran, dass die Traumplagen immer aggressiver werden, je länger wir an einem Ort verweilen."
+				before4: "Wenn es zu gefährlich wird, oder du Ressourcen brauchst, die es in diesem Gebiet nicht gibt, kannst du die Stadt an einen anderen Ort fliegen."
+			}
+			objectives: {
+				upgrade-core2: "Verbesserung: {3}"
+			}
+		}
+		story-build-expeditioncenter: {
+			name: "Expeditionszentrum"
+			texts: {
+				desc: "Du stellst Nachforschungen zu den Nomadenstädten und ihren ursprünglichen Bewohnern an."
+			}
+			dialogue: {
+				before1: "Aufseher, ich habe etwas Interessantes in den Stadtarchiven entdeckt. Ich habe Hinweise auf eine Forschungseinrichtung irgendwo in der Wüste gefunden, die an etwas namens „Projekt Nomade“ geforscht hat."
+				before2: "Ich glaube, dass diese Einrichtung der Ursprung der Nomadenstädte ist. Wenn wir sie untersuchen, finden wir vielleicht heraus, was mit den alten Stadtbewohnern passiert ist und ob es noch andere solcher Städte gibt."
+				before3: "Ich suche noch immer nach dem genauen Standort dieser Einrichtung. Erforsche und baue in der Zwischenzeit bitte ein Expeditionszentrum, von dem aus wir Expeditionen organisieren und aussenden können."
+				before4: "Aufseher, denk daran, dass die Traumplagen immer aggressiver werden, je länger wir an einem Ort verweilen. Wenn es zu gefährlich wird, oder du Ressourcen brauchst, die es in diesem Gebiet nicht gibt, kannst du die Stadt an einen anderen Ort fliegen."
+				before5: "Manche der Ressourcen, die wir für das Expeditionszentrum benötigen, sind nur in Wüstengebieten zu finden."
+			}
+			objectives: {
+				build-expeditioncenter: "Baue: {0}"
+			}
+		}
+		story-cityorigin-fly: {
+			name: "Stadtursprünge"
+			texts: {
+				desc: "Du stellst Nachforschungen zu den Nomadenstädten und ihren ursprünglichen Bewohnern an."
+			}
+			dialogue: {
+				before1: "Aufseher, wir glauben, die Nomaden-Forschungseinrichtung gefunden zu haben. Sie befindet sich im nahegelegenen Wüstengebiet mit einer Gefahrenwertung von 2 Totenköpfen."
+				before2: "Orte mit höheren Gefahrenwertungen beherbergen stärkere Traumplagen. Stelle bitte sicher, dass Tiny gut ausgerüstet ist und die Stadt gut verteidigt wird, bevor du in gefährlichere Gebiete fliegst."
+			}
+			objectives: {
+				reach-desert2: "Fliege zu einer {0}-Region mit{1} Totenköpfen oder mehr."
+			}
+		}
+		story-cityorigin-expedition: {
+			name: "Expedition: Stadtursprünge"
+			expedition-name: "Nomaden-Forschungseinrichtung"
+			texts: {
+				desc: "Du stellst Nachforschungen zu den Nomadenstädten und ihren ursprünglichen Bewohnern an."
+			}
+			dialogue: {
+				before1: "Aufseher, wir haben sie gefunden, die Nomaden-Forschungseinrichtung. Sie ist nicht weit entfernt, du kannst also eine Expedition für die Untersuchung dieser Ruinen zusammenstellen."
+			}
+			objectives: {
+				perform-expedition: "Schließe folgende Expedition ab: {0}"
+			}
+		}
+		story-dreamplagues-fly: {
+			name: "Traumplagen"
+			texts: {
+				desc: "Du musst mehr über die Traumplagen und die Wirkung der Städte auf sie erfahren."
+			}
+			dialogue: {
+				before1: "Aufseher, wir haben etwas gefunden. Es ist … verstörend."
+				before2: "Das Projekt Nomade wurde aufgegeben. Diese Stadt ist die einzige, die jemals gebaut wurde, und sie wurde nie bewohnt."
+				before3: "Wie du bereits weißt, basiert TraumTek auf der Verbindung zwischen unserer Realität und dem Traumreich."
+				before4: "Wenn wir schlafen, wandert unser „Bewusstsein“ oder unsere „Seele“ ins Traumreich, um sich dort wieder aufzuladen. Dort existieren die Gesetze der Natur nicht. In unseren Träumen ist alles möglich."
+				before5: "Die Traummotoren zapfen das Traumreich an und entziehen ihm Flux, die Essenz des Reichs. Das Flux wird dann in TraumTek-Geräten verwendet, um die Realität unserer physischen Welt zu verzerren."
+				before6: "Unseren Nachforschungen zu folge bauten die alten Völker die Nomadenstädte, um den Traumplagen zu entkommen. Aber sie haben einen Nebeneffekt festgestellt."
+				before7: "Aus irgendeinem Grund haben die Städte die Lage nur verschlimmert. Um sie herum sind neue Albtraumrisse erschienen und die Traumplagen wurden schon fast magisch von den Städten angezogen."
+				before8: "Außerdem glaubten sie, dass die dadurch entstandenen Schäden dauerhaft waren. Sie haben das Projekt aufgegeben. Es war zu riskant."
+				before9: "Aufseher, wir können die Stadt nicht aufgeben. Noch nicht. Vielleicht haben sich die alten Völker geirrt. Vielleicht hat sich die Lage über die Jahrhunderte geändert. Unser Volk kann nicht zu seinem vorherigen Leben zurückkehren. Das würden wir nicht überleben."
+				before10: "Lass uns bitte noch weitere Nachforschungen anstellen, bevor du eine Entscheidung triffst. Wir haben Hinweise auf eine weitere Forschungseinrichtung gefunden, eine, die die Traumplagen untersucht hat."
+				before11: "Lass mich danach suchen, vielleicht finde ich dort Antworten."
+			}
+			objectives: {
+				reach-tier3: "Baue deine Stadt weiter aus, bis die Forschungseinrichtung gefunden wurde."
+			}
+		}
+		story-dreamplagues-toblue: {
+			name: "Traumplagensuche"
+			expedition-name: "Nomaden-Forschungseinrichtung"
+			texts: {
+				desc: "Du musst mehr über die Traumplagen und die Wirkung der Städte auf sie erfahren."
+			}
+			dialogue: {
+				before1: "Aufseher, das Traumplagen-Forschungszentrum soll sich irgendwo in den Traumberührten Feldern befinden. Bring uns dorthin, wenn du das schaffst."
+			}
+			objectives: {
+				reach-blue: "Fliege zur Region: {0}"
+			}
+		}
+		story-dreamplagues-expedition: {
+			name: "Expedition: Traumplagen"
+			expedition-name: "Traumplagen-Forschungszentrum"
+			texts: {
+				desc: "Du musst mehr über die Traumplagen und die Wirkung der Städte auf sie erfahren."
+			}
+			dialogue: {
+				before1: "Wir haben die Ruine des Traumplagen-Forschungszentrums gefunden. Sie ist in der Nähe. Organisieren wir eine Expedition, um sie zu erkunden."
+			}
+			objectives: {
+				perform-expedition: "Schließe folgende Expedition ab: {0}"
+			}
+		}
+		story-repair-informationstorage: {
+			name: "Expedition: Traumplagen"
+			texts: {
+				desc: "Ein Datenträger könnte mehr Informationen zu den Traumplagen enthalten."
+			}
+			dialogue: {
+				before1: "Unsere Expedition ist zurückgekehrt, Aufseher. Das Forschungszentrum befand sich in viel schlechterem Zustand als erwartet, da war nicht mehr viel zu finden."
+				before2: "Es wurde jedoch ein Gerät gefunden, dass anscheinend Informationen zu der Forschung dort enthält. Wir müssen es aber zuerst reparieren, um das mit Sicherheit sagen zu können."
+			}
+			objectives: {
+				repair-storage: "Stelle {0} her"
+			}
+		}
+		story-drepattack: {
+			name: "Gestrandet"
+			texts: {
+				desc: "Der Datenträger zieht die Traumplagen an und blockiert die Flugfähigkeit der Stadt."
+			}
+			dialogue: {
+				before1: "Aufseher, wir haben das Gerät repariert. Es enthält wirklich Informationen, aber stört seltsamerweise auch unsere TraumTek."
+				before2: "Aufseher, wir haben einen Notfall! Unsere Späher haben eine große Gruppe Traumplagen auf dem Weg zur Stadt gemeldet und das Gerät stört unsere Motoren. Die Stadt fliegt nicht."
+				before3: "Kümmere dich um die Verteidigung der Stadt, Aufseher. Ich werde das Gerät abschalten."
+			}
+			objectives: {
+				defeat-attack: "Verteidige deine Stadt"
+			}
+		}
+		story-dreamguard-fly: {
+			name: "Traumwache"
+			texts: {
+				desc: "Du erfährst mehr über eine alte Organisation namens Traumwache."
+			}
+			dialogue: {
+				before1: "Es ist vorbei, aber wir mussten das Gerät zerstören. Vorher konnten wir aber noch ein paar Informationen entnehmen."
+				before2: "Wir haben Informationen über eine dunkle Zeit für die alten Völker gefunden. Sie nannten sie „Die Albtraumjahre“. Es war eine Zeit, als die alten Völker schreckliche TraumTek-Waffen nutzten, um untereinander Krieg zu führen."
+				before3: "Die Kriege endeten damit, das Twyst beinahe zerstört wurde. Dem zufolge, was wir erfahren konnten, endete es mit dem Sieg einer Organisation, die „Traumwache“ genannt wurde."
+				before4: "Sie waren skrupellos und herrschten über ganz Twyst, nachdem sie die Kriege gewonnen hatten."
+				before5: "Über die Ursprünge der Traumplagen gibt es keine Informationen. Vielleicht waren sie eine Art Waffe, die von der Traumwache eingesetzt wurde?"
+				before6: "Vielleicht können wir mehr herausfinden, wenn wir die Überreste einer ihrer Basen finden. Wir wissen von einer im Aschfall-Gebirge."
+				before7: "Die Region ist heiß. Zu heiß für unsere Stadt ohne den entsprechenden Schutz."
+				before8: "Wir können eine Hitzeschild-Erweiterung im Stadtkern installieren, die die ganze Stadt beschützt, aber wir müssen sie zuerst erforschen."
+			}
+			objectives: {
+				build-heatshield: "Baue eine {3} in deiner {0}"
+				reach-lava: "Fliege zur Region: {0}"
+			}
+		}
+		story-dreamguard-expedition: {
+			name: "Expedition: Traumwache"
+			expedition-name: "Verlassene Traumwachenbasis"
+			texts: {
+				desc: "Du erfährst mehr über eine alte Organisation namens Traumwache."
+			}
+			dialogue: {
+				before1: "Die Traumwachenbasis ist in der Nähe. Schicken wir eine Expedition los, Aufseher."
+			}
+			objectives: {
+				perform-expedition: "Schließe folgende Expedition ab: {0}"
+			}
+		}
+		story-lady-doom-fly: {
+			name: "Gefährliche Experimente"
+			texts: {
+				desc: "Ein ungewöhnliches Experiment hat vielleicht etwas mit dem Auftauchen der Traumplagen zu tun."
+			}
+			dialogue: {
+				before1: "Aufseher, wir haben so viel über die Traumwache erfahren. Wir lagen völlig falsch. Sie waren überhaupt keine Eroberungstruppe."
+				before2: "Als Twyst beinahe zerstört war, beschlossen alle Nationen gemeinsam, den Krieg zu beenden. Sie unterzeichneten das Traumwachenabkommen und einigten sich darauf, den Einsatz und die Erforschung von TraumTek zu beschränken. Besonders TraumTek-Waffen wurden strengstens verboten."
+				before3: "Die Traumwache wurde gegründet, um die Einhaltung des Abkommens zu überwachen. Sie waren in der Tat skrupellos in der Überwachung von der Verwendung von TraumTek, aber unter ihrem friedewarenden Blick gedieh Twyst."
+				before4: "Es wurden große Stadtstaaten gegründet, in denen die Bewohner glücklich und frei leben konnten. Alles Militär, außer der Traumwache selbst, wurde aufgelöst und große Ressourcenmengen wurden in das Wohlbefinden der Leute investiert."
+				before5: "Wir können von solch friedlichen und lukrativen Zeiten nur träumen."
+				before6: "Zu dieser Zeit existierten die Traumplagen noch nicht. Was auch immer sie sind, sie wurden nicht während der Kriege geschaffen."
+				before7: "Aber wir haben eine andere Spur. Wie gut das Leben zu dieser Zeit auch war, es gab trotzdem Kriminalität. Gier und Machthunger fassten noch immer in manchen Menschen Fuß."
+				before8: "Einer dieser Verbrecher wird erwähnt. Eine verrückte Wissenschaftlerin, bekannt als „Die Dame des Untergangs“. Sie führte illegale TraumTek-Experimente durch und schaffte es, der Traumwache zu entgehen."
+				before9: "Die genaue Art ihrer Experimente ist unklar. Doch wir vermuten, dass es etwas mit den Traumplagen zu tun hat."
+				before10: "Wir haben den Standort einer weiteren Einrichtung, dort sollte es weitere Informationen über ihre Experimente geben."
+			}
+			objectives: {
+				reach-lady-doom: "Fliege zu einer anderen Region mit {1} Totenköpfen oder mehr."
+			}
+		}
+		story-lady-doom-expedition: {
+			name: "Expedition: Gefährliche Experimente"
+			expedition-name: "Ruinen der Traumwachenbasis"
+			texts: {
+				desc: "Ein ungewöhnliches Experiment hat vielleicht etwas mit dem Auftauchen der Traumplagen zu tun."
+			}
+			dialogue: {
+				before1: "Wir sind da, Aufseher. Bereiten wir die Expedition vor und erfahren mehr über die Experimente der Dame des Untergangs."
+			}
+			objectives: {
+				perform-expedition: "Schließe folgende Expedition ab: {0}"
+			}
+		}
+		story-researchshield: {
+			name: "Experimentelle Substanzen"
+			texts: {
+				desc: "Du suchst nach einer langfristigen Lösung, um dich vor den Traumplagen zu schützen."
+			}
+			dialogue: {
+				before1: "Aufseher, wir konnten mehr über die Dame des Untergangs und ihre Experimente in Erfahrung bringen. Sie war machthungrig."
+				before2: "Sie glaubte, es wäre nur die Spitze des Eisbergs, das Traumreich anzuzapfen und Flux zu verwenden, um die Realität zu verändern. Wenn sie in ihrer physischen Form ins Traumreich reisen könnte, würde sie allmächtig werden. Die Naturgesetze würden nicht länger gelten und sie könnte alles tun, nur weil sie es wollte."
+				before3: "Sie war besessen. Sie experimentierte vor den Augen des Traumwächters, und schließlich hatte sie Erfolg. Außerdem lag sie ganz furchtbar falsch."
+				before4: "Das Traumreich ist ein Ort der puren Energie. Von dem, was wir herausgefunden haben, wurde ihr Körper verdreht und verzerrt und sie wurde von der bloßen Kraft dieses Reichs zerquetscht."
+				before5: "Geschichten sagen, ihr Bewusstsein sei noch immer im Traumreich gefangen, in ewigem Leid, nicht in der Lage, in eine Realität zurückzukehren, in der ihr Körper nicht länger existiert."
+				before6: "Aufseher, das ist noch nicht alles. Das Traumreich … wir dachten, es sei unbewohnt. Das ist es nicht. Die Daten ihrer Experimente zeigen, dass sie etwas geweckt hat, als sie ihren physischen Körper ins Traumreich transferiert hat."
+				before7: "Irgendetwas lebt dort. Und als die Dame des Untergangs ihr Experiment durchführte, wurde dieses Etwas auf uns aufmerksam. Auf unsere Realität."
+				before8: "Sie haben keine physischen Körper, sie können in unserer Welt nicht existieren. Aber die Dame des Untergangs erschuf einen Bruch, einen Riss zwischen unseren Reichen. Und dort hindurch können die Wesen unsere Welt beeinflussen. Sie können von Lebewesen und sogar unbelebten Gegenständen Besitz ergreifen."
+				before9: "Das sind die Traumplagen. Sie dürsten danach, in dieser physischen Welt zu sein, doch können sie nur von physischen Objekten Besitz ergreifen. Und sie sind hungrig, immer hungrig, nach unseren lebenden Körpern."
+				before10: "Sie tauchten überall auf Twyst auf. Zuerst in kleiner Zahl, aber für jedes Nest, das die Traumwache zerstörte, für jeden von ihnen geschlossenen Riss, erschienen mehrere neue."
+				before11: "Die Traumwache war überfordert. Die Stadtstaaten fielen. Twyst selbst veränderte sich, verzerrte sich und wurde zu dem dunklen Ort, den wir heute kennen."
+				before12: "Aufseher, ich bin nicht sicher, was wir tun sollen. Die Stadt, sie schadet der Welt. Solch eine große Menge an TraumTek an einem Ort. Der Schleier zwischen den Reichen wird dadurch geschwächt und der Riss erweitert. Doch ist es auch unsere einzige Hoffnung zu überleben."
+				before13: "Die Traumwache experimentierte mit einer anderen Substanz. Man könnte es eine Anti-Traum-Substanz nennen, eine Art Gegenkraft zum Flux des Traumreichs. Sie hofften, diese Substanz würde im Kampf gegen die Traumplagen helfen."
+				before14: "Versuchen wir, mehr darüber herauszufinden."
+			}
+			objectives: {
+				perform-research: "Erforsche: {0}"
+			}
+		}
+		story-buildshield: {
+			name: "Der Preis des Überlebens"
+			texts: {
+				desc: "Du suchst nach einer langfristigen Lösung, um dich vor den Traumplagen zu schützen."
+			}
+			dialogue: {
+				before1: "Aufseher, wir haben es geschafft. Wir haben einen Weg gefunden, einen steten Fluss der Anti-Traum-Substanz herzustellen."
+				before2: "Wir können eine Art Negationsschild bauen. Die alten Völker konnten ihn nicht bauen, da die Traumplagen ihre Forschung vernichteten, sobald sie mit dem Anti-Traum experimentierten."
+				before3: "Aber wir haben die Stadt, wir können in Bewegung bleiben. Wir können beenden, was sie angefangen haben, aber es wird reichlich Ressourcen und Materialien erfordern, die nicht leicht zu finden sind."
+				before4: "Es gibt einen Vorbehalt, Aufseher. Der Schild kann uns vor den Traumplagen beschützen. Sie können die Realität darin nicht beeinflussen und die Dinge, von denen sie Besitz ergriffen haben, werden zu leblosen Hüllen."
+				before5: "Aber unsere TraumTek funktioniert darin auch nicht. Der Flux wird inaktiv. Wir überleben, werden aber hier feststecken."
+				before6: "Es ist deine Entscheidung, Aufseher. Wir können für immer fliegen und gegen die wachsende Anzahl an Traumplagen kämpfen, oder du baust und aktivierst den Negationsschild."
+				before7: "Wenn du dich entscheidest, den Schild zu bauen, denk daran, dass es eine ganze weile dauern wird, ihn vollständig aufzuladen. Währenddessen werden viele Traumplagen angelockt werden."
+				before8: "Wir entkommen dem Angriff an ein weniger gefährliches Gebiet, aber der Schild ist sehr schwer und die Motoren brauchen auch eine Weile, um abzukühlen, bevor wir wieder fliegen können. Unsere Verteidigung wird auf die Probe gestellt."
+			}
+			objectives: {
+				build-shield: "Baue: {0}"
+				activate-shield: "Überlebe, bis er vollständig aufgeladen ist."
+			}
+		}
+	}
+	events: {
+		mechdestroyed: {
+			title: "Rettungsteleporter"
+			text: "Tiny hat kritischen Systemschaden erlitten, der Rettungsrückrufteleporter wurde aktiviert, was dich jedoch kosten wird.\n\n* <highlight>{0} Flux</highlight> wurde verbraucht.\n* Der feindliche <highlight>Bedrohungszähler</highlight> ist deutlich vorangeschritten.\n\nPasse bitte besser auf."
+		}
+		tutorial-reward: {
+			title: "Aufgabe abgeschlossen"
+			text: "Gut gemacht. Du erhältst folgende Belohnungen:"
+		}
+	}
+	modding: {
+		license-required: "Du musst die Lizenzvereinbarung von Steam Workshop akzeptieren, bevor du die Mod öffentlich teilen kannst."
+		edit-title: "Mod-Metadaten"
+		enter-patch-notes: "Neueste Aktualisierungsdetails angeben"
+		untitled: "Ohne Titel"
+		creator: "Erstellername"
+		uid: "UID"
+		visibility: "Sichtbarkeit"
+		tags: "Tags"
+		uploading: "Wird hochgeladen …"
+		upload-complete: "Gegenstand auf Steam aktualisiert."
+		saved: "Alle Änderungen gespeichert."
+		steam-not-initialized: "Steam nicht initialisiert."
+		io-error: "IO-Fehler: {0}"
+		error: "Fehler: {0} – {1}"
+		missing-preview: "Fehlendes Vorschaubild."
+		wrong-title-size: "Der Mod-Titel sollte zwischen 5 und 128 Zeichen lang sein."
+		wrong-desc-size: "Die Beschreibung sollte zwischen 30 und 6.000 Zeichen lang sein."
+		wrong-tag-size: "Tags müssen zwischen 4 und 32 Zeichen lang sein."
+		wrong-creator-size: "Der Name des Erstellers muss zwischen 4 und 32 Zeichen lang sein."
+		missing-tags: "Bitte gib mindestens ein Tag ein."
+		visibility-option: {
+			Public: "Öffentlich"
+			Friends: "Nur Freunde"
+			Private: "Privat"
+		}
+	}
+	roadmap: {
+		active-pause: "Aktiv pausieren"
+		alter-recipes: "Sammelbare Entwürfe"
+	}
+}

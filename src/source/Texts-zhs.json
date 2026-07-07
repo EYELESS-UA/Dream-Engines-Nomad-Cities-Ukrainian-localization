@@ -1,0 +1,3700 @@
+{
+	general: {
+		lang-name: "简体中文"
+		costs: "成本"
+		produced: "已生产"
+		globalstorage: "存储容量"
+		effects: "效果"
+		edit: "编辑"
+		inputoutput: "投入 / 产出"
+		research: "科技"
+		other: "其他"
+		journal: "日志"
+		selectitem: "选择物品"
+		difficulty: "难度"
+		none: "无"
+		owned: "已拥有"
+		missing: "未拥有"
+		upgrade: "升级"
+		milestones: "里程碑"
+		continue: "继续"
+		autosaving: "自动保存中…"
+		ok: "确定"
+		resources: "资源"
+		max: "最大值"
+		unlock-bonuses: "额外奖励"
+		crafting-recipe: "工艺配方"
+		production-recipe: "生产配方"
+		produced-at: "产自：{0}"
+		installed-at: "安装至：{0}"
+		is-single-module: "每处建筑只能安装一个。"
+		construction-blueprint: "建筑图纸"
+		building-addon: "扩展模组建造图纸"
+		archeology-unlock: "考古计划蓝图"
+		upgrade-to: "升级至：{0}"
+		select-option-title: "选择选项"
+		not-available-ironman: "辅助模式中不可用"
+		ironman: "辅助模式"
+		rewards: "奖励"
+		unlock-prod: "允许生产：{0}"
+		requires-addon: "所需的建造等级/扩展模组："
+		prereqs: "必备条件"
+		blocked: "已屏蔽"
+		lc-issue: "反馈翻译问题"
+		disabled-in-demo: "演示中已禁用"
+		start: "开始"
+		next: "下一步"
+		add-item: "添加物品"
+		categories: "类别："
+		paused: "已暂停"
+		inventory: "库存"
+		per-cycle: "{0}/回合"
+		toggle-active: "切换激活"
+		used-in: "用途："
+		obtained-through: "获取方式："
+		appears-in-biome: "地区中会出现："
+		see-gamepedia: "在梦幻档案中查看关于物品的更多信息（默认：H键）。"
+		save: "保存"
+		upload: "上传"
+		cancel: "取消"
+		description: "描述"
+		title: "标题"
+		disabled: "已禁用"
+		unlocks: "解锁"
+		free: "免费\n×{0}"
+		help: "帮助"
+		show-tutorial: "显示教学"
+		no-refund-demolish: "不能退款"
+		blueprint-format: "{0}蓝图"
+		passive-income-format: "被动{0}"
+		global-storage-format: "{0}储存"
+		default: "默认"
+		morebysuncrash: "Suncrash制作的更多游戏"
+	}
+	title-messages: {
+		alpha-link: "<u>发布重大更新时通知我</u>"
+	}
+	winlose: {
+		win-title: "无效化屏障已激活"
+		win-subtitle: "胜利"
+		win-text: "无效化屏障已完全充能。一种奇怪的感觉将您包围，突然间，您的科技充满了勃勃的生机。\n\n无效化屏障已激活。在您的城市周围几英里范围内没有任何梦幻科技可以发挥作用。市民只能用原始的工具和简单的特斯拉技术。\n\n现实不再扭曲，城市不用再流浪。但最重要的是，不再会有幻魇想要吞噬您的子民。"
+		lose-title: "城市核心被摧毁"
+		lose-subtitle: "游戏结束"
+	}
+	widgets: {
+		production: {
+			hover-title: "生产"
+			hover-text: "产量按回合计算。\n\n点击下拉菜单按钮可以选择不同的生产配方。"
+			change-hover: "通过研究科技、城市升级和探索，解锁新的生产配方。"
+			remaining-res: "剩余资源：{0}"
+			input-title: "投入"
+			output-title: "产出"
+			buildings: "产自"
+			percycle-title: "生产进度条"
+			percycle-hover: "这一进度条显示了生产/消耗进度。当进度条填满时，将产出一个单位。当进度条清零时，即代表一个单位的消耗。\n\n其中显示的数字代表生产/消耗的速率——每回合（游戏时间单位）产出的数量。资源始终是逐个生产/消耗，而非成批。"
+			select-recipe-title: "选择配方"
+			click-to-change: "点击更改配方"
+			assigned-count: "{0}/{1}（最大{2}）"
+			assigned-hover: "分配至此处的工人数量将影响该建筑的生产速度。"
+		}
+		launch: {
+			hover-title: "起飞"
+			hover-text: "启动城市发射程序。引擎充能需要一段时间，做好准备，保卫您的城市直到起飞。\n\n城市外部的所有建筑都将被舍弃。"
+			progress-bar-hover-text: "起飞充能中"
+			required-mats: "起飞消耗："
+			weight: "运载力：{0}"
+			fuel-cost: "燃料消耗：{0}"
+			fuel-hover: "起飞所需：{0}\n可用燃料：{1}\n最大燃料储量：{2}"
+			weight-title: "重量和运载力"
+			weight-hover: "您的运载力决定了起飞时所能承受的最大城市重量。建造或升级发动机来增加运载力，或拆除建筑物以减少您的城市重量。"
+		}
+		storage: {
+			hover-title: "仓库"
+			hover-text: "仓库中的物品可以用于制造、建造、升级和其他消耗用途。"
+			allow-title: "已输入物品"
+			allow-hover: "设定输入到此处投放点的原料。"
+			add-import-hover: "添加资源输入"
+		}
+		resources: {
+			hover-title: "资源矿点"
+			hover-text: "资源矿点中的原料需要由建在其上的收割机来进行收集。"
+			build-title: "建造资源收集建筑"
+			missing-research: "此资源未解锁相应的收集建筑。"
+		}
+		shieldwin: {
+			hover-title: "屏障充能中"
+			hover-text: "无效化屏障充能指示器。当它完全充能后，您就会获得游戏的胜利。"
+			progress: "充能：{0}%"
+		}
+		upkeep: {
+			hover-title: "维修/维护"
+			hover-text: "维持建筑运转所需的材料。\n\n非全局资源必须直接提供给建筑。"
+			progress-text: "距离下一次维护所剩的时间。"
+		}
+		upgrades: {
+			title: "扩展模组"
+			buildings: "所需"
+			level: "等级{0}"
+			noupgrades: "通过研究科技解锁扩展模组。"
+			cancels-desc: "该扩展模组会屏蔽其他扩展模组：\n{0}"
+		}
+		modules: {
+			title: "升级模组"
+		}
+		research: {
+			title: "科技"
+			speed: "科技速度：{0}/回合"
+			selectsubject: "选择科技"
+		}
+		attacker: {
+			title: "炮塔状态"
+		}
+		globalstorage: {
+			title: "仓库容量"
+			hover: "该建筑物可增加下方列出资源的最大容量。"
+			format: "最大值 {0}：+{1}"
+		}
+		general: {
+			disable-toggle: "开启/关闭"
+			weight: "建筑重量"
+		}
+		ruins-store: {
+			title: "废墟"
+			text: "这些古代废墟中有一些机器仍在部分运转。如果有合适的材料，也许可以生产出一些东西，但是只能在它失效之前激活它一到两次。\n\n或者也可以拆除整个建筑，以回收一些资源。"
+			open-button: "制造"
+			scrap-button: "拆除"
+			scrap-disabled-hover: "这里已经没有更多资源了。"
+		}
+		splitter: {
+			forward: "快进"
+			right: "右"
+			left: "左"
+			catch-all: "所有未分配至其他地方的物品"
+		}
+		expedition: {
+			title: "远征"
+			hover-text: ""
+			choose-expedition: "选择远征"
+			choose-rewards: "选择奖励"
+			stage-prep: "准备进度：{0}"
+			stage-ongoing: "远征进度：{0}"
+			stage-complete: "远征完成"
+			stage-not-selected: "未选择远征"
+			selected-expedition: "已选择远征：{0}"
+			show-expedition-hover: "显示远征信息"
+		}
+		player-debris: {
+			title: "重建{0}"
+		}
+		requires-activation: {
+			title: "触发建筑"
+			upfront-costs: "所需资源："
+			activate-button: "触发"
+			needs-power: "连接供电网络"
+			time-to-activate: "剩余：{0}"
+		}
+		archeologist: {
+			title: "考古学"
+			hover-text: ""
+			choose-project: "选择计划"
+			stop-project: "暂停计划"
+			selected-project: "已选计划：{0}"
+			select-unlock: "解锁考古计划"
+		}
+		passive-income: {
+			title: "被动收入"
+		}
+	}
+	character: {
+		slot-type: {
+			mech-upgrade: "模组-小迪"
+			city-upgrade: "模组-城市"
+			harvester-module: "收割机"
+			production-module: "生产建筑"
+			any-building-module: "任意建筑"
+			farm-module: "农场"
+			turret-module: "防御建筑"
+		}
+	}
+	map-traits: {
+		purple-biome: {
+			name: "蛮荒之地"
+		}
+		blue-biome: {
+			name: "梦触之野"
+		}
+		desert-biome: {
+			name: "沙漠"
+		}
+		lava-biome: {
+			name: "尘烬山脉"
+		}
+		green-biome: {
+			name: "有毒荒原"
+		}
+		ruins-ind: {
+			name: "工业废墟"
+			desc: "您通常可以在工业废墟中找到图纸和生产配方。"
+		}
+		ruins-tech: {
+			name: "科技废墟"
+			desc: "科技废墟更有可能存在先进的科技物品。"
+		}
+		ruins-lab: {
+			name: "化学废墟"
+			desc: "化学废墟更有可能存在有价值的化学或实验物品。"
+		}
+		ruins-fuel: {
+			name: "燃料缓存废墟"
+			desc: "您可以从这些废墟中为您的城市萃取燃料。"
+		}
+		ruins-skill-resetter: {
+			name: "基础设施清理废墟"
+			desc: "您可以使用这些废墟来重置和重新分配基础设施的升级。"
+		}
+		ruins-resource-converter: {
+			name: "资源转换废墟"
+			desc: "利用这些废墟可以完成不同类型资源间的转换。"
+		}
+		ruins-flux-shop: {
+			name: "造物机废墟"
+			desc: "这种古老的梦幻科技可以通过通量来制造各种资源。"
+		}
+		ruins-perm-income: {
+			name: "补给站废墟"
+			desc: "您也许可以重新规划这些仓库，为城市提供源源不断的资源。"
+		}
+		unfertile: {
+			name: "贫瘠"
+		}
+		fertile: {
+			name: "肥沃"
+		}
+		energy-rich: {
+			name: "充能大气"
+		}
+		flux-rich: {
+			name: "薄纱"
+		}
+		tar-rich: {
+			name: "焦浸土壤"
+		}
+		tar-poor: {
+			name: "无焦土壤"
+		}
+		toxic-ground: {
+			name: "有毒土壤"
+		}
+		materializer-rich: {
+			name: "稳定的梦幻科技"
+		}
+		cheap-construction: {
+			name: "稳定的基态"
+		}
+		rich-cauldron: {
+			name: "稳定的液体"
+		}
+		inspiring: {
+			name: "振奋人心"
+		}
+		motivating: {
+			name: "士气高涨"
+		}
+		agitated: {
+			name: "不安分的幻魇"
+		}
+		resource-rich: {
+			name: "资源丰富"
+		}
+		resource-poor: {
+			name: "资源贫瘠"
+		}
+		resource-abundant: {
+			name: "富饶"
+		}
+		rugged-terrain: {
+			name: "崎岖"
+		}
+		rich-drep: {
+			name: "肥硕的幻魇"
+		}
+		rich-debris: {
+			name: "高品质残骸"
+		}
+		drep-infestation: {
+			name: "幻魇强袭"
+		}
+		less-drep: {
+			name: "幻魇稀有度"
+		}
+		strong-raids: {
+			name: "成群的幻魇"
+		}
+		weak-raids: {
+			name: "零散的幻魇"
+		}
+		extra-expeditions: {
+			name: "中心位置"
+		}
+		less-expeditions: {
+			name: "荒凉之地"
+		}
+		fast-expeditions: {
+			name: "近距离"
+		}
+		cheap-expeditions: {
+			name: "探险中心"
+		}
+	}
+	productions: {
+		is-harvest: "这一生产配方需要找到一处资源矿点并建造收割机。"
+		cheapflux: {
+			name: "基础幻能生产"
+		}
+		fluxgenerator: {
+			name: "星质焦油 > 幻能"
+		}
+		carbonflux: {
+			name: "碳晶 > 幻能"
+		}
+		dreamflux: {
+			name: "幻水 > 幻能"
+		}
+		smokeflux: {
+			name: "烟凝胶 > 幻能"
+		}
+		cheappower: {
+			name: "基础能源生产"
+		}
+		startargenerator: {
+			name: "焦油能源"
+		}
+		acidpower: {
+			name: "酸化能源"
+		}
+		glueberrypower: {
+			name: "黏果能源"
+		}
+		gelpower: {
+			name: "烟凝胶能源"
+		}
+		firepower: {
+			name: "热力能源"
+		}
+		alt-sulfurpower: {
+			name: "硫化动力"
+		}
+		upgradeparts2: {
+			name: "黏果零件"
+		}
+		upgradeparts3: {
+			name: "碳零件"
+		}
+		upgradeparts4: {
+			name: "铜零件"
+		}
+		upgradeparts5: {
+			name: "幻魇零件"
+		}
+		purptatoprocessor: {
+			name: "辛薯餐"
+		}
+		carbonfood: {
+			name: "碳果餐"
+		}
+		carbonsmokefood: {
+			name: "烟熏碳果"
+		}
+		candyshroomfood: {
+			name: "糖果蘑菇餐"
+		}
+		carbonite-fire: {
+			name: "碳晶（焰）"
+		}
+		dreamcrystal-fire: {
+			name: "幻魇水晶（焰）"
+		}
+		researchlab-goo: {
+			name: "星质焦油科技"
+		}
+		researchlab-carbonite: {
+			name: "碳晶科技"
+		}
+		researchlab-acidwood: {
+			name: "酸化科技"
+		}
+		researchlab-gel: {
+			name: "烟凝胶科技"
+		}
+		researchlab-dreamcrystal: {
+			name: "幻魇科技"
+		}
+		fuel-acid: {
+			name: "酸化燃料"
+		}
+		fuel-tesla: {
+			name: "特斯拉燃料"
+		}
+		fuel-fire: {
+			name: "火焰燃料"
+		}
+		alt-flux-featherstone: {
+			name: "羽石 > 幻能"
+		}
+		alt-flux-acid: {
+			name: "酸化木 > 幻能"
+		}
+		alt-flux-hardenedshroom: {
+			name: "硬化蘑菇 > 通量"
+		}
+		alt-food-glueberry: {
+			name: "黏果排毒"
+		}
+		alt-food-smokepurptato: {
+			name: "烟熏辛薯"
+		}
+		alt-upgrade-stickytar: {
+			name: "粘稠的焦油零件"
+		}
+		alt-upgrade-carbonite: {
+			name: "碳化部件"
+		}
+		alt-upgrade-firecopper: {
+			name: "炙热的铜零件"
+		}
+		alt-upgrade-fluxmetal: {
+			name: "通量金属部件"
+		}
+		alt-research-refinedtar: {
+			name: "精炼焦油科技"
+		}
+		alt-research-powercrystal: {
+			name: "能量晶体研究"
+		}
+		alt-fuel-tarhoney: {
+			name: "精炼焦油燃料"
+		}
+		alt-crystal-stone: {
+			name: "羽石 > 水晶"
+		}
+		alt-acidwood-sulfur: {
+			name: "硫酸木"
+		}
+		alt-acidstone-sulfur: {
+			name: "硫酸石"
+		}
+		alt-energycell-sulfuricacid: {
+			name: "硫化特斯拉电池"
+		}
+		alt-acidextract-wood: {
+			name: "萃取酸（木料）"
+		}
+		alt-acidextract-stone: {
+			name: "萃取酸（石料）"
+		}
+		alt-starwood-refinedtar: {
+			name: "星木（精炼焦油）"
+		}
+		alt-armorplating-stickytar: {
+			name: "装甲（粘稠焦油）"
+		}
+		alt-smokedfire-stickytar: {
+			name: "熏焰（粘稠的焦油）"
+		}
+		alt-acidstone-firetar: {
+			name: "酸石（焰&焦油）"
+		}
+		alt-carbonmix-refinedtar: {
+			name: "碳混合物（精炼焦油）"
+		}
+		alt-powercrystal-energycell: {
+			name: "特斯拉电池升级"
+		}
+		alt-hardenedshroom-sticky: {
+			name: "硬化蘑菇（粘焦油）"
+		}
+		alt-hardenedshroom-fire: {
+			name: "硬化蘑菇（火焰铜）"
+		}
+		fluxmetal-flamingcopper: {
+			name: "通量金属（火焰铜）"
+		}
+		alt-fluxmetal-both: {
+			name: "通量金属（铜和蘑菇）"
+		}
+	}
+	crafting: {
+		starwooddowngrade: {
+			name: "星木 > 红木"
+		}
+		acidwooddowngrade: {
+			name: "酸化木 > 星木"
+		}
+		glowwooddowngrade: {
+			name: "赫木 > 星木"
+		}
+		feathercrystaldowngrade: {
+			name: "羽晶 > 羽石"
+		}
+		carbonitedowngrade: {
+			name: "碳晶 > 羽晶"
+		}
+		lightcarbonitedowngrade: {
+			name: "碳砂 > 碳晶"
+		}
+		acidstonedowngrade: {
+			name: "酸化石 > 羽晶"
+		}
+		armorplatingdowngrade: {
+			name: "装甲 > 铜"
+		}
+		energycelldowngrade: {
+			name: "特斯拉电池 > 铜"
+		}
+		chargedplatingdowngrade: {
+			name: "幻魇铠甲 > 装甲"
+		}
+		firecopperdowngrade: {
+			name: "焰铜 > 装甲"
+		}
+		powercrystaldowngrade: {
+			name: "能量晶体 > 特斯拉电池"
+		}
+		hardenedshroomdowngrade: {
+			name: "硬化蘑菇 > 辉光木"
+		}
+		fluxmetaldowngrade: {
+			name: "通量金属 > 火焰铜"
+		}
+		store-fuel-cache-small: {
+			name: "小型燃料萃取"
+		}
+		store-fuel-cache-medium: {
+			name: "中型燃料萃取"
+		}
+		store-fuel-cache-large: {
+			name: "大型燃料萃取"
+		}
+		alt-acidwood-fromstone: {
+			name: "酸化石 > 酸化木"
+		}
+		alt-acidstone-fromwood: {
+			name: "酸化木 > 酸化石"
+		}
+	}
+	generic-unlocks: {
+		teslacrats-production: {
+			name: "资源复制"
+			desc: "特斯拉狂人可以通过工艺消耗大量的能源来复制资源。\n\n每种资源的基本数量必须通过其他方式获得，然后才可以复制。"
+		}
+	}
+	items: {
+		consumable: "消耗品"
+		immediate: "自动应用"
+		global: "这是一项全局资源，不需要运输。"
+		heavy: "<color=#FFD57E>这种资源由于过重/不稳定，无法在飞行时携带。请在起飞前进行加工，否则起飞时将从仓库中移除。</color>"
+		all: {
+			name: "所有资源"
+		}
+		funds: {
+			name: "幻能"
+			desc: "这种物质是梦幻科技的核心，从梦幻领域中汲取而来。它可以扭曲现实，造成反物理现象。"
+		}
+		power: {
+			name: "电能"
+			desc: "特斯拉能源，用于给大多数机器供能"
+		}
+		worker: {
+			name: "工人"
+			desc: "在城市周围工作的市民。大多数建筑都需要工人才能运转。\n\n建造和升级房屋，以增加最大工人数。工人由城市核心产生。"
+		}
+		fuel: {
+			name: "引擎燃料"
+			desc: "用于持续飞行，以免一命呜呼。"
+		}
+		upgradeparts: {
+			name: "升级材料"
+			desc: "用于升级您的临时基础设施和获取永久加成。"
+		}
+		convert-funds: {
+			name: "转换器材料"
+			desc: "资源转换器废墟的原材料。"
+		}
+		research-points: {
+			name: "知识"
+			desc: "解锁科技需要知识。\n\n由科技实验室中的疯狂科学家创造。"
+		}
+		comingsoon: {
+			name: "即将开放"
+			desc: "此功能目前暂不可用"
+		}
+		food: {
+			name: "食物"
+			desc: "一种为人类提供生存动力的燃料。需要定期向房屋供给。\n\n在粮食工厂生产获得。"
+		}
+		bloodwoodlog: {
+			name: "红木原木"
+			desc: "覆盖着发光红色脉络的原木。必须经过精制才能使用。\n\n从资源矿点采集。"
+		}
+		rawfeatherstone: {
+			name: "未加工的羽石"
+			desc: "这种石头具有抵抗重力的特性，这使得它非常适合建造飞行物，比如城市。\n\n从资源矿点采集。"
+		}
+		crystal: {
+			name: "水晶"
+			desc: "从沙漠地区的资源矿点采集。"
+		}
+		cabtus: {
+			name: "碳果"
+			desc: "生长在沙漠地区的肉质浆果"
+		}
+		purptato: {
+			name: "辛薯"
+			desc: "尝起来像浸了墨汁的土豆，可以在粮食工厂里做成勉强可以吃的食物。"
+		}
+		rawcopper: {
+			name: "未加工的铜"
+			desc: "这种金属是许多蒸汽机器的首选。由炼铜机精炼后得到可用的铜锭。\n\n从资源矿点采集，在难度较高的地区出现。"
+		}
+		glowhoney: {
+			name: "发光蜂蜜"
+			desc: "具有放射性的蜂蜜。作为食物用处不大，但可加工成优质的城市飞行燃料。\n\n从资源矿点采集，在难度较高的地区出现。"
+		}
+		sulfur: {
+			name: "硫磺"
+			desc: "很臭，但很有用。\n\n在资源节点获得，出现在难度较高的区域。"
+		}
+		liquidfire: {
+			name: "液态火"
+			desc: "一团永燃不灭的炙热液体。\n\n从灰烬地区的资源矿点采集。"
+		}
+		candyshroom: {
+			name: "糖果蘑菇"
+			desc: "这种糖果状的巨型蘑菇不仅营养丰富，还富含通量。\n\n采自有毒生物群的资源节点。"
+		}
+		startar: {
+			name: "星质焦油"
+			desc: "它梦幻般的属性暗示其并非来源于我们的现实世界。大多数土壤都含有微量的星质焦油，可以用特殊的机器提取。\n\n在城市的任意一处建造焦油提炼厂。"
+		}
+		acidshard: {
+			name: "酸晶"
+			desc: "从蛮荒之地常见的酸池中提取的结晶体。\n\n从资源矿点采集，在难度较高的地区出现。"
+		}
+		glueberry: {
+			name: "黏果"
+			desc: "许多可怜的家伙在吃下这种果子后，因为嘴被粘住无法张开，最终窒息而死。"
+		}
+		smokegel: {
+			name: "烟凝胶"
+			desc: "即使是污染物，也可以通过合适的技术变废为宝。"
+		}
+		toxicgoo: {
+			name: "有毒粘液"
+			desc: "这是一种从土壤中提取的有毒物质。从有毒生物群中提取更为高效。"
+		}
+		refinedtar: {
+			name: "精炼焦油"
+			desc: "精炼的星质焦油，富含幻能。"
+		}
+		stickytar: {
+			name: "粘稠焦油"
+			desc: "注入幻能的物质，质地粘稠。"
+		}
+		drepjuice: {
+			name: "魇汁"
+			desc: "在生物形态幻魇的血管中流动。"
+		}
+		drepdust: {
+			name: "魇灰"
+			desc: "幻魇死亡后留下的粉末。"
+		}
+		dreptech: {
+			name: "魇械"
+			desc: "机械形态幻魇的遗骸。"
+		}
+		oldscraps: {
+			name: "古代废铁"
+			desc: "古代科技的零散部件。可用于启动被遗弃的古代机器。"
+		}
+		dreamcore: {
+			name: "梦幻核心"
+			desc: "古代技术的巅峰之作。这些稀有的物件可以在废墟中和远征时找到，并可用于建筑和工艺。"
+		}
+		warpedwood: {
+			name: "红木材"
+			desc: "游牧城市中许多建筑和工艺配方中所需的坚固而轻质的木材。\n\n在木材加工厂通过加工红木原木获得。"
+		}
+		featherstone: {
+			name: "碾碎的羽石"
+			desc: "加工后的羽石，用于建筑中可以使其更加坚固，同时减轻重量。"
+		}
+		starwood: {
+			name: "星木"
+			desc: "注入星质焦油的红木材变得更加坚固，并增加了某些扭曲现实的属性。\n\n在木材加工厂通过加工红木材和星质焦油获得。"
+		}
+		atlasbolt: {
+			name: "擎天箭"
+			desc: "由红木材制成的弩箭，拥有特殊的抗幻魇属性。用于发射小迪的远程武器。"
+		}
+		feathercrystal: {
+			name: "羽晶"
+			desc: "羽石和水晶的结合物，水晶矿点位于沙漠地区。"
+		}
+		acidwood: {
+			name: "酸化木"
+			desc: "酸化处理后的红木。"
+		}
+		acidstone: {
+			name: "酸化石"
+			desc: "酸化处理后的羽石。"
+		}
+		carbonmix: {
+			name: "碳果汁"
+			desc: "精制的碳果，富含能量。"
+		}
+		dreammixture: {
+			name: "幻水"
+			desc: "这种神秘的液体具有非常类似于幻能的性质，但是更加稳定，在物质领域有更广泛的应用。"
+		}
+		dreamcrystal: {
+			name: "幻魇水晶"
+			desc: "注入幻水的水晶。幻水的注入会使水晶扭曲、黑化，这也是其名字的由来。"
+		}
+		sulfuricacid: {
+			name: "硫酸"
+			desc: "从硫磺中提取。"
+		}
+		toxicacid: {
+			name: "有毒酸液"
+			desc: "有毒粘液与硫酸混合而成的高度危险物质。"
+		}
+		smokedfire: {
+			name: "烟凝火"
+			desc: "烟凝胶有助于稳定液态火，使其处理起来较为安全。"
+		}
+		carbonite: {
+			name: "碳晶"
+			desc: "经过碳果汁处理的水晶"
+		}
+		light-carbonite: {
+			name: "碳砂"
+			desc: "用于加固石质防御建筑"
+		}
+		copperingot: {
+			name: "铜锭"
+			desc: "用途广泛的精炼铜。"
+		}
+		glowwood: {
+			name: "赫木"
+			desc: "这种木材会对您造成伤害，但它是一种优良的梦幻科技原料。"
+		}
+		armorplating: {
+			name: "装甲"
+			desc: "铜经过某种未知的加工过程所铸成的外形奇异的装甲。特殊的抗幻魇属性使其成为许多军事设备的首选。"
+		}
+		energycell: {
+			name: "特斯拉电池"
+			desc: "小型便携式能源储备装置，可用于为移动设备供电。"
+		}
+		chargedplating: {
+			name: "幻魇铠甲"
+			desc: "经过幻魇水晶充能的装甲。极其耐用，特别适合用于极度强大的梦幻科技机器的防护。"
+		}
+		firecopper: {
+			name: "焰铜"
+			desc: "经过液态火处理的铜。"
+		}
+		powercrystal: {
+			name: "能量晶体"
+			desc: "类固醇特斯拉电池"
+		}
+		hardenedshroom: {
+			name: "硬化蘑菇"
+			desc: "对于梦幻科技而言，坚固、轻便，可用性非常高。"
+		}
+		hardeningpowder: {
+			name: "硬化粉"
+			desc: "在其他材料上施展蘑菇法力时使用。"
+		}
+		fluxmetal: {
+			name: "通量金属"
+			desc: "一种违背现实的复杂金属。"
+		}
+		research1: {
+			name: "原始科技包"
+			desc: "一小撮铜，半升焦油，用一些木头把它们盛起来，您就得到了试验梦幻科技的完美工具包。\n\n在炼铜厂加工获得。"
+		}
+		unarmed: {
+			name: "出拳"
+		}
+		crossbow: {
+			name: "轻弩"
+		}
+		repeater-crossbow: {
+			name: "连发弩"
+		}
+		repeater-crossbow2: {
+			name: "连发弩 2级"
+		}
+		repeater-crossbow3: {
+			name: "连发弩 3级"
+		}
+		spreadbow: {
+			name: "散射弩"
+		}
+		spreadbow2: {
+			name: "散射弩 2级"
+		}
+		spreadbow3: {
+			name: "散射弩 3级"
+		}
+		snipe-crossbow: {
+			name: "狙击弩"
+		}
+		snipe-crossbow2: {
+			name: "狙击弩 2级"
+		}
+		snipe-crossbow3: {
+			name: "狙击弩 3级"
+		}
+		piercing-crossbow: {
+			name: "穿刺弩"
+		}
+		piercing-crossbow2: {
+			name: "穿刺弩2"
+		}
+		piercing-crossbow3: {
+			name: "穿刺弩3"
+		}
+		snipe-piercing-crossbow: {
+			name: "重型弩"
+		}
+		snipe-piercing-crossbow2: {
+			name: "重型弩2"
+		}
+		snipe-piercing-crossbow3: {
+			name: "重型弩3"
+		}
+		snipe-gun: {
+			name: "狙击枪"
+		}
+		snipe-gun2: {
+			name: "狙击枪1"
+		}
+		snipe-gun3: {
+			name: "狙击枪2"
+		}
+		snipe-gun4: {
+			name: "狙击枪4"
+		}
+		snipe-gun5: {
+			name: "狙击枪5"
+		}
+		snipe-gun-super: {
+			name: "精锐狙击枪"
+		}
+		piercing-gun: {
+			name: "穿刺枪"
+		}
+		piercing-gun2: {
+			name: "穿刺枪2"
+		}
+		piercing-gun3: {
+			name: "穿刺枪3"
+		}
+		piercing-gun4: {
+			name: "穿刺枪4"
+		}
+		piercing-gun5: {
+			name: "穿刺枪5"
+		}
+		piercing-gun-super: {
+			name: "精锐穿刺枪"
+		}
+		snipe-piercing-gun: {
+			name: "重型大炮"
+		}
+		snipe-piercing-gun2: {
+			name: "重型大炮2"
+		}
+		snipe-piercing-gun3: {
+			name: "重型大炮3"
+		}
+		snipe-piercing-gun4: {
+			name: "重型大炮4"
+		}
+		snipe-piercing-gun5: {
+			name: "重型大炮5"
+		}
+		snipe-piercing-gun-super: {
+			name: "精锐重型大炮"
+		}
+		spikedpunch: {
+			name: "刺拳"
+		}
+		spikedpunch2: {
+			name: "刺拳 2级"
+		}
+		spikedpunch3: {
+			name: "刺拳 3级"
+		}
+		acid-punch: {
+			name: "酸汽冲拳"
+		}
+		acid-punch2: {
+			name: "酸汽冲拳 2级"
+		}
+		acid-punch3: {
+			name: "酸汽冲拳 3级"
+		}
+		starwoodcrossbow: {
+			name: "星木弩"
+		}
+		starwoodcrossbow2: {
+			name: "星木弩 2级"
+		}
+		starwoodcrossbow3: {
+			name: "星木弩 3级"
+		}
+		shredder: {
+			name: "绞拳"
+		}
+		shredder2: {
+			name: "绞拳 2级"
+		}
+		shredder3: {
+			name: "绞拳 3级"
+		}
+		shredder4: {
+			name: "粉碎机4"
+		}
+		shredder5: {
+			name: "粉碎机5"
+		}
+		shredder-super: {
+			name: "精锐粉碎机"
+		}
+		chargedcannon: {
+			name: "速射炮"
+		}
+		chargedcannon2: {
+			name: "速射炮 2级"
+		}
+		chargedcannon3: {
+			name: "速射炮 3级"
+		}
+		chargedcannon4: {
+			name: "速射炮 4级"
+		}
+		chargedcannon5: {
+			name: "速射炮 5级"
+		}
+		chargedcannon-super: {
+			name: "精锐快打枪"
+		}
+		explosivegun: {
+			name: "重型发射器"
+		}
+		explosivegun2: {
+			name: "重型发射器 2级"
+		}
+		explosivegun3: {
+			name: "重型发射器 3级"
+		}
+		explosivegun4: {
+			name: "重型发射器 4级"
+		}
+		explosivegun5: {
+			name: "重型发射器 5级"
+		}
+		explosivegun-super: {
+			name: "精锐重型发射器"
+		}
+		shotgun: {
+			name: "散射炮"
+		}
+		shotgun2: {
+			name: "散射炮 2级"
+		}
+		shotgun3: {
+			name: "散射炮 3级"
+		}
+		shotgun4: {
+			name: "散射炮 4级"
+		}
+		shotgun5: {
+			name: "散射炮 5级"
+		}
+		shotgun-super: {
+			name: "精锐散单枪"
+		}
+		tesla-punch: {
+			name: "特斯拉拳"
+		}
+		tesla-punch2: {
+			name: "特斯拉拳 2级"
+		}
+		tesla-punch3: {
+			name: "特斯拉拳 3级"
+		}
+		tesla-punch4: {
+			name: "特斯拉拳4"
+		}
+		tesla-punch5: {
+			name: "特斯拉拳5"
+		}
+		tesla-punch-super: {
+			name: "精锐特斯拉拳"
+		}
+		basearmor: {
+			name: "普通外壳"
+		}
+		starwoodarmor: {
+			name: "星木强化轻甲"
+		}
+		starwoodarmor2: {
+			name: "星木强化轻甲 2级"
+		}
+		starwoodarmor3: {
+			name: "星木强化轻甲 3级"
+		}
+		starwoodarmor4: {
+			name: "星木强化轻甲 4级"
+		}
+		starwoodarmor5: {
+			name: "星木强化轻甲 5级"
+		}
+		chargedarmor: {
+			name: "充能增援部队"
+		}
+		chargedarmor2: {
+			name: "充能增援部队2"
+		}
+		chargedarmor3: {
+			name: "充能增援部队3"
+		}
+		shroomarmor: {
+			name: "蘑菇增援部队"
+		}
+		shroomarmor2: {
+			name: "蘑菇增援部队2"
+		}
+		shroomarmor3: {
+			name: "蘑菇增援部队3"
+		}
+		shroomarmor-super: {
+			name: "精锐蘑菇增援部队"
+		}
+		glowarmor: {
+			name: "发光增援部队"
+		}
+		glowarmor2: {
+			name: "发光增援部队2"
+		}
+		glowarmor3: {
+			name: "发光增援部队3"
+		}
+		moltenarmor: {
+			name: "炙火强化"
+		}
+		moltenarmor2: {
+			name: "炙火强化 2级"
+		}
+		moltenarmor3: {
+			name: "炙火强化 3级"
+		}
+		moltenarmor-super: {
+			name: "精锐火力增援部队"
+		}
+		starwoodarmor-normal: {
+			name: "星木强化"
+		}
+		starwoodarmor-normal2: {
+			name: "星木强化 2级"
+		}
+		starwoodarmor-normal3: {
+			name: "星木强化 3级"
+		}
+		platedarmor-normal: {
+			name: "古甲强化"
+		}
+		platedarmor-normal2: {
+			name: "古甲强化 2级"
+		}
+		platedarmor-normal3: {
+			name: "古甲强化 3级"
+		}
+		platedarmor-normal4: {
+			name: "古代装甲增援部队4"
+		}
+		platedarmor-normal5: {
+			name: "古代装甲增援部队5"
+		}
+		platedarmor-normal-super: {
+			name: "精锐古代增援部队"
+		}
+		platedarmor: {
+			name: "重甲强化"
+		}
+		platedarmor2: {
+			name: "重甲强化 2级"
+		}
+		platedarmor3: {
+			name: "重甲强化 3级"
+		}
+		fluxarmor: {
+			name: "通量重型增援部队"
+		}
+		fluxarmor2: {
+			name: "通量重型增援部队2"
+		}
+		fluxarmor3: {
+			name: "通量重型增援部队3"
+		}
+		fluxarmor-super: {
+			name: "精锐通量增援部队"
+		}
+		repair-base: {
+			desc: "紧急情况下使用，可以立即修复部分损伤。"
+		}
+		scraprepair: {
+			name: "临时维修包"
+		}
+		starwoodrepair: {
+			name: "星木维修包"
+		}
+		starwoodrepair2: {
+			name: "星木维修 2级"
+		}
+		building-repairkit: {
+			name: "建筑维修包"
+			desc: "用于完全修复玩家周围一定区域内的所有建筑物。"
+		}
+		copperrepair: {
+			name: "铜具修复包"
+		}
+		copperrepair2: {
+			name: "铜具修复 2级"
+		}
+		shroomrepair: {
+			name: "精锐维修包"
+		}
+		grenade: {
+			name: "远距激增"
+			desc: "对光标周围的所有敌人造成伤害。"
+		}
+		grenade2: {
+			name: "远距激增 2级"
+		}
+		grenade3: {
+			name: "远程浪涌3"
+		}
+		enrage: {
+			name: "武器充能器"
+			desc: "短时间内使武器过载造成额外伤害，但副作用是造成短时间内移动速度缓慢。"
+		}
+		enrage2: {
+			name: "武器充能器2"
+		}
+		absorber: {
+			name: "吸能器"
+			desc: "激活小迪的外壳，使其在一段时间内吸收所有伤害。"
+		}
+		decoy: {
+			name: "机械玩偶"
+			desc: "放置一个玩偶盒诱饵吸引火力，幻魇会将其当做目标攻击。"
+		}
+		decoy2: {
+			name: "杰克・麦金顿 2"
+		}
+		decoy3: {
+			name: "杰克・麦金顿 3"
+		}
+		folding-turret: {
+			name: "可部署炮塔"
+			desc: "在场上部署一个小炮塔，以获得一些额外的火力。"
+		}
+		folding-turret2: {
+			name: "可部署炮塔2"
+		}
+		skill-pack: {
+			name: "升级包"
+			desc: "使用后获得1个升级点数。"
+		}
+		skill-resetter: {
+			name: "升级回收"
+			desc: "重置所有基础设施升级。删除所有已购买的基础设施升级并回收已使用的升级点。"
+		}
+		threat-reducer: {
+			name: "烟雾弹"
+			desc: "一次性使用，使城市进入隐蔽状态，20回合内威胁等级暂停增加。"
+		}
+		global-difficulty-reducer: {
+			name: "断联器"
+			desc: "一台强大的装置，可以削弱与梦幻领域的联结。使用此装置可使强袭等级降低一级。"
+		}
+		free-expansion: {
+			name: "扩展包"
+			desc: "用于添加免费的城市扩展。使用后从建造菜单中扩展城市。\n\n不需要解锁扩展科技。"
+		}
+		flame-turret-kit: {
+			name: "焦弹炮塔包"
+			desc: "用于增加一座免费的焦弹炮塔。使用后从建造菜单中选择建造焦弹炮塔。"
+		}
+		perm-mod-extra-materializer: {
+			name: "造物机组件"
+			desc: "增加造物机上限。"
+		}
+		perm-mod-acidextract: {
+			name: "萃取酸"
+		}
+		perm-mod-drep-desert-resources: {
+			name: "深度幻魇加工"
+		}
+		perm-mod-acid-transform: {
+			name: "酸转化"
+		}
+		perm-mod-build-flameturret: {
+			desc: "建造您自己的焦弹炮塔。\n\n注：建造焦弹炮塔需要一个稀有的梦幻核心。"
+		}
+		perm-mod-build-scoutpost: {
+			desc: "建造侦察前哨来获取免费的目的地刷新机会。\n\n注：建造侦察前哨需要一个稀有的梦幻核心。"
+		}
+		perm-mod-city-crystal: {
+			name: "水晶造物机图纸"
+			desc: "能够使造物机生产水晶。\n\n注：需要一个扩展模组，消耗梦幻核心。"
+		}
+		perm-mod-city-acid: {
+			name: "酸晶造物机图纸"
+			desc: "能够使造物机生产酸晶。\n\n注：需要一个扩展模组，消耗梦幻核心。"
+		}
+		perm-mod-city-sulfur: {
+			name: "硫磺造物机蓝图"
+			desc: "在造物机中生产硫磺。\n\n注：需要消耗梦幻核心的附加组件。"
+		}
+		speed-mod: {
+			name: "移速模组"
+		}
+		berserker-mod: {
+			name: "狂战士模组"
+		}
+		tank-mod: {
+			name: "防御模组"
+		}
+		self-repair-mod: {
+			name: "自我修复模组"
+		}
+		aoe-ranged-mod: {
+			name: "带电子弹模组"
+		}
+		kinetic-guard-mod: {
+			name: "动能防护模组"
+		}
+		vision-range-mod: {
+			name: "侦察模组"
+		}
+		house-overdrive-mod: {
+			name: "房屋过载"
+		}
+		green-refining-mod: {
+			name: "绿色精炼"
+		}
+		overdrive-refining-mod: {
+			name: "超凡精炼"
+		}
+		green-research-mod: {
+			name: "绿色科技"
+		}
+		overdrive-research-mod: {
+			name: "超速科技"
+		}
+		cart-speed-mod: {
+			name: "运输车加速模组"
+		}
+		cart-speed-mod2: {
+			name: "运输车加速模组 2级"
+		}
+		threat-reduce-mod: {
+			name: "烟幕模组"
+		}
+		global-diff-reduce-mod: {
+			name: "断联模组"
+		}
+		fuel-costs-mod: {
+			name: "燃料效率模组"
+		}
+		fly-carry-capacity-mod: {
+			name: "载重模组"
+		}
+		flying-device-upkeep-mod: {
+			name: "浮空维护模组"
+		}
+		storage-mod: {
+			name: "存储模组"
+		}
+		harvester-prodspeed-mod: {
+			name: "收割机速度模组"
+		}
+		harvester-prodspeed-mod2: {
+			name: "收割机速度模组 2级"
+		}
+		harvester-upkeep-mod: {
+			name: "收割机维护模组"
+		}
+		harvester-efficiency-mod: {
+			name: "收割机效率模组"
+		}
+		anybuilding-efficiency-mod: {
+			name: "通用效率模组"
+		}
+		anybuilding-upkeep-mod: {
+			name: "通用维护模组"
+		}
+		anybuilding-upkeep-mod2: {
+			name: "通用维护模组 2级"
+		}
+		production-speed-mod: {
+			name: "生产速度模组"
+		}
+		production-speed-mod2: {
+			name: "生产速度模组 2级"
+		}
+		farm-yield-mod: {
+			name: "农场产量模组"
+		}
+		materializer-yield-mod: {
+			name: "造物机产量模组"
+		}
+		research-output-mod: {
+			name: "科技产量模组"
+		}
+		apartment-upkeep-mod: {
+			name: "住房成本模组"
+		}
+		apartment-upkeep-mod2: {
+			name: "住房成本模组 2级"
+		}
+		turret-range-mod: {
+			name: "防御范围模组"
+		}
+		turret-damage-mod: {
+			name: "防御伤害模组"
+		}
+		turret-speed-mod: {
+			name: "防御速率模组"
+		}
+		archeology-unlock: {
+			name: ""
+		}
+		story-broken-storage: {
+			name: "破损的信息存储"
+		}
+		story-repaired-storage: {
+			name: "已修复的信息存储"
+		}
+	}
+	playerstats: {
+		mech-combat: {
+			name: "进攻"
+		}
+		survival: {
+			name: "生存"
+		}
+		gathering: {
+			name: "收集"
+		}
+		administration: {
+			name: "管理"
+		}
+	}
+	perks: {
+		level-format: "{0} {1}"
+		melee-dmg: {
+			name: "近战伤害"
+		}
+		ranged-dmg: {
+			name: "远程伤害"
+		}
+		enemy-drop: {
+			name: "拾取尸体"
+		}
+		turret-dmg: {
+			name: "炮塔伤害"
+		}
+		mech-speed: {
+			name: "角色移动速度"
+		}
+		healing: {
+			name: "修复中"
+		}
+		farming: {
+			name: "农场"
+		}
+		city-gathering: {
+			name: "可再生资源"
+		}
+		cart-speed: {
+			name: "运输车自动行驶速度"
+		}
+		upgrade-prod: {
+			name: "升级生产"
+		}
+		research-efficiency: {
+			name: "科研效率"
+		}
+		housing: {
+			name: "房屋"
+		}
+		overload: {
+			name: "能量激增"
+		}
+		overclock: {
+			name: "超频齿轮"
+		}
+		untargetable: {
+			name: "伪装器"
+		}
+		teleport-to-city: {
+			name: "核心传送装置"
+		}
+	}
+	abilities: {
+		charging-format: "充能时间：{0}"
+		cooldown-format: "冷却：{0}秒"
+		overclock: {
+			name: "超频齿轮"
+			desc: "短时间内使齿轮超频以增加移动速度。"
+		}
+		overload: {
+			name: "能量激增"
+			desc: "使机体电容超载，产生电涌对附近目标造成伤害。"
+		}
+		teleport-to-city: {
+			name: "核心传送装置"
+			desc: "激活城市核心传送装置，快速返回城市。"
+		}
+		untargetable: {
+			name: "伪装器"
+			desc: "发出能量迷惑幻魇群，让它们误以为你不会产生威胁。\n\n受此影响，你的武器在伪装器效果持续时间内将失去所有能量，无法造成任何伤害。"
+		}
+		repair: {
+			name: "维修区域"
+			desc: "修复角色周围一定区域的所有建筑物，但无法恢复被摧毁的建筑。\n\n可在战斗中使用。"
+		}
+	}
+	statuseffects: {
+		title: "应用效果：{0}"
+		duration: "持续时间：{0}"
+		overclock: {
+			name: "超频"
+		}
+		enrage: {
+			name: "武器超载"
+		}
+		absorber: {
+			name: "免疫伤害"
+		}
+		untargetable: {
+			name: "无法被选定"
+		}
+		slowed: {
+			name: "减速"
+		}
+		weakened: {
+			name: "虚弱"
+		}
+	}
+	attackeffects: {
+		aoe: {
+			desc: "对目标周围{0}格区域造成{1}点范围伤害"
+		}
+	}
+	biomes: {
+		startingmap: {
+			name: "蛮荒之地起始区域"
+		}
+		purple: {
+			name: "蛮荒之地"
+		}
+		blue: {
+			name: "梦触之野"
+		}
+		desert: {
+			name: "沙漠"
+		}
+		lava: {
+			name: "尘烬山脉"
+			locked-text: "需要热盾指挥中心附加组件"
+		}
+		green: {
+			name: "有毒荒原"
+			locked-text: "需要空气过滤指挥中心附加组件"
+		}
+	}
+	research: {
+		progress: "进度：{0}/{1}"
+		drepprocessing-flux: {
+			name: "幻魇加工（幻能）"
+		}
+		drepprocessing-flux2: {
+			name: "幻魇加工（幻能 2级）"
+		}
+		drepprocessing-wood: {
+			name: "幻魇加工（红木）"
+		}
+		drepprocessing-fstone: {
+			name: "幻魇加工（羽石）"
+		}
+		hunters-feathercrystal: {
+			name: "幻魇加工（羽晶）"
+		}
+		hunters-carbonite: {
+			name: "幻魇加工（碳晶）"
+		}
+		hunters-copper: {
+			name: "幻魇加工（铜锭）"
+		}
+		hunters-energycell: {
+			name: "幻魇加工（特斯拉电池）"
+		}
+		bloodwood-strip1: {
+			name: "红木产效"
+		}
+		bloodwood-strip2: {
+			name: "红木产效 2级"
+		}
+		featherstone-strip1: {
+			name: "羽石产效"
+		}
+		featherstone-strip2: {
+			name: "羽石产效 2级"
+		}
+		copper-strip1: {
+			name: "炼铜产效"
+		}
+		copper-strip2: {
+			name: "炼铜产效 2级"
+		}
+		all-strip1: {
+			name: "收割机产效"
+		}
+		all-strip2: {
+			name: "收割机产效 2级"
+		}
+		infrastructure: {
+			name: "基础设施升级"
+		}
+		free-expansion: {
+			name: "免费扩展"
+		}
+		efficient-refining: {
+			name: "高效精炼"
+		}
+		bonus-research: {
+			name: "先进科技（可重复）"
+		}
+		importer: {
+			name: "收割自动化"
+		}
+		comingsoon: {
+			name: "即将开放"
+		}
+	}
+	constructioncategories: {
+		population: {
+			name: "人口"
+		}
+		infrastructure: {
+			name: "基础设施"
+		}
+		gathering: {
+			name: "收集"
+		}
+		production: {
+			name: "生产"
+		}
+		power: {
+			name: "能源"
+		}
+		defense: {
+			name: "防御"
+		}
+		misc: {
+			name: "其他"
+		}
+	}
+	mapobjects: {
+		citytile: {
+			name: "城市扩展"
+			desc: "我们不能把建筑物建在地面上，然后指望它们能飞起来。扩大城市地基，以增加城市面积。"
+		}
+		roadtile: {
+			name: "轨道"
+			desc: "单向轨道。运输车会魔法般凭空出现在这里，并在建筑之间运输资源。\n\n拖动路径建造轨道。在现有轨道上拖拽可以补添轨道或更改方向。"
+		}
+		railsplitter: {
+			name: "分拣机"
+			desc: "将物品从一个入口分配至三个出口。您可以设置进入每个出口的物品。"
+		}
+		streettile: {
+			name: "街道"
+			desc: "没有什么用处，但它看起来很漂亮，也不会妨碍移动。\n\n有助于城市规划，设计留出空间确保能够自由移动。"
+		}
+		player-debris: {
+			name: "被摧毁的建筑"
+		}
+		commandcenter: {
+			name: "城市核心"
+			desc: "这是城市的心脏。我们可不知道怎么再造一个，所以请务必保证它的安全。"
+		}
+		expeditioncenter: {
+			name: "远征中心"
+			desc: "发起远征队以搜寻附近地区的物资和古代技术。"
+		}
+		flyengine: {
+			name: "浮空装置"
+			desc: "让东西飞起来的装置。增加了飞行时所能承载的最大城市重量，但也增加了飞行的燃料消耗。\n\n无法建造在离其他浮空装置太近的地方。"
+		}
+		scoutpost: {
+			name: "侦察前哨"
+			desc: "用于探索遥远的地界。每一处侦察前哨会为您在选择下一个目的地时提供一次免费的刷新机会。"
+		}
+		researchlab: {
+			name: "科技实验室"
+			desc: "研究新的科技。已知在这里进行的实验会导致严重的突变。"
+		}
+		teslatower: {
+			name: "特斯拉电塔"
+			desc: "这些塔扩大了城市的供电面积。请勿攀爬。"
+		}
+		longrange-power: {
+			name: "远距离输电站"
+			desc: "这些输电站将其周围的建筑与主电源联结起来。\n\n不像特斯拉塔，它们自身并不需要在供电范围内，它们可以自主建立远程连接。"
+		}
+		woodturret: {
+			name: "木制炮塔"
+			desc: "发射发光的大箭抵御幻魇。攻击射击频率缓慢，对多个目标造成爆炸性溅射伤害。不擅长打击装甲单位。"
+		}
+		stoneturret: {
+			name: "石塔"
+			desc: "装有机关大炮的石塔，其爆炸攻击比木质炮塔的射速和伤害更高。"
+		}
+		flameturret: {
+			name: "焦弹炮塔"
+			desc: "发射可燃的焦油炸弹。与木制炮塔相比，射击速度更慢，但射程更远，对更大的区域造成更多伤害。"
+		}
+		atlasturret: {
+			name: "擎天炮塔"
+			desc: "更强壮、更坚固的弩箭塔，射击速度很快，但不会造成溅射伤害。擅长打击装甲单位。"
+		}
+		musicturret: {
+			name: "小号手炮塔"
+			desc: "这种缓慢发射的炮塔会发出震耳欲聋的声波，不仅会对目标造成严重破坏，还会对周围的其他目标带来重大伤害。"
+		}
+		woodwall: {
+			name: "木墙"
+			desc: "保护墙后的建筑。但只能坚持一小段时间。"
+		}
+		woodgate: {
+			name: "木门"
+			desc: "您可以通过这扇门。但幻魇不能。"
+		}
+		stonewall: {
+			name: "石墙"
+			desc: "保护墙后的建筑。坚持的时间更长一点。"
+		}
+		stonegate: {
+			name: "石门"
+			desc: "更为坚固的门。您可以通过。但幻魇不能。维持时间更长。"
+		}
+		wall: {
+			name: "围墙"
+			desc: "用金属保护您的建筑物。"
+		}
+		gate: {
+			name: "石门"
+			desc: "机关驱动的装甲大门，用于抵挡糟糕的东西。"
+		}
+		hardenedwall: {
+			name: "硬化墙体"
+			desc: "如果这些都不能保护你，那就没什么能了。"
+		}
+		hardenedgate: {
+			name: "硬化大门"
+			desc: "这扇门能把幻魔挡在外面。直到其失效。"
+		}
+		trap-mine1-small: {
+			name: "小型陷阱"
+		}
+		trap-mine2-small: {
+			name: "小型爆炸陷阱"
+		}
+		trap-mine1: {
+			name: "陷阱"
+			desc: "附近有敌人时将被触发。"
+		}
+		trap-mine2: {
+			name: "爆炸陷阱"
+		}
+		trap-mine1-2: {
+			name: "陷阱"
+		}
+		trap-mine2-2: {
+			name: "爆炸陷阱2"
+		}
+		trap-slow: {
+			name: "冰冻陷阱"
+		}
+		house: {
+			name: "房屋"
+			desc: "用于存储所谓“人力资源”的仓库。\n\n增加工人数量上限。需要定期供应食物。"
+		}
+		apartment: {
+			name: "公寓"
+			desc: "更大、更拥挤的“人力资源”仓库。\n\n高效利用空间是飞行城市的特色。"
+		}
+		dreamshield: {
+			name: "无效化屏障"
+			desc: "这个巨大的屏障将用一个消除梦幻的能量场包围整个城市和它周围的区域，这个能量场将分解其范围内任何梦幻领域的元素，包括所有的幻魇。\n\n这个屏障非常沉重，需要大量的电能、工人和幻能才能启动，而且需要很长时间才能全效运转。屏障充能需要很长一段时间，在此期间您必须维持其运转，并保护您的城市。做好准备。"
+		}
+		archeologist: {
+			name: "考古学"
+			desc: "利用旧世界文物开展项目，从而获得巨大的永久性奖励。"
+		}
+		bloodwoodharvester: {
+			name: "红木切割机"
+		}
+		featherstoneharvester: {
+			name: "羽石采矿机"
+		}
+		crystalharvester: {
+			name: "水晶采矿机"
+		}
+		cabtusharvester: {
+			name: "碳果收集机"
+		}
+		coppermine: {
+			name: "铜矿钻机"
+		}
+		acidharvester: {
+			name: "酸晶采矿机"
+		}
+		glowhoneyharvester: {
+			name: "发光蜂蜜收集机"
+		}
+		sulfurmine: {
+			name: "硫磺矿"
+		}
+		liquidfireharvester: {
+			name: "液态火收集机"
+		}
+		candyharvester: {
+			name: "糖果蘑菇收割机"
+		}
+		startarcollector: {
+			name: "焦油提炼机"
+			desc: "从城市地下的土壤中提炼星质焦油。"
+		}
+		condenser: {
+			name: "大气冷凝机"
+			desc: "谁说不能凭空造东西。这栋建筑就能凭空（气）提取有用物质。"
+		}
+		toxicgoocollector: {
+			name: "有毒粘液提取器"
+			desc: "从土壤中提取有毒物质。在有毒荒原中尤其有效。"
+		}
+		purptatofarm: {
+			name: "辛薯农场"
+			desc: "种植农作物辛薯供食用。"
+		}
+		glueberryfarm: {
+			name: "黏果农场"
+			desc: "黏果农场主的寿命普遍比平均预期寿命低。"
+		}
+		materializer: {
+			name: "造物机"
+			desc: "使用幻能和可再生原料，制造正常情况下无法在城市中生产的资源。\n\n小迪迫切需要这样的休息时间，虽然代价有点昂贵。"
+		}
+		storage: {
+			name: "堆场"
+			desc: "放东西的地方。\n\n这里存储的资源也可以用于制造、建造、升级和其他消耗用途。"
+		}
+		importer: {
+			name: "资源投放点"
+			desc: "原料可以放置在此处，而不必从收割机处建立轨道运输。\n\n收割机的运输车不能在城市中行驶，所以投放点必须建在城市外部或城市边缘。"
+		}
+		exporter: {
+			name: "资源打包机"
+			desc: "通过轨道为其提供任意资源（包括精炼资源），它会将物品送至最近的资源站。\n\n货车无法在城内移动，所以只能造在城外或城市边缘。"
+		}
+		smallbattery: {
+			name: "小型电池"
+			desc: "用于储存电能。可增加城市电能负荷。"
+		}
+		startargenerator: {
+			name: "发电厂"
+			desc: "生产电能。\n\n无法建造在离其他发电机太近的地方。"
+		}
+		fluxgenerator: {
+			name: "幻能瓮"
+			desc: "此建筑专用于提炼幻能。"
+		}
+		woodwarper: {
+			name: "木材加工厂"
+			desc: "将原木加工成可用的木材。可生产许多以木材为原料的配方。"
+		}
+		stonecutter: {
+			name: "石材加工厂"
+			desc: "精炼羽石原料，以在建筑中使用。"
+		}
+		purptatoprocessor: {
+			name: "粮食工厂"
+			desc: "将我们实在不想吃的东西加工成我们还是不想吃的东西。\n\n将原料加工成食物。"
+		}
+		coppersmelter: {
+			name: "炼铜机"
+			desc: "散发着难闻气味的机器。将原料精炼成可用的金属锭，可生产许多以金属为原料的配方。"
+		}
+		workshop: {
+			name: "加工车间"
+			desc: "把各种各样的零碎小玩意加工成更有用一点的零碎小玩意。"
+		}
+		cauldron: {
+			name: "坩埚"
+			desc: "将某些液体变成另一些液体。"
+		}
+		bloodwoodresource: {
+			name: "红木矿点"
+		}
+		featherstoneresource: {
+			name: "羽石矿点"
+		}
+		crystalresource: {
+			name: "水晶矿点"
+		}
+		cabtusresource: {
+			name: "碳果矿点"
+		}
+		copperresource: {
+			name: "铜矿点"
+		}
+		acidshardsresource: {
+			name: "酸矿点"
+		}
+		glowhoneyresource: {
+			name: "发光蜂蜜矿点"
+		}
+		sulfurresource: {
+			name: "硫磺节点"
+		}
+		liquidfireresource: {
+			name: "液态火矿点"
+		}
+		candyresource: {
+			name: "糖果蘑菇节点"
+		}
+		ruins-ind: {
+			name: "工业废墟"
+		}
+		ruins-tech: {
+			name: "科技废墟"
+		}
+		ruins-lab: {
+			name: "化学废墟"
+		}
+		ruins-fuel: {
+			name: "燃料缓存废墟"
+		}
+		ruins-skill-resetter: {
+			name: "基础设施清理废墟"
+		}
+		ruins-resource-converter: {
+			name: "资源转换废墟"
+		}
+		ruins-flux-shop: {
+			name: "造物机废墟"
+		}
+		ruins-perm-income: {
+			name: "补给站废墟"
+		}
+		raid-spawner: {
+			name: "噩梦裂隙"
+		}
+	}
+	hud: {
+		daytime: "回合\n{0}"
+		daytime-hover: "回合是《梦幻引擎》中的基本时间单位。\n\n一个回合为40秒。"
+		fast-forward: "按住快进"
+		enemy-meter: {
+			threat-level: "威胁等级：{0}"
+			threat-hover: "威胁等级显示了幻魇群袭的躁动程度。城市留在地面上时，威胁等级会持续增加，在城市起飞后会根据新地图的难度重置。\n\n更高的威胁等级意味着更猛烈的幻魇突袭。\n\n<color=#FFD57E>点击打开城市信息窗口</color>"
+		}
+		resource-counter: {
+			assigned-hover: "已拥有：{0}\n已分配：{1}\n自由：{2}"
+			normal-hover: "已拥有：{0}\n生产量（实际值）：{1}\n消耗量（最大值）：{2}"
+			edit-hover: "编辑\n\n选择您想要在面板中查看的物品。"
+			edit-title: "选择物品"
+		}
+		bottom: {
+			health: {
+				title: "小迪的生命值"
+				hover: "返回城市或使用维修包修复损伤。"
+			}
+		}
+		buttons: {
+			build: "建造"
+			toolstoolbar: "工具-管理城市"
+			usable-storage: "资源总览\n\n所有仓库中的物品以及小迪背包里的物品总和。这些资源可用于建造、制造和其他操作。"
+			research: "科技"
+			crafting: "工艺"
+			journal: "日志"
+			skills: "基础设施"
+			inventory: "角色窗口"
+			gamepedia: "梦幻档案"
+			bulldoze: "拆除\n\n拆除城市中的建筑时可以回收一些资源（除幻能外的建筑材料）。"
+			repair: "修理/修复\n\n修复受损的建筑物，重建废墟。附近有敌人时无法使用。"
+			move: "移动建筑\n\n选择要移动的建筑，然后选中目的地。部分建筑无法移动。"
+			delinout: "移除接轨点\n\n从轨道上移除所有接轨点(输入/输出)。"
+			pickcart: "抓取工具\n\n使用此工具可以从轨道上抓取资源。"
+			enabledisable: "启用/停用\n\n使用此工具可快速启用或停用建筑。"
+			free-camera: "自由视角\n\n切换小迪的固定视角并自由移动它。"
+			layer-cancel: "关闭所有视图"
+			layer-upgrade: "升级视图\n\n显示建筑等级和快速升级按钮。"
+			layer-prod: "生产视图\n\n显示每处建筑的当前生产设定，并可直接从游戏视图中进行更改。"
+		}
+		warnings: {
+			subtitle: "请查看小地图上方的工具提示。"
+			overpopulation: {
+				text: "您的市民正在死去。"
+				hover: "您的人口超过了城市中房屋所能容纳的数量。您需要着手解决这一点，否则会有人死去，而您将失去工人。\n\n确保您为市民准备了足够的房屋，并为他们提供了食物和电力。"
+			}
+			fundsdwindling: {
+				text: "幻能供应不足"
+				hover: "幻能对科技来说是最重要的资源。\n\n剩余时间：{0}"
+			}
+			fooddwindling: {
+				text: "食物供应不足"
+				hover: "人们所需的食物超过了食物产量。建造更多的粮食工厂，并为其输送原料制作食物。\n\n食物完全耗尽所需时间：{0}"
+			}
+			powerdwindling: {
+				text: "电能消耗过高"
+				hover: "您的电能消耗高于产能。建造更多的发电厂，并保障其所需原料供应。\n\n电能完全耗尽所需时间：{0}"
+			}
+			upgrade-available: {
+				text: "基础设施升级可用"
+				hover: "您有足够的材料来升级基础设施。\n\n按K键打开基础设施窗口，购买升级，然后使用升级点数。"
+			}
+			overweight: {
+				text: "超重"
+				hover: "您的城市重量已经超过了引擎的运载能力。超重状态下将无法飞行。\n\n建造或者升级引擎来增加运载能力，或者拆除一些建筑来减轻城市的重量。"
+			}
+			building-attacked: {
+				text: "您的建筑正在遭受攻击"
+				hover: "您的一处或多处建筑正在遭受攻击。"
+			}
+			tiny-attacked: {
+				text: "小迪正在遭受攻击"
+			}
+			risk-increase: {
+				title: "威胁等级已增加"
+				text: "新威胁等级：{0}"
+			}
+			raid-incoming: {
+				title: "幻魇袭击"
+				text: "它们来了！准备防守您的城市。"
+			}
+			raid-preparing: {
+				title: "突袭正在接近"
+				text: "幻魇正在准备进攻。"
+			}
+			go-to-city: {
+				title: "即将起飞"
+				text: "立即返回城市。"
+			}
+			no-research: {
+				text: "您没有选择任何科技"
+				hover: "实验室正在运转，但您没有选择任何科技。\n\n按下R键打开科技窗口，选择一项科技，或者停用实验室以节省电能和幻能。"
+			}
+			insufficient-workers: {
+				text: "工人不足"
+				hover: "您没有足够的工人来维护所有的建筑。\n\n停用建筑物来释放劳动力，或者建造更多的房屋来增加您的最大工人数。如果您有空闲的房屋，工人数量会随着时间慢慢增加。"
+			}
+			prod-missing-raw: {
+				hover: "资源不足\n\n此建筑缺少生产所需的原料。"
+			}
+			resource-depleted: {
+				hover: "资源已耗尽\n\n该矿点的资源已经枯竭，生产效率已降低。"
+			}
+			building-disabled: {
+				hover: "建筑已停用\n\n此建筑已被手动停用，无法正常运行。"
+			}
+			missing-upkeep: {
+				hover: "资源不足\n\n您没有足够的资源来维护此建筑。"
+			}
+			output-full: {
+				hover: "产量溢出\n\n需要将产出的资源从此建筑中运走，否则生产无法继续进行。"
+			}
+			no-power-connection: {
+				hover: "与电网断开连接\n\n建筑物与电网的连接已中断。建造特斯拉塔，让建筑得到电力供应。"
+			}
+		}
+		citysize: {
+			maxsize: "已达到最高等级"
+			current-size: "{1}：{0}"
+			next-size: "下一级：{1}"
+			hover-title: "下一级：{0}"
+			hover-body: "当前人口：{0}\n可用房屋：{1}\n下一级所需：{2}\n\n下一级加成：\n{3}\n\n<color=#FFD57E>点击打开城市信息窗口</color>"
+			s0: "营地"
+			s1: "前哨站"
+			s2: "部落"
+			s3: "城镇"
+			s4: "避难所"
+			s5: "城市"
+			s6: "飞行堡垒"
+		}
+		construction: {
+			free-builds: "自由建造：{0}"
+			max-amount: "最多允许建造:{0}"
+		}
+	}
+	objwarnings: {
+		importer-no-access: "无法输入。您需要将它移动到城市边缘或城市外部。"
+		disconnected-rail: "这条轨道无法通往任何地方。"
+	}
+	crafting-categories: {
+		equipment: {
+			name: "装备"
+		}
+		upgrades: {
+			name: "升级"
+		}
+		resources: {
+			name: "资源"
+		}
+		modules: {
+			name: "模组"
+		}
+		ruins-store: {
+			name: "特殊"
+		}
+	}
+	upgrades: {
+		prod1: {
+			name: "生产线升级"
+			desc: "允许使用更先进的生产配方。大多数配方需要经过研究才能使用。"
+		}
+		prod2: {
+			name: "生产线 2级"
+		}
+		prod3: {
+			name: "生产线 3级"
+		}
+		energycell-addon: {
+			name: "特斯拉室"
+		}
+		materializer-cabtus: {
+			name: "碳果造物机"
+		}
+		materializer-crystal: {
+			name: "水晶造物机"
+		}
+		materializer-acid: {
+			name: "酸晶造物机"
+		}
+		materializer-sulfur: {
+			name: "硫磺造物机"
+		}
+		coppermachine-flux: {
+			name: "幻能机器"
+			desc: "改进了原始生产配方。\n\n不适用于更高级的生产配方。"
+		}
+		coppermachine-power: {
+			name: "电能机器"
+		}
+		woodturret-plating: {
+			name: "梦魇升级"
+		}
+		stoneturret-plating: {
+			name: "梦魇升级"
+		}
+		atlasturret-plating: {
+			name: "梦魇升级"
+		}
+		musicturret-speed: {
+			name: "通量金属升级"
+		}
+		atlasturret-damage: {
+			name: "通量金属升级"
+		}
+		storage-flux: {
+			name: "扩展幻能储量"
+		}
+		storage-fuel: {
+			name: "扩展燃料储量"
+		}
+		battery-power: {
+			name: "扩展电池储量"
+		}
+		heat-shield: {
+			name: "热盾"
+		}
+		air-filter: {
+			name: "空气过滤器"
+		}
+	}
+	windows: {
+		selectedbuilding: {
+			on-off-hover: "启用/停用建筑"
+		}
+		titlemenu: {
+			quit: "退出"
+			credits: "制作名单"
+			buildnumber: "建造：{0}"
+			patchnotes: "<u>查看最新的补丁更新</u>"
+		}
+		gamepedia: {
+			title: "梦幻档案"
+			unseen-tab: "新"
+			construction-tab: "建筑"
+			upgrades-tab: "建筑升级"
+			production-tab: "生产配方"
+			crafting-tab: "工艺配方"
+			resources-tab: "资源"
+			right-click: "右键单击打开梦幻档案"
+			filter: "筛选…"
+		}
+		inputoutput: {
+			outputtitle: "选择输出物品"
+			mintitle: "最低数量"
+			minhover: "只有物品数量超过仓库设定最低数量时才会输出。\n\n选择“全部输出”后将忽略此设定。"
+		}
+		saveload: {
+			loadtitle: "加载游戏"
+			savetitle: "保存游戏"
+			save-desc-format: "{0} - {2}，人口数 {1}"
+			save-info-format: "{0}\n回合数 {1}\n版本 {3}，{2}"
+			default-name: "{0} {1}回合"
+			notsupported-postfix: "（不支持）"
+			notsupported-hover: "此存档之后的进度不再支持保存。\n\n如果您想使用旧版本的游戏继续保存，您可以从Steam上的测试栏中选择该版本。在游戏库中右键单击游戏，选择偏好设置，然后选择测试栏。"
+			delete-incompatible: "删除不兼容的存档"
+			delete-incompatible-hover: "此操作将删除此前版本中不再兼容的所有存档。此操作不可逆。"
+			savename: {
+				title: "保存游戏标题"
+				text: "输入存档名称"
+				placeholder: "存档名称…"
+				autosave: "自动保存"
+				quicksave: "快速保存"
+				new-save: "新存档"
+			}
+		}
+		gamemenu: {
+			title: "游戏主菜单"
+			save: "保存游戏"
+			feedback: "发送反馈"
+			discord: "Discord讨论组"
+			load: "加载游戏"
+			quit: "返回主界面"
+			savequit: "保存并退出"
+			info: "{1}\n游戏时间：{0}"
+		}
+		destinationselect: {
+			title: "选择目的地"
+			worlddifficulty: "强袭等级："
+			worlddifficulty-hover: "强袭等级会影响着陆选项中骷髅的数目(代表地图难度)。随着强袭等级增加，会出现难度更高的选项。\n\n强袭等级会随着游戏时间的增长而增加。"
+			mapdifficulty-title: "地图难度"
+			mapdifficulty-hover: "初始威胁等级：{0}\n\n地图难度决定了该地图上幻魇的数量和攻击力，以及您的城市在遭到突袭时的初始威胁等级。"
+			refresh-title: "飞往别处"
+			refresh-hover: "消耗燃料飞至一处不同的区域，并生成一套新的着陆选项。"
+			locked: "无法降落。"
+		}
+		expedition-select: {
+			workers-title: "远征队"
+			workers-hover: "在整个远征过程中，包括准备阶段，队员们都会处于被占用的状态，请先确保您有足够的工人。"
+			workers-desc: "所需工人数：{0}"
+			upfront-costs-title: "前期成本"
+			upfront-costs-hover: "这些物品将在远征准备阶段开始后立即消耗。"
+			prep-title: "远征准备"
+			prep-hover: "这些是远征中心在准备阶段的维护费用。"
+			prep-desc: "准备时间：{0}回合"
+			expedition-title: "远征&奖励"
+			expedition-hover: "这些是远征的预期奖励。"
+			expedition-desc: "远征时间：{0}回合"
+		}
+		expedition-rewards: {
+			title: "远征-选择奖励"
+		}
+		archeology-select: {
+			time-desc: "计划时间：{0}个周期"
+			build-title: "计划内容"
+			build-hover: "必须想考古学家持续提供以下资源，直至计划完成。\n\n多名考古学家共同参与同一计划，可更快完成计划。"
+			rewards-title: "奖励"
+			rewards-hover: "计划完成后，奖励将永久发放，无需支付额外费用。"
+		}
+		research: {
+			title: "科技"
+			noresearch: "未激活科技"
+			nolabs: "未建造实验室"
+			nolabs-hover: "建造一处科技实验室，开始研究新科技。\n\n科技实验室需要通过增加城市人口来解锁。"
+		}
+		crafting: {
+			title: "工艺"
+			performbutton: "制造"
+			charges: "剩余充能：{0}"
+			not-activated: "无法制作 - 建筑未激活"
+			teslacrats-mul-addition: "<color=#FFD57E>能源消耗倍数：{0}</color>\n此值在利用能源制造资源时增加，然后会慢慢恢复至正常。"
+		}
+		productionselect: {
+			title: "选择生产配方"
+			select: "选择"
+			missing-upgrade: "缺少升级/扩展模组：{0}"
+		}
+		character: {
+			title: "角色"
+			weapon: "武器"
+			weapon-secondary: "副武器"
+			weapon-secondary-hover: "按{0}可以在主武器组和副武器组之间切换。"
+			secondary-not-assigned: "未分配"
+			secondary-not-assigned-hover: "当副武器组中没有分配武器时，将使用主武器组中的武器来代替。"
+			armor: "护甲"
+			equipment: "装备"
+			quickbar: "快捷栏（点击栏位装备物品/技能）"
+			enable-scrap: "报废装置"
+			end-scrap: "停止报废"
+			no-scrap-hover: "报废这件物品不会返还任何材料。"
+			scrap-value-hover: "报废这件物品将会获得以下资源："
+		}
+		skills: {
+			title: "基础设施升级"
+			purchasebutton: "购买"
+			purchasebutton-hover: "消耗资源来提高您的基础设施等级，并获得升级点用于各项加成。"
+			requirements: "升级条件"
+			per-level: "每级加成："
+			level: "基础设施等级：{0}"
+			upgrade-points: "未分配升级点：{0}"
+			points-hover: "基础设施升级点可以用来提升多个区域的基础设施。将鼠标悬停在每个区域上方查看升级加成。"
+		}
+		tribeselect: {
+			title: "选择您的部落"
+		}
+		newgame: {
+			title: "新游戏"
+			tutorial-label: "启用新手教程"
+			score-mul: "分数加成倍数：{0}"
+			difficulty-title: "选择难度"
+			customize-title: "自定义"
+			city-name-title: "城市名称"
+			city-name-text: "您想为您的游牧城市起个什么名字？"
+		}
+		loadingscreen: {
+			tip: "提示 {0} / {1}"
+			loading: "加载中…"
+			press-any-key: "按下任意键以继续\n<size=24>使用A或D键向前或向后浏览提示</size>"
+		}
+		yesno: {
+			dontshowagain: "下次不再询问"
+			chosen-higher-difficulty: {
+				title: "是否提升难度？"
+				text: "您选择着陆在一处难度高于当前强袭等级的地图上。这将立即增加强袭等级。\n\n将鼠标悬停在目的地选择窗口顶部的强袭等级说明上，可查看更多相关信息。\n\n是否继续？"
+			}
+			delete-save: {
+				title: "是否删除存档？"
+				text: "您确定要删除该存档吗？此操作不可逆！"
+			}
+			overwrite-save: {
+				title: "是否覆盖存档？"
+				text: "这将覆盖现有的存档。\n\n您确定要覆盖此存档吗？此操作不可逆！"
+			}
+			cancel-takeoff: {
+				title: "取消起飞？"
+				text: "您确定要中止起飞吗？您将只能收回一半燃料。"
+			}
+			overwrite-ironman: {
+				title: "是否覆盖存档？"
+				text: "已存在同名辅助模式存档。以相同的名称开始新游戏将会覆盖旧存档。\n\n如果您想保留之前的存档，您可以输入一个不同的城市名。\n\n是否覆盖存档？"
+			}
+			no-overseer: {
+				title: "观察者工具已禁用"
+				text: "您选择在游戏中禁用观察者工具。这意味着您将无法暂停或加速游戏，游戏视角将固定在小迪身上，您必须要移动至目标区域才能管理您的城市。是否继续？"
+			}
+			remove-upgrade: {
+				title: "是否删除扩展模组？"
+				text: "您确定要删除此扩展模组吗?您只能回收一部分材料。"
+			}
+			skip-tutorial-new: {
+				title: "是否跳过新手教程？"
+				text: "《梦幻引擎》拥有独特的游戏机制，跳过教程可能会影响您的游戏体验。我们强烈建议您玩一遍新手教程，这不会占用您太多时间。\n\n您确定要跳过新手教程吗？"
+			}
+			skip-tutorial-task: {
+				title: "要跳过教学任务吗？"
+				text: "确定要在没完成任务的情况下跳过教学吗？你之后随时可以在“帮助”界面查看教学。"
+			}
+			skip-tutorial-updated: {
+				title: "是否跳过新手教程？"
+				text: "自您上次通关新手教程后，我们对游戏做了一些重大的改变。我们建议您再玩一次。\n您确定要跳过新手教程吗？"
+			}
+			different-mods: {
+				title: "不同模组"
+				text: "您现在加载的游戏使用的是与当前启用模组不同的模组。在某些情况下，这可以正常运行，但在其他情况下，游戏可能无法加载或在游戏中产生其他问题。\n\n是否继续？"
+			}
+			below-recommended-version: {
+				title: "建议开启新游戏"
+				text: "您正在尝试加载一个早期版本的游戏存档。虽然可行，但一些重大改变可能会导致某些功能无法正常使用。我们强烈建议您开启一个新游戏或<color=#99EFF><u><link=\"\"old-version\"\">下载旧版本的《梦幻引擎》</link></u></color>进行游戏。\n\n继续吗？\n\n"
+			}
+			multi-demolish: {
+				title: "是否全部拆除？"
+				text: "您即将拆除{0}处不同的目标。是否继续？"
+			}
+			demolish-upgrades: {
+				title: "是否一同拆除升级？"
+				text: "您正在拆除的建筑具有升级或扩展模组。是否继续？"
+			}
+			cancel-expedition: {
+				title: "是否取消远征？"
+				text: "此操作将取消您当前的远征。如果远征处于准备阶段，您只会失去到目前为止消耗的资源。\n\n如果远征正在进行中，那么远征队员也将丢失。"
+			}
+			continue-after-winning: {
+				title: "是否继续？"
+				text: "你可以开始新一轮不同难度/部落的游戏，也可以继续当前游戏并扩大你的城市。如果选择继续游玩，你可以随时拆除无效化屏障。\n\n是否继续？"
+			}
+		}
+		journal: {
+			goals-click: "点击一项任务目标查看相应的教程"
+			tutorial-tab: "新手教程"
+			story-tab: "主要目标"
+			milestones-tab: "里程碑"
+			button-show-dialogue: "对话回放"
+		}
+		settings: {
+			title: "设置"
+			tabs: {
+				display: "图像"
+				audio: "音频"
+				gameplay: "游戏设置"
+			}
+			master-volume: {
+				title: "主音量"
+			}
+			music-volume: {
+				title: "音乐音量"
+			}
+			sfx-volume: {
+				title: "音效音量"
+			}
+			ambiance-volume: {
+				title: "环境音量"
+			}
+			fullscreen: {
+				title: "全屏窗口"
+				hover: "在普通窗口和全屏无边框窗口之间切换。当启用全屏选项时，自动使用桌面分辨率。"
+			}
+			resolution: {
+				title: "窗口分辨率"
+				hover: "当全屏选项关闭时，您可以调整窗口大小和分辨率。"
+			}
+			vsync: {
+				title: "垂直同步"
+			}
+			shadows-enabled: {
+				title: "阴影"
+			}
+			bloom-enabled: {
+				title: "泛光"
+				hover: "为发光的物体增加光亮。关闭此选项将会大幅降低游戏美感。"
+			}
+			ambient-occlusion-level: {
+				title: "环境光遮蔽"
+				values: {
+					Lowest: "最低"
+					Low: "低"
+					Medium: "中"
+					High: "高"
+					Ultra: "极高"
+				}
+			}
+			citizens-amount: {
+				title: "显示市民"
+				values: {
+					0: "关"
+					25: "少"
+					50: "一半"
+					100: "全部"
+				}
+			}
+			texture-quality: {
+				title: "纹理质量"
+				values: {
+					0: "完全"
+					1: "中"
+					2: "低"
+					3: "最低"
+				}
+			}
+			vignette: {
+				title: "暗角效果"
+			}
+			weather: {
+				title: "天气效果"
+			}
+			anti-aliasing: {
+				title: "抗锯齿（FXAA）"
+			}
+			brightness: {
+				title: "亮度"
+			}
+			fps-limit: {
+				title: "最大FPS"
+				hover: ""
+			}
+			mouse-confine: {
+				title: "限制光标"
+				hover: "将鼠标光标限制在游戏窗口内。"
+			}
+			pause-on-lose-focus: {
+				title: "切换窗口时暂停游戏"
+				hover: "当游戏窗口失去焦点时暂停游戏。"
+			}
+			takeoff-view: {
+				title: "起飞视角"
+				hover: "起飞时显示城市的整体视图。\n\n如果您在起飞动画中遇到性能问题，请关闭此项。"
+			}
+			management-cam: {
+				title: "管理视角"
+				hover: "启用此视角时，进入管理模式时，操作界面将自动锁定为垂直视图，切换至战斗模式时将回到正常视角。\n\n如禁用此项，您仍然可以手动切换至垂直视图(默认按“Z”键切换)"
+			}
+			default-free-cam: {
+				title: "默认自由视角"
+				hover: "启用后，切换至管理模式后将自动切换至自由视角。"
+			}
+			auto-pause-mgmt: {
+				title: "管理模式自动暂停"
+				hover: "启用后，切换到管理模式时将暂停游戏，切出管理模式后将恢复游戏。"
+			}
+			management-grid: {
+				title: "管理网格"
+				hover: "在管理模式下显示网格。"
+			}
+			target-marker: {
+				title: "目标标记"
+				hover: "启用此项后，小迪前方的敌人身上将出现一个目标标记。\n\n这个标记有助于瞄准。"
+			}
+			dynamic-minimap: {
+				title: "动态小地图"
+				hover: "小地图跟随视角旋转。"
+			}
+			multi-demolish-confirm: {
+				title: "拆除确认"
+				hover: "当一次性拆除多个目标（除轨道外）时，显示一个确认窗口。"
+			}
+			disconnected-rail-warnings: {
+				title: "轨道警告"
+				hover: "轨道无法通往任何地方时，显示警告。"
+			}
+			pause-frame: {
+				title: "显示暂停帧"
+			}
+			wall-attack-warning: {
+				title: "墙壁被攻击警告"
+				hover: "当墙遭受攻击时是否显示警告。"
+			}
+		}
+		keybind: {
+			title: "键位绑定"
+			reset: "恢复默认"
+			selectnew: {
+				title: "绑定按键"
+				text: "按下新按键绑定"
+			}
+		}
+		score: {
+			title: "分数统计"
+			score-summary: "总得分：{0}\n难度加成倍数：{1}\n\n最终得分：{2}"
+			elements: {
+				raid-defeated: {
+					text: "已击败的最高难度突袭"
+					hover: "前往更高难度的地图，或停留更长的时间来击败难度更高的突袭将会增加此项分数。"
+				}
+				population: {
+					text: "人口"
+					hover: "由游戏结束时您的城市人口数决定。"
+				}
+				research: {
+					text: "科技"
+					hover: "通过解锁科技增加此项分数。更昂贵的科技提供更高的分数加成。"
+				}
+				infrastructure: {
+					text: "基础设施等级"
+					hover: "升级您的基础设施等级可提高此项分数。"
+				}
+				expansion: {
+					text: "城市规模"
+					hover: "此项分数取决于您将城市扩展了多大规模。"
+				}
+				exploration: {
+					text: "探索"
+					hover: "进行探索并完成考古计划。"
+				}
+				victory: {
+					text: "胜利"
+					hover: "游戏获胜后获得额外分数。"
+				}
+				other: {
+					text: "其他"
+					hover: "其他得分奖励/惩罚。"
+				}
+			}
+		}
+		usable-storage: {
+			tabs: {
+				all: "玩家+仓库"
+				storage: "仅仓库"
+			}
+		}
+		city-info: {
+			title: "城市信息"
+			landing-zone: "降落区"
+			city: "城市"
+			levels: "城市等级"
+			bonuses: "奖励与惩罚"
+			current-level: "城市等级：{0}"
+			current-pop: "人口 / 房屋： {0} / {1}"
+			section-count: "城市区域：{0}"
+			level-hover: "等级奖励：\n\n{0}"
+		}
+		mods: {
+			title: "模组"
+			achievements-disabled-title: "禁用成就"
+			achievements-disabled-warning: "在使用大多数修改器（翻译修改器除外）或加载由修改器保存的存档时，成就将被禁用。\n\n您选择了以下修改器，成就将会被禁用：\n{0}"
+		}
+		tutorial: {
+			show-last: "按下{0}重复当前教程说明"
+			skip-button: "跳过任务"
+		}
+		building-management: {
+			title: "建筑管理"
+		}
+		council-window: {
+			title: "市议会"
+			influence: "影响力：{0}"
+			influence-range: "影响范围：{0} - {1}"
+			council-leader: "市议长"
+			select-leader: "选择新的市议长"
+			select-leader-hover: "点击选择新的议会主席"
+			leader-are-you-sure-title: "要选择{0}吗？"
+			leader-are-you-sure-text: "确定要选择{0}吗？\n\n<highlight>效果</highlight>：\n{1}\n\n<highlight>影响力变化</highlight>：\n{2}"
+			increase-size: "增加城市规模，启用市议会"
+			next-elections: "离下次选举还有{0}轮"
+			select-error-message: "在关闭前选出新的市议长"
+		}
+	}
+	council-factions: {
+		military: {
+			name: "军事阵营"
+		}
+		scientists: {
+			name: "科学阵营"
+		}
+		labor: {
+			name: "劳工阵营"
+		}
+	}
+	tribes: {
+		scavengers: {
+			name: "拾荒领主"
+			desc: "拾荒领主是变废为宝的大师级人物。被其他部落认为是古代垃圾和普通蓝色盒子的东西，他们认为是宝藏。他们在寻找和利用每一块废铁方面拥有十分专业的知识，而事实证明这对于恢复和维护古老的游牧城市来说非常有用。"
+		}
+		dreamweavers: {
+			name: "筑梦者"
+			desc: "即便并不能完全理解这种古代技术的原理，但筑梦者十分擅长操纵梦幻科技。他们特别擅长生产幻能，并且能够使用更多的造物机。\n\n然而这些能力是有代价的。他们犹如着魔般沉迷在梦幻领域中进行各种实验，这使得幻魇群袭因他们的存在而格外躁动。"
+			unlocktext: "解锁条件：与任何其他部落交往时拥有3000幻能"
+		}
+		electric: {
+			name: "特斯拉狂人"
+			desc: "他们对电能的使用出神入化，他们独有的工艺配方可以仅仅只靠电力就能复制资源。特斯拉狂人的主要缺点是，他们看不起廉价能源，因此原始发电的效率非常低。"
+			unlocktext: "解锁要求：每回合的总发电量（消耗前）达到600功率"
+		}
+		builders: {
+			name: "河狸"
+			desc: "河狸部落以其伟大的建筑工程而闻名。他们可以轻而易举地快速扩建城市，还可以用更少的资源升级建筑。不过他们可舍不得扔下他们宝贵的作品，所以大多数建筑都是在城市内部建造。对于讨厌浪费和抛弃建筑的玩家来说，这是一个完美的部落。"
+			unlocktext: "解锁要求：在一局游戏中扩展您的城市五次。"
+		}
+		explorers: {
+			name: "遗迹勘探者"
+			desc: "遗迹勘探者是一个探险家部落，他们相信救赎将来自过去。他们致力于与经验丰富且行动高效的探险队一起寻找和探索旧世界的废墟。它们在飞行时使用的燃料更少，而且小迪的移动速度更快。然而，他们的防御能力比大多数部落都弱，他们的研究速度也较慢。"
+			unlocktext: "解锁条件：在一轮游戏中完成5次远征。"
+		}
+		gatherers: {
+			name: "泰拉族"
+			desc: "泰拉族部落（简称”泰拉“）是一个勤劳的民族，能够充分利用环境中的资源。他们擅长采集资源，能够在矿点资源耗尽之前收割尽可能多的资源，并且可在每张地图中寻得一处额外的随机（取决于等级）资源节点，不同于地图信息中所列出的其他资源类型。\n\n但是，他们不相信人造资源，所以他们无法使用造物机，而且他们提炼原始资源的速度也比较缓慢。"
+			unlocktext: "解锁条件：在2颗骷髅及以上难度的地图中的所有资源节点上建造收割机。"
+		}
+		hunters: {
+			name: "幻魇猎人"
+			desc: "在幻魇群最初开始出现时，一个名为“幻魇猎人”的军事组织也随之浮现。数个世纪后，幻魇猎人的后裔仍然散布于世界各地，尽己所能地狩猎幻魇并利用它们的残骸存活。\n\n幻魇猎人擅长战斗，从倒下的幻魇中提取材料并找到其用途。他们将最优秀的工程师都投入到战斗中了，所以他们生产设施的效率不是很高。"
+			unlocktext: "解锁条件：在一局游戏中与小迪杀死150个幻魇群。"
+		}
+		nomads: {
+			name: "传说守护者"
+			desc: "传说守护者是历史学家，是研究旧世界一切事物的专家。为了尽可能多地探访废墟，他们比其他部落更加游牧，并完善了高效的城市旅行，能够从远处发现这些废墟。他们不断插手旧世界的事情，导致幻魔更早地注意到了他们，并发动了猛烈的攻击。"
+			unlocktext: "解锁方法：在一个游戏中与 接触10 个不同的废墟。"
+		}
+		doomed: {
+			name: "厄运部落"
+			desc: "有些人觉得他们被诅咒了。他们运气极差，很少能如愿以偿，一切对他们来说都难上加难。厄运部落就是这样一群人的集合体。\n\n幻魇会更加频繁地找上他们，他们会更容易身处敌对区域，资源匮乏导致他们在生活上更加艰难。此艰苦的生活让他们变得更加粗犷，对生存的要求也更低了。"
+			unlocktext: "解锁方法：在威胁等级30或更高的的突袭中存活下来。"
+		}
+	}
+	expeditions: {
+		dreamtech-lab: {
+			name: "废弃实验室"
+		}
+		abandoned-factory: {
+			name: "工厂废墟"
+		}
+		storage-facility: {
+			name: "旧仓库"
+		}
+		city-ruins: {
+			name: "鬼城"
+		}
+		steambot-factory: {
+			name: "蒸汽机器人机库"
+		}
+		abandoned-experiment: {
+			name: "失败的实验"
+		}
+		abandonded-farm: {
+			name: "杂草丛生的农场"
+		}
+		military-outpost: {
+			name: "旧军事前哨"
+		}
+	}
+	expedition-rewards: {
+		resources: {
+			name: "资源箱"
+			desc: "可能包含多种常用资源。"
+		}
+		rare-resources: {
+			name: "稀有资源包"
+			desc: "包含较难获得的资源。"
+		}
+		tech-rewards: {
+			name: "科技箱"
+			desc: "可能包含研究知识、图纸、配方和其他科技相关的奖励物品。"
+		}
+		upgrade-mods: {
+			name: "模组箱"
+			desc: "各种各样的建筑升级模组，可找到小迪或城市核心。"
+		}
+		equipment: {
+			name: "装备箱"
+			desc: "这些箱子里主要包含装备和小迪的升级模组。"
+		}
+		dream-tech: {
+			name: "梦幻科技箱"
+			desc: "各种梦幻科技相关的材料和物件。大概率可获得一个梦幻核心。"
+		}
+		dream-core: {
+			name: "梦幻核心"
+			desc: "包含一个梦幻核心。"
+		}
+		archeology: {
+			name: "考古学蓝图"
+			desc: "详细了解考古学家开展的古老计划。"
+		}
+	}
+	archeology: {
+		harvest-booster: {
+			name: "收割机修理"
+		}
+		harvest-booster2: {
+			name: "收割机修理2"
+		}
+		wall-health: {
+			name: "古代防御工事"
+		}
+		wall-health2: {
+			name: "古代防御工事2"
+		}
+		wall-health3: {
+			name: "古代防御工事3"
+		}
+		carry-weight1: {
+			name: "空气力学"
+		}
+		carry-weight2: {
+			name: "空气力学2"
+		}
+		woodwarper-efficiency: {
+			name: "木材加工效率"
+		}
+		woodwarper-speed: {
+			name: "木材加工生产率"
+		}
+		stonecutter-efficiency: {
+			name: "石材加工效率"
+		}
+		stonecutter-speed: {
+			name: "石材加工生产率"
+		}
+		smelter-efficiency: {
+			name: "嗅探效率"
+		}
+		smelter-speed: {
+			name: "嗅探生产率"
+		}
+		workshop-efficiency: {
+			name: "车间效率"
+		}
+		workshop-speed: {
+			name: "车间生产率"
+		}
+		cauldron-speed: {
+			name: "大锅生产率"
+		}
+		cauldron-speed2: {
+			name: "大锅生产率2"
+		}
+		purptatoprocessor-efficiency: {
+			name: "食物加工"
+		}
+		researchlab-efficiency: {
+			name: "研究工具"
+		}
+		expedition-speed: {
+			name: "探索工具"
+		}
+		expedition-options: {
+			name: "侦查装备"
+		}
+		cheaper-expansions: {
+			name: "地下城市研究"
+		}
+		cheaper-farms: {
+			name: "农场建筑"
+		}
+		farm-speed: {
+			name: "农业技术"
+		}
+		threat-increase: {
+			name: "梦幻科技秘密行动"
+		}
+		threat-increase2: {
+			name: "梦幻科技秘密行动2"
+		}
+		extra-materializer: {
+			name: "造物机基础设施"
+		}
+		materializer-speed: {
+			name: "造物机生产率"
+		}
+		global-difficulty: {
+			name: "梦幻链接抑制"
+		}
+		global-difficulty2: {
+			name: "梦幻链接抑制2"
+		}
+		heavy-dmg: {
+			name: "重型武器提升"
+		}
+		repeater-dmg: {
+			name: "速射武器提升"
+		}
+		shotgun-dmg: {
+			name: "散射武器提升"
+		}
+		housing1: {
+			name: "高效住宅"
+		}
+		housing2: {
+			name: "高效住宅2"
+		}
+		tiny-speed: {
+			name: "小迪腿部改进"
+		}
+		tiny-vision: {
+			name: "小迪雷达改装"
+		}
+		weak-raids: {
+			name: "幻魔压迫者"
+		}
+		resource-amount: {
+			name: "减少废弃物"
+		}
+		giant-battery: {
+			name: "蓄电中心"
+		}
+		cart-speed: {
+			name: "自动搬运车效率"
+		}
+	}
+	stats: {
+		healamount: "生命值：+{0}"
+		maxhealth: "最大生命值：{0}"
+		damage: "伤害值：{0}"
+		range: "射程：{0}"
+		aoe: "伤害半径：{0}"
+		attackrate: "攻击速度：{0}"
+		autoattack: "自动攻击（按住自动发射）"
+		combosize: "连击数：{0}"
+		sustained-dps: "每秒持续伤害：{0}"
+		dps: "每秒平均伤害：{0}"
+		ammo-type: "弹药：{0}"
+		ammo-per-shot: "每次发射消耗弹药：{0}"
+		burst-count: "连发弹数量：{0}"
+		burst-angle: "连发角度：{0}"
+		damage-vs: "对{0}造成伤害：{1}"
+		piercing: "穿射弹"
+	}
+	target-type: {
+		armored: "装甲"
+	}
+	modifiers: {
+		format: "{0}：{1}"
+		bool-no-val-format: "{0}"
+		bool-format: "{0}：{1}"
+		bool-on: "是"
+		bool-off: "否"
+		specifier-format: "[{0}]"
+		max-building: "最大可建{0}数量：{1}"
+		passive-income: "[被动] {0}: {1}"
+		tiny: "小迪"
+		capacity-format: "{0}容量：{1}"
+		skill-points: "额外升级点：{0}"
+		stats: {
+			dmg: "伤害"
+			dmg-to: "伤害"
+			attackrate: "攻击速度"
+			attackrange: "射程"
+			charge-speed: "武器充能速度"
+			cdn: "冷却"
+			receive-dmg: "受到伤害"
+			max-health: "最大生命值"
+			repairkit-heal: "使用维修包修复中"
+			speed: "移动速度"
+			speed-percent: "移动速度"
+			untargetable: "无法被选定"
+			self-repair: "城外自我修复"
+			vision-range: "视野范围"
+			prod-speed: "生产速度"
+			build-costs: "建造成本"
+			upgrade-costs: "建筑升级成本"
+			demolish-refund: "拆除回收量"
+			prod-outputamount: "已产出的资源"
+			prod-inputamount: "已使用的原料"
+			upkeep-inputamount: "维护"
+			upkeep-assigned: "工人"
+			module-slots: "模组栏位"
+			gatheramount: "收集数量"
+			lootdrop: "尸体掉落数量"
+			resourceamount: "资源数量"
+			cart-speed: "运输车速度（轨道）"
+			teslacrats-research: "<color=#7DE286>独有科技：资源复制</color>"
+			teslacrats-noflypower: "<color=#E27D7F>所有储存的能源在飞行时都会丢失</color>"
+			builders-citybuilding: "<color=#E27D7F>大多数建筑只能在城市内建造</color>"
+			gatherers-extra-resources: "<color=#7DE286>每张地图可获得一处额外资源矿点</color>"
+			gatherers-no-materializers: "<color=#E27D7F>无法研究或建造造物机</color>"
+			hunters-unique-drep-drops: "<color=#7DE286>幻魇群有时会掉落资源</color>"
+			hunters-unique-drep-processing: "<color=#7DE286>从幻魇群获得的独特制作配方</color>"
+			nomads-unique-visible-ruins: "<color=#7DE286>废墟位置始终可见。</color>"
+			nomads-unique-more-ruins: "<color=#7DE286>每张地图找到废墟的几率更大。</color>"
+			nomads-unique-craft-scraps: "<color=#7DE286>可在车间生产旧世界的废料。</color>"
+			doomed-unique-map-traits: "<color=#E27D7F>地图出现负数的可能性更大。</color>"
+			doomed-unique-map-resources: "<color=#E27D7F>地图上出现的资源节点更少</color>。"
+			doomed-unique-drep-difficulty: "<color=#E27D7F>每张地图增加5次威胁后，威胁增加速度加快。</color>"
+			doomed-unique-drep-difficulty2: "<color=#E27D7F>幻魇每突袭一次增加一波突袭。</color>"
+			doomed-unique-drep-difficulty3: "<color=#E27D7F>全球入侵从2级开始，但第一次升级所需时间更长。</color>"
+			biome-unlock-heatshield: "解锁灰陨山脉生物群落"
+			biome-unlock-airfilter: "解锁有毒荒原生物群落"
+			building-weight: "重量"
+			carry-weight: "承载重量"
+			launch-costs: "燃料消耗"
+			threat-interval: "威胁等级增加剩余时间"
+			map-enemy-difficulty: "地图敌人难度"
+			raid-enemy-numbers: "突袭敌人数量"
+			dest-reroll: "目的地刷新"
+			expedition-speed: "远征速度"
+			expedition-options: "远征选项"
+			expedition-costs: "探险费用"
+			game-score: "游戏得分"
+			archeology-speed: "考古速度"
+			df-threat-time: "威胁等级增加剩余时间"
+			df-threat-disable: "突袭已禁用"
+			global-difficulty-time: "强袭等级增加剩余时间"
+			df-global-rate: "强袭等级增长速度"
+			df-enemy-numbers: "敌人数量"
+			df-map-spawn: "地图敌人难度"
+			df-resources: "资源矿点"
+			df-pause-in-menu: "窗口中暂停"
+			df-overseer-mode: "允许自由视角和时间控制"
+			df-ironman: "辅助模式"
+			df-mini-raids: "离群幻魇"
+			df-relaxed-mode: "强袭等级不再随时间增加"
+			df-max-health: "最大生命值"
+			df-enemy-health: "敌人生命值"
+			df-ammo-costs: "弹药消耗"
+			df-elections-off: "禁用议会"
+		}
+		specifier: {
+			wpn-melee: "近战武器"
+			wpn-ranged: "远程武器"
+			wpn-heavyranged: "重型武器"
+			wpn-shotgun: "散射武器"
+			wpn-fastranged: "速射武器"
+			enemy-melee: "近战敌人"
+			enemy-ranged: "远程敌人"
+			enemy-unit: "敌军单位"
+			prodgroup-harvest: "收割"
+			prodgroup-strip: "露天开采"
+			prodgroup-refine: "加工"
+			prodgroup-flux: "幻能生产"
+			prodgroup-power: "电能生产"
+			prodgroup-farm: "种植"
+			prodgroup-citygatherer: "可再生资源"
+			prodgroup-upgradeparts: "升级材料"
+			prodgroup-research: "科技"
+			objgroup-defense: "防御建筑"
+			objgroup-wall: "墙"
+			objgroup-housing: "房屋建筑"
+			objgroup-harvester: "收割机"
+			objgroup-farm: "农场"
+			loot-resources: "资源"
+			loot-debris: "残骸/废墟"
+			loot-enemy: "敌人"
+			trgt-armored: "破甲"
+		}
+		spec-prefix: {
+			objtype: "{0}"
+			prodrecipe: "{0}"
+		}
+	}
+	messages: {
+		build: {
+			cantbuild: {
+				onobject: "必须建造在：{0}"
+				incity: "必须建造在城市内部。"
+				halfoncity: "不能将其部分建在城里，部分建在城外。"
+				nearobject: "必须建造在：{0}附近"
+				power: "此处没有电力供应。建造特斯拉塔来扩大您的供电范围。"
+				blocked: "无法在此建造：存在障碍物"
+				blocked-rift: "无法在裂隙附近建造"
+				nocosts: "资源不足"
+				enemiesnear: "无法建造：附近存在敌人"
+				maxamount: "已经达到此建筑的最大可建造数量"
+				upgrade-cancels: "当{0}已存在时无法建造此扩展模组"
+			}
+		}
+		error: {
+			tooheavy: "城市太重了。拆除一些建筑或制造更多引擎。"
+			cantfly: "有什么东西阻碍了城市的飞行"
+			takeoff-cancelled: "起飞程序已取消"
+			cantmove: "此建筑不能被移动"
+			cantmoveraid: "此建筑无法在敌人即将来袭时移动"
+			cantsave: "目前无法保存"
+			no-upgrade-points: "没有未分配的升级点"
+			interact-only: "距离太远，无法与此建筑互动"
+			out-of-ammo: "弹药耗尽"
+			cantrepairthis: "此建筑无法手动维修。将随时间自动修复。"
+			cantrepairenemiesnear: "无法维修：附近存在敌人"
+		}
+		milestones: {
+			objective-complete: "任务完成"
+			milestone-complete: "达成里程碑"
+		}
+	}
+	unlocks: {
+		text-format: "*已解锁{0}：{1}"
+		splash-title-format: "已解锁{0}"
+		splash-text-format: "{1}"
+		call-to-action: "按下H查看更多详细信息"
+		research-complete: "科技已解锁"
+		archeology-complete: "考古计划完成"
+		city-size-achieved: "新城市等级"
+		tribe-unlocked: "新部落已解锁"
+		types: {
+			upgrades: "升级"
+			constructions: "建筑"
+			crafting: "工艺"
+			productions: "生产配方"
+			research: "科技"
+			skills: "技能"
+			perks: "增益"
+			abilities: "技能"
+		}
+	}
+	loading-tips: {
+		rotate: "您可以通过按住并拖动鼠标中键来旋转视角。"
+		moving-buildings: "要重新规划您的建筑，可以在管理模式下点击工具按钮，然后选择移动工具（或按“M”）。围墙和轨道等部分建筑无法移动。"
+		melee-aoe: "近战攻击可同时命中多名敌人，比远程攻击造成更多伤害。在短兵相接时近战攻击十分有效。"
+		demolish-buildings: "大多数建筑在被拆除后可以回收一半的建筑成本，但无法回收幻能。"
+		world-difficulty: "随着时间的推移，您着陆的地图难度会变得越来越高。您需要争分夺秒地建立您的经济和防御体系，以免失去先机。"
+		world-difficulty2: "难度等级更高的地图上会有更多的资源储备，而像铜这样的资源只出现在达到一定难度等级的地图中。"
+		right-click-close: "您可以右键点击窗口上的任意位置来关闭它。"
+		infrastructure: "建造加工车间，为升级基础设施生产材料。升级基础设施可以提供强大的永久加成。"
+		economy: "大胆建造更多科技中心或加工车间吧，这样您可以发展得更快。只要确保您的经济能够支撑即可。"
+		disabling: "如果没有足够的工人或电力，您可以停用不太重要的建筑，以确保其他建筑继续运转。"
+		upgrading: "大多数建筑都可以升级。升级比建造另一处建筑更昂贵，但不会消耗额外的空间或增加重量。"
+		rails-building: "若需改变轨道的方向，只需要在原轨道上再建一条方向相反的轨道。改变方向不需要消耗任何资源。"
+		railcrossing: "通过拖动建造一条横跨现有轨道的路轨，从而建立一处类似桥梁的交叉口。两条轨道都能够独立运行。"
+		remove-crossing: "可以通过拖动一个轨道来改变其中一个入口或出口的方向来移除一个轨道交叉口，这样它们就会合并或分开，而不会互相交叉。"
+		weight: "确保您能够随时逃离此地。不要耗尽燃料，并且将您的城市重量保持在运载力可承载范围内。"
+		leaving-early: "如果当前所在区域没有您所需要的资源，您可以毫不犹豫地飞走。只要注意您的燃料储备就行了。"
+		journal: "如需提醒，可打开日志（J）查看已完成的新手教程任务。"
+		gamepedia: "按下TAB键打开“梦幻档案”，查看已解锁的建筑、工艺或生产配方的相关信息。"
+		item-source: "当您需要一种您不熟悉的资源时，可查阅梦幻档案获取如何收集或生产它的信息。"
+		pick-cart: "如果您想从某些轨道上移除运输车，可以在管理模式下使用抓取工具（P）将物品回收至仓库中。"
+		enabledisable: "您可以在管理模式下使用开启/停用工具（按键O）快速启用和停用多个建筑，而不需要打开每个建筑面板。"
+		extrarefineries: "如果您发现木材短缺，您可以建造更多的木材加工厂。其他资源加工厂也是如此。"
+		old-tech: "前往世界各处遗迹收集古代废铁，它们可用于在废墟建筑中制造独特的物品。"
+		copybuilding: "在管理模式下，使用复制建筑键（默认为“V”）可将当前光标所指的建筑在另一处快速复制。"
+		targetmarker: "您可以激活设置窗口中的目标标记功能，为远程攻击提供辅助瞄准。"
+		key-bindings: "从设置窗口打开按键绑定，即可了解和修改所有的键盘快捷键，这将极大方便您的游戏操作。"
+		milestones: "将鼠标悬停在里程碑上，了解更多关于这些奖励的信息。"
+		milestones2: "完成里程碑可获得古代废铁奖励，它们可以用来激活古代机器。"
+		rawresources: "当您起飞时，大部分原料都无法带走。在飞走之前，尽量将原料加工好。"
+		scrap-when-leaving: "别忘了在起飞前拆除城市外部的所有建筑，您可以回收一半的原料（除了幻能）。"
+		upgrade-in-city: "谨慎选择要放置在城市内部并在起飞时携带的建筑。将建筑升级可以提高其效率。"
+		move-before-leaving: "别忘了大部分的建筑都是可以移动的，因此您可以重新规划您的城市，选择需要携带的建筑。但炮塔不能在受到袭击时移动，所以要提前考虑。"
+		expand-city: "增加您的人口来解锁城市扩展建设选项，然后扩张您的城市，这样您就有更多的空间来建造您可以携带的建筑。但是要注意城市的重量。"
+		discord: "欢迎加入我们的Discord群组（您可以在主界面找到链接）。您可以提出任何问题，和我们的开发人员或其他社区成员聊天。"
+		add-ons: "当您解锁建筑的扩展模组后，可以通过建筑面板来建造这些模组，解锁新的生产配方或者其他加成。"
+		resources-leaving: "对一些重要资源需要保持一定的储备，当您飞去其他区域时，您需要用它们来重建那些被舍弃的建筑。"
+		food-leaving: "起飞之前，要确保您有足够的食物、幻能和电能。到达下一个着陆点后，您可能需要花上一段时间才能生产这些资源。"
+		exploring: "勇敢去探索地图吧。您会发现更多的资源，更多有价值的残骸和古代遗迹，也能更容易确定敌人袭击的路线。"
+		auto-output: "非仓库建筑的出口会默认输出所有物品。在管理模式中选择出入口，即可修改此设定。"
+		exit-limits: "当物品从仓库中输出时，您可以在物品选择弹出框中设置最低数量。只有物品数量超过仓库设定最低数量时才会输出。"
+		upgrade-layer: "在管理模式下打开升级视图（小地图左侧）可以查看建筑等级，也可以一键升级。"
+		prod-layer: "在管理模式下打开生产视图（小地图左侧），查看或更改每处建筑生产的物品。"
+		usable-storage: "资源总览窗口（默认按键“T”）显示了当前可用于建造/制作的所有物品，包括全局物品、小迪背包中的物品以及仓库中的资源。"
+		customize-resource-ui: "您可以在游戏面板左上角选择跟踪哪些资源。"
+		city-info: "点击游戏面板中的城市名称，即可打开城市信息窗口。该窗口还提供了当前着陆区域的信息。"
+		free-camera: "在战斗模式下，您可以使用自由视角的键盘快捷键，以便在切换管理模式时自动启用自由视角。"
+		worker-assign: "您可以减少分配给生产建筑的工人数量，以降低该建筑的生产速率，安排工人投入其他工作。"
+		piercing-weapons: "穿刺武器的射弹会穿透目标，并击中后面的人。"
+		archeology-unlocks: "在 2个骷髅头或更高危区域摧毁废墟，解锁新的考古计划。"
+	}
+	contexthints: {
+		roadbuild: "*沿所需方向拖放-放置轨道。\n*以建筑为起点拖放-建立出口。\n*以建筑为终点拖放-建立入口。\n*右键单击退出建造模式。\n*拖放轨道横跨现有的轨道，即可建立交叉口。"
+		buildmode: "使用“{0}”键旋转建筑。\n右键单击退出此模式。"
+		bulldoze: "选择要拆除的建筑。\n右键单击退出此模式。"
+		repair: "选择要维修的损坏建筑。\n右键单击退出此模式。"
+		repair-costs: "修复{0}：{1}×{2}"
+		move: "选择要移动的建筑。\n右键单击取消。"
+		delinout: "左键单击移除出入口。\n右键单击退出此模式。"
+		pickcart: "点击并拖放抓取工具。\n右键单击退出此模式。"
+		enabledisable: "左键单击建筑以启用/停用。\n右键单击以退出此模式。"
+		gather: "使用“E”键收集{0}。"
+		gathering: "收集{0}"
+		inventory: "左键单击转移物品\n按住SHIFT转移所有物品或按住CONTROL转移10个物品\n右键单击使用/装备物品"
+	}
+	keymapping: {
+		categories: {
+			general: "通用操作"
+			management: "城市管理模式"
+			camera: "视角控制"
+			windows: "窗口快捷键"
+		}
+		action: {
+			Up: "向上移动"
+			Left: "向左移动"
+			Right: "向右移动"
+			Down: "向下移动"
+			DefaultView: "默认视角"
+			TopDownView: "切换垂直视角"
+			ZoomIn: "放大"
+			ZoomOut: "缩小"
+			RotateCamera: "旋转视角"
+			Interact: "互动"
+			StrategicView: "切换管理模式"
+			SwitchWeapons: "切换武器组"
+			CameraControlMode: "切换视角控制模式"
+			Build: "切换建造模式"
+			BuildPrevCat: "上一项建筑类别"
+			BuildNextCat: "下一项建筑类别"
+			CopyBuilding: "复制光标所指建筑"
+			BuildRails: "建造轨道快捷键"
+			Bulldoze: "切换拆除模式"
+			Repair: "切换维修模式"
+			Move: "切换移动建筑模式"
+			EnableDisableBuilding: "切换启用/停用模式"
+			PickCarts: "切换抓取模式"
+			Inventory: "角色窗口"
+			Research: "科技窗口"
+			Skills: "基础设施窗口"
+			Journal: "日志窗口"
+			Crafting: "工艺窗口"
+			UsableStorage: "资源总览"
+			Gamepedia: "梦幻档案窗口"
+			Transfer10: "按住选择物品×10"
+			TransferAll: "按住选择所有可用物品"
+			RotateRight: "向右旋转建筑"
+			RotateLeft: "向左旋转建筑"
+			AddToQueue: "按住添加科技至研究队列"
+			QuickSave: "快速保存"
+			QuickLoad: "快速加载"
+			Help: "帮助"
+			RemoveAccessPoint: "移除接轨点"
+			IncreaseGameSpeed: "加快游戏速度"
+			DecreaseGameSpeed: "减慢游戏速度"
+			Pause: "暂停"
+			FreeCamera: "切换自由视角"
+			GotoCore: "前往城市核心/小迪"
+		}
+		keys-short: {
+			Space: "Spc"
+			LeftShift: "左 Shift"
+			LeftControl: "左 Control"
+			RightShift: "右 Shift"
+			RightControl: "右 Control"
+			Return: "Ent"
+			KeypadEnter: "Ent"
+			Insert: "Ins"
+			PageUp: "PGUP"
+			PageDown: "PGDN"
+		}
+		keys: {
+			LeftShift: "左 Shift"
+			LeftControl: "左 Control"
+			RightShift: "右 Shift"
+			RightControl: "右 Control"
+			Period: "。"
+			Comma: "，"
+			Tab: "Tab"
+			RightBracket: "]"
+			LeftBracket: "["
+			Space: "Space"
+			Delete: "Del"
+			Return: "Enter"
+			KeypadPeriod: "."
+			KeypadDivide: "/"
+			KeypadMultiply: "*"
+			KeypadMinus: "-"
+			KeypadPlus: "+"
+			KeypadEnter: "Enter"
+			KeypadEquals: "="
+			UpArrow: "上"
+			DownArrow: "下"
+			RightArrow: "右"
+			LeftArrow: "左"
+			Insert: "Insert"
+			Home: "Home"
+			End: "End"
+			PageUp: "Page Up"
+			PageDown: "Page Down"
+			Semicolon: "；"
+			Slash: "/"
+			Minus: "-"
+			Quote: "\""
+			Equals: "="
+			None: ""
+		}
+	}
+	difficulty: {
+		start-items: "额外初始资源："
+		settings: {
+			difficulty-preset: {
+				title: "预设难度"
+				hover: "预设定的难度等级"
+			}
+			enemy-strength: {
+				title: "敌人数量"
+				hover: "地图上和突袭中的敌人数量"
+				options: {
+					very-easy: "简单"
+					easy: "一般"
+					normal: "中等"
+					hard: "困难"
+				}
+			}
+			combat-difficulty: {
+				title: "战斗难度"
+				hover: "决定地图探索和小迪战斗的难度。"
+				options: {
+					very-easy: "简单"
+					easy: "一般"
+					normal: "中等"
+					hard: "困难"
+				}
+			}
+			economy: {
+				title: "经济"
+				hover: "影响城市经济建设和发展稳定的难度。"
+				options: {
+					very-easy: "简单"
+					easy: "一般"
+					normal: "中等"
+					hard: "困难"
+				}
+			}
+			resource-node-count: {
+				title: "资源矿点"
+				hover: "每处地图的资源矿点数"
+				options: {
+					easy: "一般"
+					normal: "中等"
+					hard: "困难"
+				}
+			}
+			threat-time: {
+				title: "威胁等级增长间隔"
+				hover: "决定威胁等级增加所需时长。\n\n更高的数值意味着两次突袭之间的间隔时间更长，威胁等级增加速度更慢。"
+				options: {
+					no-raids: "突袭已禁用"
+					very-easy: "简单"
+					easy: "一般"
+					normal: "中等"
+					hard: "困难"
+				}
+			}
+			mini-raids: {
+				title: "离群幻魇"
+				hover: "游荡的敌人有时会在毫无征兆的情况下出现并攻击你的城市。它们的攻击强度要比突袭要小得多，它们不会随着回合数增加变得更强。当启用此项时，请确保您的城市在任何时候都在各个方向上都有防御能力。"
+				options: {
+					off: "禁用"
+					normal: "普通"
+				}
+			}
+			global-difficulty-time: {
+				title: "生存模式"
+				hover: "判断全球入侵等级是否自动增加以及其增加速度如何。\n\n开启后随着时间的推移，您的着陆选项会越来越难。关闭则可获得更轻松的体验。"
+				options: {
+					relaxed: "关闭"
+					beginner: "新手"
+					easy: "一般"
+					normal: "中等"
+					hard: "困难"
+				}
+			}
+			pause-in-menus: {
+				title: "观察者工具"
+				hover: "观察者工具允许自由视角移动，游戏速度控制和主动暂停。如果没有这些工具，您将面临更大的时间压力，您需要控制小迪移动至目标区域才能建设或管理你的城市。"
+				options: {
+					normal: "已启用"
+					hard: "已禁用"
+				}
+			}
+			elections: {
+				title: "议会选举"
+				hover: "禁用议会选举和派系关系。"
+				options: {
+					off: "禁用议会"
+					normal: "启用议会"
+				}
+			}
+			ironman: {
+				title: "辅助模式"
+				hover: "在辅助模式下只能保存一个存档，游戏进度将在您每次退出时自动保存。如果游戏失败，该存档将被删除。"
+				options: {
+					normal: "关闭"
+					hard: "开启"
+				}
+			}
+			map-size: {
+				title: "着陆地图尺寸"
+				hover: "更大的地图需要更多的时间来探索，其中也会存在更多的敌人。\n\n更小的地图可能会提高游戏表现。"
+				options: {
+					easy: "200×200"
+					normal: "220×220"
+					hard: "240×240"
+				}
+			}
+		}
+		presets: {
+			very-easy: {
+				name: "休闲"
+				desc: "此难度最适合对地图探索和建造更感兴趣的玩家。\n\n在此难度下，强袭等级不会增加，除非您主动飞到更高难度的地图。\n\n敌人仍然会攻击您的城市，但是威胁等级增加的速度要慢得多。如果您想完全取消突袭，您可以在下面的威胁难度设置中自定义选择。"
+			}
+			easy: {
+				name: "一般"
+				desc: "此难度下游戏节奏较慢、容错度更高，您可以在任何时候保存游戏进度，并且游戏中所有的敌人更弱。\n\n我们推荐新玩家，或者寻求轻松的游戏体验，但仍希望有一些时间压力和挑战的玩家选择此难度。"
+			}
+			beginner: {
+				name: "初学者"
+				desc: "此难度为新手推荐难度。\n\n此模式下游戏速度会稍稍放慢，游戏中的战斗较为容易，这将让您更好地熟悉游戏内容。\n\n在您经过几次尝试，逐渐熟悉游戏中独特的操作和系统后，我们推荐您切换至中等难度进行游戏。"
+			}
+			no-time-limit: {
+				name: "从容不迫"
+				desc: "接近于中等难度，但强袭等级不会自动增加。\n\n此模式下游戏压力显著降低，因为您可以在前往更高等级的地图之前，随意访问低等级地图。在每张地图中仍会存在时间压力，因为突袭和威胁等级会正常增加，但是飞至同样难度等级的新地图时会重置这些等级。"
+			}
+			economy-focus: {
+				name: "经济挑战"
+				desc: "此难度适合更喜欢在建筑和管理方面寻求挑战的玩家。\n\n此模式下的战斗难度接近于初学者难度，但资源更为稀有，建设成本也会增加。"
+			}
+			challenging: {
+				name: "中等"
+				desc: "此难度为游戏正常难度。\n\n推荐已经熟悉游戏中独特的系统和操作，准备好迎接真正挑战的玩家选择此难度。"
+			}
+			hard: {
+				name: "困难"
+				desc: "此难度适合喜欢挑战自我的玩家。\n\n地图中存在更多的敌人，威胁等级增长更快，给玩家带来更紧迫的时间压力。"
+			}
+			very-hard: {
+				name: "幻魇群袭"
+				desc: "最高难度等级。\n\n小迪的属性更弱，能找到的资源更少，建筑需要更多材料。强袭间隔时间比困难等级更短。\n\n请量力而行。"
+			}
+			custom: {
+				name: "自定义"
+				desc: ""
+			}
+		}
+	}
+	opening-story: {
+		paragraph1: {
+			text1: "特维斯特"
+			text2: "曾经，这是一个充满奇迹和梦想的世界。"
+			text3: "现在，这里成了噩梦之地。"
+		}
+		paragraph2: {
+			text1: "随着一种超越现实的技术“梦幻科技”的出现，特维斯特成为了许多伟大而繁荣的帝国的家园。"
+			text2: "至少，传说是这么记载的。"
+		}
+		paragraph3: {
+			text1: "随后，幻魇降临。"
+			text2: "无人知晓他们来自哪里。这些东西似乎直接来自他们的噩梦。"
+			text3: "它们到处出现，让世界措手不及。"
+			text4: "特维斯特人英勇奋战，但幻魇却无休无止，毫不留情。大城沦陷，帝国灭亡。"
+		}
+		paragraph4: {
+			text1: "几个世纪后，特韦斯特本身变成了一个黑暗扭曲的星球。"
+			text2: "仅存的一些特维斯特人以游牧部落的形式生存，从不扎根，也从不在同一个地方停留太久。在幻魇捕捉到他们的气息之前，不停迁徙。"
+			text3: "您的故事从这里开始。"
+		}
+	}
+	dialogue-characters: {
+		scientist: {
+			name: "首席科学家玛丽"
+		}
+		advisor: {
+			name: "韩顾问"
+		}
+		archeologist: {
+			name: "考古学家华莱士"
+		}
+		narrator: {
+			name: ""
+		}
+	}
+	missions: {
+		dialogue-goals-format: "{0}\n\n<color=#99EEFF>目标\n{1}</color>"
+		dialogue-goals-line: "• {0}"
+		story-start: {
+			name: "新希望"
+			texts: {
+				desc: "一座会飞的古城的出现，重新点燃了您们部落的希望。"
+			}
+			dialogue: {
+				before1: "监察官，这太神奇了！真是古人的杰作。"
+				before2: "他们称它为 \"游牧城\"，它还会飞！我们不知道他们为什么要弃城，一切似乎都还在运转。"
+				before3: "监察官，这个城里有一个神通。是一个叫做“小迪”的机械巨人。这也许是古人开的一个玩笑。"
+				before4: "它全副武装，我们可以用它来探索周围的环境，寻找资源，对抗幻魇。"
+				before5: "也许是时来运转。我们可以在这里建立一个真正的家，无论何时被迫逃离，我们都可以带着它。"
+				before6: "即将进入城市核心的监察室。在这里，您可以控制小迪和整个城市。您可以感受到旅程的开始。巨大的困难在等待着您，但同时也带来了新的希望。您开始熟悉小迪的控制，并向往建造一座像过去一样宏伟的城市。"
+			}
+			objectives: {
+				complete-tutorial: "完成教学"
+				city-level1: "达到人口数{1}"
+			}
+		}
+		story-buildlab: {
+			name: "研究"
+			texts: {
+				desc: "部落希望开展自己的研究，以改善这座城市。"
+			}
+			dialogue: {
+				before1: "我们开了个好头，监察官。大家从来没有如此兴奋过。"
+				before2: "我们可以在这里建设一座真正伟大的城市，但要想发展和保卫这座城市，我们需要自己进行研究。"
+				before3: "这座城市的基础设施状况相对较好，但很老旧。真的很古老。也许我们可以研究一个生产零件的车间，用来升级基础设施。"
+			}
+			objectives: {
+				city-level2: "达到人口数{1}"
+				buildlab: "建造：{0}"
+				unlockworkshop: "研究{0}"
+			}
+		}
+		story-upgrade-core: {
+			name: "城市核心"
+			texts: {
+				desc: "升级城市核心可以解决市民的生存问题。"
+			}
+			dialogue: {
+				before1: "监察官，您现在可以建造一个车间来生产零件，从而升级城市的基础设施。"
+				before2: "我们的科学家还为城市核心设计了一些升级方案。请升级核心，从而提高飞行能力和资源产量。"
+				before3: "监察官，请记住，我们在一个地方呆得越久，幻魇的敌意就会越来越强。"
+				before4: "当我们身处险境或找不到所需资源时，您可以将城市飞往新的地点。"
+			}
+			objectives: {
+				upgrade-core2: "升级: {3}"
+			}
+		}
+		story-build-expeditioncenter: {
+			name: "远征中心"
+			texts: {
+				desc: "调查游牧城市的起源及其居民的遭遇。"
+			}
+			dialogue: {
+				before1: "监察官，我在城市档案中发现了一些有趣的东西。我发现在沙漠某处有一个研究机构正在研究一个叫做'游牧人计划'的东西。"
+				before2: "我相信这个设施就是游牧城市的源头。如果我们对它进行调查，也许就能知道居住在这里的古人的遭遇，以及是否还有其他类似的城市。"
+				before3: "我还在寻找该设施的确切位置。与此同时，请研究并建造一个探索中心，以便组织派遣探索队。"
+				before4: "监察官，请记住，我们在一个地方呆得越久，幻魇的敌意就会越来越强。当我们身处险境或找不到所需资源时，您可以将城市飞往新的地点。"
+				before5: "探索中心的一些所需资源只有在沙漠地区才能找到。"
+			}
+			objectives: {
+				build-expeditioncenter: "建造：{0}"
+			}
+		}
+		story-cityorigin-fly: {
+			name: "城市起源"
+			texts: {
+				desc: "调查游牧城市的起源及其居民的遭遇。"
+			}
+			dialogue: {
+				before1: "监察官，我们好像找到了游牧人研究设施。它位于附近的一片沙漠中，危险等级为 2 级。"
+				before2: "危险等级越高的地方，幻魇就越难对付。在飞往更危险的地区之前，请确保小迪装备齐全，城市防守严密。"
+			}
+			objectives: {
+				reach-desert2: "飞往{1}-{0}个骷髅或更高的区域"
+			}
+		}
+		story-cityorigin-expedition: {
+			name: "探索城市起源"
+			expedition-name: "游牧人研究设施"
+			texts: {
+				desc: "调查游牧城市的起源及其居民的遭遇。"
+			}
+			dialogue: {
+				before1: "监察官，我们找到了，是游牧人研究设施。不是很远，您可以组织一支探索队去调查这些遗迹。"
+			}
+			objectives: {
+				perform-expedition: "完成探索：{0}"
+			}
+		}
+		story-dreamplagues-fly: {
+			name: "幻魇"
+			texts: {
+				desc: "您需要了解更多有关幻魇的信息，以及对这座城市造成的影响。"
+			}
+			dialogue: {
+				before1: "监察官，我们发现了一些东西 很... 令人不安。"
+				before2: "游牧计划已被放弃。我们发现这是唯一一座建成的城市，而且从未有人居住过。"
+				before3: "众所周知，梦幻科技是建立在我们的现实世界与梦境之间的联系之上。"
+				before4: "我们睡着后，\"意识 \"或 \"灵魂 \"就会进入梦境充能。在那里自然法则不复存在。在梦中，一切皆有可能。"
+				before5: "梦幻引擎可以进入梦境，汲取梦境的精华-\"通量\"。然后，梦幻引擎装置就会利用这些通量来扭曲我们物质世界的现实。"
+				before6: "据我们所知，古人建造游牧城是为了躲避幻魇。但他们发现了一个副作用。"
+				before7: "由于某种原因，城市导致事态恶化。噩梦裂缝在他们周围不断出现，幻魇也被吸引到城市中。"
+				before8: "更糟糕的是，他们认为这种伤害是永久性的。由于风险太大，他们放弃了这个计划。"
+				before9: "监察官，我们还不能放弃这座城市。也许古人错了。也许几个世纪过去后，一切都变了。我们不能再回到以前的那种生活方式了，我们会活不下去的。"
+				before10: "在您做出决定之前，请让我们进一步调查。我们发现了另一个研究设施，一个研究幻魇的机构。"
+				before11: "让我找找看，也许会有更多答案。"
+			}
+			objectives: {
+				reach-tier3: "继续建设城市，直到找到研究设施。"
+			}
+		}
+		story-dreamplagues-toblue: {
+			name: "搜索幻魇"
+			expedition-name: "游牧人研究设施"
+			texts: {
+				desc: "您需要了解更多有关幻魇的信息，以及对这座城市造成的影响。"
+			}
+			dialogue: {
+				before1: "监察官，据说幻魇研究中心就在梦幻之地的某处。等您准备好后就出发吧。"
+			}
+			objectives: {
+				reach-blue: "飞往{0}"
+			}
+		}
+		story-dreamplagues-expedition: {
+			name: "探索幻魇"
+			expedition-name: "幻魇研究中心"
+			texts: {
+				desc: "您需要了解更多有关幻魇的信息，以及对这座城市造成的影响。"
+			}
+			dialogue: {
+				before1: "我们找到了幻魇研究中心。就在这附近。组织一支探索队去调查吧。"
+			}
+			objectives: {
+				perform-expedition: "完成探索：{0}"
+			}
+		}
+		story-repair-informationstorage: {
+			name: "探索幻魇"
+			texts: {
+				desc: "信息存储设备可提供幻魇的相关信息。"
+			}
+			dialogue: {
+				before1: "我们的探索队回来了，监察官。研究中心的状况比我们预想的还要糟糕，建筑已经所剩无几。"
+				before2: "他们确实发现了一些东西，似乎存储了一些研究信息。在确定之前我们必须修复设备。"
+			}
+			objectives: {
+				repair-storage: "制造{0}"
+			}
+		}
+		story-drepattack: {
+			name: "已搁浅"
+			texts: {
+				desc: "信息存储设备正在吸引幻魇，导致城市丧失飞行能力。"
+			}
+			dialogue: {
+				before1: "监察官，我们修复了这个装置。它确实存有一些信息，但同时也在启动一些奇怪的东西，干扰我们的梦幻科技。"
+				before2: "监察官，有紧急情况！侦查员刚刚来报，有一大批幻魇正向城市赶来，而这个装置正在干扰引擎，让城市无法飞行。"
+				before3: "监察官，请去检查城防，我去接触装置。"
+			}
+			objectives: {
+				defeat-attack: "捍卫城市"
+			}
+		}
+		story-dreamguard-fly: {
+			name: "梦幻卫士"
+			texts: {
+				desc: "你了解到一个古老的组织-梦幻卫士。"
+			}
+			dialogue: {
+				before1: "一切都结束了，但我们不得不销毁这个装置。销毁之前我们设法从中获取了一些信息。"
+				before2: "我们发现了关于古人黑暗时代的信息，他们称之为 \"噩梦年代\"。那是一个古人使用可怕的梦幻科技武器互相开战的时代。"
+				before3: "战争结后，特维斯特几乎被摧毁。据我们所知，战争最终以一个名为梦幻卫士的组织的胜利而告终。"
+				before4: "他们冷酷无情，战争胜利后控制了整个特维斯特。"
+				before5: "没有找到有关幻魇起源的信息。也许是梦幻卫士使用的某种武器？"
+				before6: "如果能找到他们基地的遗迹，也许能了解到更多信息。有情报显示在灰陨山脉有一个基地。"
+				before7: "那个地区很热。如果没有适当的保护措施，我们的城市将无法承受。"
+				before8: "我们可以在城市核心安装一个热盾用来保护整个城市，但首先必须研究一下。"
+			}
+			objectives: {
+				build-heatshield: "在你的{0}建造{3}"
+				reach-lava: "飞往{0}"
+			}
+		}
+		story-dreamguard-expedition: {
+			name: "探索梦幻卫士"
+			expedition-name: "被遗弃的梦幻卫士基地"
+			texts: {
+				desc: "你了解到一个古老的组织-梦幻卫士。"
+			}
+			dialogue: {
+				before1: "梦幻卫士基地就在附近。派一支探索队吧，监察官。"
+			}
+			objectives: {
+				perform-expedition: "完成探索：{0}"
+			}
+		}
+		story-lady-doom-fly: {
+			name: "危险的实验"
+			texts: {
+				desc: "这个不寻常的实验可能与幻魇的出现有关。"
+			}
+			dialogue: {
+				before1: "监察官，我们了解到了很多有关梦幻卫士的信息。我们错了，他们根本不是征服者。"
+				before2: "随着特维斯特几乎被摧毁，各国一致同意结束战争。他们签署了梦幻卫士协议，同意限制梦幻科技的使用与研究。特别是梦幻科技武器被严格禁止。"
+				before3: "梦幻卫士就是为了维护协议而成立的。他们在监管梦幻科技的使用方面确实冷酷无情，但在他们的维护下，特维斯特蒸蒸日上。"
+				before4: "伟大的城邦拔地而起，人们过着幸福自由的生活。除了梦幻卫士本身，所有军事行动都被视为非法，大量资源被投入到人们的福利建设中。"
+				before5: "这样和平而富裕的时代对我们来说就是一个梦。"
+				before6: "幻魇在那个时期根本不存在。无论它们是什么，都一定不是战争的产物。"
+				before7: "我们还有另外一条线索。尽管当时生活美好，但犯罪仍然存在。贪婪和权力欲望仍然占据着一些人的内心。"
+				before8: "这里提到了一个这样的罪犯，她是一个疯狂的科学家，只知道她叫 \"厄运女士\"。她进行了非法的梦幻科技实验，并设法躲过了梦幻卫士的追捕。"
+				before9: "实验的具体情况还不得而知。但我们相信这与幻魇有关。"
+				before10: "我们拿到了另一个设施的位置，那里应该有更多关于她的实验的信息。"
+			}
+			objectives: {
+				reach-lady-doom: "飞往{1}-{0}个骷髅或更高的区域"
+			}
+		}
+		story-lady-doom-expedition: {
+			name: "探索危险实验"
+			expedition-name: "梦幻卫士基地废墟"
+			texts: {
+				desc: "这个不寻常的实验可能与幻魇的出现有关。"
+			}
+			dialogue: {
+				before1: "我们到了，监察官。组建一支探索队，了解更多有关厄运女士实验的信息吧。"
+			}
+			objectives: {
+				perform-expedition: "完成探索：{0}"
+			}
+		}
+		story-researchshield: {
+			name: "实验物品"
+			texts: {
+				desc: "寻找一种长期的解决方案，以免受到幻魇的伤害。"
+			}
+			dialogue: {
+				before1: "监察官，我们了解到了更多有关厄运女士和她的实验。她渴望权力。"
+				before2: "她认为，进入梦境并利用波动改变现实世界只是冰山一角。如果能以实体形态进入梦境，她将变得无所不能。自然法则将不再适用，她可以在里面为所欲为。"
+				before3: "她着了魔，在梦幻卫士的眼皮底下做实验，虽然最终她成功了，但她也失败了。"
+				before4: "梦境是一个纯能量的地方。据我们所知，她的身体已经扭曲变形，并被梦境的纯能量压碎。"
+				before5: "传说她的意识仍被困在梦境中，永远身处痛苦，无法回到我们的现实世界，因为她的肉体已经不存在了。"
+				before6: "监察官，这还不是全部。我们以为梦境无人居住，但事实并非如此。她的实验数据显示，当她把肉体转移到梦境时，遇到了什么东西。"
+				before7: "那里住着某种东西。当厄运女士进行实验时，它们意识到了我们这个现实世界的存在。"
+				before8: "他们没有肉身，无法存在于我们的世界。但毁灭女神在我们的世界之间制造了一道裂缝。这些东西可以通过裂缝影响我们的世界。它们可以附身在生物身上，甚至是没有生命的物体上。"
+				before9: "这就是幻魇。它们渴望来到这个物质世界，但它们所能做的只是占有物质。它们一直渴望着我们活生生的肉体。"
+				before10: "它们开始出现在整个特维斯特。起初数量不多，但每当梦幻卫士摧毁一个巢穴，关闭一道裂缝，就会有更多的幻魇\n出现。"
+				before11: "梦幻卫士不堪一击，城邦沦陷。特维斯特本身变化、扭曲，变成了我们今天所知的黑暗之地。"
+				before12: "监察官，我们该如何是好。这座城市正在危害整个世界。如此大量的梦幻科技集中在一个地方，削弱了梦境之间的界限，扩大了裂缝。但这也是我们生存的唯一希望。"
+				before13: "梦幻卫士通过实验发现了另一种物质。一种与梦境通量相斥的反梦境物质。希望这种物质能帮助他们对抗幻魇。"
+				before14: "让我们继续探索吧。"
+			}
+			objectives: {
+				perform-research: "调查{0}"
+			}
+		}
+		story-buildshield: {
+			name: "生存的代价"
+			texts: {
+				desc: "寻找一种长期的解决方案，以免受到幻魇的伤害。"
+			}
+			dialogue: {
+				before1: "监察官，我们成功了。我们找到了可以源源不断制造反梦境物质的方法。"
+				before2: "我们可以建造一种无效化屏障。因为古人无法建造这种屏障，所以每当他们进行反梦境实验时，幻魇就会摧毁他们的研究。"
+				before3: "但是我们有这座城市可以继续前进，完成他们的使命。但这需要大量的资源和材料，而这些并不容易找到。"
+				before4: "需要注意的是，监察官，屏障可以保护我们不受幻魇的伤害。他们无法影响里面的现实世界，附着的东西将会变成无生命的躯壳。"
+				before5: "但我们的梦幻科技也无法使用。通量会产生惰性，我们可以存货下来，但也会被困在这里。"
+				before6: "监察官，请做出选择吧。我们可以一直飞下去，对抗越来越多的幻魇，也可以建造并启动无效化屏障。"
+				before7: "如果您选择建造屏障，请记住充能需要很长时间才能完成。在此期间将会吸引大量幻魇。"
+				before8: "我们躲过了攻击，来到了较为安全的区域，但屏障非常重，引擎也需要冷却一段时间后才能再次飞行。我们的防御能力将经受考验。"
+			}
+			objectives: {
+				build-shield: "建造 ：{0}"
+				activate-shield: "存活下来，直到完成充能。"
+			}
+		}
+	}
+	events: {
+		mechdestroyed: {
+			title: "紧急传送"
+			text: "小迪损伤过重即将解体，紧急召回传送装置已启动，但是您已为此付出了代价。\n\n*已消耗<highlight>{0}幻能</highlight>。\n*敌人<highlight>威胁计时器 </highlight>显著加快。\n\n请多加小心。"
+		}
+		tutorial-reward: {
+			title: "任务完成"
+			text: "干得漂亮！您获得了以下奖励："
+		}
+	}
+	modding: {
+		license-required: "您必须接受Steam创意工坊许可协议才能公开分享模组。"
+		edit-title: "模组元数据"
+		enter-patch-notes: "输入更新说明"
+		untitled: "未命名"
+		creator: "作者名称"
+		uid: "UID"
+		visibility: "是否可见"
+		tags: "标签"
+		uploading: "正在上传…"
+		upload-complete: "已上传至Steam。"
+		saved: "所有更改已保存。"
+		steam-not-initialized: "Steam未启动。"
+		io-error: "IO错误：{0}"
+		error: "错误：{0} - {1}"
+		missing-preview: "缺少预览图片。"
+		wrong-title-size: "模组名称应当在5到128个字符之间。"
+		wrong-desc-size: "描述内容应当在30到6000个字符之间。"
+		wrong-tag-size: "标签名称应当在4到32个字符之间。"
+		wrong-creator-size: "作者名称应当在5到128个字符之间。"
+		missing-tags: "请至少输入一个标签。"
+		visibility-option: {
+			Public: "所有人"
+			Friends: "仅好友"
+			Private: "仅自己"
+		}
+	}
+	roadmap: {
+		active-pause: "主动暂停"
+		alter-recipes: "可收集的配方"
+	}
+}

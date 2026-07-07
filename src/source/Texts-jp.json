@@ -1,0 +1,3700 @@
+{
+	general: {
+		lang-name: "日本語"
+		costs: "コスト"
+		produced: "生産量"
+		globalstorage: "ストレージ容量"
+		effects: "効果"
+		edit: "編集"
+		inputoutput: "インプット/アウトプット"
+		research: "研究"
+		other: "その他"
+		journal: "ジャーナル"
+		selectitem: "アイテム選択"
+		difficulty: "難易度"
+		none: "なし"
+		owned: "所有している"
+		missing: "紛失"
+		upgrade: "アップグレード"
+		milestones: "マイルストーン"
+		continue: "続行する"
+		autosaving: "自動保存されています…"
+		ok: "OK"
+		resources: "資源"
+		max: "最大"
+		unlock-bonuses: "ボーナス"
+		crafting-recipe: "工作レシピ"
+		production-recipe: "生産レシピ"
+		produced-at: "{0}で生産されました"
+		installed-at: "インストール先: {0}"
+		is-single-module: "建物一棟につき一つしかインストールできません。"
+		construction-blueprint: "建築設計図"
+		building-addon: "建物アドオン設計図"
+		archeology-unlock: "考古学プロジェクトブループリント"
+		upgrade-to: "{0}にアップグレードします"
+		select-option-title: "オプション選択"
+		not-available-ironman: "アイアンマンモードでは使用できません。"
+		ironman: "アイアンマン"
+		rewards: "報酬"
+		unlock-prod: "{0}の生産を許可します"
+		requires-addon: "必要なビルディングレベル/アドオン："
+		prereqs: "必須条件："
+		blocked: "ブロック"
+		lc-issue: "翻訳問題の報告"
+		disabled-in-demo: "デモができない"
+		start: "スタート"
+		next: "ネクスト"
+		add-item: "アイテムの追加"
+		categories: "カテゴリー："
+		paused: "一時停止"
+		inventory: "インベントリ"
+		per-cycle: "{0}/サイクル"
+		toggle-active: "トグル動作"
+		used-in: "使用されています"
+		obtained-through: "入手方法："
+		appears-in-biome: "以下のものが存在します："
+		see-gamepedia: "ドリームアーカイブスでアイテムの詳細を確認します（デフォルトは「H」）"
+		save: "セーブ"
+		upload: "アップロード"
+		cancel: "キャンセル"
+		description: "詳細"
+		title: "タイトル"
+		disabled: "無効"
+		unlocks: "アンロック"
+		free: "無料\nx{0}"
+		help: "ヘルプ"
+		show-tutorial: "チュートリアルを表示します。"
+		no-refund-demolish: "返金不可"
+		blueprint-format: "{0}ブループリント"
+		passive-income-format: "パッシブ{0}"
+		global-storage-format: "{0}ストレージ"
+		default: "デフォルト"
+		morebysuncrash: "Suncrashのその他のゲーム"
+	}
+	title-messages: {
+		alpha-link: "<u>メジャーアップデートを通知します</u>。"
+	}
+	winlose: {
+		win-title: "ヌリファイアシールド発動"
+		win-subtitle: "あなたの勝ちです"
+		win-text: "無効化シールドはフルチャージされました。不思議な感覚に包まれて、一気に技術が狂います。\n\n無効化フィールドが起動しました。街を中心に数キロにわたってドリームテックは無効となります。原始的な道具とシンプルなテスラ技術で何とかしなければならなりません。\n\nもう現実を捻じ曲げることはできません。街と一緒に飛び回る必要もありません。そして、何よりも、ドリームイーターが人々を食い尽くこともないのです。もう安全なのです。"
+		lose-title: "破壊されたシティコア"
+		lose-subtitle: "ゲーム終了"
+	}
+	widgets: {
+		production: {
+			hover-title: "製作"
+			hover-text: "金額は1サイクル（ゲーム内の時間単位）あたりのものです。\n\n別のレシピがある場合は、ドロップダウンボタンをクリックして選択します。"
+			change-hover: "研究や都市のアップグレード、探検を通じて、新しい生産レシピを手に入れることができます。"
+			remaining-res: "残された資源：{0}"
+			input-title: "入力"
+			output-title: "出力"
+			buildings: "で生産されました"
+			percycle-title: "生産部 バー"
+			percycle-hover: "このバーは、生産または消費の進行状況を示しています。バーがいっぱいになると、1つのユニットが生産されます。バーが空になると、1つのユニットが消費されます。\n\n表示されている数字は生産・消費率で、1サイクル（ゲーム内の時間単位）に何個のユニットが生産されるかを示しています。資源の生産や消費は、一括ではなく、常に1回ごとに行われます。"
+			select-recipe-title: "レシピの選択"
+			click-to-change: "クリックしてレシピを変更します"
+			assigned-count: "{0} / {1} (マックス {2})"
+			assigned-hover: "割り当てられた生産者数によって、この建物の生産速度が変化します。"
+		}
+		launch: {
+			hover-title: "離陸"
+			hover-text: "都市全体の打ち上げ手順を開始します。エンジンの充電には時間がかかりますが、離陸まであなたの都市をしっかりと守ってください。\n\n市外の建物はすべて後方に残ります。"
+			progress-bar-hover-text: "離陸するための充電"
+			required-mats: "離陸のコスト："
+			weight: "輸送力：{0}"
+			fuel-cost: "燃料費：{0}"
+			fuel-hover: "離陸時必要: {0}\n使用可能燃料: {1}\n最大燃料タンク: {2}"
+			weight-title: "重量と航続力"
+			weight-hover: "航続力は、離陸時に搭載できる都市の最大重量を決定します。航続力を向上させるために、エンジンを作ったり、アップグレードしたり、または、都市の重量を減らすために建物を解体したりすることができます。"
+		}
+		storage: {
+			hover-title: "ストレージ"
+			hover-text: "ストレージに保管されているアイテムは、クラフト、建設、アップグレードなど、支払いに使用できます。"
+			allow-title: "輸入品"
+			allow-hover: "このドロップオフにどのような原材料を輸入するかを決めます。"
+			add-import-hover: "輸入品の追加"
+		}
+		resources: {
+			hover-title: "リソースノード"
+			hover-text: "リソースノードにある原材料は、その上に建てられたハーベスタービルによって集められます。"
+			build-title: "収集装置を作る"
+			missing-research: "このリソース用にアンロックしたギャザラーはいません。"
+		}
+		shieldwin: {
+			hover-title: "シールドの充電"
+			hover-text: "無力化シールドの充電メーターです。これが完全に充電されたとき、あなたの勝利となります。"
+			progress: "充電量：{0}%"
+		}
+		upkeep: {
+			hover-title: "メンテナンス／アップキーピング"
+			hover-text: "建物を稼働させるために必要な材料。\n\n非共有資源は、建物に直接供給されなければなりません。"
+			progress-text: "次のアップキーピングまでの残り時間です。"
+		}
+		upgrades: {
+			title: "アドオン"
+			buildings: "で入手可能です"
+			level: "レベル{0}"
+			noupgrades: "アドオンを研究することによってアンロックします。"
+			cancels-desc: "このアドオンは、他のアドオンの実行を妨げます。\n{0}"
+		}
+		modules: {
+			title: "モジュールのアップグレード"
+		}
+		research: {
+			title: "研究"
+			speed: "研究のスピード：{0}/サイクル"
+			selectsubject: "研究の選択"
+		}
+		attacker: {
+			title: "タレットの統計"
+		}
+		globalstorage: {
+			title: "ストレージ容量"
+			hover: "この建物は、以下に示すリソースと金額について、保管できるリソースの最大容量を増加できます。"
+			format: "最大{0}：+{1}"
+		}
+		general: {
+			disable-toggle: "オン/オフのスイッチ"
+			weight: "建物の重量"
+		}
+		ruins-store: {
+			title: "遺跡"
+			text: "この古代廃墟には、今でも一部機能している機械があります。適材があれば、機械を使って道具を作ることができますが、数回しか作動させることができません。\n\nまた、廃墟全体を壊して、リソースを探してみるのもいいかもしれません。"
+			open-button: "クラフト"
+			scrap-button: "スクラップ"
+			scrap-disabled-hover: "使えるものはすべて使ってしまいました。"
+		}
+		splitter: {
+			forward: "前進"
+			right: "右"
+			left: "左"
+			catch-all: "他に割り当てられていないすべてのアイテム"
+		}
+		expedition: {
+			title: "エクスペディション"
+			hover-text: ""
+			choose-expedition: "エクスペディションを選択します。"
+			choose-rewards: "報酬を選択します。"
+			stage-prep: "準備状況: {0}"
+			stage-ongoing: "エクスペディション状況: {0}"
+			stage-complete: "エクスペディション完了"
+			stage-not-selected: "エクスペディションが選択されていません。"
+			selected-expedition: "選択されたエクスペディション: {0}"
+			show-expedition-hover: "エクスペディション情報を表示します。"
+		}
+		player-debris: {
+			title: "再建築 {0}"
+		}
+		requires-activation: {
+			title: "建物をアクティベイトします。"
+			upfront-costs: "必要素材："
+			activate-button: "アクティベイト"
+			needs-power: "パワーネットワークに接続します。"
+			time-to-activate: "残り：{0}"
+		}
+		archeologist: {
+			title: "考古学"
+			hover-text: ""
+			choose-project: "プロジェクトを選択します。"
+			stop-project: "プロジェクトを一時停止します"
+			selected-project: "選択したプロジェクト：{0}"
+			select-unlock: "考古学プロジェクトをアンロックします。"
+		}
+		passive-income: {
+			title: "パッシブインカム"
+		}
+	}
+	character: {
+		slot-type: {
+			mech-upgrade: "モジュール ー 小型"
+			city-upgrade: "モジュール ー 都市"
+			harvester-module: "ハーベスター"
+			production-module: "生産用建物"
+			any-building-module: "任意の建物"
+			farm-module: "農場"
+			turret-module: "防御用建物"
+		}
+	}
+	map-traits: {
+		purple-biome: {
+			name: "ブライトランド"
+		}
+		blue-biome: {
+			name: "ドリームタッチドフィールド"
+		}
+		desert-biome: {
+			name: "砂漠"
+		}
+		lava-biome: {
+			name: "アッシュフォールの範囲"
+		}
+		green-biome: {
+			name: "毒性ムーア"
+		}
+		ruins-ind: {
+			name: "産業遺跡"
+			desc: "工業廃墟でブループリントと生産レシピが見つかることがよくあります。"
+		}
+		ruins-tech: {
+			name: "技術遺跡"
+			desc: "技術遺跡には、先端技術を持つアイテムが多く見られます。"
+		}
+		ruins-lab: {
+			name: "化学遺跡"
+			desc: "化学遺跡には、化学物質や実験価値のあるものが見つかる可能性が高いです。"
+		}
+		ruins-fuel: {
+			name: "燃料を保存する遺跡"
+			desc: "ここから都市を飛ばせる燃料を抽出できます。"
+		}
+		ruins-skill-resetter: {
+			name: "インフラ清掃施設の廃墟"
+			desc: "これらの廃墟を利用して、インフラのアップグレードをリセットし、再配分することができます。"
+		}
+		ruins-resource-converter: {
+			name: "リソースコンバーター施設の廃墟"
+			desc: "廃墟を利用し、異なるタイプのリソースを変換します。"
+		}
+		ruins-flux-shop: {
+			name: "マテリアライザーの廃墟"
+			desc: "この古代のドリームテックの驚異は、フラックスを使ってさまざまな素材を実体化することができるということです。"
+		}
+		ruins-perm-income: {
+			name: "補給施設の廃墟"
+			desc: "この施設を再プログラムし、都市に資源を継続供給することができるようになります。"
+		}
+		unfertile: {
+			name: "不妊症"
+		}
+		fertile: {
+			name: "多産"
+		}
+		energy-rich: {
+			name: "帯電した大気"
+		}
+		flux-rich: {
+			name: "薄いベール"
+		}
+		tar-rich: {
+			name: "タールで汚れた土"
+		}
+		tar-poor: {
+			name: "タールレスの土"
+		}
+		toxic-ground: {
+			name: "有毒土壌"
+		}
+		materializer-rich: {
+			name: "安定したドリーム技術"
+		}
+		cheap-construction: {
+			name: "安定した土地"
+		}
+		rich-cauldron: {
+			name: "安定した液体"
+		}
+		inspiring: {
+			name: "インスピレーション"
+		}
+		motivating: {
+			name: "モチベーション"
+		}
+		agitated: {
+			name: "レストレスドレップ"
+		}
+		resource-rich: {
+			name: "豊富な資源"
+		}
+		resource-poor: {
+			name: "資源の乏しさ"
+		}
+		resource-abundant: {
+			name: "豊かな"
+		}
+		rugged-terrain: {
+			name: "頑丈な"
+		}
+		rich-drep: {
+			name: "ファットドレップ"
+		}
+		rich-debris: {
+			name: "高品質な破片"
+		}
+		drep-infestation: {
+			name: "ドレップの侵入"
+		}
+		less-drep: {
+			name: "ドレップスカーシティ"
+		}
+		strong-raids: {
+			name: "組織のあるドレップ"
+		}
+		weak-raids: {
+			name: "散りばめられたドレップ"
+		}
+		extra-expeditions: {
+			name: "中心地"
+		}
+		less-expeditions: {
+			name: "人里離れた場所"
+		}
+		fast-expeditions: {
+			name: "近距離"
+		}
+		cheap-expeditions: {
+			name: "探検ハブ"
+		}
+	}
+	productions: {
+		is-harvest: "この生産レシピでは、資源ノードを見つけてハーベスターを作る必要があります。"
+		cheapflux: {
+			name: "基本フラックス生産"
+		}
+		fluxgenerator: {
+			name: "スターター > フラックス"
+		}
+		carbonflux: {
+			name: "カーボン > フラックス"
+		}
+		dreamflux: {
+			name: "リキッドドリーム > フラックス"
+		}
+		smokeflux: {
+			name: "スモークジェル＞フラックス"
+		}
+		cheappower: {
+			name: "基本パワー生産"
+		}
+		startargenerator: {
+			name: "タールパワー"
+		}
+		acidpower: {
+			name: "アシッドパワー"
+		}
+		glueberrypower: {
+			name: "グルーベリーパワー"
+		}
+		gelpower: {
+			name: "スモークジェルパワー"
+		}
+		firepower: {
+			name: "サーマルパワー"
+		}
+		alt-sulfurpower: {
+			name: "硫黄動力"
+		}
+		upgradeparts2: {
+			name: "グルーベリーのパーツ"
+		}
+		upgradeparts3: {
+			name: "カーボンのパーツ"
+		}
+		upgradeparts4: {
+			name: "銅のパーツ"
+		}
+		upgradeparts5: {
+			name: "ナイトメアのパーツ"
+		}
+		purptatoprocessor: {
+			name: "パープタートミール"
+		}
+		carbonfood: {
+			name: "カブトースミール"
+		}
+		carbonsmokefood: {
+			name: "スモークカブトース"
+		}
+		candyshroomfood: {
+			name: "キャンディッシュルーム料理"
+		}
+		carbonite-fire: {
+			name: "カーボナイト - 火"
+		}
+		dreamcrystal-fire: {
+			name: "ナイトメア・クリスタル - 火"
+		}
+		researchlab-goo: {
+			name: "スターター研究"
+		}
+		researchlab-carbonite: {
+			name: "カーボン研究"
+		}
+		researchlab-acidwood: {
+			name: "アシッド研究"
+		}
+		researchlab-gel: {
+			name: "スモークジェル研究"
+		}
+		researchlab-dreamcrystal: {
+			name: "ナイトメア研究"
+		}
+		fuel-acid: {
+			name: "酸性燃料"
+		}
+		fuel-tesla: {
+			name: "テスラ燃料"
+		}
+		fuel-fire: {
+			name: "火の燃料"
+		}
+		alt-flux-featherstone: {
+			name: "フェザーストーン＞フラックス"
+		}
+		alt-flux-acid: {
+			name: "アシッドウッド＞フラックス"
+		}
+		alt-flux-hardenedshroom: {
+			name: "硬化したシュルーム > フラックス"
+		}
+		alt-food-glueberry: {
+			name: "グルーベリーデトックス"
+		}
+		alt-food-smokepurptato: {
+			name: "スモークプルテト"
+		}
+		alt-upgrade-stickytar: {
+			name: "粘着タールパーツ"
+		}
+		alt-upgrade-carbonite: {
+			name: "カーボナイトパーツ"
+		}
+		alt-upgrade-firecopper: {
+			name: "炎の銅パーツ"
+		}
+		alt-upgrade-fluxmetal: {
+			name: "フラックスメタルパーツ"
+		}
+		alt-research-refinedtar: {
+			name: "洗練されたタールの研究"
+		}
+		alt-research-powercrystal: {
+			name: "パワークリスタル研究"
+		}
+		alt-fuel-tarhoney: {
+			name: "洗練されたタールの燃料"
+		}
+		alt-crystal-stone: {
+			name: "フェザーストーン＞クリスタル"
+		}
+		alt-acidwood-sulfur: {
+			name: "硫酸木"
+		}
+		alt-acidstone-sulfur: {
+			name: "硫酸石"
+		}
+		alt-energycell-sulfuricacid: {
+			name: "硫黄テスラセル"
+		}
+		alt-acidextract-wood: {
+			name: "アシッドエキス（ウッド）"
+		}
+		alt-acidextract-stone: {
+			name: "アシッドエキス（ストーン）"
+		}
+		alt-starwood-refinedtar: {
+			name: "スターウッド（洗練されたタール）"
+		}
+		alt-armorplating-stickytar: {
+			name: "アーマーメッキ（粘着タール）"
+		}
+		alt-smokedfire-stickytar: {
+			name: "スモークファイア（ネバネバタール）"
+		}
+		alt-acidstone-firetar: {
+			name: "アシッドストーン（ファイア＆タール）"
+		}
+		alt-carbonmix-refinedtar: {
+			name: "カーボンミックス（精製タール）"
+		}
+		alt-powercrystal-energycell: {
+			name: "テスラセルのアップグレード"
+		}
+		alt-hardenedshroom-sticky: {
+			name: "硬化シュルーム（粘着タール）"
+		}
+		alt-hardenedshroom-fire: {
+			name: "硬化シュルーム（火炎銅）"
+		}
+		fluxmetal-flamingcopper: {
+			name: "フラックスメタル（火焔銅）"
+		}
+		alt-fluxmetal-both: {
+			name: "フラックスメタル（銅＆シュルーム）"
+		}
+	}
+	crafting: {
+		starwooddowngrade: {
+			name: "スター木材 > ブラッド木材"
+		}
+		acidwooddowngrade: {
+			name: "アシッド木材 > スター木材"
+		}
+		glowwooddowngrade: {
+			name: "グローウッド > スター木材"
+		}
+		feathercrystaldowngrade: {
+			name: "フェザー水晶 > フェザーストーン"
+		}
+		carbonitedowngrade: {
+			name: "カーボナイト > フェザー水晶"
+		}
+		lightcarbonitedowngrade: {
+			name: "カーボナイトサンド>カーボナイト"
+		}
+		acidstonedowngrade: {
+			name: "アシッドストーン > フェザー水晶"
+		}
+		armorplatingdowngrade: {
+			name: "メッキ装甲 > 銅"
+		}
+		energycelldowngrade: {
+			name: "テスラ電池 > 銅"
+		}
+		chargedplatingdowngrade: {
+			name: "メッキナイトメア > メッキ装甲"
+		}
+		firecopperdowngrade: {
+			name: "燃える銅 > メッキ装甲"
+		}
+		powercrystaldowngrade: {
+			name: "パワークリスタル > テスラセル"
+		}
+		hardenedshroomdowngrade: {
+			name: "硬化シュルーム > グローウッド"
+		}
+		fluxmetaldowngrade: {
+			name: "フラックスメタル > 火焔銅"
+		}
+		store-fuel-cache-small: {
+			name: "燃料加工施設（小型）"
+		}
+		store-fuel-cache-medium: {
+			name: "燃料加工施設（中型）"
+		}
+		store-fuel-cache-large: {
+			name: "燃料加工施設（大型）"
+		}
+		alt-acidwood-fromstone: {
+			name: "アシッドストーン＞アシッドウッド"
+		}
+		alt-acidstone-fromwood: {
+			name: "アシッドウッド＞アシッドストーン"
+		}
+	}
+	generic-unlocks: {
+		teslacrats-production: {
+			name: "資源の複製"
+			desc: "テスラアクトは自らの技能によって資源を複製し、膨大なパワーを手に入れます。\n\n複製するには、まず他の手段で各資源を一定量獲得する必要があります。"
+		}
+	}
+	items: {
+		consumable: "消耗品"
+		immediate: "自動適用"
+		global: "これは共有資源であり、輸送する必要はありません。"
+		heavy: "<color=#FFD57E>このような資源は、重すぎてまたは不安定であるため、飛行中に持ち運ぶことはできません。離陸前にリファインしないと、ストレージから撤去されてしまうので、ご注意ください。</color>"
+		all: {
+			name: "全て"
+		}
+		funds: {
+			name: "フラックス"
+			desc: "この物質は、ドリームテックをベースにして、夢の世界から抽出できるものであり、または現実を歪めて非物理的なことを起こすこともできます。"
+		}
+		power: {
+			name: "パワー"
+			desc: "ほとんどの機械を動かすのに使われるテスラのエネルギー。"
+		}
+		worker: {
+			name: "労働者"
+			desc: "ほとんどの建物には、都市のあちこちで活躍する市民たちが必要です、\n\n家を建てたり、アップグレードしたりすることで、労働者の最大数を増やしましょう。"
+		}
+		fuel: {
+			name: "エンジン燃料"
+			desc: "飛行のためだけでなく、死を避けるために使われることもあります。"
+		}
+		upgradeparts: {
+			name: "アップグレード材料"
+			desc: "それを使って一時的なインフラを改善し、ボーナスを得ることができます。"
+		}
+		convert-funds: {
+			name: "コンバーター素材"
+			desc: "素材コンバーター廃墟の原料"
+		}
+		research-points: {
+			name: "知識"
+			desc: "研究を完成させるためには知識が必要です。\n\n研究ラボにいるイカれた科学者たちが作ったものです。"
+		}
+		comingsoon: {
+			name: "近日公開予定"
+			desc: "この機能はまだ利用できません"
+		}
+		food: {
+			name: "食品"
+			desc: "人にエネルギーを提供できる燃料の一種で、家にも不可欠なものです。\n\n食品工場で生産されています。"
+		}
+		bloodwoodlog: {
+			name: "ブラッド木材 丸太ん棒"
+			desc: "赤く輝く血管に覆われた丸太ん棒で、加工しないと使えません。\n\nリソースノードからの収穫されます。"
+		}
+		rawfeatherstone: {
+			name: "生のフェザーストーン"
+			desc: "この石は重力に逆らうことができるので、都市などの空を飛ぶものを作るのにとても役立ちます。\n\nリソースノードからの収穫できます。"
+		}
+		crystal: {
+			name: "水晶"
+			desc: "砂漠地帯に出現するリソースノードから収穫される。"
+		}
+		cabtus: {
+			name: "カブトース"
+			desc: "砂漠地帯で育つ肉厚な果物。"
+		}
+		purptato: {
+			name: "パープサート"
+			desc: "墨を塗ったジャガイモのような味がします。食品工場でかろうじて食品に加工することができます。"
+		}
+		rawcopper: {
+			name: "自然銅"
+			desc: "蒸気機械を作るのに一番使われている金属です。製錬所で使用可能なインゴットに精製できます。\n\n難易度の高いエリアでは、リソースノードからの収穫できます。"
+		}
+		glowhoney: {
+			name: "光ってるハチミツ"
+			desc: "放射性のあるハチミツで、食品としてはまずいけど、高品質の飛行都市用燃料に加工できます。\n\n難易度の高いエリアでは、リソースノードからの収穫できます。"
+		}
+		sulfur: {
+			name: "硫黄"
+			desc: "匂いはきついが役に立ちます。\n\n高難易度エリアのリソースノードで得ることができるます。"
+		}
+		liquidfire: {
+			name: "リキッドファイア"
+			desc: "永遠に続く熱い液体。\n\n灰地のバイオマスにあるリソースノードから収穫されます。"
+		}
+		candyshroom: {
+			name: "キャンディシュルーム"
+			desc: "このキャンディ型の巨大キノコは栄養価が高いだけでなく、フラックスもたっぷり含まれています。\n\n有毒バイオームにあるリソースノードで得ることができます。"
+		}
+		startar: {
+			name: "スタースタックタール"
+			desc: "その幻想的な性質は、それが現実世界からうまれるものではないと意味しています。ほとんどの土壌には、特殊な機械を使って微量元素を抽出できます。\n\n市都市地のどこかにタール抽出装置を一つ設置しましょう。"
+		}
+		acidshard: {
+			name: "アシッドの破片"
+			desc: "ブライトランドでよく見かけたアシッドプールを結晶化したものです。\n\n難易度の高いエリアでは、リソースノードからの収穫できます。"
+		}
+		glueberry: {
+			name: "グルーベリー"
+			desc: "これを食べようとして窒息し、口を塞がれてしまったかわいそうな人がたくさんいました。"
+		}
+		smokegel: {
+			name: "スモークゲル"
+			desc: "適切な技術があれば、有害物でも役に立つものに変えることができます。"
+		}
+		toxicgoo: {
+			name: "有毒グー"
+			desc: "土壌から抽出できる有毒物質です。有毒バイオームから効率的に抽出することができるます。"
+		}
+		refinedtar: {
+			name: "洗練されたタール"
+			desc: "より高濃度フラックス配合の洗練されたスタースタックタール"
+		}
+		stickytar: {
+			name: "粘着タール"
+			desc: "高粘着フラックス注入物質"
+		}
+		drepjuice: {
+			name: "ナイトメアジュース"
+			desc: "生物ドレップの静脈に流れています。"
+		}
+		drepdust: {
+			name: "ドリップ粉塵"
+			desc: "この粉は、ドリップの残骸です。"
+		}
+		dreptech: {
+			name: "ライブワイヤー"
+			desc: "技術を持つドリップの残骸です。"
+		}
+		oldscraps: {
+			name: "旧世界の廃品"
+			desc: "旧世界の技術の一部です。捨てられた旧世界の機械は意外に使えるかもしれません。"
+		}
+		dreamcore: {
+			name: "ドリームコア"
+			desc: "旧世界の技術の頂点です。廃墟やエクスペディションでレアな工芸品を見つけることができ、建築や工芸に使うことができます。"
+		}
+		warpedwood: {
+			name: "血の板"
+			desc: "丈夫で軽量な木材で、遊牧民の都市では建築や製作の材料として使われています。\n\n血の木材で作った丸太ん棒でウッドワーパーで生産されました。"
+		}
+		featherstone: {
+			name: "砕けたフェザーストーン"
+			desc: "加工されたは、建築物の補強や軽量化のために使われています。"
+		}
+		starwood: {
+			name: "スター木材"
+			desc: "スタースタックタールを血の板に注入することで、より頑丈になり、現実を変える効果を与えます。\n\n血の板とスタースタックタールを原料としてウッドワーパーで生産されました。"
+		}
+		atlasbolt: {
+			name: "アトラスボルト"
+			desc: "ナイトメア対策用の特別なソースを塗った血の板で作られたバリスタボルト。タイニーを撃つに使われる射撃武器です。"
+		}
+		feathercrystal: {
+			name: "フェザー水晶"
+			desc: "水晶とフェザー水晶の組み合わせで、よく砂漠地帯に発見されます。"
+		}
+		acidwood: {
+			name: "アシッド木材"
+			desc: "酸処理された血の木材"
+		}
+		acidstone: {
+			name: "アシッドストーン"
+			desc: "酸処理されたフェザー水晶"
+		}
+		carbonmix: {
+			name: "カーボン調合剤"
+			desc: "洗練されたカブト、エネルギーマックス。"
+		}
+		dreammixture: {
+			name: "リキッドドリーム"
+			desc: "この不思議な液体は、フラックスと非常によく似た性質を持っていますが、より安定しており、物理的な用途が多いのが特徴です。"
+		}
+		dreamcrystal: {
+			name: "ナイトメア水晶"
+			desc: "リキッドドリームを注入した水晶です。その故、結晶がねじれて黒くなったので、その名前の由来となっています。"
+		}
+		sulfuricacid: {
+			name: "硫酸"
+			desc: "硫黄から生成されます。"
+		}
+		toxicacid: {
+			name: "有毒酸"
+			desc: "有毒グーと硫酸が組み合わさった非常に危険な物質です。"
+		}
+		smokedfire: {
+			name: "スモークファイア"
+			desc: "スモークジェルは、液体の火を安定させる効果があり、安全に扱うことができます。"
+		}
+		carbonite: {
+			name: "カーボナイト"
+			desc: "カーボン調合剤で処理された結晶です。"
+		}
+		light-carbonite: {
+			name: "カーボナイトサンド"
+			desc: "石材の防御構造強化に使用されます。"
+		}
+		copperingot: {
+			name: "銅のインゴット"
+			desc: "さまざまな用途として使われる銅の精錬です。"
+		}
+		glowwood: {
+			name: "グローウッド"
+			desc: "この木はヘルスにダメージを与える可能性があります。しかし、ドリームテックの導電性には非常に役立ちます。"
+		}
+		armorplating: {
+			name: "メッキ装甲"
+			desc: "銅が何らかの理由で変な形をしている板になってしまいました。ナイトメアに抵抗力を持つ特性から、多くの軍事用途で愛用されています。"
+		}
+		energycell: {
+			name: "テスラ電池"
+			desc: "モバイル機器の電源供給に便利な小型のポータブル電源ストレージです。"
+		}
+		chargedplating: {
+			name: "メッキナイトメア"
+			desc: "ナイトメア水晶で充電したメッキ装甲です。耐久性は優れ、強力なドリームテック機械の搭載に最適です。"
+		}
+		firecopper: {
+			name: "燃える銅"
+			desc: "銅に液体の火をつけたもの。"
+		}
+		powercrystal: {
+			name: "パワークリスタル"
+			desc: "ステロイドのテスラセルです。"
+		}
+		hardenedshroom: {
+			name: "硬化シュルーム"
+			desc: "丈夫で軽く、ドリームテックにとって非常に便利なアイテムです。"
+		}
+		hardeningpowder: {
+			name: "硬化パウダー"
+			desc: "シュルームマジックの一部を他の素材に適用するために使用します。"
+		}
+		fluxmetal: {
+			name: "フラックスメタル"
+			desc: "現実離れした複雑なメタルです。"
+		}
+		research1: {
+			name: "基本研究キット"
+			desc: "銅をひとつまみ、タールを1パイント、それを木で包めば、ドリームテックを試すのに最適なキットが完成します。\n\n精錬所で生産されました。"
+		}
+		unarmed: {
+			name: "基本的な拳の使い方"
+		}
+		crossbow: {
+			name: "ライトクロスボウ"
+		}
+		repeater-crossbow: {
+			name: "連弩"
+		}
+		repeater-crossbow2: {
+			name: "連弩 2"
+		}
+		repeater-crossbow3: {
+			name: "連弩 3"
+		}
+		spreadbow: {
+			name: "スプレッドボウ"
+		}
+		spreadbow2: {
+			name: "スプレッドボウ 2"
+		}
+		spreadbow3: {
+			name: "スプレッドボウ 3"
+		}
+		snipe-crossbow: {
+			name: "狙撃銃"
+		}
+		snipe-crossbow2: {
+			name: "狙撃銃 2"
+		}
+		snipe-crossbow3: {
+			name: "狙撃銃 3"
+		}
+		piercing-crossbow: {
+			name: "ピアシングクロスボウ"
+		}
+		piercing-crossbow2: {
+			name: "ピアシングクロスボウ 2"
+		}
+		piercing-crossbow3: {
+			name: "ピアシングクロスボウ 3"
+		}
+		snipe-piercing-crossbow: {
+			name: "ヘビークロスボウ"
+		}
+		snipe-piercing-crossbow2: {
+			name: "ヘビークロスボウ 2"
+		}
+		snipe-piercing-crossbow3: {
+			name: "ヘビークロスボウ 3"
+		}
+		snipe-gun: {
+			name: "スナイプガン"
+		}
+		snipe-gun2: {
+			name: "スナイプガン 2"
+		}
+		snipe-gun3: {
+			name: "スナイプガン 3"
+		}
+		snipe-gun4: {
+			name: "スナイプガン 4"
+		}
+		snipe-gun5: {
+			name: "スナイプガン 5"
+		}
+		snipe-gun-super: {
+			name: "エリートスナイプガン"
+		}
+		piercing-gun: {
+			name: "ピアシングガン"
+		}
+		piercing-gun2: {
+			name: "ピアシングガン 2"
+		}
+		piercing-gun3: {
+			name: "ピアシングガン 3"
+		}
+		piercing-gun4: {
+			name: "ピアシングガン 4"
+		}
+		piercing-gun5: {
+			name: "ピアシングガン 5"
+		}
+		piercing-gun-super: {
+			name: "エリートピアシングガン"
+		}
+		snipe-piercing-gun: {
+			name: "ヘビーキャノン"
+		}
+		snipe-piercing-gun2: {
+			name: "ヘビーキャノン 2"
+		}
+		snipe-piercing-gun3: {
+			name: "ヘビーキャノン 3"
+		}
+		snipe-piercing-gun4: {
+			name: "ヘビーキャノン 4"
+		}
+		snipe-piercing-gun5: {
+			name: "ヘビーキャノン 5"
+		}
+		snipe-piercing-gun-super: {
+			name: "エリートヘビーキャノン"
+		}
+		spikedpunch: {
+			name: "ナックルダスター"
+		}
+		spikedpunch2: {
+			name: "ナックルダスター 2"
+		}
+		spikedpunch3: {
+			name: "ナックルダスター 3"
+		}
+		acid-punch: {
+			name: "酸性拳の爆弾"
+		}
+		acid-punch2: {
+			name: "酸性拳の爆弾 2"
+		}
+		acid-punch3: {
+			name: "酸性拳の爆弾 3"
+		}
+		starwoodcrossbow: {
+			name: "スターウッドクロスボウ"
+		}
+		starwoodcrossbow2: {
+			name: "スターウッドクロスボウ 2"
+		}
+		starwoodcrossbow3: {
+			name: "スターウッドクロスボウ 3"
+		}
+		shredder: {
+			name: "シュレッダー"
+		}
+		shredder2: {
+			name: "シュレッダー 2"
+		}
+		shredder3: {
+			name: "シュレッダー 3"
+		}
+		shredder4: {
+			name: "シュレッダー 4"
+		}
+		shredder5: {
+			name: "シュレッダー 5"
+		}
+		shredder-super: {
+			name: "エリートシュレッダー"
+		}
+		chargedcannon: {
+			name: "急速射撃銃"
+		}
+		chargedcannon2: {
+			name: "急速射撃銃 2"
+		}
+		chargedcannon3: {
+			name: "急速射撃銃 3"
+		}
+		chargedcannon4: {
+			name: "急速射撃銃 4"
+		}
+		chargedcannon5: {
+			name: "急速射撃銃 5"
+		}
+		chargedcannon-super: {
+			name: "エリートラピッドガン"
+		}
+		explosivegun: {
+			name: "ヘビーランチャー"
+		}
+		explosivegun2: {
+			name: "ヘビーランチャー 2"
+		}
+		explosivegun3: {
+			name: "ヘビーランチャー 3"
+		}
+		explosivegun4: {
+			name: "ヘビーランチャー 4"
+		}
+		explosivegun5: {
+			name: "ヘビーランチャー 5"
+		}
+		explosivegun-super: {
+			name: "エリートヘビーランチャー"
+		}
+		shotgun: {
+			name: "スプレッドガン"
+		}
+		shotgun2: {
+			name: "スプレッドガン 2"
+		}
+		shotgun3: {
+			name: "スプレッドガン 3"
+		}
+		shotgun4: {
+			name: "スプレッドガン 4"
+		}
+		shotgun5: {
+			name: "スプレッドガン 5"
+		}
+		shotgun-super: {
+			name: "エリートスプレッドガン"
+		}
+		tesla-punch: {
+			name: "テスラフィスト"
+		}
+		tesla-punch2: {
+			name: "テスラフィスト 2"
+		}
+		tesla-punch3: {
+			name: "テスラフィスト 3"
+		}
+		tesla-punch4: {
+			name: "テスラフィスト 4"
+		}
+		tesla-punch5: {
+			name: "テスラフィスト 5"
+		}
+		tesla-punch-super: {
+			name: "エリートテスラフィスト"
+		}
+		basearmor: {
+			name: "基本船体"
+		}
+		starwoodarmor: {
+			name: "ライトスター木材の強化"
+		}
+		starwoodarmor2: {
+			name: "ライトスター木材の強化 2"
+		}
+		starwoodarmor3: {
+			name: "ライトスター木材の強化 3"
+		}
+		starwoodarmor4: {
+			name: "ライトスター木材の強化 4"
+		}
+		starwoodarmor5: {
+			name: "ライトスター木材の強化 5"
+		}
+		chargedarmor: {
+			name: "チャージド援軍"
+		}
+		chargedarmor2: {
+			name: "チャージド援軍 2"
+		}
+		chargedarmor3: {
+			name: "チャージド援軍 3"
+		}
+		shroomarmor: {
+			name: "シュルーム援軍"
+		}
+		shroomarmor2: {
+			name: "シュルーム援軍 2"
+		}
+		shroomarmor3: {
+			name: "シュルーム援軍 3"
+		}
+		shroomarmor-super: {
+			name: "エリートシュルーム援軍"
+		}
+		glowarmor: {
+			name: "光りの援軍"
+		}
+		glowarmor2: {
+			name: "光りの援軍 2"
+		}
+		glowarmor3: {
+			name: "光りの援軍 3"
+		}
+		moltenarmor: {
+			name: "炎の強化"
+		}
+		moltenarmor2: {
+			name: "炎の強化 2"
+		}
+		moltenarmor3: {
+			name: "炎の強化 3"
+		}
+		moltenarmor-super: {
+			name: "エリート炎の援軍"
+		}
+		starwoodarmor-normal: {
+			name: "スター木材の強化"
+		}
+		starwoodarmor-normal2: {
+			name: "スター木材の強化 2"
+		}
+		starwoodarmor-normal3: {
+			name: "スター木材の強化 3"
+		}
+		platedarmor-normal: {
+			name: "古代アーマー援軍"
+		}
+		platedarmor-normal2: {
+			name: "古代アーマー援軍 2"
+		}
+		platedarmor-normal3: {
+			name: "古代アーマー援軍 3"
+		}
+		platedarmor-normal4: {
+			name: "古代アーマー援軍 4"
+		}
+		platedarmor-normal5: {
+			name: "古代アーマー援軍 5"
+		}
+		platedarmor-normal-super: {
+			name: "エリーど古代援軍"
+		}
+		platedarmor: {
+			name: "重装甲車の強化"
+		}
+		platedarmor2: {
+			name: "重装甲車の強化 2"
+		}
+		platedarmor3: {
+			name: "重装甲車の強化 3"
+		}
+		fluxarmor: {
+			name: "フラックスヘビー援軍"
+		}
+		fluxarmor2: {
+			name: "フラックスヘビー援軍 2"
+		}
+		fluxarmor3: {
+			name: "フラックスヘビー援軍 3"
+		}
+		fluxarmor-super: {
+			name: "エリートフラックス援軍"
+		}
+		repair-base: {
+			desc: "ピンチの時に使えば、一部のダメージを瞬時に修復することができます。"
+		}
+		scraprepair: {
+			name: "応急処置キット"
+		}
+		starwoodrepair: {
+			name: "スター木材修理キット"
+		}
+		starwoodrepair2: {
+			name: "スター木材修理 2"
+		}
+		building-repairkit: {
+			name: "建物修理キット"
+			desc: "プレイヤーの周囲にある全ての建物を完全修復するために使います。"
+		}
+		copperrepair: {
+			name: "銅製品の修理キット"
+		}
+		copperrepair2: {
+			name: "銅製品の修理 2"
+		}
+		shroomrepair: {
+			name: "エリート修理キット"
+		}
+		grenade: {
+			name: "リモートサージ"
+			desc: "カーソル周辺にいる全ての敵にダメージを与えます。"
+		}
+		grenade2: {
+			name: "リモートサージ 2"
+		}
+		grenade3: {
+			name: "リモートサージ 3"
+		}
+		enrage: {
+			name: "武器の充電器"
+			desc: "武器をオーバーチャージし、移動速度を犠牲にしたら、一時的な追加ダメージを与える事ができます。"
+		}
+		enrage2: {
+			name: "武器チャージャー2"
+		}
+		absorber: {
+			name: "アブソーバ"
+			desc: "タイニーの船体にエネルギーを与え、数秒間に全てのダメージを吸収させます。"
+		}
+		decoy: {
+			name: "ジャック・メイチントン"
+			desc: "ドレップがターゲットとするおとりのジャックインアボックスを作成しましょう。"
+		}
+		decoy2: {
+			name: "ジャック・メヒントン 2"
+		}
+		decoy3: {
+			name: "ジャック・メヒントン 3"
+		}
+		folding-turret: {
+			name: "デプロイメントタレット"
+			desc: "小型のタレットをフィールドに配備し、火力を増強することができます。"
+		}
+		folding-turret2: {
+			name: "可動式タレット2"
+		}
+		skill-pack: {
+			name: "アップグレードキット"
+			desc: "使うと、アップグレードポイントが1つ増えます。"
+		}
+		skill-resetter: {
+			name: "スクレーパーをアップグレードします。"
+			desc: "インフラストラクチャのアップグレードをすべてリセットします。購入済みのインフラストラクチャをすべて削除し、使用済みのアップグレードポイントを復元します。"
+		}
+		threat-reducer: {
+			name: "スモーカー"
+			desc: "都市の存在をカモフラージュし、20サイクル分の脅威を即座に軽減するシングルユースの装置です。"
+		}
+		global-difficulty-reducer: {
+			name: "デリンカー"
+			desc: "夢の世界とのつながりを弱める強力な装置です。それを使うと、世界侵入のレベルを1つ下げることができます。"
+		}
+		free-expansion: {
+			name: "拡張キット"
+			desc: "タダで都市を一つ拡張できます。それを使うと、建築メニューから都市を拡張することができます。\n\n拡張技術をアンロックする必要はありません。"
+		}
+		flame-turret-kit: {
+			name: "タルボムターレットキット"
+			desc: "タダでターボムターレットを追加できます。それを使うと、工事メニューから操作できます。"
+		}
+		perm-mod-extra-materializer: {
+			name: "マテリアライザーのブループリント"
+			desc: "マテリアライザーの限度を増加します。"
+		}
+		perm-mod-acidextract: {
+			name: "アシッドエキス"
+		}
+		perm-mod-drep-desert-resources: {
+			name: "追加ドレップ処理"
+		}
+		perm-mod-acid-transform: {
+			name: "アシッドトランスフォーメーション"
+		}
+		perm-mod-build-flameturret: {
+			desc: "自分のターボムタレットを建てます。\n\n注：ターボムタレットを建てる際、レアなドリームコアが必要です。"
+		}
+		perm-mod-build-scoutpost: {
+			desc: "無料の目的地にリロール用のスカウトポストを建てます。\n\n\n注：スカウトポストを建てる際、レアドリームコアが一つ必要です。"
+		}
+		perm-mod-city-crystal: {
+			name: "クリスタルマテリアライザーのブループリント"
+			desc: "マテリアライザーでクリスタルを生産します。\n\n注：ドリームコアで購入するアドオンが必要です。"
+		}
+		perm-mod-city-acid: {
+			name: "アシッドシャードマテリアライザーのブループリント"
+			desc: "マテリアライザーでアシッドシャードを生産します。\n\n注：ドリームコアで購入するアドオンが必要です。"
+		}
+		perm-mod-city-sulfur: {
+			name: "硫黄マテリアライザーのブループリント"
+			desc: "マテリアライザーで硫黄を生成します。\n\n注：ドリームコアがかかるアドオンが必要です。"
+		}
+		speed-mod: {
+			name: "スピードモジュール"
+		}
+		berserker-mod: {
+			name: "ベルセルクモジュール"
+		}
+		tank-mod: {
+			name: "防御モジュール"
+		}
+		self-repair-mod: {
+			name: "セルフリペアモジュール"
+		}
+		aoe-ranged-mod: {
+			name: "電撃弾モジュール"
+		}
+		kinetic-guard-mod: {
+			name: "キネティックガードモジュール"
+		}
+		vision-range-mod: {
+			name: "スカウティングモジュール"
+		}
+		house-overdrive-mod: {
+			name: "ハウジングオーバードライブ"
+		}
+		green-refining-mod: {
+			name: "グリーンリファイニング"
+		}
+		overdrive-refining-mod: {
+			name: "リファイニングオーバードライブ"
+		}
+		green-research-mod: {
+			name: "グリーンリサーチ"
+		}
+		overdrive-research-mod: {
+			name: "リサーチオーバードライブ"
+		}
+		cart-speed-mod: {
+			name: "カート高速化モジュール"
+		}
+		cart-speed-mod2: {
+			name: "カート加速化モジュール 2"
+		}
+		threat-reduce-mod: {
+			name: "煙幕モジュール"
+		}
+		global-diff-reduce-mod: {
+			name: "デリンカーモジュール"
+		}
+		fuel-costs-mod: {
+			name: "燃料効率化モジュール"
+		}
+		fly-carry-capacity-mod: {
+			name: "キャリーウェイトモジュール"
+		}
+		flying-device-upkeep-mod: {
+			name: "フロート維持モジュール"
+		}
+		storage-mod: {
+			name: "ストレージモジュール"
+		}
+		harvester-prodspeed-mod: {
+			name: "ハーベスター速度モジュール"
+		}
+		harvester-prodspeed-mod2: {
+			name: "ハーベスター速度モジュール 2"
+		}
+		harvester-upkeep-mod: {
+			name: "ハーベスター維持モジュール"
+		}
+		harvester-efficiency-mod: {
+			name: "ハーベスター効率モジュール"
+		}
+		anybuilding-efficiency-mod: {
+			name: "一般的な効率モジュール"
+		}
+		anybuilding-upkeep-mod: {
+			name: "一般的な維持モジュール"
+		}
+		anybuilding-upkeep-mod2: {
+			name: "一般的な維持モジュール2"
+		}
+		production-speed-mod: {
+			name: "生産速度モジュール"
+		}
+		production-speed-mod2: {
+			name: "生産速度モジュール2"
+		}
+		farm-yield-mod: {
+			name: "農場生産量モジュール"
+		}
+		materializer-yield-mod: {
+			name: "マテリアライザー生産量モジュール"
+		}
+		research-output-mod: {
+			name: "リサーチ生産量モジュール"
+		}
+		apartment-upkeep-mod: {
+			name: "住宅コストモジュール"
+		}
+		apartment-upkeep-mod2: {
+			name: "住宅コストモジュール2"
+		}
+		turret-range-mod: {
+			name: "防御範囲モジュール"
+		}
+		turret-damage-mod: {
+			name: "防御ダメージモジュール"
+		}
+		turret-speed-mod: {
+			name: "防御レートモジュール"
+		}
+		archeology-unlock: {
+			name: ""
+		}
+		story-broken-storage: {
+			name: "壊れた情報ストレージ"
+		}
+		story-repaired-storage: {
+			name: "修復された情報ストレージ"
+		}
+	}
+	playerstats: {
+		mech-combat: {
+			name: "オフェンス"
+		}
+		survival: {
+			name: "サバイバル"
+		}
+		gathering: {
+			name: "収集装置"
+		}
+		administration: {
+			name: "管理部門"
+		}
+	}
+	perks: {
+		level-format: "{0} {1}"
+		melee-dmg: {
+			name: "近接攻撃によるダメージ"
+		}
+		ranged-dmg: {
+			name: "範囲ダメージ"
+		}
+		enemy-drop: {
+			name: "屍体の略奪"
+		}
+		turret-dmg: {
+			name: "タレットダメージ"
+		}
+		mech-speed: {
+			name: "タイニーのスピード"
+		}
+		healing: {
+			name: "修理"
+		}
+		farming: {
+			name: "農場"
+		}
+		city-gathering: {
+			name: "再生可能な収集装置"
+		}
+		cart-speed: {
+			name: "オートカートのスピード"
+		}
+		upgrade-prod: {
+			name: "生産増加"
+		}
+		research-efficiency: {
+			name: "研究効率"
+		}
+		housing: {
+			name: "住宅"
+		}
+		overload: {
+			name: "電源サージ"
+		}
+		overclock: {
+			name: "オーバークロックギア"
+		}
+		untargetable: {
+			name: "カメレオン"
+		}
+		teleport-to-city: {
+			name: "コアテレポーター"
+		}
+	}
+	abilities: {
+		charging-format: "充電時間：{0}"
+		cooldown-format: "クールダウン：{0} 秒"
+		overclock: {
+			name: "オーバークロックギア"
+			desc: "短時間でギアをオーバークロックさせると移動速度が上がります。"
+		}
+		overload: {
+			name: "電源サージ"
+			desc: "キャパシタをオーバーロードさせて、近くのターゲットにダメージを与えるサージを発生させます。"
+		}
+		teleport-to-city: {
+			name: "コアテレポーター"
+			desc: "シティコアへのテレポーターを起動すると、直ちに都市に戻ることができます。"
+		}
+		untargetable: {
+			name: "カメレオン"
+			desc: "ドリームイーターを混乱させるエネルギーを放出し、あなたをターゲットにするのを防ぎます。\n\n副作用として、あなたの武器は無力化となり、その間、ダメージを与えることができません。"
+		}
+		repair: {
+			name: "修理エリア"
+			desc: "キャラクターの周囲にあるすべての建物を修復します。破壊された建物を修復することはできません。\n\n戦闘中も使用可能です。"
+		}
+	}
+	statuseffects: {
+		title: "適用効果：{0}"
+		duration: "持続時間：{0}"
+		overclock: {
+			name: "オーバークロック"
+		}
+		enrage: {
+			name: "オーバーロードした武器"
+		}
+		absorber: {
+			name: "無敵"
+		}
+		untargetable: {
+			name: "狙撃無能"
+		}
+		slowed: {
+			name: "遅くなる"
+		}
+		weakened: {
+			name: "弱くなる"
+		}
+	}
+	attackeffects: {
+		aoe: {
+			desc: "ターゲット周辺にいる{1}個のタイルに{0}回のAOEダメージを与えます。"
+		}
+	}
+	biomes: {
+		startingmap: {
+			name: "ブライトランドへの入り口"
+		}
+		purple: {
+			name: "ブライトランド"
+		}
+		blue: {
+			name: "ドリームタッチドフィールド"
+		}
+		desert: {
+			name: "砂漠"
+		}
+		lava: {
+			name: "アッシュフォールの範囲"
+			locked-text: "ヒートシールドコマンドセンターアドオンが必要です。"
+		}
+		green: {
+			name: "有毒ムーア"
+			locked-text: "エアフィルターコマンドセンターのアドオンが必要です。"
+		}
+	}
+	research: {
+		progress: "プログレス：{0} / {1}"
+		drepprocessing-flux: {
+			name: "ドレッププロセッシング（フラックス）"
+		}
+		drepprocessing-flux2: {
+			name: "ドレップ・プロセッシング（フラックス 2）"
+		}
+		drepprocessing-wood: {
+			name: "ドレッププロセッシング（血の木材）"
+		}
+		drepprocessing-fstone: {
+			name: "ドレッププロセッシング（フェザーストーン）"
+		}
+		hunters-feathercrystal: {
+			name: "ドレッププロセッシング（フェザークリスタル）"
+		}
+		hunters-carbonite: {
+			name: "ドレッププロセッシング（カーボナイト）"
+		}
+		hunters-copper: {
+			name: "ドレッププロセッシング（銅のインゴット）"
+		}
+		hunters-energycell: {
+			name: "ドレッププロセッシング（テスラセル）"
+		}
+		bloodwood-strip1: {
+			name: "血の木材の効率性"
+		}
+		bloodwood-strip2: {
+			name: "血の木材の効率性 2"
+		}
+		featherstone-strip1: {
+			name: "フェザーストーンの効率性"
+		}
+		featherstone-strip2: {
+			name: "フェザーストーンの効率性 2"
+		}
+		copper-strip1: {
+			name: "銅の効率性"
+		}
+		copper-strip2: {
+			name: "銅の効率性 2"
+		}
+		all-strip1: {
+			name: "ハーベスターの効率"
+		}
+		all-strip2: {
+			name: "ハーベスターの効率 ２"
+		}
+		infrastructure: {
+			name: "インフラのアップグレード"
+		}
+		free-expansion: {
+			name: "無料拡張"
+		}
+		efficient-refining: {
+			name: "効率的なリファイニング"
+		}
+		bonus-research: {
+			name: "先端技術（重複）"
+		}
+		importer: {
+			name: "自動的に採取する"
+		}
+		comingsoon: {
+			name: "近日公開予定"
+		}
+	}
+	constructioncategories: {
+		population: {
+			name: "人口"
+		}
+		infrastructure: {
+			name: "インフラ"
+		}
+		gathering: {
+			name: "集合"
+		}
+		production: {
+			name: "製作"
+		}
+		power: {
+			name: "パワー"
+		}
+		defense: {
+			name: "防御"
+		}
+		misc: {
+			name: "音楽"
+		}
+	}
+	mapobjects: {
+		citytile: {
+			name: "都市の拡大"
+			desc: "地面上で作ったものは空には飛べません。都市を拡張し、面積を増やそう。"
+		}
+		roadtile: {
+			name: "レール"
+			desc: "一方通行の線路の上に、不思議なことに鉱山カートが現れ、建物と建物の間で資源を運びます。\n\nドラッグして作る。既存のレールを操作して、方向を追加し、または変更することができます。"
+		}
+		railsplitter: {
+			name: "ソーター"
+			desc: "1つの入り口から出てきたアイテムを、3つの出口に振り分ける装置です。どのアイテムが各出口に行くかは設定できます。"
+		}
+		streettile: {
+			name: "都市"
+			desc: "特別な効果はありませんが、きれいで、移動を妨げることはありません。\n\n都市計画や、自由に移動できるスペースを確保するのに便利です。"
+		}
+		player-debris: {
+			name: "破壊された建物"
+		}
+		commandcenter: {
+			name: "シティコア"
+			desc: "この場所は、都市に命を吹き込んでくれます。築く方法を知らないので、それを安全に保つようにしてください。"
+		}
+		expeditioncenter: {
+			name: "エクスペディションセンター"
+			desc: "物資と古代技術を収集するため、エクスペディションを開始します。"
+		}
+		flyengine: {
+			name: "フローティング装置"
+			desc: "ものを飛ぶさせる装置です。都市の最大重量を増やすので、飛行のための燃料コストも増加します。\n\n他の浮遊装置の近くには建てられません。"
+		}
+		scoutpost: {
+			name: "スカウトポスト"
+			desc: "遠方の土地を探索するために使われました。次の目的地を選択する時、スカウトポストに無料のりロールが追加されます。"
+		}
+		researchlab: {
+			name: "研究ラボ"
+			desc: "新しい技術の研究。噂に取ると、ここで行われた実験は、突然変異を引き起こすことがあります。"
+		}
+		teslatower: {
+			name: "テスラタワー"
+			desc: "これらのタワーは、都市の電力供給エリアを拡大しました。登り禁止です。"
+		}
+		longrange-power: {
+			name: "ロングレンジパワーハブ"
+			desc: "これらのハブは、周囲の建物を主電源に接続します。\n\nテスラタワーとは異なり、電力の範囲内にいる必要なく、自分で長距離に渡る接続を作り出すことが出来ます。"
+		}
+		woodturret: {
+			name: "木製タレット"
+			desc: "大きな発光矢で悪夢を封じ込めます。発射速度が遅く、複数のターゲットにスプラッシュダメージを与える爆発的な攻撃を行います。装甲ターゲットに対して弱いです。"
+		}
+		stoneturret: {
+			name: "石のタレット"
+			desc: "時計仕掛けの大砲を取り付けた石塔です。木製の砲台よりも発射速度やダメージが優れており、爆発的な攻撃力を持っています。"
+		}
+		flameturret: {
+			name: "タルボムターレット"
+			desc: "焼夷弾を撃てます。木製タレットより発射速度が遅いが、射程距離がかなり長いので、より広い範囲にダメージを与えることができます。"
+		}
+		atlasturret: {
+			name: "アトラスターレット"
+			desc: "より強力で頑丈なバリスタターレットで、速射性を持つが、スプラッシュダメージを与えることができません。装甲ターゲットに対して強いです。"
+		}
+		musicturret: {
+			name: "トランペティアタレット"
+			desc: "この低速発射タレットは砕けるような音波を放ち、標的を大混乱に陥れ、周囲にも大ダメージを与えます。"
+		}
+		woodwall: {
+			name: "木の壁"
+			desc: "後ろの建物を守ることができます。しばらくの間だけです。"
+		}
+		woodgate: {
+			name: "木の扉"
+			desc: "これが扉ですが、あなたは通れるが、ドレップは通りません。"
+		}
+		stonewall: {
+			name: "石壁"
+			desc: "後ろの建物を守ることができます。もうしばらくを持つことが出来ます。"
+		}
+		stonegate: {
+			name: "石門"
+			desc: "これが強化された扉で、あなたは通れるが、ドレップはしばらくの間に通りません。"
+		}
+		wall: {
+			name: "壁"
+			desc: "金属で建物を守ってください。"
+		}
+		gate: {
+			name: "扉"
+			desc: "時計仕掛けの装甲された門は悪いものを寄せ付けません。"
+		}
+		hardenedwall: {
+			name: "硬化させた壁"
+			desc: "これで安全が確保できないのなら、もう他に手はありません。"
+		}
+		hardenedgate: {
+			name: "硬化させたゲート"
+			desc: "このゲートはとにかくドレップを寄せ付けません。機能している間はね。"
+		}
+		trap-mine1-small: {
+			name: "小型トラップ"
+		}
+		trap-mine2-small: {
+			name: "小型爆発トラップ"
+		}
+		trap-mine1: {
+			name: "トラップ"
+			desc: "敵ユニットに接近すると発動。"
+		}
+		trap-mine2: {
+			name: "爆発トラップ"
+		}
+		trap-mine1-2: {
+			name: "トラップ2"
+		}
+		trap-mine2-2: {
+			name: "爆発トラップ2"
+		}
+		trap-slow: {
+			name: "凍結トラップ"
+		}
+		house: {
+			name: "家"
+			desc: "「人」と呼ばれる資源を蓄えます。\n\n労働者の能力を高めるために、定期的に食料を供給する必要があります。"
+		}
+		apartment: {
+			name: "マンション"
+			desc: "「人」を収容できるもっと大きなストレージです。\n\n空飛ぶ都市にとって、空間を効率よく利用するのが重要です。"
+		}
+		dreamshield: {
+			name: "無力化シールド"
+			desc: "この巨大なシールドは、夢を無効化にするフィールドで都市全体とその周辺を囲み、その中にある夢の世界に関する要素を全て壊します。もちろん、ドレップも含めています。\n\nこのシールドは非常に重く、起動するには大量の電力、労働者、フラックスが必要です。完全に運行するまでには長い時間がかかります。充電している間にも、稼働させて都市を守らなければなりません。覚悟してください。"
+		}
+		archeologist: {
+			name: "考古学"
+			desc: "旧世界の遺跡を利用しプロジェクトを遂行することによって、莫大な永久ボーナスを得ることができます。"
+		}
+		bloodwoodharvester: {
+			name: "ブラッドウッドカッター"
+		}
+		featherstoneharvester: {
+			name: "フェザーストーン の採掘者"
+		}
+		crystalharvester: {
+			name: "水晶マイナー"
+		}
+		cabtusharvester: {
+			name: "カブトコレクター"
+		}
+		coppermine: {
+			name: "銅製ドリル"
+		}
+		acidharvester: {
+			name: "「アシッドの破片」の採掘者"
+		}
+		glowhoneyharvester: {
+			name: "光ってるハチミツのコレクター"
+		}
+		sulfurmine: {
+			name: "硫黄鉱山"
+		}
+		liquidfireharvester: {
+			name: "リキッドファイアーハーベスター"
+		}
+		candyharvester: {
+			name: "キャンディシュルームハーベスター"
+		}
+		startarcollector: {
+			name: "タール抽出機"
+			desc: "都市の地下の土壌から抽出するスタースタックタールです。"
+		}
+		condenser: {
+			name: "大気凝縮器"
+			desc: "大気からものを作るのも可能ですよ。文字通り、この建物は大気そのものから有用なものを抽出しています。"
+		}
+		toxicgoocollector: {
+			name: "有毒グー抽出機"
+			desc: "土壌から有毒グーを抽出します。有毒ムーアでは特に効果的です。"
+		}
+		purptatofarm: {
+			name: "パープタート農園"
+			desc: "そこには食事用のパープタートを栽培しています。"
+		}
+		glueberryfarm: {
+			name: "グルーベリー農園"
+			desc: "そこで働いている農場主たちは平均寿命よりも低いアームを所有しています。"
+		}
+		materializer: {
+			name: "材料処理機"
+			desc: "フラックスと再生可能な原材料を利用し、都市では生産できない資源を生み出す。\n\nタイニーの手伝いになるけど、多額な料金を支払う必要があります。"
+		}
+		storage: {
+			name: "ストレージヤード"
+			desc: "モノを置く場所です。\n\nここで保存されている資源は、建築や手作り、アップグレードなど、支払いに使用できます。"
+		}
+		importer: {
+			name: "リソースドロップ"
+			desc: "ハーベスターからレールを作らなくても、原材料を落とせる場所です。\n\nハーベスターカーは都市中を走り回ることができないので、ドロップは都市の外か端に建設されなくてはいけません。"
+		}
+		exporter: {
+			name: "リソースパッカー"
+			desc: "レールを通じて与えれたあらゆるリソース（リファインされたものも含め）は、一番近いリソースドロップまで送ってくれます。\n\nカートは街中を移動することができないため、街の外れか辺境に建ててください。"
+		}
+		smallbattery: {
+			name: "小型バッテリー"
+			desc: "テスラの家です。都市のテスラの電源容量を増やします。"
+		}
+		startargenerator: {
+			name: "発電機"
+			desc: "電力を生み出す装置です。\n\n他の発電機の近くには建てられません。"
+		}
+		fluxgenerator: {
+			name: "フラックスバッツ"
+			desc: "そこでフラックスを蒸留しています。"
+		}
+		woodwarper: {
+			name: "ウッドワーパー"
+			desc: "丸太ん棒を板に加工しています。木材に関するレシピをたくさん生み出せます。"
+		}
+		stonecutter: {
+			name: "ストーン労働者"
+			desc: "フェザーストーンの原石を精製し、建築に使えるようにしています。"
+		}
+		purptatoprocessor: {
+			name: "食品工場"
+			desc: "食べたくないものを本当に食べたくないものに加工しています。\n\n原料を食品に変えることができます。"
+		}
+		coppersmelter: {
+			name: "スメルター"
+			desc: "変な匂いをする機械で、原石を精錬して使用可能なインゴットにすることができます。金属に関するレシピをたくさん生み出せます。"
+		}
+		workshop: {
+			name: "工場"
+			desc: "あらゆる種類のビットとピースを、より使いやすい方に組み立てる場所です。"
+		}
+		cauldron: {
+			name: "コルドロン"
+			desc: "液状を別の液状に変える機械です。"
+		}
+		bloodwoodresource: {
+			name: "血の木材のノード"
+		}
+		featherstoneresource: {
+			name: "フェザーストーンのノード"
+		}
+		crystalresource: {
+			name: "水晶のノード"
+		}
+		cabtusresource: {
+			name: "カブタスのノード"
+		}
+		copperresource: {
+			name: "銅のノード"
+		}
+		acidshardsresource: {
+			name: "アシッドのノード"
+		}
+		glowhoneyresource: {
+			name: "光ってるハチミツのノード"
+		}
+		sulfurresource: {
+			name: "硫黄ノード"
+		}
+		liquidfireresource: {
+			name: "リキッドファイアノード"
+		}
+		candyresource: {
+			name: "キャンディッシュルームノード"
+		}
+		ruins-ind: {
+			name: "産業遺跡"
+		}
+		ruins-tech: {
+			name: "技術遺跡"
+		}
+		ruins-lab: {
+			name: "化学遺跡"
+		}
+		ruins-fuel: {
+			name: "燃料を保存する遺跡"
+		}
+		ruins-skill-resetter: {
+			name: "インフラ清掃施設の廃墟"
+		}
+		ruins-resource-converter: {
+			name: "リソースコンバーター施設の廃墟"
+		}
+		ruins-flux-shop: {
+			name: "マテリアライザーの廃墟"
+		}
+		ruins-perm-income: {
+			name: "補給施設の廃墟"
+		}
+		raid-spawner: {
+			name: "悪夢のリフト"
+		}
+	}
+	hud: {
+		daytime: "サイクル{0}"
+		daytime-hover: "サイクルとは、ドリームエンジンの基本的な時間単位です。\n\n1サイクルは40リアルタイム秒です。"
+		fast-forward: "長押しで早送り"
+		enemy-meter: {
+			threat-level: "危険度：{0}"
+			threat-hover: "脅威度はドリームイーターがどれだけ興奮しているかを示します。都市が着陸している間に、それが増加します。離陸したら、新マップの難易度に応じてリセットされます。\n\n脅威度が高いほど、より強いドレップがあなたの都市へ襲撃をかけてきます。\n\n<color=#FFD57E>クリックすると、都市情報ウィンドウが開きます。</color>"
+		}
+		resource-counter: {
+			assigned-hover: "所有物：{0}\n割り当て：{1}\n無料：{2}"
+			normal-hover: "所有物：{0}\n生産量（実際の）：{1}\n消耗量（最大の）：{2}"
+			edit-hover: "編集\n\nHUDで追跡したいアイテムを選択してください。"
+			edit-title: "アイテムの選択"
+		}
+		bottom: {
+			health: {
+				title: "タイニーの健康"
+				hover: "都市に戻り、修理キットを使ってダメージを修復する"
+			}
+		}
+		buttons: {
+			build: "建築"
+			toolstoolbar: "ツール：あなたの都市を管理する"
+			usable-storage: "複合資源\n\nストレージに保存されている全てのアイテムとタイニーの所有物の合計で、建設や製作など、プレイヤーの行動にも利用できる資源です。"
+			research: "研究"
+			crafting: "製作"
+			journal: "ジャーナル"
+			skills: "インフラ"
+			inventory: "キャラクターメニュー"
+			gamepedia: "ドリームアーカイブス"
+			bulldoze: "取り壊し\n\n都市中の建物を取り壊すと、資源に回収することができます（建築材料のみで、フラックスは含まれません）。"
+			repair: "修復/再建\n\n破損した建物の修復と倒壊した瓦礫の再建を行います。近くに敵がいる場合は使用できません。"
+			move: "建物の移動\n\n移動したい建物を選択し、そして移動先を選んでください。もちろん、全ての建物が移動できるわけではありません。"
+			delinout: "アクセスポイントの削除\n\nレールタイルから全てのアクセスポイント（入力／出力）を削除できます。"
+			pickcart: "ピックカート\n\nレールから資源を盗み取るためのツールです。"
+			enabledisable: "オン／オフ\n\nこのツールを使って、建物の有効化と無効化を素早く行うことができます。"
+			free-camera: "フリーカメラ\n\nカメラをタイニーから切り離し、自由に動かすことができます。"
+			layer-cancel: "全てのレイヤーをオフにします。"
+			layer-upgrade: "アップグレードレイヤー\n\nそこに、建物のレベルと進化的なアップグレードをするためのボタンが表示されています。"
+			layer-prod: "生産レイヤー\n\n各建物の生産状況を表示し、しかもゲームビューから直接変更することができます。"
+		}
+		warnings: {
+			subtitle: "詳細はミニマップ上のツールチップを参照してください。"
+			overpopulation: {
+				text: "人が死んでいく"
+				hover: "住宅の許容範囲より、人口が多いです。そこをなんとかしないと、人々が死に、あなたは労働者を失うはめになります。\n\nそういうわけで、住宅の確保や食料と電力が供給されていることを予め確認してください。"
+			}
+			fundsdwindling: {
+				text: "使い切ったフラックス"
+				hover: "世界に存在する技術にとってフラックスこは最も重要な資源です。\n\n使い切るまでの時間：{0}"
+			}
+			fooddwindling: {
+				text: "食材が足りない"
+				hover: "生産できる食料以上に、あなたの国民が食べています。その故、食品工場を建設し、原材料を供給しなくてはいけません。\n\n食べ尽くすまでの時間：{0}"
+			}
+			powerdwindling: {
+				text: "消費電力​量が多い"
+				hover: "電力の消費量は生産量より多いです。発電機を増設し、十分に供給できるように努力します。\n\n使い切るまでの時間：{0}"
+			}
+			upgrade-available: {
+				text: "インフラのアップグレードが可能"
+				hover: "インフラのアップグレードに必要な材料は十分に揃っています。\n\nKを押して、インフラストラクチャー画面を開き、アップグレードを購入し、アップグレードポイントを支払います。"
+			}
+			overweight: {
+				text: "オーバーウェイト"
+				hover: "都市の重量がエンジンの積載量を超えてしまいました。このままでは、飛行できません。\n\nエンジンを建設したりアップグレードしたりして積載量を増やし、または建物を取り壊して都市全体を軽量化します。"
+			}
+			building-attacked: {
+				text: "あなたの建物が攻撃されています"
+				hover: "1つ以上の建物が攻撃を受けています。"
+			}
+			tiny-attacked: {
+				text: "タイニーが攻撃されています"
+			}
+			risk-increase: {
+				title: "危険度アップ"
+				text: "新しい危険度：{0}"
+			}
+			raid-incoming: {
+				title: "ドレップの襲来"
+				text: "来るぞ！都市を守る準備をしてください。"
+			}
+			raid-preparing: {
+				title: "危険が迫ってくる"
+				text: "ドレップは攻撃の準備をしています。"
+			}
+			go-to-city: {
+				title: "離陸準備"
+				text: "すぐに都市へ戻れ！"
+			}
+			no-research: {
+				text: "選択できる研究はありません"
+				hover: "研究ラボは設置していますが、研究テーマはまだ決めていません。\n\n「R」ボタンを押すと「研究画面」が表示され、テーマを選ぶことができます。また、電力やフラックスを保つために研究を中断することもできます。"
+			}
+			insufficient-workers: {
+				text: "人手不足"
+				hover: "全ての建物を維持するだけの労働者がいません。\n\n建物を無効にして労働者を解放するか、家を増やして労働者の最大収容人数を増やしてください。無料で住む住宅がある場合、時間とともに労働者の人数はゆっくりと増えていきます。"
+			}
+			prod-missing-raw: {
+				hover: "資源の不足\n\nこの建物では、生産に必要な原材料が不足しています。"
+			}
+			resource-depleted: {
+				hover: "資源の枯渇\n\nこの鉱床の資源が枯渇したので、生産効率が低下してきました。"
+			}
+			building-disabled: {
+				hover: "建物の無効化\n\nこの建物は無効化されており、機能していません。"
+			}
+			missing-upkeep: {
+				hover: "資源の不足\n\nこの建物を維持するだけの資源がありません。"
+			}
+			output-full: {
+				hover: "出力フル\n\n加工された資源が建物から取り出さないと、生産は続行できません。"
+			}
+			no-power-connection: {
+				hover: "電力ネットワークと切り離し\n\n建物は電力ネットワークから切り離されています。テスラタワーを建てて、建物が電力を受け取れるようにします。"
+			}
+		}
+		citysize: {
+			maxsize: "最大限に到達しました"
+			current-size: "{1}: {0}"
+			next-size: "次のレベル：{1}"
+			hover-title: "次のレベル：{0}"
+			hover-body: "現在の人口：{0}\n提供できる住宅の数：{1}\n次のレベルに必要なもの：{2}\n\n次のレベルに上がると、得られるものは：\n{3}\n\n<color=#FFD57E>クリックすると、都市情報ウィンドウが開きます。</color>"
+			s0: "キャンプ"
+			s1: "アウトポスト"
+			s2: "村"
+			s3: "タウン"
+			s4: "ヘブン"
+			s5: "都市"
+			s6: "フライング フォートレス（空飛ぶ要塞）"
+		}
+		construction: {
+			free-builds: "無料で建築できます：{0}"
+			max-amount: "最大許容値：{0}"
+		}
+	}
+	objwarnings: {
+		importer-no-access: "外部からのアクセスはできません。都市の端や外に移動してください。"
+		disconnected-rail: "このレールは、どの入り口にも繋がっていません。"
+	}
+	crafting-categories: {
+		equipment: {
+			name: "装置"
+		}
+		upgrades: {
+			name: "アップグレード"
+		}
+		resources: {
+			name: "資源"
+		}
+		modules: {
+			name: "モジュール"
+		}
+		ruins-store: {
+			name: "スペシャル"
+		}
+	}
+	upgrades: {
+		prod1: {
+			name: "生産ラインアップグレード"
+			desc: "より優れた生産レシピの使用を可能にします。ほとんどのレシピは使用可能な前に研究する必要があります。"
+		}
+		prod2: {
+			name: "生産ラインアップグレード2"
+		}
+		prod3: {
+			name: "生産ラインアップグレード3"
+		}
+		energycell-addon: {
+			name: "テスラチャンバー"
+		}
+		materializer-cabtus: {
+			name: "キャブタス・マテリアライザー"
+		}
+		materializer-crystal: {
+			name: "クリスタルマテリアライザー"
+		}
+		materializer-acid: {
+			name: "アシッドシャードマテリアライザー"
+		}
+		materializer-sulfur: {
+			name: "硫黄マテリアライザー"
+		}
+		coppermachine-flux: {
+			name: "フラックスマシナリー"
+			desc: "基本的な生産レシピを強化します。\n\n高度なレシピには対応できません。"
+		}
+		coppermachine-power: {
+			name: "テスラマシナリー"
+		}
+		woodturret-plating: {
+			name: "ナイトメアのアップグレード"
+		}
+		stoneturret-plating: {
+			name: "ナイトメアのアップグレード"
+		}
+		atlasturret-plating: {
+			name: "ナイトメアのアップグレード"
+		}
+		musicturret-speed: {
+			name: "フラックスメタルのアップグレード"
+		}
+		atlasturret-damage: {
+			name: "フラックスメタルのアップグレード"
+		}
+		storage-flux: {
+			name: "追加フラックスストレージ"
+		}
+		storage-fuel: {
+			name: "追加燃料ストレージ"
+		}
+		battery-power: {
+			name: "追加バッテリーストレージ"
+		}
+		heat-shield: {
+			name: "ヒートシールド"
+		}
+		air-filter: {
+			name: "エアフィルター"
+		}
+	}
+	windows: {
+		selectedbuilding: {
+			on-off-hover: "建物のオン/オフを切り替える"
+		}
+		titlemenu: {
+			quit: "終了"
+			credits: "クレジット"
+			buildnumber: "建てる{0}"
+			patchnotes: "<u>最新のパッチノートはこちら</u>"
+		}
+		gamepedia: {
+			title: "ドリームアーカイブス"
+			unseen-tab: "新しい"
+			construction-tab: "建物"
+			upgrades-tab: "建物ののアップグレード"
+			production-tab: "生産レシピ"
+			crafting-tab: "製作レシピ"
+			resources-tab: "資源"
+			right-click: "右クリックでドリームアーカイブスに開く"
+			filter: "フィルター…"
+		}
+		inputoutput: {
+			outputtitle: "出力アイテムを選択します。"
+			mintitle: "最低限必要なもの"
+			minhover: "在庫品の数が最低数を下回った場合にのみ送信されます。\n\n「全て」を選択した場合には無視できます"
+		}
+		saveload: {
+			loadtitle: "ゲームの読み込み"
+			savetitle: "データ保存"
+			save-desc-format: "{0} - {2}, {1} 市民"
+			save-info-format: "{0}\nサイクル {1}\nバージョン {3}, {2}"
+			default-name: "{0} {1} サイクル"
+			notsupported-postfix: "（対応出来ません）"
+			notsupported-hover: "このバージョンの保存はサポートを終了しています。\n\n古いバージョンのゲームでこのセーブを続けたい場合は、「Steam」の「ベータ」タブから選択できます。ライブラリのゲームを右クリックして、「プロパティ」を選択し、「ベータ」のタブを選択します。"
+			delete-incompatible: "不適合な保存を削除します。"
+			delete-incompatible-hover: "これにより、不適合な以前の建物も保存ファイルから削除されます。この操作は取り消せません。"
+			savename: {
+				title: "ゲームタイトル保存"
+				text: "保存ファイルの名前を入力してください"
+				placeholder: "名前保存中…"
+				autosave: "自動セーブ"
+				quicksave: "クイックセーブ"
+				new-save: "新しい保存"
+			}
+		}
+		gamemenu: {
+			title: "ゲームメニュー"
+			save: "ゲームを保存する"
+			feedback: "フィードバックを送信する"
+			discord: "Discordで議論する"
+			load: "ゲームの読み込み"
+			quit: "タイトルに戻る"
+			savequit: "保存して終了"
+			info: "{1}\nプレイ時間：{0}"
+		}
+		destinationselect: {
+			title: "目的地の選択"
+			worlddifficulty: "世界侵入のレベル："
+			worlddifficulty-hover: "世界侵入のレベル（マップの難易度）は、選択できる着陸オプションのスカルの量にかかります。侵入レベルが上がると、より難しい選択肢が現れます。\n\n世界侵入は、時間とともに増加します。"
+			mapdifficulty-title: "マップの難易度"
+			mapdifficulty-hover: "最初の危険度：{0}\n\nマップの難易度は、マップ上のドレップの数と強さ、そして自分の都市への襲撃の危険度で決めます。"
+			refresh-title: "他の場所へ移動します"
+			refresh-hover: "燃料を消費し、別のエリアに移動し、新たな飛行ルートを生成します。"
+			locked: "ここに着陸することはできません。"
+		}
+		expedition-select: {
+			workers-title: "エクスペディション隊員"
+			workers-hover: "これらの隊員は準備段階からエクスペディション完了まで他の作業につけませんので、十分なワーカーを確保してください。"
+			workers-desc: "必要とされるワーカー: {0}"
+			upfront-costs-title: "前払い費"
+			upfront-costs-hover: "これらのアイテムはエクスペディションの準備開始と共に消費されます。"
+			prep-title: "準備"
+			prep-hover: "これらはエクスペディションセンター準備段階の維持費です。"
+			prep-desc: "準備時間: {0} サイクル"
+			expedition-title: "エクスペディションと報酬"
+			expedition-hover: "これらの報酬はエクスペディション中に見つかる可能性があります。"
+			expedition-desc: "エクスペディション期間: {0} サイクル"
+		}
+		expedition-rewards: {
+			title: "エクスペディション-報酬を選択"
+		}
+		archeology-select: {
+			time-desc: "プロジェクト時間: {0} サイクル"
+			build-title: "プロジェクト内容"
+			build-hover: "プロジェクトを完了させるためには、下記のリソースを継続的に考古学者に供給する必要があります。\n\n複数の考古学者が同じプロジェクトに参加することで、より早く完了することができます。"
+			rewards-title: "報酬"
+			rewards-hover: "プロジェクト完了後、これらの報酬は永続的に有効であり、追加費用は発生しません。"
+		}
+		research: {
+			title: "研究"
+			noresearch: "進行中の研究はありません"
+			nolabs: "研究ラボはありません"
+			nolabs-hover: "研究ラボを建設し、新しい技術の研究を始めよう。\n\n研究ラボは、都市の人口を増やすことによってアンロックされます。"
+		}
+		crafting: {
+			title: "製作"
+			performbutton: "クラフト"
+			charges: "残りの料金：{0}"
+			not-activated: "クラフトできません。-建物がアクティベイトされていいません。"
+			teslacrats-mul-addition: "<color=#FFD57E>パワーコストの倍率は：{0}</color>\n電源を切ったときに増加しますが、その後、徐々に元に戻っていきます。"
+		}
+		productionselect: {
+			title: "生産レシピの選択"
+			select: "選択します"
+			missing-upgrade: "アップグレード/アドオンの欠落：{0}"
+		}
+		character: {
+			title: "キャラクター"
+			weapon: "武器"
+			weapon-secondary: "交互に使える代替武器"
+			weapon-secondary-hover: "{0}を押すと、メイン武器と代替武器のセットを切り替えることができます。"
+			secondary-not-assigned: "割り当てなし"
+			secondary-not-assigned-hover: "代替セットに割り当てられる武器がない場合、代わりにメインセットの武器が使用されます。"
+			armor: "装甲"
+			equipment: "装置"
+			quickbar: "ショートカットスロット（スロットをクリックすると割り当てられます）"
+			enable-scrap: "スクラップ装置"
+			end-scrap: "スクラップ終了"
+			no-scrap-hover: "このアイテムをスクラップしても、材料は戻ってきません。"
+			scrap-value-hover: "このアイテムをスクラップすると、次のリソースが得られます。"
+		}
+		skills: {
+			title: "インフラのアップグレード"
+			purchasebutton: "購入"
+			purchasebutton-hover: "資源を消費し、インフラのレベルを上げ、様々な特典に割り当てられるポイントを獲得します。"
+			requirements: "条件"
+			per-level: "レベルアップのボーナス："
+			level: "インフラのレベル：{0}"
+			upgrade-points: "割り当てられていないポイント：{0}"
+			points-hover: "インフラポイントは、いくつかのエリアのインフラを改善するために使用できます。各エリアにカーソルを合わせると、そのエリアをアップグレードするメリットが表示されます。"
+		}
+		tribeselect: {
+			title: "部族の選択"
+		}
+		newgame: {
+			title: "新しいゲーム"
+			tutorial-label: "チュートリアルを開始します"
+			score-mul: "スコアマルチプライヤー：{0}"
+			difficulty-title: "難易度の選択"
+			customize-title: "カスタマイズ"
+			city-name-title: "都市の名前"
+			city-name-text: "あなたのノマドシティはどのように知られるでしょうか？"
+		}
+		loadingscreen: {
+			tip: "ヒント {0} / {1}"
+			loading: "読み込み中…"
+			press-any-key: "いずれかのキーを押して続行します\n<size=24>キーA | Dを押すとヒントが切り替えられる。</size>"
+		}
+		yesno: {
+			dontshowagain: "二度と聞かないでください"
+			chosen-higher-difficulty: {
+				title: "難易度アップしますか？"
+				text: "あなたは現在の世界侵入レベルより、難易度の高い場所に着陸することを選択しました。そうすると、侵入レベルが一気に上がります。\n\n目的地選択画面の上部にある「世界侵入レベル」インジケーターにカーソルを合わせると、詳細を知ることができます。\n\n続けますか？"
+			}
+			delete-save: {
+				title: "保存ファイルを削除しますか？"
+				text: "この保存ファイルを削除してもいいですか？一度削除されたデータは、二度と読み取ることができません。"
+			}
+			overwrite-save: {
+				title: "上書き保存しますか？"
+				text: "既存の保存ファイルを上書きされます。\n\nこのファイルを上書きしてもいいのでしょうか？一度上書きされたデータは、復元することができません。"
+			}
+			cancel-takeoff: {
+				title: "離陸をキャンセルしますか？"
+				text: "本当に離陸準備を停止しますか？燃料費の半分しか戻ってきません。"
+			}
+			overwrite-ironman: {
+				title: "上書き保存しますか？"
+				text: "この名前のアイアンマンモードゲームはすでに存在しています。同じ名前で新しいゲームを始めると、古いファイルが上書きされます。\n\n古いセーブデータを保有したい場合は、都市に新しい名前をつけてください。\n\n上書き保存しますか？"
+			}
+			no-overseer: {
+				title: "監督ツールを無効にする"
+				text: "あなたは監督ツールを無効にするモードを選択したので、ゲームの一時停止やスピードアップができません。さらに、カメラがタイニーに固定されるため、シティを管理するためには自ら動かなければならないことになりますが、よろしいでしょうか？"
+			}
+			remove-upgrade: {
+				title: "アドオンを削除しますか？"
+				text: "このアドオンを削除してよろしいですか？原料の一部しか取り戻せません。"
+			}
+			skip-tutorial-new: {
+				title: "チュートリアルをスキップしますか？"
+				text: "ドリームエンジンにはユニークな仕組みがあるので、チュートリアルをスキップすると、体験に悪影響を及ぼす可能性があります。すごく短いので、是非プレイしてみてください。\n\n本当にチュートリアルをスキップしてよろしいですか？"
+			}
+			skip-tutorial-task: {
+				title: "チュートリアルをスキップしますか？"
+				text: "本当にこのチュートリアルをスキップしますか？その場合、いつでもヘルプ画面にて確認することができます。"
+			}
+			skip-tutorial-updated: {
+				title: "チュートリアルをスキップしますか？"
+				text: "前回おプレイしていただいた後、チュートリアにいくつか重要な変更を行いました。もう一度プレイすることをお勧めします。\n\n本当にチュートリアルをスキップしてよろしいですか？"
+			}
+			different-mods: {
+				title: "異なるモード"
+				text: "読み込み中のゲームは、現在有効なものとは異なるモードのセットでプレイされています。問題なく動作する場合もありますが、ゲームのロードに失敗したり、プレイ中に別の問題が発生する場合もあります。\n\n続きはこちら"
+			}
+			below-recommended-version: {
+				title: "新しいゲームを始めることをお勧めします。"
+				text: "以前のバージョンからセーブしたゲームをロードしようとしています。操作可能ではありますが、重要な変更が加えられたため、意図通りに動作しない場合があります。新しいゲームを始めるか、<color=#99EEFF><u><link=\"\"old-version\"\">古いバージョンのドリームエンジンをダウンロード</link></u></color>することを強くお勧めします。\n\n続けますか？"
+			}
+			multi-demolish: {
+				title: "すべて取り壊しますか？"
+				text: "あなたは{0}個の異なった物質を取り壊そうとしていますが、よろしいでしょうか？"
+			}
+			demolish-upgrades: {
+				title: "アップグレードを取り消しますか？"
+				text: "今破壊しようとしている建物は、アップグレードやアドオンがあります。続けますか？"
+			}
+			cancel-expedition: {
+				title: "エクスペディションをキャンセルしますか？"
+				text: "この操作は現在進行中のエクスペディションをキャンセルします。エクスペディションが準備段階の場合、これまで使用したリソースのみ消費されます。\n\nエクスペディションが進行中の場合、隊員も失うことになります。"
+			}
+			continue-after-winning: {
+				title: "プレイを続けますか？"
+				text: "難易度や部族を変えて新しいゲームを再開することができます。また、このまま続行し都市を拡大することもできます。ゲームを続ける場合、ヌリファイアシールドを自由に取り壊しても大丈夫です。\n\n続けますか？"
+			}
+		}
+		journal: {
+			goals-click: "目標をクリックすると、そのチュートリアルが表示されます。"
+			tutorial-tab: "チュートリアル"
+			story-tab: "メイン目標"
+			milestones-tab: "マイルストーン"
+			button-show-dialogue: "会話再生"
+		}
+		settings: {
+			title: "セッティング"
+			tabs: {
+				display: "画面"
+				audio: "音声"
+				gameplay: "ゲームプレイ"
+			}
+			master-volume: {
+				title: "マスター音量"
+			}
+			music-volume: {
+				title: "音楽の音量"
+			}
+			sfx-volume: {
+				title: "効果音の音量"
+			}
+			ambiance-volume: {
+				title: "アンビエンスボリューム"
+			}
+			fullscreen: {
+				title: "フルスクリーン"
+				hover: "通常のウィンドウとフルスクリーンのボーダレスウィンドウを切り替えることができます。フルスクリーンオプションを選択すると、デスクトップの解像度が自動的に使用されます。"
+			}
+			resolution: {
+				title: "ウィンドウズの解像度"
+				hover: "フルスクリーンをオフにすると、ウィンドウのサイズや解像度を調整できます。"
+			}
+			vsync: {
+				title: "垂直同期信号"
+			}
+			shadows-enabled: {
+				title: "シャドウ"
+			}
+			bloom-enabled: {
+				title: "ブルーム"
+				hover: "発光するオブジェクトにグローを追加します。これを解除すると、ゲームの景観性が大幅に落ちます。"
+			}
+			ambient-occlusion-level: {
+				title: "アンビエントオクルージョン"
+				values: {
+					Lowest: "最低限"
+					Low: "低"
+					Medium: "中"
+					High: "高"
+					Ultra: "ウルトラ"
+				}
+			}
+			citizens-amount: {
+				title: "市民を表示"
+				values: {
+					0: "オフ"
+					25: "少し"
+					50: "半分"
+					100: "全部"
+				}
+			}
+			texture-quality: {
+				title: "テクスチャークオリティ"
+				values: {
+					0: "全開"
+					1: "中"
+					2: "低"
+					3: "最低限"
+				}
+			}
+			vignette: {
+				title: "ビネット"
+			}
+			weather: {
+				title: "気象エフェクト"
+			}
+			anti-aliasing: {
+				title: "アンチエイリアス (FXAA)"
+			}
+			brightness: {
+				title: "明るさ"
+			}
+			fps-limit: {
+				title: "最大FPS"
+				hover: ""
+			}
+			mouse-confine: {
+				title: "カーソルの固定"
+				hover: "マウスカーソルをゲームウィンドウ内に固定します。"
+			}
+			pause-on-lose-focus: {
+				title: "フォーカスしなくなった時に一時停止"
+				hover: "ゲームウィンドウがフォーカスしなくなった時に一時停止。"
+			}
+			takeoff-view: {
+				title: "テイクオフビュー"
+				hover: "離陸時に都市全体の景色を表示します。\n\n離陸アニメーションのパフォーマンスに問題が生じた場合は、それを無効にしてください。"
+			}
+			management-cam: {
+				title: "管理カメラ"
+				hover: "オンにすると、管理モードに入ると、自動的にトップダウン表示にロックされ、また、戦闘モードに切り替えると通常の表示に戻ります。\n\nオフにしても、手動でトップダウン表示に切り替えることができます（デフォルトは「Z」）"
+			}
+			default-free-cam: {
+				title: "ディフォルトフリーカメラ"
+				hover: "有効にした場合、管理モードに切り替えるとフリーカメラにも切り替わります。"
+			}
+			auto-pause-mgmt: {
+				title: "管理が自動的に一時停止"
+				hover: "有効にした場合、管理モードに切り替えるとゲームが一時停止になります。管理モードから元に切り替えるとゲームが開始します。"
+			}
+			management-grid: {
+				title: "マネジメントグリッド"
+				hover: "グリッドを管理モードで表示します。"
+			}
+			target-marker: {
+				title: "ターゲットマーカー"
+				hover: "オンにすると、タイニーの前方にいる敵にターゲットマーカーが投下されます。\n\nこのマーカーは、照準を合わせるためのものです。"
+			}
+			dynamic-minimap: {
+				title: "ダイナミックミニマップ"
+				hover: "ミニマップの回転とカメラの回転を一致させます。"
+			}
+			multi-demolish-confirm: {
+				title: "取り壊しの確認"
+				hover: "一度に複数の物資を元に戻すときに、確認ウィンドウを表示します（レールを除く）。"
+			}
+			disconnected-rail-warnings: {
+				title: "レール警告"
+				hover: "レールがどこにもつながっていない場合の警告を表示します。"
+			}
+			pause-frame: {
+				title: "一時停止フレームを表示"
+			}
+			wall-attack-warning: {
+				title: "壁攻撃警告"
+				hover: "壁が攻撃されている時、警告を表示しますか。"
+			}
+		}
+		keybind: {
+			title: "キーバインディング"
+			reset: "初期設定の復元"
+			selectnew: {
+				title: "バインドキー"
+				text: "新しいキーを押してバインドします。"
+			}
+		}
+		score: {
+			title: "スコアの概要"
+			score-summary: "トータルスコア：{0}\n難易度マルチプライヤー：{1}\n\n最終スコア：{2}"
+			elements: {
+				raid-defeated: {
+					text: "最も過酷なレイド戦に成功"
+					hover: "難易度の高い場所に着地し、より長い時間滞在して敵軍を倒すと、スコアが上がります。"
+				}
+				population: {
+					text: "人口"
+					hover: "ゲーム終了時に、あなたの都市の人口で決まります。"
+				}
+				research: {
+					text: "研究成果物"
+					hover: "研究を完成させることで増えていきます。価値のある研究テーマほど、高いボーナスが得られます。"
+				}
+				infrastructure: {
+					text: "インフラのレベル"
+					hover: "このスコアを伸ばすために、インフラをアップグレードしてください。"
+				}
+				expansion: {
+					text: "都市規模"
+					hover: "そのスコアは、都市のエリアをどれだけ広げたかで決まります。"
+				}
+				exploration: {
+					text: "探索"
+					hover: "エクスペディションを敢行し、考古学プロジェクトを完了させます。"
+				}
+				victory: {
+					text: "勝利"
+					hover: "ゲームに勝つと追加ポイントが得られます。"
+				}
+				other: {
+					text: "その他"
+					hover: "その他の得点ボーナス／ペナルティです。"
+				}
+			}
+		}
+		usable-storage: {
+			tabs: {
+				all: "プレーヤー＋ストレージ"
+				storage: "ストレージのみ"
+			}
+		}
+		city-info: {
+			title: "都市情報"
+			landing-zone: "着地点"
+			city: "都市"
+			levels: "都市のレベル"
+			bonuses: "ボーナスとペナルティー"
+			current-level: "都市のレベル：{0}"
+			current-pop: "人口/ 住宅：{0} / {1}"
+			section-count: "都市部：{0}セクション"
+			level-hover: "レベルを上げるメリット：\n\n{0}"
+		}
+		mods: {
+			title: "モード"
+			achievements-disabled-title: "アチーブメント無効"
+			achievements-disabled-warning: "ほとんどのMOD（翻訳MODを除く）でプレイしているとき、またはこれらのMODで作成されたセーブファイルをプレイしているとき、アチーブメントは無効になります。\n\n以下のMODを選択した場合、アチーブメントが無効になります：\n{0}"
+		}
+		tutorial: {
+			show-last: "{0}を押すと、現在の指示を繰り返します"
+			skip-button: "タスクをスキップします。"
+		}
+		building-management: {
+			title: "建物マネジメント"
+		}
+		council-window: {
+			title: "市議会"
+			influence: "影響力: {0}"
+			influence-range: "影響力範囲: {0} - {1}"
+			council-leader: "議長"
+			select-leader: "新議長を選出してください。"
+			select-leader-hover: "クリックすると、新しい審議会議長を選択できます。"
+			leader-are-you-sure-title: "{0}を選出しますか？"
+			leader-are-you-sure-text: "{0}を選出するということでよろしいですか？\n\n<highlight>効果</highlight>：\n{1}\n\n<highlight>影響力の変化</highlight>：\n{2}"
+			increase-size: "都市の規模を拡大し、市議会を設立してください。"
+			next-elections: "次の選挙は{0}周期後です。"
+			select-error-message: "閉じる前に新議長を選出してください。"
+		}
+	}
+	council-factions: {
+		military: {
+			name: "軍事派"
+		}
+		scientists: {
+			name: "科学派"
+		}
+		labor: {
+			name: "労働者派閥"
+		}
+	}
+	tribes: {
+		scavengers: {
+			name: "ジャンクロード"
+			desc: "ジャンクロードは廃品のマスターです。他の部族が、古い世界のゴミや特徴のない青い箱しか見ていないのに対し、彼らは宝物を見つけました。彼らの専門知識は、あらゆる廃品を見つけ出し、利用することで、古代の遊牧民の都市を修復と維持するのに非常に役立っています。"
+		}
+		dreamweavers: {
+			name: "ドリームウィーバー"
+			desc: "ドリームウィーバーは、旧世界のテクノロジーの仕組みを完全には理解していなくても、ドリームテックを巧みに操ることができます。彼らはフラックスの生成に非常に長けており、より多くのマテリアを扱うことができます。\n\nしかし、それらのスキルには代償が伴います。彼らは夢の世界に魅了され、時々実験を行うため、ドリームイーターは彼らの存在に気づきました。"
+			unlocktext: "アンロック方法：他の部族との対戦中に3,000個のフラックスを獲得"
+		}
+		electric: {
+			name: "テスラアクト"
+			desc: "テスラエネルギーの達人である彼らは、電力だけで資源を複製することができる独自の技能を持っています。テスラアクトの主な欠点は、少しの電力で充分と思っているので、基本となる発電器は非常に効率が悪いことです。"
+			unlocktext: "ロック解除条件：1サイクルあたりの総発電量（消費前）が600パワーであること"
+		}
+		builders: {
+			name: "ビーバー"
+			desc: "ビーバー族はその優秀な建築プロジェクトで有名です。自分たちの都市を素早く簡単に拡張することができ、少ない資源で建物をアップグレードすることができます。しかし、彼らは大事なプロジェクトを置き去りにしたくないため、都市周辺で建てることしかできません。無駄遣いと置き去りを好まないプレーヤーにはとっておきの部族です。"
+			unlocktext: "アンロック条件：一つのゲームで都市を5回拡張する。"
+		}
+		explorers: {
+			name: "レムナントシーカー"
+			desc: "レムナントシーカーは探検部族であり、救いは過去にあると信じています。経験豊富で効率的なエクスペディション隊員を活かし、旧世界の遺跡探索に命をかけています。彼らが飛行に使うタイニーは低燃費且つ高速ですが、防御を通常より弱く、リサーチの効率もあまりよくありません。"
+			unlocktext: "アンロック条件：一つのゲームでエクスペディションを5回完成すること。"
+		}
+		gatherers: {
+			name: "テラ・マルタ"
+			desc: "テラ・マルタ族（略して「テラン」）は、自然が提供する資源を最大限に活用することができる勤勉な人々です。彼らは資源収穫が得意であり、ノードを枯渇させる前に更に多くの資源を採取することができます。また、各マップでリストとは異なる種類の資源ノードをランダム（レベル次第）に1つ発見することができます。\n\nしかし、彼らは合成資源を信じておらず、マテリアライザーを全く使用しないため、生資源の精製が比較的遅いです。"
+			unlocktext: "アンロック方法：2スカル以上のマップ全ての資源ノードにハーベスタを建ててください。"
+		}
+		hunters: {
+			name: "プレイグハンター"
+			desc: "夢の災いが出現しはじめるようになった頃、プレイグハンターと呼ばれる軍事組織が出現した。何世紀経った今でも、彼らの子孫は世界中をさまよい、チャンスがあればドリームプレイグを狩り、その亡骸を使って生き延びている。\n\nプレイグハンターは戦闘に優れ、倒したドレップから資源を抽出し、その使い道を見つけ出す。しかし、彼らは最高のエンジニアを戦争に送り出したため、生産施設は最も効率的だとは言えない。"
+			unlocktext: "アンロック方法：タイニーと1回の対戦でドリームプレイグを150体倒す。"
+		}
+		nomads: {
+			name: "伝承者"
+			desc: "伝承の番人は歴史学者であり、旧世界のあらゆるものの専門家でもあります。できるだけ多くの廃墟を訪れたい彼らは、他の部族よりもさらに遊牧民的で、効率的な都市移動を完成させ、遠くから廃墟を発見することができます。彼らは常に旧世界のものに手を出すため、ドレップにいち早く気づかれ強襲されます。"
+			unlocktext: "アンロックするには：1回のゲームで10個の異なる廃墟と接触することです。"
+		}
+		doomed: {
+			name: "悪運部族"
+			desc: "彼らは呪われているのだと感じる人もいます。不運で、物事が思い通りに進まず、全てが困難そして彼らの前に立ちはだかります。悪運部族とは、そのような不運な人々の集まりなのです。\n\n彼らはドリームプレイグに見つかりやすく、より危ない地域に身を置き、リソースが乏しく、生活が非常に困難です。そんな過酷な生活を送ることで、彼らはより逞しくなり、生き残るために必要なものも少なくなっていきました。"
+			unlocktext: "アンロックするには：脅威レベル30以上のレイドから生き残ることです。"
+		}
+	}
+	expeditions: {
+		dreamtech-lab: {
+			name: "放棄された実験室"
+		}
+		abandoned-factory: {
+			name: "工場の廃墟"
+		}
+		storage-facility: {
+			name: "古い倉庫"
+		}
+		city-ruins: {
+			name: "ゴーストタウン"
+		}
+		steambot-factory: {
+			name: "スチームボット格納庫"
+		}
+		abandoned-experiment: {
+			name: "失敗した実験"
+		}
+		abandonded-farm: {
+			name: "荒れ果てた農場"
+		}
+		military-outpost: {
+			name: "古い軍用前哨基地"
+		}
+	}
+	expedition-rewards: {
+		resources: {
+			name: "リソースクレート"
+			desc: "様々な普通のリソースが入っている可能性があります。"
+		}
+		rare-resources: {
+			name: "レアなリソース"
+			desc: "入手困難なリソースが入っている可能性があります。"
+		}
+		tech-rewards: {
+			name: "テクノロジークレート"
+			desc: "リサーチ知識、ブループリント、レシピ、または技術関連の戦利品が入っている可能性があります。"
+		}
+		upgrade-mods: {
+			name: "モジュールクレート"
+			desc: "建物のアップグレードに必要なモジュール、タイニーまたはシティコアなどを見つけることができます。"
+		}
+		equipment: {
+			name: "機器クレート"
+			desc: "タイニーに必要な機器やアップグレードモジュールが含まれています。"
+		}
+		dream-tech: {
+			name: "ドリームテッククレート"
+			desc: "ドリームテック関連の材料と遺物が見つかります。\nドリームコアが見つかるチャンスも大きいです。"
+		}
+		dream-core: {
+			name: "ドリームコア"
+			desc: "単一のドリームコアが含まれています。"
+		}
+		archeology: {
+			name: "考古学のブループリント"
+			desc: "考古学者として取り組める旧世界のプロジェクトについて学びましょう。"
+		}
+	}
+	archeology: {
+		harvest-booster: {
+			name: "ハーベスター修理"
+		}
+		harvest-booster2: {
+			name: "ハーベスター修理2"
+		}
+		wall-health: {
+			name: "古代要塞"
+		}
+		wall-health2: {
+			name: "古代要塞2"
+		}
+		wall-health3: {
+			name: "古代要塞3"
+		}
+		carry-weight1: {
+			name: "空気力学"
+		}
+		carry-weight2: {
+			name: "空気力学2"
+		}
+		woodwarper-efficiency: {
+			name: "ウッドワーパーの効率性"
+		}
+		woodwarper-speed: {
+			name: "ウッドワーパーの生産性"
+		}
+		stonecutter-efficiency: {
+			name: "ストーンワーカーの効率性"
+		}
+		stonecutter-speed: {
+			name: "ストーンワーカーの生産性"
+		}
+		smelter-efficiency: {
+			name: "スメルターの効率性"
+		}
+		smelter-speed: {
+			name: "スメルターの生産性"
+		}
+		workshop-efficiency: {
+			name: "ワークショップの効率性"
+		}
+		workshop-speed: {
+			name: "ワークショップの生産性"
+		}
+		cauldron-speed: {
+			name: "大釜の生産性"
+		}
+		cauldron-speed2: {
+			name: "大釜の生産性2"
+		}
+		purptatoprocessor-efficiency: {
+			name: "食品加工"
+		}
+		researchlab-efficiency: {
+			name: "調査ツール"
+		}
+		expedition-speed: {
+			name: "エクスペディション装備"
+		}
+		expedition-options: {
+			name: "スカウティング装備"
+		}
+		cheaper-expansions: {
+			name: "アンダーシティ調査"
+		}
+		cheaper-farms: {
+			name: "農場建築"
+		}
+		farm-speed: {
+			name: "農業技術"
+		}
+		threat-increase: {
+			name: "ドリームテックステルス"
+		}
+		threat-increase2: {
+			name: "ドリームテックステルス2"
+		}
+		extra-materializer: {
+			name: "マテリアライザーインフラ"
+		}
+		materializer-speed: {
+			name: "マテリアライザーの生産性"
+		}
+		global-difficulty: {
+			name: "ドリームリンクの抑制"
+		}
+		global-difficulty2: {
+			name: "ドリームリンクの抑制2"
+		}
+		heavy-dmg: {
+			name: "重量武器ブースト"
+		}
+		repeater-dmg: {
+			name: "高速武器ブースト"
+		}
+		shotgun-dmg: {
+			name: "スプレッドショット武器ブースト"
+		}
+		housing1: {
+			name: "効率的住宅"
+		}
+		housing2: {
+			name: "効率的住宅2"
+		}
+		tiny-speed: {
+			name: "タイニーの足改良"
+		}
+		tiny-vision: {
+			name: "タイニーのレーダー改造"
+		}
+		weak-raids: {
+			name: "ドレップ制圧者"
+		}
+		resource-amount: {
+			name: "廃棄物削減"
+		}
+		giant-battery: {
+			name: "蓄電センター"
+		}
+		cart-speed: {
+			name: "オートカートの効率性"
+		}
+	}
+	stats: {
+		healamount: "ヘルス：+{0}"
+		maxhealth: "最大HP：{0}"
+		damage: "ダメージ：{0}"
+		range: "範囲：{0}"
+		aoe: "エフェクトラディウス：{0}"
+		attackrate: "攻撃速度：{0}"
+		autoattack: "自動（ホールドして発射）"
+		combosize: "コンボの長さ：{0}"
+		sustained-dps: "1秒あたりの持続的ダメージ：{0}"
+		dps: "1秒あたりの平均ダメージ：{0}"
+		ammo-type: "弾丸：{0}"
+		ammo-per-shot: "1ショットあたりの弾丸コスト：{0}"
+		burst-count: "バーストの発射回数：{0}"
+		burst-angle: "バーストの角度：{0}"
+		damage-vs: "ダメージに対して {0}: {1}"
+		piercing: "貫通弾"
+	}
+	target-type: {
+		armored: "装甲"
+	}
+	modifiers: {
+		format: "{0}: {1}"
+		bool-no-val-format: "{0}"
+		bool-format: "{0}: {1}"
+		bool-on: "はい"
+		bool-off: "いいえ"
+		specifier-format: "[{0}]"
+		max-building: "最大 {0} 可能：{1}"
+		passive-income: "[パッシブ] {0}: {1}"
+		tiny: "タイニー"
+		capacity-format: "{0} の容量：{1}"
+		skill-points: "ボーナスアップグレードポイント：{0}"
+		stats: {
+			dmg: "ダメージ"
+			dmg-to: "ダメージ"
+			attackrate: "攻撃速度"
+			attackrange: "範囲"
+			charge-speed: "武器のチャージ速度"
+			cdn: "クールダウン"
+			receive-dmg: "受けたダメージ"
+			max-health: "最大HP"
+			repairkit-heal: "リペアキットヒーリング"
+			speed: "移動速度"
+			speed-percent: "移動速度"
+			untargetable: "狙撃無能"
+			self-repair: "セルフリペアアウトサイド"
+			vision-range: "視界範囲"
+			prod-speed: "生産速度"
+			build-costs: "建築コスト"
+			upgrade-costs: "建物アップグレード費用"
+			demolish-refund: "取り壊し費用"
+			prod-outputamount: "生産された資源"
+			prod-inputamount: "使用された原材料"
+			upkeep-inputamount: "メンテナンスコスト"
+			upkeep-assigned: "労働者"
+			module-slots: "モジュールスロット"
+			gatheramount: "収集量"
+			lootdrop: "戦利品の数"
+			resourceamount: "資源量"
+			cart-speed: "カートの速度（レール）"
+			teslacrats-research: "<color=#7DE286>独自の研究：資源の複製</color>"
+			teslacrats-noflypower: "<color=#E27D7F>飛行中は蓄積された電力がすべて失われます</color>"
+			builders-citybuilding: "<color=#E27D7F>ほとんどの建物は都市内に建てることしかできません。</color>"
+			gatherers-extra-resources: "<color=#7DE286>マップ1つにつき、1つのランダムリソースノードが追加されます</color>"
+			gatherers-no-materializers: "<color=#E27D7F>マテリアライザーの研究または製造ができません</color>"
+			hunters-unique-drep-drops: "<color=#7DE286>ドリームプレイグから時々資源が落ちる</color>"
+			hunters-unique-drep-processing: "<color=#7DE286>ドリームプレイグの亡骸からユニークなクラフトレシピ</color>"
+			nomads-unique-visible-ruins: "<color=#7DE286>廃墟の位置は常に明確です。</color>"
+			nomads-unique-more-ruins: "<color=#7DE286>マップごとに、より多くの廃墟を発見できます。</color>"
+			nomads-unique-craft-scraps: "<color=#7DE286>ワークショップで旧世界のスクラップを作ることができます。</color>"
+			doomed-unique-map-traits: "<color=#E27D7F>ネガティブなマップトラットの可能性が高いです。</color>"
+			doomed-unique-map-resources: "<color=#E27D7F>マップのリソースノードが少ないです。</color>"
+			doomed-unique-drep-difficulty: "<color=#E27D7F>マップごとに、脅威が5回増加した後、増加スピードが早くなります。</color>"
+			doomed-unique-drep-difficulty2: "<color=#E27D7F>ドリームプレイグのレイドがウェーブごとに増えます。</color>"
+			doomed-unique-drep-difficulty3: "<color=#E27D7F>世界侵入はレベル2から始まりますが、最初の増加には時間がかかります。</color>"
+			biome-unlock-heatshield: "アッシュフォール山脈バイオームをアンロックします。"
+			biome-unlock-airfilter: "有毒ムーアバイオームをアンロックします。"
+			building-weight: "重量"
+			carry-weight: "持ち運びする重さ"
+			launch-costs: "燃料費"
+			threat-interval: "脅威が増加するまでの時間"
+			map-enemy-difficulty: "マップ上の敵の難易度"
+			raid-enemy-numbers: "レイドの敵数"
+			dest-reroll: "目的地選択リロール"
+			expedition-speed: "エクスペディションスピード"
+			expedition-options: "エクスペディションオプション"
+			expedition-costs: "探検費用"
+			game-score: "ゲームスコア"
+			archeology-speed: "考古速度"
+			df-threat-time: "脅威が増加するまでの時間"
+			df-threat-disable: "レイドの無効化"
+			global-difficulty-time: "世界侵入発生するまでの時間"
+			df-global-rate: "世界侵入率"
+			df-enemy-numbers: "敵の数"
+			df-map-spawn: "マップ上の敵の難易度"
+			df-resources: "リソースノード"
+			df-pause-in-menu: "ウィンドウズでの一時停止"
+			df-overseer-mode: "カメラと時間を自由にコントロールできます"
+			df-ironman: "アイアンマンモード"
+			df-mini-raids: "徘徊する敵"
+			df-relaxed-mode: "世界侵入は時間とともに増加しません。"
+			df-max-health: "最大HP"
+			df-enemy-health: "敵のHP"
+			df-ammo-costs: "弾丸の使い方"
+			df-elections-off: "議会を無効化します。"
+		}
+		specifier: {
+			wpn-melee: "近接武器"
+			wpn-ranged: "レンジ武器"
+			wpn-heavyranged: "重量武器"
+			wpn-shotgun: "スプレッドショット武器"
+			wpn-fastranged: "連射武器"
+			enemy-melee: "格闘家"
+			enemy-ranged: "射撃手"
+			enemy-unit: "敵部隊"
+			prodgroup-harvest: "収穫"
+			prodgroup-strip: "ストリップ採掘"
+			prodgroup-refine: "精製"
+			prodgroup-flux: "フラックスの生産"
+			prodgroup-power: "パワーの生産"
+			prodgroup-farm: "農業"
+			prodgroup-citygatherer: "再生可能な収集装置"
+			prodgroup-upgradeparts: "アップグレード材料"
+			prodgroup-research: "研究"
+			objgroup-defense: "防御用の建物"
+			objgroup-wall: "壁"
+			objgroup-housing: "住宅用の建物"
+			objgroup-harvester: "ハーベスター"
+			objgroup-farm: "農場"
+			loot-resources: "資源"
+			loot-debris: "残骸/遺跡"
+			loot-enemy: "敵"
+			trgt-armored: "装甲に対して"
+		}
+		spec-prefix: {
+			objtype: "{0}"
+			prodrecipe: "{0}"
+		}
+	}
+	messages: {
+		build: {
+			cantbuild: {
+				onobject: "{0}の上に建てなければなりません。"
+				incity: "都市に建築される必要"
+				halfoncity: "都心や郊外に建ててはいけません"
+				nearobject: "{0}の近くに建たなければなりません。"
+				power: "電源が入ってません。テスラタワーを建設して範囲を拡大しましょう"
+				blocked: "ここには建てられません：ブロックされています"
+				blocked-rift: "リフト付近での建築はできません。"
+				nocosts: "資源不足"
+				enemiesnear: "建てられません：敵が近くにいます"
+				maxamount: "この建物の最大量に達しています"
+				upgrade-cancels: "{0}でこのアドオンを構築できません。"
+			}
+		}
+		error: {
+			tooheavy: "都市が重すぎるため、建物をいくつか取り除くか、エンジンを増やします"
+			cantfly: "何かが街の飛行を妨げています。"
+			takeoff-cancelled: "離陸準備をキャンセルしました。"
+			cantmove: "この建物を動かすことができません"
+			cantmoveraid: "攻撃を受けている間は、この建物を動かすことはできません"
+			cantsave: "今すぐ保存できません"
+			no-upgrade-points: "割り当てられていないアップグレードポイントがありません"
+			interact-only: "この建物と接続するには遠すぎます"
+			out-of-ammo: "弾切れ"
+			cantrepairthis: "この建物は人為的な操作で修理できません。時間が経てば直ります"
+			cantrepairenemiesnear: "修理できません：敵が近くにいます"
+		}
+		milestones: {
+			objective-complete: "目標達成"
+			milestone-complete: "達成されたマイルストーン"
+		}
+	}
+	unlocks: {
+		text-format: "* アンロックされた {0}：{1}"
+		splash-title-format: "アンロックされた {0}"
+		splash-text-format: "{1}"
+		call-to-action: "Hボタンを押すと詳細が表示されます"
+		research-complete: "研究完了"
+		archeology-complete: "考古学プロジェクトが完了しました。"
+		city-size-achieved: "新しい都市レベル"
+		tribe-unlocked: "新種族のアンロック"
+		types: {
+			upgrades: "アップグレード"
+			constructions: "建物"
+			crafting: "製作"
+			productions: "生産レシピ"
+			research: "研究"
+			skills: "スキール"
+			perks: "ボーナス"
+			abilities: "能力"
+		}
+	}
+	loading-tips: {
+		rotate: "マウスの中ボタンを押しながらドラッグすることで、カメラを回転させることができます。"
+		moving-buildings: "ツールボタンをクリックし、管理モードで移動ツールを選択（または「M」を押す）すると、建物を再編成することができます。壁やレールなど、一部の建物は動かすことができません。"
+		melee-aoe: "接近攻撃は一度に複数の敵を倒すことができ、しかも範囲攻撃よりも高いダメージを与えることができるので、射程の短い敵に囲まれた時によく使われる技です。"
+		demolish-buildings: "ほとんどの建物を解体すれば、建設費の半分を取り戻すことができるが、フラックスは違います。"
+		world-difficulty: "時間が経つにつれ、着地するエリアはどんどん険しくなっていきます。だから、時間を無駄にしないで、手遅れになる前に経済力と防御力を高めよう。"
+		world-difficulty2: "難易度の高い着地点ほど資源の埋蔵量が多く、銅などの難易度が高い場所にしか見つからない資源もあります。"
+		right-click-close: "ウィンドウ上の任意の場所で右クリックすると、ウィンドウを閉じることができます。"
+		infrastructure: "工場を建設して、インフラをアップグレードするための材料を生産します。インフラをアップグレードすることで、強力で永続的な「ボーナス」が得られますよ。"
+		economy: "また、より早く上達するために、複数の研究ラボや工場を作ってみてください。ただ、経済的にサポートできるかどうかを事前に確認するのを忘れないでください。"
+		disabling: "労働者や電力が足りない場合、重要度の低い建物を無効にして、他の建物が稼働できるようにすることができます。"
+		upgrading: "ほとんどの建物はアップグレード可能です。アップグレードは、新たな建物を建てるよりもコストがかかりますが、余分なスペースを使うことはないし、重量を増えることもありません。"
+		rails-building: "レールの向きを変えるには、反対側にもう1本レールを作ればよい。方向性を変えることにはコストはかかりません。"
+		railcrossing: "ドラッグでレールを敷設し、既存のレール区間と交差させることで、橋のような役割を果たし、両区間が独立して機能する交差点を作ることができます。"
+		remove-crossing: "踏切を削除するには、レールをドラッグして、踏切の出入口の方向を変えて、踏切に合流したり、踏切から分岐したりして、お互いに交差しないようにすることができます。"
+		weight: "緊急な時に逃げられるようにしておきましょう。燃料切れにならないように、都市の重量を航続力以下にしてください。"
+		leaving-early: "今の地域にない資源が必要な場合は、迷わず飛んで行ってください。常に燃料残量を把握すれば良い。"
+		journal: "日記(J)を開くと、完成したチュートリアルのタスクが表示されますよ。"
+		gamepedia: "TABキーを押すと「ドリームアーカイブス」が表示され、アンロックした建築物や製作、生産レシピの情報を見ることができます。"
+		item-source: "詳しくないリソースが必要な時は、ドリーム・アーカイヴで収集、制作できる場所を確認しましょう。"
+		pick-cart: "輸送カートを一部のレールから外したい場合は、管理モードでピックカートツール（P）を使用して、アイテムをインベントリに戻します。"
+		enabledisable: "管理モードでオン／オフツール（O）を使えば、複数の建物をインタラクティブに操作することなく、素早く有効／無効にすることができます。"
+		extrarefineries: "もし板材の入手に時間がかかりすぎるようであれば、ウッドワーパーやその他の精製設備を増設してください。"
+		old-tech: "世界中の残骸にぶち壊し、昔ながらの廃品を集め、それを遺跡の建物で使って、ユニークなアイテムを作ります。"
+		copybuilding: "管理モードでは、コピービルディングキー（デフォルトの「V」）を使って、カーソルの下にある建物の別のインスタンスを素早く作成することができます。"
+		targetmarker: "設定メニューからターゲットマーカーを有効にすることで、範囲攻撃内のターゲットに狙いをつけることができます。"
+		key-bindings: "設定メニューからキーバインドを開くと、ゲーム中に役立つさまざまなキーボードショートカットを学び、変更することができます。"
+		milestones: "マウスポインタをマイルストーンにかざすと、その詳細を知ることができます。"
+		milestones2: "マイルストーンを達成すると、旧世界の廃品を手に入れることができ、それらを使って古代の機械を動かすことができます。"
+		rawresources: "ほとんどの生資源は、出発時には持ち運べません。離陸する前にできるだけ多くのことを精錬しましょう。"
+		scrap-when-leaving: "都市を出る前に、外部にある建物を取り壊すのを忘れないでください。そうすると、原材料の半分（フラックス除き）を取り戻すことができます。"
+		upgrade-in-city: "都市の中にどの建物を置くか、どの建物を持っていくかを慎重に選んでください。これらの建物をアップグレードして、より効率的にします。"
+		move-before-leaving: "ほとんどの建物は移動できるので、都市を再築して、どの建物を持っていくかを決める権利をあなたは持っています。レイド中にターレットを動かすことができないので、事前にそれを踏まえて考えておきましょう。"
+		expand-city: "人口を増やして都市を拡張するオプションをアンロックし、そして都市の拡張によって、持ち込んだ建物を建てるスペースを増やすことができます。しかし、都市全体の重量には気をつけてください。"
+		discord: "Discord（タイトル画面のリンク）に参加してください。開発者やコミュニティのメンバーに質問やチャットをすることができます。"
+		add-ons: "建物のアドオンを研究する場合、建物と接触して相互作用することで、それらを建設し、新しい生産レシピやその他のボーナスをアンロックします。"
+		resources-leaving: "大切な資源を蓄えておこう。飛び立った後、残された建物の一部を再建するのに必要なものです。"
+		food-leaving: "出発する前に、食料、フラックス、電源が十分にあることを確認してください。次の着地点でそれらを生産するようにさせるのに時間がかかるかもしれません。"
+		exploring: "周りを探索してみよう。残骸を破壊して貴重な資源を得たり、そして古代の遺跡を見つけたりすることによって、敵の襲撃ルートを特定することも容易になります。"
+		auto-output: "デフォルトでは、ストレージのない建物から出ると、すべてのアイテムが送られます。管理モードでアクセスポイントを選択し、設定を変更します。"
+		exit-limits: "ストレージからアイテムを送り出す際に、アイテム選択ポップアップ画面で最低数量を設定することができます。ストレージにその最低数量を超えるアイテムがある場合にのみ送されます。"
+		upgrade-layer: "管理モードでアップグレードレイヤー（ミニマップの左側にある）を開くと、各建物のレベルが表示され、ワンクリックでアップグレードすることができます。"
+		prod-layer: "管理モードで生産レイヤー（ミニマップの左側にある）を開くと、各建物の生産内容を確認または変更することができます。"
+		usable-storage: "複合ストレージウィンドウ（デフォルトの「T」）には、共有アイテム、タイニーのインベントリ内のアイテム、ストレージビル内のリソースなど、現在建設/製作製作に利用可能なすべてのアイテムが表示されます。"
+		customize-resource-ui: "HUDの左上で、どの資源を追跡するかを選択できます。"
+		city-info: "HUD内の都市名をクリックすると、都市情報ウィンドウが表示されます。このウィンドウでは、現在の着陸帯の情報も表示されます。"
+		free-camera: "戦闘モード中はフリーカメラのキーボードショートカットでマネジメントモードに切り替えることができます。その際フリーカメラは自動的に有効になります。"
+		worker-assign: "建物に割り当てる生産者数を減らすことでその建物の生産率を下げ、暇な生産者を他のタスクに送ることができます。"
+		piercing-weapons: "貫通武器から発射される弾丸は標的を通り抜け、後ろにいる者にも命中します。"
+		archeology-unlocks: "2スカル以上の地域の廃墟をスクラップすることで、新たな考古学プロジェクトをアンロックします。"
+	}
+	contexthints: {
+		roadbuild: "* 目的の方向にドラッグ ‐ レールを配置します。\n* 建物からドラッグ ‐ 出口設置します。\n* 建物の上までドラッグ ‐ 入り口設置します。\n* 右クリックで建築モードを終了します。\n* 既存の線路にレールをドラッグして交差させます。"
+		buildmode: "'{0}' - 回転させる。\n右クリックで建築モードを終了する。"
+		bulldoze: "解体する建物を選択する。\n右クリックで終了する。"
+		repair: "損傷した建物を選択して修理する。\n右クリックで終了する。"
+		repair-costs: "修理 {0}：{1} x{2}"
+		move: "移動する建物を選択する。\n右クリックでキャンセルする。"
+		delinout: "クリックしてアクセスポイントを削除します。\n右クリック‐モードを終了します。"
+		pickcart: "クリック・アンド・ドラッグしてカートを選択する。\n右クリックで終了する。"
+		enabledisable: "建物をクリックすると、オン/オフが切り替わる。\n右クリックで終了する。"
+		gather: "「E」 - 収集装置 {0}。"
+		gathering: "{0}の収集"
+		inventory: "左クリックでアイテムを転送する\nShiftキーを押しながらだと、全てのアイテムを転送できるが、Ctrlキーを押しながらだとアイテム10個を転送できる。\n右クリックで使用/装備"
+	}
+	keymapping: {
+		categories: {
+			general: "一般的なコントロール"
+			management: "管理モード"
+			camera: "カメラ操作"
+			windows: "スクリーンショット"
+		}
+		action: {
+			Up: "↑"
+			Left: "←"
+			Right: "→"
+			Down: "↓"
+			DefaultView: "既定のカメラビュー"
+			TopDownView: "トップダウン表示の切り替え"
+			ZoomIn: "ズームイン"
+			ZoomOut: "ズームアウト"
+			RotateCamera: "カメラの回転"
+			Interact: "相互作用"
+			StrategicView: "管理モードの切り替え"
+			SwitchWeapons: "武器セットの切り替え"
+			CameraControlMode: "ダイレクトカメラの操作の切り替え"
+			Build: "建築モードの切り替え"
+			BuildPrevCat: "前の建物のカテゴリー"
+			BuildNextCat: "次の建物のカテゴリー"
+			CopyBuilding: "カーソル下の建物をコピーする"
+			BuildRails: "レールのショートカットを作る"
+			Bulldoze: "取り壊しモードの切り替え"
+			Repair: "修理モードの切り替え"
+			Move: "建物移動モードの切り替え"
+			EnableDisableBuilding: "オン/オフモードの切り替え"
+			PickCarts: "ピックカートモードの切り替え"
+			Inventory: "キャラクターメニュー"
+			Research: "研究メニュー"
+			Skills: "インフラストラクチャー画面"
+			Journal: "ジャーナルメニュー"
+			Crafting: "製作一覧"
+			UsableStorage: "複合資源"
+			Gamepedia: "ドリームアーカイブス"
+			Transfer10: "保留 x10"
+			TransferAll: "使えるものを全て保留する"
+			RotateRight: "建物を右回転させる"
+			RotateLeft: "建物を左回転させる"
+			AddToQueue: "押したまま、研究をキューに追加する"
+			QuickSave: "クイックセーブ"
+			QuickLoad: "クイックロード"
+			Help: "ヘルプ"
+			RemoveAccessPoint: "アクセスポイントの削除"
+			IncreaseGameSpeed: "ゲームスピードを上げる"
+			DecreaseGameSpeed: "ゲームスピードを落とす"
+			Pause: "一時停止"
+			FreeCamera: "フリーカメラの切り替え"
+			GotoCore: "シティコア／タイニーに向けて出発する"
+		}
+		keys-short: {
+			Space: "Spc"
+			LeftShift: "LSHF"
+			LeftControl: "LCTR"
+			RightShift: "RSHF"
+			RightControl: "RCTR"
+			Return: "Ent"
+			KeypadEnter: "Ent"
+			Insert: "Ins"
+			PageUp: "PgUp"
+			PageDown: "PgDn"
+		}
+		keys: {
+			LeftShift: "左Shift"
+			LeftControl: "左Ctrl"
+			RightShift: "右Shift"
+			RightControl: "右Ctrl"
+			Period: "。"
+			Comma: "、"
+			Tab: "Tab"
+			RightBracket: "」"
+			LeftBracket: "「"
+			Space: "Space"
+			Delete: "Del"
+			Return: "Enter"
+			KeypadPeriod: "。"
+			KeypadDivide: "／"
+			KeypadMultiply: "＊"
+			KeypadMinus: "ー"
+			KeypadPlus: "＋"
+			KeypadEnter: "Enter"
+			KeypadEquals: "＝"
+			UpArrow: "↑"
+			DownArrow: "↓"
+			RightArrow: "→"
+			LeftArrow: "←"
+			Insert: "Insert"
+			Home: "Home"
+			End: "End"
+			PageUp: "PgUp"
+			PageDown: "PgDn"
+			Semicolon: "；"
+			Slash: "/"
+			Minus: "ー"
+			Quote: "’"
+			Equals: "＝"
+			None: ""
+		}
+	}
+	difficulty: {
+		start-items: "エキストラ・スターティング・リソース："
+		settings: {
+			difficulty-preset: {
+				title: "プリセットの難易度"
+				hover: "予め設定された難易度。"
+			}
+			enemy-strength: {
+				title: "敵の数"
+				hover: "マップ周辺いる敵の数と攻撃してきたの敵の数。"
+				options: {
+					very-easy: "イージー"
+					easy: "ノーマル"
+					normal: "挑戦"
+					hard: "ハード"
+				}
+			}
+			combat-difficulty: {
+				title: "戦闘の難易度"
+				hover: "探索やタイニーとの戦いの難易度で決まる。"
+				options: {
+					very-easy: "イージー"
+					easy: "ノーマル"
+					normal: "挑戦"
+					hard: "ハード"
+				}
+			}
+			economy: {
+				title: "経済"
+				hover: "安定した都市を建設及び拡張することの難易度を決める。"
+				options: {
+					very-easy: "イージー"
+					easy: "ノーマル"
+					normal: "挑戦"
+					hard: "ハード"
+				}
+			}
+			resource-node-count: {
+				title: "リソースノード"
+				hover: "各マップにおけるリソースノードの数"
+				options: {
+					easy: "ノーマル"
+					normal: "挑戦"
+					hard: "ハード"
+				}
+			}
+			threat-time: {
+				title: "脅威の増加率"
+				hover: "危険度のレベルが上昇するまでの時間を決める。\n\nその数値が高いほど、レイドの間隔が長くなり、危険度の増加が遅くなる。"
+				options: {
+					no-raids: "レイドの無効化"
+					very-easy: "イージー"
+					easy: "ノーマル"
+					normal: "挑戦"
+					hard: "ハード"
+				}
+			}
+			mini-raids: {
+				title: "徘徊する敵"
+				hover: "徘徊する敵は、時折なんの前触れもなく街に現れ、襲いかかってきます。敵たちは実際の襲撃よりも小さく、反撃しなければ強くなることはありません。\n\n有効にした場合、常に全方向から街を守られるようにしてください。"
+				options: {
+					off: "無効"
+					normal: "通常"
+				}
+			}
+			global-difficulty-time: {
+				title: "サバイバルモード"
+				hover: "世界侵入が自動的にどんな速さでレベルアップするかを判断します。\n\nオンにした場合、着陸オプションは時間が経つにつれて難しくなります。オフにすると、よりリラックスした体験ができます。"
+				options: {
+					relaxed: "オフ"
+					beginner: "初心者"
+					easy: "ノーマル"
+					normal: "挑戦"
+					hard: "ハード"
+				}
+			}
+			pause-in-menus: {
+				title: "監督ツール"
+				hover: "監督ツールを有効にするモードでは、カメラを自由に動かすことができ、スピードのコントロールやアクティブな一時停止も可能です。それらのツールがないと、同じ作業でもより多くの時間がかかり、シティの建設や管理のために、タイニーを自ら動かす必要があります。"
+				options: {
+					normal: "有効"
+					hard: "無効"
+				}
+			}
+			elections: {
+				title: "議会選挙"
+				hover: "議会選挙と派閥関係を無効化します。"
+				options: {
+					off: "議会を無効化します。"
+					normal: "議会を有効化します。"
+				}
+			}
+			ironman: {
+				title: "アイアンマン"
+				hover: "アイアンマンモードでは保存ファイルは1つしかない。しかも、ゲームを終了するたびに自動的にセーブされます。負けてしまうと、保存ファイルが削除されてしまいます。"
+				options: {
+					normal: "オフ"
+					hard: "オン"
+				}
+			}
+			map-size: {
+				title: "着地点マップのサイズ"
+				hover: "大きいサイズのマップを選ぶと、探索に時間がかかり、しかも敵の数も多いです。\n\n小さいサイズのマップを選ぶと、パフォーマンスが向上する可能性があります。"
+				options: {
+					easy: "200 x 200"
+					normal: "220 x 220"
+					hard: "240 x 240"
+				}
+			}
+		}
+		presets: {
+			very-easy: {
+				name: "リラックス"
+				desc: "この難易度は、探索や建築に興味のある方に最適です。\n\nこのモードでは、自分で難易度の高いマップに移動しない限り、世界侵入の難易度は増えません。\n\n敵は依然としてあなたの都市を攻撃しますが、危険度の上昇は非常に緩やかです。レイドを完全にキャンセルしたい場合は、以下の脅威の難易度設定をカスタマイズできます。"
+			}
+			easy: {
+				name: "ノーマル"
+				desc: "ゆっくりとしたペースで、より多くのミスを許容し、常にゲームをセーブでき、しかも全ての敵は弱いです。\n\n初心者はもちろん、リラックスしたいプレッシャーにもお勧めです。"
+			}
+			beginner: {
+				name: "学習中"
+				desc: "初心者におすすめの難易度です。\n\nゆっくりとしたペースで、より簡単なバトルが楽しめます。\n\n何度か挑戦して、独特の操作方法やシステムに慣れてきたら、難易度を「挑戦」に切り替えることをおすすめします。"
+			}
+			no-time-limit: {
+				name: "ゆっくりしてください"
+				desc: "挑戦的な難易度と似ていますが、世界侵入レベルが自動的に上昇することはありません。\n\nこのモードでは、高レベルのマップに行く準備ができるまで、低レベルのマップを好きなだけ訪れることができるため、プレッシャーが大幅に軽減されます。レイドや危険度は通常通り上昇しますので、各マップ内でのタイムプレッシャーはあります。しかし、同じ難易度の新しいマップに飛ぶと、これらがリセットされます。"
+			}
+			economy-focus: {
+				name: "経済への挑戦"
+				desc: "建物の建設や管理に挑戦したい方にお勧めです。\n\n戦闘の難易度は「学習中」に似ていますが、資源の入手が困難になり、建設コストも増えます。"
+			}
+			challenging: {
+				name: "挑戦"
+				desc: "これこそが、このゲームの本来の姿です。\n\nこのゲームのユニークなシステムや操作性に慣れて、本格的に挑戦したい方にお勧めです。"
+			}
+			hard: {
+				name: "ハード"
+				desc: "さらなる挑戦を楽しみたい方にお勧めです。\n\n周りの敵数が大幅に増え、脅威度も上がり、より大きな時間のプレッシャーを感じることとなります。"
+			}
+			very-hard: {
+				name: "ドリームイーター"
+				desc: "最も難しい難易度です。\n\nタイニーは弱く、資源も少なく、物を作るのに大量のお金が必要で、ハードレベルに比べて世界侵入の速度も明らかに速くなっています。\n\n身の安全を守ってください。"
+			}
+			custom: {
+				name: "カスタム"
+				desc: ""
+			}
+		}
+	}
+	opening-story: {
+		paragraph1: {
+			text1: "トワイスト。"
+			text2: "かつては驚きと夢の世界でした。"
+			text3: "今は悪夢の場所です。"
+		}
+		paragraph2: {
+			text1: "ドリームテックという現実を覆す技術の発見により、トワイストは多くの偉大で繁栄した帝国の本拠地となりました。"
+			text2: "少なくとも、伝説ではそうなっています。"
+		}
+		paragraph3: {
+			text1: "そして、ドリームプレイグがやってきました。"
+			text2: "どこから来たのか、誰も知りません。悪夢からそのまま生まれたような生き物です。"
+			text3: "奴らは至る所に現れ、世界はそれに対応できませんでした。"
+			text4: "ツイスタンたちは勇敢に戦ったが、ドリームプレイグはとどまることなく襲いかかりました。大都市は没落し、帝国は壊滅しました。"
+		}
+		paragraph4: {
+			text1: "数世紀後、トワイスト自体は暗く歪んだ惑星となりました。"
+			text2: "わずかに残ったツイスタン人は遊牧民として、根を下ろすこともなく、同じ場所に長く留まることもなく、ドリームプレイグが彼らの匂いを嗅ぎつける前に、常に移動しているのです。"
+			text3: "ここからあなたの物語が始まります。"
+		}
+	}
+	dialogue-characters: {
+		scientist: {
+			name: "チーフ科学者マリエ"
+		}
+		advisor: {
+			name: "アドバイザーハン"
+		}
+		archeologist: {
+			name: "考古学者ウォレス"
+		}
+		narrator: {
+			name: ""
+		}
+	}
+	missions: {
+		dialogue-goals-format: "{0}\n\n<color=#99EEFF>目標\n{1}</color>"
+		dialogue-goals-line: "• {0}"
+		story-start: {
+			name: "新たなる希望"
+			texts: {
+				desc: "空飛ぶ古代都市が発見され、あなたの部族に再び希望が甦りました。"
+			}
+			dialogue: {
+				before1: "監督官、なんという素晴らしいことなんでしょう！まさに古代人の奇跡です。"
+				before2: "彼らはそれを「ノマドシティ」と呼び、空を飛べるんです！まだ機能しているのに、なぜ放棄されたのかはわかりません。"
+				before3: "この街にはアバターがいます。「タイニー」と呼ばれる機械の巨人です。恐らく古代人の冗談でしょう。"
+				before4: "武装しているので、周囲を探索したり、リソースを探したり、ドリームプレイグと戦ったりするのに使えます。"
+				before5: "私たちの運命を変えることができるかもしれません。ここにいつでも逃げ出せるような本当の家を建てましょう。"
+				before6: "シティコアの監視室に入ります。ここからタイニーと街全体をコントロールすることができます。これは単なる旅の始まりに過ぎないと感じるでしょう。大きな苦難が待ち受けていると同時に新たな希望もあります。あなたは段々とタイニーの操作に慣れ始め、昔のような壮大な都市を築くことを志すでしょう。"
+			}
+			objectives: {
+				complete-tutorial: "チュートリアルを完了してください。"
+				city-level1: "人口{1}に達します。"
+			}
+		}
+		story-buildlab: {
+			name: "研究"
+			texts: {
+				desc: "部族は、街を発展させるために独自の調査と研究を行いたいと考えています。"
+			}
+			dialogue: {
+				before1: "私たちは幸先のいいスタートを切りました。こんなに興奮している仲間を見たのは初めてです。"
+				before2: "ここで素晴らしいことができるかもしれません。しかし、この街を発展させ、守るためには、自分たちで調査をする必要があります。"
+				before3: "街のインフラは比較的良好ですが、街自体は本当に古いです。インフラをアップグレードするには、それ用の部品を製造するワークショップを研究した方がいいでしょう。"
+			}
+			objectives: {
+				city-level2: "人口{1}に達します。"
+				buildlab: "{0}を建てます。"
+				unlockworkshop: "{0}を研究します。"
+			}
+		}
+		story-upgrade-core: {
+			name: "シティコア"
+			texts: {
+				desc: "シティコアをアップグレードすることで、市民の生存を確保します。"
+			}
+			dialogue: {
+				before1: "監察官、ワークショップを建設し、街のインフラアップグレードに必要な部品を生産することができるようになりました。"
+				before2: "科学者たちは、シティコアのアップグレードをいつくか設計しました。シティコアをアップグレードし、飛行能力と資源生産を強化させましょう。"
+				before3: "監察官、私たちが一つの場所にとどまればとどまるほど、ドリームプレイグの攻撃性は強くなるということを忘れないでください。"
+				before4: "危険な状況に陥ったときや、この地域で手に入らない資源が必要になったときは、街を新しい場所に飛ばすことができます。"
+			}
+			objectives: {
+				upgrade-core2: "アップグレード: {3}"
+			}
+		}
+		story-build-expeditioncenter: {
+			name: "エクスペディションセンター"
+			texts: {
+				desc: "ノマドシティの原点とその住民に何が起こったのかを調査します。"
+			}
+			dialogue: {
+				before1: "監督官、私は街のアーカイブで興味深いものを発見しました。砂漠のどこかに『プロジェクト・ノマド』と呼ばれるものを研究している研究施設があることがわかったんです。"
+				before2: "私はこの施設がノマドシティの原点だと考えています。調査を進めれば、ここに住んでいた古代人に何が起こったのか、他にもそのような都市があるのかを知ることができるかもしれません。"
+				before3: "施設の正確な場所をまだ探索中です。その間に、探索隊を派遣できるエクペディションセンターを建てましょう。"
+				before4: "監察官、私たちが一つの場所にとどまればとどまるほど、ドリームプレイグの攻撃性は強くなるということを忘れないでください。危険な状況に陥ったときや、この地域で手に入らない資源が必要になったときは、街を新しい場所に飛ばすことができます。"
+				before5: "エクスペディションセンターに必要な資源の中には、砂漠地帯でしか手に入らないものもあります。"
+			}
+			objectives: {
+				build-expeditioncenter: "{0}を建てます。"
+			}
+		}
+		story-cityorigin-fly: {
+			name: "街の原点"
+			texts: {
+				desc: "ノマドシティの原点とその住民に何が起こったのかを調査します。"
+			}
+			dialogue: {
+				before1: "監督官、ノマドの研究施設を見つけたようです。近くの砂漠地帯にあり、危険度はドクロ2個です。"
+				before2: "危険度が高い場所ほど、ドリームプレイグは手強いです。より危険な場所に行く前に、タイニーの装備と街の防衛が万全であることを確認してください。"
+			}
+			objectives: {
+				reach-desert2: "スカル{0}またはそれ以上の地域-{1}へ飛ぶ"
+			}
+		}
+		story-cityorigin-expedition: {
+			name: "街の原点探索隊"
+			expedition-name: "ノマド研究施設"
+			texts: {
+				desc: "ノマドシティの原点とその住民に何が起こったのかを調査します。"
+			}
+			dialogue: {
+				before1: "監督官、見つけました。ノマドの研究施設です。それほど遠くないので、この廃墟を調査するための探索隊を結成しましょう。"
+			}
+			objectives: {
+				perform-expedition: "{0}探索を完了します。"
+			}
+		}
+		story-dreamplagues-fly: {
+			name: "ドリームプレイグ"
+			texts: {
+				desc: "ドリームプレイグと街への影響についてもっと知る必要があります。"
+			}
+			dialogue: {
+				before1: "監督官、何か…不可解なものを見つけました。"
+				before2: "プロジェクト・ノマドは放棄されました。私たちが見つけたのは、これまで建設された唯一の街です。人が住んでいた痕跡はありません。"
+				before3: "ご存知の通り、ドリームテックは私たちの夢と現実の世界とのつながりに基づいています。"
+				before4: "私たちが眠っている時、私たちの「意識」や「魂」は充電するため夢の領域に移動します。そこには自然法則は存在しません。夢の中では何でも可能なのです。"
+				before5: "ドリームエンジンは夢の領域に入り込み、その領域のエッセンスであるフラックスを引き出します。フラックスはドリームテック社の装置に使用され、物理世界の現実をワープさせます。"
+				before6: "私たちが調査によりますと、古代人はドリームプレイグから逃れようとノマドシティを建設しました。しかし、彼らは副作用を発見したのです。"
+				before7: "街の事態はなぜか悪化したのです。周囲には新たな悪夢の裂け目が出現し、ドリームプレイグは街に引き寄せられました。"
+				before8: "さらに悪いことに、彼らはこのダメージが永遠に続くと思い込んだのです。最終的にプロジェクトを断念しました。"
+				before9: "監督官、私たちはまだこの街を見捨てることはできません。古代人は間違っていたのかもしれません。事態は何世紀にもわたって、もう変わっているのかもしれません。もう以前の生活には戻れないのです。私たちは生き残れません。"
+				before10: "決断を下す前に、どうか、調査を進めましょう。私たちはドリームプレイグを調査している別の研究施設を見つけました。"
+				before11: "探してみます。もっと答えが見つかるかもしれません。"
+			}
+			objectives: {
+				reach-tier3: "研究施設が見つかるまで街建設を続けます。"
+			}
+		}
+		story-dreamplagues-toblue: {
+			name: "ドリームプレイグ探索"
+			expedition-name: "ノマド研究施設"
+			texts: {
+				desc: "ドリームプレイグと街への影響についてもっと知る必要があります。"
+			}
+			dialogue: {
+				before1: "監督官、ドリームプレイグの研究センターはドリームタッチフィールドのどこかにあります。可能な限りそこへ連れて行ってください。"
+			}
+			objectives: {
+				reach-blue: "{0}地域へ飛びます。"
+			}
+		}
+		story-dreamplagues-expedition: {
+			name: "ドリームプレイグ探索"
+			expedition-name: "ドリームプレイグ研究センター"
+			texts: {
+				desc: "ドリームプレイグと街への影響についてもっと知る必要があります。"
+			}
+			dialogue: {
+				before1: "ドリームプレイグ研究センターの廃墟を見つけました。近くにあります。探索隊を結成しましょう。"
+			}
+			objectives: {
+				perform-expedition: "{0}探索を完了します。"
+			}
+		}
+		story-repair-informationstorage: {
+			name: "ドリームプレイグ探索"
+			texts: {
+				desc: "情報記憶装置は、ドリームプレイグに関する情報を提供することができます。"
+			}
+			dialogue: {
+				before1: "監督官、私たちの探索隊が戻ってきました。研究センターは予想以上にひどい状態で、あまり残っていませんでした。"
+				before2: "研究情報が含まれていると思われるものが見つ借りましたが、確かめるためにはデバイスを修理しなければいけません。"
+			}
+			objectives: {
+				repair-storage: "{0}を作ります。"
+			}
+		}
+		story-drepattack: {
+			name: "立ち往生"
+			texts: {
+				desc: "この情報記憶装置はドリームプレイグを引き寄せ、街の飛行能力を妨げています。"
+			}
+			dialogue: {
+				before1: "監督官、装置を修理しました。情報は入っているのですが、奇妙な作動でドリームテックを妨害しているのです。"
+				before2: "監督官、緊急事態です！偵察機の報告によると、ドリームリーグの大群が街に向かっており、装置がエンジンを妨害しているため、街を飛行させることができません。"
+				before3: "監督官、街の防衛を確認してくださ。私は装置の解除に取り組みます。"
+			}
+			objectives: {
+				defeat-attack: "街を防衛します。"
+			}
+		}
+		story-dreamguard-fly: {
+			name: "ドリームガード"
+			texts: {
+				desc: "あなたはドリームガードという古代組織について知りました。"
+			}
+			dialogue: {
+				before1: "もう終わりましたが、装置は破壊しなければいけませんでした。だがその前にいくつかの情報を取り出すことに成功しました。"
+				before2: "私たちは、古代人が「悪夢の年」と呼んでいた暗黒時代についての情報を見つけました。古代人が恐ろしいドリームテック兵器を使い、互いに戦争を繰り広げた時代でした。"
+				before3: "戦争はトワイストをほぼ壊滅させる形で終結しました。私たちが知る限りでは、ドリームガードと呼ばれる組織が勝利しました。"
+				before4: "彼らは冷酷で、戦争に勝った後はトワイスト全土を支配していました。"
+				before5: "ドリームプレイグの起源についての情報はありませんでした。もしかしたら、ドリームガードが使っていた武器の一種なのでしょうか？"
+				before6: "もし彼らの基地の跡が見つかれば、もっと詳しいことがわかるかもしれません。アッシュフォール山脈に1つあるという情報を入手しました。"
+				before7: "あの地域は非常に暑く、適切な防護対策がなければ、私たちの街は耐えられません。"
+				before8: "シティコアにヒートシールドのアドオンを設置すれば、街全体を守ることができます。"
+			}
+			objectives: {
+				build-heatshield: "あなたの{0}に{3}を建築します。"
+				reach-lava: "{0}地域へ飛びます。"
+			}
+		}
+		story-dreamguard-expedition: {
+			name: "ドリームガードへの探索"
+			expedition-name: "廃墟と化したドリームガードの基地"
+			texts: {
+				desc: "あなたはドリームガードという古代組織について知りました。"
+			}
+			dialogue: {
+				before1: "ドリームガードの基地は近くにあります。監督官、探索隊を送りましょう。"
+			}
+			objectives: {
+				perform-expedition: "{0}探索を完了します。"
+			}
+		}
+		story-lady-doom-fly: {
+			name: "危険な実験"
+			texts: {
+				desc: "ドリームプレイグの出現には、とある奇妙な実験が関係しているかもしれません。"
+			}
+			dialogue: {
+				before1: "監督官、私たちはドリームガードについて色々と知りました。私たちは誤解していました。彼らは決して征服部隊ではなかったのです。"
+				before2: "トワイストがほぼ壊滅状態に陥ったため、各国は戦争を終結させることで合意しました。彼らはドリームガード協定に署名し、ドリームテックの使用とその研究を制限することに同意しました。特にドリームテック兵器は厳しく禁止されました。"
+				before3: "ドリームガードは協定を守るために設立されました。ドリームテックの使用を取り締まる彼らは実に冷酷でしたが、彼らの平和維持の元で、トワイストは繁栄しました。"
+				before4: "大きな都市国家が形成され、人々は楽しく自由に暮らしました。ドリームガードを除くすべての軍隊は非合法とされ、莫大な資源が人々の幸福のために費やされました。"
+				before5: "私たちは、そんな平和で有利な時代を夢で見ることしかできませんでした。"
+				before6: "その時代にドリームプレイグは存在しませんでした。それが何であれ、戦争中に作られたものではないのは確かです。"
+				before7: "しかし、もうひとつ手がかりがあります。当時の生活がいかに良かったとはいえ、犯罪もありました。貪欲さと権力欲がまだ一部の人々の中に残っていたのです。"
+				before8: "そのような犯罪者の一人、「レディ・ドゥーム」として知られるマッドサイエンティストについてです。彼女は違法なドリームテック実験を行い、ドリームガードの目をかいくぐりました。"
+				before9: "彼女の正確な実験内容については不明ですが、私たちはそれがドリームプレイグと関係していると考えています。"
+				before10: "もう一つの施設の場所がわかりました。彼女の実験についてもっと詳しい情報があるはずです。"
+			}
+			objectives: {
+				reach-lady-doom: "スカル{0}またはそれ以上の地域-{1}へ飛ぶ"
+			}
+		}
+		story-lady-doom-expedition: {
+			name: "危険な実験についての探索"
+			expedition-name: "ドリームガード基地の廃墟"
+			texts: {
+				desc: "ドリームプレイグの出現には、とある奇妙な実験が関係しているかもしれません。"
+			}
+			dialogue: {
+				before1: "到着しました、監督官。探索の準備をして、レディ・ドゥームの実験についてもっと調べましょう。"
+			}
+			objectives: {
+				perform-expedition: "{0}探索を完了します。"
+			}
+		}
+		story-researchshield: {
+			name: "実験物質"
+			texts: {
+				desc: "ドリームプレイグから身を守るため、長期的な解決策を探してください。"
+			}
+			dialogue: {
+				before1: "監督官、私たちはレディ・ドゥームとその実験についてもっと知ることができました。彼女は権力に飢えていたのです。"
+				before2: "彼女は、ドリームレルムを利用し、そのフラックスを使って現実を変えるのは簡単なことだと信じていました。もし肉体を持ったままドリームレルムを旅することができれば、彼女は全能になるのでしょう。自然界のルールはもはや適用されず、彼女は意志を持つだけで何でもできるようになるのです。"
+				before3: "彼女は取り憑かれていました。ドリームガードの鼻先で実験し、最終的には成功したが、彼女はひどく間違っていました。"
+				before4: "ドリームレルムは純エネルギーの空間です。私たちが知る限り、彼女の体はその空間の強大な力によってねじれ、ゆがみ、押しつぶされました。"
+				before5: "話によると、彼女の意識はいまだにドリームレルムに閉じ込められ、永遠の苦しみの中にあり、彼女の肉体が存在しないこの現実世界に戻ることができないそうです。"
+				before6: "それだけではありません、監督官。私たちはドリームレルムは無人だと思っていたが、それは間違いでした。彼女の実験データによると、肉体をレルムに移したとき、何かがいたそうです。"
+				before7: "何か、あるいは何かたちがそこに住んでいます。レディ・ドゥームの実験によって、彼らは私たちに気づいたのです。私たちの現実世界に。"
+				before8: "彼らは肉体を持たず、私たちの世界には存在できません。しかし、レディ・ドゥームは私たちの世界との間に裂け目を作ったのです。その裂け目を通して、彼らはこの世界に影響を及ぼすことができ、生き物や無生物にさえ憑依することができるのです。"
+				before9: "それが「ドリームプレイグ」なのです。彼らはこの物理的な世界にいることに飢えているが、彼らにできるのは物理的な物体に憑依することだけです。そして彼らは、常に私たちの生身の肉体に飢えているのです。"
+				before10: "ドリームガードはトワイストのあちこちに出現し始めました。最初は数が少なかったのですが、ドリームガードが巣を破壊し、裂け目を塞ぐたびに、さらにいくつもの巣が現れるようになったのです。"
+				before11: "ドリームガードは圧倒、都市国家は崩壊しました。トワイストそのものは変化し、歪み、今日のような暗黒の地となったのです。"
+				before12: "監督官、私たちどうすればいいのでしょうか。この街は世界に害を及ぼしています。膨大な量のドリームテックが 一か所に集まれば、王国間のベールが弱くなり、 裂け目が広がります。しかし、それは私たちが生き残るための唯一の希望でもあるのです。"
+				before13: "ドリームガードは別の物質で実験を行いました。一種のアンチドリーム物質で、ドリームレルムのフラックスに対抗するものです。彼らはそれがドリームプレイグとの戦いに役立つことを望んでいました。"
+				before14: "もっと詳しく調べてみましょう。"
+			}
+			objectives: {
+				perform-research: "{0}を調査します。"
+			}
+		}
+		story-buildshield: {
+			name: "生存の代償"
+			texts: {
+				desc: "ドリームプレイグから身を守るため、長期的な解決策を探してください。"
+			}
+			dialogue: {
+				before1: "監督官、やりました。アンチドリーム物質を確実に作り出す方法を見つけました。"
+				before2: "私たちは一種の無効化シールドを作ることができます。古代人はそれを作ることができませんでした。彼らがアンチドリーム実験をするたびに、ドリームプレイグがその研究を破壊したのです。"
+				before3: "私たちはこの街があるからこそ、進み続けることができるのです。彼らの使命を完成させることはできるのですが、相当な資源と材料が必要となり、それを見つけるのは容易ではありません。"
+				before4: "監督官、注意事項があります。シールドはドリームプレイグから私たちを守ってくれます。その中で現実世界に影響を与えることはできません。彼らが持つものは生命のない抜け殻となるのです。"
+				before5: "しかし、私たちはどのドリームテックも使うことができません。フラックスは無効になります。私たちは生き残りますが、ここで身動きが取れなくなるのです。"
+				before6: "監督官の決断に任せます。増え続けるドリームプレイグと戦いながら永遠に飛び続けるか、無効化シールドを設置して作動させるか。"
+				before7: "シールドを設置する場合、フルチャージにはかなりの時間がかかり、その間に多くのドリープレイグを引き寄せてしまいます。"
+				before8: "私たちは比較的安全なエリアまで攻撃を逃れましたが、シールドは非常に重く、再び飛べるようになるまでには、エンジンを冷却する時間も必要です。ここで私たちの防御力が試されます。"
+			}
+			objectives: {
+				build-shield: "{0}を建てます。"
+				activate-shield: "フルチャージされるまで生き延びてください。"
+			}
+		}
+	}
+	events: {
+		mechdestroyed: {
+			title: "緊急テレポート"
+			text: "タイニーは致命的な構造上のダメージを受け、緊急避難用テレポーターが作動しましたが、しかしその代償は大きいものでした。\n\n* <highlight>{0} フラックス</highlight>が消費されました。\n* 敵の <highlight> 脅威タイマー</highlight> がもうすぐ鳴るんでしょう。\n\n慎重に行動しましょう。"
+		}
+		tutorial-reward: {
+			title: "目標達成"
+			text: "よくやった。あなたは以下の報酬を受け取ります。"
+		}
+	}
+	modding: {
+		license-required: "このモードを公開する前に、スティムワークショップのライセンス契約に同意する必要があります。"
+		edit-title: "モードのメタデータ"
+		enter-patch-notes: "パッチノートの入力"
+		untitled: "無題"
+		creator: "原作者"
+		uid: "UID"
+		visibility: "公開しますか？"
+		tags: "タグ"
+		uploading: "アップロード中..."
+		upload-complete: "アイテムがスティムで更新されました。"
+		saved: "すべての変更が保存されました。"
+		steam-not-initialized: "スティムが初期化されていません。"
+		io-error: "IOエラー：{0}"
+		error: "エラー：{0} - {1}"
+		missing-preview: "プレビュー画像がありません。"
+		wrong-title-size: "モードのタイトルは5文字以上128文字以下にしてください。"
+		wrong-desc-size: "説明文は30文字以上6000文字以下でお願いします。"
+		wrong-tag-size: "タグは4文字以上32文字以下で入力してください。"
+		wrong-creator-size: "クリエイター名は4～32文字で入力してください。"
+		missing-tags: "最低でも1つのタグを入力してください。"
+		visibility-option: {
+			Public: "全員"
+			Friends: "友達限定"
+			Private: "自分だけ"
+		}
+	}
+	roadmap: {
+		active-pause: "アクティブな一時停止"
+		alter-recipes: "収集可能なレシピ"
+	}
+}

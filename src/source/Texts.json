@@ -1,0 +1,3862 @@
+{
+	general: {
+		lang-name: "English"
+		costs: "Costs"
+		produced: "Produced"
+		globalstorage: "Storage Capacity"
+		effects: "Effects"
+		edit: "Edit"
+		inputoutput: "Input / Output"
+		research: "Research"
+		other: "Other"
+		journal: "Journal"
+		selectitem: "Select Item"
+		difficulty: "Difficulty"
+		none: "None"
+		owned: "Owned"
+		missing: "Missing"
+		upgrade: "Upgrade"
+		milestones: "Milestones"
+		continue: "Continue"
+		autosaving: "Auto-saving..."
+		ok: "Ok"
+		resources: "Resources"
+		max: "Max"
+		unlock-bonuses: "Bonuses"
+		crafting-recipe: "Crafting Recipe"
+		production-recipe: "Production Recipe"
+		produced-at: "Produced at: {0}"
+		installed-at: "Installed in: {0}"
+		is-single-module: "Can only install one per building."
+		construction-blueprint: "Construction Blueprint"
+		building-addon: "Building Add-On Blueprint"
+		archeology-unlock: "Archeology Project Blueprint"
+		cancel: "Cancel"
+		upgrade-to: "Upgrade to: {0}"
+		select-option-title: "Select Option"
+		not-available-ironman: "Not available in Ironman mode"
+		ironman: "Ironman"
+		rewards: "Rewards"
+		unlock-prod: "Allows Production: {0}"
+		requires-addon: "Required building level/addons:"
+		prereqs: "Prerequisites:"
+		blocked: "Blocked"
+		lc-issue: "Report Translation Issue"
+		disabled-in-demo: "Disabled for demo"
+		start: "Start"
+		next: "Next"
+		add-item: "Add Item"
+		categories: "Categories:"
+		paused: "Paused"
+		inventory: "Inventory"
+		per-cycle: "{0} / Cycle"
+		toggle-active: "Toggle Active"
+		used-in: "Used in:"
+		obtained-through: "How to get:"
+		appears-in-biome: "Appears in biomes:"
+		see-gamepedia: "View item in Dream Archives for more information (default: 'H')."
+		save: "Save"
+		upload: "Upload"
+		cancel: "Cancel"
+		description: "Description"
+		title: "Title"
+		disabled: "Disabled"
+		unlocks: "Unlocks"
+		free: "Free\nx{0}"
+		help: "Help"
+		show-tutorial: "Show Tutorial"
+		no-refund-demolish: "No refund when demolishing."
+		blueprint-format: "{0} Blueprint"
+		passive-income-format: "Passive {0}"
+		global-storage-format: "{0} Storage"
+		default: "Default"
+		morebysuncrash: "More from Suncrash"		
+	}
+
+	title-messages: {
+		alpha-link: "<u>Notify me on major updates</u>"
+	}
+
+	winlose: {
+		win-title: "Nullifier Shield Activated"
+		win-subtitle: "You win"
+		win-text: "The nullifying shield is fully charged. A strange feeling envelops you, and all at once, your technology goes crazy.\n\nThe nullifying field is active. No Dreamtek can function for several miles around your city. Your people have to make due with primitive tools and simple tesla-based technology.\n\nNo more bending of reality. No more flying around with your city. But most importantly, no more dream plagues trying to devour your people. Your people are safe now."
+		lose-title: "City Core Destroyed"
+		lose-subtitle: "Game Over"
+	}
+
+	widgets: {
+		production: {
+			hover-title: "Production"
+			hover-text: "The amounts shown are per-cycle (the game's time unit).\n\nClick the drop-down button to choose a different recipe, when available."
+			change-hover: "Unlock new production recipes through research, city upgrades and exploration."
+			remaining-res: "Resources Remaining: {0}"
+			input-title: "Input"
+			output-title: "Output"
+			buildings: "Produced At"
+			percycle-title: "Production Bar"
+			percycle-hover: "This bar shows the production or consumption progress. When the bar fills, a single unit is produced. When the bar empties, a single unit is consumed if available.\n\nThe displayed number is the production or consumption rate - how many units will be produced per cycle (the game's time unit). Resources are always produced or consumed one at a time, not in batches."
+			select-recipe-title: "Select Recipe"
+			click-to-change: "Click to change recipe"
+			assigned-count: "{0} / {1} (Max {2})" // 0 = actual, 1 = set, 2 = max
+			assigned-hover: "The amount of workers assigned will affect the production speed of this building."
+		}
+		launch: {
+			hover-title: "Take-off"
+			hover-text: "Initiate a city-wide launch procedure. Engines will take a while to charge, be prepared to defend your city until take-off.\n\nAll buildings outside the city will remain behind."
+			progress-bar-hover-text: "Take-off charging"
+			required-mats: "Take-off costs:"
+			weight: "Carrying power: {0}"
+			fuel-cost: "Fuel costs: {0}"
+			fuel-hover: "Needed for take-off: {0}\nAvailable fuel: {1}\nMax fuel storage: {2}"
+			weight-title: "Weight & carrying power"
+			weight-hover: "Your carrying power determines the maximum city weight you can have when taking off. Build or upgrade engines in order to increase the carrying power, or demolish buildings to reduce your city weight."
+		}
+		storage: {
+			hover-title: "Storage"
+			hover-text: "Items in storage can be used for crafting, construction, upgrades and other payment-style uses."
+			allow-title: "Imported Items"
+			allow-hover: "Define which raw materials to import into this drop-off."
+			add-import-hover: "Add import"
+		}
+		resources: {
+			hover-title: "Resource Node"
+			hover-text: "Raw Materials in resource nodes are gathered by a harvester building built on top of them."
+			build-title: "Build Gatherer"
+			missing-research: "No gatherers unlocked for this resource."
+		}
+		shieldwin: {
+			hover-title: "Shield Charging"
+			hover-text: "Nullifier shield charging meter. When this is fully charged, you will win the game."
+			progress: "Charge: {0}%"
+		}
+		upkeep: {
+			hover-title: "Maintenance / Upkeep"
+			hover-text: "Materials required to keep the building running.\n\nNon-global resources must be supplied directly to the building."
+			progress-text: "Time remaining before the next batch of upkeep."
+		}
+		upgrades: {
+			title: "Add-ons"
+			buildings: "Available At"
+			level: "Level {0}"
+			noupgrades: "Unlock add-ons by researching them."
+			cancels-desc: "This add-on blocks other add-ons:\n{0}"
+		}
+		modules: {
+			title: "Upgrade Modules"
+		}
+		research: {
+			title: "Research"
+			speed: "Research Speed: {0} / Cycle"
+			selectsubject: "Select Research"
+		}
+		attacker: {
+			title: "Turret Stats"
+		}
+		globalstorage: {
+			title: "Storage Capacity"
+			hover: "This building increases the maximum amount of resources you may hold for the resources and amounts listed below."
+			format: "Max {0}: +{1}"
+		}
+		general: {
+			disable-toggle: "On/Off toggle"
+			weight: "Building Weight"
+		}
+		ruins-store: {
+			title: "Ruins"
+			text: "These ancient ruins have some machinery that is still partially functional. With the right materials, you may be able to produce something, but you can only activate it a few times before it becomes unusable.\n\nAlternatively you could scrap the whole place for whatever resources you can find."
+			open-button: "Craft"
+			scrap-button: "Scrap"
+			scrap-disabled-hover: "We've already used all we can."
+		}
+		splitter: {
+			forward: "Forward"
+			right: "Right"
+			left: "Left"
+			catch-all: "All items that are not assigned elsewhere"
+		}
+		expedition: {
+			title: "Expedition"
+			hover-text: ""
+			choose-expedition: "Select Expedition"
+			choose-rewards: "Select Rewards"
+			stage-prep: "Preparation Progress: {0}"
+			stage-ongoing: "Expedition Progress: {0}"
+			stage-complete: "Expedition Complete"
+			stage-not-selected: "No Expedition Selected"
+			selected-expedition: "Selected Expedition: {0}"
+			show-expedition-hover: "Show expedition info"
+		}
+		player-debris: {
+			title: "Rebuild {0}"
+		}
+		requires-activation: {
+			title: "Activate Building"
+			upfront-costs: "Required Materials:"
+			activate-button: "Activate"
+			needs-power: "Connect to power network"
+			time-to-activate: "Remaining: {0}"
+		}
+		archeologist: {
+			title: "Archeology"
+			hover-text: ""
+			choose-project: "Select Project"
+			stop-project: "Pause Project"
+			selected-project: "Selected Project: {0}"
+			select-unlock: "Unlock Archeology Project"
+		}
+		passive-income: {
+			title: "Passive Income"
+		}
+	}
+
+	character: {
+		slot-type: {
+			mech-upgrade: "Module - Tiny"
+			city-upgrade: "Module - City"
+			harvester-module: "Harvesters"
+			production-module: "Production Buildings"
+			any-building-module: "Any Building"
+			farm-module: "Farms"
+			turret-module: "Defense Buildings"
+		}
+	}
+
+	map-traits: {
+		purple-biome: {
+			name: "Blightlands"
+		}
+		blue-biome: {
+			name: "Dreamtouched Fields"
+		}
+		desert-biome: {
+			name: "Desert"
+		}
+		lava-biome: {
+			name: "Ashfall Range"
+		}
+		green-biome: {
+			name: "Toxic Moor"
+		}
+
+
+		ruins-ind: {
+			name: "Industrial Ruins"
+			desc: "You can usually find blueprints and production recipes in Industrial ruins."
+		}
+		ruins-tech: {
+			name: "Tech Ruins"
+			desc: "Tech ruins are more likely to have advanced technology items."
+		}
+		ruins-lab: {
+			name: "Chemical Ruins"
+			desc: "Chemical ruins are more likely to have chemical or experimental items of value."
+		}
+		ruins-fuel: {
+			name: "Fuel Cache Ruins"
+			desc: "You can extract fuel for your city in these ruins."
+		}
+		ruins-skill-resetter: {
+			name: "Infrastructure Cleanup Ruins"
+			desc: "You can use these ruins to reset and re-distribute your infrastructure upgrades."
+		}
+		ruins-resource-converter: {
+			name: "Resource Converter Ruins"
+			desc: "Use these ruins to convert between different resource types."
+		}
+		ruins-flux-shop: {
+			name: "Materializer Ruins"
+			desc: "These ancient Dreamtek wonders can use flux to materialize various resources."
+		}
+		ruins-perm-income: {
+			name: "Supply Depot Ruins"
+			desc: "You might be able to re-program these depots to deliver a constant supply of resources to your city."
+		}
+
+		unfertile: {
+			name: "Unfertile"
+		}
+		fertile: {
+			name: "Fertile"
+		}
+		energy-rich: {
+			name: "Charged Atmosphere"
+		}
+		flux-rich: {
+			name: "Thin Veil"
+		}
+		tar-rich: {
+			name: "Tar-Soaked Soil"
+		}
+		tar-poor: {
+			name: "Tar-Less Soil"
+		}
+		toxic-ground: {
+			name: "Toxic Soil"
+		}
+		materializer-rich: {
+			name: "Stable Dreamtek"
+		}
+		cheap-construction: {
+			name: "Stable Ground"
+		}
+		rich-cauldron: {
+			name: "Stable Liquids"
+		}
+		inspiring: {
+			name: "Inspiring"
+		}
+		motivating: {
+			name: "Motivating"
+		}
+		agitated: {
+			name: "Restless Drep"
+		}
+		resource-rich: {
+			name: "Resource Rich"
+		}
+		resource-poor: {
+			name: "Resource Poor"
+		}
+		resource-abundant: {
+			name: "Plentiful"
+		}
+		rugged-terrain: {
+			name: "Rugged"
+		}
+		rich-drep: {
+			name: "Fat Drep"
+		}
+		rich-debris: {
+			name: "High Quality Debris"
+		}
+		drep-infestation: {
+			name: "Drep Infestation"
+		}
+		less-drep: {
+			name: "Drep Scarcity"
+		}
+		strong-raids: {
+			name: "Organized Drep"
+		}
+		weak-raids: {
+			name: "Scattered Drep"
+		}
+		extra-expeditions: {
+			name: "Central Location"
+		}
+		less-expeditions: {
+			name: "Middle of Nowhere"
+		}
+		fast-expeditions: {
+			name: "Short Distances"
+		}
+		cheap-expeditions: {
+			name: "Expedition Hub"
+		}
+	}
+
+	productions: {
+		is-harvest: "This production recipe requires finding a resource node and building a harvester."
+
+		cheapflux: {
+			name: "Basic Flux Production"
+		}
+		fluxgenerator: {
+			name: "Star-Tar > Flux"
+		}
+		carbonflux: {
+			name: "Carbon > Flux"
+		}
+		dreamflux: {
+			name: "Liquid Dream > Flux"
+		}
+		smokeflux: {
+			name: "Smoke Gel > Flux"
+		}
+
+		cheappower: {
+			name: "Basic Power Production"
+		}
+		startargenerator: {
+			name: "Tar Power"
+		}
+		acidpower: {
+			name: "Acid Power"
+		}
+		glueberrypower: {
+			name: "Glueberry Power"
+		}
+		gelpower: {
+			name: "Smokegel Power"
+		}
+		firepower: {
+			name: "Thermal Power"
+		}
+		alt-sulfurpower: {
+			name: "Sulfuric Power"
+		}
+
+		upgradeparts2: {
+			name: "Glueberry Parts"
+		}
+		upgradeparts3: {
+			name: "Carbon Parts"
+		}
+		upgradeparts4: {
+			name: "Copper Parts"
+		}
+		upgradeparts5: {
+			name: "Nightmare Parts"
+		}
+
+		purptatoprocessor: {
+			name: "Purptato Meal"
+		}
+		carbonfood: {
+			name: "Cabtus Meal"
+		}
+		carbonsmokefood: {
+			name: "Smoked Cabtus"
+		}
+		candyshroomfood: {
+			name: "Candyshroom Meal"
+		}
+
+		carbonite-fire: {
+			name: "Carbonite - Fire"
+		}
+		dreamcrystal-fire: {
+			name: "Nightmare Crystals - Fire"
+		}
+
+		researchlab-goo: {
+			name: "Star-Tar Research"
+		}
+		researchlab-carbonite: {
+			name: "Carbon Research"
+		}
+		researchlab-acidwood: {
+			name: "Acid Research"
+		}
+		researchlab-gel: {
+			name: "Smokegel Research"
+		}
+		researchlab-dreamcrystal: {
+			name: "Nightmare Research"
+		}
+
+		fuel-acid: {
+			name: "Acid Fuel"
+		}
+		fuel-tesla: {
+			name: "Tesla Fuel"
+		}
+		fuel-fire: {
+			name: "Fire Fuel"
+		}
+
+		alt-flux-featherstone: {
+			name: "Featherstone > Flux"
+		}
+		alt-flux-acid: {
+			name: "Acidwood > Flux"
+		}
+		alt-flux-hardenedshroom: {
+			name: "Hardened Shroom > Flux"
+		}
+		alt-food-glueberry: {
+			name: "Glueberry Detoxing"
+		}
+		alt-food-smokepurptato: {
+			name: "Smoked Purptatoes"
+		}
+		alt-upgrade-stickytar: {
+			name: "Sticky Tar Parts"
+		}
+		alt-upgrade-carbonite: {
+			name: "Carbonite Parts"
+		}
+		alt-upgrade-firecopper: {
+			name: "Flaming Copper Parts"
+		}
+		alt-upgrade-fluxmetal: {
+			name: "Flux Metal Parts"
+		}
+		alt-research-refinedtar: {
+			name: "Refined Tar Research"
+		}
+		alt-research-powercrystal: {
+			name: "Power Crystal Research"
+		}
+		alt-fuel-tarhoney: {
+			name: "Refined Tar Fuel"
+		}
+		alt-crystal-stone: {
+			name: "Featherstone > Crystal"
+		}
+		alt-acidwood-sulfur: {
+			name: "Sulfuric Acidwood"
+		}
+		alt-acidstone-sulfur: {
+			name: "Sulfuric Acidstone"
+		}
+		alt-energycell-sulfuricacid: {
+			name: "Sulfur Tesla Cell"
+		}
+		alt-acidextract-wood: {
+			name: "Extract Acid (Wood)"
+		}
+		alt-acidextract-stone: {
+			name: "Extract Acid (Stone)"
+		}
+		alt-starwood-refinedtar: {
+			name: "Starwood (Refined Tar)"
+		}
+		alt-armorplating-stickytar: {
+			name: "Armor Plating (Sticky Tar)"
+		}
+		alt-smokedfire-stickytar: {
+			name: "Smoked Fire (Sticky Tar)"
+		}
+		alt-acidstone-firetar: {
+			name: "Acidstone (Fire & Tar)"
+		}
+		alt-carbonmix-refinedtar: {
+			name: "Carbon Mix (Refined Tar)"
+		}
+		alt-powercrystal-energycell: {
+			name: "Tesla Cell Upgrade"
+		}
+		alt-hardenedshroom-sticky: {
+			name: "Hardened Shroom (Sticky Tar)"
+		}
+		alt-hardenedshroom-fire: {
+			name: "Hardened Shroom (Flaming Copper)"
+		}
+		fluxmetal-flamingcopper: {
+			name: "Flux Metal (Flaming Copper)"
+		}
+		alt-fluxmetal-both: {
+			name: "Flux Metal (Copper & Shroom)"
+		}
+	}
+
+	crafting: {
+		starwooddowngrade: {
+			name: "Starwood > Bloodwood"
+		}
+		acidwooddowngrade: {
+			name: "Acidwood > Starwood"
+		}
+		glowwooddowngrade: {
+			name: "Glowwood > Starwood"
+		}
+		feathercrystaldowngrade: {
+			name: "Feathercrystal > Featherstone"
+		}
+		carbonitedowngrade: {
+			name: "Carbonite > Feathercrystal"
+		}
+		lightcarbonitedowngrade: {
+			name: "Carbonite Sand > Carbonite"
+		}
+		acidstonedowngrade: {
+			name: "Acidstone > Feathercrystal"
+		}
+		armorplatingdowngrade: {
+			name: "Armor Plating > Copper"
+		}
+		energycelldowngrade: {
+			name: "Tesla Cell > Copper"
+		}
+		chargedplatingdowngrade: {
+			name: "Nightmare Plating > Armor Plating"
+		}
+		firecopperdowngrade: {
+			name: "Flaming Copper > Armor Plating"
+		}
+		powercrystaldowngrade: {
+			name: "Power Crystal > Tesla Cell"
+		}
+		hardenedshroomdowngrade: {
+			name: "Hardened Shroom > Glowwood"
+		}
+		fluxmetaldowngrade: {
+			name: "Flux Metal > Flaming Copper"
+		}
+		store-fuel-cache-small: {
+			name: "Small Fuel Extraction"
+		}
+		store-fuel-cache-medium: {
+			name: "Medium Fuel Extraction"
+		}
+		store-fuel-cache-large: {
+			name: "Large Fuel Extraction"
+		}
+
+		alt-acidwood-fromstone: {
+			name: "Acidstone > Acidwood"
+		}
+		alt-acidstone-fromwood: {
+			name: "Acidwood > Acidstone"
+		}
+	}
+
+	generic-unlocks: {
+		teslacrats-production: {
+			name: "Resource Duplication"
+			desc: "The Teslacrats can duplicate resources through crafting, using large amounts of power.\n\nA base amount of each resource must be acquired by other means before it can be duplicated."
+		}
+	}
+
+	items: {
+		consumable: "Consumable"
+		immediate: "Applied automatically"
+		global: "This is a global resource and does not require transportation."
+		heavy: "<color=#FFD57E>This resource is too heavy or unstable to carry when flying. Refine it before taking off or it will be removed from storage.</color>"
+		all: {
+			name: "All"
+		}
+		funds: {
+			name: "Flux",
+			desc: "The basis of all Dreamtek, this substance is extracted from the Dream Realm and can warp reality to make un-physical things happen."
+		},
+		power: {
+			name: "Power"
+			desc: "Tesla energy, used to power most machines."
+		}
+		worker: {
+			name: "Workers"
+			desc: "Citizens that do things around the city. Required by most buildings.\n\nBuild and upgrade houses to increase maximum workers. They are produced at the city core."
+		}
+		fuel: {
+			name: "Engine Fuel"
+			desc: "Used for flying and avoiding horrible death."
+		}
+		upgradeparts: {
+			name: "Upgrade Materials"
+			desc: "Used to improve your makeshift infrastructure and gain permanent bonuses."
+		}
+		convert-funds: {
+			name: "Converter Material"
+			desc: "Raw material for resource converter ruins."
+		}
+		research-points: {
+			name: "Knowledge"
+			desc: "Knowledge is required to complete research.\n\nCreated by crazy scientists in research labs."
+		}
+		comingsoon: {
+			name: "Coming Soon"
+			desc: "This feature is not yet available"
+		}
+		food: {
+			name: "Food"
+			desc: "A type of fuel that powers people. Required regularly by houses.\n\nProduced at the food plant."
+		}
+
+
+		// Raw resources
+
+		bloodwoodlog: {
+			name: "Bloodwood Logs"
+			desc: "Logs covered in glowing red veins. Must be processed before they can be used.\n\nHarvested from resource nodes."
+		}
+		rawfeatherstone: {
+			name: "Raw Featherstone"
+			desc: "This stone's insistence to defy gravity makes it very useful in the construction of flying things, like cities.\n\nHarvested from resource nodes."
+		}
+		crystal: {
+			name: "Crystal"
+			desc: "Harvested from resource nodes that appear in desert areas."
+		}
+		cabtus: {
+			name: "Cabtus"
+			desc: "Meaty fruit that grows in desert areas."
+		}
+		purptato: {
+			name: "Purptatoes"
+			desc: "Tastes like a potato covered in ink. Can be made into a barely edible meal at the food plant."
+		}
+		rawcopper: {
+			name: "Raw Copper"
+			desc: "The metal of choice in many steam machines. Refined to usable ingots at a Smell-ter.\n\nHarvested from resource nodes, appears in higher difficulty areas."
+		}
+		glowhoney: {
+			name: "Glow Honey"
+			desc: "Radioactive honey. Not very useful as food, but can be processed into premium quality flying-city-fuel.\n\nHarvested from resource nodes, appears in higher difficulty areas."
+		}
+		sulfur: {
+			name: "Sulfur"
+			desc: "Smelly but useful.\n\nHarvested from resource nodes, appears in higher difficulty areas."
+		}
+		liquidfire: {
+			name: "Liquid Fire"
+			desc: "An eternally hot liquid.\n\nHarvested from resource nodes in ash biomes."
+		}
+		candyshroom: {
+			name: "Candyshroom"
+			desc: "This candy-shaped giant mushroom is not only nutritious, it's also full of Flux.\n\nHarvested from resource nodes in toxic biomes."
+		}
+		startar: {
+			name: "Star-Stuck Tar"
+			desc: "It's dreamlike properties hint that it's origin is not within our reality. Most soil contains trace elements that can be extracted by special machines.\n\nBuild a Tar Extractor anywhere in the city."
+		}
+		acidshard: {
+			name: "Acid Shards"
+			desc: "Crystalized version of the acid pools that are common in the blightlands.\n\nHarvested from resource nodes, appears in higher difficulty areas."
+		}
+		glueberry: {
+			name: "Glueberry"
+			desc: "Many poor souls suffocated after trying to eat one of these and ended up with their mouth glued shut."
+		}
+		smokegel: {
+			name: "Smoke Gel"
+			desc: "Even pollution can be turned into something useful with the right technology."
+		}
+		toxicgoo: {
+			name: "Toxic Goo"
+			desc: "Toxic substance that can be extracted from the soil. Can be extracted far more efficiently in the toxic biome."
+		}
+		refinedtar: {
+			name: "Refined Tar"
+			desc: "Refined Star-Stuck Tar with higher Flux concentrations."
+		}
+		stickytar: {
+			name: "Sticky Tar"
+			desc: "Extra sticky Flux-infused substance."
+		}
+
+		// Enemy drops
+		drepjuice: {
+			name: "Nightmare Juice"
+			desc: "Often flows in veins of biological Drep."
+		}
+
+		drepdust: {
+			name: "Drep Dust"
+			desc: "This powder is all that remains of a Drep."
+		}
+
+		dreptech: {
+			name: "Livewire"
+			desc: "Remains of technological Drep."
+		}
+
+
+		oldscraps: {
+			name: "Old-World Scraps"
+			desc: "Bits and pieces of old-world tech. Could be useful when trying to use abandoned old-world machinery."
+		}
+		dreamcore: {
+			name: "Dream Core"
+			desc: "The pinnacle of old-world tech. These rare artefacts can be found in ruins and expeditions, and can be used in construction and crafting."
+		}
+
+
+		// Resources Produced
+
+		warpedwood: {
+			name: "Bloodwood Planks"
+			desc: "Strong yet lightweight wood used in many construction and crafting recipes in the Nomad Cities.\n\nProduced at the Wood Warper from Bloodwood Logs"
+		}
+		featherstone: {
+			name: "Crushed Featherstone"
+			desc: "Processed featherstone is used in construction to strengthen and reduce the weight of the buildings."
+		}
+		starwood: {
+			name: "Starwood"
+			desc: "Star-Stuck Tar infused in bloodwood planks make them sturdier and adds some reality-bending properties.\n\nProduced at the Wood Warper from Bloodwood Planks and Star-Stuck Tar"
+		}
+		atlasbolt: {
+			name: "Atlas Bolts"
+			desc: "Ballista bolts made of bloodwood planks with special anti-nightmare sauce. Required for shooting Tiny's ranged weapons."
+		}
+		feathercrystal: {
+			name: "Feathercrystal"
+			desc: "Crystal combined with featherstone. Crystal nodes are found in Desert areas."
+		}
+		acidwood: {
+			name: "Acidwood"
+			desc: "Acid-treated bloodwood."
+		}
+		acidstone: {
+			name: "Acidstone"
+			desc: "Acid-treated featherstone."
+		}
+		carbonmix: {
+			name: "Carbon Mix"
+			desc: "Refined cabtus, full of energy."
+		}
+		dreammixture: {
+			name: "Liquid Dream"
+			desc: "This mysterious liquid has very similar properties to flux, but is much more stable allowing for more physical applications."
+		}
+		dreamcrystal: {
+			name: "Nightmare Crystals"
+			desc: "Crystals infused with liquid dream. The process twists and darkens the crystals, and that's how they got their name."
+		}
+		sulfuricacid: {
+			name: "Sulfuric Acid"
+			desc: "Produced from Sulfur."
+		}
+		toxicacid: {
+			name: "Toxic Acid"
+			desc: "Extremely dangerous combination of toxic goo with sulfuric acid."
+		}
+		smokedfire: {
+			name: "Smoked Fire"
+			desc: "Smoke gel helps stabilize the liquid fire, making it almost safe to handle."
+		}
+		carbonite: {
+			name: "Carbonite"
+			desc: "Crystals processed with carbon mix."
+		}
+		light-carbonite: {
+			name: "Carbonite Sand"
+			desc: "Used to reinforce stone-based defensive structures."
+		}
+		/*atlasbolt: {
+			name: "Atlas Bolts"
+			desc: "Ballista bolts made of bloodwood planks with special anti-nightmare sauce. These arrows are surprisingly effective in killing nightmares."
+		}*/
+		copperingot: {
+			name: "Copper Ingot"
+			desc: "Refined copper with a large variety of uses."
+		}
+		glowwood: {
+			name: "Glowwood"
+			desc: "This wood can damage your health, but is very useful at Dreamtek conductivity."
+		}
+		armorplating: {
+			name: "Armor Plating"
+			desc: "Copper turned into weird-shaped plates by some unknown process. It's nightmare-warding properties make it a favorite for many military applications."
+		}
+		energycell: {
+			name: "Tesla Cell"
+			desc: "Small portable power storage, useful for powering mobile equipment."
+		}
+		chargedplating: {
+			name: "Nightmare Plating"
+			desc: "Nightmare-crystal charged armor plating. Extremely durable, perfect for housing extra powerful Dreamtek machinery."
+		}
+		firecopper: {
+			name: "Flaming Copper"
+			desc: "Copper treated with liquid fire."
+		}
+		powercrystal: {
+			name: "Power Crystal"
+			desc: "Tesla cell on steroids."
+		}
+		hardenedshroom: {
+			name: "Hardened Shroom"
+			desc: "Strong, lightweight, and extremely useful for Dreamtek."
+		}
+		hardeningpowder: {
+			name: "Hardening Powder"
+			desc: "Used to apply some of the shroom magic on other materials."
+		}
+		fluxmetal: {
+			name: "Flux Metal"
+			desc: "Complex metal that defies reality."
+		}
+		research1: {
+			name: "Basic Research Kit"
+			desc: "A pinch of copper, a pint of tar, wrap it all in some wood, and you've got the perfect kit to experiment with Dreamtek.\n\nProduced at the Smell-ter."
+		}
+
+
+		// Weapons
+
+		unarmed: {
+			name: "Basic Fist"
+		}
+		crossbow: {
+			name: "Light Crossbow"
+		}
+		repeater-crossbow: {
+			name: "Repeating Crossbow"
+		}
+		repeater-crossbow2: {
+			name: "Repeating Crossbow 2"
+		}
+		repeater-crossbow3: {
+			name: "Repeating Crossbow 3"
+		}
+		spreadbow: {
+			name: "Spreadbow"
+		}
+		spreadbow2: {
+			name: "Spreadbow 2"
+		}
+		spreadbow3: {
+			name: "Spreadbow 3"
+		}
+		snipe-crossbow: {
+			name: "Snipe-bow"
+		}
+		snipe-crossbow2: {
+			name: "Snipe-bow 2"
+		}
+		snipe-crossbow3: {
+			name: "Snipe-bow 3"
+		}
+		piercing-crossbow: {
+			name: "Piercing Crossbow"
+		}
+		piercing-crossbow2: {
+			name: "Piercing Crossbow 2"
+		}
+		piercing-crossbow3: {
+			name: "Piercing Crossbow 3"
+		}
+		snipe-piercing-crossbow: {
+			name: "Heavy Crossbow"
+		}
+		snipe-piercing-crossbow2: {
+			name: "Heavy Crossbow 2"
+		}
+		snipe-piercing-crossbow3: {
+			name: "Heavy Crossbow 3"
+		}
+		snipe-gun: {
+			name: "Snipe-gun"
+		}
+		snipe-gun2: {
+			name: "Snipe-gun 2"
+		}
+		snipe-gun3: {
+			name: "Snipe-gun 3"
+		}
+		snipe-gun4: {
+			name: "Snipe-gun 4"
+		}
+		snipe-gun5: {
+			name: "Snipe-gun 5"
+		}
+		snipe-gun-super: {
+			name: "Elite Snipe-gun"
+		}
+		piercing-gun: {
+			name: "Piercing Gun"
+		}
+		piercing-gun2: {
+			name: "Piercing Gun 2"
+		}
+		piercing-gun3: {
+			name: "Piercing Gun 3"
+		}
+		piercing-gun4: {
+			name: "Piercing Gun 4"
+		}
+		piercing-gun5: {
+			name: "Piercing Gun 5"
+		}
+		piercing-gun-super: {
+			name: "Elite Piercing Gun"
+		}
+		snipe-piercing-gun: {
+			name: "Heavy Cannon"
+		}
+		snipe-piercing-gun2: {
+			name: "Heavy Cannon 2"
+		}
+		snipe-piercing-gun3: {
+			name: "Heavy Cannon 3"
+		}
+		snipe-piercing-gun4: {
+			name: "Heavy Cannon 4"
+		}
+		snipe-piercing-gun5: {
+			name: "Heavy Cannon 5"
+		}
+		snipe-piercing-gun-super: {
+			name: "Elite Heavy Cannon"
+		}
+		spikedpunch: {
+			name: "Spiked Fist"
+		}
+		spikedpunch2: {
+			name: "Spiked Fist 2"
+		}
+		spikedpunch3: {
+			name: "Spiked Fist 3"
+		}
+		acid-punch: {
+			name: "Acid Fistbomb"
+		}
+		acid-punch2: {
+			name: "Acid Fistbomb 2"
+		}
+		acid-punch3: {
+			name: "Acid Fistbomb 3"
+		}
+		starwoodcrossbow: {
+			name: "Starwood Crossbow"
+		}
+		starwoodcrossbow2: {
+			name: "Starwood Crossbow 2"
+		}
+		starwoodcrossbow3: {
+			name: "Starwood Crossbow 3"
+		}
+		shredder: {
+			name: "Shredder"
+		}
+		shredder2: {
+			name: "Shredder 2"
+		}
+		shredder3: {
+			name: "Shredder 3"
+		}
+		shredder4: {
+			name: "Shredder 4"
+		}
+		shredder5: {
+			name: "Shredder 5"
+		}
+		shredder-super: {
+			name: "Elite Shredder"
+		}
+		chargedcannon: {
+			name: "Rapid Gun"
+		}
+		chargedcannon2: {
+			name: "Rapid Gun 2"
+		}
+		chargedcannon3: {
+			name: "Rapid Gun 3"
+		}
+		chargedcannon4: {
+			name: "Rapid Gun 4"
+		}
+		chargedcannon5: {
+			name: "Rapid Gun 5"
+		}
+		chargedcannon-super: {
+			name: "Elite Rapid Gun"
+		}
+		explosivegun: {
+			name: "Heavy Launcher"
+		}
+		explosivegun2: {
+			name: "Heavy Launcher 2"
+		}
+		explosivegun3: {
+			name: "Heavy Launcher 3"
+		}
+		explosivegun4: {
+			name: "Heavy Launcher 4"
+		}
+		explosivegun5: {
+			name: "Heavy Launcher 5"
+		}
+		explosivegun-super: {
+			name: "Elite Heavy Launcher"
+		}
+		shotgun: {
+			name: "Spread Gun"
+		}
+		shotgun2: {
+			name: "Spread Gun 2"
+		}
+		shotgun3: {
+			name: "Spread Gun 3"
+		}
+		shotgun4: {
+			name: "Spread Gun 4"
+		}
+		shotgun5: {
+			name: "Spread Gun 5"
+		}
+		shotgun-super: {
+			name: "Elite Spread Gun"
+		}
+		tesla-punch: {
+			name: "Tesla Fist"
+		}
+		tesla-punch2: {
+			name: "Tesla Fist 2"
+		}
+		tesla-punch3: {
+			name: "Tesla Fist 3"
+		}
+		tesla-punch4: {
+			name: "Tesla Fist 4"
+		}
+		tesla-punch5: {
+			name: "Tesla Fist 5"
+		}
+		tesla-punch-super: {
+			name: "Elite Tesla Fist"
+		}
+
+
+		// Armor
+
+		basearmor: {
+			name: "Basic Hull"
+		}
+
+		starwoodarmor: {
+			name: "Light Starwood Reinforcements"
+		}
+		starwoodarmor2: {
+			name: "Light Starwood Reinforcements 2"
+		}
+		starwoodarmor3: {
+			name: "Light Starwood Reinforcements 3"
+		}
+		starwoodarmor4: {
+			name: "Light Starwood Reinforcements 4"
+		}
+		starwoodarmor5: {
+			name: "Light Starwood Reinforcements 5"
+		}
+
+		chargedarmor: {
+			name: "Charged Reinforcements"
+		}
+		chargedarmor2: {
+			name: "Charged Reinforcements 2"
+		}
+		chargedarmor3: {
+			name: "Charged Reinforcements 3"
+		}
+
+		shroomarmor: {
+			name: "Shroom Reinforcements"
+		}
+		shroomarmor2: {
+			name: "Shroom Reinforcements 2"
+		}
+		shroomarmor3: {
+			name: "Shroom Reinforcements 3"
+		}
+		shroomarmor-super: {
+			name: "Elite Shroom Reinforcements"
+		}
+
+		glowarmor: {
+			name: "Glowing Reinforcements"
+		}
+		glowarmor2: {
+			name: "Glowing Reinforcements 2"
+		}
+		glowarmor3: {
+			name: "Glowing Reinforcements 3"
+		}
+
+		moltenarmor: {
+			name: "Fiery Reinforcements"
+		}
+		moltenarmor2: {
+			name: "Fiery Reinforcements 2"
+		}
+		moltenarmor3: {
+			name: "Fiery Reinforcements 3"
+		}
+		moltenarmor-super: {
+			name: "Elite Fiery Reinforcements"
+		}
+
+		starwoodarmor-normal: {
+			name: "Starwood Reinforcements"
+		}
+		starwoodarmor-normal2: {
+			name: "Starwood Reinforcements. 2"
+		}
+		starwoodarmor-normal3: {
+			name: "Starwood Reinforcements. 3"
+		}
+
+		platedarmor-normal: {
+			name: "Ancient Armored Reinforcements"
+		}
+		platedarmor-normal2: {
+			name: "Ancient Armored Reinforcements 2"
+		}
+		platedarmor-normal3: {
+			name: "Ancient Armored Reinforcements 3"
+		}
+		platedarmor-normal4: {
+			name: "Ancient Armored Reinforcements 4"
+		}
+		platedarmor-normal5: {
+			name: "Ancient Armored Reinforcements 5"
+		}
+		platedarmor-normal-super: {
+			name: "Elite Ancient Reinforcements"
+		}
+
+		platedarmor: {
+			name: "Heavy Armored Reinforcements"
+		}
+		platedarmor2: {
+			name: "Heavy Armored Reinforcements 2"
+		}
+		platedarmor3: {
+			name: "Heavy Armored Reinforcements 3"
+		}
+
+		fluxarmor: {
+			name: "Flux Heavy Reinforcements"
+		}
+		fluxarmor2: {
+			name: "Flux Heavy Reinforcements 2"
+		}
+		fluxarmor3: {
+			name: "Flux Heavy Reinforcements 3"
+		}
+		fluxarmor-super: {
+			name: "Elite Flux Reinforcements"
+		}
+
+		// Consumables
+		repair-base: {
+			desc: "Use in a pinch to immediately repair some damage."
+		}
+		scraprepair: {
+			name: "Makeshift Repair Kit"
+		}
+		starwoodrepair: {
+			name: "Starwood Repair Kit"
+		}
+		starwoodrepair2: {
+			name: "Starwood Repair 2"
+		}
+		building-repairkit: {
+			name: "Building Repair Kit"
+			desc: "Use to fully repair all buildings in an area around the player."
+		}
+		copperrepair: {
+			name: "Copper Repair Kit"
+		}
+		copperrepair2: {
+			name: "Copper Repair 2"
+		}
+		shroomrepair: {
+			name: "Elite Repair Kit"
+		}
+		grenade: {
+			name: "Remote Surge"
+			desc: "Deal damage to all enemies around the cursor."
+		}
+		grenade2: {
+			name: "Remote Surge 2"
+		}
+		grenade3: {
+			name: "Remote Surge 3"
+		}
+		enrage: {
+			name: "Weapons Charger"
+			desc: "Overcharges your weapons to deal extra damage at the price of movement speed for a short time."
+		}
+		enrage2: {
+			name: "Weapons Charger 2"
+		}
+		absorber: {
+			name: "Absorber"
+			desc: "Energizes Tiny's hull to absorb all damage for a few moments."
+		}
+		decoy: {
+			name: "Jack Mechington"
+			desc: "Creates a decoy jack-in-a-box that the Drep will consider as a target."
+		}
+		decoy2: {
+			name: "Jack Mechington 2"
+		}
+		decoy3: {
+			name: "Jack Mechington 3"
+		}
+		folding-turret: {
+			name: "Deployable Turret"
+			desc: "Deploy a small turret in the field for some extra firepower."
+		}
+		folding-turret2: {
+			name: "Deployable Turret 2"
+		}
+		skill-pack: {
+			name: "Upgrade Kit"
+			desc: "Use to gain one upgrade point."
+		}
+		skill-resetter: {
+			name: "Upgrades Scrapper"
+			desc: "Reset all your infrastructure upgrades. Removes all purchased infrastructure upgrades and restores used upgrade points."
+		}
+		threat-reducer: {
+			name: "Smoker"
+			desc: "Single-use device that will camouflage your city's presence, pausing the threat increase timer for 20 cycles."
+		}
+		global-difficulty-reducer: {
+			name: "De-linker"
+			desc: "A powerful device that weakens the link to the Dream Realm. Use this to lower the global infestation level by one."
+		}
+		free-expansion: {
+			name: "Expansion Kit"
+			desc: "Use to add a free city expansion. After using the item, place the expansion through the build menu as usual.\n\nDoes not require to unlock the expansion tech."
+		}
+		flame-turret-kit: {
+			name: "Tarbomb Turret Kit"
+			desc: "Use to build a single tarbomb turret. After using the item, place the turret through the construction menu."
+		}
+
+		perm-mod-extra-materializer: {
+			name: "Materializer Components"
+			desc: "Increases materializer limit."
+		}
+		perm-mod-acidextract: {
+			name: "Extract Acid"
+		}
+		perm-mod-drep-desert-resources: {
+			name: "Additional Drep Processing"
+		}
+		perm-mod-acid-transform: {
+			name: "Acid Transformation"
+		}
+		perm-mod-build-flameturret: {
+			desc: "Build your own tarbomb turrets.\n\nNote: To build a tarbomb turret you need one of the rare dream cores."
+		}
+		perm-mod-build-scoutpost: {
+			desc: "Build scout posts for free destination re-rolls.\n\nNote: To build a scout post you need one of the rare dream cores."
+		}
+		perm-mod-city-crystal: {
+			name: "Crystal Materializer Blueprint"
+			desc: "Produce crystals at the materializer.\n\nNote: Requires an add-on that costs dream cores."
+		}
+		perm-mod-city-acid: {
+			name: "Acid-shard Materializer Blueprint"
+			desc: "Produce acid shards at the materializer.\n\nNote: Requires an add-on that costs dream cores."
+		}
+		perm-mod-city-sulfur: {
+			name: "Sulfur Materializer Blueprint"
+			desc: "Produce Sulfur at the materializer.\n\nNote: Requires an add-on that costs dream cores."
+		}
+
+		// Mods
+
+		speed-mod: {
+			name: "Speed Module"
+		}
+		berserker-mod: {
+			name: "Berserker Module"
+		}
+		tank-mod: {
+			name: "Defensive Module"
+		}
+		self-repair-mod: {
+			name: "Self-Repair Module"
+		}
+		aoe-ranged-mod: {
+			name: "Electric Bullets Module"
+		}
+		kinetic-guard-mod: {
+			name: "Kinetic Guard Module"
+		}
+		vision-range-mod: {
+			name: "Scouting Module"
+		}
+
+		// City Core Mods
+		house-overdrive-mod: {
+			name: "Housing Overdrive"
+		}
+		green-refining-mod: {
+			name: "Green Refining"
+		}
+		overdrive-refining-mod: {
+			name: "Refining Overdrive"
+		}
+		green-research-mod: {
+			name: "Green Research"
+		}
+		overdrive-research-mod: {
+			name: "Research Overdrive"
+		}
+		cart-speed-mod: {
+			name: "Cart Speedup Module"
+		}
+		cart-speed-mod2: {
+			name: "Cart Speedup Module 2"
+		}
+		threat-reduce-mod: {
+			name: "Smokescreen Module"
+		}
+		global-diff-reduce-mod: {
+			name: "De-linker Module"
+		}
+
+		// Building mods
+		fuel-costs-mod: {
+			name: "Fuel Efficiency Module"
+		}
+		fly-carry-capacity-mod: {
+			name: "Carry Weight Module"
+		}
+		flying-device-upkeep-mod: {
+			name: "Floatation Upkeep Module"
+		}
+		storage-mod: {
+			name: "Storage Module"
+		}
+		harvester-prodspeed-mod: {
+			name: "Harvester Speed Module"
+		}
+		harvester-prodspeed-mod2: {
+			name: "Harvester Speed Module 2"
+		}
+		harvester-upkeep-mod: {
+			name: "Harvester Upkeep Module"
+		}
+		harvester-efficiency-mod: {
+			name: "Harvester Efficiency Module"
+		}
+		anybuilding-efficiency-mod: {
+			name: "General Efficiency Module"
+		}
+		anybuilding-upkeep-mod: {
+			name: "General Upkeep Module"
+		}
+		anybuilding-upkeep-mod2: {
+			name: "General Upkeep Module 2"
+		}
+		production-speed-mod: {
+			name: "Production Speed Module"
+		}
+		production-speed-mod2: {
+			name: "Production Speed Module 2"
+		}
+		farm-yield-mod: {
+			name: "Farm Yield Module"
+		}
+		materializer-yield-mod: {
+			name: "Materializer Yield Module"
+		}
+		research-output-mod: {
+			name: "Research Yield Module"
+		}
+		apartment-upkeep-mod: {
+			name: "Housing Costs Module"
+		}
+		apartment-upkeep-mod2: {
+			name: "Housing Costs Module 2"
+		}
+		turret-range-mod: {
+			name: "Defensive Range Module"
+		}
+		turret-damage-mod: {
+			name: "Defensive Damage Module"
+		}
+		turret-speed-mod: {
+			name: "Defensive Rate Module"
+		}
+
+		// Other
+		archeology-unlock: {
+			name: ""
+		}
+
+		// Story
+		story-broken-storage: {
+			name: "Broken Information Storage"
+		}
+		story-repaired-storage: {
+			name: "Repaired Information Storage"
+		}
+	},
+
+	playerstats: {
+		mech-combat: {
+			name: "Offense"
+		}
+		survival: {
+			name: "Survival"
+		}
+		gathering: {
+			name: "Gathering"
+		}
+		administration: {
+			name: "Administration"
+		}
+	}
+
+	perks: {
+		level-format: "{0} {1}"
+
+		melee-dmg: {
+			name: "Melee Damage"
+		}
+		ranged-dmg: {
+			name: "Ranged Damage"
+		}
+		enemy-drop: {
+			name: "Corpse Looting"
+		}
+		turret-dmg: {
+			name: "Turret Damage"
+		}
+		mech-speed: {
+			name: "Tiny Speed"
+		}
+		healing: {
+			name: "Repairing"
+		}
+		farming: {
+			name: "Farms"
+		}
+		city-gathering: {
+			name: "Renewable Gathering"
+		}
+		cart-speed: {
+			name: "Autocart Speed"
+		}
+		upgrade-prod: {
+			name: "Upgrade Production"
+		}
+		research-efficiency: {
+			name: "Research Efficiency"
+		}
+		housing: {
+			name: "Housing"
+		}
+		overload: {
+			name: "Power Surge"
+		}
+		overclock: {
+			name: "Overclock Gears"
+		}
+		untargetable: {
+			name: "Chameleon"
+		}
+		teleport-to-city: {
+			name: "Core Teleporter"
+		}
+	}
+
+	abilities: {
+		charging-format: "Charging time: {0}"
+		cooldown-format: "Cooldown: {0} seconds"
+		overclock: {
+			name: "Overclock Gears"
+			desc: "Overclock your gears for a short time to increase movement speed."
+		}
+		overload: {
+			name: "Power Surge"
+			desc: "Overloads your capacitors to create a surge that damages nearby targets."
+		}
+		teleport-to-city: {
+			name: "Core Teleporter"
+			desc: "Activate city-core teleporter to quickly return back to the city."
+		}
+		untargetable: {
+			name: "Chameleon"
+			desc: "Emits energy that confuses the dream plagues and prevents them from registering you as a threat.\n\nAs a side effect your weapons lose all power and will be unable to deal any damage for the duration."
+		}
+		repair: {
+			name: "Repair Area"
+			desc: "Repairs all buildings in an area around your character. Will not restore destroyed buildings.\n\nCan be used in combat."
+		}
+	}
+
+	statuseffects: {
+		title: "Applies Effect: {0}"
+		duration: "Duration: {0}"
+		overclock: {
+			name: "Overclocked"
+		}
+		enrage: {
+			name: "Weapons Overloaded"
+		}
+		absorber: {
+			name: "Damage Immunity"
+		}
+		untargetable: {
+			name: "Untargetable"
+		}
+		slowed: {
+			name: "Slowed"
+		}
+		weakened: {
+			name: "Weakened"
+		}
+	}
+
+	attackeffects: {
+		aoe: {
+			desc: "Deal {1} AOE damage {0} tiles around the target."
+		}
+	}
+
+	biomes: {
+		startingmap: {
+			name: "Blightlands Starting Area"
+		}
+		purple: {
+			name: "Blightlands"
+		}
+		blue: {
+			name: "Dreamtouched Fields"
+		}
+		desert: {
+			name: "Desert"
+		}
+		lava: {
+			name: "Ashfall Range"
+			locked-text: "Requires Heat Shield command center add-on"
+		}
+		green: {
+			name: "Toxic Moor"
+			locked-text: "Requires Air Filter command center add-on"
+		}
+	}
+
+	research: {
+		progress: "Progress: {0} / {1}"
+
+		drepprocessing-flux: {
+			name: "Drep Processing (Flux)"
+		}
+		drepprocessing-flux2: {
+			name: "Drep Processing (Flux 2)"
+		}
+		drepprocessing-wood: {
+			name: "Drep Proc. (Bloodwood)"
+		}
+		drepprocessing-fstone: {
+			name: "Drep Proc. (Featherstone)"
+		}
+		hunters-feathercrystal: {
+			name: "Drep Proc. (Feathercrystal)"
+		}
+		hunters-carbonite: {
+			name: "Drep Proc. (Carbonite)"
+		}
+		hunters-copper: {
+			name: "Drep Proc. (Copper Ingot)"
+		}
+		hunters-energycell: {
+			name: "Drep Proc. (Tesla Cell)"
+		}
+
+		bloodwood-strip1: {
+			name: "Bloodwood Efficiency"
+		}
+		bloodwood-strip2: {
+			name: "Bloodwood Efficiency 2"
+		}
+		featherstone-strip1: {
+			name: "Featherstone Efficiency"
+		}
+		featherstone-strip2: {
+			name: "Featherstone Efficiency 2"
+		}
+		copper-strip1: {
+			name: "Copper Efficiency"
+		}
+		copper-strip2: {
+			name: "Copper Efficiency 2"
+		}
+		all-strip1: {
+			name: "Harvester Efficiency"
+		}
+		all-strip2: {
+			name: "Harvester Efficiency 2"
+		}
+
+		infrastructure: {
+			name: "Infrastructure Upgrade"
+		}
+		free-expansion: {
+			name: "Free Expansion"
+		}
+		efficient-refining: {
+			name: "Efficient Refining"
+		}
+
+		bonus-research: {
+			name: "Advanced Tech (Repeating)"
+		}
+
+		importer: {
+			name: "Harvesting Automation"
+		}
+
+		comingsoon: {
+			name: "Coming Soon"
+		}
+	}
+
+	constructioncategories: {
+		population: {
+			name: "Population"
+		}
+
+		infrastructure: {
+			name: "Infrastructure"
+		}
+
+		gathering: {
+			name: "Gathering"
+		}
+
+		production: {
+			name: "Production"
+		}
+
+		power: {
+			name: "Power"
+		}
+
+		defense: {
+			name: "Defense"
+		}
+
+		misc: {
+			name: "Misc"
+		}
+	}
+
+	mapobjects: {
+		citytile: {
+			name: "City Expansion"
+			desc: "We can't just build stuff on the ground and expect them to fly. Expand the city foundations to increase its area."
+		}
+		roadtile: {
+			name: "Rails"
+			desc: "One-way tracks on which mine carts magically appear to transport resources between buildings.\n\nDrag to build. Drag on top of existing rails to add or change directions."
+		}
+		railsplitter: {
+			name: "Sorter"
+			desc: "Sorts items from a single entrance into three exits. You can configure which items go to each exit."
+		}
+		streettile: {
+			name: "Street"
+			desc: "Doesn't do much but it looks pretty and it doesn't block movement.\n\nUseful for city-planning and making sure you have room to move freely."
+		}
+		player-debris: {
+			name: "Destroyed Building"
+		}
+		commandcenter: {
+			name: "City Core"
+			desc: "The place that makes the city tick. We have no idea how to build another one, so try to keep it safe."
+		}
+		expeditioncenter: {
+			name: "Expedition Center"
+			desc: "Launch expeditions to scavenge for supplies and ancient tech."
+		}
+		flyengine: {
+			name: "Floating Device"
+			desc: "Makes things go up. Increases the city's maximum weight but also fuel costs for flying.\n\nCan't be built too close to other floating devices."
+		}
+		scoutpost: {
+			name: "Scout Post"
+			desc: "Used to explore faraway lands. Every scout post adds a free re-roll when selecting your next destination."
+		}
+		researchlab: {
+			name: "Research Lab"
+			desc: "Research new technologies. Experiments taken place here have been known to cause severe mutations."
+		}
+
+		teslatower: {
+			name: "Tesla Tower"
+			desc: "These towers expand the power supply area of the city. Do not climb."
+		}
+		longrange-power: {
+			name: "Long-Range Power Hub"
+			desc: "These hubs will connect buildings around them to the main power supply.\n\nUnlike tesla towers, these do not need to be themselves within the power range, they create their own long-range connection."
+		}
+		woodturret: {
+			name: "Wooden Turret"
+			desc: "Keeps nightmares at bay using big glowing arrows. Slow firing rate with explosive attacks that deal splash damage to multiple targets. Weak against armored targets."
+		}
+		stoneturret: {
+			name: "Stone Turret"
+			desc: "A stone tower mounted with a clockwork cannon. Explosive attacks with higher firing rate and damage than the wooden turret."
+		}
+		flameturret: {
+			name: "Tarbomb Turret"
+			desc: "Shoots flamable tarbombs. Fires more slowly but at a significant longer range and deals more damage to a larger area, compared to the wooden turret."
+		}
+		atlasturret: {
+			name: "Atlas Turret"
+			desc: "A stronger and sturdier ballista turret with rapid fire, but no splash damage. Especially strong against armored targets."
+		}
+		musicturret: {
+			name: "Trumpeteer Turret"
+			desc: "This slow-firing turret emits a shattering sound wave that wreaks havoc on its target and also deals major damage to others around it."
+		}
+		woodwall: {
+			name: "Wood Wall"
+			desc: "Protects buildings behind it. For a while."
+		}
+		woodgate: {
+			name: "Wood Gate"
+			desc: "It's a gate, you can pass and Drep can't."
+		}
+		stonewall: {
+			name: "Stone Wall"
+			desc: "Protects buildings behind it. For a while longer."
+		}
+		stonegate: {
+			name: "Stone Gate"
+			desc: "It's a stronger gate, you can pass and Drep can't for longer."
+		}
+		wall: {
+			name: "Wall"
+			desc: "Protects your buildings with metal."
+		}
+		gate: {
+			name: "Gate"
+			desc: "Clockwork armored gate to keep bad things out."
+		}
+		hardenedwall: {
+			name: "Hardened Wall"
+			desc: "If these won't keep you safe, nothing will."
+		}
+		hardenedgate: {
+			name: "Hardened Gate"
+			desc: "This gate will keep the Drep out like nothing else. Until it won't."
+		}
+		trap-mine1-small: {
+			name: "Small Trap"
+		}
+		trap-mine2-small: {
+			name: "Small Explosive Trap"
+		}
+		trap-mine1: {
+			name: "Trap"
+			desc: "Triggered by proximity to enemy units."
+		}
+		trap-mine2: {
+			name: "Explosive Trap"
+		}
+		trap-mine1-2: {
+			name: "Trap 2"
+		}
+		trap-mine2-2: {
+			name: "Explosive Trap 2"
+		}
+		trap-slow: {
+			name: "Freeze Trap"
+		}
+		house: {
+			name: "House"
+			desc: "Stores the resource we call 'people'.\n\nIncreases worker capacity, requires regular supply of food."
+		}
+		apartment: {
+			name: "Apartment"
+			desc: "A larger, more cramped storage for people.\n\nSpace efficiency is a thing on flying cities."
+		}
+		dreamshield: {
+			name: "Nullifier Shield"
+			desc: "This huge shield will surround the entire city and the area around it with a dream-nullifying field that will disintegrate any dream-realm element within it. That includes all the Drep.\n\nThis shield is very heavy, requires a lot of power, workers, and flux to activate, and it will take a long time before its fully functional. You have to keep it operational and defend the city for a long time while it is charging. Be prepared."
+		}
+		archeologist: {
+			name: "Archeologist"
+			desc: "Undertake projects using old-world relics for significant permanent bonuses."
+		}
+
+		bloodwoodharvester: {
+			name: "Bloodwood Cutter"
+		}
+		featherstoneharvester: {
+			name: "Featherstone Miner"
+		}
+		crystalharvester: {
+			name: "Crystal Miner"
+		}
+		cabtusharvester: {
+			name: "Cabtus Collector"
+		}
+		coppermine: {
+			name: "Copper Drill"
+		}
+		acidharvester: {
+			name: "Acid Shards Miner"
+		}
+		glowhoneyharvester: {
+			name: "Glow Honey Collector"
+		}
+		sulfurmine: {
+			name: "Sulfur Mine"
+		}
+		liquidfireharvester: {
+			name: "Liquid Fire Harvester"
+		}
+		candyharvester: {
+			name: "Candyshroom Harvester"
+		}
+
+		startarcollector: {
+			name: "Tar Extractor"
+			desc: "Extracts Star-Stuck Tar from the soil under the city."
+		}
+		condenser: {
+			name: "Atmospheric Condenser"
+			desc: "Who says you can't create stuff out of thin air. This building literally extracts useful things from the air itself."
+		}
+		toxicgoocollector: {
+			name: "Toxic Goo Extractor"
+			desc: "Extracts toxic goo from the soil. Especially efficient in the toxic moors."
+		}
+		purptatofarm: {
+			name: "Purptato Farm"
+			desc: "It grows purptatoes. For eating."
+		}
+		glueberryfarm: {
+			name: "Glueberry Farm"
+			desc: "Glueberry farmers' arms have lower than average life expectancy."
+		}
+		materializer: {
+			name: "Materializer"
+			desc: "Uses flux and renewable raw materials to create resources that can't otherwise be produced in the city.\n\nAllows for some expensive, yet much-needed rest for Tiny."
+		}
+
+		storage: {
+			name: "Storage Yard"
+			desc: "A place to put things.\n\nResources stored here can also be used for construction, crafting, upgrades and other payment-style uses."
+		}
+		importer: {
+			name: "Resource Drop"
+			desc: "A place for raw materials to be dropped off without having to build rails from the harvesters.\n\nHarvester carts can't travel in the city, so the drop must be built outside or at the city edge."
+		}
+		exporter: {
+			name: "Resource Packer"
+			desc: "Provide it with any resource (including refined) via rails and it will send them to the nearest resource drop that accepts them.\n\nCarts can't travel in the city, so build outside or at the city edge."
+		}
+		smallbattery: {
+			name: "Small Battery"
+			desc: "Tesla's house. Increases the city's Tesla power capacity."
+		}
+
+		startargenerator: {
+			name: "Power Generator"
+			desc: "Generates power.\n\nCan't be built too close to other generators."
+		}
+		fluxgenerator: {
+			name: "Flux Vats"
+			desc: "This building specializes in distilling flux."
+		}
+
+		woodwarper: {
+			name: "Wood Warper"
+			desc: "Refines logs into usable boards. Can produce many wood-based recipes."
+		}
+		stonecutter: {
+			name: "Stone Worker"
+			desc: "Refines raw featherstone so you can use it in construction."
+		}
+		purptatoprocessor: {
+			name: "Food Plant"
+			desc: "Makes stuff we don't want to eat from stuff we really don't want to eat.\n\nConverts raw materials to food."
+		}
+		coppersmelter: {
+			name: "Smell-ter"
+			desc: "Odorful machines that refine raw metals into usable ingots. Can produce many metal-based recipes."
+		}
+		workshop: {
+			name: "Workshop"
+			desc: "Assembles all sorts of bits and pieces into more usable bits and pieces."
+		}
+		cauldron: {
+			name: "The Cauldron"
+			desc: "Turns liquid things into other liquid things."
+		}
+
+		bloodwoodresource: {
+			name: "Bloodwood Node"
+		}
+		featherstoneresource: {
+			name: "Featherstone Node"
+		}
+		crystalresource: {
+			name: "Crystal Node"
+		}
+		cabtusresource: {
+			name: "Cabtus Node"
+		}
+		copperresource: {
+			name: "Copper Node"
+		}
+		acidshardsresource: {
+			name: "Acid Node"
+		}
+		glowhoneyresource: {
+			name: "Glow Honey Node"
+		}
+		sulfurresource: {
+			name: "Sulfur Node"
+		}
+		liquidfireresource: {
+			name: "Liquid Fire Node"
+		}
+		candyresource: {
+			name: "Candyshroom Node"
+		}
+		ruins-ind: {
+			name: "Industrial Ruins"
+		}
+		ruins-tech: {
+			name: "Tech Ruins"
+		}
+		ruins-lab: {
+			name: "Chemical Ruins"
+		}
+		ruins-fuel: {
+			name: "Fuel Cache Ruins"
+		}
+		ruins-skill-resetter: {
+			name: "Infrastructure Cleanup Ruins"
+		}
+		ruins-resource-converter: {
+			name: "Resource Converter Ruins"
+		}
+		ruins-flux-shop: {
+			name: "Materializer Ruins"
+		}
+		ruins-perm-income: {
+			name: "Supply Depot Ruins"
+		}
+		raid-spawner: {
+			name: "Nightmare Rift"
+		}
+	}
+
+	hud: {
+		daytime: "Cycle\n{0}"
+		daytime-hover: "A cycle is the basic time unit in Dream Engines.\n\nOne cycle is 40 real-time seconds."
+		fast-forward: "Hold to fast forward"
+		enemy-meter: {
+			threat-level: "Threat Level: {0}"
+			threat-hover: "Threat level indicates how agitated the Dream Plagues are. It will increase as long as your city is landed, and will reset once you take off according to the new map's difficulty level.\n\nHigher threat levels mean stronger Drep raids on your city.\n\n<color=#FFD57E>Click to open city info window.</color>"
+		}
+		resource-counter: {
+			assigned-hover: "Owned: {0}\nAssigned: {1}\nFree: {2}"
+			normal-hover: "Owned: {0}\nProduced (Actual): {1}\nConsumed (Max): {2}"
+			edit-hover: "Edit\n\nSelect items to track in HUD."
+			edit-title: "Select Items"
+		}
+		bottom: {
+			health: {
+				title: "Tiny's Health"
+				hover: "Return to city or use a repair kit to repair damage"
+			}
+		}
+		buttons: {
+			build: "Build"
+			toolstoolbar: "Tools - manage your city"
+			usable-storage: "Combined Resources\n\nSum of all items in storage buildings and Tiny's inventory. These are the resources available for construction, crafting, and other player actions."
+			research: "Research"
+			crafting: "Crafting"
+			journal: "Journal"
+			skills: "Infrastructure"
+			inventory: "Character window"
+			gamepedia: "Dream Archives"
+			bulldoze: "Demolish\n\nYou'll get back some materials when demolishing buildings (only building materials, not Flux)."
+			repair: "Fix / Rebuild\n\nRepair damaged buildings and rebuild debris. Can not be used with enemies nearby."
+			move: "Move Building\n\nSelect a building to move and then its destination. Not all buildings can be moved."
+			delinout: "Remove Access Points\n\nRemove all access points (input / output) from a rail tile."
+			pickcart: "Pick carts\n\nUse this tool to pick up resources from rails."
+			enabledisable: "On / Off\n\nUse this tool to quickly enable or disable buildings."
+			free-camera: "Free Camera\n\nToggle to disconnect the camera from Tiny and move it freely."
+
+			layer-cancel: "Turn off all layers."
+			layer-upgrade: "Upgrade Layer\n\nShow building levels and buttons for quickly upgrading them."
+			layer-prod: "Production Layer\n\nShow active production for each building and change them directly from the game view."
+		}
+		warnings: {
+			subtitle: "See tooltip above minimap."
+
+			// Global warnings
+			overpopulation: {
+				text: "People are dying"
+				hover: "Your population is higher than what your housing allows. People will die and you will lose workers until you correct this.\n\nMake sure you have enough houses and that they are supplied with food and power."
+			}
+			fundsdwindling: {
+				text: "Running out of flux"
+				hover: "Flux is the most crucial resource for our technology.\n\nTime until it runs out: {0}"
+			}
+			fooddwindling: {
+				text: "Running out of food"
+				hover: "Your people are eating more food than you are producing. Build food plants and supply them with raw materials.\n\nTime until it runs out: {0}"
+			}
+			powerdwindling: {
+				text: "High power usage"
+				hover: "Your power consumption is higher than production. Build more generators and make sure they are well supplied.\n\nTime until it runs out: {0}"
+			}
+			upgrade-available: {
+				text: "Infrastructure Upgrade Available"
+				hover: "You have enough materials for an infrastructure upgrade.\n\nPress K to open the infrastructure screen and purchase an upgrade, then spend the upgrade points."
+			}
+			overweight: {
+				text: "Overweight"
+				hover: "Your city weight has exceeded your engines' carry capacity. You won't be able to fly while overweight.\n\nBuild or upgrade engines to increase your carry capacity, or remove some buildings to reduce your city's weight."
+			}
+			building-attacked: {
+				text: "Your buildings are under attack"
+				hover: "One or more of your buildings are under attack."
+			}
+			tiny-attacked: {
+				text: "Tiny is under attack"
+			}
+			risk-increase: {
+				title: "Threat Level Increased"
+				text: "New threat level: {0}"
+			}
+			raid-incoming: {
+				title: "Drep attack"
+				text: "They're coming! Prepare to defend your city."
+			}
+			raid-preparing: {
+				title: "Raid approaching"
+				text: "The Drep are preparing an assault."
+			}
+			go-to-city: {
+				title: "Take-off imminent"
+				text: "Return to city immediately."
+			}
+			no-research: {
+				text: "No research selected"
+				hover: "There are active labs but no research subject has been selected.\n\nPress R to open the research screen and select a subject to research, or disable the labs to save power & flux."
+			}
+			insufficient-workers: {
+				text: "Insufficient Workers"
+				hover: "You do not have enough workers to maintain all of your buildings.\n\nDisable buildings to free up workers, or build more houses to increase your maximum worker capacity. If you have free housing, workers will slowly increase over time."
+			}
+
+			// Building warnings
+
+			prod-missing-raw: {
+				hover: "Insufficient Resources\n\nThis building is missing raw materials required for production."
+			}
+
+			resource-depleted: {
+				hover: "Resource Depleted\n\nThe resource in this deposit has been depleted and is producing at reduced efficiency."
+			}
+
+			building-disabled: {
+				hover: "Building Disabled\n\nThis building has been manually disabled and is not functioning."
+			}
+
+			missing-upkeep: {
+				hover: "Insufficient Resources\n\nYou do not have enough resources to upkeep this building."
+			}
+
+			output-full: {
+				hover: "Output Full\n\nProduction can not proceed until produced resources are sent from the building."
+			}
+
+			no-power-connection: {
+				hover: "Disconnected from Power Network\n\nBuilding has been disconnected from power network. Build tesla towers so that the building can receive power."
+			}
+		}
+		citysize: {
+			maxsize: "Maximum Reached"
+			current-size: "{1}: {0}"
+			next-size: "Next level: {1}"
+			hover-title: "Next level: {0}"
+			hover-body: "Current population: {0}\nHousing available: {1}\nNeeded for next level: {2}\n\nBenefits at next level:\n{3}\n\n<color=#FFD57E>Click to open city info window.</color>"
+			s0: "Camp"
+			s1: "Outpost"
+			s2: "Village"
+			s3: "Town"
+			s4: "Haven"
+			s5: "City"
+			s6: "Flying Fortress"
+		}
+		construction: {
+			free-builds: "Free Builds: {0}"
+			max-amount: "Maximum Allowed: {0}"
+		}
+	}
+
+	objwarnings: {
+		importer-no-access: "No external access. Move to city edges or outside."
+		disconnected-rail: "This rail track does not lead to any input."
+	}
+
+	crafting-categories: {
+		equipment: {
+			name: "Equipment"
+		}
+		upgrades: {
+			name: "Upgrades"
+		}
+		resources: {
+			name: "Resources"
+		}
+		modules: {
+			name: "Modules"
+		}
+		ruins-store: {
+			name: "Special"
+		}
+	}
+
+	upgrades: {
+		prod1: {
+			name: "Production Line Upgrade"
+			desc: "Allows using more advanced production recipes. Most recipes need to be researched before they are available."
+		}
+		prod2: {
+			name: "Production Line Upgrade 2"
+		}
+		prod3: {
+			name: "Production Line Upgrade 3"
+		}
+		energycell-addon: {
+			name: "Tesla Chamber"
+		}
+		materializer-cabtus: {
+			name: "Cabtus Materializer"
+		}
+		materializer-crystal: {
+			name: "Crystal Materializer"
+		}
+		materializer-acid: {
+			name: "Acid Shard Materializer"
+		}
+		materializer-sulfur: {
+			name: "Sulfur Materializer"
+		}
+		coppermachine-flux: {
+			name: "Flux Machinery"
+			desc: "Enhances the basic production recipe.\n\nDoes not work with more advanced recipes."
+		}
+		coppermachine-power: {
+			name: "Tesla Machinery"
+		}
+		woodturret-plating: {
+			name: "Nightmare Upgrades"
+		}
+		stoneturret-plating: {
+			name: "Nightmare Upgrades"
+		}
+		atlasturret-plating: {
+			name: "Nightmare Upgrades"
+		}
+		musicturret-speed: {
+			name: "Flux Metal Upgrades"
+		}
+		atlasturret-damage: {
+			name: "Flux Metal Upgrades"
+		}
+		storage-flux: {
+			name: "Extra Flux Storage"
+		}
+		storage-fuel: {
+			name: "Extra Fuel Storage"
+		}
+		battery-power: {
+			name: "Extra Battery Storage"
+		}
+		heat-shield: {
+			name: "Heat Shield"
+		}
+		air-filter: {
+			name: "Air Filter"
+		}
+
+	}
+
+	windows: {
+		selectedbuilding: {
+			on-off-hover: "Toggle building on/off"
+		}
+		titlemenu: {
+			quit: "Quit"
+			credits: "Credits"
+			buildnumber: "Build {0}"
+			patchnotes: "<u>Read latest patch notes</u>"
+		}
+		gamepedia: {
+			title: "Dream Archives"
+			unseen-tab: "New"
+			construction-tab: "Buildings"
+			upgrades-tab: "Building Upgrades"
+			production-tab: "Production Recipes"
+			crafting-tab: "Crafting Recipes"
+			resources-tab: "Resources"
+			right-click: "Right click to open in the Dream Archives"
+			filter: "Filter..."
+		}
+		inputoutput: {
+			outputtitle: "Select item to output"
+			mintitle: "Minimum required"
+			minhover: "Items will only be sent when more than the minimum amount is available in storage.\n\nIgnored when selecting 'all'"
+		}
+		saveload: {
+			loadtitle: "Load Game"
+			savetitle: "Save Game"
+			savename: {
+				title: "Save Game Title"
+				text: "Enter a name for your save file"
+				placeholder: "Save Name..."
+				autosave: "Auto Save"
+				quicksave: "Quick Save"
+				new-save: "New Save"
+			}
+			save-desc-format: "{0} - {2}, {1} citizens" // name, population
+			save-info-format: "{0}\nCycle {1}\nBuild {3}, {2}" // desc, cycle, date/time, build number
+			default-name: "{0} {1} Cycles" // city name, cycle
+			notsupported-postfix: " (Not Supported)"
+			notsupported-hover: "Saves from this build are no longer supported.\n\nIf you wish to continue this save using an older build of the game, you can select it from the Betas tab on Steam. Right click the game in your library, then choose Preferences, then select the Betas tab."
+			delete-incompatible: "Delete incompatible saves"
+			delete-incompatible-hover: "This will delete all save files from previous builds that are no longer compatible. This action can not be undone."
+		}
+		gamemenu: {
+			title: "Game Menu"
+			save: "Save Game"
+			feedback: "Send Feedback"
+			discord: "Discuss on Discord"
+			load: "Load Game"
+			quit: "Back to Title"
+			savequit: "Save & Quit"
+			info: "{1}\nTime in game: {0}"
+		}
+		destinationselect: {
+			title: "Select Destination"
+			worlddifficulty: "Global Infestation Level:"
+			worlddifficulty-hover: "Global infestation level affects the amount of skulls (map difficulty) in the landing options you can choose from. When the infestation level increases, more difficult options will appear.\n\nThe global infestation increases with time."
+			mapdifficulty-title: "Map Difficulty"
+			mapdifficulty-hover: "Starting threat level: {0}\n\nMap difficulty determines the amount and strength of the Drep on the map and the starting threat level for raids on your city."
+			refresh-title: "Fly Elsewhere"
+			refresh-hover: "Spend fuel to fly to a different area and generate a new set of landing options."
+			locked: "Can't land here"
+		}
+		expedition-select: {
+			workers-title: "Expedition Crew"
+			workers-hover: "The crew will be tied up during the entire expedition including the preparation phase, make sure you have enough workers."
+			workers-desc: "Workers required: {0}"
+			upfront-costs-title: "Upfront Costs"
+			upfront-costs-hover: "These items will be consumed as soon as the expedition preparation begins."
+			prep-title: "Preparation"
+			prep-hover: "These are the upkeep costs of the expedition center during the preparation phase."
+			prep-desc: "Preparation time: {0} cycles"
+			expedition-title: "Expedition & Rewards"
+			expedition-hover: "These are the rewards that we expect to find during the expedition."
+			expedition-desc: "Expedition duration: {0} cycles"
+		}
+		expedition-rewards: {
+			title: "Expedition - select reward"
+		}
+		archeology-select: {
+			time-desc: "Project time: {0} cycles"
+			build-title: "Project Details"
+			build-hover: "To complete the project, you must continuously supply archeologists with the resources listed below until the project is completed.\n\nMultiple archeologists will contribute to the same project and complete it faster."
+			rewards-title: "Rewards"
+			rewards-hover: "Upon completion of the project, these rewards are granted permanently and there are no additional costs."
+		}
+		research: {
+			title: "Research"
+			noresearch: "No active research"
+			nolabs: "No labs built"
+			nolabs-hover: "Build a research lab to start researching new technologies.\n\nResearch labs are unlocked by increasing your city's population."
+		}
+		crafting: {
+			title: "Crafting"
+			performbutton: "Craft"
+			charges: "Charges remaining: {0}"
+			not-activated: "Can't craft - building not activated"
+			teslacrats-mul-addition: "\n\n<color=#FFD57E>Power costs multiplier: {0}</color>\nThis value increases when crafting from power, and slowly goes back to normal."
+		}
+		productionselect: {
+			title: "Select Production Recipes"
+			select: "Select"
+			missing-upgrade: "Missing upgrade/add-on: {0}"
+		}
+		character: {
+			title: "Character"
+			weapon: "Weapons"
+			weapon-secondary: "Alternate Weapons"
+			weapon-secondary-hover: "Press {0} to switch between primary and alternate weapon sets."
+			secondary-not-assigned: "Not assigned"
+			secondary-not-assigned-hover: "When no weapon is assigned in the alternate set, the weapon from the primary set will be used instead."
+			armor: "Armor"
+			equipment: "Equipment"
+			quickbar: "Shortcut Slots (click a slot to assign)"
+			enable-scrap: "Scrap Equipment"
+			end-scrap: "End Scrapping"
+			no-scrap-hover: "Scrapping this item will not return any materials."
+			scrap-value-hover: "Scrapping this item will yield the following resources:"
+		}
+		skills: {
+			title: "Infrastructure Upgrades"
+			purchasebutton: "Purchase"
+			purchasebutton-hover: "Spend resources to increase your infrastructure level and gain points that can be assigned for various benefits."
+			requirements: "Requirements"
+			per-level: "Bonuses per level:"
+			level: "Infrastructure Level: {0}"
+			upgrade-points: "Unassigned Points: {0}"
+			points-hover: "Infrastructure points can be used to improve your infrastructure in several areas. Hover each area to see the benefits of upgrading it."
+		}
+		tribeselect: {
+			title: "Select Your Tribe"
+		}
+		newgame: {
+			title: "New Game"
+			tutorial-label: "Enable tutorial"
+			score-mul: "Score Multiplier: {0}"
+			difficulty-title: "Select Difficulty"
+			customize-title: "Customize"
+			city-name-title: "City Name"
+			city-name-text: "How will your nomad city be known?"
+		}
+		loadingscreen: {
+			tip: "Tip {0} / {1}"
+			loading: "Loading..."
+			press-any-key: "Press any key to continue\n<size=24>Use A | D keys to cycle through tips</size>"
+		}
+		yesno: {
+			dontshowagain: "Don't ask again"
+			chosen-higher-difficulty: {
+				title: "Increase Difficulty?"
+				text: "You've chosen to land in a location of higher difficulty than the current global infestation level. This will immediately increase the infestation level.\n\nHover the Global Infestation Level indicator at the top of the destination selection window to learn more about this.\n\nProceed?"
+			}
+			delete-save: {
+				title: "Delete Save?"
+				text: "Are you sure you want to delete this save file? This action is irreversable."
+			}
+			overwrite-save: {
+				title: "Overwrite Save?"
+				text: "This will overwrite an existing save file.\n\nAre you sure you want to overwrite this file? This action is irreversable."
+			}
+			cancel-takeoff: {
+				title: "Cancel Take-off?"
+				text: "Are you sure you want to stop the take-off process? You will only get half of your fuel costs back."
+			}
+			overwrite-ironman: {
+				title: "Overwrite Save?"
+				text: "An ironman mode game with this name already exists. Starting a new game with the same name will overwrite the old save.\n\nYou can enter a different city name if you wish to keep the previous save.\n\nOverwrite save?"
+			}
+			no-overseer: {
+				title: "Overseer Tools Disabled"
+				text: "You've chosen to play with Overseer tools disabled. This means you won't be able to pause or speed-up the game, and the camera will be locked to Tiny, so you have to physically move in order to manage your city. Proceed?"
+			}
+			remove-upgrade: {
+				title: "Remove Add-on?"
+				text: "Are you sure you want to remove this add-on? You will only get some of the raw materials back."
+			}
+			skip-tutorial-new: {
+				title: "Skip Tutorial?"
+				text: "Dream Engines has some unique mechanics, skipping the tutorial may negatively impact your experience. We strongly suggest you play it, it's very short.\n\nAre you sure you want to skip the tutorial?"
+			}
+			skip-tutorial-task: {
+				title: "Skip Tutorial Task?"
+				text: "Are you sure you want to skip this tutorial without completing its task? You can read it in the help window at any time."
+			}
+			skip-tutorial-updated: {
+				title: "Skip Tutorial?"
+				text: "We made some significant changes since you last played the tutorial. We recommend you play it again.\n\nAre you sure you want to skip the tutorial?"
+			}
+			different-mods: {
+				title: "Different Mods"
+				text: "The game you are loading was played with a different set of Mods than the ones that are currently active. In some cases this could work without any problems, but in other cases the game may fail to load or create other issues while playing.\n\nContinue?"
+			}
+			below-recommended-version: {
+				title: "New Game Recommended"
+				text: "You're trying to load a saved game from an earlier version. While possible, significant changes that were made may cause some things not to work as intended. We strongly recommend to start a new game or <color=#99EEFF><u><link=\"old-version\">download an older version of Dream Engines</link></u></color> to play this one.\n\nContinue?\n\n"
+			}
+			multi-demolish: {
+				title: "Demolish All?"
+				text: "You are about to demolish {0} different objects. Proceed?"
+			}
+			demolish-upgrades: {
+				title: "Demolish Upgrades?"
+				text: "The building you are destroying has upgrades or add-ons. Proceed?"
+			}
+			cancel-expedition: {
+				title: "Cancel Expedition?"
+				text: "This action cancel your current expedition. If the expedition is in the preparation phase, you will only lose the resources that you've spent so far.\n\nIf the expedition is ongoing, the expedition crew will be lost as well."
+			}
+			continue-after-winning: {
+				title: "Continue playing?"
+				text: "You can now start a new game with different difficulty settings or a different tribe, or you can continue playing and keep expanding your city. If you choose to continue, feel free to demolish the Nullifier Shield.\n\nContinue?"
+			}
+		}
+		journal: {
+			goals-click: "Click a goal to see its tutorial"
+			tutorial-tab: "Tutorials"
+			story-tab: "Main Objectives"
+			milestones-tab: "Milestones"
+			button-show-dialogue: "Replay Dialogue"
+		}
+		settings: {
+			title: "Settings"
+			tabs: {
+				display: "Display"
+				audio: "Audio"
+				gameplay: "Gameplay"
+			}
+			master-volume: {
+				title: "Master Volume"
+			}
+			music-volume: {
+				title: "Music Volume"
+			}
+			sfx-volume: {
+				title: "Sound Effects Volume"
+			}
+			ambiance-volume: {
+				title: "Ambiance Volume"
+			}
+			fullscreen: {
+				title: "Fullscreen Window"
+				hover: "Toggle between regular window and full-screen borderless window. Desktop resolution is used automatically when full-screen option is enabled."
+			}
+			resolution: {
+				title: "Windowed Resolution"
+				hover: "When full-screen is off, you can adjust window size & resolution."
+			}
+			vsync: {
+				title: "Vsync"
+			}
+			shadows-enabled: {
+				title: "Shadows"
+			}
+			bloom-enabled: {
+				title: "Bloom"
+				hover: "Adds glow to light-emitting objects. Disabling this will severely diminish the game's aesthetics."
+			}
+			ambient-occlusion-level: {
+				title: "Ambient Occlusion"
+				values: {
+					"Lowest": "Lowest"
+					"Low": "Low"
+					"Medium": "Medium"
+					"High": "High"
+					"Ultra": "Ultra"
+				}
+			}
+			citizens-amount: {
+				title: "Show Citizens"
+				values: {
+					0: "Off"
+					25: "Few"
+					50: "Half"
+					100: "Full"
+				}
+			}
+			texture-quality: {
+				title: "Texture Quality"
+				values: {
+					"0": "Full"
+					"1": "Medium"
+					"2": "Low"
+					"3": "Lowest"
+				}
+			}
+			vignette: {
+				title: "Vignette"
+			}
+			weather: {
+				title: "Weather Effects"
+			}
+			anti-aliasing: {
+				title: "Anti Aliasing (FXAA)"
+			}
+			brightness: {
+				title: "Brightness"
+			}
+			fps-limit: {
+				title: "Maximum FPS"
+				hover: "Lower maximum framerate to reduce load on CPU and GPU."
+			}
+			mouse-confine: {
+				title: "Confine Cursor"
+				hover: "Confine mouse cursor within game window."
+			}
+			pause-on-lose-focus: {
+				title: "Pause When Losing Focus"
+				hover: "Pause when the game window loses focus."
+			}
+			takeoff-view: {
+				title: "Take-off View"
+				hover: "Show entire city view when taking off.\n\nDisable if you're experiencing performance issues during the take-off animation."
+			}
+			management-cam: {
+				title: "Management Camera"
+				hover: "When enabled, the camera will automatically lock to top-down view when entering management mode and go back to normal when switching to combat mode.\n\nIf disabled, you can still switch to top-down view manually ('Z' by default)"
+			}
+			default-free-cam: {
+				title: "Default Free Camera"
+				hover: "When enabled, switching to management mode will also switch to free camera."
+			}
+			auto-pause-mgmt: {
+				title: "Management Auto-Pause"
+				hover: "When enabled, switching to management mode will also pause the game, and unpause when switching out of management mode."
+			}
+			management-grid: {
+				title: "Management Grid"
+				hover: "Show grid in management mode."
+			}
+			target-marker: {
+				title: "Target Marker"
+				hover: "When enabled, a target marker will appear on the enemy in front of Tiny.\n\nThis marker is meant to help with aiming."
+			}
+			dynamic-minimap: {
+				title: "Dynamic Minimap"
+				hover: "Match minimap rotation to camera rotation."
+			}
+			multi-demolish-confirm: {
+				title: "Demolish Confirmation"
+				hover: "Show a confirmation window when demolishing multiple objects at once (except for rails) or a building with upgrades/add-ons."
+			}
+			disconnected-rail-warnings: {
+				title: "Rail Warnings"
+				hover: "Show warnings when a rail tracks don't lead anywhere."
+			}
+			pause-frame: {
+				title: "Show Pause Frame"
+			}
+			wall-attack-warning: {
+				title: "Wall Attacked Warning"
+				hover: "Whether or not to show a warning when a wall is being attacked."
+			}
+		}
+		keybind: {
+			title: "Key Binding"
+			selectnew: {
+				title: "Bind Key"
+				text: "Press new key to bind."
+			}
+			reset: "Restore Defaults"
+		}
+		score: {
+			title: "Score Summary"
+			score-summary: "Total Score: {0}\nDifficulty Multiplier: {1}\n\nFinal Score: {2}"
+			elements: {
+				raid-defeated: {
+					text: "Toughest Raid Defeated"
+					hover: "Landing in higher difficulty locations and staying longer to defeat tougher waves will increase this score."
+				}
+				population: {
+					text: "Population"
+					hover: "Determined by your city's population when the game ends."
+				}
+				research: {
+					text: "Research"
+					hover: "Increased by completing research. More expensive research subjects provide a higher bonus."
+				}
+				infrastructure: {
+					text: "Infrastructure Level"
+					hover: "Upgrade your infrastructure to increase this score."
+				}
+				expansion: {
+					text: "City Size"
+					hover: "This score is determined by how much you expand your city area."
+				}
+				exploration: {
+					text: "Exploration"
+					hover: "Undertake expeditions and complete archeology projects."
+				}
+				victory: {
+					text: "Victory"
+					hover: "Extra points for winning the game."
+				}
+				other: {
+					text: "Other"
+					hover: "Other score bonuses/penalties."
+				}
+			}
+		}
+		usable-storage: {
+			tabs: {
+				all: "Player + Storage"
+				storage: "Storage only"
+			}
+		}
+		city-info: {
+			title: "City Information"
+			landing-zone: "Landing Zone"
+			city: "City"
+			levels: "City Levels"
+			bonuses: "Bonuses and Penalties"
+
+			current-level: "City Level: {0}"
+			current-pop: "Population / Housing: {0} / {1}"
+			section-count: "City Area: {0} Sections"
+			level-hover: "Level Benefits:\n\n{0}"
+		}
+		mods: {
+			title: "Mods"
+			achievements-disabled-title: "Achievements Disabled"
+			achievements-disabled-warning: "Achievements are disabled when playing with most mods (except for translation mods), or when playing a save file that was created with these mods.\n\nYou have selected the following mods that will disable achievements:\n{0}"
+		}
+		tutorial: {
+			show-last: "Press {0} to repeat current instructions"
+			skip-button: "Skip Task"
+		}
+		building-management: {
+			title: "Building Management"
+		}
+		council-window: {
+			title: "City Council"
+			influence: "Influence: {0}"
+			influence-range: "Influence Range: {0} - {1}"
+			council-leader: "Head of Council"
+			select-leader: "Select New Head of Council"
+			select-leader-hover: "Click to select a new head of council."
+			leader-are-you-sure-title: "Select {0}?"
+			leader-are-you-sure-text: "Are you sure you want to select {0}?\n\n<highlight>Effects</highlight>:\n{1}\n\n<highlight>Influence change</highlight>:\n{2}"
+			increase-size: "Increase your city size to enable the council"
+			next-elections: "Next elections in {0} cycles"
+			select-error-message: "Select new head of council before closing"
+		}
+	}
+
+	council-factions: {
+		military: {
+			name: "Military Faction"
+		}
+		scientists: {
+			name: "Science Faction"
+		}
+		labor: {
+			name: "Labor Faction"
+		}
+	}
+
+	tribes: {
+		scavengers: {
+			name: "Junk Lords"
+			desc: "The Junk Lords are the masters of scrap. Where other tribes see only old-world garbage and unexceptional blue boxes, they see treasure. Their expertise in finding and making use of every little piece of scrap proves very useful in restoring and maintaining an ancient Nomad City."
+		}
+		dreamweavers: {
+			name: "Dream Weavers"
+			desc: "The Dream Weavers are adept at manipulating Dreamtek, even if they don't completely understand how this old-world technology works. They are exceptionally skilled at generating Flux and can handle more Materializers.\n\nThese skills come at a price, however. Their fascination and experimentation with the Dream Realm makes the Dream Plagues especially agitated by their presence."
+			unlocktext: "To unlock: have 3,000 Flux while playing with any other tribe"
+		}
+		electric: {
+			name: "Teslacrats"
+			desc: "Masters of Tesla energy, they have unique crafting recipes that can duplicate resources using only electrical power. The Teslacrats' main drawback is that they are above cheap power, so basic power generation is very inefficient.\n\nThis tribe has a harder start until you unlock resource-based power generation recipes."
+			unlocktext: "To unlock: have a gross power production (before consumption) of 600 power per cycle"
+		}
+		builders: {
+			name: "Beavers"
+			desc: "The Beaver tribe are known for their great construction projects. They can expand their city earlier and more easily, and can upgrade buildings using less resources. They are, however, unwilling to leave their precious works behind, so most buildings they will only build within the city area. The perfect tribe for players who abhor waste and leaving buildings behind."
+			unlocktext: "To unlock: expand your city five times in one game."
+		}
+		explorers: {
+			name: "Remnant Seekers"
+			desc: "The Remnant Seekers are an explorer tribe who believe that salvation will come from the past. They dedicate their lives to finding and exploring ruins of the old world with experienced and effective expedition crews. They use less fuel when flying and Tiny is faster. Their defenses, however, are weaker than most and their research is slower."
+			unlocktext: "To unlock: complete 5 expeditions in a single game."
+		}
+		gatherers: {
+			name: "Terra Multa"
+			desc: "The Terra Multa tribe (known as 'Terrans' for short) are a hard working people who can make the most out of what the environment provides. They excel at harvesting resources, are able to extract more before depleting a node, and find one additional random (level-dependant) resource node in each map, of a different type than those listed.\n\nThey do not believe in synthetic resources, however, so they do not make use of materializers at all, and they are slower to refine raw resources."
+			unlocktext: "To unlock: build harvesters on all the resource nodes of a 2-skull map or higher."
+		}
+		hunters: {
+			name: "Plague Hunters"
+			desc: "When the Dream Plagues started appearing, a military organization emerged, called the Plague Hunters. Centuries later, their descendants still roam the world, hunting Dream Plagues whenever they can, and use their remains to survive.\n\nThe plague hunters excel at fighting, extracting materials from fallen Drep, and finding uses for them. Since they dedicate their best engineers towards warfare, their production facilities are not the most efficient."
+			unlocktext: "To unlock: kill 150 Dream Plagues with tiny in one game."
+		}
+		nomads: {
+			name: "Lore Keepers"
+			desc: "The Lore Keepers are historians, experts in anything old-world. In their endeavor to visit as many ruins as possible, they are even more nomadic than other tribes, and have perfected efficient city travel, and are able to spot these ruins from afar. Their constant meddling with old-world stuff causes Drep to notice them sooner and attack in force."
+			unlocktext: "To unlock: Interact with 10 different ruins in a single game."
+		}
+		doomed: {
+			name: "The Doomed Tribe"
+			desc: "Some people feel like they’re cursed. They’re unlucky, things rarely go their way, everything is harder for them. The doomed tribe is a collection of such misfits.\n\nThe Dream Plagues tend to find them more often, they tend to find themselves in more hostile areas, find less resources, and life in general is harder for them. Living such a hard life has made them more rugged, and their people require less to survive."
+			unlocktext: "To unlock: Survive a raid with threat level 30 or higher."
+		}
+	}
+
+	expeditions: {
+		dreamtech-lab: {
+			name: "Abandoned Laboratory"
+		}
+		abandoned-factory: {
+			name: "Factory Remains"
+		}
+		storage-facility: {
+			name: "Old Warehouse"
+		}
+		city-ruins: {
+			name: "Ghost Town"
+		}
+		steambot-factory: {
+			name: "Steambot Hangar"
+		}
+		abandoned-experiment: {
+			name: "Failed Experiment"
+		}
+		abandonded-farm: {
+			name: "Overgrown Farm"
+		}
+		military-outpost: {
+			name: "Old Military Outpost"
+		}
+	}
+
+	expedition-rewards: {
+		resources: {
+			name: "Resource Crate"
+			desc: "May contain a variety of common resources."
+		}
+		rare-resources: {
+			name: "Rare Resources"
+			desc: "Contains resources that are harder to come by."
+		}
+		tech-rewards: {
+			name: "Technology Crate"
+			desc: "May contain research knowledge, blueprints, recipes, and other tech-related loot."
+		}
+		upgrade-mods: {
+			name: "Module Crate"
+			desc: "A variety of upgrade modules for buildings, Tiny or the city core may be found here."
+		}
+		equipment: {
+			name: "Equipment Crate"
+			desc: "These crates contain mostly equipment and upgrade modules for Tiny."
+		}
+		dream-tech: {
+			name: "Dreamtek Crate"
+			desc: "Various Dreamtek related materials and artefacts. There's a high chance to find a dream core in these."
+		}
+		dream-core: {
+			name: "Dream Core"
+			desc: "Contains a single dream core."
+		}
+		archeology: {
+			name: "Archeology Blueprints"
+			desc: "Learn about old-world projects that you can undertake at your archeologist."
+		}
+	}
+
+	archeology: {
+		harvest-booster: {
+			name: "Harvester Tinkering"
+		}
+		harvest-booster2: {
+			name: "Harvester Tinkering 2"
+		}
+		wall-health: {
+			name: "Ancient Fortifications"
+		}
+		wall-health2: {
+			name: "Ancient Fortifications 2"
+		}
+		wall-health3: {
+			name: "Ancient Fortifications 3"
+		}
+		carry-weight1: {
+			name: "Aerodynamics"
+		}
+		carry-weight2: {
+			name: "Aerodynamics 2"
+		}
+		woodwarper-efficiency: {
+			name: "Wood Warper Efficiency"
+		}
+		woodwarper-speed: {
+			name: "Wood Warper Productivity"
+		}
+		stonecutter-efficiency: {
+			name: "Stone Worker Efficiency"
+		}
+		stonecutter-speed: {
+			name: "Stone Worker Productivity"
+		}
+		smelter-efficiency: {
+			name: "Smell-ter Efficiency"
+		}
+		smelter-speed: {
+			name: "Smell-ter Productivity"
+		}
+		workshop-efficiency: {
+			name: "Workshop Efficiency"
+		}
+		workshop-speed: {
+			name: "Workshop Productivity"
+		}
+		cauldron-speed: {
+			name: "Cauldron Productivity"
+		}
+		cauldron-speed2: {
+			name: "Cauldron Productivity 2"
+		}
+		purptatoprocessor-efficiency: {
+			name: "Food Processing"
+		}
+		researchlab-efficiency: {
+			name: "Research Tools"
+		}
+		expedition-speed: {
+			name: "Expedition Equipment"
+		}
+		expedition-options: {
+			name: "Scouting Equipment"
+		}
+		cheaper-expansions: {
+			name: "Undercity Research"
+		}
+		cheaper-farms: {
+			name: "Farm Building"
+		}
+		farm-speed: {
+			name: "Farming Techniques"
+		}
+		threat-increase: {
+			name: "Dreamtek Stealth"
+		}
+		threat-increase2: {
+			name: "Dreamtek Stealth 2"
+		}
+		extra-materializer: {
+			name: "Materializer Infrastructure"
+		}
+		materializer-speed: {
+			name: "Materializer Productivity"
+		}
+		global-difficulty: {
+			name: "Dream Link Supression"
+		}
+		global-difficulty2: {
+			name: "Dream Link Supression 2"
+		}
+		heavy-dmg: {
+			name: "Heavy Weapon Boost"
+		}
+		repeater-dmg: {
+			name: "Rapid Weapon Boost"
+		}
+		shotgun-dmg: {
+			name: "Spreadshot Weapon Boost"
+		}
+		housing1: {
+			name: "Efficient Housing"
+		}
+		housing2: {
+			name: "Efficient Housing 2"
+		}
+		tiny-speed: {
+			name: "Tiny Leg Improvements"
+		}
+		tiny-vision: {
+			name: "Tiny Radar Modifications"
+		}
+		weak-raids: {
+			name: "Drep Oppressors"
+		}
+		resource-amount: {
+			name: "Waste Reduction"
+		}
+		giant-battery: {
+			name: "Power Storage Center"
+		}
+		cart-speed: {
+			name: "Autocart Efficiency"
+		}
+	}
+
+	stats: {
+		healamount: "Health: +{0}"
+		maxhealth: "Max Health: {0}"
+		damage: "Damage: {0}"
+		range: "Range: {0}"
+		aoe: "Effect Radius: {0}"
+		attackrate: "Attack Rate: {0}"
+		autoattack: "Automatic (Hold to fire)"
+		combosize: "Combo Length: {0}"
+		sustained-dps: "Sustained Damage per Second: {0}"
+		dps: "Average Damage per Second: {0}"
+		ammo-type: "Ammunition: {0}"
+		ammo-per-shot: "Ammo Costs per Shot: {0}"
+		burst-count: "Burst Projectile Count: {0}"
+		burst-angle: "Burst Angle: {0}"
+		damage-vs: "Damage Against {0}: {1}"
+		piercing: "Piercing Projectiles"
+	}
+
+	target-type: {
+		armored: "Armored"
+	}
+
+	modifiers: {
+		format: "{0}: {1}" //0 = stat, 1 = value, 2 = specifier
+		bool-no-val-format: "{0}"
+		bool-format: "{0}: {1}"
+		bool-on: "Yes"
+		bool-off: "No"
+		specifier-format: "[{0}] "
+		max-building: "Max {0} Allowed: {1}"
+		passive-income: "[Passive] {0}: {1}"
+		tiny: "Tiny"
+		stats: {
+			dmg: "Damage"
+			dmg-to: "Damage" // same as dmg, but we always use this with a specifier that is checked against the target
+			attackrate: "Attack Rate"
+			attackrange: "Range"
+			charge-speed: "Weapon Charge Speed"
+			cdn: "Cooldown"
+			receive-dmg: "Damage Received"
+			max-health: "Max Health"
+			repairkit-heal: "Repair Kit Healing"
+			speed: "Movement Speed"
+			speed-percent: "Movement Speed"
+			untargetable: "Untargetable"
+			self-repair: "Self-Repair Outside"
+			vision-range: "Vision Range"
+
+			prod-speed: "Production Speed"
+			build-costs: "Build Costs"
+			upgrade-costs: "Building Upgrade Costs"
+			demolish-refund: "Demolish Refund"
+			prod-outputamount: "Produced Resources"
+			prod-inputamount: "Raw Materials Used"
+
+			upkeep-inputamount: "Upkeep"
+			upkeep-assigned: "Workers"
+
+			module-slots: "Module Slots"
+
+			gatheramount: "Gathering Amount"
+			lootdrop: "Loot Amount"
+			resourceamount: "Resource Amount"
+			cart-speed: "Cart Speed (Rails)"
+
+			teslacrats-research: "<color=#7DE286>Unique Research: Resource Duplication</color>"
+			teslacrats-noflypower: "<color=#E27D7F>All stored power is lost when flying</color>"
+			builders-citybuilding: "<color=#E27D7F>Most buildings can only be built within the city</color>"
+			gatherers-extra-resources: "<color=#7DE286>One additional random resource node per map</color>"
+			gatherers-no-materializers: "<color=#E27D7F>Can't research or build materializers</color>"
+			hunters-unique-drep-drops: "<color=#7DE286>Dream Plagues sometimes drop resources</color>"
+			hunters-unique-drep-processing: "<color=#7DE286>Unique crafting recipes from Dream Plague remains</color>"
+			nomads-unique-visible-ruins: "<color=#7DE286>Ruin locations are always visible.</color>"
+			nomads-unique-more-ruins: "<color=#7DE286>Greater chance of finding more ruins per map.</color>"
+			nomads-unique-craft-scraps: "<color=#7DE286>Can produce old-world scraps in workshops.</color>"
+			doomed-unique-map-traits: "<color=#E27D7F>Negative map traits are more likely.</color>"
+			doomed-unique-map-resources: "<color=#E27D7F>Maps have less resource nodes.</color>"
+			doomed-unique-drep-difficulty: "<color=#E27D7F>Threat increases much faster after the first 5 threat increases per map.</color>"
+			doomed-unique-drep-difficulty2: "<color=#E27D7F>Dream plague raids have one more wave per raid.</color>"
+			doomed-unique-drep-difficulty3: "<color=#E27D7F>Global infestation starts at level 2 but the first increase takes longer.</color>"
+
+			biome-unlock-heatshield: "Unlocks Ashfall Range biome"
+			biome-unlock-airfilter: "Unlocks Toxic Moor biome"
+
+			building-weight: "Weight"
+			carry-weight: "Carry Weight"
+			launch-costs: "Fuel Costs"
+			threat-interval: "Time Before Threat Increases"
+			map-enemy-difficulty: "Map Enemy Difficulty"
+			raid-enemy-numbers: "Raid Enemy Numbers"
+			dest-reroll: "Destination selection re-rolls"
+			expedition-speed: "Expedition Speed"
+			expedition-options: "Expedition Options"
+			expedition-costs: "Expedition Costs"
+			game-score: "Game Score"
+			archeology-speed: "Archeology Speed"
+			df-threat-time: "Time Before Threat Increases"
+			df-threat-disable: "Raids Disabled"
+			global-difficulty-time: "Time Before Global Infestation Increases"
+			df-global-rate: "Global Infestation Rate"
+			df-enemy-numbers: "Enemy Numbers"
+			df-map-spawn: "Map Enemy Difficulty"
+			df-resources: "Resource Nodes"
+			df-pause-in-menu: "Pause In Windows"
+			df-overseer-mode: "Allow free camera & time control"
+			df-ironman: "Ironman Mode"
+			df-mini-raids: "Wandering Enemies"
+			df-relaxed-mode: "Global Infestation Does Not Increase Over Time"
+			df-max-health: "Max Health"
+			df-enemy-health: "Enemy Health"
+			df-ammo-costs: "Ammo Usage"
+			df-elections-off: "Disable Council"
+		}
+		specifier: {
+			wpn-melee: "Melee Weapons"
+			wpn-ranged: "Ranged Weapons"
+			wpn-heavyranged: "Heavy Weapons"
+			wpn-shotgun: "Spreadshot Weapons"
+			wpn-fastranged: "Rapid Fire Weapons"
+
+			enemy-melee: "Melee Enemy"
+			enemy-ranged: "Ranged Enemy"
+			enemy-unit: "Enemy Units"
+			prodgroup-harvest: "Harvesting"
+			prodgroup-strip: "Strip Mining"
+			prodgroup-refine: "Refining"
+			prodgroup-flux: "Flux Production"
+			prodgroup-power: "Power Production"
+			prodgroup-farm: "Farming"
+			prodgroup-citygatherer: "Renewable Gathering"
+			prodgroup-upgradeparts: "Upgrade Materials"
+			prodgroup-research: "Research"
+
+			objgroup-defense: "Defensive Buildings"
+			objgroup-wall: "Walls"
+			objgroup-housing: "Housing Buildings"
+			objgroup-harvester: "Harvesters"
+			objgroup-farm: "Farms"
+
+			loot-resources: "Resources"
+			loot-debris: "Debris/Ruins"
+			loot-enemy: "Enemies"
+
+			trgt-armored: "Against Armored"
+
+		}
+		spec-prefix: {
+			objtype: "{0}"
+			prodrecipe: "{0}"
+		}
+		capacity-format: "{0} Capacity: {1}"
+		skill-points: "Bonus Upgrade Points: {0}"
+	}
+
+	messages: {
+		build: {
+			cantbuild: {
+				onobject: "Must be built on: {0}"
+				incity: "Must be built in the city"
+				halfoncity: "Can't build part in the city and part outside"
+				nearobject: "Must be built near: {0}"
+				power: "No power access. Build tesla towers to extend your range"
+				blocked: "Can't build here: blocked"
+				blocked-rift: "Can't build near rifts"
+				nocosts: "Insufficient resources"
+				enemiesnear: "Can't build: enemies nearby"
+				maxamount: "You've reached the maximum amount of this building"
+				upgrade-cancels: "Can't build this add-on with {0}"
+			}
+		}
+		error: {
+			tooheavy: "City too heavy, remove some buildings or add more engines"
+			cantfly: "Something is preventing the city from flying"
+			takeoff-cancelled: "Take-off procedure cancelled"
+			cantmove: "This building can't be moved"
+			cantmoveraid: "This building can't be moved while there are incoming attacks"
+			cantsave: "Can't save right now"
+			no-upgrade-points: "No unassigned upgrade points"
+			interact-only: "Too far away to interact with this building"
+			out-of-ammo: "Out of ammo"
+			cantrepairthis: "This building can't be fixed manually. It will heal over time"
+			cantrepairenemiesnear: "Can't repair: enemies nearby"
+		}
+		milestones: {
+			objective-complete: "Objective Complete"
+			milestone-complete: "Milestone Achieved"
+		}
+	}
+
+	unlocks: {
+		text-format: "* Unlocked {0}: {1}" // gets type and name
+		splash-title-format: "Unlocked {0}" // gets type and name
+		splash-text-format: "{1}" // gets type and name
+		call-to-action: "Press 'H' to see more details"
+		types: {
+			upgrades: "Upgrade"
+			constructions: "Building"
+			crafting: "Crafting"
+			productions: "Production Recipe"
+			research: "Research"
+			skills: "Skill"
+			perks: "Perks"
+			abilities: "Abilities"
+		}
+		research-complete: "Research Complete"
+		archeology-complete: "Archeology Project Complete"
+		city-size-achieved: "New City Level"
+		tribe-unlocked: "New Tribe Unlocked"
+	}
+
+	loading-tips: {
+		rotate: "You can rotate the camera by holding and dragging the middle mouse button."
+		moving-buildings: "Click the tools button and then choose the move tool (or press 'M') in management mode to reorganize your buildings. Some buildings like walls and rails cannot be moved."
+		melee-aoe: "Melee attacks hit multiple enemies at once and deal higher damage than ranged attacks. They are very effective when surrounded by short-range enemies."
+		demolish-buildings: "Demolishing most buildings will return half their construction costs, but not Flux."
+		world-difficulty: "As time goes by, the areas you land in will become more and more difficult. Don't waste too much time, build up your economy and defenses before it's too late."
+		world-difficulty2: "Landing locations with higher difficulty have more resource deposits, and some resources like copper only appear on high enough levels."
+		right-click-close: "You can right click anywhere on a window to close it."
+		infrastructure: "Build workshops to produce materials for upgrading your infrastructure. Upgrading infrastructure can provide powerful, permanent bonuses."
+		economy: "Don't be afraid of building more than one research center or workshop so you can progress faster. Just make sure your economy can support it."
+		disabling: "If you don't have enough workers or power, you can disable less important buildings to make sure others remain operational."
+		upgrading: "Most buildings can be upgraded. Upgrading is more expensive than building another building, but doesn't use any extra space or weight."
+		rails-building: "You can change the direction of a rail by simply building another rail in the opposite direction. Changing directions won't cost anything."
+		railcrossing: "Drag to build rails in a way that crosses an existing rail section to create a crossing that behaves like a bridge, allowing both sections to work independently."
+		remove-crossing: "You can remove a rail crossing by dragging a rail to change the direction of one of the crossing's entrances or exits so that they merge into or split out of the crossing instead of crossing each other."
+		weight: "Make sure you can always make a hasty escape. Don't run out of fuel and keep your weight below your carrying power."
+		leaving-early: "Don't hesitate to fly away if you need a resource that is not available in your current area. Just keep an eye on your fuel reserves."
+		journal: "Open your journal (J) to see completed tutorial tasks if you need a reminder."
+		gamepedia: "Press TAB to open the Dream Archives, and see information on any building, crafting, or production recipe that you unlocked."
+		item-source: "When you need a resource you're not familiar with, check the Dream Archives to see where it can be gathered or produced."
+		pick-cart: "If you want to remove a transport cart from some rails, use the pick-cart tool (P) in management mode to return the items to your inventory."
+		enabledisable: "You can quickly enable & disable several buildings without opening their window by using the on/off tool (O) in management mode."
+		extrarefineries: "If you find yourself waiting too long for planks, build more wood warpers or any other refinery."
+
+		old-tech: "Hit debris around the world to collect old-world scraps that can then be used in ruins buildings to craft unique items."
+		copybuilding: "In management mode, use the copy building key (default 'V') to quickly create another instance of the building that is under your cursor."
+		targetmarker: "You can activate the target marker from the settings window to help you aim your ranged attacks."
+		key-bindings: "Open the key-bindings from the settings window to learn and modify all the different keyboard shortcuts that can help you throughout the game."
+		milestones: "Hover your mouse over milestones to learn more about these features."
+		milestones2: "Completing milestones rewards you with old-world scraps that can later be used to activate ancient machinery."
+
+		rawresources: "Most raw resources can't be carried when you leave. Refine as many as possible before flying away."
+		scrap-when-leaving: "Don't forget to scrap any buildings outside your city before leaving, you'll get half of the raw materials (not including Flux) back."
+		upgrade-in-city: "Choose carefully which buildings to place inside the city and take with you. Upgrade these buildings to make them more efficient."
+		move-before-leaving: "Remember you can move most buildings, so you can reorganize your city and choose which buildings to take with you. Turrets can't be moved during raids, so think in advance."
+		expand-city: "Increase your population to unlock the city expansion build option, then expand your city so you have more room for buildings that you take with you. But keep an eye on your weight."
+		discord: "Join our discord (link in the title screen). You can ask any questions and chat with us devs or other members of the community."
+		add-ons: "When you research building add-ons, interact with a building to build those and unlock new production recipes or other bonuses."
+		resources-leaving: "Keep a reserve of important resources, when you fly away you'll need them to rebuild some of the buildings left behind."
+		food-leaving: "Make sure you have plenty of food, flux and power before leaving, it may take you a while to set-up their production in your next landing spot."
+		exploring: "Explore your surroundings. You will find more resources, debris that you can destroy for usefull stuff, ancient ruins, and it will be easier to identify routes of enemy raids."
+		auto-output: "By default, output from non-storage buildings send all items. Select the access point in management mode to edit its settings."
+		exit-limits: "When sending items out of storage, you can set a minimum amount in the item selection pop-up. Items will only be sent if the storage has more than this minimum amount of that item."
+
+		upgrade-layer: "Open the upgrade layer in management mode (left of the minimap) to see building levels and upgrade them with a single click."
+		prod-layer: "Open the production layer in management mode (left of the minimap) to see or change what each building is producting."
+		usable-storage: "The combined storage window (default 'T') shows all items currently available for construction/crafting - including global items, those in Tiny's inventory, and resources in storage buildings."
+		customize-resource-ui: "You can choose which resources are tracked in the top-left of the HUD."
+		city-info: "Click on the city name in the HUD to open the city information window. This window also provides information about the current landing zone."
+		free-camera: "You can use the free camera keyboard shortcut when in combat mode in order to switch to management mode with free camera enabled automatically."
+		worker-assign: "You can reduce the amount of workers assigned to production buildings to lower the production rate of that building and free up workers for other tasks."
+
+		piercing-weapons: "Projectiles from piercing weapons pass through their targets and can hit those behind them."
+		archeology-unlocks: "Unlock new archeology projects by scrapping ruins in 2-skull regions or higher."
+	}
+
+	contexthints: {
+		roadbuild: "* Drag in the desired direction - place rails.\n* Start the drag from building - create an output slot.\n* End the drag on a building - create an input slot.\n* Right click to exit build mode.\n* Drag rails across an existing track to create a crossing."
+		buildmode: "'{0}' - rotate building.\nRight click - exit build mode."
+
+		bulldoze: "Select building to demolish.\nRight click - exit mode."
+		repair: "Select damaged building to repair.\nRight click - exit mode."
+		repair-costs: "Repair {0}: {1} x{2}"
+		move: "Select building to move.\nRight click - cancel."
+		delinout: "Click to remove access points.\nRight click - exit mode."
+		pickcart: "Click & Drag to pick up carts.\nRight click - exit mode."
+		enabledisable: "Click buildings to toggle them on/off.\nRight click - exit mode."
+
+		gather: "'E' - Gather {0}."
+		gathering: "Gathering {0}"
+		inventory: "Left click to transfer items\nHold SHIFT to transfer all or CONTROL to transfer 10\nRight click to use / equip"
+	}
+
+	keymapping: {
+		categories: {
+			general: "General Controls"
+			management: "Management Mode"
+			camera: "Camera Controls"
+			windows: "Window Shortcuts"
+		}
+		action: {
+			Up: "Move up"
+			Left: "Move left"
+			Right: "Move right"
+			Down: "Move down"
+			DefaultView: "Default camera view"
+			TopDownView: "Toggle top-down view"
+			ZoomIn: "Zoom In"
+			ZoomOut: "Zoom Out"
+			RotateCamera: "Rotate camera"
+			Interact: "Interact"
+			StrategicView: "Toggle management mode"
+			SwitchWeapons: "Switch weapon set"
+			CameraControlMode: "Toggle direct camera control"
+			Build: "Toggle build mode"
+			BuildPrevCat: "Previous build category"
+			BuildNextCat: "Next build category"
+			CopyBuilding: "Copy building under cursor"
+			BuildRails: "Build rails shortcut"
+			Bulldoze: "Toggle demolish mode"
+			Repair: "Toggle repair mode"
+			Move: "Toggle move building mode"
+			EnableDisableBuilding: "Toggle enable / disable mode"
+			PickCarts: "Toggle pick cart mode"
+			Inventory: "Character window"
+			Research: "Research window"
+			Skills: "Infrastructure window"
+			Journal: "Journal window"
+			Crafting: "Crafting Window"
+			UsableStorage: "Combined Resources"
+			Gamepedia: "Dream archives window"
+			Transfer10: "Hold for x10"
+			TransferAll: "Hold for all available"
+			RotateRight: "Rotate building right"
+			RotateLeft: "Rotate building left"
+			AddToQueue: "Hold to add research to queue"
+			QuickSave: "Quick Save"
+			QuickLoad: "Quick Load"
+			Help: "Help"
+			RemoveAccessPoint: "Remove Access Points"
+			IncreaseGameSpeed: "Increase Game Speed"
+			DecreaseGameSpeed: "Decrease Game Speed"
+			Pause: "Pause"
+			FreeCamera: "Toggle Free Camera"
+			GotoCore: "Goto City Core / Tiny"
+		}
+		keys-short: {
+			Space: "Spc"
+			LeftShift: "LSHF"
+			LeftControl: "LCTR"
+			RightShift: "RSHF"
+			RightControl: "RCTR"
+			Return: "Ent"
+			KeypadEnter: "Ent"
+			Insert: "Ins"
+			PageUp: "PGUP"
+			PageDown: "PGDN"
+		}
+		keys: {
+			LeftShift: "Left Shift"
+			LeftControl: "Left Control"
+			RightShift: "Right Shift"
+			RightControl: "Right Control"
+			Period: "."
+			Comma: ","
+			Tab: "Tab"
+			RightBracket: "]"
+			LeftBracket: "["
+			Space: "Space"
+			Delete: "Del"
+			Return: "Enter"
+			KeypadPeriod: "."
+			KeypadDivide: "/"
+			KeypadMultiply: "*"
+			KeypadMinus: "-"
+			KeypadPlus: "+"
+			KeypadEnter: "Enter"
+			KeypadEquals: "="
+			UpArrow: "Up"
+			DownArrow: "Down"
+			RightArrow: "Right"
+			LeftArrow: "Left"
+			Insert: "Insert"
+			Home: "Home"
+			End: "End"
+			PageUp: "Page Up"
+			PageDown: "Page Down"
+			Semicolon: ";"
+			Slash: "/"
+			Minus: "-"
+			Quote: "'"
+			Equals: "="
+			None: ""
+			//Backslash: "\\"
+		}
+	}
+
+	difficulty: {
+		start-items: "Extra starting resources:"
+		settings: {
+			difficulty-preset: {
+				title: "Preset Difficulty"
+				hover: "Pre-defined difficulty levels."
+			}
+			enemy-strength: {
+				title: "Enemy Numbers"
+				hover: "Amount of enemies around the map and in raids."
+				options: {
+					very-easy: "Easy"
+					easy: "Forgiving"
+					normal: "Challenging"
+					hard: "Hard"
+				}
+			}
+			combat-difficulty: {
+				title: "Combat Difficulty"
+				hover: "Determines the difficulty of exploring and fighting with Tiny."
+				options: {
+					very-easy: "Easy"
+					easy: "Forgiving"
+					normal: "Challenging"
+					hard: "Hard"
+				}
+			}
+			economy: {
+				title: "Economy"
+				hover: "Affects how hard it is to build and expand a city with a stable economy."
+				options: {
+					very-easy: "Easy"
+					easy: "Forgiving"
+					normal: "Challenging"
+					hard: "Hard"
+				}
+			}
+			resource-node-count: {
+				title: "Resource Nodes"
+				hover: "Amount of resource nodes in each map."
+				options: {
+					easy: "Forgiving"
+					normal: "Challenging"
+					hard: "Hard"
+				}
+			}
+			threat-time: {
+				title: "Threat Increase Rate"
+				hover: "Determines how long it takes for threat levels to increase.\n\nHigher values mean longer separation between raids and threat increases more slowly."
+				options: {
+					no-raids: "Raids Disabled"
+					very-easy: "Easy"
+					easy: "Forgiving"
+					normal: "Challenging"
+					hard: "Hard"
+				}
+			}
+			mini-raids: {
+				title: "Wandering Enemies"
+				hover: "Wandering enemies sometimes spawn and attack your city without warning. They are much smaller than actual raids and they do not get stronger when you stay put.\n\nWhen enabled, make sure your city is defended from all directions at all times."
+				options: {
+					off: "Disabled"
+					normal: "Normal"
+				}
+			}
+			global-difficulty-time: {
+				title: "Survival Mode"
+				hover: "Determines whether or not global infestation level increases by itself and how fast.\n\nWhen turned on, your landing options will get harder and harder over time. Turn off for a more relaxed experience."
+				options: {
+					relaxed: "Off"
+					beginner: "Beginner"
+					easy: "Forgiving"
+					normal: "Challenging"
+					hard: "Hard"
+				}
+			}
+			pause-in-menus: {
+				title: "Overseer Tools"
+				hover: "Overseer tools allow for free camera movement, speed controls, and active-pause. Without these tools there is more time pressure and you need to physically move Tiny in order to build or manage your city."
+				options: {
+					normal: "Enabled"
+					hard: "Disabled"
+				}
+			}
+			elections: {
+				title: "Council Elections"
+				hover: "Disable council elections and faction relationships."
+				options: {
+					off: "Council Disabled"
+					normal: "Council Enabled"
+				}
+			}
+			ironman: {
+				title: "Ironman"
+				hover: "In ironman mode there's only one save file, and the game is automatically saved every time you quit. If you lose, the save file will be deleted."
+				options: {
+					normal: "Off"
+					hard: "On"
+				}
+			}
+			map-size: {
+				title: "Landing Map Size"
+				hover: "Larger maps take more time to search and have more enemies in them.\n\nSmaller sizes may improve performance."
+				options: {
+					easy: "200 x 200"
+					normal: "220 x 220"
+					hard: "240 x 240"
+				}
+			}
+		}
+		presets: {
+			very-easy: {
+				name: "Relaxed",
+				desc: "This difficulty is best suited for those more interested in exploring and building.\n\nIn this mode the global infestation will not increase unless you manually decide to fly to higher difficulty maps.\n\nEnemies will still attack your city, but the threat level increases much more slowly. If you want to cancel raids altogether you can customize the Threat difficulty setting below."
+			},
+			easy: {
+				name: "Forgiving",
+				desc: "A slower pace that allows for more mistakes, lets you save the game at any time, and has weaker enemies all around.\n\nRecommended for new players to the genre, or those looking for a more relaxed experience but that still has some time pressure and challenge."
+			},
+			beginner: {
+				name: "Still Learning",
+				desc: "This is the recommended difficulty level for new players.\n\nIt allows for a bit slower pace and easier battles that will let you better familiarize with the game.\n\nAfter a few attempts and becoming familiar with the unique controls and systems, we recommend switching to the Challenging difficulty level."
+			},
+			no-time-limit: {
+				name: "Take Your Time",
+				desc: "Similar to the challenging difficulty level, except that the global infestation level never increases by itself.\n\nThis mode has significantly reduced pressure because you can visit as many low level maps as you want until you feel ready to visit higher level maps. There is still time pressure within each map because raids and threat levels increase normally, but flying to a new map of the same difficulty level resets these."
+			}
+			economy-focus: {
+				name: "Economic Challenge",
+				desc: "For those who prefer more of a challenge in the building and management aspects of the game.\n\nCombat difficulty is similar to the Still Learning difficulty, but resources are harder to come by and construction costs are increased."
+			},
+			challenging: {
+				name: "Challenging",
+				desc: "This is the way the game was meant to be played.\n\nRecommended for players that have already familiarized themselves with the unique systems and controls of this game, and are ready for the real challenge."
+			},
+			hard: {
+				name: "Hard",
+				desc: "For those who enjoy an extra challenge.\n\nMore enemies all around, and faster threat level increases create a more significant sense of time pressure."
+			},
+			very-hard: {
+				name: "Dream Plague",
+				desc: "The hardest difficulty.\n\nTiny is weaker, you will find less resources, pay more to build stuff, and the global infestation will increase faster compared to the Hard level.\n\nPlay at your own peril."
+			},
+			custom: {
+				name: "Custom",
+				desc: ""
+			},
+		}
+	}
+
+	opening-story: {
+		paragraph1: {
+			text1: "Twyst."
+			text2: "Once, a world of wonders and dreams."
+			text3: "Now, a place of nightmares."
+		}
+		paragraph2: {
+			text1: "With the discovery of the reality-defying technology known as ‘Dreamtek’, Twyst became the home of many great and prosperous empires."
+			text2: "At least, that's what the legends say."
+		}
+		paragraph3: {
+			text1: "Then came the Dream Plagues."
+			text2: "No one knows where they came from. Creatures that seemed to come straight out of a nightmare."
+			text3: "They appeared everywhere, and the world was not prepared."
+			text4: "The Twystans fought bravely, but the Dream Plagues were endless, and relentless. Great cities fell, empires were decimated."
+		}
+		paragraph4: {
+			text1: "Centuries later, Twyst itself became a dark and twisted planet."
+			text2: "The few remaining Twystans survive as nomadic tribes, never putting down roots, never remaining in the same place for too long. Always on the move, before the dream plagues catch their scent."
+			text3: "This is where your story begins."
+		}
+	}
+
+	dialogue-characters: {
+		scientist: {
+			name: "Chief Scientist Marie"
+		}
+		advisor: {
+			name: "Advisor Han"
+		}
+		archeologist: {
+			name: "Archeologist Wallace"
+		}
+		narrator: {
+			name: ""
+		}
+	}
+
+	missions: {
+		dialogue-goals-format: "{0}\n\n<color=#99EEFF>Objectives\n{1}</color>"
+		dialogue-goals-line: "• {0}"
+		story-start: {
+			name: "A New Hope"
+			texts: {
+				desc: "Your tribe's hope is rekindled with the discovery of an ancient city that can fly."
+			}
+			dialogue: {
+				before1: "Overseer, it's amazing! A true marvel of the ancients."
+				before2: "They called it a 'Nomad City', and it can fly! We don't know why they abandoned it, everything appears to be working."
+				before3: "Overseer, the city has an Avatar. It's a mechanical giant and they called it 'Tiny'. Some kind of ancient joke perhaps."
+				before4: "It's armed, we can use it to explore our surroundings, find resources, and fight the Dream Plagues."
+				before5: "Our luck could be changing. We can build a real home here, one that we can take with us whenever we are forced to flee."
+				before6: "You enter the overseer chamber in the city core. From here, you can control Tiny and the entire city. You can feel this is only the beginning of your journey. Great hardships await, but also a new hope. You start to acquaint yourself with Tiny's controls, and dream of building a grand city, like the days of old."
+			}
+			objectives: {
+				complete-tutorial: "Complete the tutorial below"
+				city-level1: "Reach a population of {1}"
+			}
+		}
+		story-buildlab: {
+			name: "Research"
+			texts: {
+				desc: "The tribe hopes to conduct their own research to improve the city."
+			}
+			dialogue: {
+				before1: "We're off to a good start, overseer, I don't remember ever seeing our people so excited."
+				before2: "We can build something truly great here, but we'll need to do our own research if we’re to grow and defend the city."
+				before3: "The city's infrastructure is in relatively good condition, but it's old. Ancient, really. Perhaps we can research a workshop for producing parts that could be used to upgrade that infrastructure."
+			}
+			objectives: {
+				city-level2: "Reach a population of {1}"
+				buildlab: "Build: {0}"
+				unlockworkshop: "Research {0}"
+			}
+		}
+		story-upgrade-core: {
+			name: "City Core"
+			texts: {
+				desc: "Upgrading the city core can help your people survive."
+			}
+			dialogue: {
+				before1: "Overseer, you can now build a workshop to produce parts that will allow us to upgrade the city's infrastructure."
+				before2: "Our scientists also designed some upgrades to the City Core. Let's upgrade the core next, it will improve its flight capability and resource production."
+				before3: "Overseer, remember that the Dream Plagues will become more and more hostile the longer we remain in one place."
+				before4: "When things become too dangerous or when you need resources that cannot be found in this area, you can fly the city to a new location."
+			}
+			objectives: {
+				upgrade-core2: "Upgrade: {3}"
+			}
+		}
+		story-build-expeditioncenter: {
+			name: "Expedition Center"
+			texts: {
+				desc: "You investigate the origins of the Nomad Cities and what happened to their inhabitants."
+			}
+			dialogue: {
+				before1: "Overseer, I discovered something interesting in the city archives. I found references to a research facility that was researching something called 'Project Nomad'."
+				before2: "I believe that this facility is the source of the Nomad Cities. If we investigate it, maybe we can learn what happened to the ancients that lived here, and if there are other such cities."
+				before3: "I'm still searching for the exact location of the facility. In the meantime, please research and build an Expedition Center from which we can organize and send expeditions."
+				//before4: "Overseer, remember that the Dream Plagues will become more and more hostile the longer we remain in one place. When things become too dangerous or when you need resources that cannot be found in this area, you can fly the city to a new location."
+				before5: "Some of the resources we need for the Expedition Center can only be found in desert areas."
+			}
+			objectives: {
+				build-expeditioncenter: "Build: {0}"
+			}
+		}
+		story-cityorigin-fly: {
+			name: "City Origins"
+			texts: {
+				desc: "You investigate the origins of the Nomad Cities and what happened to their inhabitants."
+			}
+			dialogue: {
+				before1: "Overseer, we believe we know the location of the Nomad research facility. It's in a desert area nearby that has a danger rating of 2 skulls."
+				before2: "Locations with higher danger ratings have tougher Dream Plagues. Please make sure Tiny is well equipped and the city is well defended before flying to more dangerous areas."
+			}
+			objectives: {
+				reach-desert2: "Fly to a {1}-skull {0} region or higher"
+			}
+		}
+		story-cityorigin-expedition: {
+			name: "City Origins Expedition"
+			expedition-name: "Nomad Research Facility"
+			texts: {
+				desc: "You investigate the origins of the Nomad Cities and what happened to their inhabitants."
+			}
+			dialogue: {
+				before1: "Overseer, we found it, the Nomad research facility. It's not very far, you can organize an expedition to investigate these ruins from here."
+			}
+			objectives: {
+				perform-expedition: "Complete expedition: {0}"
+			}
+		}
+		story-dreamplagues-fly: {
+			name: "Dream Plagues"
+			texts: {
+				desc: "You need to learn more about the Dream Plagues and the city's effects on them."
+			}
+			dialogue: {
+				before1: "Overseer, we found something. It's... disturbing."
+				before2: "Project Nomad was abandoned. The city we found is the only one ever built, and it was never inhabited."
+				before3: "As you know, Dreamtek is based on the connection between our reality and the Dream Realm."
+				before4: "When we sleep, our ‘consciousness’ or ‘soul’, it travels to the Dream Realm to recharge. The rules of nature there, they don’t exist. Anything is possible in our dreams."
+				before5: "The Dream Engines, they tap into the Dream Realm and they draw Flux, the essence of that realm. The Flux is then used in Dreamtek devices to warp reality in our physical world."
+				before6: "From what we could piece together, the ancients built the Nomad Cities to escape the Dream Plagues. But they discovered a side effect."
+				before7: "For some reason, the cities made things worse. All around them, new nightmare rifts would appear, and the Dream Plagues were attracted to the cities like nothing else."
+				before8: "Worse still, they believed that whatever damage was being caused was permanent. They abandoned the project, it was too risky."
+				before9: "Overseer, we can't abandon the city. Not yet. Maybe the ancients were wrong. Maybe things have changed over the centuries. Our people can’t go back to how they lived before. We won’t survive."
+				before10: "Before you make a decision, please, let's investigate further. We found mention of another research facility, one that investigated the Dream Plagues."
+				before11: "Let me search for it, maybe it will have more answers."
+			}
+			objectives: {
+				reach-tier3: "Continue building your city until the research facility is found."
+			}
+		}
+		story-dreamplagues-toblue: {
+			name: "Dream Plagues Search"
+			expedition-name: "Nomad Research Facility"
+			texts: {
+				desc: "You need to learn more about the Dream Plagues and the city's effects on them."
+			}
+			dialogue: {
+				before1: "Overseer, the Dream Plague research center is believed to be somewhere in the Dreamtouched Fields. Take us there when you can."
+			}
+			objectives: {
+				reach-blue: "Fly to region: {0}"
+			}
+		}
+		story-dreamplagues-expedition: {
+			name: "Dream Plagues Expedition"
+			expedition-name: "Dream Plagues Research Center"
+			texts: {
+				desc: "You need to learn more about the Dream Plagues and the city's effects on them."
+			}
+			dialogue: {
+				before1: "We've found the ruins of the Dream Plague research center. It's nearby. Let's organize an expedition to explore it."
+			}
+			objectives: {
+				perform-expedition: "Complete expedition: {0}"
+			}
+		}
+		story-repair-informationstorage: {
+			name: "Dream Plagues Expedition"
+			texts: {
+				desc: "An information storage device may provide information about the Dream Plagues."
+			}
+			dialogue: {
+				before1: "Our expedition has returned, overseer. The research center was in worse shape than we expected, there was not much left."
+				before2: "They did find something that appears to contain information from the research, but we'll have to repair the device in order to know for sure."
+			}
+			objectives: {
+				repair-storage: "Craft: {0}"
+			}
+		}
+		story-drepattack: {
+			name: "Stranded"
+			texts: {
+				desc: "The information storage device is attracting Dream Plagues and disabling the city's flying capabilities."
+			}
+			dialogue: {
+				before1: "Overseer, we repaired the device. It does contain information, but it's also doing something strange, it's interfering with our Dreamtek."
+				before2: "Overseer, we have an emergency! Our scouts report a large group of Dream Plagues heading towards the city, and the device is interfering with the engines, we can’t get the city to fly."
+				before3: "Go and see to the city defense, overseer, I’ll work on disabling the device."
+			}
+			objectives: {
+				defeat-attack: "Defend your city"
+			}
+		}
+		story-dreamguard-fly: {
+			name: "Dreamguard"
+			texts: {
+				desc: "You learn about an ancient organization called the Dreamguard."
+			}
+			dialogue: {
+				before1: "It's over, but we had to destroy the device. We did manage to retrieve some information from it first."
+				before2: "We found information about a dark time for the ancients, they called it “The Nightmare Years”. It was a time when the ancients used terrible Dreamtek weapons to wage war against each other."
+				before3: "The wars ended with Twyst nearly destroyed. From what we can tell, it ended with the victory of an organization called the Dreamguard."
+				before4: "They were ruthless, and they controlled all of Twyst after they won the wars."
+				before5: "There’s no information about the origins of the Dream Plagues. Perhaps they were some kind of weapon used by the Dreamguard?"
+				before6: "Maybe if we find the remains of one of their bases, we can learn more. We have information of one in the Ashfall Range."
+				before7: "That region is hot. Too hot for our city without appropriate protection."
+				before8: "We can install a heat shield add-on in the city core, and it will protect the entire city, but we'll have to research it first."
+			}
+			objectives: {
+				build-heatshield: "Build a {3} in your {0}"
+				reach-lava: "Fly to region: {0}"
+			}
+		}
+		story-dreamguard-expedition: {
+			name: "Dreamguard Expedition"
+			expedition-name: "Abandoned Dreamguard Base"
+			texts: {
+				desc: "You learn about an ancient organization called the Dreamguard."
+			}
+			dialogue: {
+				before1: "The Dreamguard base is nearby. Let's send an expedition, overseer."
+			}
+			objectives: {
+				perform-expedition: "Complete expedition: {0}"
+			}
+		}
+		story-lady-doom-fly: {
+			name: "Dangerous Experiments"
+			texts: {
+				desc: "An unusual experiment may have something to do with the appearance of the Dream Plagues"
+			}
+			dialogue: {
+				before1: "Overseer, we’ve learned so much about the Dreamguard. We got it so wrong. They were not a conquering force at all."
+				before2: "With Twyst nearly destroyed, the nations all agreed to end the war. They signed the Dreamguard accords, agreeing to restrict the use of Dreamtek and its research. Dreamtek weapons specifically were strictly outlawed."
+				before3: "The Dreamguard was founded to uphold the accords. They were indeed ruthless in policing the use of Dreamtek, but under their peacekeeping eye, Twyst prospered."
+				before4: "Great city-states were formed, their people lived happily and freely. All military was outlawed except for the Dreamguard itself, and vast resources were put into the well-being of the people."
+				before5: "We could only dream of such peaceful and lucrative times."
+				before6: "The Dream Plagues did not exist in that period. Whatever they are, they were not created during the wars."
+				before7: "But we have another lead. Despite how good life was at the time, there was still some crime. Greed and lust for power still took hold in some people."
+				before8: "There is mention of one such criminal, a mad scientist known only as “The Lady of Doom”. She performed illegal Dreamtek experiments, and managed to evade the Dreamguard."
+				before9: "The exact nature of her experiments is unclear. But we believe it has something to do with the Dream Plagues."
+				before10: "We have the location of another facility, it should have more information about her experiments."
+			}
+			objectives: {
+				reach-lady-doom: "Fly to another {1}-skull region or higher"
+			}
+		}
+		story-lady-doom-expedition: {
+			name: "Dangerous Experiments Expedition"
+			expedition-name: "Dreamguard Base Ruins"
+			texts: {
+				desc: "An unusual experiment may have something to do with the appearance of the Dream Plagues"
+			}
+			dialogue: {
+				before1: "We're here, overseer. Let's set up the expedition and learn more about the Lady of Doom's experiments."
+			}
+			objectives: {
+				perform-expedition: "Complete expedition: {0}"
+			}
+		}
+		story-researchshield: {
+			name: "Experimental Substances"
+			texts: {
+				desc: "You search for a long term solution to protect you from the Dream Plagues."
+			}
+			dialogue: {
+				before1: "Overseer, we managed to learn more about the Lady of Doom and her experiments. She was power hungry."
+				before2: "She believed that tapping into the Dream Realm and using its Flux to alter reality was only the tip of the iceberg. If she could travel into the Dream Realm in her physical form, she would become omnipotent. The rules of nature would no longer apply, and she could do anything simply by willing it."
+				before3: "She was obsessed. She experimented under the Dreamguard’s nose, and eventually, she succeeded. She was also terribly wrong."
+				before4: "The Dream Realm is a place of pure energy. From what we can tell, her body was twisted and warped and crushed by the sheer force of that realm."
+				before5: "Stories tell that her consciousness is still trapped in the Dream Realm, in eternal agony, unable to return to our reality where her body no longer exists."
+				before6: "Overseer, that’s not all. The Dream Realm - we thought it was uninhabited. It’s not. Data from her experiment shows that when she transferred her physical body to the Dream Realm, something stirred."
+				before7: "Something, or some things, live there. And when Lady Doom performed her experiment, they became aware of us. Of our reality."
+				before8: "They have no physical body, they can’t exist in our world. But Lady Doom created a tear, a rupture between our realms. And through it, these beings can influence our world. They can possess living beings, and even inanimate objects."
+				before9: "That’s what the Dream Plagues are. They hunger to be in this physical world, but all they can do is possess physical objects. And they are hungry, always hungry, for our living bodies."
+				before10: "They started appearing all over Twyst. At first in small numbers, but for every nest that the Dreamguard destroyed, for every rift they closed, several more would appear."
+				before11: "The Dreamguard was overwhelmed. The city-states fell. Twyst itself was changing, warping, and it became the dark place that we know today."
+				before12: "Overseer, I’m not sure what we should do. The city, it’s harming the world. Such a vast amount of Dreamtek in one place, it weakens the veil between the realms, it widens the tear. But it’s also our only hope to survive."
+				before13: "The Dreamguard experimented with another substance. A sort of anti-dream substance, some kind of opposing force to the Dream Realm’s Flux. They hoped it would help fight against the Dream Plagues."
+				before14: "Let’s try to find out more about it."
+			}
+			objectives: {
+				perform-research: "Research: {0}"
+			}
+		}
+		story-buildshield: {
+			name: "The Price of Survival"
+			texts: {
+				desc: "You search for a long term solution to protect you from the Dream Plagues."
+			}
+			dialogue: {
+				before1: "Overseer, we’ve done it. We found a way to create a steady stream of the anti-dream substance."
+				before2: "We can build a sort of Nullifier Shield. The ancients could never build it, whenever they experimented with the anti-dream, the Dream Plagues would destroy their research."
+				before3: "But we have the city, we can stay on the move. We can finish what they started, but it will require substantial resources and materials that are not easy to find."
+				before4: "There’s a caveat, overseer. The shield, it can protect us from the Dream Plagues. They won’t be able to affect reality within it, the things they possess will become lifeless husks."
+				before5: "But none of our Dreamtek would work either. Flux will become inert. We’ll survive, but we’ll be stuck here."
+				before6: "It’s your decision overseer. We can keep flying forever, fighting against an increasing number of Dream Plagues, or you can build and activate the Nullifier Shield."
+				before7: "If you choose to build the shield, remember that it will take quite a while to fully charge, and during that time it will attract a lot of Dream Plagues."
+				before8: "We can escape the attack to a less dangerous area, but the shield is very heavy and the engines will also require some time to cool down afterwards before we could fly again. Our defenses will be put to the test."
+			}
+			objectives: {
+				build-shield: "Build: {0}"
+				activate-shield: "Survive until it is fully charged."
+			}
+		}
+	}
+
+	events: {
+		mechdestroyed: {
+			title: "Emergency Teleport"
+			text: "Tiny has suffered critical structural damage, emergency recall teleporter has been activated, but at a cost.\n\n* <highlight>{0} flux</highlight> have been consumed.\n* The enemy <highlight>threat timer</highlight> has advanced significantly.\n\nPlease be more careful."
+		}
+		tutorial-reward: {
+			title: "Objective complete"
+			text: "Well done. You receive the following rewards:"
+		}
+	}
+
+	modding: {
+		"visibility-option": {
+			Public: "Public"
+			Friends: "Friends Only"
+			Private: "Private"
+		}
+
+		license-required: "You must accept the Steam Workshop license agreement before you can publicly share the mod."
+		edit-title: "Mod Metadata"
+		enter-patch-notes: "Enter Patch Notes"
+		untitled: "Untitled"
+
+		creator: "Creator Name"
+		uid: "UID"
+		visibility: "Visibility"
+		tags: "Tags"
+
+		uploading: "Uploading..."
+		upload-complete: "Item updated on Steam."
+		saved: "All changes saved."
+
+		steam-not-initialized: "Steam not initialized."
+		io-error: "IO error: {0}"
+		error: "Error: {0} - {1}"
+
+		missing-preview: "Missing preview image."
+		wrong-title-size: "Mod title should be between 5 and 128 characters."
+		wrong-desc-size: "Description should be between 30 and 6000 characters."
+		wrong-tag-size: "Tags must be between 4 and 32 characters."
+		wrong-creator-size: "Creator name must be between 4 and 32 characters."
+		missing-tags: "Please enter at least one tag."
+	}
+
+	roadmap: {
+		active-pause: "Active pause"
+		alter-recipes: "Collectable Recipes"
+	}
+}

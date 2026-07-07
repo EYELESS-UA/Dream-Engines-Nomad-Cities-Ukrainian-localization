@@ -1,0 +1,502 @@
+{
+	missions: {
+		welcome-no-tut: {
+			name: "欢迎"
+			desc: "欢迎来到《梦幻引擎》。目前新手教程已禁用，但屏幕右上角的<highlight>里程碑</highlight>会在游戏中帮助引导您。将鼠标移至任一里程碑上查看详情。\n\n记住：按<highlight>“Tab”</highlight>可在战斗模式和城市管理模式之间切换。"
+		}
+		welcome-pre-fortifications-save: {
+			name: "游戏自最后一次存档后已进行重大更新"
+			desc: "欢迎回到梦幻引擎。自您最后一次存档后，我们发布了新的更新。此更新包括对敌人突袭的更改，如果您还<highlight>尚未知晓</highlight>，这一变化对您来说可能是<highlight>致命的</highlight>。以下是一些最重要的变化：\n\n*突袭中的敌人现在将<highlight>无视围墙</highlight>，除非这些围墙挡住了它们的去路。围墙现已加固。\n\n*离群幻魇偶尔会<highlight>毫无预警</highlight>的情况下<highlight>攻击您的城市</highlight>和建筑物。这些攻击的强度比突袭要弱得多，但你需要确保你所有的建筑物都能够受到保护。\n\n*体型更大、等级更高的敌人现在具有<highlight>装甲</highlight>。木制炮塔和轻弩对它们造成的<highlight>伤害减半</highlight>。您可能需要升级您的炮塔来造成更多的伤害。\n\n*游戏中现已更新<highlight>石塔和石墙</highlight>。"
+		}
+		welcome: {
+			name: "欢迎"
+			texts: {
+				desc: "欢迎来到《梦幻引擎》。本<highlight>新手教程</highlight>将引导您掌握基本的游戏操作。本新手教程仅起到指引作用，并不影响游戏内容，所以如果在教程中您的城市遭到摧毁仍会导致游戏失败。"
+				desc2: "跟随屏幕<highlight>右上方</highlight>的教学。"
+			}
+		}
+		images: {
+			name: "浏览教学"
+			texts: {
+				intro: "含此条在内的部分教学包含视频和图像讲解，将鼠标移至右侧的图标上即可查看。"
+				previous: "按下F1或游戏菜单（ESC）中的“帮助”按钮，即可在日志中查看所有的过往教学。"
+				pause: "你还可以暂停游戏，以便阅读教学。按下空格键即可随时暂停/返回游戏。"
+			}
+			objectives: {
+				hover-video: "将鼠标移至上方的视频图标"
+				unpause: "暂停/返回游戏"
+			}
+		}
+		movement: {
+			name: "移动"
+			texts: {
+				intro: "作为玩家，您控制着一个来自古代的装甲探险机器人<highlight>小迪</highlight>。"
+				move: "使用<highlight>WASD</highlight>键移动小人。"
+				zoom: "使用<highlight>鼠标滚轮</highlight>可以缩放视角。"
+				rotate: "长按<highlight>鼠标中键</highlight>旋转视角。"
+			}
+			objectives: {
+				movemech: "四处移动"
+				movemech-hover: "作为玩家，您控制着一个来自古代的装甲探险机器人<highlight>小迪</highlight>。\n\n使用<highlight>WASD</highlight>键移动。小迪会跟随鼠标指针改变面向。"
+				zoom: "缩放视角"
+				zoom-hover: "使用<highlight>鼠标滚轮</highlight>可以缩放视角。"
+				rotate: "旋转视角"
+				rotate-hover: "按住<highlight>鼠标中键</highlight>，然后移动鼠标来旋转视角。\n\n您可以按下<highlight>”N“</highlight>键重置为默认视图。"
+			}
+		}
+		switch-to-mgmt-mode: {
+			name: "战斗&管理模式"
+			texts: {
+				combat-mode: "<highlight>战斗模式</highlight>用于探索地图、与敌人战斗。"
+				mgmt-mode: "<highlight>管理模式</highlight>用于建造和管理你的城市。"
+				switch: "按下<highlight>Tab</highlight>键在两个模式之间切换并开启管理模式。"
+			}
+			objectives: {
+				management-mode: "切换至管理模式"
+			}
+		}
+		build-houses: {
+			name: "建筑"
+			texts: {
+				intro: "<highlight>建造一些房屋</highlight>供工人居住，增加城市人口。"
+				build: "在建造菜单中选择<highlight>房屋</highlight>，然后点击地图上的地点放置房屋。"
+			}
+			objectives: {
+				buildhouses: "建造{0}×{1}"
+			}
+		}
+		build-rails: {
+			name: "自动运输"
+			texts: {
+				intro: "房屋需要持续的食物供应。《梦幻引擎》中的资源都是通过类似传送带的<highlight>自动轨道系统</highlight>传输的。"
+				build: "在基础设施类别中选择轨道即可建造，然后点击并拖动资源至你所需要传输的方向。"
+				access-points: "建筑物会从轨道出入口发送/接收资源。将轨道拖动至建筑物，或者将轨道从建筑物处拖出，即可建立轨道的入口/出口。"
+			}
+			objectives: {
+				sendfood: "建立一处出口，将食物从城市核心送出"
+				connect-houses: "为房屋建立轨道的入口"
+				housesactive: "连接轨道，为两处房屋输送食物。"
+			}
+		}
+		equip-repairkit: {
+			name: "背包与装备"
+			texts: {
+				intro: "探索危险的周边地区、搜寻额外资源之前，你应该先带上<highlight>修理包</highlight>，以防有小人受伤。"
+				grab: "维修包在城市核心中。要打开建筑窗口，请在<highlight>管理模式</highlight>下<highlight>左键点击</highlight>该建筑。"
+				equip: "接着将修理包添加至快捷栏。按下<highlight>I</highlight>打开角色界面。"
+			}
+			objectives: {
+				collectrepairkit: "从城市核心仓库中拿取修理包"
+				equiprepairkit: "将修理包添加至快捷栏"
+			}
+		}
+		grab-items: {
+			name: "转移物品"
+			texts: {
+				grab: "这是建筑窗口。窗口左侧是小迪的背包，右侧是建筑内部的仓库和其他信息。\n\n按住<highlight>“SHIFT”</highlight>然后<highlight>点击</highlight>列表中的<highlight>维修包</highlight>图标，即可拿取整组物品。"
+			}
+		}
+		quickbar: {
+			name: "装备到快捷栏"
+			texts: {
+				assign: "点击快捷栏中角色区域的一格<highlight>空栏</highlight>，然后选择要装备至该栏位的物品。\n\n物品装备到快捷栏后，您可以在战斗模式中按下相应的快捷键来使用该物品。"
+			}
+		}
+		tiny-combat: {
+			name: "对抗梦幻疫怪"
+			texts: {
+				intro: "探索时，小人会遭遇梦幻瘟疫（梦怪）。小人装备了可替换的远程和近战武器各一把，用来对抗这些敌对生物。"
+				attack: "用<highlight>鼠标左键</highlight>施展小人的近战攻击，用<highlight>鼠标右键</highlight>施展远程攻击。"
+				tips: "长按可连续攻击。别忘了按下<highlight>TAB</highlight>切换至战斗模式。"
+			}
+			objectives: {
+				combatmode: "切换至战斗模式"
+				meleeattack: "使用近战武器攻击"
+				rangedattack: "使用远程武器攻击"
+			}
+		}
+		collect-bloodwood: {
+			name: "收割机"
+			texts: {
+				intro: "是时候收集些资源了。探索标记在小地图上的城市周边地区，搜寻<highlight>血木</highlight>资源点。"
+				build: "建造收割机需要切换至管理模式，<highlight>点击资源</highlight>打开其界面，然后点击<highlight>血木切割机</highlight>按钮。"
+			}
+			objectives: {
+				findwood: "找到一处红木资源矿点"
+				gatherwood: "建造一台{0}"
+			}
+		}
+		build-warper: {
+			name: "生产"
+			texts: {
+				intro: "你正在收集原木。在使用前，需要先将原木精炼为<highlight>木板</highlight>，再送至<highlight>仓库</highlight>。你在飞行时无法携带原木及其它类型的原材料，但可以携带精炼后的材料。"
+				buildwoodwarper: "木板是<highlight>制木机</highlight>用原木制成的。制木机需要处于<highlight>电力区</highlight>内，所以最好建造在城市附近。"
+				freecamera: "在管理模式下，按下“空格”键暂停游戏，按“F”键切换自由视角。在游戏暂停时，您可以在地图各处建造，而不需要移动小迪。"
+			}
+			objectives: {
+				buildwoodwarper: "建造{0}×{1}并向它们供应原木"
+			}
+		}
+		speedup: {
+			name: "加速"
+			texts: {
+				sendplanks: "现在建造一些轨道，将木板从制木机处输送至城市核心存放，然后等待更多木板被产出。"
+				speedup: "在等待原木运输的过程中，您可以加快游戏的速度。在建造轨道后按住加速按钮即可（默认快捷键为“+”）。"
+			}
+			objectives: {
+				haveplanks: "收集{0}x{1}"
+			}
+		}
+		city-level1: {
+			name: "城市等级"
+			texts: {
+				nodes: "探索的同时还要留心额外的资源点。资源点一旦枯竭，它的生产速度会减半——将枯竭的资源点与其他资源点连接或许是个不错的选择。"
+				increase-pop: "现在<highlight>提升你的城市人口等级</highlight>，解锁更多建筑。增加城市人口可以提升城市等级。你可以在显示器上方查看进度。"
+			}
+			objectives: {
+				build-houses: "为3处房屋供应食物"
+				city-level1: "达到{1}人口"
+			}
+		}
+		craft-repairkit: {
+			name: "工艺"
+			texts: {
+				intro: "你需要更好的<highlight>装备</highlight>以便更有效地进行探索、采集和守卫城市。你得先做些研究才能制作新的武器和护甲（之后会细说），不过你现在已经能<highlight>制作更多的修理包</highlight>了。"
+				craft: "按下<highlight>C</highlight>打开制作界面、选择修理包，再点击“制作”按钮。你可能需要先得到更多木板才行。"
+			}
+			objectives: {
+				craftrepairkit: "制造一个{0}"
+			}
+		}
+		produce-food-farms: {
+			name: "食物生产 - 务农"
+			texts: {
+				farms: "你的下一步是查看食物补给，毕竟它们是消耗品。食物生产的第一步是种植生食，建造几个<highlight>啵普豆农场</highlight>就行了，在<highlight>采集</highlight>类别下可以找到。"
+				tesla: "您可以从能源类别中选择建造<highlight>特斯拉塔</highlight>来扩展您的供电区域。"
+			}
+			objectives: {
+				buildtesla: "建造一个{0}"
+				buildfarm: "在城市附近建造啵普豆农场"
+			}
+		}
+		produce-food-process: {
+			name: "食物生产 - 加工"
+			texts: {
+				intro: "现在建造一座<highlight>食品工厂</highlight>并设置轨道将<highlight>啵普豆从农场中送出</highlight>、进行加工，再输送至<highlight>城市核心</highlight>存放。"
+				more-food: "随着人口的增长，你需要生产更多的食物。你可以建造更多农场和食品工厂，达到满载效率。与建筑互动时，你可以在生产UI界面查看每个周期的输入量/输出量。"
+			}
+			objectives: {
+				buildfoodplant: "建造一个{0}"
+				producefood: "为{0}供应啵普豆"
+				sendfood: "输送食物至仓库"
+			}
+		}
+		power-flux: {
+			name: "电能与幻能"
+			texts: {
+				intro: "要维持城市的运转，您需要的不仅仅是粮食和木材。您还需要生产足够的<highlight>电能</highlight>和<highlight>幻能</highlight>。"
+				buildflux: "有一部分梦剂产自于房屋，但它更多来自于梦剂处理站。在<highlight>城外</highlight>建造一些处理站吧。梦剂是最基础的配方，它的生产不需要任何原材料，所以不用担心放置地点的问题。"
+				buildpower: "建造新建筑不需要电力，但电力是现存建筑运作的关键，要确保发电量一直都是充足的。<highlight>发电站</highlight>能够生产电力。电力与梦剂一样是最基础的配方，它的生产不需要任何原材料，但它们相互之间不能离得太近。"
+			}
+			objectives: {
+				buildflux: "在城市附近建造{0}×{1}"
+				buildpower: "在城市附近建造{0}×{1}"
+			}
+		}
+		move-objects: {
+			name: "城市规划管理"
+			texts: {
+				intro: "您差不多已经准备好自己去探索了。在此之前，您需要了解一下将建筑建在<highlight>城市内部</highlight>和<highlight>城市外部</highlight>的核心概念。"
+				flying: "因为您的城市具备<highlight>飞行</highlight>能力，所以将建筑建在在城市内部有很多好处——您可以<highlight>携带这些建筑一起飞走</highlight>。但是城市空间有限，虽然您可以之后再扩展您的城市和最大载重，您还是需要思考要将哪些建筑优先建在城市内部。大多数基础建筑都很便宜，而且会占用大量空间，这使得它们更适合建造在城市外部——并在起飞前被拆除。"
+				longrun: "不过从长远来看，当您飞离此地时，您会希望能够<highlight>携带更多的工业设施</highlight>。因此，一些更昂贵的建筑或者<highlight>升级后</highlight>的基础设施应该建在城市内部。"
+				moving: "大部分建筑都能被移动。在管理模式中按下<highlight>M</highlight>、点击你要移动的建筑，再将它放到新的地点即可。"
+			}
+			objectives: {
+				movebuilding: "移动一处建筑"
+			}
+		}
+		tutorial-end: {
+			name: "教程结束"
+			texts: {
+				end1: "做得好！这是本教学的最后一步了。这些都是最基础的操作，还有更多玩法等待你去了解。研究、探险、基础设施升级、自动收割机等附加功能/机制的说明，会在你将来遇到它们时进行详细解说。"
+				end2: "你的第一个目标是<highlight>增加人口</highlight>，解锁<highlight>实验室</highlight>。本阶段的最终目标是找到建立一个<highlight>永久定居点</highlight>的方法。"
+				end3: "在被幻魇击溃之前，一定要尽可能多地<highlight>收集</highlight>可以<highlight>加工</highlight>的<highlight>资源</highlight>。一旦抵挡不住，请及时飞离此地。起飞前，您需要权衡需要带走的<highlight>长期</highlight>建筑和要舍弃的成本低廉的<highlight>短期</highlight>建筑。"
+				end4: "如果您想反馈任何问题，请使用“发送反馈”按钮或者加入我们的Discord频道（链接在游戏标题界面）。祝您好运！"
+			}
+		}
+		researchlab-unlocked: {
+			name: "科技实验室"
+			texts: {
+				build: "以你目前的人口数量，可以建造<highlight>实验室</highlight>了。建造实验室研究科技，解锁新的建筑、装备和其它加成。"
+				research: "按下<highlight>“R”</highlight>键打开<highlight>科技窗口</highlight>，选择要研究的科技。"
+				materials: "为了让实验室生成知识点，请确保<highlight>持续向它们提供所需的原料</highlight>，这些原料在实验室的交互窗口中有相应的提示。"
+			}
+			objectives: {
+				buildlab: "建造一个{0}"
+				research-selected: "选择一个要研究的科技"
+				activatelab: "为{0}供应资源"
+			}
+		}
+		research-screen: {
+			name: "科技窗口"
+			texts: {
+				desc: "您可以在此窗口中规划和设置您的科技。每一项科技都需要花费<highlight>知识点</highlight>，以及完成这项研究后解锁的元素。\n\n将鼠标悬停在解锁条目上方来了解更多相关信息。"
+				desc2: "<highlight>点击</highlight>任一研究课题，设立目标。用<highlight>Shift + 鼠标点击</highlight>可在队列末尾添加附加课题。\n\n一旦选定研究目标之后，实验室会开始产出知识。知识点数会被分配到研究队列中的第一个课题，直至研究完成。"
+			}
+		}
+		expand-city: {
+			name: "扩展"
+			texts: {
+				desc: "您现在可以扩大您的城市面积，为您的房屋和生产建筑创造更多空间。"
+				desc2: "在<highlight>建造菜单</highlight>中的<highlight>“基础设施”</highlight>类别中选择<highlight>“城市扩展”</highlight>，然后在地图上选择要购买的扩展。"
+			}
+		}
+		missing-workers: {
+			name: "工人"
+			texts: {
+				desc: "您的工人数量不足以维持所有建筑正常运转。您的人口也就是维持您的城市和工业运转的工人。<highlight>工人由城市核心产生</highlight>，但前提是必须有空闲的<highlight>房屋</highlight>。"
+				desc2: "如需增加您的最大人口数，您需要<highlight>建造和升级房屋</highlight>，并确保它们有持续的<highlight>食物供应</highlight>。<highlight>没有电力和食物</highlight>供应的房屋无法提供任何生活空间。"
+			}
+		}
+		mini-raids: {
+			name: "离群幻魇群袭"
+			texts: {
+				desc: "如果您的城市尚未升空，它就极易受到攻击。大多数幻魇群袭都处于休眠状态，除非您主动靠近它们，但有时小群的幻魇可能会在您的城市附近徘徊，并且<highlight>在毫无预警的情况下发动攻击</highlight>。"
+				desc2: "虽然小迪可以轻易地击败这些小股敌人，但您无法同时出现在所有地方，而且这些生物可以迅速摧毁毫无防御的建筑物。为了防止这种情况发生，建议您用<highlight>墙和门</highlight>封住城市的所有入口，并用<highlight>炮塔</highlight>保护它们。"
+			}
+			objectives: {
+				build-turret: "建造{0}×{1}"
+				build-wall: "建造{0}×{1}"
+			}
+		}
+		attack-warning: {
+			name: "幻魇突袭"
+			texts: {
+				desc: "你的城市有时会吸引大群想要摧毁城市的梦幻疫怪。这些<highlight>袭击</highlight>比周边游荡的敌人的攻击要危险得多，而且它们的袭击是多波次的。"
+				desc2: "您可以<highlight>在小地图中查看来袭方向</highlight>，我们强烈建议您建立一些防御工事，保护您在来袭方向这一侧的建筑。\n\n<highlight>炮塔</highlight>可以提供额外的火力，但是无法承受大量伤害，所以请务必建造一些<highlight>围墙</highlight>。"
+				desc3: "木制炮塔射击速度慢，但它们可以造成<highlight>溅射性的区域伤害</highlight>。它们非常适合对付集群的弱小敌人，但在面对更强大的敌人时，可能需要额外的帮助。\n\n在重新规划城市时，您也可以移动炮塔的位置，但移动不可在面对袭击时或幻魇即将来袭时进行。"
+			}
+		}
+		taking-off: {
+			name: "起飞"
+			texts: {
+				desc: "只要您的城市继续待在地面上，幻魇袭击就会越来越频繁。您可以在游戏面板中看到当前的 <highlight>威胁等级</highlight>。"
+				desc2: "当您发现受到的攻击强度过高时，您应该飞离此地，找到一处更安定的地方着陆。在游戏面板中<highlight>点击发射按钮</highlight>启动起飞程序。引擎预热<highlight>需要一段时间</highlight>，所以<highlight>要及时做出撤离的决定</highlight>，否则您将成为幻魇的口中餐。"
+				desc3: "记住，只有城市内部的建筑才会和您一起飞走，所以请考虑拆除外部的建筑来回收一些资源，或者如果您还有剩余空间和重量的话，可以把它们搬到城市内部。"
+				desc4: "此外，像原木这样的未经加工的原材料太重，无法带走，所以它们会被留下来。在离开之前尽可能多地加工原材料。确保小迪在起飞倒计时结束时待在城里！"
+			}
+		}
+		infrastructure-upgrades: {
+			name: "基础设施升级"
+			texts: {
+				desc: "您现在可以建造一处加工车间，为<highlight>升级您的基础设施</highlight>生产材料。基础设施升级会为您带来永久加成和技能。"
+				desc2: "收集足够的升级材料，按下<highlight>K</highlight>打开基础设施界面并购买升级。"
+			}
+			objectives: {
+				produce-parts: "生产 {0} x {1}"
+				purchase-upgrade: "购买一次基础设施升级"
+			}
+		}
+		infrastructure-window: {
+			name: "基础设施窗口"
+			texts: {
+				desc: "这是基础设施窗口。在这里，您可以使用<highlight>升级材料</highlight>来升级您的基础设施并获得永久加成。"
+				desc2: "点击<highlight>升级</highlight>按钮购买升级点。然后您可以点击基础设施的不同<highlight>区域</highlight>来升级它们。基础设施区域的每一级都提供被动加成。\n\n升级后，您可以在不同的区域下将额外点数分配给特殊<highlight>增益</highlight>。这些增益会提供更多的特殊加成和技能。"
+			}
+		}
+		multiple-productions: {
+			name: "转换生产模式"
+			texts: {
+				desc: "在解锁更多配方后，某些建筑可以生产多个配方。\n\n<highlight>点击生产配方</highlight>来选择不同的配方。"
+				desc2: "有些配方需要某些扩展模组才能在建筑中生产。"
+			}
+		}
+		rail-crossing: {
+			name: "轨道交叉口"
+			texts: {
+				desc: "轨道交叉口使用了零空间科技，这样两条轨道即使交叉也不会造成交通堵塞。"
+				desc2: "拖动以建造一个区域的轨道。这样当它与另一个区域的轨道交叉时，会自动建立一个交叉口。"
+			}
+			objectives: {
+				build-crossing: "建造一个轨道交叉口"
+			}
+		}
+		drep-crafting: {
+			name: "梦怪加工"
+			texts: {
+				desc: "你研究出了一项能够将梦幻疫怪残骸精炼成珍贵资源的科技。使用制作界面的“资源”标签。"
+			}
+			objectives: {
+				craft: "精炼梦怪残骸"
+			}
+		}
+		splitter-unlocked: {
+			name: "分拣机"
+			texts: {
+				desc: "分拣机科技已解锁。这些设备可以放在轨道上，将进入分拣机的物品分类，根据分拣机的设置分配三个独立的出口。"
+				desc2: "在放置分拣机后，打开设置窗口，将物品分别分配至每个出口。"
+			}
+		}
+		expeditioncenter-unlocked: {
+			name: "远征中心"
+			texts: {
+				desc: "您现在可以建造一处远征中心。这类独特的建筑可以让您选择和发起远征队，以寻找附近地区的物资和古代技术。"
+				desc2: "建造一个探险中心并与其互动，了解更多探险相关的事。"
+			}
+		}
+		expeditions: {
+			name: "远征"
+			texts: {
+				desc: "这是远征选择窗口。每张地图都有不同的远征选项，具体取决于生物群系和地图难度。每次远征在资源成本，准备时间，远征时间和潜在奖励方面各有不同。\n\n在选择要发起的远征队之前，您可以看到所有这些信息。"
+				desc2: "每次远征有两个阶段：<highlight>远征准备</highlight>阶段和<highlight>远征中</highlight>。\n\n在选择远征队后会<highlight>立即支付前期成本</highlight>，然后进入准备阶段。在整个准备阶段，远征中心需要<highlight>为相应的远征队支出一笔维护成本</highlight>。\n\n准备阶段完成后，远征队便将启程，除了远征队员（工人）之外，将不再需要任何维护成本。"
+				desc3: "远征凯旋后，远征队员将返回工人池，此时您就可以选择您的奖励了。\n\n远征战利品可能包含<highlight>资源</highlight>、<highlight>燃料</highlight>和一些在其他地方无法获得的<highlight>独特物品和奖励</highlight>。"
+			}
+		}
+		archeology-unlocked: {
+			name: "考古计划"
+			texts: {
+				desc: "考古学可以让您通过旧世界技术开展更多计划，从而获得强大而永久的奖励。"
+				desc2: "通过废墟解锁新计划。在完成这些计划之前，首先要研究并培养一名考古学家。"
+			}
+		}
+		archeology: {
+			name: "考古计划"
+			texts: {
+				desc: "选择一个考古计划开始工作。不同计划将会产生不同费用。工作期间需持续给考古学家支付费用。\n\n一旦完成，奖励将具有永久性，并不再需要任何额外资源。"
+				desc2: "如果同时向多名考古学家提供资源，他们将共同参与同一个计划。"
+				desc3: "在废墟中可以发现新的考古计划。"
+			}
+		}
+		council: {
+			name: "市议会"
+			texts: {
+				desc: "当城市规模足够大时，市民将选举市议会。每次选举将选出三名议员，每个阵营各一名。\n\n作为监管者，你将在这些议员中<highlight>选出市议长</highlight>。\n\n你必须在关闭此窗口之前选择一名市议长。"
+				desc2: "每位议员都有不同的<highlight>增益和减益</highlight>。从议员中选出新的市议长后，这些增益和减益都将生效，直至下一次选举。\n\n你在市议长所属阵营的<highlight>影响力会增加</highlight>，在另外两个阵营的<highlight>影响力会有所减少</highlight>。"
+				desc3: "在左侧可以查看你在不同阵营的影响力。当你在某个阵营的<highlight>影响力</highlight>变得足够高或足够低时，你将获得该阵营特定的<highlight>增益或减益</highlight>。\n\n将鼠标悬停在影响力条的不同部位，以查看所需的影响力水平及其效果。"
+			}
+		}
+		resource-elevators: {
+			name: "自动收割机"
+			texts: {
+				desc: "解锁资源投放科技后，您的收割机现在可以向这些新建筑<highlight>自动输送资源</highlight>。"
+				desc2: "您可以为每一处资源投放点设定它要接收的资源，而后没有轨道输出的收割机会自动调度运输车，持续将资源向最近的接收该资源的投放点输送。"
+				desc3: "收割机货车无法在城内移动，所以站点必须造在城外或者城市边缘。"
+			}
+		}
+		exporter: {
+			name: "资源打包机"
+			texts: {
+				desc: "资源打包机会将材料送至附近的站点，例如自动收割机。打包机不仅仅只输送原材料，还会输送<highlight>其它任何材料</highlight>。"
+				desc2: "通过轨道为打包机供应资源，并设置一个接收材料的站点。"
+			}
+		}
+		gamepedia: {
+			name: "梦幻档案"
+			texts: {
+				desc: "当您解锁新的条目时，您可以在<highlight>梦幻档案</highlight>中查看相关信息。按下<highlight>>“H”</highlight>键打开档案。"
+			}
+		}
+		carrycapacity: {
+			name: "重量和运载力"
+			texts: {
+				desc: "您的城市会变得越来越重。每处建筑都会增加城市的重量，如果城市重量超过了您的运载力，您将无法起飞。"
+				desc2: "您可以通过建造或升级引擎来增加您的承载能力（需要解锁科技）。"
+				desc3: "您可以用升级建筑代替建造新建筑，从而减少城市重量。您还可以将部分防御工事建在城市外部。"
+			}
+		}
+		overweight-takeoff: {
+			name: "运行充能时发生超重"
+			texts: {
+				desc: "你城市的承载量在运行充能阶段期间爆表了。\n\n充能现已<highlight>暂停</highlight>，但如果你能在接下来的短时间内设法<highlight>平衡承载量</highlight>，充能会接着之前中断的进度继续；如果你花的时间太久，之前的所有进度都会丢失，充能进程也将从零开始。"
+			}
+		}
+		low-health: {
+			name: "生命值不足"
+			texts: {
+				desc: "小迪的生命值不足。生命值会<highlight>在城市中缓慢回复</highlight>，您也可以将<highlight>维修包</highlight>装备到快捷栏中进行使用。"
+				desc2: "如果承受过多伤害，<highlight>紧急传送装置</highlight>将会被激活，您将会被传送回城市，但是您将会<highlight>失去宝贵的时间和资源</highlight>。\n\n尽量让小迪保持良好的生命值。"
+			}
+		}
+		armored-enemies: {
+			name: "装甲幻魇"
+			texts: {
+				desc: "一些体型较大的生物具有<highlight>装甲</highlight>。您的<highlight>木制炮塔</highlight>无法阻止它们，并且对它们造成的<highlight>伤害减少</highlight>。"
+				desc2: "升级您的防御建筑有利于应付这类敌人。如果敌情难以掌控，就请在准备完毕后立即起飞吧。"
+			}
+			objectives: {
+				build-turret: "建造一个{0}"
+			}
+		}
+		destination-select: {
+			name: "目的地选择"
+			texts: {
+				desc: "恭喜您，您的城市第一次<highlight>起飞</highlight>了！\n\n在这个窗口中，您可以选择下一步着陆的地点。"
+				desc2: "仔细选择下一个着陆点。您的选择将会影响到<highlight>敌人的强度</highlight>，<highlight>地图上的资源</highlight>及其数量。"
+				desc3: "目前显示的选项取决于当前的<highlight>强袭等级</highlight>（位于屏幕左上角）。"
+				desc4: "如果您对这些选项都不满意，您可以点击<highlight>飞往别处</highlight>按钮来刷新您的选项，但这需要消耗一些燃料。"
+			}
+		}
+		abilities: {
+			name: "主动技能"
+			texts: {
+				desc: "您刚刚解锁了小迪的第一项<highlight>主动技能</highlight>。主动技能可以像维修包或其他消耗品一样使用，但是它们不需要消耗任何资源。"
+				desc2: "和消耗品一样，您可以将技能装备至<highlight>快捷栏</highlight>。大多数技能都有<highlight>冷却时间</highlight>，这将限制您使用它们的频率。"
+			}
+		}
+		passive-income: {
+			name: "被动收入"
+			texts: {
+				desc: "您获得了被动收入奖金。这些奖金可以带来指定资源的固定收入。"
+				desc2: "如果您设置了专门的资源投放点，那么这些资源将会被投放到该投放点。否则，它们将被存放到城市核心。"
+			}
+		}
+		misc-items: {
+			name: "消耗品"
+			texts: {
+				desc: "您获得了一个消耗品。要使用该物品，请打开背包，然后右键单击该物品使用。这些物品不能被装备到快捷栏，因为它们无法在战斗中使用。"
+			}
+		}
+		upgrade-layer: {
+			name: "升级视图"
+			texts: {
+				desc: "在管理模式下，您可以用小地图左侧的按钮打开<highlight>升级视图</highlight>。"
+				desc2: "当激活时，每个建筑上会有一个图标显示其<highlight>当前等级</highlight>，以及一个用来直接从游戏视图中<highlight>升级</highlight>该建筑的按钮。此视图对于管理您的经济和升级建筑非常有用。"
+				desc3: "您也可以使用其他管理模式视图。将鼠标悬停对应的按钮上以查看更多信息。"
+			}
+		}
+		onoff-tool: {
+			name: "启用/关闭工具"
+			texts: {
+				desc: "在管理模式下，您可以使用<highlight>“启用/关闭工具”</highlight>按钮（默认快捷键为“O”），直接从游戏视图中启用或关闭建筑。"
+			}
+		}
+		rebuild-debris: {
+			name: "废墟&重建"
+			texts: {
+				desc: "你的部分建筑被梦幻疫怪摧毁了。被摧毁的建筑会留下一处废墟，供你查看它原本是什么。如果你想的话，也可以将废墟重建。"
+				desc2: "重建会恢复原本建筑上所有的升级、附加组件和轨道入口/出口。重建费用与你先前投入在该建筑上的总费用一致，但这能让你一键恢复所有。"
+				desc3: "如果需要重建建筑，你可以使用修复/重建工具（默认L键）或者建筑废墟的建造信息界面。"
+			}
+		}
+		sit-city-info: {
+			name: "城市信息"
+			texts: {
+				desc: "点击游戏面板中的城市名称，即可打开城市信息窗口。该窗口还提供了当前着陆区域的信息。"
+			}
+		}
+		teslacrats-production: {
+			name: "资源复制"
+			texts: {
+				desc: "您刚刚解锁了特斯拉狂人的独特技术，能够对资源进行复制。要复制某种资源，您必须先获得配方所需的基本数量，然后使用“资源”标签下的制作界面。"
+				desc2: "在此过程中使用的机器在每次使用后都会劣化，因此每批复制资源的价格都会增加。在不使用机器以及飞往新的目的地时，价格会慢慢恢复到正常。"
+			}
+		}
+		raid-spawners: {
+			name: "裂隙"
+			texts: {
+				desc: "你发现了一处噩梦裂隙。它是袭击期间，数个梦幻疫怪的生成点之一。"
+				desc2: "裂隙很不稳定，你无法在它们附近建造。"
+			}
+		}
+	}
+}
